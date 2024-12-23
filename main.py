@@ -1,10 +1,18 @@
 import sqlite3
 import streamlit as st
 
+from core.scripts import database_repository
 
+if "user_id" not in st.session_state:
+    st.session_state.user_id = ""
+
+if "page" not in st.session_state:
+    st.session_state.page = "main"
 
 # todo database setup for prod
 conn = sqlite3.connect('database.db')
+
+database_repository.init_db()
 
 
 # Emoticons can be copied from here: https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
@@ -12,6 +20,10 @@ conn = sqlite3.connect('database.db')
 main_page = st.Page(
     "core/pages/main_page.py", title="Start Page", icon="🏚️", default=True
 )
+authentication_page = st.Page(
+    "ambiguity_task/pages/authentication_page.py", title="Log In", icon="🎟️"
+)
+
 # Ambiguity Task Pages
 ambiguity_start_page = st.Page(
     "ambiguity_task/pages/introduction_page.py", title="Introduction", icon="📜"
@@ -24,10 +36,19 @@ ambiguity_annotation_page = st.Page(
 )
 
 
-pg = st.navigation(
-    {
-        "Home": [main_page],
-        "Ambiguity Task": [ambiguity_start_page, ambiguity_qualification_page, ambiguity_annotation_page],
-    }
-)
+# Create navigation bar
+if st.session_state.user_id:
+    pg = st.navigation(
+        {
+            "Home": [main_page],
+            "Ambiguity Task": [ambiguity_start_page, ambiguity_qualification_page, ambiguity_annotation_page],
+        }
+    )
+else:
+    pg = st.navigation(
+        {
+        "Home": [main_page, authentication_page]
+        }
+    )
+
 pg.run()

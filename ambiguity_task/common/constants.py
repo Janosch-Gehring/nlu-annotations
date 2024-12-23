@@ -1,0 +1,1 @@
+QUALIFICATION_QUESTIONS_PATH = "ambiguity_task/resources/qualification_questions.json"

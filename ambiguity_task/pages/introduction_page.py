@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.session_state.page = "ambiguity_task_introduction_page"
+
 with open("ambiguity_task/resources/intro_text.md", "r") as f:
     intro_text = f.read()
 

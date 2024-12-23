@@ -1,6 +1,7 @@
 
 import streamlit as st
 
+st.session_state.page = "main_page"
 
 st.markdown(
 """
