@@ -41,7 +41,7 @@ ambiguity_annotation_page = st.Page(
 
 # Create navigation bar
 
-if st.session_state.user_id == "admin":
+if st.session_state.user_id == "admin6427":
     pg = st.navigation(
         {
             "Home": [main_page, admin_page],
