@@ -23,6 +23,9 @@ main_page = st.Page(
 authentication_page = st.Page(
     "ambiguity_task/pages/authentication_page.py", title="Log In", icon="🎟️"
 )
+admin_page = st.Page(
+    "core/pages/admin_page.py", title="Admin Area", icon="💻"
+)
 
 # Ambiguity Task Pages
 ambiguity_start_page = st.Page(
@@ -37,7 +40,14 @@ ambiguity_annotation_page = st.Page(
 
 
 # Create navigation bar
-if st.session_state.user_id:
+
+if st.session_state.user_id == "admin":
+    pg = st.navigation(
+        {
+            "Home": [main_page, admin_page],
+        }
+    )
+elif st.session_state.user_id:
     pg = st.navigation(
         {
             "Home": [main_page],

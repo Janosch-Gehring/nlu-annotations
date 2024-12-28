@@ -74,6 +74,19 @@ def save_one_annotation(user_id: str, key: str, question_index: int, question_an
     conn.commit()
     print(f"Annotations for user_id {user_id} updated successfully.")
 
+def is_qualified(user_id: int) -> bool:
+    """
+    Check if the user with the given id passed a qualification test.
+
+    :param user_id: id-string of user
+    :return: True if qualified, False if not
+    """
+    user = get_user(user_id)
+    qualified = user[2]
+    if qualified:  # convert from int 0/1
+        return True
+    return False
+
 
 def get_checkpoint(user_id, key, print=True) -> int:
     """
@@ -98,6 +111,23 @@ def make_qualified(user_id):
         SET qualified = 1
         WHERE user_id = ?
     """, (user_id,))
+    conn.commit()
+    print("User ", user_id, " now qualified!")
+
+def mark_as_done(user_id):
+    conn = sqlite3.connect('database.db')
+    cursor = conn.cursor()
+    cursor.execute("""
+        UPDATE user_data
+        SET progress = -1
+        WHERE user_id = ?
+    """, (user_id,))
+    conn.commit()
+    print("User ", user_id, " finished annotation!")
+
+def check_if_done(user_id):
+    if get_user(user_id)[4] == -1:
+        return True
 
 def fetch_user_data():
     """
@@ -108,7 +138,6 @@ def fetch_user_data():
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM user_data")
     rows = cursor.fetchall()
-    print("we are FETCHING...")
     for row in rows:
         user_id, task, qualified, annotator_group, progress, annotations_json, data = row
         annotations = json.loads(annotations_json)  # Convert JSON string back to list of lists

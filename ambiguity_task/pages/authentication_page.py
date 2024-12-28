@@ -18,6 +18,5 @@ if user_id:
 
         st.write("Welcome!")
         st.session_state.user_id = user_id
-        user_repository.fetch_user_data()
         st.rerun()
     

@@ -11,7 +11,7 @@ def check_if_qualified(annotations):
             score += 1
         if qualification_questions[question_id]["correct_answer"][1] == annotations["qualification"][int(question_id)-1]["meaning2"]:
             score += 1
-    print("SCOREE:", score, needed_score)
+    print("SCORE:", score, needed_score)
     if score >= needed_score:
         return True
     return False
