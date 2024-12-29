@@ -15,6 +15,8 @@ if user_id:
         if not user:
             user_repository.create_user("admin")
             user = user_repository.get_user("admin")
+        st.session_state.user_id = "admin"
+        st.rerun()
 
     # show error message if user id is not in the list of valid ids
     elif not authenticate_id("ambiguity_task", user_id):
