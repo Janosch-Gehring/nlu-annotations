@@ -13,7 +13,14 @@ def init_db():
         annotations TEXT DEFAULT "{}",
         data TEXT DEFAULT "{}"
     )''')
+
+    conn.execute('''CREATE TABLE IF NOT EXISTS valid_ids (
+        user_id TEXT PRIMARY KEY,
+        task TEXT,
+        annotator_group INTEGER DEFAULT 0
+    )''')
     conn.commit()
+    conn.close()
 
 def convert_database_to_json():
     database_file = 'database.db'
@@ -47,5 +54,4 @@ def convert_database_to_json():
     # Close the connection
     connection.close()
 
-    print(f"Database has been converted")
     return json_data

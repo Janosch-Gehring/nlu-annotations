@@ -1,16 +1,12 @@
-import sqlite3
 import streamlit as st
 
-from core.scripts import database_repository
+from core.scripts import database_repository, utils
 
 if "user_id" not in st.session_state:
     st.session_state.user_id = ""
 
 if "page" not in st.session_state:
     st.session_state.page = "main"
-
-# todo database setup for prod
-conn = sqlite3.connect('database.db')
 
 database_repository.init_db()
 
@@ -21,7 +17,7 @@ main_page = st.Page(
     "core/pages/main_page.py", title="Start Page", icon="🏚️", default=True
 )
 authentication_page = st.Page(
-    "ambiguity_task/pages/authentication_page.py", title="Log In", icon="🎟️"
+    "core/pages/authentication_page.py", title="Log In", icon="🎟️", url_path="authentication"
 )
 admin_page = st.Page(
     "core/pages/admin_page.py", title="Admin Area", icon="💻"
@@ -29,7 +25,7 @@ admin_page = st.Page(
 
 # Ambiguity Task Pages
 ambiguity_start_page = st.Page(
-    "ambiguity_task/pages/introduction_page.py", title="Introduction", icon="📜"
+    "ambiguity_task/pages/introduction_page.py", title="Introduction", icon="📜", url_path="ambiguity_task_introduction"
 )
 ambiguity_qualification_page = st.Page(
     "ambiguity_task/pages/qualification_page.py", title="Qualification", icon="🔑"
@@ -48,12 +44,13 @@ if st.session_state.user_id == "admin":
         }
     )
 elif st.session_state.user_id:
-    pg = st.navigation(
-        {
-            "Home": [main_page],
-            "Ambiguity Task": [ambiguity_start_page, ambiguity_qualification_page, ambiguity_annotation_page],
-        }
-    )
+    available_pages = {
+        "Home": [main_page]
+    }
+    if utils.authenticate_id("ambiguity_task", st.session_state.user_id):
+        available_pages["Ambiguity Task"] = [ambiguity_start_page, ambiguity_qualification_page, ambiguity_annotation_page]
+    pg = st.navigation(available_pages)
+
 else:
     pg = st.navigation(
         {

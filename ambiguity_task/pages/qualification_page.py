@@ -2,7 +2,7 @@ import json
 
 import streamlit as st
 
-from core.utils import read_json_from_file, display_progress
+from core.scripts.utils import read_json_from_file, display_progress
 from core.scripts import user_repository
 from ambiguity_task.common import constants, logic
 
@@ -16,9 +16,11 @@ def format_sentence(sentence):
     sentence = sentence.replace("[", ":blue-background[")
     return sentence
 
-
-if user_repository.is_qualified(st.session_state.user_id):
+user_qualification = user_repository.get_qualification(st.session_state.user_id)
+if user_qualification == 1:
     st.markdown("\n## You have already completed the qualification test. \n\n Select **Annotation** on the navigation bar to your left to do some annotating.")
+elif user_qualification == -1:
+    st.markdown("\n## You have already attempted the qualification test. \n\n Unfortunately, you did not pass the qualification test. Contact us if you want to try again.")
 
 else:
     index = int(st.session_state.qualification_progress)

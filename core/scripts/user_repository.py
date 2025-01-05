@@ -16,7 +16,6 @@ def get_user(user_id: str):
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM user_data WHERE user_id=?", (user_id,))
     user = cursor.fetchone()
-    print("fetched a user: ", user)
     conn.close()
     return user
 
@@ -37,6 +36,7 @@ def create_user(user_id: str, task: str = "ambiguity_task"):
     """, (user_id, task))
     
     conn.commit()  # Commit changes to the database
+    conn.close()
 
     # Fetch the ID of the newly created user
     print(f"New user created with user_id: {user_id}")
@@ -72,20 +72,18 @@ def save_one_annotation(user_id: str, key: str, question_index: int, question_an
         WHERE user_id = ?
     """, (annotations_json, user_id))
     conn.commit()
-    print(f"Annotations for user_id {user_id} updated successfully.")
+    conn.close()
 
-def is_qualified(user_id: int) -> bool:
+def get_qualification(user_id: int) -> int:
     """
     Check if the user with the given id passed a qualification test.
 
     :param user_id: id-string of user
-    :return: True if qualified, False if not
+    :return: -1 if failed, 0 if no qualification, 1 if passed
     """
     user = get_user(user_id)
     qualified = user[2]
-    if qualified:  # convert from int 0/1
-        return True
-    return False
+    return qualified
 
 
 def get_checkpoint(user_id, key, print=True) -> int:
@@ -103,16 +101,26 @@ def get_checkpoint(user_id, key, print=True) -> int:
         st.write("Returning to checkpoint from previous session")
     return len(annotations[key]) + 1
 
-def make_qualified(user_id):
+def set_qualification(user_id: str, setting: int=1):
+    """
+    Change the user's qualification setting.
+    -1 = unqualified
+    0 = not yet qualified
+    1 = qualified
+
+    :param user_id: 
+    """
     conn = sqlite3.connect('database.db')
     cursor = conn.cursor()
     cursor.execute("""
         UPDATE user_data
-        SET qualified = 1
+        SET qualified = ?
         WHERE user_id = ?
-    """, (user_id,))
+    """, (setting, user_id,))
     conn.commit()
-    print("User ", user_id, " now qualified!")
+    conn.close()
+    if st.session_state.user_id == "admin":
+        st.write("Qualification updated.")
 
 def mark_as_done(user_id):
     conn = sqlite3.connect('database.db')
@@ -123,6 +131,7 @@ def mark_as_done(user_id):
         WHERE user_id = ?
     """, (user_id,))
     conn.commit()
+    conn.close()
     print("User ", user_id, " finished annotation!")
 
 def check_if_done(user_id):
@@ -142,3 +151,4 @@ def fetch_user_data():
         user_id, task, qualified, annotator_group, progress, annotations_json, data = row
         annotations = json.loads(annotations_json)  # Convert JSON string back to list of lists
         print(f"User ID: {user_id}, Qualified: {qualified}, Task: {task} Progress: {progress}, Annotations: {annotations}")
+    conn.close()
