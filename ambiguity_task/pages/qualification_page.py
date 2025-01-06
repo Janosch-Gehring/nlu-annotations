@@ -46,6 +46,7 @@ else:
             else:
                 st.write("Oops, you failed the qualification.")
                 user_repository.set_qualification(st.session_state.user_id, setting=-1)
+                user_repository.reset_annotation(st.session_state.user_id, key="qualification")
                 st.rerun()
 
             # reset progress to beginning

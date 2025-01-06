@@ -101,6 +101,32 @@ def get_checkpoint(user_id, key, print=True) -> int:
         st.write("Returning to checkpoint from previous session")
     return len(annotations[key]) + 1
 
+def reset_annotation(user_id: str, key: str):
+    """
+    Reset the user's annotation given a task key (like qualification or annotation)
+    
+    :param user_id:
+    :param key: The key of the annotation data to delete, e.g. qualification
+    """
+    conn = sqlite3.connect('database.db')
+    cursor = conn.cursor()
+
+    user = get_user(user_id)
+    annotations = json.loads(user[5])
+
+    if key not in annotations:
+        return
+    del annotations[key]
+
+    annotations_json = json.dumps(annotations)
+    cursor.execute("""
+        UPDATE user_data
+        SET annotations = ?
+        WHERE user_id = ?
+    """, (annotations_json, user_id))
+    conn.commit()
+    conn.close()
+
 def set_qualification(user_id: str, setting: int=1):
     """
     Change the user's qualification setting.
@@ -119,6 +145,7 @@ def set_qualification(user_id: str, setting: int=1):
     """, (setting, user_id,))
     conn.commit()
     conn.close()
+    
     if st.session_state.user_id == "admin":
         st.write("Qualification updated.")
 
