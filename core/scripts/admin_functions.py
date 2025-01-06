@@ -52,8 +52,7 @@ def list_user_progress(task):
         user_id, user_task, qualified, annotator_group, progress, annotations_json, data = row
 
         if task == user_task:
-            user_progress = utils.display_progress(utils.get_amount_of_samples_for_group(task, annotator_group), 
-                                                   "annotation", user_id=user_id, print_progress=False)
+            user_progress = utils.display_progress("annotation", user_id=user_id, print_progress=False)
             st.markdown(f"""---
 
 **User**: {user_id}

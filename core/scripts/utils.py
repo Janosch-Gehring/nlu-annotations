@@ -9,7 +9,8 @@ from core.scripts import user_repository
 
 TASK_INFO = {
     "ambiguity_task": {
-        "annotation_filepath": "ambiguity_task/resources/pilot_samples.json"
+        "annotation_filepath": "ambiguity_task/resources/pilot_samples.json",
+        "qualification_filepath": "ambiguity_task/resources/qualification_questions.json"
     }
 }
 
@@ -54,17 +55,19 @@ def get_amount_of_samples_for_group(task: str, group: int) -> int:
     :param group: integer group index
     :return: int
     """
-    samples = read_json_from_file(TASK_INFO["ambiguity_task"]["annotation_filepath"])
-    number_of_samples = len([x for x in samples if samples[x]["grouping"] == group])
+    if task == "qualification":
+        samples = read_json_from_file(TASK_INFO["ambiguity_task"]["qualification_filepath"])
+    else:
+        samples = read_json_from_file(TASK_INFO["ambiguity_task"]["annotation_filepath"])
+    number_of_samples = len([x for x in samples if ("grouping" not in samples[x]) or (samples[x]["grouping"] == group)])
     return number_of_samples
 
 
 
-def display_progress(max_samples: int, key="annotation", user_id=None, print_progress: bool = True) -> str:
+def display_progress(key="annotation", user_id=None, print_progress: bool = True) -> str:
     """
     Returns the progress x/y ("x out of y") for a user on a subtask.
 
-    :param max_samples: The amount of samples that have to be annotated in total.
     :param key: The subtask, e.g. annotation or qualification
     :param user_id: Id of user to check, if None, display logged in user's progress
     :param print_progress: Whether to print the progress immediately instead of just returning the string
@@ -74,21 +77,24 @@ def display_progress(max_samples: int, key="annotation", user_id=None, print_pro
         user_id = st.session_state.user_id
 
     user = user_repository.get_user(user_id)
+    user_group = user[3]
+    max_samples = get_amount_of_samples_for_group(key, user_group)
 
     if not user:
         return "NOT STARTED"
 
     # TODO show progress even when all annotations are finished (when revising annotations)
     
+    # handle case that there are no annotations
     annotations = json.loads(user[5])
     if key not in annotations:
         if print_progress:
-            st.write("Sample 1" + "/" + str(max_samples))
+            st.write("Sample 1")
         return "Annotation not started"
     annotations = annotations[key]
 
-    count_finished = 0
 
+    count_finished = 0
     for annotation in annotations:
         if annotation:  # "unfinished" annotations will be empty
             count_finished += 1
