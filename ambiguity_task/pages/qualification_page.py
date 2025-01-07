@@ -13,13 +13,20 @@ st.session_state.page = "ambiguity_task_qualification_page_sample" + str(st.sess
 # user qualification of -1 or 1 mean that the test was already attempted
 user_qualification = user_repository.get_qualification(st.session_state.user_id)
 if user_qualification == 1:
-    st.markdown("\n## You have already completed the qualification test. \n\n Select **Annotation** on the navigation bar to your left to do some annotating.")
+    st.markdown("\n## You have completed the qualification test. \n\n Select **Annotation** on the navigation bar to your left to do some annotating.")
 elif user_qualification == -1:
     st.markdown("\n## You have already attempted the qualification test. \n\n Unfortunately, you did not pass the qualification test. Contact us if you want to try again.")
 
 else:
     # get index of sample
     index = int(st.session_state.qualification_progress)
+
+    if index > 1:
+        back_button = st.button(label="Back", key = 10 * index + 7)
+
+        if back_button:
+            st.session_state.qualification_progress -= 1
+            st.rerun()
     
     # print text and widgets
     question, checkbox1, checkbox2, text_input1, checkbox3, text_input2, next_input = utils.print_annotation_schema("qualification", index)

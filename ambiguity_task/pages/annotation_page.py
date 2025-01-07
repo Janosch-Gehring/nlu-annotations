@@ -10,7 +10,9 @@ st.session_state.page = "ambiguity_task_annotation_page"
 
 if "progress" not in st.session_state:
     st.session_state.progress = user_repository.get_checkpoint(st.session_state.user_id, "annotation")
+    st.session_state.progression_direction = 1  # 1 -> user wants to go forward, -1 -> user wants to go backwards (pressed back button)
 st.session_state.page = "ambiguity_task_annotation_page_sample" + str(st.session_state.progress)
+
 
 samples = read_json_from_file(constants.SAMPLES_FILEPATH)
 
@@ -27,16 +29,36 @@ elif user_repository.check_if_done(st.session_state.user_id):
 else:
     index = int(st.session_state.progress)
 
+    back_button = st.button(label="Back", key = 10 * index + 7)
+
+    if back_button:
+        st.session_state.progress -= 1
+        st.session_state.progression_direction = -1
+        index -= 1
+        #st.rerun()
+
+    # search for next sample in forwards or backwards direction (depending on whether next or back was pressed last)
     while True:
         question = samples[str(index)]
         grouping = user_repository.get_user(st.session_state.user_id)[3]
+        print(index, st.session_state.progression_direction)
         if grouping != question["grouping"]:
-            st.session_state.progress = int(st.session_state.progress) + 1
-            index += 1
+            st.session_state.progress = int(st.session_state.progress) + st.session_state.progression_direction 
+            index = index + st.session_state.progression_direction
             if index >= len(samples):
                 finish_annotation()
+            elif index < 1:
+                st.write("Already at first sample!")
+                index = 1
+                st.session_state.progress = 1
+                st.session_state.progression_direction = 1  # go forwards again until first grouping-relevant sample is reached
         else:
             break
+
+    #if st.session_state.progression_direction == -1:
+        # if user pressed on back button: now that previous sample has been found, return default to forward
+    #    st.session_state.progression_direction = 1
+    #    st.rerun()
 
     question, checkbox1, checkbox2, text_input1, checkbox3, text_input2, next_input = utils.print_annotation_schema("annotation", index)
 

@@ -93,11 +93,10 @@ def display_progress(key="annotation", user_id=None, print_progress: bool = True
         return "Annotation not started"
     annotations = annotations[key]
 
-
     count_finished = 0
     for annotation in annotations:
         if annotation:  # "unfinished" annotations will be empty
             count_finished += 1
     if print_progress:
-        st.write("Sample " + str(count_finished+1) + "/" + str(max_samples))
-    return str(count_finished+1) + "/" + str(max_samples)
+        st.write("Finished Samples: " + str(count_finished) + "/" + str(max_samples))
+    return str(count_finished) + "/" + str(max_samples)
