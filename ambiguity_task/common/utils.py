@@ -27,7 +27,7 @@ def print_annotation_schema(subtask: str, index: int) -> list:
 
     st.markdown("\n**Read the following text**:  ")
     st.markdown(format_sentence(question["sentence"]) + "\n")
-    st.markdown("Focus on the word :blue-background[" + question["word"] + "]\n")
+    st.markdown("Focus on the word :blue-background[" + question["word"] + "].\n")
     st.write("Which of these senses seem plausible?")
     checkbox1 = st.checkbox(key = 10 * index + 1, label=question["meaning1"])
     checkbox2 = st.checkbox(key = 10 * index + 2, label=question["meaning2"])
@@ -37,6 +37,9 @@ def print_annotation_schema(subtask: str, index: int) -> list:
 
     text_input2 = st.text_input(key = 10 * index + 8, label = "Comments (optional)")
 
-    next_input = st.button(key = 10 * index + 9, label="Next")
+    if checkbox1 or checkbox2 or text_input1:
+        next_input = st.button(key = 10 * index + 9, label="Next")
+    else:
+        next_input = None
 
     return question, checkbox1, checkbox2, text_input1, checkbox3, text_input2, next_input
