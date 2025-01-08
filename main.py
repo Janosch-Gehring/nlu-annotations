@@ -23,6 +23,17 @@ admin_page = st.Page(
     "core/pages/admin_page.py", title="Admin Area", icon="💻"
 )
 
+# Example Task Pages 
+example_start_page = st.Page(
+    "example_task/pages/introduction_page.py", title="Introduction", icon="📜", url_path="example_task_introduction"
+)
+example_qualification_page = st.Page(
+    "example_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+example_annotation_page = st.Page(
+    "example_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+)
+
 # Ambiguity Task Pages
 ambiguity_start_page = st.Page(
     "ambiguity_task/pages/introduction_page.py", title="Introduction", icon="📜", url_path="ambiguity_task_introduction"
@@ -49,6 +60,10 @@ elif st.session_state.user_id:
     }
     if utils.authenticate_id("ambiguity_task", st.session_state.user_id):
         available_pages["Ambiguity Task"] = [ambiguity_start_page, ambiguity_qualification_page, ambiguity_annotation_page]
+
+    elif utils.authenticate_id("example_task", st.session_state.user_id):
+        available_pages["Example Task"] = [example_start_page, example_qualification_page, example_annotation_page]
+
     pg = st.navigation(available_pages)
 
 else:

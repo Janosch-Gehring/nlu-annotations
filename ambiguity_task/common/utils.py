@@ -1,36 +1,11 @@
-import json
 import streamlit as st
 
-from core.scripts.utils import display_progress, read_json_from_file
-from core.scripts import user_repository
+from core.scripts.utils import display_progress, read_json_from_file, load_annotation
 from ambiguity_task.common import constants
 
 
 def format_sentence(sentence):
     return sentence.replace("[", ":blue-background[")
-
-def load_annotation(user_id: str, subtask: str, index: int) -> tuple:
-    """
-    Load one specific annotation from a user's saved data. 
-    Useful for prefilling annotations the user already made when they look at previous samples.
-    If the sample does not exist or is empty, all loaded values are None.
-
-    :param user_id: id string of user to load from
-    :param subtask: qualification or annotation
-    :param index: the sample index to load
-    :return: meaning1 checkbox (bool), meaning2 checkbox (bool), alt meaning (str), nonsensical checkbox (bool), comment (str)
-    """
-    empty_response = (None, None, "", None, "")
-    user = user_repository.get_user(user_id)
-    annotations = json.loads(user[5])
-    if subtask not in annotations:
-        return empty_response
-    print(index, annotations[subtask])
-    if len(annotations[subtask]) < index:
-        return empty_response
-    sample = annotations[subtask][index-1]
-    return sample["meaning1"], sample["meaning2"], sample["other_label"], sample["nonsensical"], sample["comment"]
-    
 
 def print_annotation_schema(subtask: str, index: int) -> tuple:
     """
@@ -46,7 +21,13 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
         samples = read_json_from_file(constants.SAMPLES_FILEPATH)
 
     # load values previously filled in checkboxes or None if this is first time annotating this sample
-    value_checkbox1, value_checkbox2, value_textinput1, value_checkbox3, value_textinput2 = load_annotation(st.session_state.user_id, subtask, index)
+    sample_preload = load_annotation(st.session_state.user_id, subtask, index)
+    if sample_preload is None:
+        value_checkbox1, value_checkbox2, value_textinput1, value_checkbox3, value_textinput2 = None, None, "", None, ""
+    else:
+        value_checkbox1, value_checkbox2, value_textinput1, value_checkbox3, value_textinput2 = (sample_preload["meaning1"], sample_preload["meaning2"], 
+                                                                                                 sample_preload["other_label"], sample_preload["nonsensical"],
+                                                                                                 sample_preload["comment"])
     
     question = samples[str(index)]
     # display the "Sample 1/5" thing

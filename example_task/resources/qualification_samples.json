@@ -1,0 +1,14 @@
+{
+    "1": {
+        "sentence": "Do not check the box.",
+        "correct_answer": 0
+    },
+    "2": {
+            "sentence": "Do check the box",
+            "correct_answer": 1
+        },
+    "3": {
+        "sentence": "Do not check the box.",
+        "correct_answer": 0
+    }
+}

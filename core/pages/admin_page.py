@@ -30,7 +30,7 @@ st.markdown("""
 
 generation_option = st.selectbox(
      "For which task to generate new users?",
-     ("None selected", "ambiguity_task"))
+     ("None selected", "ambiguity_task", "example_task"))
 
 if generation_option:
     admin_functions.generate_users(generation_option)
@@ -42,7 +42,7 @@ st.markdown("""
             """)
 
 tracking_option = st.selectbox(
-    "Which task to check progress on?", ("None selected", "ambiguity_task")
+    "Which task to check progress on?", ("None selected", "ambiguity_task", "example_task")
 )
 if tracking_option:
     admin_functions.list_user_progress(tracking_option)

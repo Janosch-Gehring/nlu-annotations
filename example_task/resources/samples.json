@@ -1,0 +1,26 @@
+{
+    "1": {
+        "sentence": "This sample is only visible to group 0.",
+        "grouping": 0
+    },
+    "2": {
+            "sentence": "This sample is only visible to group 1.",
+            "grouping": 1
+        },
+    "3": {
+        "sentence": "I don't really care if you check the box.",
+        "grouping": 1
+    },
+    "4": {
+        "sentence": "Do whatever...",
+        "grouping": 0
+    },
+    "5": {
+            "sentence": "Wait for 10 seconds. Then check the box.",
+            "grouping": 0
+        },
+    "6": {
+        "sentence": "This is sample number 6.",
+        "grouping": 1
+    }
+}
