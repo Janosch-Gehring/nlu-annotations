@@ -3,15 +3,14 @@ import streamlit as st
 
 st.session_state.page = "main_page"
 
-st.markdown("This site is currently still being built. Please return later.")
+st.markdown("""
+# Welcome!
+            
+This is the annotation website for the Natural Language Understanding Lab at UTN Nuremberg.
 
-#st.markdown(
-#"""
-## Introduction
-#
-#Welcome to the annotation page of the NLU Lab Nuremberg!
-#
-#This application is a hub containing annotation tasks for our various projects.
-#
-#If you are here as an annotator, find your task in the Navigation Bar to your right."""
-#)
+## Are you here for annotation?
+            
+If you were redirected here for the purpose of annotation, find the 'Log In' option in the sidebar to your right.
+Then, enter the unique annotator ID that we shared with you.
+Once you have successfully logged in, new options will become available to you so you can start reading the introduction and taking the qualification test.
+""")

@@ -4,12 +4,16 @@
 
 You will see a short text of either one or two sentences, in which one word is highlighted in color. The highlighted word typically can take on two (or more) different meanings, depending on the context. Your task is to annotate which of the two displayed meanings of the word is likely to be the correct one. 
 
-If one of the meanings is clearly likelier than the other, only pick that one.
-If both meanings seem plausible, pick both. Even if one word sense is generally likelier than the other, both should be picked if the sense could plausibly be meant.
+If one of the word senses is clearly likelier than the other, only pick that one.
+If both word senses seem plausible, pick both. Even if one word sense is generally more frequent than the other, both should be picked if the meaning is plausible in the given context.
 
-If there is another meaning that seems more plausible, pick neither and comment the sense in the free text field.
+If the word has a third word sense that seems more plausible than either of the displayed meanings, pick neither and comment the sense in the free text field.
+
 Additionally, feel free to mark sentences as nonsensical if there is no way for them to make sense with any meaning. Even for the nonsensical sentences, try to annotate the senses to the best of your ability.
+
 Also, feel free to add comments in the comment field.
+
+There will be times where there is no objectively correct answer. Either way, carefully think about how much sense the sentence would make given either of the two readings.
 
 ---
 
@@ -23,7 +27,7 @@ Also, feel free to add comments in the comment field.
 **There is a better meaning**: (leave empty)  
 **Text is nonsensical**: [ ]
 
-**Explanation**: It is not completely obvious from the first sentence, but the second sentence makes it clear that the spectacle is referring to an accessory.
+**Explanation**: In case it is not obvious from the first sentence, the second sentence makes it clear that the spectacle is referring to an accessory.
 
 ---
 
@@ -42,7 +46,7 @@ Also, feel free to add comments in the comment field.
 "The team gathered to discuss the adjustment of electrical properties within the division. The committee elected to :blue-background[charge] the technician with ensuring the system's optimal performance."
 
 [x] assign a duty, responsibility or obligation to  
-[] ] cause formation of a net electrical charge in or on
+[ ] cause formation of a net electrical charge in or on
 
 **There is a better meaning**: (leave empty)  
 **Text is nonsensical**: [ ]
@@ -53,13 +57,25 @@ Also, feel free to add comments in the comment field.
 
 "No, these shoes :blue-background[fit] perfectly."
 
-[x] "be the right size or shape; fit correctly or as desired"  
-[x] "go together"
+[x] be the right size or shape; fit correctly or as desired  
+[x] go together
 
 **There is a better meaning**: (leave empty)  
 **Text is nonsensical**: [ ]
 
 **Explanation**: Either meaning may apply depending on the context. If the speaker tries the shoes on for the first time and comments on its size, the first meaning fits. If the speaker is thinking about what would fit well with an outfit, the second meaning fits better. It is subjective if one is more likely, but they are both very plausible.
+
+---
+
+"He remarked how :blue-background[light] his bag felt. It was as if the very act of carrying it brought a glow that illuminated his path."
+
+[x] not heavy  
+[ ] brightness, illumination
+
+**There is a better meaning**: (leave empty)    
+**Text is nonsensical**: [x]
+
+**Explanation**: It doesn't matter what the second sentence says, because the first sentence grammatically wouldn't work with the "brightness, illumination" meaning, so it has to be "not heavy". You may annotate sentences like this as nonsensical if the metaphor makes no sense.
 
 ---
 
@@ -72,3 +88,49 @@ Also, feel free to add comments in the comment field.
 **Text is nonsensical**: [ ]
 
 **Explanation**: The art-context may make the "make a mark or lines on a surface" sense seem more likely at first glance, but "to draw attention" is a fixed expression that has nothing to do with art. Since neither meaning fits, tick neither and write a better definition in the free text field.
+
+---
+
+**There are some sentences that are word plays taking into account multiple word senses. Some of them are solvable, like this:**
+
+"I greatly enjoy this :blue-background[season], whether I am outside enjoying nature or inside watching TV."
+
+[x] a time of year  
+[ ] a sequence of related television programmes
+
+**There is a better meaning**: (leave empty)  
+**Text is nonsensical**: [ ]
+
+**Explanation**: It may have been intended as a pun where both meanings apply, but let's take it literally. "Enjoying a television series outside enjoying nature" seems unlikely. Meanwhile, e.g. enjoying the winter season while warming up in the living room watching TV sounds like a more plausible scenario.
+
+---
+
+**On the other hand, some examples may not be solvable:**
+
+"I wasn't really enjoying this :blue-background[season], with its extreme heat and pointless characters."
+
+[x] a time of year  
+[x] a sequence of related television programmes
+
+**There is a better meaning** (leave empty)  
+**Text is nonsensical**: [x]
+
+**Explanation** This too is a word play. Both meanings are equally likely, but simultaneously, neither of them on their own really result in a sentence that seems logical. So I would opt to mark both word senses (since it's not like there is a better meaning), but also mark the text as nonsensical. However, imagine if there was a followup sentence:
+
+"I wasn't really enjoying this :blue-background[season], with its extreme heat and pointless characters. Indeed, I met a lot of annoying people this summer."
+
+While a bit strange to call a real-life person a pointless character, this does make the "a time of year" meaning now more plausible for :blue-background[season]. You may even argue that the sentence was never nonsensical in the first place if you do not find it strange, but I would personally disagree. Plausibility is often subjective, so go with your opinion!
+
+---
+
+# The Annotation Procedure
+
+You will first have to pass the qualification test, which consists of five questions. **You only have one attempt and you can only pass by annotating all of them correctly.** Carefully look at the sentences and determine which sense is more likely (or both/neither).
+
+**If you fail at the qualification test**: You will not be able to start the annotation. Feel free to contact us on Prolific. We can review your answers and give you another attempt.
+
+**If you succeed at the qualification test**: Once you pass the qualification test, you will automatically unlock access to the annotation page. It is structurally identical to the qualification. Each annotator is assigned around 115 samples. 
+
+Your progress for both qualification and annotation is **saved automatically** anytime you press the *NEXT* button. If you close the tab, you can later log in again and continue where you left off.
+
+### **Good luck and have fun!**

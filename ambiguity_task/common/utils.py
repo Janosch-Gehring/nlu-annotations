@@ -40,6 +40,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
     checkbox1 = st.checkbox(key = 10 * index + 1, label=question["meaning1"], value=value_checkbox1)
     checkbox2 = st.checkbox(key = 10 * index + 2, label=question["meaning2"], value=value_checkbox2)
     text_input1 = st.text_input(key = 10 * index + 3, label = "(Only if you picked neither) Define a better label.", max_chars=200, value=value_textinput1)
+    st.write("\n")  # leave some space
     checkbox3 = st.checkbox(key = 10 * index + 4, label = "Check here if the sentence appears to be nonsensical.", value=value_checkbox3)
     st.write("\n\n")
 
