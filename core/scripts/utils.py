@@ -132,51 +132,124 @@ def finish_annotation():
     st.rerun()
     st.write("Thank you for submitting your annotations.")
 
-def handle_next_button(annotation: dict, amount_of_samples: int):
-    """
-    Behaviour of the next button: Saves annotation, increases the progress, calls finish_annotation if amount of samples is reached.
 
-    :param annotation: annotation of the current sample.
-    :param amount_of_samples: the last sample index (for all groups)
+def finish_qualification(qualification_function: str):
     """
-    user_repository.save_one_annotation(st.session_state.user_id, "annotation", st.session_state.progress, annotation)
-    if st.session_state.progress < amount_of_samples:
-        st.session_state.progress += 1
+    Finish the current user's qualification and judge if they are qualified.
+    Sets their qualification accordingly.
+    
+    :param qualification_function: function that returns True/False based on the user's annotations.
+    """
+    # if this is the last question, check for qualification
+    user = user_repository.get_user(st.session_state.user_id)
+    annotations = json.loads(user[5])
+    # check if the qualification was successful and set user state accordingly
+    if qualification_function(annotations):
+        st.write("Congrats, you're qualified!")
+        user_repository.set_qualification(st.session_state.user_id)
         st.rerun()
     else:
+        st.write("Oops, you failed the qualification.")
+        user_repository.set_qualification(st.session_state.user_id, setting=-1)
+        user_repository.reset_annotation(st.session_state.user_id, key="qualification")
+        st.rerun()
+
+    # reset progress to beginning (important in case an admin decides to reset qualification)
+    st.session_state.qualification_progress = 1
+
+def finish_subtask(subtask: str="annotation", qualification_function=None):
+    """
+    Finish the current subtask. If it is the qualification, call the qualification function to check if the user passed.
+
+    :param subtask: annotation or qualification
+    :param qualification_function: a function that returns True/False depending on the user passing
+    """
+    if subtask == "annotation":
         finish_annotation()
-    
-def find_next_valid_sample(samples: dict, index: int):
-    """
-    Displays the next - or previous, if st.session_state.progression_direction=-1 - sample in the annotation.
-    This skips samples irrelevant to the grouping of the current user.
-    If there is no next sample, finish the annotation (mark user as done).
-    If there is no previous sample, print Already at first sample! And do nothing.
-    Reverse progression direction back to normal if set to -1 and rerun.
+    elif subtask == "qualification":
+        finish_qualification(qualification_function)
 
-    :param samples: dict of samples
-    :param index: current index
+
+def skip_to_next_sample(index: int, samples: dict, grouping: int, direction: int=1, 
+                        subtask: str="annotation", qualification_function=None) -> int:
     """
+    From the specified index, move in the specified direction to find the next sample relevant to the group.
+
+    :param index: Index of the current page/sample
+    :param samples: dict of all the samples (keys are "1", "2", ...)
+    :param grouping: group of user
+    :param direction: 1 for going forward, -1 for going backward
+    :param subtask: e.g. annotation or qualification
+    :param qualification function: Function to evaluate whether qualification was passed, not needed if subtask!=qualification
+    :return: Index of the next (or previous) sample
+    """
+    index += direction
+    if index < 1:
+        return 1
     while True:
-        question = samples[str(index)]
-        grouping = user_repository.get_user(st.session_state.user_id)[3]
-        print(index, st.session_state.progression_direction)
-        if grouping != question["grouping"]:
-            st.session_state.progress = int(st.session_state.progress) + st.session_state.progression_direction 
-            index = index + st.session_state.progression_direction
-            if index >= len(samples):
-                finish_annotation()
-            elif index < 1:
-                st.write("Already at first sample!")
-                index = 1
-                st.session_state.progress = 1
-                st.session_state.progression_direction = 1  # go forwards again until first grouping-relevant sample is reached
-            st.rerun()
+        checked_sample = samples[str(index)]
+        if ("grouping" not in checked_sample) or (grouping == checked_sample["grouping"]):
+            break  # break when finding relevant sample
         else:
-            break
+            index += direction
+            if index < 1:  # went back too far
+                index = 1
+                direction = 1  # reverse to find first sample again
+            elif index > len(samples):
+                finish_subtask(subtask, qualification_function)
+    # return index where it found a sample
+    return index
 
 
-    if st.session_state.progression_direction == -1:
-        # if user pressed on back button: now that previous sample has been found, return default to forward
-        st.session_state.progression_direction = 1
+def handle_back_button(annotation: dict, index: int, samples: dict, subtask="annotation"):
+    """
+    All-in-one behaviour of the back button: Saves revised annotations and skips to the next-oldest relevant sample.
+
+    :param annotation: The annotation of the currently displayed sample
+    :param index: The index of the current sample
+    :param samples: List with all of the samples (including irrelevant ones for the grouping) for the current subtask
+    :param subtask: The current subtask, e.g. annotation or qualification
+    """
+    # don't save when pressing back on the newest sample, since it will otherwise get skipped when returning later
+    if index < user_repository.get_checkpoint(st.session_state.user_id, key=subtask, print=False):
+        user_repository.save_one_annotation(st.session_state.user_id, subtask, index, annotation)
+
+    grouping = user_repository.get_user(st.session_state.user_id)[3]
+    # skip backwards over the samples of the other groups to arrive at the new index
+    new_index = skip_to_next_sample(index, samples, grouping, direction=-1)
+
+    if subtask == "qualification":
+        st.session_state.qualification_progress = new_index
+    else:
+        st.session_state.progress = new_index
+
+    st.rerun()
+
+
+
+def handle_next_button(annotation: dict, index: int, samples: dict, subtask="annotation", qualification_function=None):
+    """
+    All-in-one behaviour of the next button: Saves annotation, skips to next relevant sample and finishes the annotation if the end is reached.
+    
+    :param annotation: The annotation of the current sample that should be saved.
+    :param index: The index of the current sample
+    :param samples: List with all of the samples (including irrelevant ones for the grouping) for the current subtask
+    :param subtask: The current subtask, e.g. annotation or qualification
+    :param qualification_function: If subtask=qualification, a function that evaluates success of qualification given user annotations
+    """
+    user_repository.save_one_annotation(st.session_state.user_id, subtask, index, annotation)
+
+    if index >= len(samples):
+        finish_subtask(subtask, qualification_function=qualification_function)
+    else:
+        grouping = user_repository.get_user(st.session_state.user_id)[3]
+        # proceed until we find the next sample relevant for the grouping
+        new_index = skip_to_next_sample(index, samples, grouping, direction=1)
+
+    if subtask == "qualification":
+        st.session_state.qualification_progress = new_index
+    else:
+        st.session_state.progress = new_index
+
+    if new_index != index:
         st.rerun()

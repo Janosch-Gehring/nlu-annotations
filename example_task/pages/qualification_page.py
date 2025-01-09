@@ -26,22 +26,13 @@ else:
         back_button = st.button(label="Back", key = 10 * index + 7)
     
     # print text and widgets
-    question, checkbox, text_input, next_input = example_utils.print_annotation_schema("qualification", index)
+    question, checkbox, text_input, next_button = example_utils.print_annotation_schema("qualification", index)
 
-    # behavior when pushing the next-button
-    if next_input:
-        # save annotation (saving the sentence is not really necessary)
-        # make sure these keys match up with those used when calling load_annotation
-        annotation = {"sentence": question["sentence"], "checkbox": checkbox, "textinput": text_input}
-        user_repository.save_one_annotation(st.session_state.user_id, "qualification", st.session_state.qualification_progress, annotation)
+    samples = utils.read_json_from_file(utils.TASK_INFO["example_task"]["qualification_filepath"])
+    annotation = {"sentence": question["sentence"], "checkbox": checkbox, "textinput": text_input}
 
-        # check if there are more samples to go through
-        qualification_utils.advance_qualification(utils.TASK_INFO["example_task"]["qualification_filepath"], example_utils.check_if_qualified)
+    if next_button:
+        utils.handle_next_button(annotation, index, samples, "qualification", example_utils.check_if_qualified)
 
     if back_button:
-        # since all users see all samples, back button here is much simpler than for the real annotation. Just return to the progress-1 question.
-        if index < user_repository.get_checkpoint(st.session_state.user_id, "qualification"):
-            annotation = {"sentence": question["sentence"], "checkbox": checkbox, "textinput": text_input}
-            user_repository.save_one_annotation(st.session_state.user_id, "qualification", st.session_state.qualification_progress, annotation)
-        st.session_state.qualification_progress -= 1
-        st.rerun()
+        utils.handle_back_button(annotation, index, samples, "qualification")
