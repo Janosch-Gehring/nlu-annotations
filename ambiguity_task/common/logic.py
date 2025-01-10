@@ -1,4 +1,4 @@
-from core.scripts.utils import read_json_from_file
+from core.scripts.utils import read_json_from_file, TASK_INFO
 from ambiguity_task.common import constants
 
 def check_if_qualified(annotations: dict) -> bool:
@@ -8,7 +8,7 @@ def check_if_qualified(annotations: dict) -> bool:
     :param annotations: user's annotation in dict form, should have a 'qualification' key
     :return bool: True if passed, False if not
     """
-    qualification_questions = read_json_from_file(constants.QUALIFICATION_QUESTIONS_PATH)
+    qualification_questions = read_json_from_file(TASK_INFO["ambiguity_task"]["qualification_filepath"])
 
     needed_score = 10
     score = 0

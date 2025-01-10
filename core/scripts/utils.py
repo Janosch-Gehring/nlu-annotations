@@ -10,11 +10,13 @@ from core.scripts import user_repository
 TASK_INFO = {
     "ambiguity_task": {
         "annotation_filepath": "ambiguity_task/resources/pilot_samples.json",
-        "qualification_filepath": "ambiguity_task/resources/qualification_questions.json"
+        "qualification_filepath": "ambiguity_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 8
     },
     "example_task": {
         "annotation_filepath": "example_task/resources/samples.json",
-        "qualification_filepath": "example_task/resources/qualification_samples.json"
+        "qualification_filepath": "example_task/resources/qualification_samples.json",
+        "number_of_annotator_groups": 2
     }
 }
 

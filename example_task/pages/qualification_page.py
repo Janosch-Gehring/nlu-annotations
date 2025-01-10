@@ -1,6 +1,6 @@
 import streamlit as st
 
-from core.scripts import user_repository, qualification_utils, utils
+from core.scripts import user_repository, utils
 from example_task.common import utils as example_utils
 
 

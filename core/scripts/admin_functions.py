@@ -15,12 +15,9 @@ def generate_users(task):
     :param task: e.g. ambiguity_task
     :return: None
     """
-    if task == "ambiguity_task":
-        amount = ambiguity_task_constants.NUMBER_OF_ANNOTATOR_GROUPS
-    elif task == "example_task":
-        amount = 2
-    
-    else:
+    try:
+        amount = utils.TASK_INFO[task]["number_of_annotator_groups"]
+    except:
         st.write("There is either no task selected or the number of annotation groups is not specified")
         return
 

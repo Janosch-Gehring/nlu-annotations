@@ -1,6 +1,6 @@
 import streamlit as st
 
-from core.scripts.utils import display_progress, read_json_from_file, load_annotation
+from core.scripts.utils import display_progress, read_json_from_file, load_annotation, TASK_INFO
 from ambiguity_task.common import constants
 
 
@@ -16,9 +16,9 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
     :return: The sentence and widget inputs in the order they are displayed to the user.
     """
     if subtask == "qualification":
-        samples = read_json_from_file(constants.QUALIFICATION_QUESTIONS_PATH)
+        samples = read_json_from_file(TASK_INFO["ambiguity_task"]["qualification_filepath"])
     else:
-        samples = read_json_from_file(constants.SAMPLES_FILEPATH)
+        samples = read_json_from_file(TASK_INFO["ambiguity_task"]["annotation_filepath"])
 
     # load values previously filled in checkboxes or None if this is first time annotating this sample
     sample_preload = load_annotation(st.session_state.user_id, subtask, index)

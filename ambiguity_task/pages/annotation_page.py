@@ -1,7 +1,7 @@
 import streamlit as st
 
 from core.scripts import user_repository
-from core.scripts.utils import read_json_from_file, handle_next_button, handle_back_button
+from core.scripts.utils import read_json_from_file, handle_next_button, handle_back_button, TASK_INFO
 from ambiguity_task.common import constants, utils
 
 if "progress" not in st.session_state:
@@ -10,7 +10,7 @@ if "progress" not in st.session_state:
 st.session_state.page = "ambiguity_task_annotation_page_sample" + str(st.session_state.progress)
 
 
-samples = read_json_from_file(constants.SAMPLES_FILEPATH)
+samples = read_json_from_file(TASK_INFO["ambiguity_task"]["annotation_filepath"])
 
 
 if user_repository.get_qualification(st.session_state.user_id) != 1:
