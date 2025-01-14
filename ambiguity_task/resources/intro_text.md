@@ -4,16 +4,17 @@
 
 You will see a short text of either one or two sentences, in which one word is highlighted in color. The highlighted word typically can take on two (or more) different meanings, depending on the context. Your task is to annotate which of the two displayed meanings of the word is likely to be the correct one. 
 
-If one of the word senses is clearly likelier than the other, only pick that one.
-If both word senses seem plausible, pick both. Even if one word sense is generally more frequent than the other, both should be picked if the meaning is plausible in the given context.
+The general rules are as follows:
 
-If the word has a third word sense that seems more plausible than either of the displayed meanings, pick neither and comment the sense in the free text field.
+* If one of the word senses is clearly likelier than the other, only pick that one.
+* If both word senses seem plausible, pick both. Even if one word sense is generally more frequent than the other, both should be picked if the meaning is plausible in the given context.
+* If the word has a third word sense that seems more plausible than either of the displayed meanings, pick neither and comment the sense in the free text field.
 
 Additionally, feel free to mark sentences as nonsensical if there is no way for them to make sense with any meaning. Even for the nonsensical sentences, try to annotate the senses to the best of your ability.
 
 Also, feel free to add comments in the comment field.
 
-There will be times where there is no objectively correct answer. Either way, carefully think about how much sense the sentence would make given either of the two readings.
+There will be times where there is no objectively correct answer. Either way, carefully think about how much sense the sentence would make given either of the two readings, and how *you* would intuitively understand it.
 
 ---
 
@@ -101,7 +102,7 @@ There will be times where there is no objectively correct answer. Either way, ca
 **There is a better meaning**: (leave empty)  
 **Text is nonsensical**: [ ]
 
-**Explanation**: It may have been intended as a pun where both meanings apply, but let's take it literally. "Enjoying a television series outside enjoying nature" seems unlikely. Meanwhile, e.g. enjoying the winter season while warming up in the living room watching TV sounds like a more plausible scenario.
+**Explanation**: It may have been intended as a pun where both meanings apply, but let's take it literally. "Enjoying a television series outside while enjoying nature" seems unlikely. Meanwhile, e.g. enjoying the winter season while warming up in the living room watching TV sounds like a more plausible scenario.
 
 ---
 
@@ -115,11 +116,7 @@ There will be times where there is no objectively correct answer. Either way, ca
 **There is a better meaning** (leave empty)  
 **Text is nonsensical**: [x]
 
-**Explanation** This too is a word play. Both meanings are equally likely, but simultaneously, neither of them on their own really result in a sentence that seems logical. So I would opt to mark both word senses (since it's not like there is a better meaning), but also mark the text as nonsensical. However, imagine if there was a followup sentence:
-
-"I wasn't really enjoying this :blue-background[season], with its extreme heat and pointless characters. Indeed, I met a lot of annoying people this summer."
-
-While a bit strange to call a real-life person a pointless character, this does make the "a time of year" meaning now more plausible for :blue-background[season]. You may even argue that the sentence was never nonsensical in the first place if you do not find it strange, but I would personally disagree. Plausibility is often subjective, so go with your opinion!
+**Explanation**: This too is a word play - the *extreme heat* is referencing the time of year, while *pointless characters* clearly points to a television program. But regardless of whether **season** references a time of year or a television program, there is really no way for either meaning to make sense by itself. There is also no other meaning of the word *season* with which the sentence would make more sense. Therefore, this sentence may be marked as *nonsensical*. You can also tick both meanings since they are both equally plausible.
 
 ---
 
