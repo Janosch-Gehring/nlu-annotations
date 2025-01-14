@@ -1,7 +1,6 @@
 import streamlit as st
 
 from core.scripts.utils import display_progress, read_json_from_file, load_annotation, TASK_INFO
-from ambiguity_task.common import constants
 
 
 def format_sentence(sentence):

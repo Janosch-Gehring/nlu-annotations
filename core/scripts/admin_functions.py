@@ -4,8 +4,6 @@ import streamlit as st
 
 from core.scripts import utils, user_repository
 
-from ambiguity_task.common import constants as ambiguity_task_constants
-
 def generate_users(task):
     """
     Generate an amount of users (one for each grouping).

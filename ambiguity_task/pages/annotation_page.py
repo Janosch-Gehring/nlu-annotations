@@ -2,7 +2,7 @@ import streamlit as st
 
 from core.scripts import user_repository
 from core.scripts.utils import read_json_from_file, handle_next_button, handle_back_button, TASK_INFO
-from ambiguity_task.common import constants, utils
+from ambiguity_task.common import utils
 
 if "progress" not in st.session_state:
     st.session_state.progress = user_repository.get_checkpoint(st.session_state.user_id, "annotation")
