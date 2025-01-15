@@ -14,7 +14,7 @@
             "correct_answer": [1, 0]
         },
     "3": {
-        "sentence": "The princess was fascinated by the map's [legend]. Apparently, the ancient map is hidden somewhere and leads to great treasure, but no one even knows what the map looks like.",
+        "sentence": "The princess was fascinated by the [legend]. She wondered if the story about the dragon and the ancient map was real.",
         "word": "legend",
         "meaning1": "a story about mythical or supernatural beings or events",
         "meaning2": "brief description accompanying an illustration",

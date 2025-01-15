@@ -4,17 +4,18 @@ import streamlit as st
 
 from core.scripts import utils, user_repository
 
-def generate_users(task):
+def generate_users(task: str, amount_per_group: int = 1):
     """
-    Generate an amount of users (one for each grouping).
+    Generate an amount of users (determined by amount_per_group parameter).
     The generated user ids are printed and become valid. 
     The 'account' gets created once that ID logs in.
 
     :param task: e.g. ambiguity_task
+    :param amount_per_group:
     :return: None
     """
     try:
-        amount = utils.TASK_INFO[task]["number_of_annotator_groups"]
+        amount_of_groups = utils.TASK_INFO[task]["number_of_annotator_groups"]
     except:
         st.write("There is either no task selected or the number of annotation groups is not specified")
         return
@@ -23,17 +24,78 @@ def generate_users(task):
 
     st.write("List of new user ids:")
     conn = sqlite3.connect('database.db')
-    for i in range(amount):
-        new_user = utils.generate_random_string(size=8)
-        new_users.append(new_user)
-        st.write(f"Group {i} - {new_user}")
-        conn.execute('''
-        INSERT INTO valid_ids (user_id, task, annotator_group)
-        VALUES (?, ?, ?)
-    ''', (new_user, task, i))
-        conn.commit()
+    for i in range(amount_of_groups):
+        for j in range(amount_per_group):
+            new_user = utils.generate_random_string(size=8)
+            new_users.append(new_user)
+            st.write(f"Group {i} - {new_user}")
+            conn.execute('''
+            INSERT INTO valid_ids (user_id, task, annotator_group)
+            VALUES (?, ?, ?)
+        ''', (new_user, task, i))
+            conn.commit()
 
     conn.close()
+    st.markdown("**Copy these IDs so you don't lose them!**")
+
+def list_user_codes(relevant_task):
+    conn = sqlite3.connect("database.db")
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM valid_ids")
+    valid_id_rows = cursor.fetchall()
+
+    # get set of users that has logged in before (entries in user_data)
+    cursor.execute("SELECT * FROM user_data")
+    user_rows = cursor.fetchall()
+    users = [row[0] for row in user_rows]
+
+    entries = []
+    for id_row in valid_id_rows:
+        user_id, task, annotator_group = id_row
+        if relevant_task != task:
+            continue
+        has_logged_in = (user_id in users)
+        entries.append([user_id, annotator_group, has_logged_in])
+    # get number of annotation groups
+    max_group = max([x[1] for x in entries])
+
+    st.write("Delete all unused user codes for this task.")
+    st.write("(Whoever has received a code but not yet logged in will not be able to anymore.)")
+    delete_codes = st.text_input("Type DELETE to delete unused user codes.")
+    if delete_codes == "DELETE":
+        st.write("Deleting...")
+        cursor.execute("DELETE FROM valid_ids WHERE user_id NOT IN (SELECT user_id FROM USER_DATA)")
+        conn.commit()
+        conn.close()
+        st.write("Done")
+
+    # sort primarily by has_logged_in and secondarily by group
+    sorted_entries = sorted(entries, key = lambda x: (not x[2], x[1]))
+    for entry in sorted_entries:
+        st.markdown("---")
+        col1, col2, col3 = st.columns([0.5, 0.2, 0.3])
+        with col1:
+            st.markdown(f"User: {entry[0]}\t| Group: {entry[1]}\t| Used: {entry[2]}")
+
+        with col2:
+            st.write("Delete ID")
+            if not entry[2]:  # don't delete logged in users. They should be banned instead.
+                delete_button = st.button("Delete", key="delete_id_" + entry[0])
+                if delete_button:
+                    cursor.execute("DELETE FROM valid_ids WHERE user_id = ?", (entry[0], ))
+                    conn.commit()
+                    st.write("User deleted")
+            else:
+                delete_button = st.button("Delete", key="delete_id_" + entry[0], disabled=True, help="Registered users cannot be deleted. You can instead set them to unqualified to ban them.")
+
+        with col3:
+            if not entry[2]:  # again, once the user already started, it's too late
+                group_change = st.number_input("Change Group", min_value=0, max_value=max_group, value=None, key="change_id_" + entry[0])
+                if group_change:
+                    cursor.execute("UPDATE valid_ids SET annotator_group = ? WHERE user_id = ?", (group_change, entry[0]))
+                    conn.commit()
+                    st.write("Group changed.")
+
 
 def list_user_progress(task):
 

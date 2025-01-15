@@ -6,7 +6,6 @@ from ambiguity_task.common import utils
 
 if "progress" not in st.session_state:
     st.session_state.progress = user_repository.get_checkpoint(st.session_state.user_id, "annotation")
-    st.session_state.progression_direction = 1  # 1 -> user wants to go forward, -1 -> user wants to go backwards (pressed back button)
 st.session_state.page = "ambiguity_task_annotation_page_sample" + str(st.session_state.progress)
 
 
@@ -20,7 +19,7 @@ elif user_repository.check_if_done(st.session_state.user_id):
 else:
     index = int(st.session_state.progress)
 
-    back_button = st.button(label="Back", key = 10 * index + 7)
+    back_button = st.button(label="Back", key = 10 * index + 7, help="Go back to the previous sample.")
 
     question, checkbox1, checkbox2, text_input1, checkbox3, text_input2, next_input = utils.print_annotation_schema("annotation", index)
     annotation = {"sentence": question["sentence"], "meaning1": checkbox1, "meaning2": checkbox2, "other_label": text_input1, "nonsensical": checkbox3, "comment": text_input2}

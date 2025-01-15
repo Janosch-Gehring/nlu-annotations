@@ -2,7 +2,7 @@ import streamlit as st
 
 from core.scripts import database_repository, admin_functions
 
-
+TASK_OPTIONS = ("None selected", "ambiguity_task", "example_task")
 
 if "database" not in st.session_state:
     st.session_state.database = "Press the other button first"
@@ -20,6 +20,7 @@ st.download_button(label="Then click here to download", data = st.session_state.
 
 
 st.markdown("""
+            ---
             ## Generate New User Codes 
             
             Here you can generate new annotator codes to share with your annotators.
@@ -28,21 +29,39 @@ st.markdown("""
 
             """)
 
+generation_button = None
 generation_option = st.selectbox(
-     "For which task to generate new users?",
-     ("None selected", "ambiguity_task", "example_task"))
+     "For which task to generate new users?", TASK_OPTIONS)
 
-if generation_option:
-    admin_functions.generate_users(generation_option)
+if generation_option and generation_option != "None selected":
+    generation_slider = st.select_slider("How many IDs to generate per group", options=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+    generation_button = st.button("Click here to generate users")
+    if generation_button:
+        admin_functions.generate_users(generation_option, generation_slider)
 
 st.markdown("""
+            ---
+            ## Manage Generated User Codes
+
+            Select a task below to manage used and unused user codes.
+            """
+            )
+
+code_manager_option = st.selectbox(
+    "For which task to manage user codes?", TASK_OPTIONS
+)
+if code_manager_option and code_manager_option != "None selected":
+    admin_functions.list_user_codes(code_manager_option)
+
+st.markdown("""
+            ---
             ## Manage And Track User Progress
             
             Select a task below to see users' progress and qualification success on this task.
             """)
 
 tracking_option = st.selectbox(
-    "Which task to check progress on?", ("None selected", "ambiguity_task", "example_task")
+    "Which task to check progress on?", TASK_OPTIONS
 )
 if tracking_option:
     admin_functions.list_user_progress(tracking_option)
