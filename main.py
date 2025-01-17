@@ -1,12 +1,21 @@
+from dotenv import load_dotenv, find_dotenv
+import os
+
 import streamlit as st
 
-from core.scripts import database_repository, utils
+from core.scripts import database_repository, utils, sheet_repository
+
+load_dotenv(find_dotenv())
 
 if "user_id" not in st.session_state:
     st.session_state.user_id = ""
+    st.session_state.user = {"task": ""}
 
 if "page" not in st.session_state:
     st.session_state.page = "main"
+
+if "sheet" not in st.session_state:
+    st.session_state.sheet = sheet_repository.open_google_sheet()
 
 database_repository.init_db()
 
@@ -61,10 +70,10 @@ elif st.session_state.user_id:
     available_pages = {
         "Home": [main_page]
     }
-    if utils.authenticate_id("ambiguity_task", st.session_state.user_id):
+    if st.session_state.user["task"] == "ambiguity_task":
         available_pages["Ambiguity Task"] = [ambiguity_start_page, ambiguity_qualification_page, ambiguity_annotation_page]
 
-    elif utils.authenticate_id("example_task", st.session_state.user_id):
+    elif st.session_state.user["task"] == "example_task":
         available_pages["Example Task"] = [example_start_page, example_qualification_page, example_annotation_page]
 
     pg = st.navigation(available_pages)
@@ -75,7 +84,6 @@ else:
         "Home": [main_page, authentication_page],
         "Task Previews": [ambiguity_start_page]
         }
-
     )
 
 pg.run()

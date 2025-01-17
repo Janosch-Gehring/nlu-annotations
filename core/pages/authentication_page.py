@@ -2,14 +2,14 @@ import os
 
 import streamlit as st
 
-from core.scripts.utils import authenticate_id, TASK_INFO
-from core.scripts import user_repository
+from core.scripts import sheet_repository
+from core.scripts.sheet_repository import authenticate_id
 
 st.session_state.page = "authentication_page"
 
 def log_in(user_id: str, task=None, as_admin=False) -> None:
     """
-    Log in a user.
+    Log in a user. Authentication check has to be called before this function.
 
     :param user_id: The ID of the user who requested the login.
     :param as_admin: Whether to log in as admin.
@@ -18,10 +18,11 @@ def log_in(user_id: str, task=None, as_admin=False) -> None:
     if as_admin:
         target_id = "admin"
 
-    user = user_repository.get_user(target_id)
+    user = sheet_repository.get_user(target_id)
     if not user:
-        user_repository.create_user(target_id, task=task)
-        user = user_repository.get_user(target_id)
+        sheet_repository.create_user(target_id, task=task)
+        user = sheet_repository.get_user(target_id)
+    st.session_state.user = user
     st.session_state.user_id = target_id
     st.write("Welcome!")
     st.rerun()
@@ -42,9 +43,8 @@ def authenticate_user(user_id: str) -> str:
     :param user_id: ID of user to check
     :return: Task name if log in was successful, None if not
     """
-    for task in TASK_INFO:
-        if authenticate_id(task, user_id):
-            return task
+    if authenticate_id(user_id):
+        return True
         
 
 user_id = st.text_input("Enter the User ID you received:")

@@ -3,24 +3,25 @@ import sqlite3
 
 # Initialize the database
 def init_db():
-    conn = sqlite3.connect('database.db')
-    conn.execute('''CREATE TABLE IF NOT EXISTS user_data (
-        user_id TEXT PRIMARY KEY,
-        task TEXT,
-        qualified INTEGER DEFAULT 0,
-        annotator_group INTEGER DEFAULT 0,
-        progress INTEGER DEFAULT 0,
-        annotations TEXT DEFAULT "{}",
-        data TEXT DEFAULT "{}"
-    )''')
+    pass
+    #conn = sqlite3.connect('database.db')
+    #conn.execute('''CREATE TABLE IF NOT EXISTS user_data (
+    #    user_id TEXT PRIMARY KEY,
+    #    task TEXT,
+    #    qualified INTEGER DEFAULT 0,
+    #    annotator_group INTEGER DEFAULT 0,
+    #    progress INTEGER DEFAULT 0,
+    #    annotations TEXT DEFAULT "{}",
+    #    data TEXT DEFAULT "{}"
+    #)''')
 
-    conn.execute('''CREATE TABLE IF NOT EXISTS valid_ids (
-        user_id TEXT PRIMARY KEY,
-        task TEXT,
-        annotator_group INTEGER DEFAULT 0
-    )''')
-    conn.commit()
-    conn.close()
+    #conn.execute('''CREATE TABLE IF NOT EXISTS valid_ids (
+    #    user_id TEXT PRIMARY KEY,
+    #    task TEXT,
+    #    annotator_group INTEGER DEFAULT 0
+    #)''')
+    #conn.commit()
+    #conn.close()
 
 def convert_database_to_json():
     database_file = 'database.db'
