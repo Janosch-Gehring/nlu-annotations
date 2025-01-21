@@ -3,9 +3,13 @@ import os
 import streamlit as st
 
 from core.scripts.utils import authenticate_id, TASK_INFO
-from core.scripts import user_repository
+from core.scripts import user_repository, database_repository
 
 st.session_state.page = "authentication_page"
+
+if st.session_state.conn.closed:
+    # upon logout, connection will be closed until revisiting the authentication page
+    st.session_state.conn = database_repository.db_connection()
 
 def log_in(user_id: str, task=None, as_admin=False) -> None:
     """
@@ -23,6 +27,7 @@ def log_in(user_id: str, task=None, as_admin=False) -> None:
         user_repository.create_user(target_id, task=task)
         user = user_repository.get_user(target_id)
     st.session_state.user_id = target_id
+    st.session_state.user = list(user)
     st.write("Welcome!")
     st.rerun()
 

@@ -36,7 +36,7 @@ def authenticate_id(task: str, user_id: id):
     """
     Check if the user id trying to log in for a specific task is valid.
     """
-    conn = database_repository.db_connection()
+    conn = st.session_state.conn
     cursor = conn.cursor()
     # Check if the user_id exists in the table
     cursor.execute('''
@@ -45,7 +45,7 @@ def authenticate_id(task: str, user_id: id):
     ''', (user_id, task))
     result = cursor.fetchone()
 
-    conn.close()
+    # conn.close()
     
     if result:
         return True
@@ -79,9 +79,10 @@ def display_progress(key="annotation", user_id=None, print_progress: bool = True
     :return: str
     """
     if not user_id:
-        user_id = st.session_state.user_id
+        user = st.session_state.user
+    else:
+        user = user_repository.get_user(user_id)
 
-    user = user_repository.get_user(user_id)
     user_group = user[3]
     task = user[1]
     max_samples = get_amount_of_samples_for_group(key, task, user_group)
@@ -107,7 +108,7 @@ def display_progress(key="annotation", user_id=None, print_progress: bool = True
         st.write("Finished Samples: " + str(count_finished) + "/" + str(max_samples))
     return str(count_finished) + "/" + str(max_samples)
 
-def load_annotation(user_id: str, subtask: str, index: int) -> tuple:
+def load_annotation(subtask: str, index: int) -> tuple:
     """
     Load one specific annotation from a user's saved data. 
     Useful for prefilling annotations the user already made when they look at previous samples.
@@ -118,11 +119,10 @@ def load_annotation(user_id: str, subtask: str, index: int) -> tuple:
     :param index: the sample index to load
     :return: loaded sample
     """
-    user = user_repository.get_user(user_id)
+    user = st.session_state.user
     annotations = user[5]
     if subtask not in annotations:
         return None
-    print(index, annotations[subtask])
     if len(annotations[subtask]) < index:
         return None
     return annotations[subtask][index-1]
@@ -142,15 +142,15 @@ def finish_qualification(qualification_function: str):
     :param qualification_function: function that returns True/False based on the user's annotations.
     """
     # if this is the last question, check for qualification
-    user = user_repository.get_user(st.session_state.user_id)
+    user = st.session_state.user
     annotations = user[5]
     # check if the qualification was successful and set user state accordingly
     if qualification_function(annotations):
-        st.write("Congrats, you're qualified!")
+        st.write("The qualification test has ended. Please wait a moment...")
         user_repository.set_qualification(st.session_state.user_id)
         st.rerun()
     else:
-        st.write("Oops, you failed the qualification.")
+        st.write("The qualification test has ended. Please wait a moment...")
         user_repository.set_qualification(st.session_state.user_id, setting=-1)
         user_repository.reset_annotation(st.session_state.user_id, key="qualification")
         st.rerun()
@@ -212,10 +212,10 @@ def handle_back_button(annotation: dict, index: int, samples: dict, subtask="ann
     :param subtask: The current subtask, e.g. annotation or qualification
     """
     # don't save when pressing back on the newest sample, since it will otherwise get skipped when returning later
-    if index < user_repository.get_checkpoint(st.session_state.user_id, key=subtask, print=False):
+    if index < user_repository.get_checkpoint(key=subtask, print=False):
         user_repository.save_one_annotation(st.session_state.user_id, subtask, index, annotation)
 
-    grouping = user_repository.get_user(st.session_state.user_id)[3]
+    grouping = st.session_state.user[3]
     # skip backwards over the samples of the other groups to arrive at the new index
     new_index = skip_to_next_sample(index, samples, grouping, direction=-1)
 
@@ -243,7 +243,7 @@ def handle_next_button(annotation: dict, index: int, samples: dict, subtask="ann
     if index >= len(samples):
         finish_subtask(subtask, qualification_function=qualification_function)
     else:
-        grouping = user_repository.get_user(st.session_state.user_id)[3]
+        grouping = st.session_state.user[3]
         # proceed until we find the next sample relevant for the grouping
         new_index = skip_to_next_sample(index, samples, grouping, direction=1)
 

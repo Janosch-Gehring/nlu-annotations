@@ -1,3 +1,4 @@
+import psycopg2
 import streamlit as st
 
 from core.scripts import database_repository, utils
@@ -7,6 +8,9 @@ if "user_id" not in st.session_state:
 
 if "page" not in st.session_state:
     st.session_state.page = "main"
+
+if "conn" not in st.session_state:
+    st.session_state.conn = database_repository.db_connection()
 
 # database_repository.init_db()  # can comment out now, since it already exists...
 
@@ -54,7 +58,7 @@ ambiguity_annotation_page = st.Page(
 if st.session_state.user_id == "admin":
     pg = st.navigation(
         {
-            "Home": [main_page, admin_page],
+            "Home": [main_page, admin_page, logout_page],
         }
     )
 elif st.session_state.user_id:
@@ -67,6 +71,8 @@ elif st.session_state.user_id:
     elif utils.authenticate_id("example_task", st.session_state.user_id):
         available_pages["Example Task"] = [example_start_page, example_qualification_page, example_annotation_page]
 
+    available_pages["Other"] = [logout_page]
+
     pg = st.navigation(available_pages)
 
 else:
@@ -78,4 +84,8 @@ else:
 
     )
 
-pg.run()
+try:
+    pg.run()
+except (psycopg2.InterfaceError, psycopg2.OperationalError) as e:
+    st.markdown("# Your session was cancelled, likely due to prolonged inactivity. Please log out, then log in again.")
+    print(e)

@@ -15,11 +15,11 @@ def get_user(user_id: str):
     :param user_id: ID-string of user
     :return: User or None
     """
-    conn = db_connection()
+    conn = st.session_state.conn
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM user_data WHERE user_id=%s", (user_id,))
     user = cursor.fetchone()
-    conn.close()
+    # conn.close()
     return user
 
 def create_user(user_id: str, task: str = "ambiguity_task"):
@@ -30,7 +30,7 @@ def create_user(user_id: str, task: str = "ambiguity_task"):
     :user_id: ID-string of user
     :return: None
     """
-    conn = db_connection()
+    conn = st.session_state.conn
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -39,10 +39,7 @@ def create_user(user_id: str, task: str = "ambiguity_task"):
     """, (user_id, task))
     
     conn.commit()  # Commit changes to the database
-    conn.close()
-
-    # Fetch the ID of the newly created user
-    print(f"New user created with user_id: {user_id}")
+    # conn.close()
 
 def save_one_annotation(user_id: str, key: str, question_index: int, question_annotation: dict):
     """
@@ -53,10 +50,10 @@ def save_one_annotation(user_id: str, key: str, question_index: int, question_an
     :param question_index: At what index to save the annotation, e.g. 3 for the 3rd sample
     :param question_annotation: The annotation to save, which is a dict.
     """
-    conn = db_connection()
+    conn = st.session_state.conn
     cursor = conn.cursor()
 
-    user = get_user(user_id)
+    user = st.session_state.user
 
     annotations = user[5]
 
@@ -74,28 +71,27 @@ def save_one_annotation(user_id: str, key: str, question_index: int, question_an
         SET annotations = %s
         WHERE user_id = %s
     """, (annotations_json, user_id))
+    st.session_state.user[5] = annotations
     conn.commit()
-    conn.close()
+    #conn.close()
 
-def get_qualification(user_id: int) -> int:
+def get_qualification() -> int:
     """
     Check if the user with the given id passed a qualification test.
 
     :param user_id: id-string of user
     :return: -1 if failed, 0 if no qualification, 1 if passed
     """
-    user = get_user(user_id)
-    qualified = user[2]
+    qualified = st.session_state.user[2]
     return qualified
 
 
-def get_checkpoint(user_id, key, print=True) -> int:
+def get_checkpoint(key, print=True) -> int:
     """
     Find the last annotation that was being worked on for the given key (e.g. "qualification").
     Assumes that the samples are sorted. Return the highest index.
     """
-    user = get_user(user_id)
-    annotations = user[5]
+    annotations = st.session_state.user[5]
 
     if key not in annotations:  # Did not even start the task, lead to first sample
         return 1
@@ -111,7 +107,7 @@ def reset_annotation(user_id: str, key: str):
     :param user_id:
     :param key: The key of the annotation data to delete, e.g. qualification
     """
-    conn = db_connection()
+    conn = st.session_state.conn
     cursor = conn.cursor()
 
     user = get_user(user_id)
@@ -128,7 +124,7 @@ def reset_annotation(user_id: str, key: str):
         WHERE user_id = %s
     """, (annotations_json, user_id))
     conn.commit()
-    conn.close()
+    # conn.close()
 
 def set_qualification(user_id: str, setting: int=1):
     """
@@ -139,7 +135,7 @@ def set_qualification(user_id: str, setting: int=1):
 
     :param user_id: 
     """
-    conn = db_connection()
+    conn = st.session_state.conn
     cursor = conn.cursor()
     cursor.execute("""
         UPDATE user_data
@@ -147,13 +143,15 @@ def set_qualification(user_id: str, setting: int=1):
         WHERE user_id = %s
     """, (setting, user_id,))
     conn.commit()
-    conn.close()
+    # conn.close()
     
     if st.session_state.user_id == "admin":
         st.write("Qualification updated.")
+    else:
+        st.session_state.user[2] = setting
 
 def mark_as_done(user_id):
-    conn = db_connection()
+    conn = st.session_state.conn
     cursor = conn.cursor()
     cursor.execute("""
         UPDATE user_data
@@ -161,11 +159,11 @@ def mark_as_done(user_id):
         WHERE user_id = %s
     """, (user_id,))
     conn.commit()
-    conn.close()
+    # conn.close()
     print("User ", user_id, " finished annotation!")
 
 def check_if_done(user_id):
-    if get_user(user_id)[4] == -1:
+    if st.session_state.user[4] == -1:
         return True
 
 def fetch_user_data():
@@ -174,11 +172,11 @@ def fetch_user_data():
     Fetch and display all rows from the user_data table.
     not used or tested currently
     """
-    conn = db_connection()
+    conn = st.session_state.conn
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM user_data")
     rows = cursor.fetchall()
     for row in rows:
         user_id, task, qualified, annotator_group, progress, annotations, data = row
         st.write(f"User ID: {user_id}, Qualified: {qualified}, Task: {task} Progress: {progress}, Annotations: {annotations}")
-    conn.close()
+    # conn.close()

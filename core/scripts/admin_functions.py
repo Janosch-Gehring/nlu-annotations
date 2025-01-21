@@ -23,7 +23,7 @@ def generate_users(task: str, amount_per_group: int = 1):
     new_users = []
 
     st.write("List of new user ids:")
-    conn = database_repository.db_connection()
+    conn = st.session_state.conn
     cursor = conn.cursor()
     for i in range(amount_of_groups):
         for j in range(amount_per_group):
@@ -36,11 +36,12 @@ def generate_users(task: str, amount_per_group: int = 1):
         ''', (new_user, task, i))
             conn.commit()
 
-    conn.close()
+    
+    # conn.close()
     st.markdown("**Copy these IDs so you don't lose them!**")
 
 def list_user_codes(relevant_task):
-    conn = database_repository.db_connection()
+    conn = st.session_state.conn
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM valid_ids")
     valid_id_rows = cursor.fetchall()
@@ -67,7 +68,7 @@ def list_user_codes(relevant_task):
         st.write("Deleting...")
         cursor.execute("DELETE FROM valid_ids WHERE user_id NOT IN (SELECT user_id FROM USER_DATA)")
         conn.commit()
-        conn.close()
+        # conn.close()
         st.write("Done")
 
     # sort primarily by has_logged_in and secondarily by group
@@ -104,7 +105,7 @@ def list_user_progress(task):
         st.write("Select a task to show user progress.")
         return
 
-    conn = database_repository.db_connection()
+    conn = st.session_state.conn
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM user_data")
     rows = cursor.fetchall()
@@ -141,7 +142,7 @@ def list_user_progress(task):
                         user_repository.set_qualification(user_id, 1)
                             
 
-    conn.close()
+    # conn.close()
 
 
 def reset_database():

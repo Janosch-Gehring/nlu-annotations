@@ -6,11 +6,11 @@ from example_task.common import utils as example_utils
 
 # qualification progress dictates the current sample to show. Qualifications always need to have it
 if "qualification_progress" not in st.session_state:
-    st.session_state.qualification_progress = user_repository.get_checkpoint(st.session_state.user_id, "qualification")
+    st.session_state.qualification_progress = user_repository.get_checkpoint("qualification")
 st.session_state.page = "example_task_qualification_page_sample" + str(st.session_state.qualification_progress)
 
 # user qualification of -1 or 1 mean that the test was already attempted
-user_qualification = user_repository.get_qualification(st.session_state.user_id)
+user_qualification = user_repository.get_qualification()
 if user_qualification == 1:
     st.markdown("\n## You have successfully completed the qualification test. \n\n Select **Annotation** on the navigation bar to your left to do some annotating.")
 elif user_qualification == -1:

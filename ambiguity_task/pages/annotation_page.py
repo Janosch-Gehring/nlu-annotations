@@ -5,14 +5,14 @@ from core.scripts.utils import read_json_from_file, handle_next_button, handle_b
 from ambiguity_task.common import utils
 
 if "progress" not in st.session_state:
-    st.session_state.progress = user_repository.get_checkpoint(st.session_state.user_id, "annotation")
+    st.session_state.progress = user_repository.get_checkpoint("annotation")
 st.session_state.page = "ambiguity_task_annotation_page_sample" + str(st.session_state.progress)
 
 
 samples = read_json_from_file(TASK_INFO["ambiguity_task"]["annotation_filepath"])
 
 
-if user_repository.get_qualification(st.session_state.user_id) != 1:
+if user_repository.get_qualification() != 1:
     st.write("## You must pass qualification before starting annotation. \n\n Select **Qualification** in the navigation bar to your left to try the qualification test.")
 elif user_repository.check_if_done(st.session_state.user_id):
     st.write("## You have finished annotation. \n\nThank you for your time!")

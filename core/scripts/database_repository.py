@@ -5,11 +5,7 @@ import sqlite3
 
 from dotenv import load_dotenv, find_dotenv
 
-print(find_dotenv())
 load_dotenv(find_dotenv())
-
-print("WE PRINTIN")
-print(os.getenv("DB_NAME"), os.getenv("DB_USER"), os.getenv("DB_HOST"))
 
 def db_connection():
     if os.getenv("DATABASE") == "postgresql":
