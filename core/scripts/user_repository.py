@@ -1,7 +1,10 @@
+import os
 import json
 import sqlite3
 
 import streamlit as st
+
+from core.scripts.database_repository import db_connection
 
 # Check if user exists in the database
 def get_user(user_id: str):
@@ -12,9 +15,9 @@ def get_user(user_id: str):
     :param user_id: ID-string of user
     :return: User or None
     """
-    conn = sqlite3.connect('database.db')
+    conn = db_connection()
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM user_data WHERE user_id=?", (user_id,))
+    cursor.execute("SELECT * FROM user_data WHERE user_id=%s", (user_id,))
     user = cursor.fetchone()
     conn.close()
     return user
@@ -27,12 +30,12 @@ def create_user(user_id: str, task: str = "ambiguity_task"):
     :user_id: ID-string of user
     :return: None
     """
-    conn = sqlite3.connect('database.db')
+    conn = db_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
         INSERT INTO user_data (user_id, task)
-        VALUES (?, ?)
+        VALUES (%s, %s)
     """, (user_id, task))
     
     conn.commit()  # Commit changes to the database
@@ -50,12 +53,12 @@ def save_one_annotation(user_id: str, key: str, question_index: int, question_an
     :param question_index: At what index to save the annotation, e.g. 3 for the 3rd sample
     :param question_annotation: The annotation to save, which is a dict.
     """
-    conn = sqlite3.connect('database.db')
+    conn = db_connection()
     cursor = conn.cursor()
 
     user = get_user(user_id)
 
-    annotations = json.loads(user[5])
+    annotations = user[5]
 
     if key not in annotations:
         annotations[key] = []
@@ -68,8 +71,8 @@ def save_one_annotation(user_id: str, key: str, question_index: int, question_an
     annotations_json = json.dumps(annotations)
     cursor.execute("""
         UPDATE user_data
-        SET annotations = ?
-        WHERE user_id = ?
+        SET annotations = %s
+        WHERE user_id = %s
     """, (annotations_json, user_id))
     conn.commit()
     conn.close()
@@ -92,7 +95,7 @@ def get_checkpoint(user_id, key, print=True) -> int:
     Assumes that the samples are sorted. Return the highest index.
     """
     user = get_user(user_id)
-    annotations = json.loads(user[5])
+    annotations = user[5]
 
     if key not in annotations:  # Did not even start the task, lead to first sample
         return 1
@@ -108,11 +111,11 @@ def reset_annotation(user_id: str, key: str):
     :param user_id:
     :param key: The key of the annotation data to delete, e.g. qualification
     """
-    conn = sqlite3.connect('database.db')
+    conn = db_connection()
     cursor = conn.cursor()
 
     user = get_user(user_id)
-    annotations = json.loads(user[5])
+    annotations = user[5]
 
     if key not in annotations:
         return
@@ -121,8 +124,8 @@ def reset_annotation(user_id: str, key: str):
     annotations_json = json.dumps(annotations)
     cursor.execute("""
         UPDATE user_data
-        SET annotations = ?
-        WHERE user_id = ?
+        SET annotations = %s
+        WHERE user_id = %s
     """, (annotations_json, user_id))
     conn.commit()
     conn.close()
@@ -136,12 +139,12 @@ def set_qualification(user_id: str, setting: int=1):
 
     :param user_id: 
     """
-    conn = sqlite3.connect('database.db')
+    conn = db_connection()
     cursor = conn.cursor()
     cursor.execute("""
         UPDATE user_data
-        SET qualified = ?
-        WHERE user_id = ?
+        SET qualified = %s
+        WHERE user_id = %s
     """, (setting, user_id,))
     conn.commit()
     conn.close()
@@ -150,12 +153,12 @@ def set_qualification(user_id: str, setting: int=1):
         st.write("Qualification updated.")
 
 def mark_as_done(user_id):
-    conn = sqlite3.connect('database.db')
+    conn = db_connection()
     cursor = conn.cursor()
     cursor.execute("""
         UPDATE user_data
         SET progress = -1
-        WHERE user_id = ?
+        WHERE user_id = %s
     """, (user_id,))
     conn.commit()
     conn.close()
@@ -169,13 +172,13 @@ def fetch_user_data():
     """
     DEBUG function.
     Fetch and display all rows from the user_data table.
+    not used or tested currently
     """
-    conn = sqlite3.connect('database.db')
+    conn = db_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM user_data")
     rows = cursor.fetchall()
     for row in rows:
-        user_id, task, qualified, annotator_group, progress, annotations_json, data = row
-        annotations = json.loads(annotations_json)  # Convert JSON string back to list of lists
-        print(f"User ID: {user_id}, Qualified: {qualified}, Task: {task} Progress: {progress}, Annotations: {annotations}")
+        user_id, task, qualified, annotator_group, progress, annotations, data = row
+        st.write(f"User ID: {user_id}, Qualified: {qualified}, Task: {task} Progress: {progress}, Annotations: {annotations}")
     conn.close()

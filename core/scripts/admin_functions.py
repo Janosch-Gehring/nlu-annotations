@@ -2,7 +2,7 @@ import os
 import sqlite3
 import streamlit as st
 
-from core.scripts import utils, user_repository
+from core.scripts import utils, user_repository, database_repository
 
 def generate_users(task: str, amount_per_group: int = 1):
     """
@@ -23,15 +23,16 @@ def generate_users(task: str, amount_per_group: int = 1):
     new_users = []
 
     st.write("List of new user ids:")
-    conn = sqlite3.connect('database.db')
+    conn = database_repository.db_connection()
+    cursor = conn.cursor()
     for i in range(amount_of_groups):
         for j in range(amount_per_group):
             new_user = utils.generate_random_string(size=8)
             new_users.append(new_user)
             st.write(f"Group {i} - {new_user}")
-            conn.execute('''
+            cursor.execute('''
             INSERT INTO valid_ids (user_id, task, annotator_group)
-            VALUES (?, ?, ?)
+            VALUES (%s, %s, %s)
         ''', (new_user, task, i))
             conn.commit()
 
@@ -39,7 +40,7 @@ def generate_users(task: str, amount_per_group: int = 1):
     st.markdown("**Copy these IDs so you don't lose them!**")
 
 def list_user_codes(relevant_task):
-    conn = sqlite3.connect("database.db")
+    conn = database_repository.db_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM valid_ids")
     valid_id_rows = cursor.fetchall()
@@ -82,7 +83,7 @@ def list_user_codes(relevant_task):
             if not entry[2]:  # don't delete logged in users. They should be banned instead.
                 delete_button = st.button("Delete", key="delete_id_" + entry[0])
                 if delete_button:
-                    cursor.execute("DELETE FROM valid_ids WHERE user_id = ?", (entry[0], ))
+                    cursor.execute("DELETE FROM valid_ids WHERE user_id = %s", (entry[0], ))
                     conn.commit()
                     st.write("User deleted")
             else:
@@ -92,7 +93,7 @@ def list_user_codes(relevant_task):
             if not entry[2]:  # again, once the user already started, it's too late
                 group_change = st.number_input("Change Group", min_value=0, max_value=max_group, value=None, key="change_id_" + entry[0])
                 if group_change:
-                    cursor.execute("UPDATE valid_ids SET annotator_group = ? WHERE user_id = ?", (group_change, entry[0]))
+                    cursor.execute("UPDATE valid_ids SET annotator_group = %s WHERE user_id = %s", (group_change, entry[0]))
                     conn.commit()
                     st.write("Group changed.")
 
@@ -103,7 +104,7 @@ def list_user_progress(task):
         st.write("Select a task to show user progress.")
         return
 
-    conn = sqlite3.connect('database.db')
+    conn = database_repository.db_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM user_data")
     rows = cursor.fetchall()

@@ -8,7 +8,7 @@ if "user_id" not in st.session_state:
 if "page" not in st.session_state:
     st.session_state.page = "main"
 
-database_repository.init_db()
+# database_repository.init_db()  # can comment out now, since it already exists...
 
 
 # Emoticons can be copied from here: https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/

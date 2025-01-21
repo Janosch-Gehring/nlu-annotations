@@ -1,11 +1,9 @@
 import json
 import random
 import string
-import sqlite3
-
 import streamlit as st
 
-from core.scripts import user_repository
+from core.scripts import user_repository, database_repository
 
 TASK_INFO = {
     "ambiguity_task": {
@@ -38,11 +36,12 @@ def authenticate_id(task: str, user_id: id):
     """
     Check if the user id trying to log in for a specific task is valid.
     """
-    conn = sqlite3.connect('database.db')
+    conn = database_repository.db_connection()
+    cursor = conn.cursor()
     # Check if the user_id exists in the table
-    cursor = conn.execute('''
-        SELECT 1 FROM valid_ids WHERE user_id = ?
-                          AND task = ?
+    cursor.execute('''
+        SELECT 1 FROM valid_ids WHERE user_id = %s
+                          AND task = %s
     ''', (user_id, task))
     result = cursor.fetchone()
 
@@ -93,7 +92,7 @@ def display_progress(key="annotation", user_id=None, print_progress: bool = True
     # TODO show progress even when all annotations are finished (when revising annotations)
     
     # handle case that there are no annotations
-    annotations = json.loads(user[5])
+    annotations = user[5]
     if key not in annotations:
         if print_progress:
             st.write("Sample 1")
@@ -120,7 +119,7 @@ def load_annotation(user_id: str, subtask: str, index: int) -> tuple:
     :return: loaded sample
     """
     user = user_repository.get_user(user_id)
-    annotations = json.loads(user[5])
+    annotations = user[5]
     if subtask not in annotations:
         return None
     print(index, annotations[subtask])
@@ -144,7 +143,7 @@ def finish_qualification(qualification_function: str):
     """
     # if this is the last question, check for qualification
     user = user_repository.get_user(st.session_state.user_id)
-    annotations = json.loads(user[5])
+    annotations = user[5]
     # check if the qualification was successful and set user state accordingly
     if qualification_function(annotations):
         st.write("Congrats, you're qualified!")

@@ -1,57 +1,82 @@
 import json
+import os
+import psycopg2
 import sqlite3
+
+from dotenv import load_dotenv, find_dotenv
+
+print(find_dotenv())
+load_dotenv(find_dotenv())
+
+print("WE PRINTIN")
+print(os.getenv("DB_NAME"), os.getenv("DB_USER"), os.getenv("DB_HOST"))
+
+def db_connection():
+    if os.getenv("DATABASE") == "postgresql":
+        conn = psycopg2.connect(
+            database = os.getenv("DB_NAME"), 
+            user = os.getenv("DB_USER"), 
+            host = os.getenv("DB_HOST"),
+            password = os.getenv("DB_PASSWORD"),
+            port = os.getenv("DB_PORT")
+        )
+    else:
+        # TODO that still needs to be implemented for local testing...
+        # (most of what needs to be done is just replacing the %s in queries with ?)
+        conn = sqlite3.connect("database.db")
+    return conn
 
 # Initialize the database
 def init_db():
-    conn = sqlite3.connect('database.db')
-    conn.execute('''CREATE TABLE IF NOT EXISTS user_data (
-        user_id TEXT PRIMARY KEY,
-        task TEXT,
-        qualified INTEGER DEFAULT 0,
-        annotator_group INTEGER DEFAULT 0,
-        progress INTEGER DEFAULT 0,
-        annotations TEXT DEFAULT "{}",
-        data TEXT DEFAULT "{}"
-    )''')
+    conn = db_connection()
 
-    conn.execute('''CREATE TABLE IF NOT EXISTS valid_ids (
-        user_id TEXT PRIMARY KEY,
-        task TEXT,
-        annotator_group INTEGER DEFAULT 0
-    )''')
+    if os.getenv("DATABASE") == "postgresql":
+        curr = conn.cursor()
+        curr.execute('''
+        CREATE TABLE IF NOT EXISTS user_data (
+            user_id TEXT PRIMARY KEY,
+            task TEXT,
+            qualified INTEGER DEFAULT 0,
+            annotator_group INTEGER DEFAULT 0,
+            progress INTEGER DEFAULT 0,
+            annotations JSONB DEFAULT '{}'::jsonb,
+            data JSONB DEFAULT '{}'::jsonb
+        );''')
+        curr.execute('''CREATE TABLE IF NOT EXISTS valid_ids (
+            user_id TEXT PRIMARY KEY,
+            task TEXT,
+            annotator_group INTEGER DEFAULT 0
+            )''')
+    else:
+        conn.execute('''CREATE TABLE IF NOT EXISTS user_data (
+            user_id TEXT PRIMARY KEY,
+            task TEXT,
+            qualified INTEGER DEFAULT 0,
+            annotator_group INTEGER DEFAULT 0,
+            progress INTEGER DEFAULT 0,
+            annotations TEXT DEFAULT "{}",
+            data TEXT DEFAULT "{}"
+        )''')
+        conn.execute('''CREATE TABLE IF NOT EXISTS valid_ids (
+            user_id TEXT PRIMARY KEY,
+            task TEXT,
+            annotator_group INTEGER DEFAULT 0
+            )''')
     conn.commit()
     conn.close()
 
 def convert_database_to_json():
-    database_file = 'database.db'
-    connection = sqlite3.connect(database_file)
+    connection = db_connection()
     cursor = connection.cursor()
 
-    # Get all table names in the database
-    cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
-    tables = cursor.fetchall()
-
-    database_data = {}
-
-    # Loop through each table to fetch data
-    for table_name in tables:
-        table_name = table_name[0]
-        cursor.execute(f"SELECT * FROM {table_name}")
-        rows = cursor.fetchall()
-
-        # Get column names
-        column_names = [description[0] for description in cursor.description]
-
-        # Convert rows into a list of dictionaries
-        table_data = [dict(zip(column_names, row)) for row in rows]
-        database_data[table_name] = table_data
-
-    # Write the data to a JSON file
-    # output_file = 'database.json'  # Specify the JSON file name
-    #with open(output_file, 'w', encoding='utf-8') as json_file:
-    json_data = json.dumps(database_data, indent=4)
-
-    # Close the connection
+    cursor.execute("SELECT * FROM user_data")
+    rows = cursor.fetchall()
+    json_data = []
+    for row in rows:
+        user_id, task, qualified, annotator_group, progress, annotations, data = row
+        json_data.append({"User ID": user_id, "qualified": qualified, "task": task, 
+                          "grouping": annotator_group, "progress": progress, 
+                          "annotations": annotations, "data": data})
     connection.close()
-
-    return json_data
+    
+    return json.dumps(json_data, indent=4)

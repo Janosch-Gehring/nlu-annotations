@@ -27,3 +27,8 @@ else:
     **You have successfully logged in as an annotator.**  
     Please read the task's introduction page before starting the qualification test.
     """)
+
+button = st.button("debug db print")
+if button:
+    from core.scripts import user_repository
+    user_repository.fetch_user_data()

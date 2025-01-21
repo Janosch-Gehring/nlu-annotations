@@ -43,7 +43,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
     checkbox3 = st.checkbox(key = 10 * index + 4, label = "Check here if the sentence appears to be nonsensical.", value=value_checkbox3, help="Does this sentence not make any logical sense (regardless of the word sense used)?")
     st.write("\n\n")
 
-    text_input2 = st.text_input(key = 10 * index + 8, label = "Comments (optional)", value=value_textinput2, help="Optional free text for comments and thoughts")
+    text_input2 = st.text_input(key = 10 * index + 8, label = "Comments (optional)", value=value_textinput2, help="Optional free text for comments and thoughts", max_chars=1000)
 
     if checkbox1 or checkbox2 or text_input1:
         next_input = st.button(key = 10 * index + 9, label="Next", help="Save this annotation and advance to the next one.")
