@@ -52,7 +52,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 **There is a better meaning**: (leave empty)    
 **Text is nonsensical**: [x]
 
-**Explanation**: It doesn't matter what the second sentence says, because the first sentence grammatically wouldn't work with the "brightness, illumination" meaning, so it has to be "not heavy". You may annotate sentences like this as nonsensical if the metaphor makes no sense.
+**Explanation**: It doesn't matter what the second sentence says, because the first sentence grammatically wouldn't work with the "brightness, illumination" meaning, so it has to be "not heavy". Also: **Whether a text is nonsensical or not can be subjective!** If you can plausibly imagine that there is some fantasy story about a magic bag that lights up a path, you could argue that this text *does* make sense in some circumstances, in which case it is alright to not mark it as nonsensical.
 
 ---
 
@@ -61,7 +61,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 [ ] make a mark or lines on a surface  
 [ ] the finish of a contest in which the score is tied and the winner is undecided
 
-**There is a better meaning**: *to attract attention*  
+**There is a better meaning**: *to attract*  
 **Text is nonsensical**: [ ]
 
 **Explanation**: The art-context may make the "make a mark or lines on a surface" sense seem more likely at first glance, but "to draw attention" is a fixed expression that has nothing to do with art. **Since neither meaning fits, tick neither and write a better definition in the text field**.
