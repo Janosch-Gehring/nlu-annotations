@@ -147,8 +147,12 @@ def list_user_progress(task):
 
 def reset_database():
     """
-    Delete the database file. This will cause a new one to be created when the website is next called.
-    This deletes all data, of course...
+    Empty all tables.
+    Dont do this...
     """
-    os.remove("database.db")
-
+    # os.remove("database.db")
+    conn = st.session_state.conn
+    cursor = conn.cursor()
+    cursor.execute("TRUNCATE TABLE user_data")
+    cursor.execute("TRUNCATE TABLE valid_ids")
+    conn.commit()

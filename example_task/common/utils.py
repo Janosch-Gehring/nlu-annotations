@@ -32,7 +32,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
         samples = read_json_from_file(TASK_INFO["example_task"]["annotation_filepath"])
 
     # load values previously filled in checkboxes or None if this is first time annotating this sample
-    sample_preload = load_annotation(st.session_state.user_id, subtask, index)
+    sample_preload = load_annotation(subtask, index)
     if sample_preload is None:
         value_checkbox, value_textinput = None, ""
     else:

@@ -71,7 +71,7 @@ st.markdown("---")
 danger_on = st.toggle("Enter Danger Zone")
 
 if danger_on:
-    text_input = st.text_input("Type DELETE in the field below to reset the local database.db file. Please don't do this on the deployed app without telling other admins.", max_chars=200)
+    text_input = st.text_input("Type DELETE in the field below to reset the database. Please don't do this on the deployed app without telling other admins.", max_chars=200)
 
     if st.button(label="Confirm") and (text_input == "DELETE"):
         st.write("OK :( Deleting")

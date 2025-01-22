@@ -105,7 +105,7 @@ def display_progress(key="annotation", user_id=None, print_progress: bool = True
         if annotation:  # "unfinished" annotations will be empty
             count_finished += 1
     if print_progress:
-        st.write("Finished Samples: " + str(count_finished) + "/" + str(max_samples))
+        st.write("*Finished Samples*: " + str(count_finished) + "/" + str(max_samples))
     return str(count_finished) + "/" + str(max_samples)
 
 def load_annotation(subtask: str, index: int) -> tuple:

@@ -4,7 +4,7 @@ from core.scripts.utils import display_progress, read_json_from_file, load_annot
 
 
 def format_sentence(sentence):
-    return sentence.replace("[", ":blue-background[")
+    return "***" + sentence.replace("[", ":blue-background[") + "***\n"
 
 def print_annotation_schema(subtask: str, index: int) -> tuple:
     """
@@ -32,15 +32,17 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
     # display the "Sample 1/5" thing
     display_progress(key=subtask)
 
-    st.markdown("\n**Read the following text**:  ")
-    st.markdown(format_sentence(question["sentence"]) + "\n")
-    st.markdown("Focus on the word :blue-background[" + question["word"] + "].\n")
+    st.markdown("Read the following sentence:")
+
+    st.markdown(format_sentence(question["sentence"]))
+
+    st.markdown("Focus on the highlighted word: :blue-background[" + question["word"] + "].\n")
     st.write("Which of these senses seem plausible?")
     checkbox1 = st.checkbox(key = 10 * index + 1, label=question["meaning1"], value=value_checkbox1)
     checkbox2 = st.checkbox(key = 10 * index + 2, label=question["meaning2"], value=value_checkbox2)
     text_input1 = st.text_input(key = 10 * index + 3, label = "(Only if you picked neither) Write the definition of a more fitting word sense.", max_chars=200, value=value_textinput1, help="Is there a third sense of the word that is more plausible than either of the above? Leave empty if one of the above meanings is the most plausible.")
     st.write("\n")  # leave some space
-    checkbox3 = st.checkbox(key = 10 * index + 4, label = "Check here if the sentence appears to be nonsensical.", value=value_checkbox3, help="Does this sentence not make any logical sense (regardless of the word sense used)?")
+    checkbox3 = st.checkbox(key = 10 * index + 4, label = "Is the text nonsensical?", value=value_checkbox3)
     st.write("\n\n")
 
     text_input2 = st.text_input(key = 10 * index + 8, label = "Comments (optional)", value=value_textinput2, help="Optional free text for comments and thoughts", max_chars=1000)

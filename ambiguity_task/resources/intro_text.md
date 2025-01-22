@@ -28,7 +28,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 **There is a better meaning**: (leave empty)  
 **Text is nonsensical**: [ ]
 
-**Explanation**: In case it is not obvious from the first sentence, **the second sentence makes it clear** that the spectacle is referring to an accessory. Note that **the first and second sentence are always part of the same story, so you can use information from the second sentence to help you make a choice.**
+**Explanation**: In case it is not obvious from the first sentence, the second sentence makes it clear that the spectacle is referring to an accessory. Note that **the first and second sentence are always part of the same story, so you can use information from the second sentence to help you make a choice.**
 
 ---
 
@@ -40,7 +40,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 **There is a better meaning**: (leave empty)  
 **Text is nonsensical**: [ ]
 
-**Explanation**: **Either meaning may apply depending on the context**. If the speaker tries the shoes on for the first time and comments on its size, the first meaning fits. If the speaker is thinking about what would fit well with an outfit, the second meaning fits better. It is subjective if one is more likely, but **they are both very plausible**.
+**Explanation**: **Either meaning may apply depending on the context**. If the speaker tries the shoes on for the first time and comments on their size, the first meaning fits. If the speaker is thinking about what would fit well with an outfit, the second meaning fits better. It is subjective if one is more likely, but they are both very plausible.
 
 ---
 
@@ -52,7 +52,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 **There is a better meaning**: (leave empty)    
 **Text is nonsensical**: [x]
 
-**Explanation**: It doesn't matter what the second sentence says, because **the first sentence grammatically wouldn't work** with the "brightness, illumination" meaning, so it has to be "not heavy". You may annotate sentences like this as nonsensical if the metaphor makes no sense.
+**Explanation**: It doesn't matter what the second sentence says, because the first sentence grammatically wouldn't work with the "brightness, illumination" meaning, so it has to be "not heavy". You may annotate sentences like this as nonsensical if the metaphor makes no sense.
 
 ---
 
@@ -64,7 +64,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 **There is a better meaning**: *to attract attention*  
 **Text is nonsensical**: [ ]
 
-**Explanation**: The art-context may make the "make a mark or lines on a surface" sense seem more likely at first glance, but "to draw attention" is a fixed expression that has nothing to do with art. **Since neither meaning fits, tick neither and write a better definition** in the free text field.
+**Explanation**: The art-context may make the "make a mark or lines on a surface" sense seem more likely at first glance, but "to draw attention" is a fixed expression that has nothing to do with art. **Since neither meaning fits, tick neither and write a better definition in the text field**.
 
 ---
 
@@ -78,7 +78,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 **There is a better meaning**: (leave empty)  
 **Text is nonsensical**: [ ]
 
-**Explanation**: It may have been intended as a pun where both meanings apply, but let's **take it literally**. "Enjoying a television series outside while enjoying nature" seems unlikely. Meanwhile, e.g. enjoying the winter season while warming up in the living room watching TV sounds like a more plausible scenario.
+**Explanation**: It may have been intended as a pun where both meanings apply, but let's take it literally. "Enjoying a television series outside while enjoying nature" seems unlikely. Meanwhile, e.g. enjoying the winter season while warming up in the living room watching TV sounds like a more plausible scenario.
 
 ---
 
