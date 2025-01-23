@@ -1,3 +1,4 @@
+import json
 import os
 
 import streamlit as st
@@ -24,8 +25,12 @@ def log_in(user_id: str, task=None, as_admin=False) -> None:
 
     user = user_repository.get_user(target_id)
     if not user:
-        user_repository.create_user(target_id, task=task)
-        user = user_repository.get_user(target_id)
+        prolific_id = st.text_input("This appears to be your first time on this website. Before you continue, please tell us your Prolific ID!", max_chars=200)
+        if prolific_id:
+            user_repository.create_user(target_id, task=task, data={"prolific_id": prolific_id})
+            user = user_repository.get_user(target_id)
+        else:
+            return
     st.session_state.user_id = target_id
     st.session_state.user = list(user)
     st.write("Welcome!")
@@ -52,7 +57,7 @@ def authenticate_user(user_id: str) -> str:
             return task
         
 
-user_id = st.text_input("Please enter the 8-digit User ID you received:")
+user_id = st.text_input("Please enter the 8-digit User ID you received:", max_chars=100)
 if user_id:
     # check if user id is the secret admin password
     if authenticate_admin(user_id):

@@ -43,7 +43,7 @@ example_annotation_page = st.Page(
 
 # Ambiguity Task Pages
 ambiguity_start_page = st.Page(
-    "ambiguity_task/pages/introduction_page.py", title="The Ambiguity Task", icon="📜", url_path="ambiguity_task_introduction"
+    "ambiguity_task/pages/introduction_page.py", title="Ambiguity Task Intro", icon="📜", url_path="ambiguity_task_introduction"
 )
 ambiguity_qualification_page = st.Page(
     "ambiguity_task/pages/qualification_page.py", title="Qualification", icon="🔑"

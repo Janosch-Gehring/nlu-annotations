@@ -22,21 +22,29 @@ def get_user(user_id: str):
     # conn.close()
     return user
 
-def create_user(user_id: str, task: str = "ambiguity_task"):
+def create_user(user_id: str, task: str = "ambiguity_task", data: dict = {}):
     """
     Creates a user with the specified user id.
-    The newly created user is not assigned any values at this point.
 
-    :user_id: ID-string of user
+    :param user_id: ID-string of user
+    :param task:
+    :param data: optional user metadata dict
     :return: None
     """
     conn = st.session_state.conn
     cursor = conn.cursor()
 
+    # find annotator group
+    cursor.execute("SELECT * from valid_ids WHERE user_id=%s", (user_id,))
+    id_data = cursor.fetchone()
+    annotator_group = id_data[2]
+
+    data = json.dumps(data)
+
     cursor.execute("""
-        INSERT INTO user_data (user_id, task)
-        VALUES (%s, %s)
-    """, (user_id, task))
+        INSERT INTO user_data (user_id, task, annotator_group, data)
+        VALUES (%s, %s, %s, %s)
+    """, (user_id, task, annotator_group, data))
     
     conn.commit()  # Commit changes to the database
     # conn.close()
@@ -94,7 +102,7 @@ def get_checkpoint(key, print=True) -> int:
     annotations = st.session_state.user[5]
 
     if key not in annotations:  # Did not even start the task, lead to first sample
-        return 1
+        return 0
     
     if print:
         st.write("Returning to checkpoint from previous session")
@@ -159,6 +167,7 @@ def mark_as_done(user_id):
         WHERE user_id = %s
     """, (user_id,))
     conn.commit()
+    st.session_state.user[4] = -1
     # conn.close()
     print("User ", user_id, " finished annotation!")
 

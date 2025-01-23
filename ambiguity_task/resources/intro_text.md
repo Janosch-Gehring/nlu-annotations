@@ -14,6 +14,8 @@ You can also mark sentences as *nonsensical*, meaning that the text is strange n
 
 Also, feel free to add comments in the comment field.
 
+If the ambiguous word appears multiple times in the text, annotate *only* the instance that is highlighted in color.
+
 There will be times where there is no objectively correct answer. Whatever the case, carefully think about how much sense a reading would make in the context of the sentences.
 
 ---
@@ -50,7 +52,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 [x] not heavy  
 
 **There is a better meaning**: (leave empty)    
-**Text is nonsensical**: [x]
+**Text is nonsensical**: [x] *(subjective)*
 
 **Explanation**: It doesn't matter what the second sentence says, because the first sentence grammatically wouldn't work with the "brightness, illumination" meaning, so it has to be "not heavy". Also: **Whether a text is nonsensical or not can be subjective!** If you can plausibly imagine that there is some fantasy story about a magic bag that lights up a path, you could argue that this text *does* make sense in some circumstances, in which case it is alright to not mark it as nonsensical.
 
@@ -100,10 +102,10 @@ There will be times where there is no objectively correct answer. Whatever the c
 
 You will first have to pass the qualification test, which consists of five questions. **You only have one attempt and you can only pass by annotating all of them correctly.** Carefully look at the sentences and determine which sense is more likely (or both/neither).
 
-**If you fail at the qualification test**: You will not be able to start the annotation. Feel free to contact us on Prolific. We can review your answers and give you another attempt.
+**If you fail at the qualification test**: You will not be able to start the annotation. ***IMPORTANT***: **Remember to copy the Screen-Out Completion Code that will be displayed to Prolific.** If we see that an honest effort was made, you will get a small amount of money as compensation for your time.
 
-**If you succeed at the qualification test**: Once you pass the qualification test, you will automatically unlock access to the annotation page. It is structurally identical to the qualification. Each annotator is assigned around 115 samples. 
+**If you succeed at the qualification test**: Once you pass the qualification test, you will automatically unlock access to the annotation page. It is structurally identical to the qualification. Each annotator is assigned around 65 samples. We expect each sample to take 30-60 seconds, so it will likely take around 45 minutes in total.
 
-Your progress for both qualification and annotation is **saved automatically** anytime you press the *NEXT* button. If you close the tab, you can later log in again and continue where you left off.
+Your progress for both qualification and annotation is **saved automatically** anytime you press the *NEXT* button.
 
 ### **Good luck and have fun!**

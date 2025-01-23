@@ -28,7 +28,7 @@
         "correct_answer": [0, 0]
     },
     "5": {
-        "sentence": "When I went to the [bank], I was surprised to find some money on the ground.",
+        "sentence": "They are going to the [bank] this afternoon.",
         "word": "bank",
         "meaning1": "sloping land (especially the slope beside a body of water)",
         "meaning2": "a financial institution that accepts deposits and channels the money into lending activities.",
