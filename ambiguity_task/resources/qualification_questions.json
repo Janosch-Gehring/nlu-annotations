@@ -28,7 +28,7 @@
         "correct_answer": [0, 0]
     },
     "5": {
-        "sentence": "They are going to the [bank] this afternoon.",
+        "sentence": "I found something strange at the [bank].",
         "word": "bank",
         "meaning1": "sloping land (especially the slope beside a body of water)",
         "meaning2": "a financial institution that accepts deposits and channels the money into lending activities.",
