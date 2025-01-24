@@ -57,7 +57,7 @@ def authenticate_user(user_id: str) -> str:
             return task
         
 
-user_id = st.text_input("Please enter the 8-digit User ID you received:", max_chars=100)
+user_id = st.text_input("Please enter the 8-digit User ID (password) you received:", max_chars=100)
 if user_id:
     # check if user id is the secret admin password
     if authenticate_admin(user_id):
@@ -65,5 +65,5 @@ if user_id:
     elif task := authenticate_user(user_id):
         log_in(user_id, task=task)
     else:
-        st.write("The entered ID does not exist. Please only enter the ID that was sent to you.")
+        st.write("The entered ID does not exist. Please only enter the 8 digit password (not name!) that was sent to you on Prolific.")
         
