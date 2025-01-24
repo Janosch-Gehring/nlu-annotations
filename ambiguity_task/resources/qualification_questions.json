@@ -28,7 +28,7 @@
         "correct_answer": [0, 0]
     },
     "5": {
-        "sentence": "I found something strange at the [bank].",
+        "sentence": "The letter told me where to meet him. So after reading it, I went to the [bank].",
         "word": "bank",
         "meaning1": "sloping land (especially the slope beside a body of water)",
         "meaning2": "a financial institution that accepts deposits and channels the money into lending activities.",
