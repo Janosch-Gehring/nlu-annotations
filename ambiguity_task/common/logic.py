@@ -9,7 +9,7 @@ def check_if_qualified(annotations: dict) -> bool:
     """
     qualification_questions = read_json_from_file(TASK_INFO["ambiguity_task"]["qualification_filepath"])
 
-    needed_score = 10
+    needed_score = 9
     score = 0
     for question_id in qualification_questions:
         if qualification_questions[question_id]["correct_answer"][0] == annotations["qualification"][int(question_id)-1]["meaning1"]:

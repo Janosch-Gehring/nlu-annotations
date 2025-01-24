@@ -152,7 +152,7 @@ def finish_qualification(qualification_function: str):
     else:
         st.write("The qualification test has ended. Please wait a moment...")
         user_repository.set_qualification(st.session_state.user_id, setting=-1)
-        user_repository.reset_annotation(st.session_state.user_id, key="qualification")
+        # user_repository.reset_annotation(st.session_state.user_id, key="qualification")
         st.rerun()
 
     # reset progress to beginning (important in case an admin decides to reset qualification)
