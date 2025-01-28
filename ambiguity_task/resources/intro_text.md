@@ -2,12 +2,12 @@
 
 ## Overview
 
-You will see a short text of either one or two sentences, in which one word is highlighted in color. The highlighted word typically can take on two (or more) different meanings, depending on the context. Your task is to annotate which of the two displayed meanings of the word is likely to be the correct one. 
+You will see a short text of either one or two sentences, in which one word is highlighted in color. The highlighted word typically can take on two (or more) different meanings, depending on the context. Your task is to annotate which of the two displayed meanings of the word is likely to be the correct one.
 
 The general rules are as follows:
 
 * If one of the word senses is clearly likelier than the other, only pick that one.
-* If both word senses seem plausible, pick both. Even if one word sense is generally more frequent than the other, both should be picked if the meaning is plausible in the given context.
+* **Important: If both word senses seem plausible, pick both**. Even if one word sense is generally more frequent than the other, both should be picked if the meaning is plausible in the given context.
 * If the word has a third word sense that seems more plausible than either of the displayed meanings, pick neither and comment the sense in the free text field.
 
 You can also mark sentences as *nonsensical*, meaning that the text is strange no matter which meaning of the word is used. Even if a sentence is nonsensical, try picking the meaning that makes it 'less nonsensical'. You can simply go with your intuition here. 
