@@ -193,7 +193,7 @@ def skip_to_next_sample(index: int, samples: dict, grouping: int, direction: int
     if index < 1:
         return 1
     while True:
-        if str(index) not in samples:  # account for samples having id
+        if str(index) not in samples:  # account for samples having id gaps
             index += direction
             continue
         checked_sample = samples[str(index)]
