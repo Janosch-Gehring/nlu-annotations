@@ -2,7 +2,7 @@ import streamlit as st
 
 from core.scripts import database_repository, admin_functions
 
-TASK_OPTIONS = ("None selected", "ambiguity_task", "example_task")
+TASK_OPTIONS = ("None selected", "ambiguity_task", "example_task", "ambistory_task")
 
 if "database" not in st.session_state:
     st.session_state.database = "Press the other button first"

@@ -14,7 +14,12 @@ TASK_INFO = {
     "example_task": {
         "annotation_filepath": "example_task/resources/samples.json",
         "qualification_filepath": "example_task/resources/qualification_samples.json",
-        "number_of_annotator_groups": 2
+        "number_of_annotator_groups": 2,
+    },
+    "ambistory_task": {
+        "annotation_filepath": "ambistory_task/resources/story_samples.json",
+        "qualification_filepath": "ambistory_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 1
     }
 }
 
@@ -188,6 +193,9 @@ def skip_to_next_sample(index: int, samples: dict, grouping: int, direction: int
     if index < 1:
         return 1
     while True:
+        if str(index) not in samples:  # account for samples having id
+            index += direction
+            continue
         checked_sample = samples[str(index)]
         if ("grouping" not in checked_sample) or (grouping == checked_sample["grouping"]):
             break  # break when finding relevant sample

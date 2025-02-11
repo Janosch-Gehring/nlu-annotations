@@ -1,0 +1,506 @@
+{
+    "1": {
+        "sentence": "The [hit] was a real triumph, creating a tremendous impact with its collision.",
+        "word": "hit",
+        "meaning1": "the act of contacting one thing with another",
+        "meaning2": "a conspicuous success",
+        "precontext": "The band had worked tirelessly on their new album. When the release day finally arrived, excitement rippled through the crew. Everyone anticipated the world would finally recognize their effort."
+    },
+    "2": {
+        "sentence": "The collision was a [hit] that left a huge impact on the audience.",
+        "word": "hit",
+        "meaning1": "the act of contacting one thing with another",
+        "meaning2": "a conspicuous success",
+        "precontext": "The local theater had been advertising its latest production for weeks. Crowds gathered, eager to see the show that everyone was talking about. As the curtains rose, anticipation filled the air.  "
+    },
+    "3": {
+        "sentence": "The impact of his [hit] song was like a collision of sensation and triumph.",
+        "word": "hit",
+        "meaning1": "the act of contacting one thing with another",
+        "meaning2": "a conspicuous success",
+        "precontext": "Jason spent weeks perfecting his new track in the studio. He never imagined it would catch the attention of so many people. Everyone was talking about its unexpected power and energy."
+    },
+    "4": {
+        "sentence": "Despite the gym's high security, he managed to use a pole and [vault] over the locked safe.",
+        "word": "vault",
+        "meaning1": "a strongroom or compartment (often made of steel) for safekeeping of valuables",
+        "meaning2": "the act of jumping over an obstacle",
+        "precontext": "Tom had been planning his heist for weeks. He knew the gym was known for its tight security, but he was determined to succeed. The challenge excited him, and he felt confident in his ability to overcome any obstacle."
+    },
+    "5": {
+        "sentence": "In the midst of the competition, the security of his victory hinged on the crucial [vault] over the final hurdle.",
+        "word": "vault",
+        "meaning1": "a strongroom or compartment (often made of steel) for safekeeping of valuables",
+        "meaning2": "the act of jumping over an obstacle",
+        "precontext": "Jake was known for his agility and his knack for strategic planning. The championship was an important event, testing both physical skill and tactical cunning. As the crowd watched in anticipation, Jake prepared for his defining moment."
+    },
+    "6": {
+        "sentence": "The guilt-ridden man's confession was the moment he chose to [admit].",
+        "word": "admit",
+        "meaning1": "declare to be true or admit the existence or reality or truth of",
+        "meaning2": "allow to enter; grant entry to",
+        "precontext": "The man sat alone in his dimly lit living room, staring out the window at the bustling street below. Every conversation with his family had become a labyrinth of half-truths and concealed emotions. Through endless nights, he battled with the heavy weight on his conscience, knowing a decision was inevitable.  "
+    },
+    "7": {
+        "sentence": "After the confession, the guild's acknowledgment led to my [admit], mixed with guilt.",
+        "word": "admit",
+        "meaning1": "declare to be true or admit the existence or reality or truth of",
+        "meaning2": "allow to enter; grant entry to",
+        "precontext": "The guild had been my refuge for many years. Recently, rumors of betrayal had begun to surface. I decided it was time to come forward with what I knew.  "
+    },
+    "8": {
+        "sentence": "The guilt in his confession made him finally [admit] his need for acceptance.",
+        "word": "admit",
+        "meaning1": "declare to be true or admit the existence or reality or truth of",
+        "meaning2": "allow to enter; grant entry to",
+        "precontext": "John had always been quiet, keeping his thoughts to himself. He had never quite felt like he belonged, lingering on the fringes of every group. Lately, the weight of his secrets had been pressing down on him.  "
+    },
+    "9": {
+        "sentence": "In the kitchen, with breakfast of buttered bread underway, he decided to [toast] the celebration early.",
+        "word": "toast",
+        "meaning1": "make brown and crisp by heating",
+        "meaning2": "propose a toast to",
+        "precontext": "John awoke early on the day of the big event. He could hear the birds chirping outside his window. Entering the kitchen, he found everything he needed for a quiet morning routine."
+    },
+    "10": {
+        "sentence": "At the breakfast celebration, he prepared to [toast] the bread with butter in the kitchen.",
+        "word": "toast",
+        "meaning1": "make brown and crisp by heating",
+        "meaning2": "propose a toast to",
+        "precontext": "Jim woke up early on the day of the big family gathering. He was excited to celebrate with everyone and had promised to help with the preparations. The kitchen was buzzing with activity as he joined in to lend a hand.  "
+    },
+    "11": {
+        "sentence": "In the kitchen celebration, it was difficult to decide if the [toast] was for the breakfast or the speech.",
+        "word": "toast",
+        "meaning1": "make brown and crisp by heating",
+        "meaning2": "propose a toast to",
+        "precontext": "The family gathered early in the morning for a special occasion. The smell of coffee and laughter filled the air. Everyone had something to contribute to the lively kitchen atmosphere."
+    },
+    "12": {
+        "sentence": "The efficiency of the manufacturing [plant] relies on photosynthesis and biodiversity.",
+        "word": "plant",
+        "meaning1": "buildings for carrying on industrial labor",
+        "meaning2": "(botany) a living organism lacking the power of locomotion",
+        "precontext": "In a remote village, a group of entrepreneurs decided to establish a unique factory. They noticed the area's rich plant life and the vibrant ecosystem surrounding it. This environment seemed perfect to integrate natural processes into their business model."
+    },
+    "13": {
+        "sentence": "The efficiency of the [plant] is crucial for manufacturing production and promoting biodiversity in the ecosystem.",
+        "word": "plant",
+        "meaning1": "buildings for carrying on industrial labor",
+        "meaning2": "(botany) a living organism lacking the power of locomotion",
+        "precontext": "The town relied heavily on its main source of income. Local leaders emphasized the importance of sustainability. They sought to balance economic growth with environmental preservation.  "
+    },
+    "14": {
+        "sentence": "At the lottery raffle, the person chosen to [draw] was busy sketching a well on a canvas.",
+        "word": "draw",
+        "meaning1": "bring, take, or pull out of a container or from under a cover",
+        "meaning2": "represent by making a drawing of, as with a pencil, chalk, etc. on a surface",
+        "precontext": "Every year, the town held a large raffle as part of the summer festival. Participants eagerly filled the hall, clutching their tickets with hope. The organizer was about to announce who would be selecting the winning ticket.  "
+    },
+    "15": {
+        "sentence": "At the raffle, the lottery well appeared in the art sketch, ready for the [draw].",
+        "word": "draw",
+        "meaning1": "bring, take, or pull out of a container or from under a cover",
+        "meaning2": "represent by making a drawing of, as with a pencil, chalk, etc. on a surface",
+        "precontext": "The small village held an annual festival each summer. This year, a local artist decided to create a sketch to capture the event's highlights. Villagers eagerly awaited the moment when the raffle would be featured in the artwork.  "
+    },
+    "16": {
+        "sentence": "After winning the lottery, she decided to [draw] from her well of artistic talent and sketch a canvas.",
+        "word": "draw",
+        "meaning1": "bring, take, or pull out of a container or from under a cover",
+        "meaning2": "represent by making a drawing of, as with a pencil, chalk, etc. on a surface",
+        "precontext": "Samantha always enjoyed doodling in her free time. One day, she bought a lottery ticket on a whim. To her surprise, she won a substantial amount of money."
+    },
+    "17": {
+        "sentence": "The teacher's phonetic explanation helped me [spell] out the alphabet's meaning.",
+        "word": "spell",
+        "meaning1": "write or name the letters that comprise the conventionally accepted form of (a word or part of a word)",
+        "meaning2": "indicate or signify",
+        "precontext": "I always struggled with understanding the alphabet. My teacher noticed my confusion during a class activity. She decided to spend extra time helping me after school."
+    },
+    "18": {
+        "sentence": "With phonetic accuracy, you mastered the alphabet and learned how to [spell].",
+        "word": "spell",
+        "meaning1": "write or name the letters that comprise the conventionally accepted form of (a word or part of a word)",
+        "meaning2": "indicate or signify",
+        "precontext": "You have always loved letters and words. Every sound seemed like a puzzle waiting for you to solve. Your parents noticed how quickly you picked up on the nuances of language.  "
+    },
+    "19": {
+        "sentence": "Learning to [spell] in a new language involves understanding the alphabet, pronunciation, and meaning of words.",
+        "word": "spell",
+        "meaning1": "write or name the letters that comprise the conventionally accepted form of (a word or part of a word)",
+        "meaning2": "indicate or signify",
+        "precontext": "Maria moved to a new country and decided to learn the local language. She enrolled in a language class to help her communicate better. Her teacher explained the steps needed to become proficient."
+    },
+    "20": {
+        "sentence": "The bullet was his last [shot], either as a piece of ammunition or an opportunity.",
+        "word": "shot",
+        "meaning1": "a solid missile discharged from a firearm",
+        "meaning2": "a chance to do something",
+        "precontext": "He watched the sun dip below the horizon, painting the sky with hues of orange and pink. The weight of his decisions rested heavily on his shoulders, each choice leading him down this irreversible path. Alone in the fading light, he contemplated the single bullet left in his pocket."
+    },
+    "21": {
+        "sentence": "The soldier's last cartridge gave him another [shot] in the intense firefight.",
+        "word": "shot",
+        "meaning1": "a solid missile discharged from a firearm",
+        "meaning2": "a chance to do something",
+        "precontext": "The battle raged on as the sun began to set. He crouched behind a crumbling wall, desperately scanning the ground. Bullets whizzed past while his heart pounded loudly in his ears.  "
+    },
+    "22": {
+        "sentence": "The bullet was his last [shot], both as ammunition and an opportunity.",
+        "word": "shot",
+        "meaning1": "a solid missile discharged from a firearm",
+        "meaning2": "a chance to do something",
+        "precontext": "John sat quietly in the dimly lit room, revolver in hand. He knew he had to make a decision soon. Outside, the distant noise of chaos echoed in the night."
+    },
+    "23": {
+        "sentence": "The timber resources provided a [raft] of opportunities for innovative floatation challenges in water navigation.",
+        "word": "raft",
+        "meaning1": "a flat float (usually made of logs or planks) that can be used for transport or as a platform for swimmers",
+        "meaning2": "(often followed by `of') a large number or amount or extent",
+        "precontext": "The small village bordered a vast and ancient forest filled with towering pines and firs. The villagers relied on the forest for their livelihoods, harvesting timber with great care and respect for nature. Their skilled hands turned the wood into products that supported the community and attracted tradespeople from afar.  "
+    },
+    "24": {
+        "sentence": "With a [raft] of resources, navigation and flotation on water became less of a challenge.",
+        "word": "raft",
+        "meaning1": "a flat float (usually made of logs or planks) that can be used for transport or as a platform for swimmers",
+        "meaning2": "(often followed by `of') a large number or amount or extent",
+        "precontext": "The villagers had long struggled with the dangers of the river. Whenever they attempted crossing, they faced turbulent waters and hidden obstacles. Recently, they decided to enhance their safety with new tools and equipment."
+    },
+    "25": {
+        "sentence": "The innovation challenges formed a [raft] of opportunities for water floatation and timber navigation resources.",
+        "word": "raft",
+        "meaning1": "a flat float (usually made of logs or planks) that can be used for transport or as a platform for swimmers",
+        "meaning2": "(often followed by `of') a large number or amount or extent",
+        "precontext": "The small coastal town thrived on both its fishing industry and innovative spirit. Local inventors often gathered to create new solutions for common challenges. Recently, they focused on projects that could improve water travel and resource management."
+    },
+    "26": {
+        "sentence": "The mechanic couldn't tell if the [break_down] was due to a malfunction or required further analysis.",
+        "word": "break_down",
+        "meaning1": "stop operating or functioning",
+        "meaning2": "make a mathematical, chemical, or grammatical analysis of; break down into components or essential features",
+        "precontext": "The car started acting strangely on the way back home. Jack noticed an unusual noise coming from the engine as he drove. He decided to take it to the nearest garage for a check-up.  "
+    },
+    "27": {
+        "sentence": "When traveling, it's important to have a strong [case] for both storage and defense.",
+        "word": "case",
+        "meaning1": "a portable container for carrying several objects",
+        "meaning2": "a statement of facts and reasons used to support an argument",
+        "precontext": "John was preparing for a long trip across the country. He packed everything he might need for unexpected scenarios. His mind was set on ensuring he was ready for both practical needs and personal justification."
+    },
+    "28": {
+        "sentence": "The lawyer had to travel with the [case] containing his essential toolkit and evidence.",
+        "word": "case",
+        "meaning1": "a portable container for carrying several objects",
+        "meaning2": "a statement of facts and reasons used to support an argument",
+        "precontext": "The lawyer had been preparing for this trip for months. He knew that everything depended on what he brought with him. The trial was set to begin in a distant city, and he couldn't afford any mistakes.  "
+    },
+    "29": {
+        "sentence": "In his travel toolkit, he always includes a strong [case] containing essential evidence.",
+        "word": "case",
+        "meaning1": "a portable container for carrying several objects",
+        "meaning2": "a statement of facts and reasons used to support an argument",
+        "precontext": "Jack was an adventurer who loved solving mysteries. He often traveled to far-off places, searching for clues. His discoveries always led him to something unexpected."
+    },
+    "30": {
+        "sentence": "On the ranch, the cattle were grazing before being moved to the [range] by the gas burner.",
+        "word": "range",
+        "meaning1": "a large tract of grassy open land on which livestock can graze",
+        "meaning2": "a kitchen appliance used for cooking food",
+        "precontext": "The morning sun rose over the wide expanse of the ranch. Jim was multitasking, trying to prepare breakfast while keeping an eye on the cattle. The aroma of sizzling bacon wafted through the open kitchen window."
+    },
+    "31": {
+        "sentence": "The cattle on the ranch appreciated the [range], whether it was for grazing or cooking.",
+        "word": "range",
+        "meaning1": "a large tract of grassy open land on which livestock can graze",
+        "meaning2": "a kitchen appliance used for cooking food",
+        "precontext": "Jack was proud of his new ranch. He spent his days tending to the vast fields and taking care of the livestock. In the evenings, he enjoyed experimenting with new recipes in the kitchen."
+    },
+    "32": {
+        "sentence": "At the ranch, the cattle were grazing while the [range] was heating up for dinner.",
+        "word": "range",
+        "meaning1": "a large tract of grassy open land on which livestock can graze",
+        "meaning2": "a kitchen appliance used for cooking food",
+        "precontext": "Jim and his family were visiting their uncle's ranch for summer break. They arrived in the late afternoon, excited for a week of adventure and horseback riding. After unpacking, Sarah offered to help set up for the first dinner of their stay."
+    },
+    "33": {
+        "sentence": "Mastering [focus] can increase your productivity, whether that's the sharpness of an image or concentration on a goal.",
+        "word": "focus",
+        "meaning1": "the concentration of attention or energy on something",
+        "meaning2": "maximum clarity or distinctness of an image rendered by an optical system",
+        "precontext": "Jennifer spent her weekends either painting landscapes or setting career goals. She loved working on her visual art skills and also enjoyed personal development workshops. Balancing these passions kept her busy and motivated for what was next."
+    },
+    "34": {
+        "sentence": "Productivity and clear goal-setting can improve the [focus] of your work, adding depth and clarity.",
+        "word": "focus",
+        "meaning1": "the concentration of attention or energy on something",
+        "meaning2": "maximum clarity or distinctness of an image rendered by an optical system",
+        "precontext": "Lisa had been struggling to make sense of her scattered thoughts. Her desk was cluttered with papers and unfinished projects. Each day felt like a blur, with nothing standing out distinctly."
+    },
+    "35": {
+        "sentence": "To enhance productivity and mindfulness, it's crucial to maintain acute [focus] on your goal-setting.",
+        "word": "focus",
+        "meaning1": "the concentration of attention or energy on something",
+        "meaning2": "maximum clarity or distinctness of an image rendered by an optical system",
+        "precontext": "Emma sat quietly in her art studio, surrounded by canvases and brushes. She was trying to decide on the perfect theme for her next painting project. Lately, the line between her creative work and daily tasks seemed to blur more than ever."
+    },
+    "36": {
+        "sentence": "The flavor of the umami sample gave a [taste] of the full palate experience.",
+        "word": "taste",
+        "meaning1": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus",
+        "meaning2": "a brief experience of something",
+        "precontext": "Lena walked into the small, dimly lit room where various samples were laid out on a wooden table. She had been invited to a special tasting session that promised a journey through a spectrum of unique flavors. Each sample was said to offer a rich experience that couldn't be easily forgotten."
+    },
+    "37": {
+        "sentence": "The preview offered a [taste] of the new umami flavor, pleasing the palate and gustatory anticipation.",
+        "word": "taste",
+        "meaning1": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus",
+        "meaning2": "a brief experience of something",
+        "precontext": "The culinary fair was bustling with eager attendees. A new vendor promised something unique with their latest offering. Many gathered, curious about the hype surrounding the umami sensation."
+    },
+    "38": {
+        "sentence": "The brief preview allowed only a [taste] of the flavor's unique umami sensation.",
+        "word": "taste",
+        "meaning1": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus",
+        "meaning2": "a brief experience of something",
+        "precontext": "Sarah was excited to attend the food festival downtown. She had heard rumors about a special dish that everyone was raving about. Eagerly, she joined the line to sample the chef's latest culinary creation."
+    },
+    "39": {
+        "sentence": "Despite her impaired vision, she was determined to [see] the journey through.",
+        "word": "see",
+        "meaning1": "perceive by sight or have the power to perceive by sight",
+        "meaning2": "remain with until completion",
+        "precontext": "Margaret had always loved the thrill of adventure. Her eyesight had been getting worse over the years, but that never stopped her. She had one final trip she longed to complete."
+    },
+    "40": {
+        "sentence": "His commitment was clear, he would [see] the journey through despite his failing vision.",
+        "word": "see",
+        "meaning1": "perceive by sight or have the power to perceive by sight",
+        "meaning2": "remain with until completion",
+        "precontext": "John had always loved adventures, even as a child. He was determined to embark on one last great expedition, despite the warnings from his friends. They were worried about his health, but John felt a strong pull to complete what he had started.  "
+    },
+    "41": {
+        "sentence": "Through her journey, her commitment to improve her vision allowed her to truly [see].",
+        "word": "see",
+        "meaning1": "perceive by sight or have the power to perceive by sight",
+        "meaning2": "remain with until completion",
+        "precontext": "Maria had always struggled with clarity and focus. She often found herself wandering through life, both literally and metaphorically. One day, she decided to embark on a journey to gain what she felt she lacked the most."
+    },
+    "42": {
+        "sentence": "The lawyer observed the menu closely while sitting on a stool at the [bar].",
+        "word": "bar",
+        "meaning1": "a counter where you can obtain food or drink",
+        "meaning2": "the body of individuals qualified to practice law in a particular jurisdiction",
+        "precontext": "The lawyer walked into the trendy new spot that everyone in town was talking about. He was curious about the different specialties they offered. Several of his colleagues were already chatting away in the corner."
+    },
+    "43": {
+        "sentence": "Under stress, tension made him [snap] during the accident.",
+        "word": "snap",
+        "meaning1": "separate or cause to separate abruptly",
+        "meaning2": "utter in an angry, sharp, or abrupt tone",
+        "precontext": "John had been working long hours for weeks on end. He felt the weight of mounting deadlines and increasing pressure from his boss. That morning, he rushed out the door with a head full of worries."
+    },
+    "44": {
+        "sentence": "During times of high stress, any unexpected accident could make one [snap].",
+        "word": "snap",
+        "meaning1": "separate or cause to separate abruptly",
+        "meaning2": "utter in an angry, sharp, or abrupt tone",
+        "precontext": "Jane had been juggling multiple deadlines at work. Her boss had been particularly demanding that week. She barely had time for herself, let alone to relax."
+    },
+    "45": {
+        "sentence": "Under high stress and tension, he might [snap] at any moment.",
+        "word": "snap",
+        "meaning1": "separate or cause to separate abruptly",
+        "meaning2": "utter in an angry, sharp, or abrupt tone",
+        "precontext": "Tom had been working long hours at the factory. Each day, the noise and pressure seemed to build around him. As deadlines loomed, his patience wore increasingly thin."
+    },
+    "46": {
+        "sentence": "His passion and vision turned joules of [energy] into a powerful, determined momentum at work.",
+        "word": "energy",
+        "meaning1": "(physics) a thermodynamic quantity equivalent to the capacity of a physical system to do work; the units of energy are joules or ergs",
+        "meaning2": "enterprising or ambitious drive",
+        "precontext": "John had always been fascinated by the wonders of electricity. Every day, he spent hours tinkering with gadgets in his small workshop. His friends often admired his relentless enthusiasm and drive.  "
+    },
+    "47": {
+        "sentence": "His passion and determination created an [energy] that measured in joules, fueling his vision and work.",
+        "word": "energy",
+        "meaning1": "(physics) a thermodynamic quantity equivalent to the capacity of a physical system to do work; the units of energy are joules or ergs",
+        "meaning2": "enterprising or ambitious drive",
+        "precontext": "John was always fascinated by the forces that shaped the universe. He spent countless hours in his small workshop, surrounded by books and strange gadgets. His experiments were a blend of science and imagination."
+    },
+    "48": {
+        "sentence": "His passion, vision, and determination give him the [energy] to work on thermodynamics, mastering the concept of joules.",
+        "word": "energy",
+        "meaning1": "(physics) a thermodynamic quantity equivalent to the capacity of a physical system to do work; the units of energy are joules or ergs",
+        "meaning2": "enterprising or ambitious drive",
+        "precontext": "John always had a curious mind, fascinated by the mysteries of the universe. He spent countless hours in his room, surrounded by books and experiments. Everyone admired his relentless pursuit of knowledge."
+    },
+    "49": {
+        "sentence": "In the exam, we had to [count] on our ability to calculate and tally quickly.",
+        "word": "count",
+        "meaning1": "determine the number or amount of",
+        "meaning2": "have faith or confidence in",
+        "precontext": "We walked into the large hall, feeling a mix of excitement and nervousness. The exam papers were neatly stacked at the front of the room, waiting for us. Our teacher reminded us about the importance of relying on what we'd learned."
+    },
+    "50": {
+        "sentence": "You can always [count] on him to calculate the tally quickly.",
+        "word": "count",
+        "meaning1": "determine the number or amount of",
+        "meaning2": "have faith or confidence in",
+        "precontext": "Jake had been working at the shop for over a year. Every day, there seemed to be more tasks than the last. Today, they needed to finalize the inventory before closing."
+    },
+    "51": {
+        "sentence": "After a long day, what I crave is the [rest], be it the downtime or the leftovers.",
+        "word": "rest",
+        "meaning1": "something left after other parts have been taken away",
+        "meaning2": "a pause for relaxation",
+        "precontext": "I spent the entire afternoon preparing the meal. The house was filled with chatter and laughter as friends gathered around the table. By the end of the night, the room was quiet and the dishes piled high in the sink."
+    },
+    "52": {
+        "sentence": "After a long day, the balance of my energy is dedicated to [rest].",
+        "word": "rest",
+        "meaning1": "something left after other parts have been taken away",
+        "meaning2": "a pause for relaxation",
+        "precontext": "I spent all morning sorting through boxes in the attic. By afternoon, I had helped all my neighbors with their errands. As evening approached, I was finally able to turn my attention to my own home.  "
+    },
+    "53": {
+        "sentence": "After the hectic day, he needed the [rest] for tranquility and rejuvenation.",
+        "word": "rest",
+        "meaning1": "something left after other parts have been taken away",
+        "meaning2": "a pause for relaxation",
+        "precontext": "He spent the day sorting through the pile of papers scattered across his desk. As the sun dipped below the horizon, he finally finished organizing the chaotic mess. Despite his progress, a sense of incompletion still haunted him."
+    },
+    "54": {
+        "sentence": "With proper posture, balance, stability, and endurance, he managed to maintain his [stand].",
+        "word": "stand",
+        "meaning1": "be standing; be upright",
+        "meaning2": "be in some specified state or condition",
+        "precontext": "Tom stepped onto the slackline, feeling the soft breeze against his face. The crowd watched intently, silence settling over them like a blanket. He knew this performance could make or break his career."
+    },
+    "55": {
+        "sentence": "Her balance and posture demonstrate great endurance, a [stand] of stability.",
+        "word": "stand",
+        "meaning1": "be standing; be upright",
+        "meaning2": "be in some specified state or condition",
+        "precontext": "Emma trained every morning in the small studio at the corner of the street. She loved how the soft light poured in through the large windows, creating a warm and inviting space. Her movements were graceful yet deliberate, a dance she had perfected over many years."
+    },
+    "56": {
+        "sentence": "The data was put into a [record], becoming timeless history, like a vinyl on a turntable.",
+        "word": "record",
+        "meaning1": "anything (such as a document or a phonograph record or a photograph) providing permanent evidence of or information about past events",
+        "meaning2": "sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove",
+        "precontext": "In the quiet library, old melodies softly echoed through the room. Anna carefully flipped through the pages of dusty records, each one holding a story of its own. She leaned closer, scribbling notes and humming along with forgotten tunes.  "
+    },
+    "57": {
+        "sentence": "The archival documentation included a [record] that captured a piece of history.",
+        "word": "record",
+        "meaning1": "anything (such as a document or a phonograph record or a photograph) providing permanent evidence of or information about past events",
+        "meaning2": "sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove",
+        "precontext": "Anna visited her grandfather's attic to help him organize his old belongings. She found boxes filled with letters, photographs, and vinyl records. Each item seemed to hold a wonderful story from the past."
+    },
+    "58": {
+        "sentence": "The archival documentation in the [record] kept a data of our musical history on vinyl.",
+        "word": "record",
+        "meaning1": "anything (such as a document or a phonograph record or a photograph) providing permanent evidence of or information about past events",
+        "meaning2": "sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove",
+        "precontext": "The old building housed a collection of treasures from the past. Every visitor seemed to find something that intrigued them. Among these items were documents and old phonograph disks that fascinated historians and music lovers alike."
+    },
+    "59": {
+        "sentence": "In the championship, the strike of the [match] could set either the fire or the event alight.",
+        "word": "match",
+        "meaning1": "lighter consisting of a thin piece of wood or cardboard tipped with combustible chemical; ignites with friction",
+        "meaning2": "a formal contest in which two or more persons or teams compete",
+        "precontext": "The anticipation in the air was almost tangible as the crowd gathered around. The organizers had worked diligently to ensure everything was ready for the big day. Everyone knew that the climax of the event would be unforgettable regardless of how it unfolded."
+    },
+    "60": {
+        "sentence": "During the championship event, a single strike could light the [match].",
+        "word": "match",
+        "meaning1": "lighter consisting of a thin piece of wood or cardboard tipped with combustible chemical; ignites with friction",
+        "meaning2": "a formal contest in which two or more persons or teams compete",
+        "precontext": "The air was tense as the two competitors faced each other silently. Spectators lined the arena, eagerly anticipating the outcome. Both sides knew their skills would be tested to the limit today.  "
+    },
+    "61": {
+        "sentence": "During the championship event, one wrong move could strike a [match] and set fire to the competition.",
+        "word": "match",
+        "meaning1": "lighter consisting of a thin piece of wood or cardboard tipped with combustible chemical; ignites with friction",
+        "meaning2": "a formal contest in which two or more persons or teams compete",
+        "precontext": "The arena buzzed with anticipation as the competitors prepared for the final showdown. Spectators filled the stands, eager to witness a fiery display of skill and strategy. Both teams knew that the stakes were high and everything depended on their next performance."
+    },
+    "62": {
+        "sentence": "The [root], key for absorption and anchorage, lies in soil rich with nutrients.",
+        "word": "root",
+        "meaning1": "(botany) the usually underground organ that lacks buds or leaves or nodes; absorbs water and mineral salts; usually it anchors the plant to the ground",
+        "meaning2": "the place where something begins, where it springs into being",
+        "precontext": "The village had flourished over the years, drawing people from everywhere.  At its heart, the ancient tree stood as a symbol of strength and mystery. Many believed its power came from something hidden beneath the surface.  "
+    },
+    "63": {
+        "sentence": "The soil, rich in nutrients, served as the [root] for the tree's absorption and anchorage.",
+        "word": "root",
+        "meaning1": "(botany) the usually underground organ that lacks buds or leaves or nodes; absorbs water and mineral salts; usually it anchors the plant to the ground",
+        "meaning2": "the place where something begins, where it springs into being",
+        "precontext": "In a quiet corner of the garden, a young tree was planted. The gardener had chosen the spot carefully, believing it to be just right. Much depended on the strength of the soil and its ability to nurture growth.  "
+    },
+    "64": {
+        "sentence": "The [root] of the plant aids in the absorption of nutrients from the soil, providing anchorage and foundation.",
+        "word": "root",
+        "meaning1": "(botany) the usually underground organ that lacks buds or leaves or nodes; absorbs water and mineral salts; usually it anchors the plant to the ground",
+        "meaning2": "the place where something begins, where it springs into being",
+        "precontext": "The story of the plant started in a small garden. It was planted there by a curious gardener who loved watching things grow. Over time, the plant reached toward the sky, growing stronger each day."
+    },
+    "65": {
+        "sentence": "The door install caused such distress that it started to [unhinge] him.",
+        "word": "unhinge",
+        "meaning1": "disturb in mind or make uneasy or cause to be worried or alarmed",
+        "meaning2": "remove the hinges from",
+        "precontext": "Jake was excited to see the newly delivered door finally arrive at his house. He spent all morning preparing the entryway and gathering the tools he would need. When the installer arrived, things didn't go as smoothly as Jake had hoped."
+    },
+    "66": {
+        "sentence": "The imbalance and agitation from anxiety can often [unhinge] a door from its frame.",
+        "word": "unhinge",
+        "meaning1": "disturb in mind or make uneasy or cause to be worried or alarmed",
+        "meaning2": "remove the hinges from",
+        "precontext": "Liam paced up and down the narrow hallway, feeling the pressure of impending deadlines. Outside, the wind howled, echoing the turmoil within his mind. He nervously glanced at the door, sensing both opportunity and chaos on the other side."
+    },
+    "67": {
+        "sentence": "The anxiety may [unhinge] him, causing distress and imbalance, during the door hardware installation.",
+        "word": "unhinge",
+        "meaning1": "disturb in mind or make uneasy or cause to be worried or alarmed",
+        "meaning2": "remove the hinges from",
+        "precontext": "James had always been uneasy about home improvement projects. When the time came to revamp the old kitchen, he decided to tackle it himself. As the day of the door hardware installation approached, he felt a deep sense of dread settling in.  "
+    },
+    "68": {
+        "sentence": "During the chaos, the loud [racket] from the tennis game added to the disturbance.",
+        "word": "racket",
+        "meaning1": "a loud and disturbing noise",
+        "meaning2": "a sports implement (usually consisting of a handle and an oval frame with a tightly interlaced network of strings) used to strike a ball (or shuttlecock) in various games",
+        "precontext": "The annual neighborhood sports day was in full swing. Children and adults were having fun all around. Suddenly, there was an unexpected power outage.  "
+    },
+    "69": {
+        "sentence": "During the uproar, the [racket] in the chaos was as hard to grip as a tennis match.",
+        "word": "racket",
+        "meaning1": "a loud and disturbing noise",
+        "meaning2": "a sports implement (usually consisting of a handle and an oval frame with a tightly interlaced network of strings) used to strike a ball (or shuttlecock) in various games",
+        "precontext": "The city streets were packed with people as the annual festival was in full swing. Vendors shouted over one another trying to attract business, and street performers captivated the crowds. Suddenly, a commotion spilled from the alley, drawing everyone's attention."
+    },
+    "70": {
+        "sentence": "At the funeral, amidst grief and mortality, some could only [croak] their complaints.",
+        "word": "croak",
+        "meaning1": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+        "meaning2": "make complaining remarks or noises under one's breath",
+        "precontext": "The sun was hidden behind heavy clouds as family and friends gathered at the old church. The air was thick with a mix of sorrow and tension, each person lost in their thoughts. Inside, whispers of past grievances lingered among those who had come to pay their respects."
+    },
+    "71": {
+        "sentence": "At the funeral, the bereaved's soft [croak] reflected their shared grief and mortality.",
+        "word": "croak",
+        "meaning1": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+        "meaning2": "make complaining remarks or noises under one's breath",
+        "precontext": "The church bell tolled slowly, echoing the sadness in the air. Friends and family gathered, each face etched with traces of a long shared history. Stories of laughter and tears swirled softly between the pews as everyone found their seats.  "
+    },
+    "72": {
+        "sentence": "At the funeral, amidst the grief, one could barely hear Uncle John's [croak].",
+        "word": "croak",
+        "meaning1": "pass from physical life and lose all bodily attributes and functions necessary to sustain life",
+        "meaning2": "make complaining remarks or noises under one's breath",
+        "precontext": "The family gathered at the small church on a cloudy afternoon. Uncle John had always been known for his quirky behavior. Everyone wondered what he might do on such a solemn day."
+    }
+}
