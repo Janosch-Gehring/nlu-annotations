@@ -20,6 +20,11 @@ TASK_INFO = {
         "annotation_filepath": "ambistory_task/resources/story_samples.json",
         "qualification_filepath": "ambistory_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 1
+    },
+    "ambisentence_task": {
+        "annotation_filepath": "ambisentence_task/resources/word_senses.json",
+        "qualification_filepath": "ambisentence_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 1
     }
 }
 
