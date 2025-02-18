@@ -25,7 +25,7 @@ else:
 Please confirm that you are human by completing the following qualification task.  
 You are presented a story where one word is highlighted in color. Despite the word having multiple word senses, the meaning is not ambiguous in this case. Please select only the meaning for the colored word that is more plausible in the context of the story.
     
-(Select exactly one checkbox for each sentence.)
+(Select exactly one checkbox for each story.)
     """)
 
     back_button = st.button(label="Back", key = 10 * index + 7)

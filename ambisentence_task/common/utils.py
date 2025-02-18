@@ -122,7 +122,7 @@ def print_annotation_schema_qualification(index: int) -> tuple:
     # display the "Sample 1/5" thing
     display_progress(key="qualification")
 
-    st.markdown("Read the following sentence:")
+    st.markdown("Read the following story:")
 
     st.markdown(format_sentence(question["precontext"] + "\n" + question["sentence"]))
 
