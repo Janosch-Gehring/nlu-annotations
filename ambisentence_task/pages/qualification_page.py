@@ -11,7 +11,7 @@ st.session_state.page = "ambisentence_task_qualification_page_sample" + str(st.s
 # user qualification of -1 or 1 mean that the test was already attempted
 user_qualification = user_repository.get_qualification()
 if user_qualification == 1:
-    st.markdown("\n## You have successfully completed the qualification test. \n\nRemember that unlike these short stories, you are supposed to write singular sentences where both meanings apply!\n\n\n Select **Annotation** on the navigation bar to your left to write some sentences.")
+    st.markdown("\n## You have successfully completed the qualification test. \n\nRemember that unlike these short stories, you are supposed to write singular sentences where both meanings apply!\n\n\n Select **Writing** on the navigation bar to your left to write some sentences.")
 elif user_qualification == -1:
     st.markdown("\n## You did not pass the qualification test. \n\n You have already attempted the qualification test and failed. Sorry about that! Please copy the below completion code into Prolific.\n\n")
     st.markdown("## Your completion code: " + os.getenv("PROLIFIC_SCREENOUT_CODE"))
