@@ -65,13 +65,13 @@ ambistory_annotation_page = st.Page(
 
 # Ambisentence Task Pages
 ambisentence_start_page = st.Page(
-    "ambisentence_task/pages/introduction_page.py", title="Ambiguous Sentences", icon="📜", url_path="ambistory_task_introduction"
+    "ambisentence_task/pages/introduction_page.py", title="Ambiguous Sentences", icon="❓", url_path="ambistory_task_introduction"
 )
 ambisentence_qualification_page = st.Page(
     "ambisentence_task/pages/qualification_page.py", title="Qualification", icon="🔑"
 )
 ambisentence_annotation_page = st.Page(
-    "ambisentence_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+    "ambisentence_task/pages/annotation_page.py", title="Writing", icon="✏️"
 )
 
 
