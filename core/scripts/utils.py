@@ -25,6 +25,11 @@ TASK_INFO = {
         "annotation_filepath": "ambisentence_task/resources/word_senses.json",
         "qualification_filepath": "ambisentence_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 1
+    },
+    "eval_ambisentence_task": {
+        "annotation_filepath":  "eval_ambisentence_task/resources/human_samples.json",
+        "qualification_filepath": "eval_ambisentence_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 1
     }
 }
 
