@@ -84,13 +84,14 @@ def print_annotation_schema(index: int) -> tuple:
     text_input = st.text_input(key=10*index, label="Write your sentence here.", max_chars=1000)
 
     if text_input:
-        if text_input.lower().count(sample["word"].lower()) != 1:
-            st.write("Make sure the word appears in your sentence exactly once.")
+        # some words have different flexions... lets leave this out for now.
+        #if text_input.lower().count(sample["word"].lower()) != 1:
+        #    st.write("Make sure the word appears in your sentence exactly once.")
+        #else:
+        if len(text_input) < 10:
+            st.write("Try something longer.")
         else:
-            if len(text_input) < 10:
-                st.write("Try something longer.")
-            else:
-                next_input = st.button(key = 10 * index + 9, label="Next", help="Save this annotation and advance to the next one.")
+            next_input = st.button(key = 10 * index + 9, label="Next", help="Save this annotation and advance to the next one.")
 
     if reroll_button:
         random.shuffle(samples)
