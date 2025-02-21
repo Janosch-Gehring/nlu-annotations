@@ -24,7 +24,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
     if sample_preload is None:
         value_checkbox1, value_checkbox2, value_textinput1, value_checkbox3, value_textinput2 = None, None, "", None, ""
     else:
-        value_checkbox1, value_checkbox2, value_textinput1, value_checkbox3, value_textinput2, value_textinput3 = (sample_preload["meaning1"], sample_preload["meaning2"], 
+        value_checkbox1, value_checkbox2, value_textinput1, value_checkbox3, value_textinput2 = (sample_preload["meaning1"], sample_preload["meaning2"], 
                                                                                                  sample_preload["other_label"], sample_preload["nonsensical"],
                                                                                                  sample_preload["comment"])
     
