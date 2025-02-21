@@ -30,6 +30,11 @@ TASK_INFO = {
         "annotation_filepath":  "eval_ambisentence_task/resources/human_samples.json",
         "qualification_filepath": "eval_ambisentence_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 1
+    },
+    "ambistory2_task": {
+        "annotation_filepath": "ambistory2_task/resources/story_samples.json",
+        "qualification_filepath": "ambistory2_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 1
     }
 }
 

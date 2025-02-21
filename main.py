@@ -85,6 +85,17 @@ eval_ambisentence_annotation_page = st.Page(
     "eval_ambisentence_task/pages/annotation_page.py", title="Annotation", icon="🏭"
 )
 
+# Ambistory2 Task Pages
+ambistory2_start_page = st.Page(
+    "ambistory2_task/pages/introduction_page.py", title="Ambiguous Story Task Intro", icon="📜", url_path="ambistory2_task_introduction"
+)
+ambistory2_qualification_page = st.Page(
+    "ambistory2_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+ambistory2_annotation_page = st.Page(
+    "ambistory2_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+)
+
 
 
 # Create navigation bar
@@ -113,6 +124,9 @@ elif st.session_state.user_id:
 
     elif utils.authenticate_id("eval_ambisentence_task", st.session_state.user_id):
         available_pages["Ambiguous Sentence Evaluation Task"] = [eval_ambisentence_start_page, eval_ambisentence_qualification_page, eval_ambisentence_annotation_page]
+
+    elif utils.authenticate_id("ambistory2_task", st.session_state.user_id):
+        available_pages["Ambiguous Story Task"] = [ambistory2_start_page, ambistory2_qualification_page, ambistory2_annotation_page]
 
     available_pages["Other"] = [logout_page]
 
