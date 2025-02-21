@@ -136,7 +136,7 @@ else:
     pg = st.navigation(
         {
         "Home": [main_page, authentication_page],
-        "Task Previews": [eval_ambisentence_start_page]
+        "Task Previews": [ambistory2_start_page]
         }
 
     )
