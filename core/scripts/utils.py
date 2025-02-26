@@ -35,6 +35,12 @@ TASK_INFO = {
         "annotation_filepath": "ambistory2_task/resources/story_samples.json",
         "qualification_filepath": "ambistory2_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 1
+    },
+    "ending_task": {
+        "annotation_filepath": "ending_task/resources/story_samples.json",
+        "qualification_filepath": "ending_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 4,
+        "group_assignment": "post-qualification"
     }
 }
 
@@ -168,6 +174,9 @@ def finish_qualification(qualification_function: str):
     if qualification_function(annotations):
         st.write("The qualification test has ended. Please wait a moment...")
         user_repository.set_qualification(st.session_state.user_id)
+        # Since the user is qualified, automatic group assignment can now take place...
+        if "group_assignment" in TASK_INFO[user[1]] and TASK_INFO[user[1]]["group_assignment"] == "post-qualification":
+            user_repository.assign_to_weakest_group(st.session_state.user_id, user[1])
         st.rerun()
     else:
         st.write("The qualification test has ended. Please wait a moment...")

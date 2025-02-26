@@ -158,6 +158,48 @@ def set_qualification(user_id: str, setting: int=1):
     else:
         st.session_state.user[2] = setting
 
+def assign_to_weakest_group(user_id: str, task: str):
+    """
+    Assign the user to the group that currently has the least amount of members.
+    Test accounts and unqualified accounts do not count towards the numbers.
+    Lower indices are prioritized.
+    Typically to be used after qualification.
+
+    :param user_id: user string
+    :param task: task string
+    """
+    from core.scripts.utils import TASK_INFO  # probably not great to have utils importing from each other...
+
+    conn = st.session_state.conn
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT * FROM user_data
+    """)
+    users = cursor.fetchall()
+
+    group_counts = {}
+    for i in range(TASK_INFO[task]["number_of_annotator_groups"]):
+        group_counts[i] = 0
+
+    for user in users:
+        u_id, user_task, qualified, group, progress, _, data = user
+        if (user_task != task) or (qualified != 1) or (u_id == user_id):
+            continue
+        if "test" in data["prolific_id"]:
+            continue
+        group_counts[group] += 1
+
+    weakest_group = min(group_counts, key = group_counts.get)
+    print(task, group_counts, weakest_group)
+
+    cursor.execute("""
+        UPDATE user_data
+        SET annotator_group = %s
+        WHERE user_id = %s
+    """, (weakest_group, user_id))
+    st.session_state.user[3] = weakest_group
+    conn.commit()
+
 def mark_as_done(user_id):
     conn = st.session_state.conn
     cursor = conn.cursor()
