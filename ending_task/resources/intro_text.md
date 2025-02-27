@@ -10,7 +10,7 @@ Importantly, the fourth sentence contains a word which has multiple meanings. Th
 
 **Try to not explicitly spell out the meaning**. Understanding the intended meaning should be hard without a good understanding of the story, but easy for those who truly understand the story. You can achieve this by *avoiding words closely associated with the intended meaning*, and by *only implying the happenings in the fourth sentence instead of outright stating them*. See below for examples.
 
-Aside from the clarification of the intended meaning, the story ending also should be *logical* given the first four sentence. The story does not have to be complicated or interesting, nor does it have to be much of a satisfying ending at all. It just has to make sense and be coherent.
+Aside from the clarification of the intended meaning, the story ending also should be *logical* given the first four sentences. The story does not have to be complicated or interesting, nor does it have to be much of a satisfying ending at all. It just has to make sense and be coherent.
 
 Also, feel free to add comments in the comment field. (For example, if a certain story seems strange or it is difficult to write a fitting ending.)
 
@@ -53,7 +53,7 @@ You will first have to pass the qualification test, which consists of three ques
 
 **If you succeed at the qualification test**: Once you pass the qualification test, you will automatically unlock access to the writing page. Each writer is assigned around 20 stories.
 
-We estimate the task to take on average 30 minutes. We will give additional compensation if it turns out that we underestimated the median time needed to complete it.
+We estimate the task to take on average 25 minutes. We will give additional compensation if it turns out that we underestimated the median time needed to complete it.
 
 Your progress for both qualification and writing is **saved automatically** anytime you press the *NEXT* button.
 

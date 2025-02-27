@@ -106,7 +106,7 @@ def get_checkpoint(key, print=True) -> int:
     
     if print:
         st.write("Returning to checkpoint from previous session")
-    return len(annotations[key]) + 1
+    return len(annotations[key])
 
 def reset_annotation(user_id: str, key: str):
     """
