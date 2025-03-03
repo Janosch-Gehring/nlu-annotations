@@ -67,3 +67,7 @@ if user_id:
     else:
         st.write("The entered ID does not exist. Please only enter the 8 digit password (not name!) that was sent to you on Prolific.")
         
+st.markdown("""\n\n## Where is my ID?
+
+Prolific likely opened this website in a new window. If you go back to the Prolific window, you will see your credentials: a username and a password. The username is not that important. Simply use the password directly to log in.
+""")

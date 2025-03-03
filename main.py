@@ -107,6 +107,17 @@ ending_annotation_page = st.Page(
     "ending_task/pages/annotation_page.py", title="Writing", icon="✏️"
 )
 
+# Eval Ending Task Pages
+eval_ending_start_page = st.Page(
+    "eval_ending_task/pages/introduction_page.py", title="Story Interpretation Task Intro", icon="📖"
+)
+eval_ending_qualification_page = st.Page(
+    "eval_ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+eval_ending_annotation_page = st.Page(
+    "eval_ending_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+)
+
 
 # Create navigation bar
 
@@ -141,6 +152,9 @@ elif st.session_state.user_id:
     elif utils.authenticate_id("ending_task", st.session_state.user_id):
         available_pages["Story Ending Task"] = [ending_start_page, ending_qualification_page, ending_annotation_page]
 
+    elif utils.authenticate_id("eval_ending_task", st.session_state.user_id):
+        available_pages["Story Interpretation Task"] = [eval_ending_start_page, eval_ending_qualification_page, eval_ending_annotation_page]
+
     available_pages["Other"] = [logout_page]
 
     pg = st.navigation(available_pages)
@@ -149,7 +163,7 @@ else:
     pg = st.navigation(
         {
         "Home": [main_page, authentication_page],
-        "Task Previews": [ending_start_page]
+        "Task Previews": [eval_ending_start_page]
         }
 
     )

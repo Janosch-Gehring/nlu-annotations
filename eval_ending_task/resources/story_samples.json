@@ -1,0 +1,1602 @@
+{
+    "1": {
+        "ending": "Her friends really loved the song.",
+        "comment": "",
+        "meaning": "sound with resonance",
+        "sentence": "Her new song seemed to resonate well.",
+        "precontext": "Lila spent weeks perfecting the melody in her basement studio.  \nShe carefully selected every instrument to achieve the sound she envisioned.  \nWhen she finally played the track for her friends, their eyes widened in surprise.  ",
+        "grouping": 0,
+        "displayed_meaning": "sound with resonance",
+        "word": "resonate"
+    },
+    "2": {
+        "ending": "Her friends really loved the song.",
+        "comment": "",
+        "meaning": "sound with resonance",
+        "sentence": "Her new song seemed to resonate well.",
+        "precontext": "Lila spent weeks perfecting the melody in her basement studio.  \nShe carefully selected every instrument to achieve the sound she envisioned.  \nWhen she finally played the track for her friends, their eyes widened in surprise.  ",
+        "grouping": 1,
+        "displayed_meaning": "be received or understood",
+        "word": "resonate"
+    },
+    "3": {
+        "ending": "She was glad that her friends really got the music",
+        "comment": "",
+        "meaning": "be received or understood",
+        "sentence": "Her new song seemed to resonate well.",
+        "precontext": "Lila spent weeks perfecting the melody in her basement studio.  \nShe carefully selected every instrument to achieve the sound she envisioned.  \nWhen she finally played the track for her friends, their eyes widened in surprise.  ",
+        "grouping": 2,
+        "displayed_meaning": "sound with resonance",
+        "word": "resonate"
+    },
+    "4": {
+        "ending": "She was glad that her friends really got the music",
+        "comment": "",
+        "meaning": "be received or understood",
+        "sentence": "Her new song seemed to resonate well.",
+        "precontext": "Lila spent weeks perfecting the melody in her basement studio.  \nShe carefully selected every instrument to achieve the sound she envisioned.  \nWhen she finally played the track for her friends, their eyes widened in surprise.  ",
+        "grouping": 3,
+        "displayed_meaning": "be received or understood",
+        "word": "resonate"
+    },
+    "5": {
+        "ending": "They skipped and ran all around the paddock.",
+        "comment": "",
+        "meaning": "young of domestic cattle",
+        "sentence": "His calves had been put to work this morning.",
+        "precontext": "Tom rose at dawn, eager to tackle the day's tasks on the farm. The sun barely peeked over the horizon as he planned out the morning. With determination, he rolled up his sleeves and got ready for the physical day ahead.",
+        "grouping": 0,
+        "displayed_meaning": "young of domestic cattle",
+        "word": "calves"
+    },
+    "6": {
+        "ending": "They skipped and ran all around the paddock.",
+        "comment": "",
+        "meaning": "young of domestic cattle",
+        "sentence": "His calves had been put to work this morning.",
+        "precontext": "Tom rose at dawn, eager to tackle the day's tasks on the farm. The sun barely peeked over the horizon as he planned out the morning. With determination, he rolled up his sleeves and got ready for the physical day ahead.",
+        "grouping": 1,
+        "displayed_meaning": "the muscular back part of the shank",
+        "word": "calves"
+    },
+    "7": {
+        "ending": "Tom will be putting his feet up after today's shift",
+        "comment": "",
+        "meaning": "the muscular back part of the shank",
+        "sentence": "His calves had been put to work this morning.",
+        "precontext": "Tom rose at dawn, eager to tackle the day's tasks on the farm. The sun barely peeked over the horizon as he planned out the morning. With determination, he rolled up his sleeves and got ready for the physical day ahead.",
+        "grouping": 2,
+        "displayed_meaning": "young of domestic cattle",
+        "word": "calves"
+    },
+    "8": {
+        "ending": "Tom will be putting his feet up after today's shift",
+        "comment": "",
+        "meaning": "the muscular back part of the shank",
+        "sentence": "His calves had been put to work this morning.",
+        "precontext": "Tom rose at dawn, eager to tackle the day's tasks on the farm. The sun barely peeked over the horizon as he planned out the morning. With determination, he rolled up his sleeves and got ready for the physical day ahead.",
+        "grouping": 3,
+        "displayed_meaning": "the muscular back part of the shank",
+        "word": "calves"
+    },
+    "9": {
+        "ending": "The man was surprised to have a silky piece of material shoved into his hands.",
+        "comment": "",
+        "meaning": "a woman's sleeveless undergarment",
+        "sentence": "She gave him the slip.",
+        "precontext": "It was a bustling evening at the downtown department store. Emily browsed through the racks of clothing, occasionally glancing over her shoulder. The man in the dark suit had been following her for quite some time.",
+        "grouping": 0,
+        "displayed_meaning": "a woman's sleeveless undergarment",
+        "word": "slip"
+    },
+    "10": {
+        "ending": "The man was surprised to have a silky piece of material shoved into his hands.",
+        "comment": "",
+        "meaning": "a woman's sleeveless undergarment",
+        "sentence": "She gave him the slip.",
+        "precontext": "It was a bustling evening at the downtown department store. Emily browsed through the racks of clothing, occasionally glancing over her shoulder. The man in the dark suit had been following her for quite some time.",
+        "grouping": 1,
+        "displayed_meaning": "the act of avoiding capture (especially by cunning)",
+        "word": "slip"
+    },
+    "11": {
+        "ending": "Emily was relived she had lost the man.",
+        "comment": "",
+        "meaning": "the act of avoiding capture (especially by cunning)",
+        "sentence": "She gave him the slip.",
+        "precontext": "It was a bustling evening at the downtown department store. Emily browsed through the racks of clothing, occasionally glancing over her shoulder. The man in the dark suit had been following her for quite some time.",
+        "grouping": 2,
+        "displayed_meaning": "a woman's sleeveless undergarment",
+        "word": "slip"
+    },
+    "12": {
+        "ending": "Emily was relived she had lost the man.",
+        "comment": "",
+        "meaning": "the act of avoiding capture (especially by cunning)",
+        "sentence": "She gave him the slip.",
+        "precontext": "It was a bustling evening at the downtown department store. Emily browsed through the racks of clothing, occasionally glancing over her shoulder. The man in the dark suit had been following her for quite some time.",
+        "grouping": 3,
+        "displayed_meaning": "the act of avoiding capture (especially by cunning)",
+        "word": "slip"
+    },
+    "13": {
+        "ending": "The carrot cake really was to die for!",
+        "comment": "",
+        "meaning": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus",
+        "sentence": "Once she'd had a taste, she was hooked.",
+        "precontext": "Lila had always been curious about the new caf\u00e9 that opened downtown.  \nHer friends kept talking about how unique and exciting their offerings were.  \nOne afternoon, she finally decided to see what all the fuss was about.  ",
+        "grouping": 0,
+        "displayed_meaning": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus",
+        "word": "taste"
+    },
+    "14": {
+        "ending": "The carrot cake really was to die for!",
+        "comment": "",
+        "meaning": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus",
+        "sentence": "Once she'd had a taste, she was hooked.",
+        "precontext": "Lila had always been curious about the new caf\u00e9 that opened downtown.  \nHer friends kept talking about how unique and exciting their offerings were.  \nOne afternoon, she finally decided to see what all the fuss was about.  ",
+        "grouping": 1,
+        "displayed_meaning": "a brief experience of something",
+        "word": "taste"
+    },
+    "15": {
+        "ending": "Lila will be back very soon to try more.",
+        "comment": "",
+        "meaning": "a brief experience of something",
+        "sentence": "Once she'd had a taste, she was hooked.",
+        "precontext": "Lila had always been curious about the new caf\u00e9 that opened downtown.  \nHer friends kept talking about how unique and exciting their offerings were.  \nOne afternoon, she finally decided to see what all the fuss was about.  ",
+        "grouping": 2,
+        "displayed_meaning": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus",
+        "word": "taste"
+    },
+    "16": {
+        "ending": "Lila will be back very soon to try more.",
+        "comment": "",
+        "meaning": "a brief experience of something",
+        "sentence": "Once she'd had a taste, she was hooked.",
+        "precontext": "Lila had always been curious about the new caf\u00e9 that opened downtown.  \nHer friends kept talking about how unique and exciting their offerings were.  \nOne afternoon, she finally decided to see what all the fuss was about.  ",
+        "grouping": 3,
+        "displayed_meaning": "a brief experience of something",
+        "word": "taste"
+    },
+    "17": {
+        "ending": "So Tom decided not to wear a rain coat but to impress with his new blue suit.",
+        "comment": "",
+        "meaning": "a meeting arranged in advance",
+        "sentence": "He was looking forward to the date, but it was drier than he expected.",
+        "precontext": "Tom had been excited all week. His friend had told him about something special arriving soon. He couldn't wait to experience it for himself.",
+        "grouping": 0,
+        "displayed_meaning": "a meeting arranged in advance",
+        "word": "date"
+    },
+    "18": {
+        "ending": "So Tom decided not to wear a rain coat but to impress with his new blue suit.",
+        "comment": "",
+        "meaning": "a meeting arranged in advance",
+        "sentence": "He was looking forward to the date, but it was drier than he expected.",
+        "precontext": "Tom had been excited all week. His friend had told him about something special arriving soon. He couldn't wait to experience it for himself.",
+        "grouping": 1,
+        "displayed_meaning": "sweet edible fruit of the date palm with a single long woody seed",
+        "word": "date"
+    },
+    "19": {
+        "ending": "Tom could not wait for the package to arrive on the day",
+        "comment": "",
+        "meaning": "sweet edible fruit of the date palm with a single long woody seed",
+        "sentence": "He was looking forward to the date, but it was drier than he expected.",
+        "precontext": "Tom had been excited all week. His friend had told him about something special arriving soon. He couldn't wait to experience it for himself.",
+        "grouping": 2,
+        "displayed_meaning": "a meeting arranged in advance",
+        "word": "date"
+    },
+    "20": {
+        "ending": "Tom could not wait for the package to arrive on the day",
+        "comment": "",
+        "meaning": "sweet edible fruit of the date palm with a single long woody seed",
+        "sentence": "He was looking forward to the date, but it was drier than he expected.",
+        "precontext": "Tom had been excited all week. His friend had told him about something special arriving soon. He couldn't wait to experience it for himself.",
+        "grouping": 3,
+        "displayed_meaning": "sweet edible fruit of the date palm with a single long woody seed",
+        "word": "date"
+    },
+    "21": {
+        "ending": "The huge ball of ice cream started dripping down their hand.",
+        "comment": "",
+        "meaning": "the quantity a scoop will hold",
+        "sentence": "The high-flying journalist was impressed by the big scoop at the ice cream parlour.",
+        "precontext": "The renowned journalist had a knack for discovering hidden gems in the city.  \nToday, they were visiting a quirky little ice cream parlour after a tip-off.  \nRumor had it there was something extraordinary happening inside.  ",
+        "grouping": 0,
+        "displayed_meaning": "the quantity a scoop will hold",
+        "word": "scoop"
+    },
+    "22": {
+        "ending": "The huge ball of ice cream started dripping down their hand.",
+        "comment": "",
+        "meaning": "the quantity a scoop will hold",
+        "sentence": "The high-flying journalist was impressed by the big scoop at the ice cream parlour.",
+        "precontext": "The renowned journalist had a knack for discovering hidden gems in the city.  \nToday, they were visiting a quirky little ice cream parlour after a tip-off.  \nRumor had it there was something extraordinary happening inside.  ",
+        "grouping": 1,
+        "displayed_meaning": "a news report that is reported first by one news organization",
+        "word": "scoop"
+    },
+    "23": {
+        "ending": "He thinks it will make the front page.",
+        "comment": "",
+        "meaning": "a news report that is reported first by one news organization",
+        "sentence": "The high-flying journalist was impressed by the big scoop at the ice cream parlour.",
+        "precontext": "The renowned journalist had a knack for discovering hidden gems in the city.  \nToday, they were visiting a quirky little ice cream parlour after a tip-off.  \nRumor had it there was something extraordinary happening inside.  ",
+        "grouping": 2,
+        "displayed_meaning": "the quantity a scoop will hold",
+        "word": "scoop"
+    },
+    "24": {
+        "ending": "He thinks it will make the front page.",
+        "comment": "",
+        "meaning": "a news report that is reported first by one news organization",
+        "sentence": "The high-flying journalist was impressed by the big scoop at the ice cream parlour.",
+        "precontext": "The renowned journalist had a knack for discovering hidden gems in the city.  \nToday, they were visiting a quirky little ice cream parlour after a tip-off.  \nRumor had it there was something extraordinary happening inside.  ",
+        "grouping": 3,
+        "displayed_meaning": "a news report that is reported first by one news organization",
+        "word": "scoop"
+    },
+    "25": {
+        "ending": "Tim had always been nervous of pushing his risk taking.",
+        "comment": "",
+        "meaning": "to extremes",
+        "sentence": "The enthusiastic sailor was worried about going overboard.",
+        "precontext": "Tim had always dreamed of sailing the high seas, seeking adventure wherever the wind took him.  \nHe finally bought a small sailboat and set out on a journey to discover unknown horizons.  \nAs the days at sea passed, Tim started to push his limits, diving into uncharted waters.  ",
+        "grouping": 0,
+        "displayed_meaning": "to extremes",
+        "word": "overboard"
+    },
+    "26": {
+        "ending": "Tim had always been nervous of pushing his risk taking.",
+        "comment": "",
+        "meaning": "to extremes",
+        "sentence": "The enthusiastic sailor was worried about going overboard.",
+        "precontext": "Tim had always dreamed of sailing the high seas, seeking adventure wherever the wind took him.  \nHe finally bought a small sailboat and set out on a journey to discover unknown horizons.  \nAs the days at sea passed, Tim started to push his limits, diving into uncharted waters.  ",
+        "grouping": 1,
+        "displayed_meaning": "from on board a vessel into the water",
+        "word": "overboard"
+    },
+    "27": {
+        "ending": "Due to this fear he always wore a lifejacket.",
+        "comment": "",
+        "meaning": "from on board a vessel into the water",
+        "sentence": "The enthusiastic sailor was worried about going overboard.",
+        "precontext": "Tim had always dreamed of sailing the high seas, seeking adventure wherever the wind took him.  \nHe finally bought a small sailboat and set out on a journey to discover unknown horizons.  \nAs the days at sea passed, Tim started to push his limits, diving into uncharted waters.  ",
+        "grouping": 2,
+        "displayed_meaning": "to extremes",
+        "word": "overboard"
+    },
+    "28": {
+        "ending": "Due to this fear he always wore a lifejacket.",
+        "comment": "",
+        "meaning": "from on board a vessel into the water",
+        "sentence": "The enthusiastic sailor was worried about going overboard.",
+        "precontext": "Tim had always dreamed of sailing the high seas, seeking adventure wherever the wind took him.  \nHe finally bought a small sailboat and set out on a journey to discover unknown horizons.  \nAs the days at sea passed, Tim started to push his limits, diving into uncharted waters.  ",
+        "grouping": 3,
+        "displayed_meaning": "from on board a vessel into the water",
+        "word": "overboard"
+    },
+    "29": {
+        "ending": "She glanced and saw the upturned jerrycan in the hall.",
+        "comment": "",
+        "meaning": "a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines",
+        "sentence": "The smell of the gas made the woman feel sick.",
+        "precontext": "The woman had been feeling uneasy all morning.  \nShe rushed through her daily routine, trying to ignore the growing discomfort.  \nWhen she finally sat down to rest, a strange odor filled the room.  ",
+        "grouping": 0,
+        "displayed_meaning": "a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines",
+        "word": "gas"
+    },
+    "30": {
+        "ending": "She glanced and saw the upturned jerrycan in the hall.",
+        "comment": "",
+        "meaning": "a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines",
+        "sentence": "The smell of the gas made the woman feel sick.",
+        "precontext": "The woman had been feeling uneasy all morning.  \nShe rushed through her daily routine, trying to ignore the growing discomfort.  \nWhen she finally sat down to rest, a strange odor filled the room.  ",
+        "grouping": 1,
+        "displayed_meaning": "a state of excessive gas in the alimentary canal",
+        "word": "gas"
+    },
+    "31": {
+        "ending": "She became increasingly concerned for her health in that moment.",
+        "comment": "",
+        "meaning": "a state of excessive gas in the alimentary canal",
+        "sentence": "The smell of the gas made the woman feel sick.",
+        "precontext": "The woman had been feeling uneasy all morning.  \nShe rushed through her daily routine, trying to ignore the growing discomfort.  \nWhen she finally sat down to rest, a strange odor filled the room.  ",
+        "grouping": 2,
+        "displayed_meaning": "a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines",
+        "word": "gas"
+    },
+    "32": {
+        "ending": "She became increasingly concerned for her health in that moment.",
+        "comment": "",
+        "meaning": "a state of excessive gas in the alimentary canal",
+        "sentence": "The smell of the gas made the woman feel sick.",
+        "precontext": "The woman had been feeling uneasy all morning.  \nShe rushed through her daily routine, trying to ignore the growing discomfort.  \nWhen she finally sat down to rest, a strange odor filled the room.  ",
+        "grouping": 3,
+        "displayed_meaning": "a state of excessive gas in the alimentary canal",
+        "word": "gas"
+    },
+    "33": {
+        "ending": "They all stele themselves  for the trials ahead.",
+        "comment": "",
+        "meaning": "any maneuver made as part of progress toward a goal",
+        "sentence": "There are 13 steps to reach the next level.",
+        "precontext": "The adventurers gathered at the entrance of the labyrinth, maps in hand.  \nTheir goal was clear, but the path was fraught with challenges.  \nEach decision mattered as they prepared for the journey ahead.  ",
+        "grouping": 0,
+        "displayed_meaning": "any maneuver made as part of progress toward a goal",
+        "word": "steps"
+    },
+    "34": {
+        "ending": "They all stele themselves  for the trials ahead.",
+        "comment": "",
+        "meaning": "any maneuver made as part of progress toward a goal",
+        "sentence": "There are 13 steps to reach the next level.",
+        "precontext": "The adventurers gathered at the entrance of the labyrinth, maps in hand.  \nTheir goal was clear, but the path was fraught with challenges.  \nEach decision mattered as they prepared for the journey ahead.  ",
+        "grouping": 1,
+        "displayed_meaning": "support consisting of a place to rest the foot while ascending or descending a stairway",
+        "word": "steps"
+    },
+    "35": {
+        "ending": "The adventurers hoped that the steps would not be too steep.",
+        "comment": "",
+        "meaning": "support consisting of a place to rest the foot while ascending or descending a stairway",
+        "sentence": "There are 13 steps to reach the next level.",
+        "precontext": "The adventurers gathered at the entrance of the labyrinth, maps in hand.  \nTheir goal was clear, but the path was fraught with challenges.  \nEach decision mattered as they prepared for the journey ahead.  ",
+        "grouping": 2,
+        "displayed_meaning": "any maneuver made as part of progress toward a goal",
+        "word": "steps"
+    },
+    "36": {
+        "ending": "The adventurers hoped that the steps would not be too steep.",
+        "comment": "",
+        "meaning": "support consisting of a place to rest the foot while ascending or descending a stairway",
+        "sentence": "There are 13 steps to reach the next level.",
+        "precontext": "The adventurers gathered at the entrance of the labyrinth, maps in hand.  \nTheir goal was clear, but the path was fraught with challenges.  \nEach decision mattered as they prepared for the journey ahead.  ",
+        "grouping": 3,
+        "displayed_meaning": "support consisting of a place to rest the foot while ascending or descending a stairway",
+        "word": "steps"
+    },
+    "37": {
+        "ending": "I started scrabbling around with the computer wires to try and stop the noise.",
+        "comment": "",
+        "meaning": "sound of rapid vibration",
+        "sentence": "I couldn't concentrate because of the buzz.",
+        "precontext": "The office was always lively in the afternoons. People moved quickly between desks, discussing the latest project. The energy in the room was contagious, but at times overwhelming.",
+        "grouping": 0,
+        "displayed_meaning": "sound of rapid vibration",
+        "word": "buzz"
+    },
+    "38": {
+        "ending": "I started scrabbling around with the computer wires to try and stop the noise.",
+        "comment": "",
+        "meaning": "sound of rapid vibration",
+        "sentence": "I couldn't concentrate because of the buzz.",
+        "precontext": "The office was always lively in the afternoons. People moved quickly between desks, discussing the latest project. The energy in the room was contagious, but at times overwhelming.",
+        "grouping": 1,
+        "displayed_meaning": "a confusion of activity and gossip",
+        "word": "buzz"
+    },
+    "39": {
+        "ending": "I always get caught up in it.",
+        "comment": "",
+        "meaning": "a confusion of activity and gossip",
+        "sentence": "I couldn't concentrate because of the buzz.",
+        "precontext": "The office was always lively in the afternoons. People moved quickly between desks, discussing the latest project. The energy in the room was contagious, but at times overwhelming.",
+        "grouping": 2,
+        "displayed_meaning": "sound of rapid vibration",
+        "word": "buzz"
+    },
+    "40": {
+        "ending": "I always get caught up in it.",
+        "comment": "",
+        "meaning": "a confusion of activity and gossip",
+        "sentence": "I couldn't concentrate because of the buzz.",
+        "precontext": "The office was always lively in the afternoons. People moved quickly between desks, discussing the latest project. The energy in the room was contagious, but at times overwhelming.",
+        "grouping": 3,
+        "displayed_meaning": "a confusion of activity and gossip",
+        "word": "buzz"
+    },
+    "41": {
+        "ending": "Sarah had misgivings when her friend said they were touring America alone.",
+        "comment": "",
+        "meaning": "the territory occupied by one of the constituent administrative districts of a nation",
+        "sentence": "She had no clue what state her best friend was in.",
+        "precontext": "Sarah paced around her living room, clutching her phone tightly. Her best friend hadn't called in days, and there was something unsettling in the last message she received. She couldn't shake the feeling that something was terribly wrong.",
+        "grouping": 0,
+        "displayed_meaning": "the territory occupied by one of the constituent administrative districts of a nation",
+        "word": "state"
+    },
+    "42": {
+        "ending": "Sarah had misgivings when her friend said they were touring America alone.",
+        "comment": "",
+        "meaning": "the territory occupied by one of the constituent administrative districts of a nation",
+        "sentence": "She had no clue what state her best friend was in.",
+        "precontext": "Sarah paced around her living room, clutching her phone tightly. Her best friend hadn't called in days, and there was something unsettling in the last message she received. She couldn't shake the feeling that something was terribly wrong.",
+        "grouping": 1,
+        "displayed_meaning": "a state of depression or agitation",
+        "word": "state"
+    },
+    "43": {
+        "ending": "Sarah could not stop worrying about the mood of her friend.",
+        "comment": "",
+        "meaning": "a state of depression or agitation",
+        "sentence": "She had no clue what state her best friend was in.",
+        "precontext": "Sarah paced around her living room, clutching her phone tightly. Her best friend hadn't called in days, and there was something unsettling in the last message she received. She couldn't shake the feeling that something was terribly wrong.",
+        "grouping": 2,
+        "displayed_meaning": "the territory occupied by one of the constituent administrative districts of a nation",
+        "word": "state"
+    },
+    "44": {
+        "ending": "Sarah could not stop worrying about the mood of her friend.",
+        "comment": "",
+        "meaning": "a state of depression or agitation",
+        "sentence": "She had no clue what state her best friend was in.",
+        "precontext": "Sarah paced around her living room, clutching her phone tightly. Her best friend hadn't called in days, and there was something unsettling in the last message she received. She couldn't shake the feeling that something was terribly wrong.",
+        "grouping": 3,
+        "displayed_meaning": "a state of depression or agitation",
+        "word": "state"
+    },
+    "45": {
+        "ending": "The cows really hated him.",
+        "comment": "",
+        "meaning": "take milk from female mammals",
+        "sentence": "He had milked all he could get.",
+        "precontext": "John stared at the vast fields every morning.   \nHis dedication to his work was admired by everyone in the village.   \nNo one could accuse him of not making the most out of the resources available to him.",
+        "grouping": 0,
+        "displayed_meaning": "take milk from female mammals",
+        "word": "milk"
+    },
+    "46": {
+        "ending": "The cows really hated him.",
+        "comment": "",
+        "meaning": "take milk from female mammals",
+        "sentence": "He had milked all he could get.",
+        "precontext": "John stared at the vast fields every morning.   \nHis dedication to his work was admired by everyone in the village.   \nNo one could accuse him of not making the most out of the resources available to him.",
+        "grouping": 1,
+        "displayed_meaning": "exploit as much as possible",
+        "word": "milk"
+    },
+    "47": {
+        "ending": "John uses his charm to borrow from the other villagers and paid off.",
+        "comment": "",
+        "meaning": "exploit as much as possible",
+        "sentence": "He had milked all he could get.",
+        "precontext": "John stared at the vast fields every morning.   \nHis dedication to his work was admired by everyone in the village.   \nNo one could accuse him of not making the most out of the resources available to him.",
+        "grouping": 2,
+        "displayed_meaning": "take milk from female mammals",
+        "word": "milk"
+    },
+    "48": {
+        "ending": "John uses his charm to borrow from the other villagers and paid off.",
+        "comment": "",
+        "meaning": "exploit as much as possible",
+        "sentence": "He had milked all he could get.",
+        "precontext": "John stared at the vast fields every morning.   \nHis dedication to his work was admired by everyone in the village.   \nNo one could accuse him of not making the most out of the resources available to him.",
+        "grouping": 3,
+        "displayed_meaning": "exploit as much as possible",
+        "word": "milk"
+    },
+    "49": {
+        "ending": "The bar man deliberately did not measure the vodka he put into the girls drinks.",
+        "comment": "",
+        "meaning": "make drunk (with alcoholic drinks)",
+        "sentence": "At the nightclub the barman was very intoxicating.",
+        "precontext": "Lena and her friends decided to celebrate her promotion by heading out on the town.  \nThey chose a popular nightclub known for its lively atmosphere and creative cocktails.  \nAs they entered, the barman greeted them with a warm smile and an enticing charm.",
+        "grouping": 0,
+        "displayed_meaning": "make drunk (with alcoholic drinks)",
+        "word": "intoxicating"
+    },
+    "50": {
+        "ending": "The bar man deliberately did not measure the vodka he put into the girls drinks.",
+        "comment": "",
+        "meaning": "make drunk (with alcoholic drinks)",
+        "sentence": "At the nightclub the barman was very intoxicating.",
+        "precontext": "Lena and her friends decided to celebrate her promotion by heading out on the town.  \nThey chose a popular nightclub known for its lively atmosphere and creative cocktails.  \nAs they entered, the barman greeted them with a warm smile and an enticing charm.",
+        "grouping": 1,
+        "displayed_meaning": "fill with high spirits; fill with optimism",
+        "word": "intoxicating"
+    },
+    "51": {
+        "ending": "Lena hoped the attractive barman would ask her out.",
+        "comment": "",
+        "meaning": "fill with high spirits; fill with optimism",
+        "sentence": "At the nightclub the barman was very intoxicating.",
+        "precontext": "Lena and her friends decided to celebrate her promotion by heading out on the town.  \nThey chose a popular nightclub known for its lively atmosphere and creative cocktails.  \nAs they entered, the barman greeted them with a warm smile and an enticing charm.",
+        "grouping": 2,
+        "displayed_meaning": "make drunk (with alcoholic drinks)",
+        "word": "intoxicating"
+    },
+    "52": {
+        "ending": "Lena hoped the attractive barman would ask her out.",
+        "comment": "",
+        "meaning": "fill with high spirits; fill with optimism",
+        "sentence": "At the nightclub the barman was very intoxicating.",
+        "precontext": "Lena and her friends decided to celebrate her promotion by heading out on the town.  \nThey chose a popular nightclub known for its lively atmosphere and creative cocktails.  \nAs they entered, the barman greeted them with a warm smile and an enticing charm.",
+        "grouping": 3,
+        "displayed_meaning": "fill with high spirits; fill with optimism",
+        "word": "intoxicating"
+    },
+    "53": {
+        "ending": "As she finished her makeup, the phone screen lit up with the call from her fianc\u00e9. And she realised she\u2019d been only too hopeful",
+        "comment": "",
+        "meaning": "a characteristic sound",
+        "sentence": "Her fiance promised to give her a ring later that evening.",
+        "precontext": "Emma had been eagerly preparing for tonight's dinner for days. She carefully set the table and selected her favorite dress, hoping it would be a special evening. Her fiance mentioned earlier that he had a surprise planned for her.",
+        "grouping": 0,
+        "displayed_meaning": "a characteristic sound",
+        "word": "ring"
+    },
+    "54": {
+        "ending": "As she finished her makeup, the phone screen lit up with the call from her fianc\u00e9. And she realised she\u2019d been only too hopeful",
+        "comment": "",
+        "meaning": "a characteristic sound",
+        "sentence": "Her fiance promised to give her a ring later that evening.",
+        "precontext": "Emma had been eagerly preparing for tonight's dinner for days. She carefully set the table and selected her favorite dress, hoping it would be a special evening. Her fiance mentioned earlier that he had a surprise planned for her.",
+        "grouping": 1,
+        "displayed_meaning": "jewelry consisting of a circlet of precious metal (often set with jewels) worn on the finger",
+        "word": "ring"
+    },
+    "55": {
+        "ending": "She hoped it was the one she had picked out.",
+        "comment": "",
+        "meaning": "jewelry consisting of a circlet of precious metal (often set with jewels) worn on the finger",
+        "sentence": "Her fiance promised to give her a ring later that evening.",
+        "precontext": "Emma had been eagerly preparing for tonight's dinner for days. She carefully set the table and selected her favorite dress, hoping it would be a special evening. Her fiance mentioned earlier that he had a surprise planned for her.",
+        "grouping": 2,
+        "displayed_meaning": "a characteristic sound",
+        "word": "ring"
+    },
+    "56": {
+        "ending": "She hoped it was the one she had picked out.",
+        "comment": "",
+        "meaning": "jewelry consisting of a circlet of precious metal (often set with jewels) worn on the finger",
+        "sentence": "Her fiance promised to give her a ring later that evening.",
+        "precontext": "Emma had been eagerly preparing for tonight's dinner for days. She carefully set the table and selected her favorite dress, hoping it would be a special evening. Her fiance mentioned earlier that he had a surprise planned for her.",
+        "grouping": 3,
+        "displayed_meaning": "jewelry consisting of a circlet of precious metal (often set with jewels) worn on the finger",
+        "word": "ring"
+    },
+    "57": {
+        "ending": "Jacob was unsure if he had the correct measuring cylinder to get the formula right.",
+        "comment": "",
+        "meaning": "the strength of a solution; number of molecules of a substance in a given volume",
+        "sentence": "Jacob said he was having trouble with his concentration in chemistry class.",
+        "precontext": "Jacob had always found chemistry to be a challenging subject.  \nHe often struggled during experiments and found the lectures hard to follow.  \nOne day, he confided in his friend that he was having difficulty focusing in class.  ",
+        "grouping": 0,
+        "displayed_meaning": "the strength of a solution; number of molecules of a substance in a given volume",
+        "word": "concentration"
+    },
+    "58": {
+        "ending": "Jacob was unsure if he had the correct measuring cylinder to get the formula right.",
+        "comment": "",
+        "meaning": "the strength of a solution; number of molecules of a substance in a given volume",
+        "sentence": "Jacob said he was having trouble with his concentration in chemistry class.",
+        "precontext": "Jacob had always found chemistry to be a challenging subject.  \nHe often struggled during experiments and found the lectures hard to follow.  \nOne day, he confided in his friend that he was having difficulty focusing in class.  ",
+        "grouping": 1,
+        "displayed_meaning": "complete attention; intense mental effort",
+        "word": "concentration"
+    },
+    "59": {
+        "ending": "Jacob agreed to take some time to digest the information as he struggled to pay atteniton",
+        "comment": "",
+        "meaning": "complete attention; intense mental effort",
+        "sentence": "Jacob said he was having trouble with his concentration in chemistry class.",
+        "precontext": "Jacob had always found chemistry to be a challenging subject.  \nHe often struggled during experiments and found the lectures hard to follow.  \nOne day, he confided in his friend that he was having difficulty focusing in class.  ",
+        "grouping": 2,
+        "displayed_meaning": "the strength of a solution; number of molecules of a substance in a given volume",
+        "word": "concentration"
+    },
+    "60": {
+        "ending": "Jacob agreed to take some time to digest the information as he struggled to pay atteniton",
+        "comment": "",
+        "meaning": "complete attention; intense mental effort",
+        "sentence": "Jacob said he was having trouble with his concentration in chemistry class.",
+        "precontext": "Jacob had always found chemistry to be a challenging subject.  \nHe often struggled during experiments and found the lectures hard to follow.  \nOne day, he confided in his friend that he was having difficulty focusing in class.  ",
+        "grouping": 3,
+        "displayed_meaning": "complete attention; intense mental effort",
+        "word": "concentration"
+    },
+    "61": {
+        "ending": "Tom laughed, he couldn\u2019t escape the exercise at the moment",
+        "comment": "",
+        "meaning": "move fast by using one's feet, with one foot off the ground at any given time",
+        "sentence": "At the bus stop there was a poster with run in the title.",
+        "precontext": "Tom was waiting at the bus stop, lost in his thoughts. He'd been running every morning, training for something big. People at work also kept telling him he'd be a great candidate for the company elections.",
+        "grouping": 0,
+        "displayed_meaning": "move fast by using one's feet, with one foot off the ground at any given time",
+        "word": "run"
+    },
+    "62": {
+        "ending": "Tom laughed, he couldn\u2019t escape the exercise at the moment",
+        "comment": "",
+        "meaning": "move fast by using one's feet, with one foot off the ground at any given time",
+        "sentence": "At the bus stop there was a poster with run in the title.",
+        "precontext": "Tom was waiting at the bus stop, lost in his thoughts. He'd been running every morning, training for something big. People at work also kept telling him he'd be a great candidate for the company elections.",
+        "grouping": 1,
+        "displayed_meaning": "run, stand, or compete for an office or a position",
+        "word": "run"
+    },
+    "63": {
+        "ending": "He started  planning his campaign whilst waiting for the bus.",
+        "comment": "",
+        "meaning": "run, stand, or compete for an office or a position",
+        "sentence": "At the bus stop there was a poster with run in the title.",
+        "precontext": "Tom was waiting at the bus stop, lost in his thoughts. He'd been running every morning, training for something big. People at work also kept telling him he'd be a great candidate for the company elections.",
+        "grouping": 2,
+        "displayed_meaning": "move fast by using one's feet, with one foot off the ground at any given time",
+        "word": "run"
+    },
+    "64": {
+        "ending": "He started  planning his campaign whilst waiting for the bus.",
+        "comment": "",
+        "meaning": "run, stand, or compete for an office or a position",
+        "sentence": "At the bus stop there was a poster with run in the title.",
+        "precontext": "Tom was waiting at the bus stop, lost in his thoughts. He'd been running every morning, training for something big. People at work also kept telling him he'd be a great candidate for the company elections.",
+        "grouping": 3,
+        "displayed_meaning": "run, stand, or compete for an office or a position",
+        "word": "run"
+    },
+    "65": {
+        "ending": "Dad had always been an avid newspaper reader.",
+        "comment": "",
+        "meaning": "an article giving opinions or perspectives",
+        "sentence": "He enjoyed reading about the landmark in Trafalgar Square, it was his favourite column.",
+        "precontext": "David visited London for the first time last summer. He spent his days exploring museums and famous landmarks. In the evenings, he would relax by reading in the cozy corner of his favorite caf\u00e9.",
+        "grouping": 0,
+        "displayed_meaning": "an article giving opinions or perspectives",
+        "word": "columns"
+    },
+    "66": {
+        "ending": "Dad had always been an avid newspaper reader.",
+        "comment": "",
+        "meaning": "an article giving opinions or perspectives",
+        "sentence": "He enjoyed reading about the landmark in Trafalgar Square, it was his favourite column.",
+        "precontext": "David visited London for the first time last summer. He spent his days exploring museums and famous landmarks. In the evenings, he would relax by reading in the cozy corner of his favorite caf\u00e9.",
+        "grouping": 1,
+        "displayed_meaning": "(architecture) a tall vertical cylindrical structure standing upright and used to support a structure",
+        "word": "columns"
+    },
+    "67": {
+        "ending": "David always bought this newspaper",
+        "comment": "",
+        "meaning": "(architecture) a tall vertical cylindrical structure standing upright and used to support a structure",
+        "sentence": "He enjoyed reading about the landmark in Trafalgar Square, it was his favourite column.",
+        "precontext": "David visited London for the first time last summer. He spent his days exploring museums and famous landmarks. In the evenings, he would relax by reading in the cozy corner of his favorite caf\u00e9.",
+        "grouping": 2,
+        "displayed_meaning": "an article giving opinions or perspectives",
+        "word": "columns"
+    },
+    "68": {
+        "ending": "David always bought this newspaper",
+        "comment": "",
+        "meaning": "(architecture) a tall vertical cylindrical structure standing upright and used to support a structure",
+        "sentence": "He enjoyed reading about the landmark in Trafalgar Square, it was his favourite column.",
+        "precontext": "David visited London for the first time last summer. He spent his days exploring museums and famous landmarks. In the evenings, he would relax by reading in the cozy corner of his favorite caf\u00e9.",
+        "grouping": 3,
+        "displayed_meaning": "(architecture) a tall vertical cylindrical structure standing upright and used to support a structure",
+        "word": "columns"
+    },
+    "69": {
+        "ending": "The tailoring in the group was very natty",
+        "comment": "",
+        "meaning": "a set of garments (usually including a jacket and trousers or skirt) for outerwear all of the same fabric and color",
+        "sentence": "There's a Facebook page that want to just talk about is suits.",
+        "precontext": "John had always been fascinated by the world of clothes and the intricacies of the justice system.  \nHe often spent his evenings scrolling through various forums and websites dedicated to these topics.  \nOne day, he stumbled upon an online community that promised lively discussions on both.",
+        "grouping": 0,
+        "displayed_meaning": "a set of garments (usually including a jacket and trousers or skirt) for outerwear all of the same fabric and color",
+        "word": "suits"
+    },
+    "70": {
+        "ending": "The tailoring in the group was very natty",
+        "comment": "",
+        "meaning": "a set of garments (usually including a jacket and trousers or skirt) for outerwear all of the same fabric and color",
+        "sentence": "There's a Facebook page that want to just talk about is suits.",
+        "precontext": "John had always been fascinated by the world of clothes and the intricacies of the justice system.  \nHe often spent his evenings scrolling through various forums and websites dedicated to these topics.  \nOne day, he stumbled upon an online community that promised lively discussions on both.",
+        "grouping": 1,
+        "displayed_meaning": "a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy",
+        "word": "suits"
+    },
+    "71": {
+        "ending": "His degree will now come in useful",
+        "comment": "Hard to make sense of the last sentence of the sample, doesn't read quite right",
+        "meaning": "a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy",
+        "sentence": "There's a Facebook page that want to just talk about is suits.",
+        "precontext": "John had always been fascinated by the world of clothes and the intricacies of the justice system.  \nHe often spent his evenings scrolling through various forums and websites dedicated to these topics.  \nOne day, he stumbled upon an online community that promised lively discussions on both.",
+        "grouping": 2,
+        "displayed_meaning": "a set of garments (usually including a jacket and trousers or skirt) for outerwear all of the same fabric and color",
+        "word": "suits"
+    },
+    "72": {
+        "ending": "His degree will now come in useful",
+        "comment": "Hard to make sense of the last sentence of the sample, doesn't read quite right",
+        "meaning": "a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy",
+        "sentence": "There's a Facebook page that want to just talk about is suits.",
+        "precontext": "John had always been fascinated by the world of clothes and the intricacies of the justice system.  \nHe often spent his evenings scrolling through various forums and websites dedicated to these topics.  \nOne day, he stumbled upon an online community that promised lively discussions on both.",
+        "grouping": 3,
+        "displayed_meaning": "a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy",
+        "word": "suits"
+    },
+    "73": {
+        "ending": "He just would not shut up talking about this willowy blonde he had locked eyes with.",
+        "comment": "",
+        "meaning": "a very attractive or seductive looking woman",
+        "sentence": "All yesterday my friend kept talking about the knockout he saw in the pub.",
+        "precontext": "It was a typical Friday night and the pub was bustling with people. My friend and I decided to go there after a long week of work. The atmosphere was lively with the excitement of a big fight on the screen.",
+        "grouping": 0,
+        "displayed_meaning": "a very attractive or seductive looking woman",
+        "word": "knockout"
+    },
+    "74": {
+        "ending": "He just would not shut up talking about this willowy blonde he had locked eyes with.",
+        "comment": "",
+        "meaning": "a very attractive or seductive looking woman",
+        "sentence": "All yesterday my friend kept talking about the knockout he saw in the pub.",
+        "precontext": "It was a typical Friday night and the pub was bustling with people. My friend and I decided to go there after a long week of work. The atmosphere was lively with the excitement of a big fight on the screen.",
+        "grouping": 1,
+        "displayed_meaning": "a blow that renders the opponent unconscious",
+        "word": "knockout"
+    },
+    "75": {
+        "ending": "We always enjoyed getting together to watch the boxing highlights",
+        "comment": "",
+        "meaning": "a blow that renders the opponent unconscious",
+        "sentence": "All yesterday my friend kept talking about the knockout he saw in the pub.",
+        "precontext": "It was a typical Friday night and the pub was bustling with people. My friend and I decided to go there after a long week of work. The atmosphere was lively with the excitement of a big fight on the screen.",
+        "grouping": 2,
+        "displayed_meaning": "a very attractive or seductive looking woman",
+        "word": "knockout"
+    },
+    "76": {
+        "ending": "We always enjoyed getting together to watch the boxing highlights",
+        "comment": "",
+        "meaning": "a blow that renders the opponent unconscious",
+        "sentence": "All yesterday my friend kept talking about the knockout he saw in the pub.",
+        "precontext": "It was a typical Friday night and the pub was bustling with people. My friend and I decided to go there after a long week of work. The atmosphere was lively with the excitement of a big fight on the screen.",
+        "grouping": 3,
+        "displayed_meaning": "a blow that renders the opponent unconscious",
+        "word": "knockout"
+    },
+    "77": {
+        "ending": "The secrets should have never ever been revealed",
+        "comment": "",
+        "meaning": "tell anonymously",
+        "sentence": "Someone was responsible for why it leaked.",
+        "precontext": "The old building creaked ominously during the stormy night. Rumors of hidden secrets had been circulating among the townspeople for months. Whispers suggested that valuable information had been hidden within its walls.",
+        "grouping": 0,
+        "displayed_meaning": "tell anonymously",
+        "word": "leaked"
+    },
+    "78": {
+        "ending": "The secrets should have never ever been revealed",
+        "comment": "",
+        "meaning": "tell anonymously",
+        "sentence": "Someone was responsible for why it leaked.",
+        "precontext": "The old building creaked ominously during the stormy night. Rumors of hidden secrets had been circulating among the townspeople for months. Whispers suggested that valuable information had been hidden within its walls.",
+        "grouping": 1,
+        "displayed_meaning": "enter or escape as through a hole or crack or fissure",
+        "word": "leaked"
+    },
+    "79": {
+        "ending": "It was as if the house couldn't hold it's secrets any longer",
+        "comment": "",
+        "meaning": "enter or escape as through a hole or crack or fissure",
+        "sentence": "Someone was responsible for why it leaked.",
+        "precontext": "The old building creaked ominously during the stormy night. Rumors of hidden secrets had been circulating among the townspeople for months. Whispers suggested that valuable information had been hidden within its walls.",
+        "grouping": 2,
+        "displayed_meaning": "tell anonymously",
+        "word": "leaked"
+    },
+    "80": {
+        "ending": "It was as if the house couldn't hold it's secrets any longer",
+        "comment": "",
+        "meaning": "enter or escape as through a hole or crack or fissure",
+        "sentence": "Someone was responsible for why it leaked.",
+        "precontext": "The old building creaked ominously during the stormy night. Rumors of hidden secrets had been circulating among the townspeople for months. Whispers suggested that valuable information had been hidden within its walls.",
+        "grouping": 3,
+        "displayed_meaning": "enter or escape as through a hole or crack or fissure",
+        "word": "leaked"
+    },
+    "81": {
+        "ending": "I realized my life had hit rock bottom.",
+        "comment": "",
+        "meaning": "relative magnitude",
+        "sentence": "When I went out today I saw a scale and questioned myself why?",
+        "precontext": "I stepped out of my house, ready to face the day.  \nLately, I've been feeling like everything in my life is out of balance.  \nI can't stop thinking about how different aspects of my life measure up.  ",
+        "grouping": 0,
+        "displayed_meaning": "relative magnitude",
+        "word": "scale"
+    },
+    "82": {
+        "ending": "I realized my life had hit rock bottom.",
+        "comment": "",
+        "meaning": "relative magnitude",
+        "sentence": "When I went out today I saw a scale and questioned myself why?",
+        "precontext": "I stepped out of my house, ready to face the day.  \nLately, I've been feeling like everything in my life is out of balance.  \nI can't stop thinking about how different aspects of my life measure up.  ",
+        "grouping": 1,
+        "displayed_meaning": "a measuring instrument for weighing; shows amount of mass",
+        "word": "scale"
+    },
+    "83": {
+        "ending": "I must try to not compare my life to others",
+        "comment": "",
+        "meaning": "a measuring instrument for weighing; shows amount of mass",
+        "sentence": "When I went out today I saw a scale and questioned myself why?",
+        "precontext": "I stepped out of my house, ready to face the day.  \nLately, I've been feeling like everything in my life is out of balance.  \nI can't stop thinking about how different aspects of my life measure up.  ",
+        "grouping": 2,
+        "displayed_meaning": "relative magnitude",
+        "word": "scale"
+    },
+    "84": {
+        "ending": "I must try to not compare my life to others",
+        "comment": "",
+        "meaning": "a measuring instrument for weighing; shows amount of mass",
+        "sentence": "When I went out today I saw a scale and questioned myself why?",
+        "precontext": "I stepped out of my house, ready to face the day.  \nLately, I've been feeling like everything in my life is out of balance.  \nI can't stop thinking about how different aspects of my life measure up.  ",
+        "grouping": 3,
+        "displayed_meaning": "a measuring instrument for weighing; shows amount of mass",
+        "word": "scale"
+    },
+    "85": {
+        "ending": "The exterminators were on the way ",
+        "comment": "",
+        "meaning": "general term for any insect or similar creeping or crawling invertebrate",
+        "sentence": "Nobody could determine the cause of the sudden appearance of bugs.",
+        "precontext": "The team gathered in the conference room early that morning.  \nEveryone seemed puzzled as they examined the reports from the previous night.  \nThere was unusual activity that none of them could explain.  ",
+        "grouping": 0,
+        "displayed_meaning": "general term for any insect or similar creeping or crawling invertebrate",
+        "word": "bugs"
+    },
+    "86": {
+        "ending": "The exterminators were on the way ",
+        "comment": "",
+        "meaning": "general term for any insect or similar creeping or crawling invertebrate",
+        "sentence": "Nobody could determine the cause of the sudden appearance of bugs.",
+        "precontext": "The team gathered in the conference room early that morning.  \nEveryone seemed puzzled as they examined the reports from the previous night.  \nThere was unusual activity that none of them could explain.  ",
+        "grouping": 1,
+        "displayed_meaning": "a fault or defect in a computer program, system, or machine",
+        "word": "bugs"
+    },
+    "87": {
+        "ending": "Data was at risk, the whole company is now at risk.",
+        "comment": "",
+        "meaning": "a fault or defect in a computer program, system, or machine",
+        "sentence": "Nobody could determine the cause of the sudden appearance of bugs.",
+        "precontext": "The team gathered in the conference room early that morning.  \nEveryone seemed puzzled as they examined the reports from the previous night.  \nThere was unusual activity that none of them could explain.  ",
+        "grouping": 2,
+        "displayed_meaning": "general term for any insect or similar creeping or crawling invertebrate",
+        "word": "bugs"
+    },
+    "88": {
+        "ending": "Data was at risk, the whole company is now at risk.",
+        "comment": "",
+        "meaning": "a fault or defect in a computer program, system, or machine",
+        "sentence": "Nobody could determine the cause of the sudden appearance of bugs.",
+        "precontext": "The team gathered in the conference room early that morning.  \nEveryone seemed puzzled as they examined the reports from the previous night.  \nThere was unusual activity that none of them could explain.  ",
+        "grouping": 3,
+        "displayed_meaning": "a fault or defect in a computer program, system, or machine",
+        "word": "bugs"
+    },
+    "89": {
+        "ending": "The story made John feel like he was going to be violently sick.",
+        "comment": "",
+        "meaning": "pass through the esophagus as part of eating or drinking",
+        "sentence": "It was difficult for him to swallow.",
+        "precontext": "John sat quietly at the dinner table, staring at his plate. His uncle had just recounted a tale that seemed almost unbelievable. The room was filled with a tense silence as everyone awaited John's reaction.",
+        "grouping": 0,
+        "displayed_meaning": "pass through the esophagus as part of eating or drinking",
+        "word": "swallow"
+    },
+    "90": {
+        "ending": "The story made John feel like he was going to be violently sick.",
+        "comment": "",
+        "meaning": "pass through the esophagus as part of eating or drinking",
+        "sentence": "It was difficult for him to swallow.",
+        "precontext": "John sat quietly at the dinner table, staring at his plate. His uncle had just recounted a tale that seemed almost unbelievable. The room was filled with a tense silence as everyone awaited John's reaction.",
+        "grouping": 1,
+        "displayed_meaning": "believe or accept without questioning or challenge",
+        "word": "swallow"
+    },
+    "91": {
+        "ending": "John mistrusted his Uncle",
+        "comment": "",
+        "meaning": "believe or accept without questioning or challenge",
+        "sentence": "It was difficult for him to swallow.",
+        "precontext": "John sat quietly at the dinner table, staring at his plate. His uncle had just recounted a tale that seemed almost unbelievable. The room was filled with a tense silence as everyone awaited John's reaction.",
+        "grouping": 2,
+        "displayed_meaning": "pass through the esophagus as part of eating or drinking",
+        "word": "swallow"
+    },
+    "92": {
+        "ending": "John mistrusted his Uncle",
+        "comment": "",
+        "meaning": "believe or accept without questioning or challenge",
+        "sentence": "It was difficult for him to swallow.",
+        "precontext": "John sat quietly at the dinner table, staring at his plate. His uncle had just recounted a tale that seemed almost unbelievable. The room was filled with a tense silence as everyone awaited John's reaction.",
+        "grouping": 3,
+        "displayed_meaning": "believe or accept without questioning or challenge",
+        "word": "swallow"
+    },
+    "93": {
+        "ending": "The grassroots membership was divided and unengaged",
+        "comment": "",
+        "meaning": "an organization to gain political power",
+        "sentence": "The party struggled after most of its organizers left.",
+        "precontext": "Jane spent months organizing everything carefully. She aimed to create something unforgettable. Everyone was eager to see how it would turn out.",
+        "grouping": 0,
+        "displayed_meaning": "an organization to gain political power",
+        "word": "party"
+    },
+    "94": {
+        "ending": "The grassroots membership was divided and unengaged",
+        "comment": "",
+        "meaning": "an organization to gain political power",
+        "sentence": "The party struggled after most of its organizers left.",
+        "precontext": "Jane spent months organizing everything carefully. She aimed to create something unforgettable. Everyone was eager to see how it would turn out.",
+        "grouping": 1,
+        "displayed_meaning": "a group of people gathered together for pleasure",
+        "word": "party"
+    },
+    "95": {
+        "ending": "She had to go through with it, she couldn't cancel what she had booked so far.",
+        "comment": "",
+        "meaning": "a group of people gathered together for pleasure",
+        "sentence": "The party struggled after most of its organizers left.",
+        "precontext": "Jane spent months organizing everything carefully. She aimed to create something unforgettable. Everyone was eager to see how it would turn out.",
+        "grouping": 2,
+        "displayed_meaning": "an organization to gain political power",
+        "word": "party"
+    },
+    "96": {
+        "ending": "She had to go through with it, she couldn't cancel what she had booked so far.",
+        "comment": "",
+        "meaning": "a group of people gathered together for pleasure",
+        "sentence": "The party struggled after most of its organizers left.",
+        "precontext": "Jane spent months organizing everything carefully. She aimed to create something unforgettable. Everyone was eager to see how it would turn out.",
+        "grouping": 3,
+        "displayed_meaning": "a group of people gathered together for pleasure",
+        "word": "party"
+    },
+    "97": {
+        "ending": "The success of a  heist like this relied on the safe code being right.",
+        "comment": "",
+        "meaning": "a sequence of numbers or letters that opens a combination lock",
+        "sentence": "It was a winning combination.",
+        "precontext": "Jack stood nervously outside the old bank, looking at his watch.  \nHe had spent weeks gathering the right team, each member crucial for the plan ahead.  \nWith one last deep breath, he reached into his pocket, feeling for the slip of paper they hoped would be their ticket inside.",
+        "grouping": 0,
+        "displayed_meaning": "a sequence of numbers or letters that opens a combination lock",
+        "word": "combination"
+    },
+    "98": {
+        "ending": "The success of a  heist like this relied on the safe code being right.",
+        "comment": "",
+        "meaning": "a sequence of numbers or letters that opens a combination lock",
+        "sentence": "It was a winning combination.",
+        "precontext": "Jack stood nervously outside the old bank, looking at his watch.  \nHe had spent weeks gathering the right team, each member crucial for the plan ahead.  \nWith one last deep breath, he reached into his pocket, feeling for the slip of paper they hoped would be their ticket inside.",
+        "grouping": 1,
+        "displayed_meaning": "a group of people (often temporary) having a common purpose",
+        "word": "combination"
+    },
+    "99": {
+        "ending": "Jack was happy with the team's work",
+        "comment": "",
+        "meaning": "a group of people (often temporary) having a common purpose",
+        "sentence": "It was a winning combination.",
+        "precontext": "Jack stood nervously outside the old bank, looking at his watch.  \nHe had spent weeks gathering the right team, each member crucial for the plan ahead.  \nWith one last deep breath, he reached into his pocket, feeling for the slip of paper they hoped would be their ticket inside.",
+        "grouping": 2,
+        "displayed_meaning": "a sequence of numbers or letters that opens a combination lock",
+        "word": "combination"
+    },
+    "100": {
+        "ending": "Jack was happy with the team's work",
+        "comment": "",
+        "meaning": "a group of people (often temporary) having a common purpose",
+        "sentence": "It was a winning combination.",
+        "precontext": "Jack stood nervously outside the old bank, looking at his watch.  \nHe had spent weeks gathering the right team, each member crucial for the plan ahead.  \nWith one last deep breath, he reached into his pocket, feeling for the slip of paper they hoped would be their ticket inside.",
+        "grouping": 3,
+        "displayed_meaning": "a group of people (often temporary) having a common purpose",
+        "word": "combination"
+    },
+    "101": {
+        "ending": "She didn\u2019t have endless finance and didn\u2019t have any other people to support her ",
+        "comment": "",
+        "meaning": "the basis on which something is grounded",
+        "sentence": "Her foundation was not strong enough.",
+        "precontext": "Emily always dreamed of building a house that would inspire. She sketched blueprints and gathered materials, pouring her heart into the project. Even as she worked, doubts lingered about whether it would all hold together.",
+        "grouping": 0,
+        "displayed_meaning": "the basis on which something is grounded",
+        "word": "foundation"
+    },
+    "102": {
+        "ending": "She didn\u2019t have endless finance and didn\u2019t have any other people to support her ",
+        "comment": "",
+        "meaning": "the basis on which something is grounded",
+        "sentence": "Her foundation was not strong enough.",
+        "precontext": "Emily always dreamed of building a house that would inspire. She sketched blueprints and gathered materials, pouring her heart into the project. Even as she worked, doubts lingered about whether it would all hold together.",
+        "grouping": 1,
+        "displayed_meaning": "lowest support of a structure",
+        "word": "foundation"
+    },
+    "103": {
+        "ending": "She knew she shouldn't have trusted the builder who started this.",
+        "comment": "",
+        "meaning": "lowest support of a structure",
+        "sentence": "Her foundation was not strong enough.",
+        "precontext": "Emily always dreamed of building a house that would inspire. She sketched blueprints and gathered materials, pouring her heart into the project. Even as she worked, doubts lingered about whether it would all hold together.",
+        "grouping": 2,
+        "displayed_meaning": "the basis on which something is grounded",
+        "word": "foundation"
+    },
+    "104": {
+        "ending": "She knew she shouldn't have trusted the builder who started this.",
+        "comment": "",
+        "meaning": "lowest support of a structure",
+        "sentence": "Her foundation was not strong enough.",
+        "precontext": "Emily always dreamed of building a house that would inspire. She sketched blueprints and gathered materials, pouring her heart into the project. Even as she worked, doubts lingered about whether it would all hold together.",
+        "grouping": 3,
+        "displayed_meaning": "lowest support of a structure",
+        "word": "foundation"
+    },
+    "105": {
+        "ending": "As they started their warm drinks the mist and rain suddenly came down and they couldn't see anything around them let alone navigate. ",
+        "comment": "",
+        "meaning": "toward a lower or inferior state",
+        "sentence": "That went downhill fast.",
+        "precontext": "Jack and Sarah set out on their hike early in the morning.  \nThey were excited about reaching the top of the mountain by noon.  \nAfter a few hours of climbing, they paused for a quick break.  ",
+        "grouping": 0,
+        "displayed_meaning": "toward a lower or inferior state",
+        "word": "downhill"
+    },
+    "106": {
+        "ending": "As they started their warm drinks the mist and rain suddenly came down and they couldn't see anything around them let alone navigate. ",
+        "comment": "",
+        "meaning": "toward a lower or inferior state",
+        "sentence": "That went downhill fast.",
+        "precontext": "Jack and Sarah set out on their hike early in the morning.  \nThey were excited about reaching the top of the mountain by noon.  \nAfter a few hours of climbing, they paused for a quick break.  ",
+        "grouping": 1,
+        "displayed_meaning": "toward the bottom of a hill",
+        "word": "downhill"
+    },
+    "107": {
+        "ending": "The hill was incredibly steep",
+        "comment": "",
+        "meaning": "toward the bottom of a hill",
+        "sentence": "That went downhill fast.",
+        "precontext": "Jack and Sarah set out on their hike early in the morning.  \nThey were excited about reaching the top of the mountain by noon.  \nAfter a few hours of climbing, they paused for a quick break.  ",
+        "grouping": 2,
+        "displayed_meaning": "toward a lower or inferior state",
+        "word": "downhill"
+    },
+    "108": {
+        "ending": "The hill was incredibly steep",
+        "comment": "",
+        "meaning": "toward the bottom of a hill",
+        "sentence": "That went downhill fast.",
+        "precontext": "Jack and Sarah set out on their hike early in the morning.  \nThey were excited about reaching the top of the mountain by noon.  \nAfter a few hours of climbing, they paused for a quick break.  ",
+        "grouping": 3,
+        "displayed_meaning": "toward the bottom of a hill",
+        "word": "downhill"
+    },
+    "109": {
+        "ending": "They darted around looking for a place to plug it in",
+        "comment": "",
+        "meaning": "receptacle providing a place in a wiring system where current can be taken to run electrical devices",
+        "sentence": "Their new invention was so exciting they had to quickly find an outlet",
+        "precontext": "Jenna and Tom had spent months working in their garage. They wanted to create something that could change people's daily lives. When they finally succeeded, their excitement was palpable.",
+        "grouping": 0,
+        "displayed_meaning": "receptacle providing a place in a wiring system where current can be taken to run electrical devices",
+        "word": "outlet"
+    },
+    "110": {
+        "ending": "They darted around looking for a place to plug it in",
+        "comment": "",
+        "meaning": "receptacle providing a place in a wiring system where current can be taken to run electrical devices",
+        "sentence": "Their new invention was so exciting they had to quickly find an outlet",
+        "precontext": "Jenna and Tom had spent months working in their garage. They wanted to create something that could change people's daily lives. When they finally succeeded, their excitement was palpable.",
+        "grouping": 1,
+        "displayed_meaning": "activity that frees or expresses creative energy or emotion",
+        "word": "outlet"
+    },
+    "111": {
+        "ending": "Jenna rushed to make some phone calls to enable them to share this.",
+        "comment": "",
+        "meaning": "activity that frees or expresses creative energy or emotion",
+        "sentence": "Their new invention was so exciting they had to quickly find an outlet",
+        "precontext": "Jenna and Tom had spent months working in their garage. They wanted to create something that could change people's daily lives. When they finally succeeded, their excitement was palpable.",
+        "grouping": 2,
+        "displayed_meaning": "receptacle providing a place in a wiring system where current can be taken to run electrical devices",
+        "word": "outlet"
+    },
+    "112": {
+        "ending": "Jenna rushed to make some phone calls to enable them to share this.",
+        "comment": "",
+        "meaning": "activity that frees or expresses creative energy or emotion",
+        "sentence": "Their new invention was so exciting they had to quickly find an outlet",
+        "precontext": "Jenna and Tom had spent months working in their garage. They wanted to create something that could change people's daily lives. When they finally succeeded, their excitement was palpable.",
+        "grouping": 3,
+        "displayed_meaning": "activity that frees or expresses creative energy or emotion",
+        "word": "outlet"
+    },
+    "113": {
+        "ending": "His calm was shattered by the thought that this could be skin cancer.",
+        "comment": "",
+        "meaning": "a small congenital pigmented spot on the skin",
+        "sentence": "The man's eyes were drawn to the mole.",
+        "precontext": "Henry walked slowly through the garden at dusk. He always found solace in the quiet of the evening. Tonight, however, there was something unusual that caught his attention.",
+        "grouping": 0,
+        "displayed_meaning": "a small congenital pigmented spot on the skin",
+        "word": "moles"
+    },
+    "114": {
+        "ending": "His calm was shattered by the thought that this could be skin cancer.",
+        "comment": "",
+        "meaning": "a small congenital pigmented spot on the skin",
+        "sentence": "The man's eyes were drawn to the mole.",
+        "precontext": "Henry walked slowly through the garden at dusk. He always found solace in the quiet of the evening. Tonight, however, there was something unusual that caught his attention.",
+        "grouping": 1,
+        "displayed_meaning": "small velvety-furred burrowing mammal having small eyes and fossorial forefeet",
+        "word": "moles"
+    },
+    "115": {
+        "ending": "Henry love mammals especially underground ones",
+        "comment": "",
+        "meaning": "small velvety-furred burrowing mammal having small eyes and fossorial forefeet",
+        "sentence": "The man's eyes were drawn to the mole.",
+        "precontext": "Henry walked slowly through the garden at dusk. He always found solace in the quiet of the evening. Tonight, however, there was something unusual that caught his attention.",
+        "grouping": 2,
+        "displayed_meaning": "a small congenital pigmented spot on the skin",
+        "word": "moles"
+    },
+    "116": {
+        "ending": "Henry love mammals especially underground ones",
+        "comment": "",
+        "meaning": "small velvety-furred burrowing mammal having small eyes and fossorial forefeet",
+        "sentence": "The man's eyes were drawn to the mole.",
+        "precontext": "Henry walked slowly through the garden at dusk. He always found solace in the quiet of the evening. Tonight, however, there was something unusual that caught his attention.",
+        "grouping": 3,
+        "displayed_meaning": "small velvety-furred burrowing mammal having small eyes and fossorial forefeet",
+        "word": "moles"
+    },
+    "117": {
+        "ending": "Then i blinked and realised the lightbulb had just come back on",
+        "comment": "",
+        "meaning": "(physics) electromagnetic radiation that can produce a visual sensation",
+        "sentence": "The light of the world has come to me and now I see and experience it all.",
+        "precontext": "I had been sitting alone in the dark for what felt like an eternity. My thoughts were clouded, and I couldn't find a way to move forward. Then, something changed, and a new clarity began to unfold before me.",
+        "grouping": 0,
+        "displayed_meaning": "(physics) electromagnetic radiation that can produce a visual sensation",
+        "word": "light"
+    },
+    "118": {
+        "ending": "Then i blinked and realised the lightbulb had just come back on",
+        "comment": "",
+        "meaning": "(physics) electromagnetic radiation that can produce a visual sensation",
+        "sentence": "The light of the world has come to me and now I see and experience it all.",
+        "precontext": "I had been sitting alone in the dark for what felt like an eternity. My thoughts were clouded, and I couldn't find a way to move forward. Then, something changed, and a new clarity began to unfold before me.",
+        "grouping": 1,
+        "displayed_meaning": "a particular perspective or aspect of a situation",
+        "word": "light"
+    },
+    "119": {
+        "ending": "I could see how to fulfill my purpose.",
+        "comment": "",
+        "meaning": "a particular perspective or aspect of a situation",
+        "sentence": "The light of the world has come to me and now I see and experience it all.",
+        "precontext": "I had been sitting alone in the dark for what felt like an eternity. My thoughts were clouded, and I couldn't find a way to move forward. Then, something changed, and a new clarity began to unfold before me.",
+        "grouping": 2,
+        "displayed_meaning": "(physics) electromagnetic radiation that can produce a visual sensation",
+        "word": "light"
+    },
+    "120": {
+        "ending": "I could see how to fulfill my purpose.",
+        "comment": "",
+        "meaning": "a particular perspective or aspect of a situation",
+        "sentence": "The light of the world has come to me and now I see and experience it all.",
+        "precontext": "I had been sitting alone in the dark for what felt like an eternity. My thoughts were clouded, and I couldn't find a way to move forward. Then, something changed, and a new clarity began to unfold before me.",
+        "grouping": 3,
+        "displayed_meaning": "a particular perspective or aspect of a situation",
+        "word": "light"
+    },
+    "121": {
+        "ending": "Mia sat down and slowly savoured her meal.",
+        "comment": "",
+        "meaning": "vigorous and enthusiastic enjoyment",
+        "sentence": "She ate lunch with relish.",
+        "precontext": "Mia had been looking forward to her lunch break all morning. The cafeteria was bustling with people and the smell of various dishes filled the air. She picked up a tray and decided to try something new today.",
+        "grouping": 0,
+        "displayed_meaning": "vigorous and enthusiastic enjoyment",
+        "word": "relish"
+    },
+    "122": {
+        "ending": "Mia sat down and slowly savoured her meal.",
+        "comment": "",
+        "meaning": "vigorous and enthusiastic enjoyment",
+        "sentence": "She ate lunch with relish.",
+        "precontext": "Mia had been looking forward to her lunch break all morning. The cafeteria was bustling with people and the smell of various dishes filled the air. She picked up a tray and decided to try something new today.",
+        "grouping": 1,
+        "displayed_meaning": "spicy or savory condiment",
+        "word": "relish"
+    },
+    "123": {
+        "ending": "Mia thought that the additional brought out the flavour in her food",
+        "comment": "",
+        "meaning": "spicy or savory condiment",
+        "sentence": "She ate lunch with relish.",
+        "precontext": "Mia had been looking forward to her lunch break all morning. The cafeteria was bustling with people and the smell of various dishes filled the air. She picked up a tray and decided to try something new today.",
+        "grouping": 2,
+        "displayed_meaning": "vigorous and enthusiastic enjoyment",
+        "word": "relish"
+    },
+    "124": {
+        "ending": "Mia thought that the additional brought out the flavour in her food",
+        "comment": "",
+        "meaning": "spicy or savory condiment",
+        "sentence": "She ate lunch with relish.",
+        "precontext": "Mia had been looking forward to her lunch break all morning. The cafeteria was bustling with people and the smell of various dishes filled the air. She picked up a tray and decided to try something new today.",
+        "grouping": 3,
+        "displayed_meaning": "spicy or savory condiment",
+        "word": "relish"
+    },
+    "125": {
+        "ending": "The only way to get the corners was to get the wetsuit on, so he did and climbed in",
+        "comment": "",
+        "meaning": "enclose or envelop completely, as if by swallowing",
+        "sentence": "His next job was to clean the swimming pool, something he immersed himself in fully.",
+        "precontext": "John always took pride in his work at the summer resort. He spent his days ensuring the facility was in perfect order for the guests. Every task he performed seemed more fulfilling and engaging than the last.",
+        "grouping": 0,
+        "displayed_meaning": "enclose or envelop completely, as if by swallowing",
+        "word": "immersed"
+    },
+    "126": {
+        "ending": "The only way to get the corners was to get the wetsuit on, so he did and climbed in",
+        "comment": "",
+        "meaning": "enclose or envelop completely, as if by swallowing",
+        "sentence": "His next job was to clean the swimming pool, something he immersed himself in fully.",
+        "precontext": "John always took pride in his work at the summer resort. He spent his days ensuring the facility was in perfect order for the guests. Every task he performed seemed more fulfilling and engaging than the last.",
+        "grouping": 1,
+        "displayed_meaning": "devote (oneself) fully to",
+        "word": "immersed"
+    },
+    "127": {
+        "ending": "John saw this one as the biggest reward once he had done it.",
+        "comment": "",
+        "meaning": "devote (oneself) fully to",
+        "sentence": "His next job was to clean the swimming pool, something he immersed himself in fully.",
+        "precontext": "John always took pride in his work at the summer resort. He spent his days ensuring the facility was in perfect order for the guests. Every task he performed seemed more fulfilling and engaging than the last.",
+        "grouping": 2,
+        "displayed_meaning": "enclose or envelop completely, as if by swallowing",
+        "word": "immersed"
+    },
+    "128": {
+        "ending": "John saw this one as the biggest reward once he had done it.",
+        "comment": "",
+        "meaning": "devote (oneself) fully to",
+        "sentence": "His next job was to clean the swimming pool, something he immersed himself in fully.",
+        "precontext": "John always took pride in his work at the summer resort. He spent his days ensuring the facility was in perfect order for the guests. Every task he performed seemed more fulfilling and engaging than the last.",
+        "grouping": 3,
+        "displayed_meaning": "devote (oneself) fully to",
+        "word": "immersed"
+    },
+    "129": {
+        "ending": "They just would not stop ringing me no matter how much I ignored the phone.",
+        "comment": "",
+        "meaning": "a person who is in a position to give you special assistance",
+        "sentence": "My contacts were really irritating me.",
+        "precontext": "I had a busy day full of meetings and errands.  \nBy the evening, I was exhausted and couldn't wait to unwind.  \nJust as I thought I could relax, some unexpected problems started to arise.  ",
+        "grouping": 0,
+        "displayed_meaning": "a person who is in a position to give you special assistance",
+        "word": "contacts"
+    },
+    "130": {
+        "ending": "They just would not stop ringing me no matter how much I ignored the phone.",
+        "comment": "",
+        "meaning": "a person who is in a position to give you special assistance",
+        "sentence": "My contacts were really irritating me.",
+        "precontext": "I had a busy day full of meetings and errands.  \nBy the evening, I was exhausted and couldn't wait to unwind.  \nJust as I thought I could relax, some unexpected problems started to arise.  ",
+        "grouping": 1,
+        "displayed_meaning": "a thin curved glass or plastic lens designed to fit over the cornea in order to correct vision or to deliver medication",
+        "word": "contacts"
+    },
+    "131": {
+        "ending": "I thought about going back to glasses due to the pain",
+        "comment": "",
+        "meaning": "a thin curved glass or plastic lens designed to fit over the cornea in order to correct vision or to deliver medication",
+        "sentence": "My contacts were really irritating me.",
+        "precontext": "I had a busy day full of meetings and errands.  \nBy the evening, I was exhausted and couldn't wait to unwind.  \nJust as I thought I could relax, some unexpected problems started to arise.  ",
+        "grouping": 2,
+        "displayed_meaning": "a person who is in a position to give you special assistance",
+        "word": "contacts"
+    },
+    "132": {
+        "ending": "I thought about going back to glasses due to the pain",
+        "comment": "",
+        "meaning": "a thin curved glass or plastic lens designed to fit over the cornea in order to correct vision or to deliver medication",
+        "sentence": "My contacts were really irritating me.",
+        "precontext": "I had a busy day full of meetings and errands.  \nBy the evening, I was exhausted and couldn't wait to unwind.  \nJust as I thought I could relax, some unexpected problems started to arise.  ",
+        "grouping": 3,
+        "displayed_meaning": "a thin curved glass or plastic lens designed to fit over the cornea in order to correct vision or to deliver medication",
+        "word": "contacts"
+    },
+    "133": {
+        "ending": "He\u2019d uprooted his whole life to move here, maybe it was too fast?",
+        "comment": "",
+        "meaning": "an event that occurs when something passes from one state or phase to another",
+        "sentence": "How much change is too much?",
+        "precontext": "It was a busy afternoon at the bustling downtown caf\u00e9.  \nLucas sat by the window, pondering the jumble of coins and the shifting trends in his life.  \nThe waitress brought his order, and he hesitated for a moment, thinking about what he'd read earlier.  ",
+        "grouping": 0,
+        "displayed_meaning": "an event that occurs when something passes from one state or phase to another",
+        "word": "Change"
+    },
+    "134": {
+        "ending": "He\u2019d uprooted his whole life to move here, maybe it was too fast?",
+        "comment": "",
+        "meaning": "an event that occurs when something passes from one state or phase to another",
+        "sentence": "How much change is too much?",
+        "precontext": "It was a busy afternoon at the bustling downtown caf\u00e9.  \nLucas sat by the window, pondering the jumble of coins and the shifting trends in his life.  \nThe waitress brought his order, and he hesitated for a moment, thinking about what he'd read earlier.  ",
+        "grouping": 1,
+        "displayed_meaning": "the balance of money received when the amount you tender is greater than the amount due",
+        "word": "Change"
+    },
+    "135": {
+        "ending": "He thought she might need it more than himself.#",
+        "comment": "",
+        "meaning": "the balance of money received when the amount you tender is greater than the amount due",
+        "sentence": "How much change is too much?",
+        "precontext": "It was a busy afternoon at the bustling downtown caf\u00e9.  \nLucas sat by the window, pondering the jumble of coins and the shifting trends in his life.  \nThe waitress brought his order, and he hesitated for a moment, thinking about what he'd read earlier.  ",
+        "grouping": 2,
+        "displayed_meaning": "an event that occurs when something passes from one state or phase to another",
+        "word": "Change"
+    },
+    "136": {
+        "ending": "He thought she might need it more than himself.#",
+        "comment": "",
+        "meaning": "the balance of money received when the amount you tender is greater than the amount due",
+        "sentence": "How much change is too much?",
+        "precontext": "It was a busy afternoon at the bustling downtown caf\u00e9.  \nLucas sat by the window, pondering the jumble of coins and the shifting trends in his life.  \nThe waitress brought his order, and he hesitated for a moment, thinking about what he'd read earlier.  ",
+        "grouping": 3,
+        "displayed_meaning": "the balance of money received when the amount you tender is greater than the amount due",
+        "word": "Change"
+    },
+    "137": {
+        "ending": "A least the sheets of canvas would help to keep most of his house dry.",
+        "comment": "",
+        "meaning": "form a cover over",
+        "sentence": "When his house roof blew off during the night he was glad he had sufficient cover.",
+        "precontext": "Tom had heard the storm warnings earlier in the day. He checked his home insurance papers just to be sure everything was up to date. As the wind began to howl, he put extra tarpaulins in the attic.",
+        "grouping": 0,
+        "displayed_meaning": "form a cover over",
+        "word": "covered"
+    },
+    "138": {
+        "ending": "A least the sheets of canvas would help to keep most of his house dry.",
+        "comment": "",
+        "meaning": "form a cover over",
+        "sentence": "When his house roof blew off during the night he was glad he had sufficient cover.",
+        "precontext": "Tom had heard the storm warnings earlier in the day. He checked his home insurance papers just to be sure everything was up to date. As the wind began to howl, he put extra tarpaulins in the attic.",
+        "grouping": 1,
+        "displayed_meaning": "protect by insurance",
+        "word": "covered"
+    },
+    "139": {
+        "ending": "Tom loved his insurance provider as they were always so helpful.",
+        "comment": "",
+        "meaning": "protect by insurance",
+        "sentence": "When his house roof blew off during the night he was glad he had sufficient cover.",
+        "precontext": "Tom had heard the storm warnings earlier in the day. He checked his home insurance papers just to be sure everything was up to date. As the wind began to howl, he put extra tarpaulins in the attic.",
+        "grouping": 2,
+        "displayed_meaning": "form a cover over",
+        "word": "covered"
+    },
+    "140": {
+        "ending": "Tom loved his insurance provider as they were always so helpful.",
+        "comment": "",
+        "meaning": "protect by insurance",
+        "sentence": "When his house roof blew off during the night he was glad he had sufficient cover.",
+        "precontext": "Tom had heard the storm warnings earlier in the day. He checked his home insurance papers just to be sure everything was up to date. As the wind began to howl, he put extra tarpaulins in the attic.",
+        "grouping": 3,
+        "displayed_meaning": "protect by insurance",
+        "word": "covered"
+    },
+    "141": {
+        "ending": "Those new machines were doing their job",
+        "comment": "",
+        "meaning": "alternative names for the body of a human being",
+        "sentence": "The gym figures have improved since the New Year",
+        "precontext": "James has been working hard at the local fitness center. With the new year, there was a noticeable surge in membership registrations. Everyone seems more committed to their resolutions now.",
+        "grouping": 0,
+        "displayed_meaning": "alternative names for the body of a human being",
+        "word": "figures"
+    },
+    "142": {
+        "ending": "Those new machines were doing their job",
+        "comment": "",
+        "meaning": "alternative names for the body of a human being",
+        "sentence": "The gym figures have improved since the New Year",
+        "precontext": "James has been working hard at the local fitness center. With the new year, there was a noticeable surge in membership registrations. Everyone seems more committed to their resolutions now.",
+        "grouping": 1,
+        "displayed_meaning": "an amount of money expressed numerically",
+        "word": "figures"
+    },
+    "143": {
+        "ending": "the graph seems to look this way every year.",
+        "comment": "",
+        "meaning": "an amount of money expressed numerically",
+        "sentence": "The gym figures have improved since the New Year",
+        "precontext": "James has been working hard at the local fitness center. With the new year, there was a noticeable surge in membership registrations. Everyone seems more committed to their resolutions now.",
+        "grouping": 2,
+        "displayed_meaning": "alternative names for the body of a human being",
+        "word": "figures"
+    },
+    "144": {
+        "ending": "the graph seems to look this way every year.",
+        "comment": "",
+        "meaning": "an amount of money expressed numerically",
+        "sentence": "The gym figures have improved since the New Year",
+        "precontext": "James has been working hard at the local fitness center. With the new year, there was a noticeable surge in membership registrations. Everyone seems more committed to their resolutions now.",
+        "grouping": 3,
+        "displayed_meaning": "an amount of money expressed numerically",
+        "word": "figures"
+    },
+    "145": {
+        "ending": "Within five minutes bacon and sausages were sizzling and the bread was buttered all in the nick of time as his doorbell rang.",
+        "comment": "",
+        "meaning": "to move hurriedly",
+        "sentence": "He quickly scrambled to make breakfast",
+        "precontext": "James woke up late and realized he was running behind schedule.  \nHis friends were coming over for breakfast, and he had promised them a hearty meal.  \nThe clock was ticking, and he didn't want to disappoint them.  ",
+        "grouping": 0,
+        "displayed_meaning": "to move hurriedly",
+        "word": "scrambled"
+    },
+    "146": {
+        "ending": "Within five minutes bacon and sausages were sizzling and the bread was buttered all in the nick of time as his doorbell rang.",
+        "comment": "",
+        "meaning": "to move hurriedly",
+        "sentence": "He quickly scrambled to make breakfast",
+        "precontext": "James woke up late and realized he was running behind schedule.  \nHis friends were coming over for breakfast, and he had promised them a hearty meal.  \nThe clock was ticking, and he didn't want to disappoint them.  ",
+        "grouping": 1,
+        "displayed_meaning": "stir vigorously",
+        "word": "scrambled"
+    },
+    "147": {
+        "ending": "James arm tired as he made the breakfast",
+        "comment": "",
+        "meaning": "stir vigorously",
+        "sentence": "He quickly scrambled to make breakfast",
+        "precontext": "James woke up late and realized he was running behind schedule.  \nHis friends were coming over for breakfast, and he had promised them a hearty meal.  \nThe clock was ticking, and he didn't want to disappoint them.  ",
+        "grouping": 2,
+        "displayed_meaning": "to move hurriedly",
+        "word": "scrambled"
+    },
+    "148": {
+        "ending": "James arm tired as he made the breakfast",
+        "comment": "",
+        "meaning": "stir vigorously",
+        "sentence": "He quickly scrambled to make breakfast",
+        "precontext": "James woke up late and realized he was running behind schedule.  \nHis friends were coming over for breakfast, and he had promised them a hearty meal.  \nThe clock was ticking, and he didn't want to disappoint them.  ",
+        "grouping": 3,
+        "displayed_meaning": "stir vigorously",
+        "word": "scrambled"
+    },
+    "149": {
+        "ending": "He\u2019d worked so hard to get into the Olympics ",
+        "comment": "",
+        "meaning": "the act of firing a projectile",
+        "sentence": "The man was determined not to miss his shot.",
+        "precontext": "Jack had been waiting for this day for weeks. He had prepared tirelessly, rehearsing every move until it felt like second nature. The pressure was immense, but he knew the opportunity might never come again.",
+        "grouping": 0,
+        "displayed_meaning": "the act of firing a projectile",
+        "word": "shot"
+    },
+    "150": {
+        "ending": "He\u2019d worked so hard to get into the Olympics ",
+        "comment": "",
+        "meaning": "the act of firing a projectile",
+        "sentence": "The man was determined not to miss his shot.",
+        "precontext": "Jack had been waiting for this day for weeks. He had prepared tirelessly, rehearsing every move until it felt like second nature. The pressure was immense, but he knew the opportunity might never come again.",
+        "grouping": 1,
+        "displayed_meaning": "a chance to do something",
+        "word": "shot"
+    },
+    "151": {
+        "ending": "The moment he had trained his whole life for. ",
+        "comment": "",
+        "meaning": "a chance to do something",
+        "sentence": "The man was determined not to miss his shot.",
+        "precontext": "Jack had been waiting for this day for weeks. He had prepared tirelessly, rehearsing every move until it felt like second nature. The pressure was immense, but he knew the opportunity might never come again.",
+        "grouping": 2,
+        "displayed_meaning": "the act of firing a projectile",
+        "word": "shot"
+    },
+    "152": {
+        "ending": "The moment he had trained his whole life for. ",
+        "comment": "",
+        "meaning": "a chance to do something",
+        "sentence": "The man was determined not to miss his shot.",
+        "precontext": "Jack had been waiting for this day for weeks. He had prepared tirelessly, rehearsing every move until it felt like second nature. The pressure was immense, but he knew the opportunity might never come again.",
+        "grouping": 3,
+        "displayed_meaning": "a chance to do something",
+        "word": "shot"
+    },
+    "153": {
+        "ending": "The steamy atmosphere that would usually calm the soul was having the opposite effect.",
+        "comment": "",
+        "meaning": "made warm or hot ('het' is a dialectal variant of 'heated')",
+        "sentence": "Mark left the sauna earlier; everyone was in a bad mood and it was getting too heated.",
+        "precontext": "Mark and his friends decided to visit the new sauna in town.  \nThey had heard it was a place to relax and unwind after a hectic week.  \nAs the evening went on, conversations became more intense.  ",
+        "grouping": 0,
+        "displayed_meaning": "made warm or hot ('het' is a dialectal variant of 'heated')",
+        "word": "heated"
+    },
+    "154": {
+        "ending": "The steamy atmosphere that would usually calm the soul was having the opposite effect.",
+        "comment": "",
+        "meaning": "made warm or hot ('het' is a dialectal variant of 'heated')",
+        "sentence": "Mark left the sauna earlier; everyone was in a bad mood and it was getting too heated.",
+        "precontext": "Mark and his friends decided to visit the new sauna in town.  \nThey had heard it was a place to relax and unwind after a hectic week.  \nAs the evening went on, conversations became more intense.  ",
+        "grouping": 1,
+        "displayed_meaning": "marked by emotional heat; vehement",
+        "word": "heated"
+    },
+    "155": {
+        "ending": "Mark hated arguments and would always avoid them at all costs",
+        "comment": "",
+        "meaning": "marked by emotional heat; vehement",
+        "sentence": "Mark left the sauna earlier; everyone was in a bad mood and it was getting too heated.",
+        "precontext": "Mark and his friends decided to visit the new sauna in town.  \nThey had heard it was a place to relax and unwind after a hectic week.  \nAs the evening went on, conversations became more intense.  ",
+        "grouping": 2,
+        "displayed_meaning": "made warm or hot ('het' is a dialectal variant of 'heated')",
+        "word": "heated"
+    },
+    "156": {
+        "ending": "Mark hated arguments and would always avoid them at all costs",
+        "comment": "",
+        "meaning": "marked by emotional heat; vehement",
+        "sentence": "Mark left the sauna earlier; everyone was in a bad mood and it was getting too heated.",
+        "precontext": "Mark and his friends decided to visit the new sauna in town.  \nThey had heard it was a place to relax and unwind after a hectic week.  \nAs the evening went on, conversations became more intense.  ",
+        "grouping": 3,
+        "displayed_meaning": "marked by emotional heat; vehement",
+        "word": "heated"
+    },
+    "157": {
+        "ending": "It started ranting and raving and its eyes turned red",
+        "comment": "",
+        "meaning": "informal or slang terms for mentally irregular",
+        "sentence": "After the android was shot with the space laser it began to go haywire, talking gibberish",
+        "precontext": "The spaceship was on a mission to explore a distant planet rumored to have remnants of an ancient civilization.  \nThe crew relied heavily on their android companion to detect any threats and collect data.  \nOne day, while scanning the planet's surface, the android suddenly came under attack from an unknown space laser.",
+        "grouping": 0,
+        "displayed_meaning": "informal or slang terms for mentally irregular",
+        "word": "haywire"
+    },
+    "158": {
+        "ending": "It started ranting and raving and its eyes turned red",
+        "comment": "",
+        "meaning": "informal or slang terms for mentally irregular",
+        "sentence": "After the android was shot with the space laser it began to go haywire, talking gibberish",
+        "precontext": "The spaceship was on a mission to explore a distant planet rumored to have remnants of an ancient civilization.  \nThe crew relied heavily on their android companion to detect any threats and collect data.  \nOne day, while scanning the planet's surface, the android suddenly came under attack from an unknown space laser.",
+        "grouping": 1,
+        "displayed_meaning": "not functioning properly",
+        "word": "haywire"
+    },
+    "159": {
+        "ending": "The mission was over.",
+        "comment": "",
+        "meaning": "not functioning properly",
+        "sentence": "After the android was shot with the space laser it began to go haywire, talking gibberish",
+        "precontext": "The spaceship was on a mission to explore a distant planet rumored to have remnants of an ancient civilization.  \nThe crew relied heavily on their android companion to detect any threats and collect data.  \nOne day, while scanning the planet's surface, the android suddenly came under attack from an unknown space laser.",
+        "grouping": 2,
+        "displayed_meaning": "informal or slang terms for mentally irregular",
+        "word": "haywire"
+    },
+    "160": {
+        "ending": "The mission was over.",
+        "comment": "",
+        "meaning": "not functioning properly",
+        "sentence": "After the android was shot with the space laser it began to go haywire, talking gibberish",
+        "precontext": "The spaceship was on a mission to explore a distant planet rumored to have remnants of an ancient civilization.  \nThe crew relied heavily on their android companion to detect any threats and collect data.  \nOne day, while scanning the planet's surface, the android suddenly came under attack from an unknown space laser.",
+        "grouping": 3,
+        "displayed_meaning": "not functioning properly",
+        "word": "haywire"
+    }
+}

@@ -41,6 +41,12 @@ TASK_INFO = {
         "qualification_filepath": "ending_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 4,
         "group_assignment": "post-qualification"
+    },
+    "eval_ending_task": {
+        "annotation_filepath": "eval_ending_task/resources/story_samples.json",
+        "qualification_filepath": "eval_ending_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 4,
+        "group_assignment": "post-qualification"
     }
 }
 
