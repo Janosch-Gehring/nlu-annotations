@@ -190,6 +190,11 @@ def assign_to_weakest_group(user_id: str, task: str):
         group_counts[group] += 1
 
     weakest_group = min(group_counts, key = group_counts.get)
+
+    if task == "eval_ending_task":
+        # I have gotten to a point where I really only need group 1 anymore.
+        weakest_group = 1
+
     print(task, group_counts, weakest_group)
 
     cursor.execute("""
