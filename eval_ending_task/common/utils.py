@@ -30,7 +30,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         samples = read_json_from_file(TASK_INFO["eval_ending_task"]["annotation_filepath"])
 
     sample_preload = load_annotation(subtask, index)
-    if sample_preload is None:
+    if not sample_preload:
         value_slider, value_nonsensical, value_comment = 0, None, ""
     else:
         value_slider, value_nonsensical, value_comment = (sample_preload["slider"], sample_preload["nonsensical"], sample_preload["comment"])
