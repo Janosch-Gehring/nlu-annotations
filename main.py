@@ -14,7 +14,7 @@ database_repository.init_db()
 # Emoticons can be copied from here: https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
 # define pages
 main_page = st.Page(
-    "core/pages/main_page.py", title="Start Page", icon="🏚️", default=True
+    "core/pages/main_page.py", title="Start Page", icon="🏚️"
 )
 authentication_page = st.Page(
     "core/pages/authentication_page.py", title="Log In", icon="🎟️", url_path="authentication"
@@ -48,6 +48,18 @@ ambiguity_annotation_page = st.Page(
     "ambiguity_task/pages/annotation_page.py", title="Annotation", icon="🏭"
 )
 
+# Memory Experiment Pages
+presentation_page = st.Page(
+    "memory_experiment/pages/presentation_page.py", title="Memory Experiment", icon="🧠", url_path="memory_experiment_presentation", default=True
+)
+
+recall_page = st.Page(
+    "memory_experiment/pages/recall_page.py", title="Recall", icon="🔍", url_path="memory_experiment_recall"
+)
+
+recognition_page = st.Page(
+    "memory_experiment/pages/recognition_page.py", title="Recognition", icon="🔍", url_path="memory_experiment_recognition"
+)
 
 # Create navigation bar
 
@@ -73,9 +85,9 @@ else:
     pg = st.navigation(
         {
         "Home": [main_page, authentication_page],
-        "Task Previews": [ambiguity_start_page]
-        }
-
+        "Task Previews": [presentation_page, recall_page, recognition_page]
+        },
+        position="hidden"
     )
 
 pg.run()
