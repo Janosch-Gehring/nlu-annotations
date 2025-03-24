@@ -18,7 +18,7 @@ if "conn" not in st.session_state:
 # Emoticons can be copied from here: https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
 # define pages
 main_page = st.Page(
-    "core/pages/main_page.py", title="Start Page", icon="🏚️", default=True
+    "core/pages/main_page.py", title="Start Page", icon="🏚️"
 )
 authentication_page = st.Page(
     "core/pages/authentication_page.py", title="Log In", icon="🎟️", url_path="authentication"
@@ -118,6 +118,84 @@ eval_ending_annotation_page = st.Page(
     "eval_ending_task/pages/annotation_page.py", title="Annotation", icon="🏭"
 )
 
+# Ambistory Task Pages
+ambistory_start_page = st.Page(
+    "ambistory_task/pages/introduction_page.py", title="Ambiguous Story Task Intro", icon="📕", url_path="ambistory_task_introduction"
+)
+ambistory_qualification_page = st.Page(
+    "ambistory_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+ambistory_annotation_page = st.Page(
+    "ambistory_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+)
+
+# Ambisentence Task Pages
+ambisentence_start_page = st.Page(
+    "ambisentence_task/pages/introduction_page.py", title="Ambiguous Sentence Task Intro", icon="❓", url_path="ambistory_task_introduction"
+)
+ambisentence_qualification_page = st.Page(
+    "ambisentence_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+ambisentence_annotation_page = st.Page(
+    "ambisentence_task/pages/annotation_page.py", title="Writing", icon="✏️"
+)
+
+# Eval Ambisentence Task Pages
+eval_ambisentence_start_page = st.Page(
+    "eval_ambisentence_task/pages/introduction_page.py", title="Ambiguous Sentence Evaluation Task Intro", icon="🕵️‍♂️", url_path="eval_ambisentence_task_introduction"
+)
+eval_ambisentence_qualification_page = st.Page(
+    "eval_ambisentence_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+eval_ambisentence_annotation_page = st.Page(
+    "eval_ambisentence_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+)
+
+# Ambistory2 Task Pages
+ambistory2_start_page = st.Page(
+    "ambistory2_task/pages/introduction_page.py", title="Ambiguous Story Task Intro", icon="📖", url_path="ambistory2_task_introduction"
+)
+ambistory2_qualification_page = st.Page(
+    "ambistory2_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+ambistory2_annotation_page = st.Page(
+    "ambistory2_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+)
+
+# Ending Task Pages
+ending_start_page = st.Page(  # How truly ironic
+    "ending_task/pages/introduction_page.py", title="Story Ending Task Intro", icon="📙", url_path="ending_task_introduction"
+)
+ending_qualification_page = st.Page(
+    "ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+ending_annotation_page = st.Page(
+    "ending_task/pages/annotation_page.py", title="Writing", icon="✏️"
+)
+
+# Eval Ending Task Pages
+eval_ending_start_page = st.Page(
+    "eval_ending_task/pages/introduction_page.py", title="Story Interpretation Task Intro", icon="📖"
+)
+eval_ending_qualification_page = st.Page(
+    "eval_ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+eval_ending_annotation_page = st.Page(
+    "eval_ending_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+)
+
+# Memory Experiment Pages
+presentation_page = st.Page(
+    "memory_experiment/pages/presentation_page.py", title="Memory Experiment", icon="🧠", url_path="memory_experiment_presentation", default=True
+)
+
+recall_page = st.Page(
+    "memory_experiment/pages/recall_page.py", title="Recall", icon="🔍", url_path="memory_experiment_recall"
+)
+
+recognition_page = st.Page(
+    "memory_experiment/pages/recognition_page.py", title="Recognition", icon="🔍", url_path="memory_experiment_recognition"
+)
 
 # Create navigation bar
 
@@ -163,9 +241,9 @@ else:
     pg = st.navigation(
         {
         "Home": [main_page, authentication_page],
-        "Task Previews": [eval_ending_start_page]
-        }
-
+        "Task Previews": [presentation_page, recall_page, recognition_page]
+        },
+        position="hidden"
     )
 
 try:
