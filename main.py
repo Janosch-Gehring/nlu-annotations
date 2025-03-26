@@ -177,7 +177,7 @@ elif st.session_state.user_id:
         available_pages["Story Interpretation Task"] = [eval_ending_start_page, eval_ending_qualification_page, eval_ending_annotation_page]
 
     elif utils.authenticate_id("memory_experiment", st.session_state.user_id):
-        available_pages["Memory Experiment"] = [presentation_page, recall_page, recognition_page]
+        available_pages["Memory Experiment"] = [presentation_page, recall_page, recognition_page, demographics_page]
 
     available_pages["Other"] = [logout_page]
 
@@ -192,7 +192,7 @@ else:
     pg = st.navigation(
         {
         "Home": [authentication_page_experiments],
-        "Task Previews": [presentation_page, recall_page, recognition_page]
+        "Task Previews": [presentation_page, recall_page, recognition_page, demographics_page]
         },
         position="hidden"
     )
