@@ -25,7 +25,7 @@ authentication_page = st.Page(
 )
 
 authentication_page_experiments = st.Page(
-    "core/pages/authentication_page_experiments.py", title="Log In", icon="🎟️", url_path="authentication_experiments",default=True
+    "core/pages/authentication_page_experiments.py", title="Log In", icon="🎟️", url_path="authentication_experiments"#,default=True
 )
 
 admin_page = st.Page(
@@ -134,6 +134,10 @@ recall_page = st.Page(
 
 recognition_page = st.Page(
     "memory_experiment/pages/recognition_page.py", title="Recognition", icon="🔍", url_path="memory_experiment_recognition"
+)
+
+demographics_page = st.Page(
+    "memory_experiment/pages/demographics_page", title="demographics", icon="🔍", url_path="demographics_info", default=True
 )
 
 # Create navigation bar

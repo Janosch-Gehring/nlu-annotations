@@ -1,26 +1,26 @@
 {
 	"1": {
 		"headline": "AI bigwigs want to go all-in on nuclear. They also happen to be behind nuclear companies",
-		"grouping": 1
+		"grouping": 0
 	},
 	"2": {
 		"headline": "This study says having good cardio in your middle ages may reduce your risk of Alzheimer's and dementia.",
-		"grouping": 1
+		"grouping": 0
 	},
 	"3": {
 		"headline": "They're up to 70% of our diet. But the US has no plan for highly processed foods",
-		"grouping": 1
+		"grouping": 0
 	},
 	"4": {
 		"headline": "The UK thinks weight loss drugs could ease unemployment. Experts say that’s a fantasy",
-		"grouping": 2
+		"grouping": 1
 	},
 	"5": {
 		"headline": "Trump’s energy plan is \"drill, baby, drill.\" But it won’t be that easy for him.",
-		"grouping": 2
+		"grouping": 1
 	},
 	"6": {
 		"headline": "This greenhouse keeps crops cool. It could prove valuable as our planet bakes",
-		"grouping": 2
+		"grouping": 1
 	}
 }

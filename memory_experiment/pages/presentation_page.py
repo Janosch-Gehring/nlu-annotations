@@ -13,13 +13,14 @@ if "progress" not in st.session_state:
     if not st.session_state.progress:
         st.session_state.progress = skip_to_next_sample(0, samples, st.session_state.user[3], 1, "memory", qualification_function=None)
 st.session_state.page = "memory_experiment_presentation_page_sample" + str(st.session_state.progress)
-index = st.session_state.progress
+index = int(st.session_state.progress)
 num_samples = get_amount_of_samples_for_group("memory", "memory_experiment", st.session_state.user[3])
 while index <= num_samples:
-    placeholder.write(samples["1"]["headline"])
+    print(index)
     placeholder.write(samples[str(index)]["headline"])
     time.sleep(2)
     st.session_state.progress = skip_to_next_sample(index, samples, st.session_state.user[3], 1, "memory", qualification_function=None)
-    index = st.session_state.progress
+    index = int(st.session_state.progress)
+    print(index)
 
 st.switch_page("memory_experiment/pages/recall_page.py")

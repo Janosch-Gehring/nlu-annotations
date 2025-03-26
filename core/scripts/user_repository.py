@@ -49,6 +49,21 @@ def create_user(user_id: str, task: str = "ambiguity_task", data: dict = {}):
     conn.commit()  # Commit changes to the database
     # conn.close()
 
+def update_demographics(user_id: str, data: dict):
+    """
+    Update the demographic data of the user with the given user id.
+    """
+    conn = st.session_state.conn
+    cursor = conn.cursor()
+
+    cursor.execute("""
+        UPDATE user_data
+        SET data = %s
+        WHERE user_id = %s
+    """, (json.dumps(data), user_id))
+    conn.commit()
+    # conn.close()
+    
 def save_one_annotation(user_id: str, key: str, question_index: int, question_annotation: dict):
     """
     Save one annotation for a sample to the database.
