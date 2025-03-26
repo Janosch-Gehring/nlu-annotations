@@ -19,6 +19,7 @@ if "conn" not in st.session_state:
 # define pages
 main_page = st.Page(
     "core/pages/main_page.py", title="Start Page", icon="🏚️"
+    "core/pages/main_page.py", title="Start Page", icon="🏚️"
 )
 authentication_page = st.Page(
     "core/pages/authentication_page.py", title="Log In", icon="🎟️", url_path="authentication"
@@ -175,6 +176,9 @@ else:
     pg = st.navigation(
         {
         "Home": [main_page, authentication_page],
+        "Task Previews": [presentation_page, recall_page, recognition_page]
+        },
+        position="hidden"
         "Task Previews": [presentation_page, recall_page, recognition_page]
         },
         position="hidden"
