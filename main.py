@@ -19,11 +19,15 @@ if "conn" not in st.session_state:
 # define pages
 main_page = st.Page(
     "core/pages/main_page.py", title="Start Page", icon="🏚️"
-    "core/pages/main_page.py", title="Start Page", icon="🏚️"
 )
 authentication_page = st.Page(
     "core/pages/authentication_page.py", title="Log In", icon="🎟️", url_path="authentication"
 )
+
+authentication_page_experiments = st.Page(
+    "core/pages/authentication_page_experiments.py", title="Log In", icon="🎟️", url_path="authentication_experiments",default=True
+)
+
 admin_page = st.Page(
     "core/pages/admin_page.py", title="Admin Area", icon="💻"
 )
@@ -121,7 +125,7 @@ eval_ending_annotation_page = st.Page(
 
 # Memory Experiment Pages
 presentation_page = st.Page(
-    "memory_experiment/pages/presentation_page.py", title="Memory Experiment", icon="🧠", url_path="memory_experiment_presentation", default=True
+    "memory_experiment/pages/presentation_page.py", title="Memory Experiment", icon="🧠", url_path="memory_experiment_presentation"
 )
 
 recall_page = st.Page(
@@ -168,17 +172,22 @@ elif st.session_state.user_id:
     elif utils.authenticate_id("eval_ending_task", st.session_state.user_id):
         available_pages["Story Interpretation Task"] = [eval_ending_start_page, eval_ending_qualification_page, eval_ending_annotation_page]
 
+    elif utils.authenticate_id("memory_experiment", st.session_state.user_id):
+        available_pages["Memory Experiment"] = [presentation_page, recall_page, recognition_page]
+
     available_pages["Other"] = [logout_page]
 
-    pg = st.navigation(available_pages)
+    if utils.authenticate_id("memory_experiment", st.session_state.user_id):
+        print("user_id", st.session_state.user_id)
+        pg = st.navigation(available_pages["Memory Experiment"])
+    else:
+        pg = st.navigation(available_pages)
+        
 
 else:
     pg = st.navigation(
         {
-        "Home": [main_page, authentication_page],
-        "Task Previews": [presentation_page, recall_page, recognition_page]
-        },
-        position="hidden"
+        "Home": [authentication_page_experiments],
         "Task Previews": [presentation_page, recall_page, recognition_page]
         },
         position="hidden"

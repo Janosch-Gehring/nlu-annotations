@@ -48,9 +48,10 @@ TASK_INFO = {
         "number_of_annotator_groups": 4,
         "group_assignment": "post-qualification"
     },
+
     "memory_experiment": {
-        "memory_filepath": "memory_experiment/resources/stimuli.json",
-        "number_of_annotator_groups": 2
+        "annotation_filepath": "memory_experiment/resources/stimuli.json",
+        "number_of_annotator_groups": 2,
     }
 }
 
