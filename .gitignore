@@ -1,0 +1,9 @@
+venv/
+testing/
+database.db
+.env
+database_test.py
+ambiguity_database.json
+*output.txt
+*output.jsonl
+core/scripts/__pycache__/
