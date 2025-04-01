@@ -196,7 +196,7 @@ elif st.session_state.user_id:
 
     if utils.authenticate_id("memory_experiment", st.session_state.user_id):
         print("user_id", st.session_state.user_id)
-        pg = st.navigation(available_pages["Memory Experiment"])
+        pg = st.navigation(available_pages["Memory Experiment"], position="hidden")
     else:
         pg = st.navigation(available_pages)
         

@@ -14,17 +14,16 @@ if "shuffled_keys" not in st.session_state:
     random.shuffle(shuffled_keys)
     st.session_state.shuffled_keys = shuffled_keys
     print("Added shuffled keys:", st.session_state.shuffled_keys)
-    st.session_state.index = 0
+    st.session_state.index = 1
 placeholder = st.empty()
-key = st.session_state.shuffled_keys[st.session_state.index]
+key = st.session_state.shuffled_keys[st.session_state.index -1]
 placeholder.write(samples[key]["headline"])
 user_response = st.radio("Have you seen the text above before?", ["Yes, this was shown to me in the initial task", "No, this headline is new"])
 show_next = st.button("Show next", key="show_next_button")
-st.session_state.index += 1
-while st.session_state.index < len(st.session_state.shuffled_keys) -1:
+while st.session_state.index < len(st.session_state.shuffled_keys):
     if show_next:
         samples[key]["response"] = user_response
-        samples[key]["sample_id"] = key
+        samples[key]["sample_id"] = int(key)
         print("key:", key)
         print("response:", user_response)
         user_repository.save_one_annotation(st.session_state.user_id, "recognition", int(key), samples[key])
@@ -33,8 +32,9 @@ while st.session_state.index < len(st.session_state.shuffled_keys) -1:
         st.session_state.index += 1
         show_next = None
 
-samples[key]["response"] = user_response
-samples[key]["sample_id"] = key
-user_repository.save_one_annotation(st.session_state.user_id, "recognition", int(key), samples[key])
+if show_next:
+    samples[key]["response"] = user_response
+    samples[key]["sample_id"] = key
+    user_repository.save_one_annotation(st.session_state.user_id, "recognition", int(key), samples[key])
 
-st.switch_page("memory_experiment/pages/demographics_page.py")
+    st.switch_page("memory_experiment/pages/demographics_page.py")

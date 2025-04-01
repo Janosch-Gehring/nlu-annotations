@@ -1,6 +1,7 @@
 import streamlit as st
+from core.scripts import user_repository
 
-
+demographics = {}
 with st.form("Please provide the following information about yourself:"):
     age = st.number_input("How old are you?", min_value=0, max_value=100, key="age")
     education = st.radio("What's your highest education level?", ["no formal education", "high school diploma", "college degree", "graduate degree"], key="education")
@@ -9,4 +10,10 @@ with st.form("Please provide the following information about yourself:"):
     news_consumption = st.text_input("Where do you get most of your news from (i.e. newspapers, TV, radio, internet, social media,...)?")
     submitted = st.form_submit_button("Submit")
 if submitted:
-    st.switch_page("memory_experiment/pages/recall_page.py")
+    demographics["age"] = age
+    demographics["education"] = education
+    demographics["occupation"] = occupation
+    demographics["political_party"] = political_party
+    demographics["news_consumption"] = news_consumption
+    user_repository.save_one_annotation(st.session_state.user_id, "demographics", 1, demographics)
+    st.switch_page("memory_experiment/pages/thank_you_page.py")
