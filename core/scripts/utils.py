@@ -232,16 +232,20 @@ def skip_to_next_sample(index: int, samples: dict, grouping: int, direction: int
             index += direction
             continue
         checked_sample = samples[str(index)]
+        print(f"Checking {checked_sample} sample for grouping {grouping}")
         if ("grouping" not in checked_sample) or (grouping == checked_sample["grouping"]):
+            print("Sample for grouping found")
             break  # break when finding relevant sample
         else:
             index += direction
+            print("Checked sample not releveant. Checking next sample")
             if index < 1:  # went back too far
                 index = 1
                 direction = 1  # reverse to find first sample again
             elif index > len(samples):
                 finish_subtask(subtask, qualification_function)
     # return index where it found a sample
+    print(index)
     return index
 
 

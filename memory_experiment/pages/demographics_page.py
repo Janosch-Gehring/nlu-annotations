@@ -9,4 +9,4 @@ with st.form("Please provide the following information about yourself:"):
     news_consumption = st.text_input("Where do you get most of your news from (i.e. newspapers, TV, radio, internet, social media,...)?")
     submitted = st.form_submit_button("Submit")
 if submitted:
-    st.write(submitted)
+    st.switch_page("memory_experiment/pages/recall_page.py")

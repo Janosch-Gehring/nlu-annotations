@@ -24,10 +24,6 @@ authentication_page = st.Page(
     "core/pages/authentication_page.py", title="Log In", icon="🎟️", url_path="authentication"
 )
 
-authentication_page_experiments = st.Page(
-    "core/pages/authentication_page_experiments.py", title="Log In", icon="🎟️", url_path="authentication_experiments"#,default=True
-)
-
 admin_page = st.Page(
     "core/pages/admin_page.py", title="Admin Area", icon="💻"
 )
@@ -124,9 +120,22 @@ eval_ending_annotation_page = st.Page(
 )
 
 # Memory Experiment Pages
-presentation_page = st.Page(
-    "memory_experiment/pages/presentation_page.py", title="Memory Experiment", icon="🧠", url_path="memory_experiment_presentation"
-)
+
+if st.session_state.user_id == "":
+    authentication_page_experiments = st.Page(
+        "core/pages/authentication_page_experiments.py", title="Log In", icon="🎟️", url_path="authentication_experiments", default=True
+    )
+    presentation_page = st.Page(
+        "memory_experiment/pages/presentation_page.py", title="Memory Experiment", icon="🧠", url_path="memory_experiment_presentation"
+    )
+else:
+    authentication_page_experiments = st.Page(
+        "core/pages/authentication_page_experiments.py", title="Log In", icon="🎟️", url_path="authentication_experiments"
+    )
+    presentation_page = st.Page(
+        "memory_experiment/pages/presentation_page.py", title="Memory Experiment", icon="🧠", url_path="memory_experiment_presentation",default=True
+    )
+
 
 recall_page = st.Page(
     "memory_experiment/pages/recall_page.py", title="Recall", icon="🔍", url_path="memory_experiment_recall"
@@ -137,7 +146,11 @@ recognition_page = st.Page(
 )
 
 demographics_page = st.Page(
-    "memory_experiment/pages/demographics_page", title="demographics", icon="🔍", url_path="demographics_info", default=True
+    "memory_experiment/pages/demographics_page.py", title="demographics", icon="🔍", url_path="demographics_info"
+)
+
+distractor_page = st.Page(
+    "memory_experiment/pages/distractor_page.py", title="Distractor", icon="🔍", url_path="distractor"
 )
 
 # Create navigation bar
@@ -177,7 +190,7 @@ elif st.session_state.user_id:
         available_pages["Story Interpretation Task"] = [eval_ending_start_page, eval_ending_qualification_page, eval_ending_annotation_page]
 
     elif utils.authenticate_id("memory_experiment", st.session_state.user_id):
-        available_pages["Memory Experiment"] = [presentation_page, recall_page, recognition_page, demographics_page]
+        available_pages["Memory Experiment"] = [presentation_page, recall_page, recognition_page, demographics_page, distractor_page]
 
     available_pages["Other"] = [logout_page]
 
@@ -189,14 +202,7 @@ elif st.session_state.user_id:
         
 
 else:
-    pg = st.navigation(
-        {
-        "Home": [authentication_page_experiments],
-        "Task Previews": [presentation_page, recall_page, recognition_page, demographics_page]
-        },
-        position="hidden"
-    )
-
+    pg = st.navigation([authentication_page_experiments])
 try:
     pg.run()
 except (psycopg2.InterfaceError, psycopg2.OperationalError) as e:

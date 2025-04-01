@@ -1,7 +1,17 @@
 import streamlit as st
+from core.scripts import user_repository
 
-st.text_area("""Please write down as many headlines as you remember here. Try to write downthe exact wording of each headline. "
+recall = st.text_area("""Please write down as many headlines as you remember here. Try to write downthe exact wording of each headline. "
 Write each headline in a new line:""")
+recall_dict = {}
 
 if st.button("Submit"):
-    st.switch_page("memory_experiment/pages/recognition_page.py")
+    if recall is None:
+        st.error("Please write down at least one headline before submitting.")
+    else:
+        textsplit = recall.splitlines()
+        recall_dict["recall"] = []
+        for x in textsplit:
+            recall_dict["recall"].append(x)
+        user_repository.save_one_annotation(st.session_state.user_id, "recall", 1, recall_dict)
+        st.switch_page("memory_experiment/pages/recognition_page.py")
