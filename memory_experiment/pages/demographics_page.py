@@ -15,5 +15,5 @@ if submitted:
     demographics["occupation"] = occupation
     demographics["political_party"] = political_party
     demographics["news_consumption"] = news_consumption
-    user_repository.save_one_annotation(st.session_state.user_id, "demographics", 1, demographics)
+    user_repository.update_demographics(st.session_state.user_id, demographics)
     st.switch_page("memory_experiment/pages/thank_you_page.py")

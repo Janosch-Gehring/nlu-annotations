@@ -153,6 +153,9 @@ distractor_page = st.Page(
     "memory_experiment/pages/distractor_page.py", title="Distractor", icon="🔍", url_path="distractor"
 )
 
+thank_you_page = st.Page(
+    "memory_experiment/pages/thank_you_page.py", title="Thank You", icon="🔍", url_path="thank_you"
+)
 # Create navigation bar
 
 if st.session_state.user_id == "admin":
@@ -190,7 +193,7 @@ elif st.session_state.user_id:
         available_pages["Story Interpretation Task"] = [eval_ending_start_page, eval_ending_qualification_page, eval_ending_annotation_page]
 
     elif utils.authenticate_id("memory_experiment", st.session_state.user_id):
-        available_pages["Memory Experiment"] = [presentation_page, recall_page, recognition_page, demographics_page, distractor_page]
+        available_pages["Memory Experiment"] = [presentation_page, recall_page, recognition_page, demographics_page, distractor_page, thank_you_page]
 
     available_pages["Other"] = [logout_page]
 
