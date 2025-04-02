@@ -14,27 +14,30 @@ if "shuffled_keys" not in st.session_state:
     random.shuffle(shuffled_keys)
     st.session_state.shuffled_keys = shuffled_keys
     print("Added shuffled keys:", st.session_state.shuffled_keys)
-    st.session_state.index = 1
-placeholder = st.empty()
-key = st.session_state.shuffled_keys[st.session_state.index -1]
-placeholder.write(samples[key]["headline"])
-user_response = st.radio("Have you seen the text above before?", ["Yes, this was shown to me in the initial task", "No, this headline is new"])
-show_next = st.button("Show next", key="show_next_button")
-while st.session_state.index < len(st.session_state.shuffled_keys):
-    if show_next:
+    st.session_state.index = 0
+
+if st.session_state.index < len(st.session_state.shuffled_keys):
+    print("In Fragment!")
+    key = st.session_state.shuffled_keys[st.session_state.index]
+    st.write(samples[key]["headline"])
+    user_response = st.radio("Have you seen the text above before?", ["Yes, this was shown to me in the initial task", "No, this headline is new"], 
+                            index=None, 
+                            key=st.session_state.index)
+    show_next = st.button("Show next", key="show_next_button")
+else:
+    st.switch_page("memory_experiment/pages/demographics_page.py")
+
+if show_next:
+    if user_response is None:
+        st.warning("Please select an answer before proceeding.")
+    else:
         samples[key]["response"] = user_response
         samples[key]["sample_id"] = int(key)
         print("key:", key)
         print("response:", user_response)
         user_repository.save_one_annotation(st.session_state.user_id, "recognition", int(key), samples[key])
-        key = st.session_state.shuffled_keys[st.session_state.index]
-        placeholder.write(samples[key]["headline"])
+        #key = st.session_state.shuffled_keys[st.session_state.index]
+        #placeholder.write(samples[key]["headline"])
         st.session_state.index += 1
-        show_next = None
-
-if show_next:
-    samples[key]["response"] = user_response
-    samples[key]["sample_id"] = key
-    user_repository.save_one_annotation(st.session_state.user_id, "recognition", int(key), samples[key])
-
-    st.switch_page("memory_experiment/pages/demographics_page.py")
+        print("Rerunning with new key", st.session_state.index)
+        st.rerun()
