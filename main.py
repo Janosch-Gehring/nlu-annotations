@@ -125,17 +125,14 @@ if st.session_state.user_id == "":
     authentication_page_experiments = st.Page(
         "core/pages/authentication_page_experiments.py", title="Log In", icon="🎟️", url_path="authentication_experiments", default=True
     )
-    presentation_page = st.Page(
-        "memory_experiment/pages/presentation_page.py", title="Memory Experiment", icon="🧠", url_path="memory_experiment_presentation"
-    )
 else:
-    authentication_page_experiments = st.Page(
-        "core/pages/authentication_page_experiments.py", title="Log In", icon="🎟️", url_path="authentication_experiments"
-    )
-    presentation_page = st.Page(
-        "memory_experiment/pages/presentation_page.py", title="Memory Experiment", icon="🧠", url_path="memory_experiment_presentation",default=True
+    informed_consent_page = st.Page(
+        "memory_experiment/pages/informed_consent_page.py", title="Memory Experiment", icon="🧠", url_path="memory_experiment_informed_consent",default=True
     )
 
+presentation_page = st.Page(
+    "memory_experiment/pages/presentation_page.py", title="Memory Experiment", icon="🧠", url_path="memory_experiment_presentation"
+)
 
 recall_page = st.Page(
     "memory_experiment/pages/recall_page.py", title="Recall", icon="🔍", url_path="memory_experiment_recall"
@@ -193,12 +190,11 @@ elif st.session_state.user_id:
         available_pages["Story Interpretation Task"] = [eval_ending_start_page, eval_ending_qualification_page, eval_ending_annotation_page]
 
     elif utils.authenticate_id("memory_experiment", st.session_state.user_id):
-        available_pages["Memory Experiment"] = [presentation_page, recall_page, recognition_page, demographics_page, distractor_page, thank_you_page]
+        available_pages["Memory Experiment"] = [informed_consent_page, presentation_page, recall_page, recognition_page, demographics_page, distractor_page, thank_you_page]
 
     available_pages["Other"] = [logout_page]
 
     if utils.authenticate_id("memory_experiment", st.session_state.user_id):
-        print("user_id", st.session_state.user_id)
         pg = st.navigation(available_pages["Memory Experiment"], position="hidden")
     else:
         pg = st.navigation(available_pages)

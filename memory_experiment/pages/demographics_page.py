@@ -10,10 +10,13 @@ with st.form("Please provide the following information about yourself:"):
     news_consumption = st.text_input("Where do you get most of your news from (i.e. newspapers, TV, radio, internet, social media,...)?")
     submitted = st.form_submit_button("Submit")
 if submitted:
-    demographics["age"] = age
-    demographics["education"] = education
-    demographics["occupation"] = occupation
-    demographics["political_party"] = political_party
-    demographics["news_consumption"] = news_consumption
-    user_repository.update_demographics(st.session_state.user_id, demographics)
-    st.switch_page("memory_experiment/pages/thank_you_page.py")
+    if age==None or education==None or occupation==None or political_party==None or news_consumption==None:
+        st.warning("Please fill out all fields before submitting")
+    else:
+        demographics["age"] = age
+        demographics["education"] = education
+        demographics["occupation"] = occupation
+        demographics["political_party"] = political_party
+        demographics["news_consumption"] = news_consumption
+        user_repository.update_demographics(st.session_state.user_id, demographics)
+        st.switch_page("memory_experiment/pages/thank_you_page.py")

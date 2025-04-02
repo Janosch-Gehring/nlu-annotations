@@ -7,7 +7,8 @@ recall_dict = {}
 
 if st.button("Submit"):
     if recall is None:
-        st.error("Please write down at least one headline before submitting.")
+        st.warning("Please write down at least one headline before submitting. "
+        "If you don't remember the exact wording of any headlines, try to write down as much as you remember")
     else:
         textsplit = recall.splitlines()
         recall_dict["recall"] = []
