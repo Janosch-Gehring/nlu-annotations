@@ -72,13 +72,13 @@ def print_annotation_schema(index: int) -> tuple:
     sample = st.session_state.random_sample
 
     st.markdown(f"""
-    The word ***{sample["word"]}*** has two meanings: 
+    ### The word ***{sample["word"]}*** has two meanings: 
 
-    #### **Meaning 1**: *{sample["gloss1"]}*   
-        (as in: "{sample["example1"]}")  
-        
-    #### **Meaning 2**: *{sample["gloss2"]}*  
-        (as in: "{sample["example2"]})
+    ##### **Meaning 1**: *{sample["gloss1"]}*   
+    (as in: "{sample["example1"]}")  
+
+    ##### **Meaning 2**: *{sample["gloss2"]}*  
+    (as in: "{sample["example2"]})
     
     *Can you write a sentence where the word {sample["word"]} is used in such a way that both of these meanings are plausible interpretations?*
     """)
