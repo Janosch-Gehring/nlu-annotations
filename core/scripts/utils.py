@@ -47,6 +47,11 @@ TASK_INFO = {
         "qualification_filepath": "eval_ending_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 4,
         "group_assignment": "post-qualification"
+    },
+    "big_ambisentence_task": {
+        "annotation_filepath": "big_ambisentence_task/resources/word_senses.json",
+        "qualification_filepath": "big_ambisentence_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 1
     }
 }
 
