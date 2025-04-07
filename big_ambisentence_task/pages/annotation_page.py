@@ -1,3 +1,4 @@
+import datetime
 import os
 
 import streamlit as st
@@ -30,11 +31,13 @@ else:
     annotation = {"word": word, "meaning1": meaning1, "meaning2": meaning2, "sentence": sentence}
 
     if next_input:
+        user_repository.add_log(st.session_state.user_id, "SUBMITTED a sample.")
         random.shuffle(samples)
         sample = samples[0]
         st.session_state.random_sample = sample
 
         # using the normal next button behavior is proably not a good idea here...
         utils.save_one_annotation(st.session_state.user_id, "annotation", index, annotation)
+        
         st.session_state.progress += 1
         st.rerun()

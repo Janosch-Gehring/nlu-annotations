@@ -1,4 +1,4 @@
-# Introduction to the Sentence Ambiguity Task
+# Introduction to the Ambiguous Sentence Task
 
 ## Overview
 

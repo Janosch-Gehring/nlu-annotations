@@ -1,3 +1,4 @@
+import datetime
 import os
 import json
 import sqlite3
@@ -48,6 +49,35 @@ def create_user(user_id: str, task: str = "ambiguity_task", data: dict = {}):
     
     conn.commit()  # Commit changes to the database
     # conn.close()
+
+def add_log(user_id: str, text: str):
+    """
+    Add the entry to the log of the given user id. The current time is also appended to the log.
+
+    :param user_id:
+    :param text: Whatever you want to log
+    """
+    user = get_user(user_id)
+
+    logs = user[6]["log"]
+    logs.append(text + "|" + str(datetime.datetime.now()))
+
+    new_data = user[6]
+    user[6]["log"] = logs
+
+    new_data_str = json.dumps(new_data)
+
+    conn = st.session_state.conn
+    cursor = conn.cursor()
+
+    cursor.execute("""
+        UPDATE user_data
+        SET data = %s
+        WHERE user_id = %s
+    """, (new_data_str, user_id))
+    st.session_state.user[6] = new_data_str
+    conn.commit()
+
 
 def save_one_annotation(user_id: str, key: str, question_index: int, question_annotation: dict):
     """

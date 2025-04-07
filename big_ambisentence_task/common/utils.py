@@ -2,7 +2,7 @@ import json
 import streamlit as st
 import random
 
-from core.scripts.utils import display_progress, read_json_from_file, load_annotation, TASK_INFO
+from core.scripts.utils import display_progress, read_json_from_file, load_annotation, TASK_INFO, user_repository
 
 
 def format_sentence(sentence):
@@ -18,7 +18,7 @@ def check_number_of_annotations():
 def save_one_annotation(user_id: str, key: str, question_index: int, question_annotation: dict):
     """
     Save one annotation for a sample to the database. Special saving logic for a very special task.
-    
+
     :param user_id:
     :param key: The subcategory of sample, e.g. qualification or main
     :param question_index: At what index to save the annotation, e.g. 3 for the 3rd sample
@@ -98,6 +98,7 @@ def print_annotation_schema(index: int) -> tuple:
             next_input = st.button(key = 10 * index + 9, label="Next", help="Save this annotation and advance to the next one.")
 
     if reroll_button:
+        user_repository.add_log(st.session_state.user_id, f"REROLL on word <{sample["word"]}> <{sample["gloss1"]}> <{sample["gloss2"]}>")
         random.shuffle(samples)
         sample = samples[0]
         st.session_state.random_sample = sample
