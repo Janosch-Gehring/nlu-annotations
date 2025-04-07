@@ -139,7 +139,7 @@
         "sense1": "raft%1:06:00::",
         "sense2": "raft%1:23:00::",
         "gloss1": "a flat float (usually made of logs or planks) that can be used for transport or as a platform for swimmers",
-        "gloss2": "(often followed by `of') a large number or amount or extent",
+        "gloss2": "(often followed by 'of') a large number or amount or extent",
         "example1": "They built a raft to cross the river.",
         "example2": "A raft of ideas flooded the meeting."
     },
@@ -759,7 +759,7 @@
         "word": "lot",
         "sense1": "lot%1:23:00::",
         "sense2": "lot%1:15:00::",
-        "gloss1": "(often followed by `of') a large number or amount or extent",
+        "gloss1": "(often followed by 'of') a large number or amount or extent",
         "gloss2": "a parcel of land having fixed boundaries",
         "example1": "There are a lot of stars visible tonight.",
         "example2": "She purchased a lot for her house."
@@ -2065,7 +2065,7 @@
         "sense1": "up%5:00:00:awake:00",
         "sense2": "up%5:00:00:prepared:00",
         "gloss1": "out of bed",
-        "gloss2": "(usually followed by `on' or `for') in readiness",
+        "gloss2": "(usually followed by 'on' or 'for') in readiness",
         "example1": "Get up and start your day.",
         "example2": "She was up on her studies."
     },
@@ -2631,7 +2631,7 @@
         "word": "peanuts",
         "sense1": "peanut%1:13:00::",
         "sense2": "peanuts%1:21:00::",
-        "gloss1": "pod of the peanut vine containing usually 2 nuts or seeds; `groundnut' and `monkey nut' are British terms",
+        "gloss1": "pod of the peanut vine containing usually 2 nuts or seeds; 'groundnut' and 'monkey nut' are British terms",
         "gloss2": "an insignificant sum of money; a trifling amount",
         "example1": "I enjoyed roasted peanuts at the picnic.",
         "example2": "Her paycheck is just peanuts."
@@ -3351,7 +3351,7 @@
         "word": "spectacles",
         "sense1": "spectacle%1:04:00::",
         "sense2": "spectacles%1:06:00::",
-        "gloss1": "a blunder that makes you look ridiculous; used in the phrase `make a spectacle of' yourself",
+        "gloss1": "a blunder that makes you look ridiculous; used in the phrase 'make a spectacle of' yourself",
         "gloss2": "optical instrument consisting of a frame that holds a pair of lenses for correcting defective vision",
         "example1": "He made a spectacle of himself.",
         "example2": "She polished her spectacles before reading."
@@ -3657,7 +3657,7 @@
         "word": "devices",
         "sense1": "devices%1:09:00::",
         "sense2": "device%1:06:00::",
-        "gloss1": "an inclination or desire; used in the plural in the phrase `left to your own devices'",
+        "gloss1": "an inclination or desire; used in the plural in the phrase 'left to your own devices'",
         "gloss2": "an instrumentality invented for a particular purpose",
         "example1": "Left to their own devices, they struggled.",
         "example2": "She used a new fitness device."
@@ -3954,7 +3954,7 @@
         "word": "heated",
         "sense1": "heated%5:00:00:hot:01",
         "sense2": "heated%5:00:00:hot:02",
-        "gloss1": "made warm or hot (`het' is a dialectal variant of `heated')",
+        "gloss1": "made warm or hot ('het' is a dialectal variant of 'heated')",
         "gloss2": "marked by emotional heat; vehement",
         "example1": "The heated water felt soothing on my skin.",
         "example2": "They had a heated discussion about politics."
@@ -4000,7 +4000,7 @@
         "sense1": "heated%5:00:00:hot:02",
         "sense2": "heated%5:00:00:hot:01",
         "gloss1": "marked by emotional heat; vehement",
-        "gloss2": "made warm or hot (`het' is a dialectal variant of `heated')",
+        "gloss2": "made warm or hot ('het' is a dialectal variant of 'heated')",
         "example1": "They had a heated discussion about politics.",
         "example2": "The heated water felt soothing on my skin."
     },
@@ -4224,7 +4224,7 @@
         "word": "comfortable",
         "sense1": "comfortable%3:00:00::",
         "sense2": "comfortable%3:00:01::",
-        "gloss1": "providing or experiencing physical well-being or relief (`comfy' is informal)",
+        "gloss1": "providing or experiencing physical well-being or relief ('comfy' is informal)",
         "gloss2": "free from stress or conducive to mental ease; having or affording peace of mind",
         "example1": "She wore comfortable shoes for walking.",
         "example2": "She felt comfortable in her new role."
@@ -4576,7 +4576,7 @@
         "sense1": "shape%1:03:00::",
         "sense2": "shape%1:26:00::",
         "gloss1": "the spatial arrangement of something as distinct from its substance",
-        "gloss2": "the state of (good) health (especially in the phrases `in condition' or `in shape' or `out of condition' or `out of shape')",
+        "gloss2": "the state of (good) health (especially in the phrases 'in condition' or 'in shape' or 'out of condition' or 'out of shape')",
         "example1": "The sculpture has an unusual shape.",
         "example2": "I need to get back in shape."
     },
@@ -4692,7 +4692,7 @@
         "word": "partial",
         "sense1": "partial%5:00:00:inclined:02",
         "sense2": "partial%5:00:00:incomplete:00",
-        "gloss1": "(followed by `of' or `to') having a strong preference or liking for",
+        "gloss1": "(followed by 'of' or 'to') having a strong preference or liking for",
         "gloss2": "being or affecting only a part; not total",
         "example1": "She is partial to classical music.",
         "example2": "He gave a partial explanation of the issue."
@@ -4926,7 +4926,7 @@
         "word": "choppers",
         "sense1": "chopper%1:08:00::",
         "sense2": "chopper%1:06:01::",
-        "gloss1": "informal terms for a human `tooth'",
+        "gloss1": "informal terms for a human 'tooth'",
         "gloss2": "an aircraft without wings that obtains its lift from the rotation of overhead blades",
         "example1": "He showed off his new chopper.",
         "example2": "The chopper flew over the mountains."
@@ -6034,7 +6034,7 @@
         "sense1": "mint%1:13:00::",
         "sense2": "mint%1:23:00::",
         "gloss1": "a candy that is flavored with a mint oil",
-        "gloss2": "(often followed by `of') a large number or amount or extent",
+        "gloss2": "(often followed by 'of') a large number or amount or extent",
         "example1": "I enjoyed a refreshing mint after dinner.",
         "example2": "A mint of ideas flowed during brainstorming."
     },
@@ -6727,7 +6727,7 @@
         "sense1": "high%3:00:02::",
         "sense2": "high%3:00:01::",
         "gloss1": "greater than normal in degree or intensity or amount",
-        "gloss2": "(literal meaning) being at or having a relatively great or specific elevation or upward extension (sometimes used in combinations like `knee-high')",
+        "gloss2": "(literal meaning) being at or having a relatively great or specific elevation or upward extension (sometimes used in combinations like 'knee-high')",
         "example1": "The fever reached a high temperature.",
         "example2": "The mountain is very high today."
     },

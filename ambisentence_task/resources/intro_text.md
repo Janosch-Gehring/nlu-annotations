@@ -6,13 +6,14 @@
 
 You will be presented with a word and two of its meanings. For example, the word *bank* and its two word senses "*a financial institution*" and "*slope next to a river*". Your task is to write one sentence where the word is used in such a way that depending on how you choose to interpret it, either meaning could apply.
 
-For example, you could write: "*On Saturday morning, I went to the bank.*" The word *bank* here could realistically be either of the two word senses, a financial institution or a slope next to a river, so this would be acceptable.
+For example, you could write something like: "*On Saturday morning, I went to the bank.*" The word *bank* here could realistically be either of the two word senses, a financial institution or a slope next to a river, so this would be acceptable.
 
 When writing sentences, please try to uphold the following principles:
 
 * **Ideally, both word senses should be equally plausible.**
 * **Please make sure that the word appears exactly once in the sentence.**
 * **The goal is not to write puns, but to write sentences that allow for multiple interpretations.**
+* **Submissions that clearly contain AI generated content will be rejected.**
 
 ---
 

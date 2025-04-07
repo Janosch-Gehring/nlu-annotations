@@ -34,7 +34,7 @@ generation_option = st.selectbox(
      "For which task to generate new users?", TASK_OPTIONS)
 
 if generation_option and generation_option != "None selected":
-    generation_slider = st.select_slider("How many IDs to generate per group", options=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+    generation_slider = st.select_slider("How many IDs to generate per group", options=list(range(150)))
     generation_button = st.button("Click here to generate users")
     if generation_button:
         admin_functions.generate_users(generation_option, generation_slider)

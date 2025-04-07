@@ -18,10 +18,10 @@ if "conn" not in st.session_state:
 # Emoticons can be copied from here: https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/
 # define pages
 main_page = st.Page(
-    "core/pages/main_page.py", title="Start Page", icon="🏚️", default=True
+    "core/pages/main_page.py", title="Start Page", icon="🏚️"
 )
 authentication_page = st.Page(
-    "core/pages/authentication_page.py", title="Log In", icon="🎟️", url_path="authentication"
+    "core/pages/authentication_page.py", title="Log In", icon="🎟️", url_path="authentication", default=True
 )
 admin_page = st.Page(
     "core/pages/admin_page.py", title="Admin Area", icon="💻"

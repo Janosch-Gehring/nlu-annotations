@@ -29,7 +29,7 @@ def generate_users(task: str, amount_per_group: int = 1):
         for j in range(amount_per_group):
             new_user = utils.generate_random_string(size=8)
             new_users.append(new_user)
-            st.write(f"Group {i} - {new_user}")
+            st.write(f"User{i}-{j}, {new_user}")
             cursor.execute('''
             INSERT INTO valid_ids (user_id, task, annotator_group)
             VALUES (%s, %s, %s)
