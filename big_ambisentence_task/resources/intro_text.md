@@ -71,10 +71,10 @@ When writing sentences, please try to uphold the following principles:
 
 ## Task Procedure
 
-You will first have to pass a simple qualification test to confirm that you are human and understand English. The qualification test will ask you to pick the best meaning for a word in a short text. If you fail the qualification test, you will not be able to start writing.
+You will first have to pass a simple 4-question qualification test to confirm that you are human and understand English. The qualification test will ask you to pick the best meaning for a word in a short text. If you fail the qualification test, you will not be able to start writing.
 
 If you pass qualification, the writing page will automatically unlock for you.
 
-If you cannot think of a sentence for the given word, you can press the button on the bottom of the page to get a new word. You can use the button as many times as you want. You have to write five sentences to clear the task.
+If you cannot think of a sentence for the given word, you can press the button on the top of the page to get a new word. You can use the button as many times as you want. You have to write five sentences to clear the task.
 
 ## Good luck and have fun!
