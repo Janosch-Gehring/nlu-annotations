@@ -10,7 +10,7 @@ st.write("Next, we will show you some more headlines. For each headline, decide 
 samples = read_json_from_file(TASK_INFO["memory_experiment"]["annotation_filepath"])
 print(st.session_state)
 if "shuffled_keys_recognition" not in st.session_state:
-    shuffled_keys = list(samples.keys())
+    shuffled_keys = [key for key, value in samples.items() if st.session_state.user[3] in value["presentation_grouping"]]
     random.shuffle(shuffled_keys)
     st.session_state.shuffled_keys_recognition = shuffled_keys
     print("Added shuffled keys:", st.session_state.shuffled_keys_recognition)
