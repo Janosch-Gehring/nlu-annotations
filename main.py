@@ -142,6 +142,10 @@ recognition_page = st.Page(
     "memory_experiment/pages/recognition_page.py", title="Recognition", icon="🔍", url_path="memory_experiment_recognition"
 )
 
+truthjudgement_page = st.Page(
+    "memory_experiment/pages/truthjudgement_page.py", title="Credibility", icon="🔍", url_path="memory_experiment_credibility"
+)
+
 demographics_page = st.Page(
     "memory_experiment/pages/demographics_page.py", title="demographics", icon="🔍", url_path="demographics_info"
 )
