@@ -10,7 +10,7 @@ st.write("You will now see the same headlines again. This time, for each headlin
 samples = read_json_from_file(TASK_INFO["memory_experiment"]["annotation_filepath"])
 print(st.session_state)
 if "shuffled_keys_credibility" not in st.session_state:
-    shuffled_keys = list(samples.keys())
+    shuffled_keys = [key for key, value in samples.items() if st.session_state.user[3] in value["presentation_grouping"]]
     random.shuffle(shuffled_keys)
     st.session_state.shuffled_keys_credibility = shuffled_keys
     print("Added shuffled keys:", st.session_state.shuffled_keys_credibility)
@@ -35,7 +35,7 @@ if show_next:
         samples[key]["sample_id"] = int(key)
         print("key:", key)
         print("response:", user_response)
-        user_repository.save_one_annotation(st.session_state.user_id, "recognition", int(key), samples[key])
+        user_repository.save_one_annotation(st.session_state.user_id, "credibility", int(key), samples[key])
         #key = st.session_state.shuffled_keys[st.session_state.index]
         #placeholder.write(samples[key]["headline"])
         st.session_state.index += 1
