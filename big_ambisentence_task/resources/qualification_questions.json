@@ -16,7 +16,7 @@
         "correct_answer": [0, 1]
     },
     "3": {
-        "sentence": "If only he had a [fan], he could make the heat bearable.",
+        "sentence": "If he had a [fan], the heat would be bearable.",
         "word": "fan",
         "meaning1": "a device for creating a current of air",
         "meaning2": "an enthusiastic devotee of sports",
