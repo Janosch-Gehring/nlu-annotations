@@ -10,6 +10,9 @@ samples = read_json_from_file(TASK_INFO["memory_experiment"]["annotation_filepat
 
 placeholder = st.empty()
 
+if "experiment_start_time" not in st.session_state:
+    st.session_state.experiment_start_time = time.time()
+
 if "shuffled_keys_presentation" not in st.session_state:
     st.session_state.progress = user_repository.get_checkpoint("memory")
     shuffled_keys = [key for key, value in samples.items() if value["grouping"] == st.session_state.user[3]]

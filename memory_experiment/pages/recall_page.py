@@ -7,6 +7,8 @@ if "recall_start_time" not in st.session_state:
 
 recall = st.text_area("""Please write down as many headlines as you remember here. Try to write downthe exact wording of each headline. "
 Write each headline in a new line:""")
+if "recall_start_time" not in st.session_state:
+    st.session_state.recall_start_time = time.time()
 recall_dict = {}
 
 if st.button("Submit"):
@@ -26,6 +28,7 @@ if st.button("Submit"):
             for x in textsplit:
                 recall_dict["recall"].append(x)
             user_repository.save_one_annotation(st.session_state.user_id, "recall", 1, recall_dict)
+            st.session_state.recall_end_time = time.time()
             st.switch_page("memory_experiment/pages/recognition_page.py")
     else:
         textsplit = recall.splitlines()
@@ -33,4 +36,5 @@ if st.button("Submit"):
         for x in textsplit:
             recall_dict["recall"].append(x)
         user_repository.save_one_annotation(st.session_state.user_id, "recall", 1, recall_dict)
+        st.session_state.recall_end_time = time.time()
         st.switch_page("memory_experiment/pages/recognition_page.py")
