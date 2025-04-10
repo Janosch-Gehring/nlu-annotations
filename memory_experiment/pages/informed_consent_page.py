@@ -61,3 +61,7 @@ if not user:
                     st.switch_page("memory_experiment/pages/presentation_page.py")
                 else:
                     st.error("Captcha is incorrect. Please try again.")
+            if st.button("Generate new Captcha"):
+                st.session_state.captcha = "".join(random.choices(string.ascii_letters + string.digits, k=length_captcha))
+                print("the captcha is: ", st.session_state.captcha)
+                st.rerun()
