@@ -21,7 +21,6 @@ if st.session_state.index < len(st.session_state.shuffled_keys_credibility):
     key = st.session_state.shuffled_keys_credibility[st.session_state.index]
     st.write(samples[key]["headline"])
     user_response = st.slider("How credible is this news headline to you? (From 0 not at all to 7 very credible)", 0, 7, None, 1, 
-                            index=None, 
                             key=st.session_state.index)
     show_next = st.button("Show next", key="show_next_button")
 else:
