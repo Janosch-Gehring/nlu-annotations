@@ -11,7 +11,7 @@ samples = read_json_from_file(TASK_INFO["memory_experiment"]["annotation_filepat
 sample_response = {}
 print(st.session_state)
 if "shuffled_keys_credibility" not in st.session_state:
-    shuffled_keys = [key for key, value in samples.items() if st.session_state.user[3] in value["presentation_grouping"]]
+    shuffled_keys = [key for key, value in samples.items() if st.session_state.user[3] in value["presentation_grouping"] and value["grouping"] != 4]
     random.shuffle(shuffled_keys)
     st.session_state.shuffled_keys_credibility = shuffled_keys
     print("Added shuffled keys:", st.session_state.shuffled_keys_credibility)

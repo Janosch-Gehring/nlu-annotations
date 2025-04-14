@@ -58,5 +58,15 @@
 		"headline": "Group 3, Item 12",
 		"grouping": 3,
 		"presentation_grouping": [2,3]
+	},
+	"777":{
+		"headline": "This is an attention test. Please select \"Yes, I have seen this before\".",
+		"grouping": 4,
+		"presentation_grouping": [0,1,2,3]
+	},
+	"888":{
+		"headline": "This is an attention test. Please select 4.",
+		"grouping": 5,
+		"presentation_grouping": [0,1,2,3]
 	}
 }
