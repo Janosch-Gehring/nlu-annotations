@@ -101,7 +101,10 @@ def get_amount_of_samples_for_group(key: str, task: str, group: int) -> int:
         samples = read_json_from_file(TASK_INFO[task]["qualification_filepath"])
     else:
         samples = read_json_from_file(TASK_INFO[task]["annotation_filepath"])
-    number_of_samples = len([x for x in samples if ("grouping" not in samples[x]) or (samples[x]["grouping"] == group)])
+    if type(samples) == list:
+        number_of_samples = len(samples)  # currently no cases where samples are list based and grouping based, so thats enough for now
+    else:
+        number_of_samples = len([x for x in samples if ("grouping" not in samples[x]) or (samples[x]["grouping"] == group)])
     return number_of_samples
 
 
