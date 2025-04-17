@@ -135,15 +135,6 @@
         "example2": "He got a shot at the title."
     },
     {
-        "word": "raft",
-        "sense1": "raft%1:06:00::",
-        "sense2": "raft%1:23:00::",
-        "gloss1": "a flat float (usually made of logs or planks) that can be used for transport or as a platform for swimmers",
-        "gloss2": "(often followed by 'of') a large number or amount or extent",
-        "example1": "They built a raft to cross the river.",
-        "example2": "A raft of ideas flooded the meeting."
-    },
-    {
         "word": "coached",
         "sense1": "coach%2:32:00::",
         "sense2": "coach%2:38:00::",
@@ -243,15 +234,6 @@
         "example2": "The bakery operates on the premises."
     },
     {
-        "word": "snap",
-        "sense1": "snap%2:35:01::",
-        "sense2": "snap%2:32:00::",
-        "gloss1": "separate or cause to separate abruptly",
-        "gloss2": "utter in an angry, sharp, or abrupt tone",
-        "example1": "The branch snapped under the weight.",
-        "example2": "\"She snapped at him unexpectedly.\""
-    },
-    {
         "word": "sprinkles",
         "sense1": "sprinkle%1:19:00::",
         "sense2": "sprinkles%1:13:00::",
@@ -322,15 +304,6 @@
         "gloss2": "answer back",
         "example1": "They decided to rejoin the group later.",
         "example2": "She decided to rejoin the conversation."
-    },
-    {
-        "word": "stand",
-        "sense1": "stand%2:35:00::",
-        "sense2": "stand%2:42:04::",
-        "gloss1": "be standing; be upright",
-        "gloss2": "be in some specified state or condition",
-        "example1": "Please stand by the door.",
-        "example2": "I stand ready for the challenge."
     },
     {
         "word": "records",
@@ -457,15 +430,6 @@
         "gloss2": "promotion by means of an argument and demonstration",
         "example1": "The pitcher prepared for his next pitch.",
         "example2": "She delivered a compelling sales pitch."
-    },
-    {
-        "word": "dough",
-        "sense1": "dough%1:13:00::",
-        "sense2": "dough%1:21:00::",
-        "gloss1": "a flour mixture stiff enough to knead or roll",
-        "gloss2": "informal terms for money",
-        "example1": "He rolled out the dough carefully.",
-        "example2": "I need some dough to buy that."
     },
     {
         "word": "drain",
@@ -657,15 +621,6 @@
         "example2": "I cooked a chicken for dinner."
     },
     {
-        "word": "drive",
-        "sense1": "drive%1:04:00::",
-        "sense2": "drive%1:04:03::",
-        "gloss1": "a journey in a vehicle (usually an automobile)",
-        "gloss2": "hitting a golf ball off of a tee with a driver",
-        "example1": "Let's take a drive through the countryside.",
-        "example2": "He hit a long drive down the fairway."
-    },
-    {
         "word": "identities",
         "sense1": "identity%1:07:00::",
         "sense2": "identity%1:24:01::",
@@ -783,15 +738,6 @@
         "example2": "I can't stand the noise anymore."
     },
     {
-        "word": "dough",
-        "sense1": "dough%1:13:00::",
-        "sense2": "dough%1:21:00::",
-        "gloss1": "a flour mixture stiff enough to knead or roll",
-        "gloss2": "informal terms for money",
-        "example1": "He rolled out the dough carefully.",
-        "example2": "I need some dough to buy that."
-    },
-    {
         "word": "root",
         "sense1": "root%1:15:00::",
         "sense2": "root%1:23:00::",
@@ -826,15 +772,6 @@
         "gloss2": "(Roman Catholic Church and Protestant Churches) the celebration of the Eucharist",
         "example1": "I visited ma during the summer.",
         "example2": "They attended mass every Sunday."
-    },
-    {
-        "word": "tension",
-        "sense1": "tension%1:26:01::",
-        "sense2": "tension%1:26:03::",
-        "gloss1": "the physical condition of being stretched or strained",
-        "gloss2": "(psychology) a state of mental or emotional strain or suspense",
-        "example1": "The rope held considerable tension during the pull.",
-        "example2": "She felt a growing tension inside her."
     },
     {
         "word": "mass",
@@ -979,15 +916,6 @@
         "gloss2": "from on board a vessel into the water",
         "example1": "She went overboard with her decorations.",
         "example2": "They tossed the fishing nets overboard."
-    },
-    {
-        "word": "sentence",
-        "sense1": "sentence%1:10:00::",
-        "sense2": "sentence%1:04:00::",
-        "gloss1": "a string of words satisfying the grammatical rules of a language",
-        "gloss2": "(criminal law) a final judgment of guilty in a criminal case and the punishment that is imposed",
-        "example1": "She wrote a perfect sentence.",
-        "example2": "He received a harsh sentence today."
     },
     {
         "word": "hops",
@@ -1368,15 +1296,6 @@
         "example2": "I always take a second helping."
     },
     {
-        "word": "fly",
-        "sense1": "fly%1:05:00::",
-        "sense2": "fly%1:06:00::",
-        "gloss1": "two-winged insects characterized by active flight",
-        "gloss2": "an opening in a garment that is closed by a zipper or by buttons concealed under a fold of cloth",
-        "example1": "The fly landed on the table.",
-        "example2": "Adjust the fly of your pants."
-    },
-    {
         "word": "stinks",
         "sense1": "stink%2:42:00::",
         "sense2": "stink%2:39:00::",
@@ -1438,15 +1357,6 @@
         "gloss2": "clemency or mercy shown to a defeated opponent",
         "example1": "I found two quarters in my pocket.",
         "example2": "He begged for quarter after losing."
-    },
-    {
-        "word": "downhill",
-        "sense1": "downhill%4:02:01::",
-        "sense2": "downhill%4:02:00::",
-        "gloss1": "toward a lower or inferior state",
-        "gloss2": "toward the bottom of a hill",
-        "example1": "His health has been going downhill lately.",
-        "example2": "The bike raced downhill with speed."
     },
     {
         "word": "dirt",
@@ -1546,24 +1456,6 @@
         "gloss2": "the inherent capacity for coming into being",
         "example1": "The circuit has a high potential difference.",
         "example2": "The project has great potential for success."
-    },
-    {
-        "word": "snapped",
-        "sense1": "snap%2:32:00::",
-        "sense2": "snap%2:32:01::",
-        "gloss1": "utter in an angry, sharp, or abrupt tone",
-        "gloss2": "record on photographic film",
-        "example1": "\"She snapped at him unexpectedly.\"",
-        "example2": "I took a quick snap of the sunset."
-    },
-    {
-        "word": "calves",
-        "sense1": "calf%1:05:00::",
-        "sense2": "calf%1:08:00::",
-        "gloss1": "young of domestic cattle",
-        "gloss2": "the muscular back part of the shank",
-        "example1": "The farmer watched the calf play.",
-        "example2": "He felt a cramp in his calf."
     },
     {
         "word": "ruins",
@@ -1728,15 +1620,6 @@
         "example2": "The whiskey has a proof of 100."
     },
     {
-        "word": "lousy",
-        "sense1": "lousy%5:00:00:bad:00",
-        "sense2": "lousy%5:00:00:dirty:01",
-        "gloss1": "very bad",
-        "gloss2": "infested with lice",
-        "example1": "That movie was really lousy.",
-        "example2": "His lousy clothes were full of holes."
-    },
-    {
         "word": "joke",
         "sense1": "joke%1:10:00::",
         "sense2": "joke%1:07:00::",
@@ -1863,15 +1746,6 @@
         "example2": "The road was filled with colorful signs."
     },
     {
-        "word": "downhill",
-        "sense1": "downhill%4:02:01::",
-        "sense2": "downhill%4:02:00::",
-        "gloss1": "toward a lower or inferior state",
-        "gloss2": "toward the bottom of a hill",
-        "example1": "His health has been going downhill lately.",
-        "example2": "The bike raced downhill with speed."
-    },
-    {
         "word": "stir",
         "sense1": "stir%2:38:01::",
         "sense2": "stir%2:38:00::",
@@ -1933,15 +1807,6 @@
         "gloss2": "characterized by honesty and fairness",
         "example1": "The table has a square shape.",
         "example2": "He was known for his square dealings."
-    },
-    {
-        "word": "interest",
-        "sense1": "interest%1:09:00::",
-        "sense2": "interest%1:21:00::",
-        "gloss1": "a sense of concern with and curiosity about someone or something",
-        "gloss2": "a fixed charge for borrowing money; usually a percentage of the amount borrowed",
-        "example1": "She has a keen interest in art.",
-        "example2": "How much interest do you owe?"
     },
     {
         "word": "support",
@@ -2097,15 +1962,6 @@
         "example2": "The storm caused widespread power outages."
     },
     {
-        "word": "dough",
-        "sense1": "dough%1:13:00::",
-        "sense2": "dough%1:21:00::",
-        "gloss1": "a flour mixture stiff enough to knead or roll",
-        "gloss2": "informal terms for money",
-        "example1": "He rolled out the dough carefully.",
-        "example2": "I need some dough to buy that."
-    },
-    {
         "word": "scale",
         "sense1": "scale%1:24:00::",
         "sense2": "scale%1:05:00::",
@@ -2169,15 +2025,6 @@
         "example2": "The faculty organized a new curriculum."
     },
     {
-        "word": "flexible",
-        "sense1": "flexible%3:00:02::",
-        "sense2": "flexible%3:00:01::",
-        "gloss1": "capable of being changed",
-        "gloss2": "able to flex; able to bend easily",
-        "example1": "She has a flexible work schedule.",
-        "example2": "The flexible branches swayed in the breeze."
-    },
-    {
         "word": "checked",
         "sense1": "check%2:33:00::",
         "sense2": "check%2:41:14::",
@@ -2212,15 +2059,6 @@
         "gloss2": "a short swinging punch delivered from the side with the elbow bent",
         "example1": "The fishing line had a sharp hook.",
         "example2": "He threw a powerful hook in the ring."
-    },
-    {
-        "word": "snapped",
-        "sense1": "snap%2:32:00::",
-        "sense2": "snap%2:32:01::",
-        "gloss1": "utter in an angry, sharp, or abrupt tone",
-        "gloss2": "record on photographic film",
-        "example1": "\"She snapped at him unexpectedly.\"",
-        "example2": "I took a quick snap of the sunset."
     },
     {
         "word": "point",
@@ -2284,15 +2122,6 @@
         "gloss2": "the force applied to a unit area of surface; measured in pascals (SI unit) or in dynes (cgs unit)",
         "example1": "She felt immense pressure to succeed.",
         "example2": "The pressure in the tire is measured."
-    },
-    {
-        "word": "goal",
-        "sense1": "goal%1:09:00::",
-        "sense2": "goal%1:04:00::",
-        "gloss1": "the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it",
-        "gloss2": "a successful attempt at scoring",
-        "example1": "Achieving your goal is essential for success.",
-        "example2": "She scored the winning goal yesterday."
     },
     {
         "word": "overboard",
@@ -2808,15 +2637,6 @@
         "example2": "She hit the bird over the net."
     },
     {
-        "word": "plant",
-        "sense1": "plant%2:35:00::",
-        "sense2": "plant%2:35:01::",
-        "gloss1": "put or set (seeds, seedlings, or plants) into the ground",
-        "gloss2": "fix or set securely or deeply",
-        "example1": "Let's plant tomatoes in the garden.",
-        "example2": "He planted the flag firmly in place."
-    },
-    {
         "word": "ear",
         "sense1": "ear%1:08:00::",
         "sense2": "ear%1:20:00::",
@@ -2979,15 +2799,6 @@
         "example2": "She perfected her freestyle stroke."
     },
     {
-        "word": "driving",
-        "sense1": "drive%2:41:02::",
-        "sense2": "drive%2:38:01::",
-        "gloss1": "to compel or force or urge relentlessly or exert coercive pressure on, or motivate strongly",
-        "gloss2": "operate or control a vehicle",
-        "example1": "Her ambition drives her to succeed.",
-        "example2": "I will drive to the store."
-    },
-    {
         "word": "Knock",
         "sense1": "knock%2:35:01::",
         "sense2": "knock%2:32:02::",
@@ -3087,15 +2898,6 @@
         "example2": "She wore a dress adorned with beady sequins."
     },
     {
-        "word": "downhill",
-        "sense1": "downhill%4:02:00::",
-        "sense2": "downhill%4:02:01::",
-        "gloss1": "toward the bottom of a hill",
-        "gloss2": "toward a lower or inferior state",
-        "example1": "The bike raced downhill with speed.",
-        "example2": "His health has been going downhill lately."
-    },
-    {
         "word": "stand",
         "sense1": "stand%2:35:00::",
         "sense2": "stand%2:31:00::",
@@ -3103,15 +2905,6 @@
         "gloss2": "put up with something or somebody unpleasant",
         "example1": "Please stand by the door.",
         "example2": "I can't stand the noise anymore."
-    },
-    {
-        "word": "lousy",
-        "sense1": "lousy%5:00:00:bad:00",
-        "sense2": "lousy%5:00:00:dirty:01",
-        "gloss1": "very bad",
-        "gloss2": "infested with lice",
-        "example1": "That movie was really lousy.",
-        "example2": "His lousy clothes were full of holes."
     },
     {
         "word": "calf",
@@ -3141,15 +2934,6 @@
         "example2": "I made a reservation for dinner."
     },
     {
-        "word": "calves",
-        "sense1": "calf%1:05:00::",
-        "sense2": "calf%1:08:00::",
-        "gloss1": "young of domestic cattle",
-        "gloss2": "the muscular back part of the shank",
-        "example1": "The farmer watched the calf play.",
-        "example2": "He felt a cramp in his calf."
-    },
-    {
         "word": "thrown",
         "sense1": "throw%2:35:00::",
         "sense2": "throw%2:37:00::",
@@ -3166,15 +2950,6 @@
         "gloss2": "the body of teachers and administrators at a school",
         "example1": "Her artistic faculty amazed everyone present.",
         "example2": "The faculty organized a new curriculum."
-    },
-    {
-        "word": "knockout",
-        "sense1": "knockout%1:18:00::",
-        "sense2": "knockout%1:04:00::",
-        "gloss1": "a very attractive or seductive looking woman",
-        "gloss2": "a blow that renders the opponent unconscious",
-        "example1": "She was a knockout at the party.",
-        "example2": "He delivered a powerful knockout punch."
     },
     {
         "word": "DRIFT",
@@ -3339,15 +3114,6 @@
         "example2": "Her delivery captivated the entire audience."
     },
     {
-        "word": "sentence",
-        "sense1": "sentence%1:10:00::",
-        "sense2": "sentence%1:04:00::",
-        "gloss1": "a string of words satisfying the grammatical rules of a language",
-        "gloss2": "(criminal law) a final judgment of guilty in a criminal case and the punishment that is imposed",
-        "example1": "She wrote a perfect sentence.",
-        "example2": "He received a harsh sentence today."
-    },
-    {
         "word": "spectacles",
         "sense1": "spectacle%1:04:00::",
         "sense2": "spectacles%1:06:00::",
@@ -3391,15 +3157,6 @@
         "gloss2": "used of persons; emotionally hardened",
         "example1": "The concrete has hardened overnight.",
         "example2": "She had a hardened demeanor after years of struggle."
-    },
-    {
-        "word": "volume",
-        "sense1": "volume%1:07:03::",
-        "sense2": "volume%1:07:02::",
-        "gloss1": "the property of something that is great in magnitude",
-        "gloss2": "the magnitude of sound (usually in a specified direction)",
-        "example1": "The volume of water increased rapidly.",
-        "example2": "Please turn down the volume."
     },
     {
         "word": "grain",
@@ -3555,15 +3312,6 @@
         "example2": "The rock felt hard to the touch."
     },
     {
-        "word": "calves",
-        "sense1": "calf%1:05:00::",
-        "sense2": "calf%1:08:00::",
-        "gloss1": "young of domestic cattle",
-        "gloss2": "the muscular back part of the shank",
-        "example1": "The farmer watched the calf play.",
-        "example2": "He felt a cramp in his calf."
-    },
-    {
         "word": "drill",
         "sense1": "drill%1:04:00::",
         "sense2": "drill%1:06:00::",
@@ -3706,15 +3454,6 @@
         "gloss2": "cut lumber, as in woods and forests",
         "example1": "The elephant lumbered through the jungle.",
         "example2": "The workers stacked the freshly cut lumber."
-    },
-    {
-        "word": "downhill",
-        "sense1": "downhill%4:02:01::",
-        "sense2": "downhill%4:02:00::",
-        "gloss1": "toward a lower or inferior state",
-        "gloss2": "toward the bottom of a hill",
-        "example1": "His health has been going downhill lately.",
-        "example2": "The bike raced downhill with speed."
     },
     {
         "word": "nursing",
@@ -3960,15 +3699,6 @@
         "example2": "They had a heated discussion about politics."
     },
     {
-        "word": "drawing",
-        "sense1": "draw%2:36:00::",
-        "sense2": "draw%2:37:01::",
-        "gloss1": "represent by making a drawing of, as with a pencil, chalk, etc. on a surface",
-        "gloss2": "elicit responses, such as objections, criticism, applause, etc.",
-        "example1": "She will draw a beautiful landscape.",
-        "example2": "Her speech drew enthusiastic applause from the audience."
-    },
-    {
         "word": "jerk",
         "sense1": "jerk%1:18:00::",
         "sense2": "jerk%1:04:00::",
@@ -4041,15 +3771,6 @@
         "example2": "The ship was ready for commission."
     },
     {
-        "word": "interest",
-        "sense1": "interest%1:09:00::",
-        "sense2": "interest%1:21:00::",
-        "gloss1": "a sense of concern with and curiosity about someone or something",
-        "gloss2": "a fixed charge for borrowing money; usually a percentage of the amount borrowed",
-        "example1": "She has a keen interest in art.",
-        "example2": "How much interest do you owe?"
-    },
-    {
         "word": "Change",
         "sense1": "change%1:11:00::",
         "sense2": "change%1:21:02::",
@@ -4057,15 +3778,6 @@
         "gloss2": "the balance of money received when the amount you tender is greater than the amount due",
         "example1": "The change improved the overall experience.",
         "example2": "I received my change after paying."
-    },
-    {
-        "word": "fly",
-        "sense1": "fly%1:05:00::",
-        "sense2": "fly%1:06:00::",
-        "gloss1": "two-winged insects characterized by active flight",
-        "gloss2": "an opening in a garment that is closed by a zipper or by buttons concealed under a fold of cloth",
-        "example1": "The fly landed on the table.",
-        "example2": "Adjust the fly of your pants."
     },
     {
         "word": "skeleton",
@@ -4120,15 +3832,6 @@
         "gloss2": "save from sins",
         "example1": "You can save money during sales.",
         "example2": "He sought to save her soul."
-    },
-    {
-        "word": "ring",
-        "sense1": "ring%1:07:00::",
-        "sense2": "ring%1:06:00::",
-        "gloss1": "a characteristic sound",
-        "gloss2": "jewelry consisting of a circlet of precious metal (often set with jewels) worn on the finger",
-        "example1": "Her voice had the ring of truth.",
-        "example2": "She wore a beautiful gold ring."
     },
     {
         "word": "connection",
@@ -4293,15 +3996,6 @@
         "example2": "He had a brush with trouble today."
     },
     {
-        "word": "scales",
-        "sense1": "scale%1:10:00::",
-        "sense2": "scale%1:05:00::",
-        "gloss1": "(music) a series of notes differing in pitch according to a specific scheme (usually within an octave)",
-        "gloss2": "a flattened rigid plate forming part of the body covering of many animals",
-        "example1": "She practiced the C major scale daily.",
-        "example2": "The fish had shiny, vibrant scales."
-    },
-    {
         "word": "strain",
         "sense1": "strain%1:26:02::",
         "sense2": "strain%1:10:00::",
@@ -4372,15 +4066,6 @@
         "gloss2": "have offspring or produce more individuals of a given animal or plant",
         "example1": "Please multiply 8 by 7.",
         "example2": "Animals in the wild multiply quickly."
-    },
-    {
-        "word": "interest",
-        "sense1": "interest%1:09:00::",
-        "sense2": "interest%1:21:00::",
-        "gloss1": "a sense of concern with and curiosity about someone or something",
-        "gloss2": "a fixed charge for borrowing money; usually a percentage of the amount borrowed",
-        "example1": "She has a keen interest in art.",
-        "example2": "How much interest do you owe?"
     },
     {
         "word": "state",
@@ -4669,15 +4354,6 @@
         "gloss2": "assemble or get together",
         "example1": "We need to collect the overdue payments.",
         "example2": "She decided to collect interesting rocks."
-    },
-    {
-        "word": "cleanly",
-        "sense1": "cleanly%4:02:00::",
-        "sense2": "cleanly%4:02:02::",
-        "gloss1": "in an adroit manner",
-        "gloss2": "in a manner that minimizes dirt and pollution",
-        "example1": "She cut the paper cleanly in half.",
-        "example2": "The engine runs cleanly and efficiently."
     },
     {
         "word": "umbrella",
@@ -5157,15 +4833,6 @@
         "example2": "He raised the flag to signal help."
     },
     {
-        "word": "attractive",
-        "sense1": "attractive%3:00:01::",
-        "sense2": "attractive%3:00:02::",
-        "gloss1": "pleasing to the eye or mind especially through beauty or charm",
-        "gloss2": "having the properties of a magnet; the ability to draw or pull",
-        "example1": "She has an attractive smile.",
-        "example2": "The magnet's attractive force amazed everyone."
-    },
-    {
         "word": "unleash",
         "sense1": "unleash%2:35:00::",
         "sense2": "unleash%2:35:01::",
@@ -5173,15 +4840,6 @@
         "gloss2": "release from a leash",
         "example1": "She decided to unleash her creativity.",
         "example2": "Unleash the dogs for some fun."
-    },
-    {
-        "word": "sentence",
-        "sense1": "sentence%1:10:00::",
-        "sense2": "sentence%1:04:00::",
-        "gloss1": "a string of words satisfying the grammatical rules of a language",
-        "gloss2": "(criminal law) a final judgment of guilty in a criminal case and the punishment that is imposed",
-        "example1": "She wrote a perfect sentence.",
-        "example2": "He received a harsh sentence today."
     },
     {
         "word": "bit",
@@ -5400,15 +5058,6 @@
         "example2": "He feared he might croak soon."
     },
     {
-        "word": "volume",
-        "sense1": "volume%1:07:03::",
-        "sense2": "volume%1:07:02::",
-        "gloss1": "the property of something that is great in magnitude",
-        "gloss2": "the magnitude of sound (usually in a specified direction)",
-        "example1": "The volume of water increased rapidly.",
-        "example2": "Please turn down the volume."
-    },
-    {
         "word": "unwind",
         "sense1": "unwind%2:35:06::",
         "sense2": "unwind%2:29:00::",
@@ -5506,15 +5155,6 @@
         "gloss2": "utter a hoarse sound, like a raven",
         "example1": "He feared he might croak soon.",
         "example2": "The raven began to croak loudly."
-    },
-    {
-        "word": "snapped",
-        "sense1": "snap%2:32:00::",
-        "sense2": "snap%2:32:01::",
-        "gloss1": "utter in an angry, sharp, or abrupt tone",
-        "gloss2": "record on photographic film",
-        "example1": "\"She snapped at him unexpectedly.\"",
-        "example2": "I took a quick snap of the sunset."
     },
     {
         "word": "dive",
@@ -5706,15 +5346,6 @@
         "example2": "She always felt a cut above others."
     },
     {
-        "word": "ring",
-        "sense1": "ring%1:07:00::",
-        "sense2": "ring%1:06:00::",
-        "gloss1": "a characteristic sound",
-        "gloss2": "jewelry consisting of a circlet of precious metal (often set with jewels) worn on the finger",
-        "example1": "Her voice had the ring of truth.",
-        "example2": "She wore a beautiful gold ring."
-    },
-    {
         "word": "speakers",
         "sense1": "speaker%1:18:00::",
         "sense2": "speaker%1:06:00::",
@@ -5904,15 +5535,6 @@
         "example2": "Please don't litter in the park."
     },
     {
-        "word": "attractive",
-        "sense1": "attractive%3:00:01::",
-        "sense2": "attractive%3:00:02::",
-        "gloss1": "pleasing to the eye or mind especially through beauty or charm",
-        "gloss2": "having the properties of a magnet; the ability to draw or pull",
-        "example1": "She has an attractive smile.",
-        "example2": "The magnet's attractive force amazed everyone."
-    },
-    {
         "word": "prime",
         "sense1": "prime%1:23:00::",
         "sense2": "prime%1:28:02::",
@@ -5929,15 +5551,6 @@
         "gloss2": "lower in rank, power, or authority",
         "example1": "The cat hid under the table.",
         "example2": "She holds an under position in management."
-    },
-    {
-        "word": "body",
-        "sense1": "body%1:08:01::",
-        "sense2": "body%1:14:02::",
-        "gloss1": "the body excluding the head and neck and limbs",
-        "gloss2": "a collection of particulars considered as a system",
-        "example1": "She gently stretched her tired body.",
-        "example2": "The committee reviewed the body of research."
     },
     {
         "word": "kicking",
@@ -6001,15 +5614,6 @@
         "gloss2": "a formal proposal for action made to a deliberative assembly for discussion and vote",
         "example1": "The motion of the car was swift.",
         "example2": "He made a motion to approve the budget."
-    },
-    {
-        "word": "plant",
-        "sense1": "plant%1:18:00::",
-        "sense2": "plant%1:03:00::",
-        "gloss1": "an actor situated in the audience whose acting is rehearsed but seems spontaneous to the audience",
-        "gloss2": "(botany) a living organism lacking the power of locomotion",
-        "example1": "The comedian used a plant in the crowd.",
-        "example2": "The garden has a beautiful plant."
     },
     {
         "word": "agitating",
@@ -6136,15 +5740,6 @@
         "gloss2": "devote (oneself) fully to",
         "example1": "The fog will immerse the valley.",
         "example2": "She decided to immerse herself in music."
-    },
-    {
-        "word": "stand",
-        "sense1": "stand%2:35:00::",
-        "sense2": "stand%2:31:00::",
-        "gloss1": "be standing; be upright",
-        "gloss2": "put up with something or somebody unpleasant",
-        "example1": "Please stand by the door.",
-        "example2": "I can't stand the noise anymore."
     },
     {
         "word": "argument",
@@ -6453,15 +6048,6 @@
         "example2": "The dog had a tick on its ear."
     },
     {
-        "word": "trailer",
-        "sense1": "trailer%1:10:00::",
-        "sense2": "trailer%1:06:00::",
-        "gloss1": "an advertisement consisting of short scenes from a motion picture that will appear in the near future",
-        "gloss2": "a wheeled vehicle that can be pulled by a car or truck and is equipped for occupancy",
-        "example1": "I watched the new movie trailer online.",
-        "example2": "They traveled cross-country in their trailer."
-    },
-    {
         "word": "Home",
         "sense1": "home%1:06:00::",
         "sense2": "home%1:14:00::",
@@ -6543,15 +6129,6 @@
         "example2": "Losing the match was a real blow."
     },
     {
-        "word": "goal",
-        "sense1": "goal%1:09:00::",
-        "sense2": "goal%1:04:00::",
-        "gloss1": "the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it",
-        "gloss2": "a successful attempt at scoring",
-        "example1": "Achieving your goal is essential for success.",
-        "example2": "She scored the winning goal yesterday."
-    },
-    {
         "word": "wavelength",
         "sense1": "wavelength%1:07:00::",
         "sense2": "wavelength%1:09:00::",
@@ -6559,15 +6136,6 @@
         "gloss2": "a shared orientation leading to mutual understanding",
         "example1": "The light travels at a specific wavelength.",
         "example2": "They finally found common wavelength."
-    },
-    {
-        "word": "goal",
-        "sense1": "goal%1:09:00::",
-        "sense2": "goal%1:04:00::",
-        "gloss1": "the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it",
-        "gloss2": "a successful attempt at scoring",
-        "example1": "Achieving your goal is essential for success.",
-        "example2": "She scored the winning goal yesterday."
     },
     {
         "word": "catch",
@@ -6595,15 +6163,6 @@
         "gloss2": "nonsensical talk or writing",
         "example1": "Please take out the trash today.",
         "example2": "His explanation was just a bunch of trash."
-    },
-    {
-        "word": "steps",
-        "sense1": "steps%1:06:00::",
-        "sense2": "step%1:04:02::",
-        "gloss1": "a flight of stairs or a flight of steps",
-        "gloss2": "any maneuver made as part of progress toward a goal",
-        "example1": "She climbed the steps quickly.",
-        "example2": "Each step brings us closer to success."
     },
     {
         "word": "fired",
