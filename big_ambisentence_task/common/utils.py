@@ -88,7 +88,7 @@ def print_annotation_schema(index: int) -> tuple:
     text_input = st.text_input(key=10*index, label="Write your sentence here.", max_chars=1000)
 
     if text_input:
-        if text_input.lower().count(sample["word"].lower()) > 1:
+        if text_input.lower().split().count(sample["word"].lower()) > 1:
             st.write("This sentence is **invalid** as the ambiguous word appears multiple times. Please refer to the guidelines.")
         elif len(text_input) < 10:
             st.write("Try something longer.")
