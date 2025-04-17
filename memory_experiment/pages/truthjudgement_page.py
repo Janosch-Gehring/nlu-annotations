@@ -17,12 +17,24 @@ if "shuffled_keys_credibility" not in st.session_state:
     print("Added shuffled keys:", st.session_state.shuffled_keys_credibility)
     st.session_state.index = 0
 
+credibility_labels = {
+        0: "1 - defininitely false",
+        1: "2",
+        2: "3 - partly false",
+        3: "4",
+        4: "5 - definitely true",
+}
 if st.session_state.index < len(st.session_state.shuffled_keys_credibility):
     print("In Fragment!")
     key = st.session_state.shuffled_keys_credibility[st.session_state.index]
     st.write(samples[key]["headline"])
-    user_response = st.slider("How credible is this news headline to you? (From 0 not at all to 7 very credible)", 0, 7, None, 1, 
-                            key=st.session_state.index)
+    user_response = st.select_slider("How credible is this news headline to you?", options=[
+        credibility_labels[0],
+        credibility_labels[1],
+        credibility_labels[2],
+        credibility_labels[3],
+        credibility_labels[4],
+    ], value=credibility_labels[2], key=st.session_state.index)
     show_next = st.button("Show next", key="show_next_button")
 else:
     st.session_state.truth_judgement_end_time = time.time()
