@@ -16,7 +16,7 @@ if "progress" not in st.session_state:
                                                         "annotation", qualification_function=None)
 st.session_state.page = "big_ending_task_annotation_page_sample" + str(st.session_state.progress)
 
-if 0: #user_repository.get_qualification() != 1:
+if user_repository.get_qualification() != 1:
     st.write("## You must pass qualification before starting annotation. \n\n Select **Qualification** in the navigation bar to your left to try the qualification test.")
 elif user_repository.check_if_done(st.session_state.user_id):
     st.write("## You have finished annotation. \n\nThank you for your time!")
