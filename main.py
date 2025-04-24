@@ -97,15 +97,15 @@ ambistory2_annotation_page = st.Page(
 )
 
 # Ending Task Pages
-ending_start_page = st.Page(  # How truly ironic
-    "ending_task/pages/introduction_page.py", title="Story Ending Task Intro", icon="📙", url_path="ending_task_introduction"
-)
-ending_qualification_page = st.Page(
-    "ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-ending_annotation_page = st.Page(
-    "ending_task/pages/annotation_page.py", title="Writing", icon="✏️"
-)
+#ending_start_page = st.Page(  # How truly ironic
+#    "ending_task/pages/introduction_page.py", title="Story Ending Task Intro", icon="📙", url_path="ending_task_introduction"
+#)
+#ending_qualification_page = st.Page(
+#    "ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+#)
+#ending_annotation_page = st.Page(
+#    "ending_task/pages/annotation_page.py", title="Writing", icon="✏️"
+#)
 
 # Eval Ending Task Pages
 eval_ending_start_page = st.Page(
@@ -127,6 +127,16 @@ big_ambisentence_qualification_page = st.Page(
 )
 big_ambisentence_annotation_page = st.Page(
     "big_ambisentence_task/pages/annotation_page.py", title="Annotation", icon="✏️"
+)
+
+big_ending_start_page = st.Page(
+    "big_ending_task/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
+)
+big_ending_qualification_page = st.Page(
+    "big_ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+big_ending_annotation_page = st.Page(
+    "big_ending_task/pages/annotation_page.py", title="Annotation", icon="✏️"
 )
 
 
@@ -169,6 +179,9 @@ elif st.session_state.user_id:
     elif utils.authenticate_id("big_ambisentence_task", st.session_state.user_id):
         available_pages["Ambiguous Sentence Task"] = [big_ambisentence_start_page, big_ambisentence_qualification_page, big_ambisentence_annotation_page]
 
+    elif utils.authenticate_id("big_ending_task", st.session_state.user_id):
+        available_pages["Story Ending Task"] = [big_ending_start_page, big_ending_qualification_page, big_ending_annotation_page]
+
     available_pages["Other"] = [logout_page]
 
     pg = st.navigation(available_pages)
@@ -177,7 +190,7 @@ else:
     pg = st.navigation(
         {
         "Home": [main_page, authentication_page],
-        "Task Previews": [big_ambisentence_start_page]
+        "Task Previews": [big_ending_start_page]
         }
 
     )

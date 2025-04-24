@@ -11,7 +11,7 @@
         "sentence": "I have to say, this was probably the best [season] yet!",
         "word": "season",
         "displayed_meaning": "a set or sequence of related television programmes; a series",
-        "precontext": "It was cold outside, so I stayed at home watching TV. I haven't kept up with my favorite TV series lately. I sat down and watched the latest episodes.",
+        "precontext": "It was cold outside, so I stayed at home watching TV 678. I haven't kept up with my favorite TV series lately. I sat down and watched the latest episodes.",
         "ending": "",
         "correct_answer": [3, 4, 5]
     },
