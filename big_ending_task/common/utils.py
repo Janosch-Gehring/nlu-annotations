@@ -65,7 +65,9 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
             st.write(f"""The word {question["word"]} has multiple meanings, such as: 
 
 1) {question["meaning1"]}  (as in: "{question["meaning1_example"]}")  
-2) {question["meaning2"]} (as in: "{question["meaning2_example"]}")  
+2) {question["meaning2"]} (as in: "{question["meaning2_example"]}") 
+
+(Please note that the example sentences were automatically generated and may at times be mistaken.)
 
 """)
 
