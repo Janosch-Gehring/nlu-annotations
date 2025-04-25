@@ -45,7 +45,7 @@ Also, feel free to add comments in the comment field.
 
 # The Annotation Procedure
 
-You will first have to pass the qualification test, which consists of three questions. **You only have one attempt at this.** The qualification test simply asks you to pick the more likely meaning of English words in the context of a sentence. It is mostly to filter out bots and should be no problem to English speakers.
+You will first have to pass the qualification test, which consists of four questions. **You only have one attempt at this.** The qualification test simply asks you to pick the more likely meaning of English words in the context of a sentence. It is mostly to filter out bots and should be no problem to English speakers.
 
 **If you fail at the qualification test**: You will not be able to start writing. ***IMPORTANT***: **Remember to copy the Screen-Out Completion Code that will be displayed to Prolific.** 
 
