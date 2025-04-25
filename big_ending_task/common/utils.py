@@ -4,7 +4,7 @@ from core.scripts.utils import display_progress, read_json_from_file, load_annot
 
 
 def format_sentence(sentence):
-    return "***" + sentence + "***\n"
+    return "***" + sentence.replace("[", ":blue-highlight[") + "***\n"
 
 def print_annotation_schema(subtask: str, index: int) -> tuple:
     """
@@ -74,7 +74,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
 
         sentence = question["revision"]
         st.write("---")
-        st.write(question["precontext"] + " " + format_sentence(sentence))
+        st.write(question["precontext"] + " ***" + sentence + "***")
         st.write("---")
 
         st.write(f"""
