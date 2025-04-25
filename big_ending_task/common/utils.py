@@ -84,7 +84,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
 #### **"{question["meaning1"]}"**.  
 ##### (as in: {question["meaning1_example"]})
 
-Write an ending sentence for the story. Make sure that the intended meaning comes across as the more plausible meaning!
+Write an ending sentence for the story. Make sure that the intended meaning comes across as the most plausible meaning!
         """)
 
         ending_input = st.text_input(key = 10 * index + 1, label="Write your ending sentence here.", value=value_textbox1)
