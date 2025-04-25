@@ -238,7 +238,9 @@ def skip_to_next_sample(index: int, samples: dict, grouping: int, direction: int
     if index < 1:
         return 1
     while True:
-        print("Currently at index ", index, " out of ", len(samples))
+        if index > len(samples):
+            finish_subtask(subtask, qualification_function)
+            break
         if str(index) not in samples:  # account for samples having id gaps
             index += direction
             continue
@@ -250,8 +252,6 @@ def skip_to_next_sample(index: int, samples: dict, grouping: int, direction: int
             if index < 1:  # went back too far
                 index = 1
                 direction = 1  # reverse to find first sample again
-            elif index > len(samples):
-                finish_subtask(subtask, qualification_function)
     # return index where it found a sample
     return index
 
