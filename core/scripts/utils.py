@@ -214,6 +214,7 @@ def finish_subtask(subtask: str="annotation", qualification_function=None):
     :param subtask: annotation or qualification
     :param qualification_function: a function that returns True/False depending on the user passing
     """
+    print("Finishing subtask.")
     if subtask == "annotation":
         finish_annotation()
     elif subtask == "qualification":
@@ -237,6 +238,7 @@ def skip_to_next_sample(index: int, samples: dict, grouping: int, direction: int
     if index < 1:
         return 1
     while True:
+        print("Currently at index ", index, " out of ", len(samples))
         if str(index) not in samples:  # account for samples having id gaps
             index += direction
             continue
