@@ -4,7 +4,7 @@ from core.scripts.utils import display_progress, read_json_from_file, load_annot
 
 
 def format_sentence(sentence):
-    return "***" + sentence.replace("[", ":blue-highlight[") + "***\n"
+    return "***" + sentence.replace("[", ":blue-background[") + "***\n"
 
 def print_annotation_schema(subtask: str, index: int) -> tuple:
     """
