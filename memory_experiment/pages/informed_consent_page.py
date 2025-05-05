@@ -38,8 +38,8 @@ if not user:
 <p>Please enter your prolific ID below:
 """)
     
-            agree = st.checkbox("I have read and understood the information above and agree to participate in this experiment")
             prolific_id = st.text_input("Prolific ID:", max_chars=200)
+            agree = st.checkbox("I have read and understood the information above and agree to participate in this experiment")
         if prolific_id and agree:
             if "captcha_control" not in st.session_state:
                 print("adding captcha control to session state")

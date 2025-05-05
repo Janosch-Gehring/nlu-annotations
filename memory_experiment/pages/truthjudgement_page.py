@@ -5,7 +5,7 @@ import random
 from core.scripts.utils import read_json_from_file, TASK_INFO, skip_to_next_sample, get_amount_of_samples_for_group, handle_next_button
 from core.scripts import user_repository
 
-st.write("""<p>Below you will see some news headlines on the screen one after the other. 
+st.html("""<p>Below you will see some news headlines on the screen one after the other. 
          <p>For each headline, please indicate how false or true you personally think it is (scale from 1=false to 7=true).""")
 
 samples = read_json_from_file(TASK_INFO["memory_experiment"]["annotation_filepath"])
@@ -30,8 +30,8 @@ credibility_labels = {
 if st.session_state.index < len(st.session_state.shuffled_keys_credibility):
     print("In Fragment!")
     key = st.session_state.shuffled_keys_credibility[st.session_state.index]
-    st.write(samples[key]["headline"])
-    user_response = st.select_slider("How credible is this news headline to you?", options=[
+    st.html(f"<h2>{samples[key]["headline"]}")
+    user_response = st.select_slider("How true do you think this news headline is", options=[
         credibility_labels[0],
         credibility_labels[1],
         credibility_labels[2],
@@ -51,9 +51,15 @@ if show_next:
     else:
         sample_response["credibility_rating"] = user_response
         sample_response["sample_id"] = int(key)
+        sample_response["seen_in_presentation"] = 1 if st.session_state.user[3] == samples[key]["grouping"] else 0
+        sample_response["headline"] = samples[key]["headline"]
+        sample_response["contains_pronouns"] = samples[key]["contains_pronouns"]
+        sample_response["avg_word_length"] = samples[key]["avg_word_length"]
+        sample_response["perc_long_words"] = samples[key]["perc_long_words"]
+        sample_response["num_long_words"] = samples[key]["num_long_words"]
         print("key:", key)
         print("response:", user_response)
-        user_repository.save_one_annotation(st.session_state.user_id, "credibility", int(key), sample_response)
+        user_repository.save_one_annotation(st.session_state.user_id, "truth_judgement", int(key), sample_response)
         #key = st.session_state.shuffled_keys[st.session_state.index]
         #placeholder.write(samples[key]["headline"])
         st.session_state.index += 1

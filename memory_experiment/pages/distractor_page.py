@@ -24,5 +24,5 @@ import streamlit as st
 import time
 
 with st.spinner("Please wait for one minute before continuing", show_time=True):
-    time.sleep(5)
+    time.sleep(60)
 st.switch_page("memory_experiment/pages/recall_page.py")

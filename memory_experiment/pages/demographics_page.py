@@ -21,7 +21,7 @@ with st.form("Please provide the following information about yourself:"):
         political_labels[2],
         political_labels[3],
         political_labels[4],
-    ],index=None)
+    ])
     news_consumption = st.text_input("Where do you get most of your news from (i.e. newspapers, TV, radio, internet, social media,...)?")
     submitted = st.form_submit_button("Submit")
 if submitted:

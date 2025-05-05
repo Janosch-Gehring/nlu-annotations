@@ -1,6 +1,6 @@
 {
     "1": {
-        "headline": " This is an attention test. Please select \"Yes, I have seen this before\".",
+        "headline": " This is an attention test. Please select \"Yes, this was shown to me in the initial task\".",
         "grouping": 4,
         "presentation_grouping": [
             0,
@@ -214,7 +214,7 @@
         "num_long_words": 3.0
     },
     "16": {
-        "headline": "\u201cLove Is Blind \u201dAlums Amber and Matt Barnett Welcome Their First Baby, a Girl.",
+        "headline": "\u201cLove Is Blind \u201d Alums Amber and Matt Barnett Welcome Their First Baby, a Girl.",
         "grouping": 3,
         "presentation_grouping": [
             2,
