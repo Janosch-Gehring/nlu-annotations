@@ -50,7 +50,7 @@ TASK_INFO = {
     },
 
     "memory_experiment": {
-        "annotation_filepath": "memory_experiment/resources/stimuli.json",
+        "annotation_filepath": "memory_experiment/resources/headlines.json",
         "number_of_annotator_groups": 4,
     }
 }

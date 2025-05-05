@@ -5,7 +5,8 @@ import random
 from core.scripts.utils import read_json_from_file, TASK_INFO, skip_to_next_sample, get_amount_of_samples_for_group, handle_next_button
 from core.scripts import user_repository
 
-st.write("You will now see the same headlines again. This time, for each headline, indicate how credibe this news item is to you.")
+st.write("""<p>Below you will see some news headlines on the screen one after the other. 
+         <p>For each headline, please indicate how false or true you personally think it is (scale from 1=false to 7=true).""")
 
 samples = read_json_from_file(TASK_INFO["memory_experiment"]["annotation_filepath"])
 sample_response = {}
@@ -20,9 +21,11 @@ if "shuffled_keys_credibility" not in st.session_state:
 credibility_labels = {
         0: "1 - defininitely false",
         1: "2",
-        2: "3 - partly false",
+        2: "3",
         3: "4",
-        4: "5 - definitely true",
+        4: "5",
+        5: "6",
+        6: "7 - definitely true"
 }
 if st.session_state.index < len(st.session_state.shuffled_keys_credibility):
     print("In Fragment!")
@@ -34,6 +37,8 @@ if st.session_state.index < len(st.session_state.shuffled_keys_credibility):
         credibility_labels[2],
         credibility_labels[3],
         credibility_labels[4],
+        credibility_labels[5],
+        credibility_labels[6]
     ], value=credibility_labels[2], key=st.session_state.index)
     show_next = st.button("Show next", key="show_next_button")
 else:

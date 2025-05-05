@@ -1,0 +1,930 @@
+{
+    "1": {
+        "headline": " This is an attention test. Please select \"Yes, I have seen this before\".",
+        "grouping": 4,
+        "presentation_grouping": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "topic": NaN,
+        "source": NaN,
+        "contains_pronoun": NaN,
+        "avg_word_length": NaN,
+        "perc_long_words": NaN,
+        "num_long_words": NaN
+    },
+    "2": {
+        "headline": "This is an attention test. Please select 4.",
+        "grouping": 5,
+        "presentation_grouping": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "topic": NaN,
+        "source": NaN,
+        "contains_pronoun": NaN,
+        "avg_word_length": NaN,
+        "perc_long_words": NaN,
+        "num_long_words": NaN
+    },
+    "3": {
+        "headline": "Jonathan Majors reportedly admits to being \u2018aggressive\u2019 with ex-girlfriend in newly released audio clip",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "entertainment",
+        "source": "CNN",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 6.43,
+        "perc_long_words": 0.36,
+        "num_long_words": 5.0
+    },
+    "4": {
+        "headline": "Leighton Meester is joining husband Adam Brody on Season 2 of \u2018Nobody Wants This\u2019",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "entertainment",
+        "source": "CNN",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 4.86,
+        "perc_long_words": 0.36,
+        "num_long_words": 5.0
+    },
+    "5": {
+        "headline": "The Sex Pistols announce first North American tour in 2 decades",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "entertainment",
+        "source": "Washington Post",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 4.82,
+        "perc_long_words": 0.36,
+        "num_long_words": 4.0
+    },
+    "6": {
+        "headline": "Betty White, TV's Golden Girl, celebrated at stamp ceremony in Los Angeles",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "entertainment",
+        "source": "Washington Post",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.25,
+        "perc_long_words": 0.25,
+        "num_long_words": 3.0
+    },
+    "7": {
+        "headline": "Sarah Snook takes on Oscar Wilde in a dazzling Broadway debut",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "entertainment",
+        "source": "Washington Post",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 4.64,
+        "perc_long_words": 0.18,
+        "num_long_words": 2.0
+    },
+    "8": {
+        "headline": "Kennedy Center guts social impact team; more layoffs expected",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "entertainment",
+        "source": "Washington Post",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.89,
+        "perc_long_words": 0.33,
+        "num_long_words": 3.0
+    },
+    "9": {
+        "headline": "Selena's killer Yolanda Saldi\u0301var denied parole 30 years after murder",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "entertainment",
+        "source": "USA Today",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 6.0,
+        "perc_long_words": 0.3,
+        "num_long_words": 3.0
+    },
+    "10": {
+        "headline": "Megan Fox, Machine Gun Kelly reveal birth of daughter",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "entertainment",
+        "source": "USA Today",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.0,
+        "perc_long_words": 0.22,
+        "num_long_words": 2.0
+    },
+    "11": {
+        "headline": "\u2018Last of Us\u2019 star Bella Ramsey reveals autism diagnosis.",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "entertainment",
+        "source": "CNN",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.33,
+        "perc_long_words": 0.22,
+        "num_long_words": 2.0
+    },
+    "12": {
+        "headline": "Chris Hemsworth, Paul Rudd and others will reprise their Marvel roles in next \u2018Avengers\u2019 movie",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "entertainment",
+        "source": "CNN",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.33,
+        "perc_long_words": 0.2,
+        "num_long_words": 3.0
+    },
+    "13": {
+        "headline": "\u2018Cobra Kai\u2019 costars Mary Mouser and Tanner Buchanan are engaged, as their series ends",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "entertainment",
+        "source": "CNN",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.14,
+        "perc_long_words": 0.21,
+        "num_long_words": 3.0
+    },
+    "14": {
+        "headline": "Damon Wayans Sr. Reveals He 'Fell in Love' with His Nephew's Ex-Girlfriend",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "entertainment",
+        "source": "Yahoo",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.25,
+        "perc_long_words": 0.25,
+        "num_long_words": 3.0
+    },
+    "15": {
+        "headline": "Halle Berry Grateful That Chris Hemsworth \u201cStood Up For Her\u201d On Set Of Thriller \u2018Crime 101\u2019",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "entertainment",
+        "source": "Yahoo",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 4.75,
+        "perc_long_words": 0.19,
+        "num_long_words": 3.0
+    },
+    "16": {
+        "headline": "\u201cLove Is Blind \u201dAlums Amber and Matt Barnett Welcome Their First Baby, a Girl.",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "entertainment",
+        "source": "Yahoo",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 4.64,
+        "perc_long_words": 0.14,
+        "num_long_words": 2.0
+    },
+    "17": {
+        "headline": "Hugh Grant Calls Out \u2018Creepy\u2019 Airport Officer over \u2018Intrusive\u2019 Encounter with His Children at Heathrow",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "entertainment",
+        "source": "Yahoo",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.87,
+        "perc_long_words": 0.47,
+        "num_long_words": 7.0
+    },
+    "18": {
+        "headline": "Tori Spelling Reveals Sex Tape With Dean McDermott Almost Leaked After Friend Stole It From Their Home",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "entertainment",
+        "source": "Yahoo",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.06,
+        "perc_long_words": 0.18,
+        "num_long_words": 3.0
+    },
+    "19": {
+        "headline": "New design revealed for Airbus hydrogen plane",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "environment",
+        "source": "CNN",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.57,
+        "perc_long_words": 0.29,
+        "num_long_words": 2.0
+    },
+    "20": {
+        "headline": "\u2018Like wildfires underwater\u2019: Worst summer on record for Great Barrier Reef as coral die-off sweeps planet",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "environment",
+        "source": "CNN",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.62,
+        "perc_long_words": 0.25,
+        "num_long_words": 4.0
+    },
+    "21": {
+        "headline": "Scientists discover concerning new source of \u2018forever chemicals\u2019 in drinking water",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "environment",
+        "source": "CNN",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 6.55,
+        "perc_long_words": 0.55,
+        "num_long_words": 6.0
+    },
+    "22": {
+        "headline": "In 15 Years, 80,000 Homes in the New York Area May Be Lost to Flooding",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "environment",
+        "source": "nytimes",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 3.73,
+        "perc_long_words": 0.07,
+        "num_long_words": 1.0
+    },
+    "23": {
+        "headline": "Methane Reduction Is A Business Win For Food Companies",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "environment",
+        "source": "nytimes",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.11,
+        "perc_long_words": 0.44,
+        "num_long_words": 4.0
+    },
+    "24": {
+        "headline": "Microplastics could be affecting the weather, new study shows",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "environment",
+        "source": "nytimes",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.89,
+        "perc_long_words": 0.33,
+        "num_long_words": 3.0
+    },
+    "25": {
+        "headline": "Water shortage threatens the world's most abundant lithium reserves",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "environment",
+        "source": "nbcnews",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 6.56,
+        "perc_long_words": 0.67,
+        "num_long_words": 6.0
+    },
+    "26": {
+        "headline": "Trump exempts nearly 70 coal plants from Biden-era rule on mercury and other toxic air pollution",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "environment",
+        "source": "nytimes",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.06,
+        "perc_long_words": 0.25,
+        "num_long_words": 4.0
+    },
+    "27": {
+        "headline": "A forest the size of Mexico could store twice as much carbon as was thought. That makes its conservation even more valuable",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "environment",
+        "source": "CNN",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 4.64,
+        "perc_long_words": 0.14,
+        "num_long_words": 3.0
+    },
+    "28": {
+        "headline": "Scientists find huge trove of rare metals needed for clean energy hidden inside toxic coal waste",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "environment",
+        "source": "CNN",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.06,
+        "perc_long_words": 0.06,
+        "num_long_words": 1.0
+    },
+    "29": {
+        "headline": "Solar storm could bring auroras farther south over the US than they typically appear",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "environment",
+        "source": "CNN",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.07,
+        "perc_long_words": 0.21,
+        "num_long_words": 3.0
+    },
+    "30": {
+        "headline": "Your daily cup of coffee could get more expensive because of climate change",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "environment",
+        "source": "nbnews",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 4.85,
+        "perc_long_words": 0.23,
+        "num_long_words": 3.0
+    },
+    "31": {
+        "headline": "Biden touts his climate legacy during landmark visit to Amazon rainforest",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "environment",
+        "source": "nbnews",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.73,
+        "perc_long_words": 0.27,
+        "num_long_words": 3.0
+    },
+    "32": {
+        "headline": "\u2018We Hear You, Mr. President\u2019: The World Lines Up to Buy American Gas",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "environment",
+        "source": "nytimes",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 4.31,
+        "perc_long_words": 0.15,
+        "num_long_words": 2.0
+    },
+    "33": {
+        "headline": "Climate Groups Were Counting on $20 Billion. Trump Won\u2019t Let Them Access It.",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "environment",
+        "source": "nytimes",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 4.92,
+        "perc_long_words": 0.23,
+        "num_long_words": 3.0
+    },
+    "34": {
+        "headline": "A Champion of Oil Ends Her Bid to Lead the Bureau of Land Management",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "environment",
+        "source": "nytimes",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 3.93,
+        "perc_long_words": 0.14,
+        "num_long_words": 2.0
+    },
+    "35": {
+        "headline": "They\u2019re up to 70% of the American diet. But the US has no policy on ultraprocessed foods",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "health",
+        "source": "CNN",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 4.24,
+        "perc_long_words": 0.18,
+        "num_long_words": 3.0
+    },
+    "36": {
+        "headline": "Being aerobically fit in middle age may reduce Alzheimer\u2019s and dementia risk, study says",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "health",
+        "source": "CNN",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.36,
+        "perc_long_words": 0.21,
+        "num_long_words": 3.0
+    },
+    "37": {
+        "headline": "Rare virus that killed Gene Hackman's wife linked to 3 deaths in California town",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "health",
+        "source": "nbcnews",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 4.79,
+        "perc_long_words": 0.14,
+        "num_long_words": 2.0
+    },
+    "38": {
+        "headline": "Not even wealth is saving Americans from dying at rates seen among some of the poorest Europeans",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "health",
+        "source": "nbcnews",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 4.71,
+        "perc_long_words": 0.18,
+        "num_long_words": 3.0
+    },
+    "39": {
+        "headline": "FDA recalls thousands of pounds of ground coffee mislabeled as decaffeinated",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "health",
+        "source": "nbcnews",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 6.0,
+        "perc_long_words": 0.36,
+        "num_long_words": 4.0
+    },
+    "40": {
+        "headline": "Two Liquid Egg Brands Recalled Over Bleach Contamination Risk",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "health",
+        "source": "nytimes",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.89,
+        "perc_long_words": 0.22,
+        "num_long_words": 2.0
+    },
+    "41": {
+        "headline": "Shingles Vaccine Can Decrease Risk of Dementia, Study Finds",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "health",
+        "source": "nytimes",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.67,
+        "perc_long_words": 0.44,
+        "num_long_words": 4.0
+    },
+    "42": {
+        "headline": "Utah Becomes First State to Ban Fluoride in Public Water",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "health",
+        "source": "nytimes",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 4.7,
+        "perc_long_words": 0.2,
+        "num_long_words": 2.0
+    },
+    "43": {
+        "headline": "Tiny shards of plastic are increasingly infiltrating our brains, study says",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "health",
+        "source": "CNN",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.91,
+        "perc_long_words": 0.36,
+        "num_long_words": 4.0
+    },
+    "44": {
+        "headline": "Exercise may help you store fat better, new research suggests",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "health",
+        "source": "CNN",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.2,
+        "perc_long_words": 0.4,
+        "num_long_words": 4.0
+    },
+    "45": {
+        "headline": "Your employer may start covering weight-loss drugs soon",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "health",
+        "source": "CNN",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 6.0,
+        "perc_long_words": 0.38,
+        "num_long_words": 3.0
+    },
+    "46": {
+        "headline": "John Cena reveals past skin cancer diagnosis: 'That phone call's not one you want to get'",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "health",
+        "source": "nbcnews",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 4.62,
+        "perc_long_words": 0.12,
+        "num_long_words": 2.0
+    },
+    "47": {
+        "headline": "Transgender patients and their health providers fear worsening discrimination",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "health",
+        "source": "nbcnews",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 7.67,
+        "perc_long_words": 0.56,
+        "num_long_words": 5.0
+    },
+    "48": {
+        "headline": "Dave Coulier says he finished chemo and shares update on prognosis",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "health",
+        "source": "nbcnews",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.09,
+        "perc_long_words": 0.27,
+        "num_long_words": 3.0
+    },
+    "49": {
+        "headline": "Your Weed Habit May Be Messing With Your Sperm",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "health",
+        "source": "nytimes",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 4.22,
+        "perc_long_words": 0.11,
+        "num_long_words": 1.0
+    },
+    "50": {
+        "headline": "What you eat in midlife affects how healthy you are at age 70, according to a new study",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "health",
+        "source": "CNN",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 3.89,
+        "perc_long_words": 0.22,
+        "num_long_words": 4.0
+    },
+    "51": {
+        "headline": "Justice Department places attorney who struggled to explain Maryland man's deportation on leave",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "politics",
+        "source": "nbcnews",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 6.38,
+        "perc_long_words": 0.54,
+        "num_long_words": 7.0
+    },
+    "52": {
+        "headline": "Head Start funding lags by nearly $1 billion this year, causing some preschool closures",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "politics",
+        "source": "yahoo",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.29,
+        "perc_long_words": 0.36,
+        "num_long_words": 5.0
+    },
+    "53": {
+        "headline": "Kennedy\u2019s Plan to Send Health Officials to \u2018Indian Country\u2019 Angers Native Leaders",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "politics",
+        "source": "nytimes",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.83,
+        "perc_long_words": 0.42,
+        "num_long_words": 5.0
+    },
+    "54": {
+        "headline": "Tentative deal is reached in Republican fight over proxy voting for new parents",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "politics",
+        "source": "yahoo",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.15,
+        "perc_long_words": 0.31,
+        "num_long_words": 4.0
+    },
+    "55": {
+        "headline": "Turkish opposition party reelects chairman following arrest of Istanbul mayor",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "politics",
+        "source": "yahoo",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 6.8,
+        "perc_long_words": 0.6,
+        "num_long_words": 6.0
+    },
+    "56": {
+        "headline": "Trump administration halts Biden proposal to let Medicare, Medicaid cover anti-obesity drugs",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "politics",
+        "source": "cnn",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 6.75,
+        "perc_long_words": 0.42,
+        "num_long_words": 5.0
+    },
+    "57": {
+        "headline": "US Army engineers decide to fast-track Great Lakes tunnel permits under Trump energy emergency order",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "politics",
+        "source": "yahoo",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 5.73,
+        "perc_long_words": 0.27,
+        "num_long_words": 4.0
+    },
+    "58": {
+        "headline": "Visas revoked for students at universities in Southern states amid crackdown",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "politics",
+        "source": "nytimes",
+        "contains_pronoun": 0.0,
+        "avg_word_length": 6.0,
+        "perc_long_words": 0.45,
+        "num_long_words": 5.0
+    },
+    "59": {
+        "headline": "CIA is reviewing its authorities to use lethal force against drug cartels",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "politics",
+        "source": "cnn",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.17,
+        "perc_long_words": 0.33,
+        "num_long_words": 4.0
+    },
+    "60": {
+        "headline": "Doug Emhoff publicly criticizes his law firm for coming to agreement with Trump administration",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "politics",
+        "source": "cnn",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.79,
+        "perc_long_words": 0.29,
+        "num_long_words": 4.0
+    },
+    "61": {
+        "headline": "Pennsylvania Gov. Josh Shapiro says he hasn't heard from Trump since the arson attack",
+        "grouping": 0,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "politics",
+        "source": "nbcnews",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.14,
+        "perc_long_words": 0.14,
+        "num_long_words": 2.0
+    },
+    "62": {
+        "headline": "Elon Musk says he wants a 'zero-tariff situation' and a 'free trade zone' for Europe amid Trump's trade war",
+        "grouping": 1,
+        "presentation_grouping": [
+            0,
+            1
+        ],
+        "topic": "politics",
+        "source": "nbcnews",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 4.68,
+        "perc_long_words": 0.16,
+        "num_long_words": 3.0
+    },
+    "63": {
+        "headline": "Brazil's Bolsonaro leads rally in support of amnesty law as he faces trial for alleged coup plot",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "politics",
+        "source": "yahoo",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 4.71,
+        "perc_long_words": 0.29,
+        "num_long_words": 5.0
+    },
+    "64": {
+        "headline": "President of El Salvador says he won't return mistakenly deported man to U.S.",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "politics",
+        "source": "nytimes",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.0,
+        "perc_long_words": 0.31,
+        "num_long_words": 4.0
+    },
+    "65": {
+        "headline": "China Tries to Downplay the Trade War\u2019s Effects on Its Economy",
+        "grouping": 2,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "politics",
+        "source": "nytimes",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 4.73,
+        "perc_long_words": 0.27,
+        "num_long_words": 3.0
+    },
+    "66": {
+        "headline": "Hungary Says It Will Withdraw From I.C.C. as Orban Hosts Netanyahu",
+        "grouping": 3,
+        "presentation_grouping": [
+            2,
+            3
+        ],
+        "topic": "politics",
+        "source": "nytimes",
+        "contains_pronoun": 1.0,
+        "avg_word_length": 5.09,
+        "perc_long_words": 0.27,
+        "num_long_words": 3.0
+    }
+}

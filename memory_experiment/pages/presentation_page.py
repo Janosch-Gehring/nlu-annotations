@@ -26,7 +26,7 @@ while st.session_state.index < len(st.session_state.shuffled_keys_presentation):
     index = int(st.session_state.progress)
     key = st.session_state.shuffled_keys_presentation[st.session_state.index]
     placeholder.write(samples[key]["headline"])
-    time.sleep(2)
+    time.sleep(7)
     st.session_state.index += 1
     print("In loop, presented samples: ", st.session_state.index)
 

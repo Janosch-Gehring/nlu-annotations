@@ -5,15 +5,17 @@ import time
 if "recall_start_time" not in st.session_state:
     st.session_state.recall_start_time = time.time()
 
-recall = st.text_area("""Please write down as many headlines as you remember here. Try to write downthe exact wording of each headline. "
-Write each headline in a new line:""")
+recall = st.html("""<p>Now please try to remember the headlines you learned at the beginning.
+                    <p>The order of the headlines does not matter. Just write them down as you remember them, using a new line for each new headline. 
+                    <p>If you can, please try to remember the headline in its original form as accurately as possible - but if you can't remember the exact headline, you can also paraphrase in your own words what the headline was about. 
+                    <p>You should take approximately five minutes to write down as many headlines as possible from the memorization task.""")
 if "recall_start_time" not in st.session_state:
     st.session_state.recall_start_time = time.time()
 recall_dict = {}
 
 if st.button("Submit"):
     if recall is None:
-        st.warning("Please write down at least one headline before submitting. "
+        st.warning("Please write down at least one headline before submitting."
         "If you don't remember the exact wording of any headlines, try to write down as much as you remember")
     elif time.time() - st.session_state.recall_start_time < 60: # change to 300
         if "recall_submit_attempts" not in st.session_state:
