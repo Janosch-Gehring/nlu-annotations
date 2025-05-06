@@ -8,12 +8,12 @@
             2,
             3
         ],
-        "topic": NaN,
-        "source": NaN,
-        "contains_pronoun": NaN,
-        "avg_word_length": NaN,
-        "perc_long_words": NaN,
-        "num_long_words": NaN
+        "topic": 0,
+        "source": 0,
+        "contains_pronoun": 0,
+        "avg_word_length": 0,
+        "perc_long_words": 0,
+        "num_long_words": 0
     },
     "2": {
         "headline": "This is an attention test. Please select 4.",
@@ -24,12 +24,12 @@
             2,
             3
         ],
-        "topic": NaN,
-        "source": NaN,
-        "contains_pronoun": NaN,
-        "avg_word_length": NaN,
-        "perc_long_words": NaN,
-        "num_long_words": NaN
+        "topic": 0,
+        "source": 0,
+        "contains_pronoun": 0,
+        "avg_word_length": 0,
+        "perc_long_words": 0,
+        "num_long_words": 0
     },
     "3": {
         "headline": "Jonathan Majors reportedly admits to being \u2018aggressive\u2019 with ex-girlfriend in newly released audio clip",

@@ -53,7 +53,7 @@ if show_next:
         sample_response["sample_id"] = int(key)
         sample_response["seen_in_presentation"] = 1 if st.session_state.user[3] == samples[key]["grouping"] else 0
         sample_response["headline"] = samples[key]["headline"]
-        sample_response["contains_pronouns"] = samples[key]["contains_pronouns"]
+        sample_response["contains_pronoun"] = samples[key]["contains_pronoun"]
         sample_response["avg_word_length"] = samples[key]["avg_word_length"]
         sample_response["perc_long_words"] = samples[key]["perc_long_words"]
         sample_response["num_long_words"] = samples[key]["num_long_words"]
