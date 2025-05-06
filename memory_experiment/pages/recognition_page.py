@@ -26,7 +26,7 @@ if st.session_state.index < len(st.session_state.shuffled_keys_recognition):
     user_response = st.radio("Have you seen the headline above before?", ["Yes, this was shown to me in the initial task", "No, this headline is new"], 
                             index=None, 
                             key=st.session_state.index)
-    show_next = st.button("Show next", key="show_next_button")
+    show_next = st.button("Show next", key="show_next_button")https://authkit.streamlit.io/magic-code?email=selina.meyer%40utn.de&authentication_challenge_id=auth_challenge_01JTJKQ3YT25D96JJ4M1BRE7W2&state=pgW-y04ZHNAuER0y_-zKfnEAkiO4SoqZIdXcXUwolkmOsYI1J8zYl9h8Kerra1zIyoz0AOgU95TbmgDS4ujjLbqY5C6lbu70xhecK6mGke0zxvsHHwV2FcKg1UVkfLHL-UmSvCIaJyPnHdXRc-83PI1m-6vpL5JDTVnmld_TrQpvBbVQcXlQnN9-qDWQugUDYrieTiKGdN14x093BgKcc7RjurwCQS52MnhjG9tH9scjYVujRdOwnU3fjIL42VZ_8O_GeVqh4fCM5bJKdYDL9G3Ba-rD34iPYCcNBDobTKyCoSN0d86dSIl4A5yfuW_H0-VeAjvnRJbOLRjKzZ1VLa0mHO6KxIcFlA9Ltb8zcso7X2BvTftbgIdBd7htGdRM86cEvzUwvVc3nBv0QXFxrELimFXSvcsc6UOugqu4n2iRTMeHSxyM5GT1EV4cDh8lbHBlYaBuP6VH0u9q1w%3D%3D&redirect_uri=https%3A%2F%2Flogin.streamlit.io%2Fapi%2Fv1%2Flogin%2Fshare%2Fcallback&authorization_session_id=01JTJKKZGN0HRZJ09EZM3M4WEF&radar_auth_attempt_id=01JTJKQ3VNK5VZ7AH61ZEKARAR&radar_auth_attempt_created_at=2025-05-06T10%3A54%3A26.164Z
 else:
     st.session_state.recognition_end_time = time.time()
     st.switch_page("memory_experiment/pages/truthjudgement_page.py")
