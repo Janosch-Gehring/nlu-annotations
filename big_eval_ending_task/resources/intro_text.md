@@ -50,7 +50,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 
 **Your Rating** *Very Implausible*
 
-**Explanation**: *Notes* could potentially refer to written memos, but given the surrounding sentences, it is more plausible that she is jotting down musical notes. 
+**Explanation**: *Notes* could conceivably refer to written memos, but given the surrounding sentences, it is more plausible that she is jotting down musical notes. 
 
 ---
 
