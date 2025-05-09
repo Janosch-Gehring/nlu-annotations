@@ -58,9 +58,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
         display_progress(key=subtask)
 
         question = samples[str(index)]
-
-        st.write(f"The ambiguous word is **{question["word"]}**")
-
+        
         if st.toggle("Show word definitions", value=False, key=10 * index + 2):
             st.write(f"""The word {question["word"]} has multiple meanings, such as: 
 

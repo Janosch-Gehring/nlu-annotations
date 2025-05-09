@@ -7,7 +7,7 @@ if not st.session_state.user_id:
     st.markdown("""
     # Welcome!
                 
-    This is the annotation website for the Natural Language Understanding Lab at UTN Nuremberg.
+    This is the annotation website for the Natural Language Understanding Research Group at the University of Technology Nuremberg.
 
     ## Are you here for annotation?
                 
@@ -20,7 +20,7 @@ else:
     st.markdown("""
     # Welcome!
                 
-    This is the annotation website for the Natural Language Understanding Lab at UTN Nuremberg.
+    This is the annotation website for the Natural Language Understanding Research Group at the University of Technology Nuremberg.
 
     ## Are you here for annotation?
                 

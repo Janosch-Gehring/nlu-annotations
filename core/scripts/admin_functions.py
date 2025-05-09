@@ -4,7 +4,7 @@ import streamlit as st
 
 from core.scripts import utils, user_repository, database_repository
 
-def generate_users(task: str, amount_per_group: int = 1):
+def generate_users(task: str, amount_per_group: int = 1, groups_to_generate: int = "ALL"):
     """
     Generate an amount of users (determined by amount_per_group parameter).
     The generated user ids are printed and become valid. 
@@ -12,6 +12,7 @@ def generate_users(task: str, amount_per_group: int = 1):
 
     :param task: e.g. ambiguity_task
     :param amount_per_group:
+    :param groups_to_generate: "ALL" or group id
     :return: None
     """
     try:
@@ -26,15 +27,16 @@ def generate_users(task: str, amount_per_group: int = 1):
     conn = st.session_state.conn
     cursor = conn.cursor()
     for i in range(amount_of_groups):
-        for j in range(amount_per_group):
-            new_user = utils.generate_random_string(size=8)
-            new_users.append(new_user)
-            st.write(f"User{i}-{j}, {new_user}")
-            cursor.execute('''
-            INSERT INTO valid_ids (user_id, task, annotator_group)
-            VALUES (%s, %s, %s)
-        ''', (new_user, task, i))
-            conn.commit()
+        if groups_to_generate == "ALL" or i == int(groups_to_generate):
+            for j in range(amount_per_group):
+                new_user = utils.generate_random_string(size=8)
+                new_users.append(new_user)
+                st.write(f"User{i}-{j}, {new_user}")
+                cursor.execute('''
+                INSERT INTO valid_ids (user_id, task, annotator_group)
+                VALUES (%s, %s, %s)
+            ''', (new_user, task, i))
+                conn.commit()
 
     
     # conn.close()

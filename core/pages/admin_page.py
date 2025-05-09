@@ -1,8 +1,8 @@
 import streamlit as st
 
-from core.scripts import database_repository, admin_functions
+from core.scripts import database_repository, admin_functions, utils
 
-TASK_OPTIONS = ("None selected", "ambiguity_task", "example_task", "ambistory_task", "ambisentence_task", "eval_ambisentence_task", "ambistory2_task", "ending_task", "eval_ending_task", "big_ambisentence_task", "big_ending_task", "big_ending_task_round2")
+TASK_OPTIONS = ("None selected", "ambiguity_task", "example_task", "ambistory_task", "ambisentence_task", "eval_ambisentence_task", "ambistory2_task", "ending_task", "eval_ending_task", "big_ambisentence_task", "big_ending_task", "big_ending_task_round2", "big_eval_ending_task")
 
 if "database" not in st.session_state:
     st.session_state.database = "Press the other button first"
@@ -34,10 +34,13 @@ generation_option = st.selectbox(
      "For which task to generate new users?", TASK_OPTIONS)
 
 if generation_option and generation_option != "None selected":
-    generation_slider = st.select_slider("How many IDs to generate per group", options=list(range(150)))
+    generation_slider = st.select_slider("How many IDs to generate", options=list(range(150)))
+    groups_to_generate = st.selectbox(
+        "For which groups to generate that many new users?", ["ALL"] + list(range(utils.TASK_INFO[generation_option]["number_of_annotator_groups"]))
+    )
     generation_button = st.button("Click here to generate users")
     if generation_button:
-        admin_functions.generate_users(generation_option, generation_slider)
+        admin_functions.generate_users(generation_option, generation_slider, groups_to_generate)
 
 st.markdown("""
             ---
