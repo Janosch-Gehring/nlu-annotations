@@ -159,6 +159,10 @@ big_eval_ending_annotation_page = st.Page(
     "big_eval_ending_task/pages/annotation_page.py", title="Annotation", icon="🏭"
 )
 
+plausibility_demo_page = st.Page(
+    "plausibility_demo/pages/demo_page.py", title="Interpretation", icon="🧩"
+)
+
 
 
 # Create navigation bar
@@ -216,8 +220,7 @@ elif st.session_state.user_id:
 else:
     pg = st.navigation(
         {
-        "Home": [main_page, authentication_page],
-        "Task Previews": [big_eval_ending_start_page]
+        "Home": [main_page, plausibility_demo_page]
         }
 
     )

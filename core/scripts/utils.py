@@ -70,6 +70,11 @@ TASK_INFO = {
         "qualification_filepath": "big_eval_ending_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 76
         #"group_assignment": "post-qualification"
+    },
+    "plausibility_demo": {
+        "annotation_filepath": "plausibility_demo/resources/annotation_samples.json",
+        "qualification_filepath": "",
+        "number_of_annotator_groups": 1
     }
 }
 
