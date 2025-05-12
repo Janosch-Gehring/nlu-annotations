@@ -4,13 +4,13 @@
 
 You will see a short text in which one sentence is written in bold. That sentence contains a word that can typically take on multiple different meanings, depending on the context. One of those meanings is shown to you.
 
-**Your task is simple: Annotate how plausible a meaning of a word is in the context of the short text using one of five labels:**
+**Your task is simple: Annotate how plausible a meaning of a word is in the context of the short text using one of five scores:**
 
-* **Inconceivable**: The displayed meaning is not plausible at all given the context.
-* **Very Implausible**: The displayed meaning is theoretically conceivable, but less plausible than other meanings.
-* **Unclear**: The displayed meaning represents one of multiple, similarly plausible interpretations.
-* **Very Plausible**: The displayed meaning represents the most plausible interpretation; other meanings may still be conceivable.
-* **Certain**: The displayed meaning is the only plausible meaning given the context.
+* **1**: The displayed meaning is not plausible at all given the context.
+* **2**: The displayed meaning is theoretically conceivable, but less plausible than other meanings.
+* **3**: The displayed meaning represents one of multiple, similarly plausible interpretations.
+* **4**: The displayed meaning represents the most plausible interpretation; other meanings may still be conceivable.
+* **5**: The displayed meaning is the only plausible meaning given the context.
 
 See below for examples.
 
@@ -28,7 +28,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 
 **Meaning of "BAT"**: A sports implement for hitting balls (e.g. in baseball)  
 
-**Your Rating**: *Inconceivable*
+**Your Rating**: *1*
 
 **Explanation**: A baseball bat flying out of a cave is inconceivable; it obviously refers to an animal.
 
@@ -38,7 +38,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 
 **Meaning of "BANK"**: a financial institution  
 
-**Your Rating**: *Unclear*
+**Your Rating**: *3*
 
 **Explanation**: *Bank* could refer to the financial institution, but it could also be a river bank. Neither one seems particularly plausible compared to the other, so your rating should be in the middle.
 
@@ -48,7 +48,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 
 **Meaning of "NOTES"**: a brief written record; a memo
 
-**Your Rating** *Very Implausible*
+**Your Rating** *2*
 
 **Explanation**: *Notes* could conceivably refer to written memos, but given the surrounding sentences, it is more plausible that she is jotting down musical notes. 
 
@@ -58,7 +58,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 
 **Meaning of "DRAWS"**: to attract; direct towards itself
 
-**Your Rating**: *Certain*
+**Your Rating**: *5*
 
 **Explanation**: Without the last sentence, it is not clear whether the intended meaning of *draws* is *to sketch* or *to attract*. With the additional context that he is sketching a flower - not a crowd - it becomes clear that *attract* is the only plausible meaning. **Always look at the whole story before making your decision!** 
 

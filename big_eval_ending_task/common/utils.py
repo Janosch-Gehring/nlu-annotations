@@ -7,19 +7,19 @@ def format_sentence(sentence):
     return "***" + sentence.replace("[", ":blue-background[") + "***\n"
 
 slider_labels = {
-        1: "Inconceivable",
-        2: "Very Implausible",
-        3: "Unclear",
-        4: "Very Plausible",
-        5: "Certain"
-}
+        1: "1",
+        2: "2",
+        3: "3",
+        4: "4",
+        5: "5"
+}  # now that the string labels were replaced with numbers. this code is pretty dumb.
 
 label_sliders = {
-    "Inconceivable": 1,
-    "Very Implausible": 2,
-    "Unclear": 3,
-    "Very Plausible": 4,
-    "Certain": 5
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
 }
 
 slider_label_list = list(slider_labels.values())
@@ -82,6 +82,20 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         default=value_slider,
         key = 10 * index + 3
     )
+
+    if st.toggle("Show guidelines for rating plausibility", key = 10 * index + 5):
+        st.markdown("""
+**Annotate how plausible a meaning of a word is in the context of the short text using one of five scores:**
+
+* **1**: The displayed meaning is not plausible at all given the context.
+* **2**: The displayed meaning is theoretically conceivable, but less plausible than other meanings.
+* **3**: The displayed meaning represents one of multiple, similarly plausible interpretations.
+* **4**: The displayed meaning represents the most plausible interpretation; other meanings may still be conceivable.
+* **5**: The displayed meaning is the only plausible meaning given the context.
+        """)
+
+
+    st.write("\n")
 
     nonsense_input = st.checkbox(key = 10 * index + 4, label = "Is the story nonsensical?", value=value_nonsensical)
     st.write("\n\n")
