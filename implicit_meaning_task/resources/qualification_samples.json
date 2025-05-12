@@ -1,0 +1,26 @@
+{    
+    "1": {
+        "sentence_1": "To be safest, just assume that everything you bring is going to get wet.",
+        "sentence_2": "To be safest <as you pack>, just assume that everything you bring is going to get wet.",
+        "article_name": "Prepare_to_Go_Swimming.txt",
+        "context_before": "At the very least, aim to drink 16oz or more of water in the hour leading up to your swim. Stuff phones, electronics, and valuables in resealable plastic bags.",
+        "context_after": "If you are taking things like your mobile phone that can't get wet, take them in a separate small bag, pockets of your clothes or a waterproof bag which you can put in your swimming bag.",
+        "correct_answer": "Yes"
+    },
+    "2": {
+        "sentence_1": "Go for a common bike - they also have the advantage of a lower resale value.",
+        "sentence_2": "Go for a common bike - they also have the advantage of a lower resale value, <so you 'll get a better bargain>.",
+        "article_name": "Buy_a_Motorcycle.txt",
+        "context_before": "When buying used, stay away from lesser-known models. Although the seller may try to sell it as a \"collector's bike\" or a \"rare find\" don't go for it. Rare and limited-run bikes are difficult to find parts for when they break down.",
+        "context_after": "Common models are also more likely to have online guides or forums where you can find help with maintenance.",
+        "correct_answer": "Yes"
+    },
+    "3": {
+        "sentence_1": "Aligning fractured bones is best left to trained professionals and should only be attempted by untrained people in extreme and rare emergencies.",
+        "sentence_2": "Aligning fractured bones is best left to trained professionals and should only be attempted <on smaller peripheral bones> by untrained people in extreme and rare emergencies.",
+        "article_name": "Realign_a_Fractured_Bone.txt",
+        "context_before": "If you suspect a bone is broken, try to keep the injured area immobilized and seek medical attention immediately.",
+        "context_after": "Improper handling can lead to permanent damage, so it's crucial not to take unnecessary risks.",
+        "correct_answer": "No"
+    }
+}
