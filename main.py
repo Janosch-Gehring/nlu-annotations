@@ -1,7 +1,7 @@
 import psycopg2
 import streamlit as st
 
-from core.scripts import database_repository, utils
+from core.scripts import database_repository, utils, user_repository
 
 if "user_id" not in st.session_state:
     st.session_state.user_id = ""
@@ -207,7 +207,10 @@ elif st.session_state.user_id:
         available_pages["Story Ending Task"] = [big_ending_round2_start_page, big_ending_round2_qualification_page, big_ending_round2_annotation_page]
 
     elif utils.authenticate_id("big_eval_ending_task", st.session_state.user_id):
-        available_pages["Story Interpretation Task"] = [big_eval_ending_start_page, big_eval_ending_qualification_page, big_eval_ending_annotation_page]
+        if user_repository.get_qualification() != 1:
+            available_pages["Story Interpretation Task"] = [big_eval_ending_start_page, big_eval_ending_qualification_page]
+        else:
+            available_pages["Story Interpretation Task"] = [big_eval_ending_start_page, big_eval_ending_qualification_page, big_eval_ending_annotation_page]
 
     available_pages["Other"] = [logout_page]
 

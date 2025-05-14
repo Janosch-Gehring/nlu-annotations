@@ -21,7 +21,7 @@ else:
     index = int(st.session_state.qualification_progress)
 
     if index == 1:
-        st.write("Remember to read the Ambiguity Task Intro before attempting the qualification test!")
+        st.write("Remember to read the Task Intro before attempting the qualification test!")
 
     back_button = st.button(label="Back", key = 10 * index + 7)
 

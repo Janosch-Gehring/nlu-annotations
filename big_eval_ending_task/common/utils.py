@@ -42,7 +42,10 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         value_slider, value_nonsensical, value_comment = None, None, ""
     else:
         value_slider, value_nonsensical, value_comment = (sample_preload["slider"], sample_preload["nonsensical"], sample_preload["comment"])
-        value_slider = slider_labels[value_slider]
+        if value_slider in slider_labels:
+            value_slider = slider_labels[value_slider]
+        else:
+            value_slider = None
 
     question = samples[str(index)]
     # display the "Sample 1/5" thing
@@ -97,7 +100,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     st.write("\n")
 
-    nonsense_input = st.checkbox(key = 10 * index + 4, label = "Is the story nonsensical?", value=value_nonsensical)
+    nonsense_input = st.checkbox(key = 10 * index + 4, label = "Check this box if the text is nonsensical.", value=value_nonsensical)
     st.write("\n\n")
 
     comment_input = st.text_input(key = 10 * index + 8, label = "Comments (optional)", value=value_comment, help="Optional free text for comments and thoughts", max_chars=1000)

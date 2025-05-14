@@ -5,7 +5,7 @@ with open("big_eval_ending_task/resources/big_ending_revision_dataset.json") as 
     samples = json.load(f)
 
 
-NUMBER_OF_GROUPS = 76
+NUMBER_OF_GROUPS = 130
 
 
 def create_new_sample(i, meaning, grouping, ending_sample):
@@ -34,11 +34,41 @@ def create_new_sample(i, meaning, grouping, ending_sample):
 
     return new_sample
 
+
+def insert_attention_check(new_samples, i):
+    new_samples[len(new_samples)+1] = {
+        "story_id": "ATT",
+        "word": "hard",
+        "judged_meaning": "solid; not soft",
+        "precontext": "The puzzle pieces were scattered across the table. We spent hours on the puzzle, but each piece seemed to fit nowhere.",
+        "sentence": "It was a hard puzzle.",
+        "ending": "",
+        "sentence_info": {
+            "author": "admin",
+            "ID": -1,
+            "meaning1": "solid; not soft.",
+            "meaning2": "solid; not soft.",
+            "meaning1_example": "The stone floor is hard.",
+            "meaning2_example": "The stone floor is hard.",
+            "original_sentence": "It was a hard puzzle."
+        },
+        "ending_info": {
+            "original_ending": "",
+            "comment": "",
+            "intended_meaning": "solid; not soft."
+        }
+    }
+    return new_samples
+
 def main():
     new_samples = {}
 
 
     for i in samples:
+
+        if i == "590":
+            new_samples = insert_attention_check(new_samples, i)
+
         for ending_sample in samples[i]:
             
             sample = copy.deepcopy(ending_sample)

@@ -68,8 +68,8 @@ TASK_INFO = {
     "big_eval_ending_task": {
         "annotation_filepath": "big_eval_ending_task/resources/annotation_samples.json",
         "qualification_filepath": "big_eval_ending_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 76
-        #"group_assignment": "post-qualification"
+        "number_of_annotator_groups": 30,
+        "group_assignment": "post-qualification"
     }
 }
 
