@@ -1,20 +1,17 @@
 import streamlit as st
 
-with open("../resources/annotation_guidelines_implicit_meaning.md", "r") as md:
+with open("implicit_meaning_task/resources/annotation_guidelines_implicit_meaning.md", "r") as md:
     markdown = md.read()
 
 split_md = markdown.split("==SPLIT==")
 first_md, second_md = split_md[0], split_md[1]
-st.write(first_md)
-st.text("")
 
-implicit = st.radio(
-        ":grey-background[Does the first sentence implicitely convey the same meaning as the second one?]",
-        ["Yes", "No"],
-        key="visibility",
-        horizontal=True,
-        index=None,
-)
+st.write(first_md)
+st.write("")
+st.write("")
+st.markdown(":grey-background[Does the first sentence implicitly convey the same meaning as the second one?]")
+
+implicit = st.segmented_control("", ["Yes", "No"])
 
 if implicit == "Yes":
     st.markdown("Please specify one or multiple reasons for your choice:")
@@ -33,7 +30,7 @@ if implicit == "Yes":
         if comment_implicit:
             st.write(r"$\textsf{\scriptsize Thanks for your input!}$")
 else:
-    comment_not_implicit = st.text_input(label="If you are unsure, tick no and explain your thoughts here:")
+    comment_not_implicit = st.text_input(label="If you are unsure, select \"No\" and explain your thoughts here:")
     if comment_not_implicit:
         st.write(r"$\textsf{\scriptsize Thanks for your input!}$")
 
