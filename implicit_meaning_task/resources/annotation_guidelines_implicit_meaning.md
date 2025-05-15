@@ -2,31 +2,29 @@
 
 The goal of this annotation task is to collect sentence pairs where one sentence contains **implicit meaning** that is made explicit in the other. More specifically, this means that, even though not everything is stated explicitly in the first sentence, both sentences convey **the same meaning**.
 
-For every item you will be shown two almost equivalent sentences. However, the second sentence contains an additional element, marked in :blue-background[blue]. Do not worry about other changes in the sentence.
+For every item you will be shown two almost equivalent sentences, S1 and S2. However, the second sentence contains an additional element, marked in :blue-background[blue]. Do not worry about other changes in the sentence.
 
 The sentences were taken from two versions of the same wikiHow article, so you will also be shown the preceding and succeeding context as well as the name of the corresponding wikiHow article.
 
-Below you will find a checkbox with the label **Implicit Meaning** and a comment section.
+Below you will find two buttons (:grey-background[Yes] and :grey-background[No]) as well as a comment section.
 
 If you check this box, five more checkboxes and a different comment section will appear. You can check out this mini example here and play around with it:
 
 ---
 
-##### **Sentence 1:** Check the box below.  
-##### **Sentence 2:** Check the box below :blue-background[by clicking on it].
+##### :grey-background[**S1:**] Check the box below.  
+##### :grey-background[**S2:**] Check the box below :blue-background[by clicking on it].
 
-*Article name:* &emsp;How_To_Annotate_This_Task.txt
+:grey-background[*Article name:*] &emsp;How_To_Annotate_This_Task.txt
 
-*Context before:* &nbsp;This is how the annotation task will look like. 
+:grey-background[*Context before:*] &nbsp;This is how the annotation task will look like. 
 
-*Context after:* &emsp;When you have ticked the box, five more checkboxes and a comment section will appear.
-
-
+:grey-background[*Context after:*] &emsp;When you have ticked the box, five more checkboxes and a comment section will appear.
 ==SPLIT==
 
 ---
 
-During the annotation task, tick the **Implicit Meaning** checkbox if you think that the two sentences convey the same meaning, even though the first one does not state all information explicitly. If you tick this checkbox, please specify the reason for your decision by ticking the relevant checkboxes among the ones that will appear. You can choose from the following categories:
+During the annotation task, select "Yes" if you think that the two sentences convey the same meaning, even though the first one does not state all information explicitly. If you do this, please specify the reason for your decision by ticking the relevant checkboxes among the ones that will appear. You can choose from the following categories:
 
 ---
 
@@ -91,7 +89,7 @@ If you think the added information is implicit meaning but **none of the positiv
 
 ### ❌ Negative Indicators — Not Implicit Meaning
 
-If any of the following apply, do **not** check **Implicit Meaning**. These suggest **new information** rather than implicit content:
+If any of the following apply, select "No". These suggest **new information** rather than implicit content:
 
 #### **1. Addition changes the core meaning**
 The addition fundamentally changes the meaning of the original sentence.
@@ -113,4 +111,4 @@ The added addition introduces specific entities, concepts or events that a regul
 
 ---
 
-If you are unsure about whether the added information is implicit meaning, do not tick the **Implicit Meaning** checkbox but write a comment in the comment section below it.
+If you are unsure about whether the added information is implicit meaning, select "No" and write a comment in the comment section below it.
