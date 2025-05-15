@@ -65,6 +65,11 @@ TASK_INFO = {
         "number_of_annotator_groups": 35,
         "group_assignment": "post-qualification"
     },
+    "implicit_meaning_task": {
+        "annotation_filepath": "implicit_meaning_task/resources/annotation_samples_1.json",
+        "qualification_filepath": "implicit_meaning_task/resources/qualification_samples.json",
+        "number_of_annotator_groups": 1
+    }
 }
 
 def read_json_from_file(path: str) -> dict:
