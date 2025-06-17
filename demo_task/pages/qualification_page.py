@@ -83,15 +83,15 @@ else:
 """)
 
     chart = st.empty()
-    while st.session_state.animation_timer < 240:
+    while st.session_state.animation_timer < 200:
         results_now = True
         values = pd.DataFrame(
             {
                 "x": [1, 2, 3, 4, 5, "z"],
-                "Menschen": [y_scale_animation(x, duration=80, offset=1.5) for x in precounts] + [0],
+                "Menschen": [y_scale_animation(x, duration=80, offset=1) for x in precounts] + [0],
                 "Du": oneshot_user,
                 "z": [0, 0, 0, 0, 0, max(precounts)+2],
-                "ChatGPT": [y_scale_animation(x, duration=20, offset=0.5) for x in oneshot_gpt]
+                "ChatGPT": [y_scale_animation(x, duration=20, offset=0.3) for x in oneshot_gpt]
             }
         )
 
