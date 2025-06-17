@@ -21,7 +21,7 @@ main_page = st.Page(
     "core/pages/main_page.py", title="Start Page", icon="🏚️"
 )
 authentication_page = st.Page(
-    "core/pages/authentication_page.py", title="Log In", icon="🎟️", url_path="authentication", default=True
+    "core/pages/authentication_page.py", title="Log In", icon="🎟️", url_path="authentication"
 )
 admin_page = st.Page(
     "core/pages/admin_page.py", title="Admin Area", icon="💻"
@@ -159,6 +159,10 @@ big_eval_ending_annotation_page = st.Page(
     "big_eval_ending_task/pages/annotation_page.py", title="Annotation", icon="🏭"
 )
 
+demo_task_page = st.Page(
+    "demo_task/pages/qualification_page.py", title="Plausibility Demo", icon="🧩", default=True
+)
+
 
 
 # Create navigation bar
@@ -219,7 +223,7 @@ elif st.session_state.user_id:
 else:
     pg = st.navigation(
         {
-        "Home": [main_page, authentication_page],
+        "Home": [main_page, authentication_page, demo_task_page],
         "Task Previews": [big_eval_ending_start_page]
         }
 
