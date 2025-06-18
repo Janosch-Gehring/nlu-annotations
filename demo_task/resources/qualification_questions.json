@@ -55,19 +55,33 @@
         "precontext": ""
     },
     "4": {
-        "story_id": 3,
-        "sentence": "In the end, Mia beat him in the race.",
-        "word": "beat",
-        "judged_meaning": "come out better in a competition, race or conflict",
+        "story_id": "3",
+        "sentence": "Anna hat sich erschrocken, als sie die lange Schlange gesehen hat.",
+        "word": "Schlange",
+        "judged_meaning": "Eine Reihe wartender Menschen",
         "ending": "",
-        "gpt_choice": 3,
+        "gpt_choice": 5,
         "sentence_info": {
             "meaning1": "strike a person violently",
             "meaning2": "come out better in a competition, race, or conflict",
             "meaning1_example": "It's usually not a good idea to beat your kids.",
             "meaning2_example": "No one can beat John at chess."            
         },
-        "precontext": "Mia and Peter were preparing for the big race. Peter was confident in his talent, so he did not train much.",
-        "correct_answer": [4, 5]    
+        "precontext": ""
+    },
+    "5": {
+        "story_id": "4",
+        "sentence": "Doch eine unerwartete Note änderte plötzlich alles.",
+        "word": "Note",
+        "judged_meaning": "Eine Ziffer oder Punktzahl als Bewertung einer Leistung",
+        "ending": "Er war vielleicht talentierter als gedacht.",
+        "gpt_choice": 4,
+        "sentence_info": {
+            "meaning1": "strike a person violently",
+            "meaning2": "come out better in a competition, race, or conflict",
+            "meaning1_example": "It's usually not a good idea to beat your kids.",
+            "meaning2_example": "No one can beat John at chess."
+        },
+        "precontext": "Peter war nie gut im Singen. Er hatte befürchtet, dieses Jahr im Musikunterricht durchzufallen."
     }
 }

@@ -41,17 +41,19 @@ def get_and_increment_counts(question_id, pred=None):
     if pred:
         counts[pred-1] += 1
 
-        if pred == 1:
-            cursor.execute("UPDATE frequencies SET count1=%s WHERE question_id=%s", (counts[pred-1], question_id))
-        # oh god am i really gonna do it like this
-        elif pred == 2:
-            cursor.execute("UPDATE frequencies SET count2=%s WHERE question_id=%s", (counts[pred-1], question_id))
-        elif pred == 3:
-            cursor.execute("UPDATE frequencies SET count3=%s WHERE question_id=%s", (counts[pred-1], question_id))
-        elif pred == 4:
-            cursor.execute("UPDATE frequencies SET count4=%s WHERE question_id=%s", (counts[pred-1], question_id))
-        elif pred == 5:
-            cursor.execute("UPDATE frequencies SET count5=%s WHERE question_id=%s", (counts[pred-1], question_id))
+        if st.session_state.allow_update:
+
+            if pred == 1:
+                cursor.execute("UPDATE frequencies SET count1=%s WHERE question_id=%s", (counts[pred-1], question_id))
+            # oh god am i really gonna do it like this
+            elif pred == 2:
+                cursor.execute("UPDATE frequencies SET count2=%s WHERE question_id=%s", (counts[pred-1], question_id))
+            elif pred == 3:
+                cursor.execute("UPDATE frequencies SET count3=%s WHERE question_id=%s", (counts[pred-1], question_id))
+            elif pred == 4:
+                cursor.execute("UPDATE frequencies SET count4=%s WHERE question_id=%s", (counts[pred-1], question_id))
+            elif pred == 5:
+                cursor.execute("UPDATE frequencies SET count5=%s WHERE question_id=%s", (counts[pred-1], question_id))
 
     conn.commit()
 
