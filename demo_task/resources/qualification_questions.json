@@ -7,6 +7,7 @@
         "sentence": "Ich wartete vor der Bank.",
         "ending": "Nach einer Weile ging die Tür auf und ich konnte eintreten.",
         "gpt_choice": 1,
+        "gpts_opinion": "Eine Sitzgelegenheit wie eine Parkbank hat in der Regel keine Tür, durch die man eintreten kann.",
         "sentence_info": {
             "author": "admin",
             "ID": -1,
@@ -36,6 +37,7 @@
         },
         "ending_info": {},
         "gpt_choice": 4,
+        "gpts_opinion": "Der Satz „Es war klar, dass mehr dahintersteckte“ deutet an, dass die Herkunft der Chips irgendwie verdächtig oder interessant ist – was im Fall von Glücksspiel-Chips sehr gut passen würde.",
         "precontext": ""
     },
     "3": {
@@ -52,6 +54,7 @@
         },
         "ending_info": {},
         "gpt_choice": 1,
+        "gpts_opinion": "„Zellen analysieren“ klingt nicht danach, als würde man einen Gefängnisraum untersuchen.",
         "precontext": ""
     },
     "4": {
@@ -60,7 +63,8 @@
         "word": "Schlange",
         "judged_meaning": "Eine Reihe wartender Menschen",
         "ending": "",
-        "gpt_choice": 5,
+        "gpt_choice": 2,
+        "gpts_opinion": "Eine „lange Schlange“ im Sinne von wartenden Menschen ist in der Regel nicht erschreckend, sondern eher lästig oder überraschend.",
         "sentence_info": {
             "meaning1": "strike a person violently",
             "meaning2": "come out better in a competition, race, or conflict",
@@ -75,7 +79,8 @@
         "word": "Note",
         "judged_meaning": "Eine Ziffer oder Punktzahl als Bewertung einer Leistung",
         "ending": "Er war vielleicht talentierter als gedacht.",
-        "gpt_choice": 4,
+        "gpt_choice": 5,
+        "gpts_opinion": "Der schulische Kontext ist eindeutig: „Musikunterricht“, „durchzufallen“ → das spricht stark für Schulnote.",
         "sentence_info": {
             "meaning1": "strike a person violently",
             "meaning2": "come out better in a competition, race, or conflict",

@@ -111,6 +111,8 @@ else:
 ### Deine Wahl: {user_choice}
 
 ### ChatGPT wählt: {question["gpt_choice"]}
+
+ChatGPT schreibt dazu: "*{question["gpts_opinion"]}*"
 """)
 
     chart = st.empty()
@@ -135,7 +137,7 @@ else:
     if user_choice != question["gpt_choice"]:
         st.markdown(f"## {str(gpt_agreeing_percentage)}% wählten {question["gpt_choice"]} wie ChatGPT.")
     else:
-        st.markdown(f"## ChatGPT hatte den gleichen Gedanken.")
+        st.markdown(f"## ChatGPT hatte ebenfalls den gleichen Gedanken.")
 
     if agreeing_percentage > gpt_agreeing_percentage:
         st.markdown("# Glückwunsch! Ein Punkt für dich.")
