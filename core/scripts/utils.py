@@ -70,6 +70,12 @@ TASK_INFO = {
         "qualification_filepath": "big_eval_ending_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 130,
         "group_assignment": "post-qualification"
+    },
+    "rewriting_judgement_task": {
+        "annotation_filepath": "rewriting_judgement_task/resources/annotation_samples.json",
+        "qualification_filepath": "rewriting_judgement_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 8,
+        "group_assignment": "post_qualification"
     }
 }
 

@@ -159,6 +159,16 @@ big_eval_ending_annotation_page = st.Page(
     "big_eval_ending_task/pages/annotation_page.py", title="Annotation", icon="🏭"
 )
 
+rewriting_judgement_start_page = st.Page(
+    "rewriting_judgement_task/pages/introduction_page.py", title="Headline Rewriting Judgement Intro", icon="📖"
+)
+rewriting_judgement_qualification_page = st.Page(
+    "rewriting_judgement_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+rewriting_judgement_annotation_page = st.Page(
+    "rewriting_judgement_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+)
+
 
 
 # Create navigation bar
