@@ -1,0 +1,42 @@
+{
+    "1": {
+        "original": "FDA recalls thousands of pounds of ground coffee mislabeled as decaffeinated",
+        "revision": "You Might Be Drinking Caffeinated Coffee Without Knowing It",
+        "correct_accuracy_answer": "No",
+        "correct_accuracy_subclass": [false, true, false],
+        "correct_style_answer": "Yes",
+        "correct_style_subclass": [false, false, false, false]
+    },
+    "2": {
+        "original": "Being aerobically fit in middle age may reduce Alzheimer’s and dementia risk, study says",
+        "revision": "Boost Your Aerobic Fitness in Middle Age: New Study Suggests It May Lower Alzheimer’s and Dementia Risk",
+        "correct_accuracy_answer": "Yes",
+        "correct_accuracy_subclass": [false, false, false],
+        "correct_style_answer": "Yes",
+        "correct_style_subclass": [false, false, false, false]
+    },
+    "3": {
+        "original": "Utah Becomes First State to Ban Fluoride in Public Water",
+        "revision": "You Have a Right to Know: Utah's Groundbreaking Move to Ban Fluoride in Public Water",
+        "correct_accuracy_answer": "Yes",
+        "correct_accuracy_subclass": [false, false, false],
+        "correct_style_answer": "No",
+        "correct_style_subclass": [false, false, true, false]
+    },
+    "4": {
+        "original": "Kennedy’s Plan to Send Health Officials to ‘Indian Country’ Angers Native Leaders",
+        "revision": "Native Leaders' Outrage Over Kennedy's Plan to Send Health Officials to 'Indian Country': Here's What It Means for Your Health",
+        "correct_accuracy_answer": "No",
+        "correct_accuracy_subclass": [true, false, true],
+        "correct_style_answer": "No",
+        "correct_style_subclass": [false, true, false, false]
+    },
+    "5": {
+        "original": "In 15 Years, 80,000 Homes in the New York Area May Be Lost to Flooding",
+        "revision": "Is Your Home at Risk? 80,000 in New York Could Flood in 15 Years",
+        "correct_accuracy_answer": "Yes",
+        "correct_accuracy_subclass": [false, false, false],
+        "correct_style_answer": "Yes",
+        "correct_style_subclass": [false, false, false, false]
+    }
+}

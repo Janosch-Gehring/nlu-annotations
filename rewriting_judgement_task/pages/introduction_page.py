@@ -2,7 +2,7 @@ import streamlit as st
 
 st.session_state.page = "rewriting_judgement_task_introduction_page"
 
-with open("erewriting_judgement_task/resources/intro_text.md", "r") as f:
+with open("rewriting_judgement_task/resources/intro_text.md", "r") as f:
     intro_text = f.read()
 
 if not st.session_state.user_id:
