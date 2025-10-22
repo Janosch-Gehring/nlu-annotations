@@ -49,6 +49,7 @@ if st.session_state.current_view == "results":
 """)
 
     if victor == "Du":
+        st.balloons()
         st.markdown("# Glückwunsch! Du bist menschlicher als ChatGPT.")
     elif victor == "GPT":
         st.markdown("# Tja!! Vielleicht bist du in Wirklichkeit der Computer...")
@@ -134,15 +135,15 @@ ChatGPT schreibt dazu: "*{question["gpts_opinion"]}*"
         results_now = True
         values = pd.DataFrame(
             {
-                "x": [1, 2, 3, 4, 5, "z"],
+                "x": [1, 2, 3, 4, 5, " "],
                 "Menschen": [y_scale_animation_v2(x, max(precounts), duration=80, offset=1) for x in precounts] + [0],
                 "Du": oneshot_user,
-                ".": [0, 0, 0, 0, 0, max(precounts)*1.1],
+                " ": [0, 0, 0, 0, 0, max(precounts)*1.1],
                 "ChatGPT": [y_scale_animation_v2(x, max(precounts), duration=20, offset=0.3) for x in oneshot_gpt]
             }
         )
 
-        chart.bar_chart(data=values, x="x", color=("#ffffff", "#00ff00", "#ff0000", "#0000ff"), width=500, height=500, use_container_width=False)
+        chart.bar_chart(data=values, x="x", color=("#ffffff","#00ff00", "#ff0000", "#0000ff"), width=500, height=500, use_container_width=False)
 
         time.sleep(0.01)
         st.session_state.animation_timer += 1
