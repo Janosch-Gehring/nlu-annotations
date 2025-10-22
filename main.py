@@ -223,8 +223,7 @@ elif st.session_state.user_id:
 else:
     pg = st.navigation(
         {
-        "Home": [main_page, authentication_page, demo_task_page],
-        "Task Previews": [big_eval_ending_start_page]
+        "Home": [authentication_page, demo_task_page]
         }
 
     )
