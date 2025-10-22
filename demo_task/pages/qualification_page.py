@@ -54,7 +54,7 @@ if st.session_state.current_view == "results":
     elif victor == "GPT":
         st.markdown("# Tja!! Vielleicht bist du in Wirklichkeit der Computer...")
     elif victor == "Tie":
-        st.markdown("# Unentschieden! Es hat wohl jeder seine Stärken und Schwächen.")
+        st.markdown("# Unentschieden! Mal warst du besser, mal ChatGPT.")
 
     st.markdown("""## Was lernen wir daraus?
                 
@@ -74,7 +74,7 @@ elif st.session_state.current_view == "sample":
     if st.session_state.qualification_progress == 0:
 
         st.markdown("""
-# Hast du mehr 'Common Sense' als ChatGPT-4o?
+# Hast du mehr 'Menschenverstand' als ChatGPT-4o?
 
 Du wirst kurze Texte sehen, in denen ein mehrdeutiges Wort vorkommt (z.B. Bank) und eine seiner Bedeutungen (z.B. Sitzgelegenheit)
 
