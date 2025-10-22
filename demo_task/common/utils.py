@@ -99,7 +99,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     """)
 
     slider_choice = st.segmented_control(
-        "Gar nicht ---- Möglich ---- Definitiv",
+        "Gar nicht ---- Möglich ---- Sicher",
         options=slider_label_list,
         selection_mode="single",
         default=value_slider,

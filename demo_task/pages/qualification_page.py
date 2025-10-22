@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 import time
+from streamlit_js_eval import streamlit_js_eval
 
 from core.scripts import user_repository, utils as core_utils
 from demo_task.common import logic, utils
@@ -52,7 +53,20 @@ if st.session_state.current_view == "results":
     elif victor == "GPT":
         st.markdown("# Tja!! Vielleicht bist du in Wirklichkeit der Computer...")
     elif victor == "Tie":
-        st.markdown("# Unentschieden! Dein Sprachverständnis ähnelt wohl dem von ChatGPT.")
+        st.markdown("# Unentschieden! Es hat wohl jeder seine Stärken und Schwächen.")
+
+    st.markdown("""## Was lernen wir daraus?
+                
+* KI versteht Sprache anders -- nicht immer unbedingt falsch, aber anders als Menschen.
+                
+* Menschliche Emotion, Kontext und Intuition sind bis heute für KI noch schwer zu erfassen.
+                
+* Wir werden weiter daran arbeiten, das Sprachverständnis von KI zu verbessern.
+                
+    """)
+
+    if st.button("Zurück zum Anfang"):
+        streamlit_js_eval(js_expressions="parent.window.location.reload()")
 
 elif st.session_state.current_view == "sample":
 
@@ -63,7 +77,7 @@ elif st.session_state.current_view == "sample":
 
 Du wirst kurze Texte sehen, in denen ein mehrdeutiges Wort vorkommt (z.B. Bank) und eine seiner Bedeutungen (z.B. Sitzgelegenheit)
 
-Auf einer Skala von 1 (Undenkbar) bis 5 (100% gewiss), bewerte, wie plausibel diese Bedeutung im Kontext ist. 
+Auf einer Skala von 1 bis 5, bewerte, wie plausibel diese Bedeutung im Kontext ist.  Eine 1 bedeutet, die Bedeutung ist in dem Kontext undenkbar. Eine 5 bedeutet, du bist dir sicher, dass die Bedeutung richtig ist.
 
 Du trittst gegen ChatGPT-4o an. Du bekommst Punkte, indem du die selbe Antwort wählst wie andere Menschen. 
 
@@ -123,12 +137,12 @@ ChatGPT schreibt dazu: "*{question["gpts_opinion"]}*"
                 "x": [1, 2, 3, 4, 5, "z"],
                 "Menschen": [y_scale_animation_v2(x, max(precounts), duration=80, offset=1) for x in precounts] + [0],
                 "Du": oneshot_user,
-                "z": [0, 0, 0, 0, 0, max(precounts)*1.1],
+                ".": [0, 0, 0, 0, 0, max(precounts)*1.1],
                 "ChatGPT": [y_scale_animation_v2(x, max(precounts), duration=20, offset=0.3) for x in oneshot_gpt]
             }
         )
 
-        chart.bar_chart(data=values, x="x", color=("#00ff00", "#ff0000", "#0000ff", "#ffffff"), width=500, height=500, use_container_width=False)
+        chart.bar_chart(data=values, x="x", color=("#ffffff", "#00ff00", "#ff0000", "#0000ff"), width=500, height=500, use_container_width=False)
 
         time.sleep(0.01)
         st.session_state.animation_timer += 1
