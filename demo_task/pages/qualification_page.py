@@ -116,7 +116,7 @@ else:
     gpt_agreeing_percentage = int((precounts[question["gpt_choice"]-1] / max(1, sum(counts)) * 100))
 
     oneshot_user = [0, 0, 0, 0, 0, 0]
-    oneshot_user[user_choice-1] = 1 * max(1, (sum(counts) * 0.04))  # scale it so it remains visible
+    oneshot_user[user_choice-1] = 1 * sum(counts) * 0.04  # scale it so it remains visible
     #values = pd.DataFrame(list(zip(precounts, oneshot_user)), columns=["Menschen", "Du"])
 
     oneshot_gpt = [0, 0, 0, 0, 0, 0]
