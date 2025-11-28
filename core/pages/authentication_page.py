@@ -25,7 +25,7 @@ def log_in(user_id: str, task=None, as_admin=False) -> None:
 
     user = user_repository.get_user(target_id)
     if not user:
-        prolific_id = st.text_input("This appears to be your first time on this website. Before you continue, please tell us your Prolific ID!", max_chars=200)
+        prolific_id = "Loading..." #st.text_input("This appears to be your first time on this website. Before you continue, please tell us your Prolific ID!", max_chars=200)
         if prolific_id:
             user_repository.create_user(target_id, task=task, data={"prolific_id": prolific_id, "log": []})
             user = user_repository.get_user(target_id)
@@ -65,9 +65,9 @@ if user_id:
     elif task := authenticate_user(user_id):
         log_in(user_id, task=task)
     else:
-        st.write("The entered ID does not exist. Please only enter the 8 digit password (not name!) that was sent to you on Prolific.")
+        st.write("The entered ID does not exist. Please only enter the 8 digit password (not name!) that was sent to you.")
         
 st.markdown("""\n\n## Where is my ID?
 
-Prolific likely opened this website in a new window. If you go back to the Prolific window, you will see your credentials: a username and a password. The username is not that important. Simply use the password directly to log in.
+If you came here from Prolific, it likely opened this website in a new window. If you go back to the Prolific window, you will see your credentials: a username and a password. The username is not that important. Simply use the password directly to log in.
 """)

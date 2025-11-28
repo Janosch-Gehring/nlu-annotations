@@ -36,7 +36,7 @@
         },
         "ending_info": {},
         "precontext": "The hotel I stayed at last week was the worst. The room was dirty and there was no one at the reception.",
-        "correct_answer": [3, 4, 5]
+        "correct_answer": [4, 5]
     },
     "3": {
         "story_id": "2",

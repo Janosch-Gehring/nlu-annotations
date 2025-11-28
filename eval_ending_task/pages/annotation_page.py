@@ -21,8 +21,6 @@ if user_repository.get_qualification() != 1:
 elif user_repository.check_if_done(st.session_state.user_id):
     st.write("## You have finished annotation. \n\nThank you for your time!")
     st.write("\n\n\n")
-    st.write("**Your Prolific Completion Code:**")
-    st.write("# " + os.getenv("PROLIFIC_COMPLETION_CODE"))
 else:
     index = int(st.session_state.progress)
 
