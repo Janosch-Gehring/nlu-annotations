@@ -75,7 +75,13 @@ TASK_INFO = {
         "qualification_filepath": "big_eval_sentence_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 30,
         "group_assignment": "post-qualification"
-    }
+    },
+    "var_ending_test": {
+        "annotation_filepath": "var_ending_test/resources/test_samples.json",
+        "qualification_filepath": "var_ending_test/resources/qualification_questions.json",
+        "tutorial_filepath": "var_ending_test/resources/tutorial_questions.json",
+        "number_of_annotator_groups": 2,
+    },
 }
 
 def read_json_from_file(path: str) -> dict:

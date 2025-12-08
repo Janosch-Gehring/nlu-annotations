@@ -1,0 +1,87 @@
+{
+    "1": {
+        "word": "overboard",
+        "meaning1": "to extremes",
+        "meaning2": "from on board a vessel into the water",
+        "sentence": "The enthusiastic sailor was worried about going overboard.",
+        "focus_meaning": "to extremes",
+        "precontexts": [
+            "The swells were daunting and the destination was uncertain.",
+            "The captain announced a storm was approaching. The crew tightened ropes and secured the deck.",
+            "The sailor loved the thrill of the sea, often volunteering for risky tasks. The crew warned him about the dangers ahead. They all knew the sea could test anyone's limits."
+        ],
+        "endings": [
+            "As the storm intensified, he gripped the railing tighter, his heart pounding with uncertainty.",
+            "Lightning flashed, and the waves crashed menacingly. His calm evaporated, leaving him questioning his limits.",
+            "Suddenly, the ship lurched unexpectedly, throwing him off balance. The crew shouted to alert him, breaking his concentration. His resolve tested, he held tight, focusing on the horizon."
+        ]
+    },
+    "2": {
+        "word": "ring",
+        "meaning1": "a characteristic sound",
+        "meaning2": "jewelry consisting of a circlet of precious metal (often set with jewels) worn on the finger",
+        "sentence": "Her fiance promised to give her a ring later that evening.",
+        "focus_meaning": "a characteristic sound",
+        "precontexts": [
+            "She sat by the window, listening to the chimes of the bell in the distance.",
+            "The sky turned golden as the sun began to set over the city. She gazed at the shimmering circle in the display window.",
+            "A gentle breeze carried the faint melodies from the street performers below. She turned to see him smiling, holding a small velvet box. Her heart raced with anticipation for the evening ahead."
+        ],
+        "endings": [
+            "As the sun set, she awaited a delightful surprise.",
+            "He kept glancing at his pocket nervously. The promise would soon be fulfilled.",
+            "She heard a melodic sound as she looked up expectantly. His eyes sparkled with excitement. This was a moment she would never forget."
+        ]
+    },
+    "3": {
+        "word": "slip",
+        "meaning1": "a woman's sleeveless undergarment",
+        "meaning2": "the act of avoiding capture (especially by cunning)",
+        "sentence": "She gave him the slip.",
+        "focus_meaning": "a woman's sleeveless undergarment",
+        "precontexts": [
+            "In the bustling market, she spotted a shadow following her.",
+            "Under the soft glow of street lamps, she hurried down the alley. Her heart raced with every quickened step.",
+            "The detective glimpsed her through the crowded ballroom, her silky dress shimmering under the chandeliers. She mingled seamlessly, a picture of elegance. He was certain she was their mark."
+        ],
+        "endings": [
+            "He watched her disappear into the crowded street, knowing he might never see her again.",
+            "As the train pulled away, he realized he couldn't follow her now. She stood at the platform's edge, holding onto a mysterious bag.",
+            "For a moment, he thought he'd caught her, but the crowd swallowed her again. On her chair remained the delicate fabric she had left behind. He wondered if she'd done this many times before."
+        ]
+    },
+    "4": {
+        "word": "leaked",
+        "meaning1": "tell anonymously",
+        "meaning2": "enter or escape as through a hole or crack or fissure",
+        "sentence": "Someone was responsible for why it leaked.",
+        "focus_meaning": "tell anonymously",
+        "precontexts": [
+            "The secret document was missing from the vault.",
+            "A storm had battered the old house all night. In the morning, rainwater dripped through the ceiling.",
+            "The journalist received a mysterious message hinting at a scandal. Meanwhile, the museum's prized painting had vanished after the gallery was closed. Whispers began to spread in hushed tones among the staff."
+        ],
+        "endings": [
+            "In the end, the secret slipped out anyway.",
+            "Martha found the torn envelope in the rain. She wondered who had left it there.",
+            "James noticed the damp patch on the floor beneath the cabinet. He hesitated before opening the drawer. Inside, the missing documents lay scattered."
+        ]
+    },
+    "5": {
+        "word": "buzz",
+        "meaning1": "sound of rapid vibration",
+        "meaning2": "a confusion of activity and gossip",
+        "sentence": "I couldn't concentrate because of the buzz.",
+        "focus_meaning": "sound of rapid vibration",
+        "precontexts": [
+            "The caf\u00e9 was bustling with patrons, each chatting excitedly.",
+            "The clock ticked loudly on the wall as customers streamed in for their morning coffee. Several conversations blended into a single hum that was hard to ignore.",
+            "The classroom was packed as students eagerly awaited the start of the lecture. Phones were buzzing with messages, and everyone whispered secrets about the upcoming exam. Amidst this chaos, the teacher tried to command attention."
+        ],
+        "endings": [
+            "Finally, I discovered it was just a wasp stuck in the room.",
+            "Someone burst into the room. I knew now why everyone was on the edge.",
+            "The whole room went silent when the door creaked open. Maria stood there, a huge grin on her face. Everything started making sense."
+        ]
+    }
+}
