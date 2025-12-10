@@ -4,10 +4,12 @@ import streamlit as st
 
 from core.scripts import user_repository
 from core.scripts.utils import read_json_from_file, handle_next_button, handle_back_button, TASK_INFO, skip_to_next_sample
-from var_ending_test.common import utils
 
 if "tutorial_stage" not in st.session_state:
     st.session_state["tutorial_stage"] = 0
+
+from var_ending_test.common import utils
+
 
 #print("Running from the top, current stage ", st.session_state["tutorial_stage"], "current story ", st.session_state["sample_state"])
 

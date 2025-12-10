@@ -10,7 +10,8 @@ def reset_sample_state():
     st.session_state["sample_state"] = {"Beginning": "Select the first part.", "Ending": "Select the second part.",
                                          "editing": {"Beginning": False, "Ending": False},
                                          "choice": {"Beginning": "Select the first part.", "Ending": "Select the second part."}}
-    st.session_state["tutorial_stage"] = 0
+    if "tutorial_stage" in st.session_state:
+        st.session_state["tutorial_stage"] = 0
 
 if "sample_state" not in st.session_state:
     reset_sample_state()
@@ -176,9 +177,9 @@ Your constructed story:
                 st.write(":red[You need to select an option for the first part.]")
             elif picked_ending == "Select the second part.":
                 st.write(":red[You need to select an option for the second part.]")
-            elif question["word"] in picked_precontext:
+            elif " " + question["word"] in picked_precontext:
                 st.write(f":red[Your constructed story contains the focus word {question["word"]} in the first part. Please avoid that.]")
-            elif question["word"] in picked_ending:
+            elif " " + question["word"] in picked_ending:
                 st.write(f":red[Your constructed story contains the focus word {question["word"]} in the second part. Please avoid that.]")
             else:
 
