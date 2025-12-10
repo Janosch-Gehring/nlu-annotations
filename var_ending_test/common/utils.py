@@ -25,8 +25,13 @@ def sentence_selection_box(sentences, index, part="Beginning"):
     if "sample_state" not in st.session_state: # no idea why this is necessary. man
         reset_sample_state()
         
+    if part == "Beginning":
+        print_part = "First part"
+    else:
+        print_part = "Second part"
+
     if not st.session_state["sample_state"]["editing"][part]:
-        radio_selection = st.radio(part + ":", options=[st.session_state["sample_state"][part]] + sentences, key=index)
+        radio_selection = st.radio(print_part + ":", options=[st.session_state["sample_state"][part]] + sentences, key=index)
         if radio_selection != st.session_state["sample_state"][part]:
             st.session_state["sample_state"]["choice"][part] = radio_selection
             #print("updating selection state...")
@@ -130,8 +135,8 @@ Use and edit the story building blocks so that the slightly more plausible sense
 -------
             """)
 
-        additional_choices_precontext = ["(No beginning necessary)"]
-        additional_choices_ending = ["(No ending necessary)"]
+        additional_choices_precontext = ["(No text necessary)"]
+        additional_choices_ending = ["(No text necessary)"]
 
         if in_tutorial:
             st.write(tutorial_texts["0"])
@@ -158,7 +163,7 @@ Use and edit the story building blocks so that the slightly more plausible sense
 ---------
 Your constructed story:
                     
-{"" if picked_precontext=="(No beginning necessary)" else picked_precontext} {sentence_box} {"" if picked_ending== "(No ending necessary)" else picked_ending}
+{"" if picked_precontext=="(No text necessary)" else picked_precontext} {sentence_box} {"" if picked_ending== "(No text necessary)" else picked_ending}
 ---------
         """)
 

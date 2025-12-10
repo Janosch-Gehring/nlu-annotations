@@ -9,7 +9,7 @@ from var_ending_test.common import utils
 if "tutorial_stage" not in st.session_state:
     st.session_state["tutorial_stage"] = 0
 
-print("Running from the top, current stage ", st.session_state["tutorial_stage"], "current story ", st.session_state["sample_state"])
+#print("Running from the top, current stage ", st.session_state["tutorial_stage"], "current story ", st.session_state["sample_state"])
 
 def tutorial_stage_logic_checks():
     # tutorial stage logic checks
@@ -36,7 +36,7 @@ def tutorial_stage_logic_checks():
             st.session_state["tutorial_stage"] = 4
             st.rerun()
     elif st.session_state["tutorial_stage"] in [4, 5]: # selecting ending
-        if "Select the second part" in ending:
+        if "Select" in ending:
             pass
         elif "squeak" in ending:
             if st.session_state["tutorial_stage"] == 4:
