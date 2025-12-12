@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.session_state.page = "ambisentence_task_introduction_page"
+st.session_state.page = "var_sentence_task_introduction_page"
 
-with open("ambisentence_task/resources/intro_text.md", "r") as f:
+with open("var_sentence_task/resources/intro_text.md", "r") as f:
     intro_text = f.read()
 
 if not st.session_state.user_id:

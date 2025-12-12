@@ -82,6 +82,11 @@ TASK_INFO = {
         "tutorial_filepath": "var_ending_test/resources/tutorial_questions.json",
         "number_of_annotator_groups": 2,
     },
+    "var_sentence_task": {
+        "annotation_filepath": "var_sentence_task/resources/sense_pairs.json",
+        "qualification_filepath": "var_sentence_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 1,
+    }
 }
 
 def read_json_from_file(path: str) -> dict:

@@ -1,4 +1,4 @@
-# Introduction to the Sentence Ambiguity Task
+# Introduction to the Ambiguous Sentence Task
 
 ## Overview
 
@@ -19,15 +19,18 @@ When writing sentences, please try to uphold the following principles:
 
 ## Good Examples
 
+---
+
 **Word**: *racket*  
 **Meaning 1**: *a loud and disturbing noise*  
 **Meaning 2**: *implement used in sports, e.g. tennis racket*  
 
-**Good Example**: *I couldn't sleep at all because of the loud racket from the tennis game.*  
+**Good Example**: *I couldn't concentrate at all because of the loud racket from the tennis game.*  
 
 **This is good**: It could refer to the tennis game itself being loud (meaning 1), or the speaker specifically complains about the sound of the tennis racket (meaning 2). The sentence is plausibly ambiguous.
 
 
+---
 
 **Word**: *season*  
 **Meaning 1**: *a set of related television programs*  
@@ -35,12 +38,14 @@ When writing sentences, please try to uphold the following principles:
 
 **Good Example**: *Anna thinks that this is the best season.*  
 
-**This is good**: We don't know what "*this*" refers to. It could be either a time of year or a television series. Because of this underspecification, the sentence remains successfully ambiguous.  
+**This is good**: We don't know what "*this*" refers to. It could be either a time of year or a television series. Because of this, the sentence remains successfully ambiguous.  
 
 
 ---
 
 ## Bad Examples
+
+---
 
 **Word**: *bat*  
 **Meaning 1**: *an implement with a handle used for hitting the ball in games such as cricket or baseball.*   
@@ -50,7 +55,7 @@ When writing sentences, please try to uphold the following principles:
 
 **This is bad**: It is not plausible that this refers to an implement like a baseball bat. The word "bat" is not used ambiguously.  
 
-
+---
 
 **Word**: *root*  
 **Meaning 1**: *part of the plant which attaches it to the ground*  
@@ -66,10 +71,10 @@ When writing sentences, please try to uphold the following principles:
 
 ## Task Procedure
 
-You will first have to pass the qualification test to confirm that you are human and understand English. The qualification test will ask you to pick the best meaning for a word in a short text. If you fail the qualification test, you will not be able to start writing. You will receive a small amount of money as compensation for your time.
+You will first have to pass a simple 4-question qualification test to confirm that you are human and understand English. The qualification test will ask you to pick the best meaning for a word in a short text. If you fail the qualification test, you will not be able to start writing.
 
 If you pass qualification, the writing page will automatically unlock for you.
 
-If you cannot think of a sentence for a word, or you are confused by the words displayed, you can press the button on the bottom of the page to get a new word. You can use the button as many times as you want. You have to write five sentences to clear the task.
+If you cannot think of a sentence for the given word, you can press the button on the top of the page to get a new word. You can use the button as many times as you want. You have to write five sentences to clear the task.
 
 ## Good luck and have fun!
