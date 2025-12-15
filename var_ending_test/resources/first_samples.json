@@ -1,0 +1,2732 @@
+{
+    "1": {
+        "sentence": "The credit did not appear on the records as expected.",
+        "word": "credit",
+        "meaning1": "money returned to a financial account",
+        "meaning2": "academic course units",
+        "focus_meaning": "money returned to a financial account",
+        "precontexts": [
+            "Julie was eagerly checking her records for any updates.",
+            "Tom had spent weeks waiting and wondering if there would be any indication of progress. His patience was wearing thin as he kept double-checking the documents.",
+            "Sarah thought she had done everything right to see an update in the documents. Her teacher had assured her the paperwork was in order. Tim at the bank told her there were no foreseeable issues."
+        ],
+        "endings": [
+            "John checked his account after the meeting.",
+            "Laura shopped for a gift after speaking to her professor about graduation requirements. She felt confident as everything seemed to be proceeding well. Later, she double-checked her files to ensure all was settled.",
+            "The college administrator assured Emma everything was in order. She left the office feeling relieved."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "The bookstore double-charged me for a book, and the credit for one of them hasn't yet appeared on my statement.",
+        "example2": "I'm taking 10 credits this semester."
+    },
+    "2": {
+        "sentence": "The credit did not appear on the records as expected.",
+        "word": "credit",
+        "meaning1": "money returned to a financial account",
+        "meaning2": "academic course units",
+        "focus_meaning": "academic course units",
+        "precontexts": [
+            "Julie was eagerly checking her records for any updates.",
+            "Tom had spent weeks waiting and wondering if there would be any indication of progress. His patience was wearing thin as he kept double-checking the documents.",
+            "Sarah thought she had done everything right to see an update in the documents. Her teacher had assured her the paperwork was in order. Tim at the bank told her there were no foreseeable issues."
+        ],
+        "endings": [
+            "John checked his account after the meeting.",
+            "Laura shopped for a gift after speaking to her professor about graduation requirements. She felt confident as everything seemed to be proceeding well. Later, she double-checked her files to ensure all was settled.",
+            "The college administrator assured Emma everything was in order. She left the office feeling relieved."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The bookstore double-charged me for a book, and the credit for one of them hasn't yet appeared on my statement.",
+        "example2": "I'm taking 10 credits this semester."
+    },
+    "3": {
+        "sentence": "The boys tipped down the stairs at 7pm.",
+        "word": "tip",
+        "meaning1": "(Cause to) tilt, tumble, incline or reverse position.",
+        "meaning2": "Walk on one's toes, usually in an attempt to be quiet.",
+        "focus_meaning": "(Cause to) tilt, tumble, incline or reverse position.",
+        "precontexts": [
+            "They planned to sneak out after dinner.",
+            "The house was old and creaky. The boys knew they had to be careful not to make a sound.",
+            "Late evening sun slanted through the dusty windows. It was time for their secret meeting. They had to be quick and quiet as the clock neared 7."
+        ],
+        "endings": [
+            "The sun had set, leaving the boys to navigate the darkened living room filled with scattered toys and furniture. They didn\u2019t want to wake Grandma, who was asleep upstairs. Holding their breath, they set out to reach the basement's secret door.",
+            "The boys crept into the old, creaky house, eager to uncover its secrets.",
+            "After an evening of whispers and giggles, the boys decided to explore the house's hidden corners. They moved through dimly lit corridors, careful not to make a sound."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "I tipped the sideview mirror to see the traffic behind me.",
+        "example2": "The children tipped down the hallway on Christmas morning."
+    },
+    "4": {
+        "sentence": "The boys tipped down the stairs at 7pm.",
+        "word": "tip",
+        "meaning1": "(Cause to) tilt, tumble, incline or reverse position.",
+        "meaning2": "Walk on one's toes, usually in an attempt to be quiet.",
+        "focus_meaning": "Walk on one's toes, usually in an attempt to be quiet.",
+        "precontexts": [
+            "They planned to sneak out after dinner.",
+            "The house was old and creaky. The boys knew they had to be careful not to make a sound.",
+            "Late evening sun slanted through the dusty windows. It was time for their secret meeting. They had to be quick and quiet as the clock neared 7."
+        ],
+        "endings": [
+            "The sun had set, leaving the boys to navigate the darkened living room filled with scattered toys and furniture. They didn\u2019t want to wake Grandma, who was asleep upstairs. Holding their breath, they set out to reach the basement's secret door.",
+            "The boys crept into the old, creaky house, eager to uncover its secrets.",
+            "After an evening of whispers and giggles, the boys decided to explore the house's hidden corners. They moved through dimly lit corridors, careful not to make a sound."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "I tipped the sideview mirror to see the traffic behind me.",
+        "example2": "The children tipped down the hallway on Christmas morning."
+    },
+    "5": {
+        "sentence": "The dog loved the lead very much at it meant his favourite walk.",
+        "word": "lead",
+        "meaning1": "a leash or tether to control an animal",
+        "meaning2": "a channel of water",
+        "focus_meaning": "a leash or tether to control an animal",
+        "precontexts": [
+            "Every morning, Tom would take his dog to the place where the path met the water.",
+            "The dog often raced ahead, but not too far. His excitement was contagious as they approached their routine destination.",
+            "Tom and his dog loved their daily adventures. Each step brought them closer to their favorite spot. A familiar object always signaled the start of something special."
+        ],
+        "endings": [
+            "The dog knew that when his owner reached for the familiar length, exciting things would follow. He could feel the energy in the air as they moved past the gates. This was his favorite part of the day.",
+            "Every afternoon, the dog eagerly anticipated his time outside with his owner.",
+            "The dog's ears perked up every time he heard the jingling sound. It signaled a special adventure just for him."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "Dogs must be on a lead at all times in this park.",
+        "example2": "Melting ice formed several leads across the glacier."
+    },
+    "6": {
+        "sentence": "The dog loved the lead very much at it meant his favourite walk.",
+        "word": "lead",
+        "meaning1": "a leash or tether to control an animal",
+        "meaning2": "a channel of water",
+        "focus_meaning": "a channel of water",
+        "precontexts": [
+            "Every morning, Tom would take his dog to the place where the path met the water.",
+            "The dog often raced ahead, but not too far. His excitement was contagious as they approached their routine destination.",
+            "Tom and his dog loved their daily adventures. Each step brought them closer to their favorite spot. A familiar object always signaled the start of something special."
+        ],
+        "endings": [
+            "The dog knew that when his owner reached for the familiar length, exciting things would follow. He could feel the energy in the air as they moved past the gates. This was his favorite part of the day.",
+            "Every afternoon, the dog eagerly anticipated his time outside with his owner.",
+            "The dog's ears perked up every time he heard the jingling sound. It signaled a special adventure just for him."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "Dogs must be on a lead at all times in this park.",
+        "example2": "Melting ice formed several leads across the glacier."
+    },
+    "7": {
+        "sentence": "The men were both in the lodge at the time.",
+        "word": "lodge",
+        "meaning1": "a small residential dwelling",
+        "meaning2": "the membership of a social club",
+        "focus_meaning": "a small residential dwelling",
+        "precontexts": [
+            "Once a month, the group members gathered for a night of discussions. As the sun set, the air outside became cool and crisp. The lights inside flickered, casting warm shadows.",
+            "James and Robert decided to meet after sunset.",
+            "The storm had started earlier than everyone expected. Seeking shelter, they ended up indoors."
+        ],
+        "endings": [
+            "They escaped the rain, hurried inside and settled down for the evening.",
+            "The wind howled as the tree branches rattled against the window. Old stories filled the room, mingling with earthy aromas.",
+            "A gentle buzz hung in the air, punctuated by clinking glasses and hearty laughter. New faces were greeted with knowing nods while the fire crackled warmly. Tonight promised both comfort and tales of ancient bonds."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "There is a small hunting lodge at the top of the mountain.",
+        "example2": "Several brothers of the lodge were implicated in the crime."
+    },
+    "8": {
+        "sentence": "The men were both in the lodge at the time.",
+        "word": "lodge",
+        "meaning1": "a small residential dwelling",
+        "meaning2": "the membership of a social club",
+        "focus_meaning": "the membership of a social club",
+        "precontexts": [
+            "Once a month, the group members gathered for a night of discussions. As the sun set, the air outside became cool and crisp. The lights inside flickered, casting warm shadows.",
+            "James and Robert decided to meet after sunset.",
+            "The storm had started earlier than everyone expected. Seeking shelter, they ended up indoors."
+        ],
+        "endings": [
+            "They escaped the rain, hurried inside and settled down for the evening.",
+            "The wind howled as the tree branches rattled against the window. Old stories filled the room, mingling with earthy aromas.",
+            "A gentle buzz hung in the air, punctuated by clinking glasses and hearty laughter. New faces were greeted with knowing nods while the fire crackled warmly. Tonight promised both comfort and tales of ancient bonds."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "There is a small hunting lodge at the top of the mountain.",
+        "example2": "Several brothers of the lodge were implicated in the crime."
+    },
+    "9": {
+        "sentence": "Reading the instructions meant they were all on the same page.",
+        "word": "page",
+        "meaning1": "a unit of displayed information on the World Wide Web",
+        "meaning2": "a state of agreement",
+        "focus_meaning": "a unit of displayed information on the World Wide Web",
+        "precontexts": [
+            "The team gathered around the table, their laptops open and ready.",
+            "In the bustling office, the department had a critical meeting scheduled. Employees logged into their workstations, accessing the shared document. Their manager emphasized the importance of collaboration.",
+            "They studied the handbook, each person nodding in understanding. The project deadline was fast approaching."
+        ],
+        "endings": [
+            "Tom passed out the printed documents to everyone in the meeting. Each person skimmed through quietly, stopping briefly at the highlighted sections. The discussion began with several nodding in agreement at a specific line.",
+            "The team gathered around the table, each clutching their printed guide.",
+            "Sarah shared her screen with the team. She highlighted a crucial detail everyone needed to understand."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "Go to the site's home page and from there you can navigate to the photo gallery of the recent conference.",
+        "example2": "The members of his team are not on the same page."
+    },
+    "10": {
+        "sentence": "Reading the instructions meant they were all on the same page.",
+        "word": "page",
+        "meaning1": "a unit of displayed information on the World Wide Web",
+        "meaning2": "a state of agreement",
+        "focus_meaning": "a state of agreement",
+        "precontexts": [
+            "The team gathered around the table, their laptops open and ready.",
+            "In the bustling office, the department had a critical meeting scheduled. Employees logged into their workstations, accessing the shared document. Their manager emphasized the importance of collaboration.",
+            "They studied the handbook, each person nodding in understanding. The project deadline was fast approaching."
+        ],
+        "endings": [
+            "Tom passed out the printed documents to everyone in the meeting. Each person skimmed through quietly, stopping briefly at the highlighted sections. The discussion began with several nodding in agreement at a specific line.",
+            "The team gathered around the table, each clutching their printed guide.",
+            "Sarah shared her screen with the team. She highlighted a crucial detail everyone needed to understand."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "Go to the site's home page and from there you can navigate to the photo gallery of the recent conference.",
+        "example2": "The members of his team are not on the same page."
+    },
+    "11": {
+        "sentence": "The pain from the cut was quite unbearable.",
+        "word": "cut",
+        "meaning1": "make or form (as if) by incision or grinding",
+        "meaning2": "grow through the gums",
+        "focus_meaning": "make or form (as if) by incision or grinding",
+        "precontexts": [
+            "The boy winced as his father handed him the knife.",
+            "Sarah stared at the small blade, unsure of what to do next. Her mouth started to ache.",
+            "In the dimly lit kitchen, Alex watched his older brother slice the bread carefully. A strange tingling sensation crept up his gums. He knew the task required precision."
+        ],
+        "endings": [
+            "A sharp edge brushed against the skin, causing a sudden jolt.",
+            "He winced when he realized something was pressing against him sharply. The sensation was unlike anything he had felt before.",
+            "In the middle of the night, he felt a strange pressure building up in his mouth. His hands reached up to his face instinctively, fearing what he might find. It was as though something was slowly but forcefully making its way through."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "I love how she cuts my hair.",
+        "example2": "The baby is cutting a new tooth."
+    },
+    "12": {
+        "sentence": "The pain from the cut was quite unbearable.",
+        "word": "cut",
+        "meaning1": "make or form (as if) by incision or grinding",
+        "meaning2": "grow through the gums",
+        "focus_meaning": "grow through the gums",
+        "precontexts": [
+            "The boy winced as his father handed him the knife.",
+            "Sarah stared at the small blade, unsure of what to do next. Her mouth started to ache.",
+            "In the dimly lit kitchen, Alex watched his older brother slice the bread carefully. A strange tingling sensation crept up his gums. He knew the task required precision."
+        ],
+        "endings": [
+            "A sharp edge brushed against the skin, causing a sudden jolt.",
+            "He winced when he realized something was pressing against him sharply. The sensation was unlike anything he had felt before.",
+            "In the middle of the night, he felt a strange pressure building up in his mouth. His hands reached up to his face instinctively, fearing what he might find. It was as though something was slowly but forcefully making its way through."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "I love how she cuts my hair.",
+        "example2": "The baby is cutting a new tooth."
+    },
+    "13": {
+        "sentence": "It was the correct element to provide the required temperature.",
+        "word": "element",
+        "meaning1": "an electrical heating component of a device",
+        "meaning2": "the normal environment in which a living thing can thrive",
+        "focus_meaning": "an electrical heating component of a device",
+        "precontexts": [
+            "In the wilderness, survival depended on many factors. They sought to replicate conditions found in nature. One component was particularly important for maintaining a good balance.",
+            "The old machine had stopped working months ago. They searched for the missing piece among the dusty shelves.",
+            "The habitat needed a vital part to function properly."
+        ],
+        "endings": [
+            "The team had finally found a vital component for their new invention.",
+            "Anna searched in the old warehouse for a missing piece. She needed it to complete the project.",
+            "In the chilly forest, the travelers needed something crucial to start a fire. They rummaged through their gear, hopeful to find a key resource. Without it, they couldn't continue their journey comfortably."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "One of the back elements on the stove is not working.",
+        "example2": "A fish, when removed from its element of water, will die quickly."
+    },
+    "14": {
+        "sentence": "It was the correct element to provide the required temperature.",
+        "word": "element",
+        "meaning1": "an electrical heating component of a device",
+        "meaning2": "the normal environment in which a living thing can thrive",
+        "focus_meaning": "the normal environment in which a living thing can thrive",
+        "precontexts": [
+            "In the wilderness, survival depended on many factors. They sought to replicate conditions found in nature. One component was particularly important for maintaining a good balance.",
+            "The old machine had stopped working months ago. They searched for the missing piece among the dusty shelves.",
+            "The habitat needed a vital part to function properly."
+        ],
+        "endings": [
+            "The team had finally found a vital component for their new invention.",
+            "Anna searched in the old warehouse for a missing piece. She needed it to complete the project.",
+            "In the chilly forest, the travelers needed something crucial to start a fire. They rummaged through their gear, hopeful to find a key resource. Without it, they couldn't continue their journey comfortably."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "One of the back elements on the stove is not working.",
+        "example2": "A fish, when removed from its element of water, will die quickly."
+    },
+    "15": {
+        "sentence": "Jade was struggling to remember her last visit. ",
+        "word": "visit",
+        "meaning1": "social call",
+        "meaning2": "appointment",
+        "focus_meaning": "social call",
+        "precontexts": [
+            "Jade sifted through her phone, the pictures blurry and confusing. She couldn't find the one she was looking for. Her mind struggled with the gaps.",
+            "Jade glanced at her calendar, puzzled by the empty weeks.",
+            "Jade sorted through her mail, searching for something familiar. Nothing jogged her memory."
+        ],
+        "endings": [
+            "Jade stared at the calendar, puzzled by the blank spaces.",
+            "She rummaged through her old photo albums. There were gaps she couldn't explain.",
+            "Jade sat on the worn-out couch, thinking about the past. A faded postcard slipped from her book, marked only with a date. She tried to connect the dots in her mind."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "He dropped by for a visit",
+        "example2": "He scheduled a visit to the dentist"
+    },
+    "16": {
+        "sentence": "Jade was struggling to remember her last visit. ",
+        "word": "visit",
+        "meaning1": "social call",
+        "meaning2": "appointment",
+        "focus_meaning": "appointment",
+        "precontexts": [
+            "Jade sifted through her phone, the pictures blurry and confusing. She couldn't find the one she was looking for. Her mind struggled with the gaps.",
+            "Jade glanced at her calendar, puzzled by the empty weeks.",
+            "Jade sorted through her mail, searching for something familiar. Nothing jogged her memory."
+        ],
+        "endings": [
+            "Jade stared at the calendar, puzzled by the blank spaces.",
+            "She rummaged through her old photo albums. There were gaps she couldn't explain.",
+            "Jade sat on the worn-out couch, thinking about the past. A faded postcard slipped from her book, marked only with a date. She tried to connect the dots in her mind."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "He dropped by for a visit",
+        "example2": "He scheduled a visit to the dentist"
+    },
+    "17": {
+        "sentence": "One last push as needed for completion. ",
+        "word": "push",
+        "meaning1": "making an effort to advance a goal",
+        "meaning2": "IDIOM: a decisive moment",
+        "focus_meaning": "making an effort to advance a goal",
+        "precontexts": [
+            "With the heavy storm clouds gathering above, the sailors readied the sails. They realized they had to act quickly to reach the harbor before the worst hit.",
+            "The marathon runner saw the finish line within reach, knowing the moment was now or never.",
+            "The secret project had been in the works for months, hidden from prying eyes. As the deadline for launch loomed closer, a sense of urgency swept through the team. They knew they needed to overcome this final obstacle to succeed."
+        ],
+        "endings": [
+            "The weathered captain surveyed the stormy sea, knowing the crew was weary yet determined.",
+            "The marathon runner approached the final mile, muscles screaming but heart resolute. The finish line was just around the bend.",
+            "In the dimly lit office, the young lawyer sorted through the towering stack of paperwork. The trial date loomed like an ominous specter. Each decision would set the course for what was to come."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The army was engaged in a push against guerilla strongholds.",
+        "example2": "When push comes to shove, people look out for their own needs."
+    },
+    "18": {
+        "sentence": "One last push as needed for completion. ",
+        "word": "push",
+        "meaning1": "making an effort to advance a goal",
+        "meaning2": "IDIOM: a decisive moment",
+        "focus_meaning": "IDIOM: a decisive moment",
+        "precontexts": [
+            "With the heavy storm clouds gathering above, the sailors readied the sails. They realized they had to act quickly to reach the harbor before the worst hit.",
+            "The marathon runner saw the finish line within reach, knowing the moment was now or never.",
+            "The secret project had been in the works for months, hidden from prying eyes. As the deadline for launch loomed closer, a sense of urgency swept through the team. They knew they needed to overcome this final obstacle to succeed."
+        ],
+        "endings": [
+            "The weathered captain surveyed the stormy sea, knowing the crew was weary yet determined.",
+            "The marathon runner approached the final mile, muscles screaming but heart resolute. The finish line was just around the bend.",
+            "In the dimly lit office, the young lawyer sorted through the towering stack of paperwork. The trial date loomed like an ominous specter. Each decision would set the course for what was to come."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The army was engaged in a push against guerilla strongholds.",
+        "example2": "When push comes to shove, people look out for their own needs."
+    },
+    "19": {
+        "sentence": "They could feel the wave as their senses responded. ",
+        "word": "wave",
+        "meaning1": "(physics) One of a series of ridges, as of particles or liquid.",
+        "meaning2": "The movement of a certain phenomenon, similar to a physical undulation..",
+        "focus_meaning": "(physics) One of a series of ridges, as of particles or liquid.",
+        "precontexts": [
+            "In the eerie glow of twilight, the sea shimmered unnaturally. A distant rumble echoed, sending a shiver through their bones. Something invisible and strong began to surge around them.",
+            "The silence in the room was interrupted by a sudden shift in the atmosphere.",
+            "A strange rhythm pulsed through the ground, casting an energy into the air. Their skin tingled as an unknown force enveloped them."
+        ],
+        "endings": [
+            "The crowd gathered at the shore as the storm began to roll in. Everyone braced themselves, sensing the power looming nearby.",
+            "As they stood on the beach, the sun dipped below the horizon.",
+            "The concert reached its peak, sending an electric excitement through the air. Their eyes closed, absorbed in the music. Suddenly, a swell of energy washed over them."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "The wave moved over the surface of the water.",
+        "example2": "The troops advanced in waves."
+    },
+    "20": {
+        "sentence": "They could feel the wave as their senses responded. ",
+        "word": "wave",
+        "meaning1": "(physics) One of a series of ridges, as of particles or liquid.",
+        "meaning2": "The movement of a certain phenomenon, similar to a physical undulation..",
+        "focus_meaning": "The movement of a certain phenomenon, similar to a physical undulation..",
+        "precontexts": [
+            "In the eerie glow of twilight, the sea shimmered unnaturally. A distant rumble echoed, sending a shiver through their bones. Something invisible and strong began to surge around them.",
+            "The silence in the room was interrupted by a sudden shift in the atmosphere.",
+            "A strange rhythm pulsed through the ground, casting an energy into the air. Their skin tingled as an unknown force enveloped them."
+        ],
+        "endings": [
+            "The crowd gathered at the shore as the storm began to roll in. Everyone braced themselves, sensing the power looming nearby.",
+            "As they stood on the beach, the sun dipped below the horizon.",
+            "The concert reached its peak, sending an electric excitement through the air. Their eyes closed, absorbed in the music. Suddenly, a swell of energy washed over them."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The wave moved over the surface of the water.",
+        "example2": "The troops advanced in waves."
+    },
+    "21": {
+        "sentence": "Two of my friends wanted to go into the pool.",
+        "word": "pool",
+        "meaning1": "a consortium of enterprises pursuing a shared goal or interest",
+        "meaning2": "a continuous region of sedimentary rock containing oil or gas",
+        "focus_meaning": "a consortium of enterprises pursuing a shared goal or interest",
+        "precontexts": [
+            "After a week of hard work, we decided to relax and unwind for a while. Our ongoing projects demanded a lot of our energy. The afternoon sky was clear, offering the perfect time for some leisure activities.",
+            "The sun was shining brightly on our team meeting outside. We just finished talking about the next big step forward.",
+            "We had been discussing new ideas in the backyard."
+        ],
+        "endings": [
+            "The sun was shining bright, and everyone looked for a break. A plan was hatched to make the day even more enjoyable.",
+            "We sat under the large tree, discussing our next steps eagerly. The conversation was heated as we weighed all possible outcomes. A decision was finally made, and everyone seemed satisfied with the direction.",
+            "After a long meeting, we decided it was time to relax."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "Five high tech companies have formed a licensing pool for their products.",
+        "example2": "Geologists are calculating how much gas can be extracted from this pool."
+    },
+    "22": {
+        "sentence": "Two of my friends wanted to go into the pool.",
+        "word": "pool",
+        "meaning1": "a consortium of enterprises pursuing a shared goal or interest",
+        "meaning2": "a continuous region of sedimentary rock containing oil or gas",
+        "focus_meaning": "a continuous region of sedimentary rock containing oil or gas",
+        "precontexts": [
+            "After a week of hard work, we decided to relax and unwind for a while. Our ongoing projects demanded a lot of our energy. The afternoon sky was clear, offering the perfect time for some leisure activities.",
+            "The sun was shining brightly on our team meeting outside. We just finished talking about the next big step forward.",
+            "We had been discussing new ideas in the backyard."
+        ],
+        "endings": [
+            "The sun was shining bright, and everyone looked for a break. A plan was hatched to make the day even more enjoyable.",
+            "We sat under the large tree, discussing our next steps eagerly. The conversation was heated as we weighed all possible outcomes. A decision was finally made, and everyone seemed satisfied with the direction.",
+            "After a long meeting, we decided it was time to relax."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "Five high tech companies have formed a licensing pool for their products.",
+        "example2": "Geologists are calculating how much gas can be extracted from this pool."
+    },
+    "23": {
+        "sentence": "I felt that there was some recognition in how he addressed me.",
+        "word": "recognition",
+        "meaning1": "the act of offering thanks to someone for some deed on their part",
+        "meaning2": "the chemical bonding of complementary molecules",
+        "focus_meaning": "the act of offering thanks to someone for some deed on their part",
+        "precontexts": [
+            "During the lecture, his gaze kept shifting towards me, lingering a bit too long. It felt like he was sorting through distant memories.",
+            "He caught my eye as I entered the room, nodding slightly as if recalling a shared past.",
+            "As I handed him my old college textbook, his fingers brushed against mine, sparking something unspoken. The air seemed charged, as if a connection had been waiting to happen all along. We stood there momentarily, both sensing a past mingling with the present."
+        ],
+        "endings": [
+            "The village square was bustling with energy as people gathered for the annual festival. An old friend approached with a warm smile as the air filled with the scent of thyme. Meanwhile, an eccentric professor measured the distance between stars with his telescope nearby.",
+            "He handed me a small, ancient book he found hidden behind the stairs.",
+            "At the gala, the mayor spoke eloquently about achievements and partnerships. I overheard a quiet conversation about science and secrets."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "We should give John recognition for attempting such a difficult task, even though he didn't succeed.",
+        "example2": "Molecular recognition is the driving force behind all biological processes."
+    },
+    "24": {
+        "sentence": "I felt that there was some recognition in how he addressed me.",
+        "word": "recognition",
+        "meaning1": "the act of offering thanks to someone for some deed on their part",
+        "meaning2": "the chemical bonding of complementary molecules",
+        "focus_meaning": "the chemical bonding of complementary molecules",
+        "precontexts": [
+            "During the lecture, his gaze kept shifting towards me, lingering a bit too long. It felt like he was sorting through distant memories.",
+            "He caught my eye as I entered the room, nodding slightly as if recalling a shared past.",
+            "As I handed him my old college textbook, his fingers brushed against mine, sparking something unspoken. The air seemed charged, as if a connection had been waiting to happen all along. We stood there momentarily, both sensing a past mingling with the present."
+        ],
+        "endings": [
+            "The village square was bustling with energy as people gathered for the annual festival. An old friend approached with a warm smile as the air filled with the scent of thyme. Meanwhile, an eccentric professor measured the distance between stars with his telescope nearby.",
+            "He handed me a small, ancient book he found hidden behind the stairs.",
+            "At the gala, the mayor spoke eloquently about achievements and partnerships. I overheard a quiet conversation about science and secrets."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "We should give John recognition for attempting such a difficult task, even though he didn't succeed.",
+        "example2": "Molecular recognition is the driving force behind all biological processes."
+    },
+    "25": {
+        "sentence": "It looked as though the sheep were inclined to move.",
+        "word": "incline",
+        "meaning1": "Have a tendency or disposition.",
+        "meaning2": "Be at an angle",
+        "focus_meaning": "Have a tendency or disposition.",
+        "precontexts": [
+            "The shepherd built a new pen on the sloping meadow. He wondered if it would hold them securely. The weather had been unpredictable lately.",
+            "The day was bright and sunny. A strange noise echoed from the hillside.",
+            "A strong wind blew across the fields."
+        ],
+        "endings": [
+            "The wind blew across the field, causing the trees to sway gently.",
+            "The sun had risen, casting long shadows over the meadow. Birds chirped in the distance, breaking the morning silence.",
+            "A strange hum filled the air, echoing across the hills. The ground seemed to tremble under the weight of the morning fog. In the distance, a lone figure watched the horizon intently."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "She is inclined to be nervous before her lectures.",
+        "example2": "The terrain inclined down the mountain."
+    },
+    "26": {
+        "sentence": "It looked as though the sheep were inclined to move.",
+        "word": "incline",
+        "meaning1": "Have a tendency or disposition.",
+        "meaning2": "Be at an angle",
+        "focus_meaning": "Be at an angle",
+        "precontexts": [
+            "The shepherd built a new pen on the sloping meadow. He wondered if it would hold them securely. The weather had been unpredictable lately.",
+            "The day was bright and sunny. A strange noise echoed from the hillside.",
+            "A strong wind blew across the fields."
+        ],
+        "endings": [
+            "The wind blew across the field, causing the trees to sway gently.",
+            "The sun had risen, casting long shadows over the meadow. Birds chirped in the distance, breaking the morning silence.",
+            "A strange hum filled the air, echoing across the hills. The ground seemed to tremble under the weight of the morning fog. In the distance, a lone figure watched the horizon intently."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "She is inclined to be nervous before her lectures.",
+        "example2": "The terrain inclined down the mountain."
+    },
+    "27": {
+        "sentence": "Whatever the play, she would react badly.",
+        "word": "play",
+        "meaning1": "piece of drama",
+        "meaning2": "a participant's turn in a game",
+        "focus_meaning": "piece of drama",
+        "precontexts": [
+            "She sat in anxious anticipation, her eyes darting around the room.",
+            "The tension in the air was palpable as the room fell silent. She watched intently, her nerves on edge.",
+            "In the dimly lit setting, she could feel her heart pounding in her chest. A quiet murmur of excitement filled the space. Her fingers tapped restlessly on the armrest of the old chair."
+        ],
+        "endings": [
+            "Her friends gathered around, the excitement palpable in the air. Each session was a new adventure requiring her full attention. Nevertheless, the moment it began, she would tense up.",
+            "Every weekend, she joined in on whatever was happening.",
+            "They met every Friday evening, ready for new experiences. No matter the occasion, her reactions were unpredictable."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "\"Cats\" is my favorite play about cats.",
+        "example2": "Hurry up-- it's still your play!"
+    },
+    "28": {
+        "sentence": "Whatever the play, she would react badly.",
+        "word": "play",
+        "meaning1": "piece of drama",
+        "meaning2": "a participant's turn in a game",
+        "focus_meaning": "a participant's turn in a game",
+        "precontexts": [
+            "She sat in anxious anticipation, her eyes darting around the room.",
+            "The tension in the air was palpable as the room fell silent. She watched intently, her nerves on edge.",
+            "In the dimly lit setting, she could feel her heart pounding in her chest. A quiet murmur of excitement filled the space. Her fingers tapped restlessly on the armrest of the old chair."
+        ],
+        "endings": [
+            "Her friends gathered around, the excitement palpable in the air. Each session was a new adventure requiring her full attention. Nevertheless, the moment it began, she would tense up.",
+            "Every weekend, she joined in on whatever was happening.",
+            "They met every Friday evening, ready for new experiences. No matter the occasion, her reactions were unpredictable."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "\"Cats\" is my favorite play about cats.",
+        "example2": "Hurry up-- it's still your play!"
+    },
+    "29": {
+        "sentence": "He knew that the result would be a hit.",
+        "word": "hit",
+        "meaning1": "a striking contact, or collision, between objects",
+        "meaning2": "retrieved data that match search criteria in a computerized search",
+        "focus_meaning": "a striking contact, or collision, between objects",
+        "precontexts": [
+            "In the dead of night, the group gathered around the old, creaky warehouse. They had rehearsed this moment countless times, everyone's heart pounding with anticipation. After months of planning, this was their final attempt.",
+            "The detective stared at the computer screen. He had finally deciphered the complex algorithm.",
+            "He gently set the strange device on the table."
+        ],
+        "endings": [
+            "He pressed the button on the remote control and watched the robot start to move.",
+            "In the dimly lit alley, he stood facing the shadowy figure who handed him a small device. A quick glance at the screen showed numerous entries waiting to be explored. The task appeared simple, yet the anticipation was palpable.",
+            "Carla opened the folder marked 'Confidential' and started reading the lines carefully. It contained crucial data that could change everything."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The moon's surface is pocked with thousands of hits from meteors in outer space.",
+        "example2": "My query 'hawaii hotels' returned hundreds of hits."
+    },
+    "30": {
+        "sentence": "He knew that the result would be a hit.",
+        "word": "hit",
+        "meaning1": "a striking contact, or collision, between objects",
+        "meaning2": "retrieved data that match search criteria in a computerized search",
+        "focus_meaning": "retrieved data that match search criteria in a computerized search",
+        "precontexts": [
+            "In the dead of night, the group gathered around the old, creaky warehouse. They had rehearsed this moment countless times, everyone's heart pounding with anticipation. After months of planning, this was their final attempt.",
+            "The detective stared at the computer screen. He had finally deciphered the complex algorithm.",
+            "He gently set the strange device on the table."
+        ],
+        "endings": [
+            "He pressed the button on the remote control and watched the robot start to move.",
+            "In the dimly lit alley, he stood facing the shadowy figure who handed him a small device. A quick glance at the screen showed numerous entries waiting to be explored. The task appeared simple, yet the anticipation was palpable.",
+            "Carla opened the folder marked 'Confidential' and started reading the lines carefully. It contained crucial data that could change everything."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The moon's surface is pocked with thousands of hits from meteors in outer space.",
+        "example2": "My query 'hawaii hotels' returned hundreds of hits."
+    },
+    "31": {
+        "sentence": "The shock of the earthquake caused a lot of anxiety",
+        "word": "shock",
+        "meaning1": "seismic shaking of an earthquake",
+        "meaning2": "an intense surprise, often unpleasant",
+        "focus_meaning": "seismic shaking of an earthquake",
+        "precontexts": [
+            "Suddenly, the ground beneath Mia's feet seemed to sway. Her phone buzzed with alerts, and panic spread through the room. Everyone was on edge.",
+            "The ground trembled, and a strange noise echoed through the town. People looked at each other in confusion.",
+            "A loud noise startled people in the city center."
+        ],
+        "endings": [
+            "Mark was watching TV when the room started to sway. He thought it was a prank by his roommate.",
+            "The family was gathered in the living room, discussing the peculiar news headline they had just heard. Suddenly, the air seemed to pulse, and everyone looked around in confusion. They wondered if it was just an eerie coincidence or something more.",
+            "Late at night, Emily sat alone when the ground suddenly trembled beneath her feet."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "The shock from the 8.6 quake brought down a number of buildings.",
+        "example2": "It was a shock for Mary to see John with short hair."
+    },
+    "32": {
+        "sentence": "The shock of the earthquake caused a lot of anxiety",
+        "word": "shock",
+        "meaning1": "seismic shaking of an earthquake",
+        "meaning2": "an intense surprise, often unpleasant",
+        "focus_meaning": "an intense surprise, often unpleasant",
+        "precontexts": [
+            "Suddenly, the ground beneath Mia's feet seemed to sway. Her phone buzzed with alerts, and panic spread through the room. Everyone was on edge.",
+            "The ground trembled, and a strange noise echoed through the town. People looked at each other in confusion.",
+            "A loud noise startled people in the city center."
+        ],
+        "endings": [
+            "Mark was watching TV when the room started to sway. He thought it was a prank by his roommate.",
+            "The family was gathered in the living room, discussing the peculiar news headline they had just heard. Suddenly, the air seemed to pulse, and everyone looked around in confusion. They wondered if it was just an eerie coincidence or something more.",
+            "Late at night, Emily sat alone when the ground suddenly trembled beneath her feet."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The shock from the 8.6 quake brought down a number of buildings.",
+        "example2": "It was a shock for Mary to see John with short hair."
+    },
+    "33": {
+        "sentence": "Tom dropped off quickly",
+        "word": "drop",
+        "meaning1": "move to the rear, retreat",
+        "meaning2": "fall asleep",
+        "focus_meaning": "move to the rear, retreat",
+        "precontexts": [
+            "Tom watched the clouds drift as the day wore on.",
+            "The campfire crackled softly, casting flickering shadows. His friends were still chatting around the flames. Tom nestled into his sleeping bag, the stars above twinkling quietly.",
+            "The gentle hum of the engine lulled him. Tom glanced out the window, feeling the rhythm of the road."
+        ],
+        "endings": [
+            "Tom sat quietly by the campfire, listening to the crickets.",
+            "Tom watched the sunset fade behind the hills. The long day had taken its toll on him.",
+            "The forest was silent as Tom marched through the trees. His friends were farther ahead on the trail. Exhaustion crept up as the stars twinkled above."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "Ralston dropped back to twelfth after stumbling on a rock.",
+        "example2": "He dropped off the minute his head hit the pillow."
+    },
+    "34": {
+        "sentence": "Tom dropped off quickly",
+        "word": "drop",
+        "meaning1": "move to the rear, retreat",
+        "meaning2": "fall asleep",
+        "focus_meaning": "fall asleep",
+        "precontexts": [
+            "Tom watched the clouds drift as the day wore on.",
+            "The campfire crackled softly, casting flickering shadows. His friends were still chatting around the flames. Tom nestled into his sleeping bag, the stars above twinkling quietly.",
+            "The gentle hum of the engine lulled him. Tom glanced out the window, feeling the rhythm of the road."
+        ],
+        "endings": [
+            "Tom sat quietly by the campfire, listening to the crickets.",
+            "Tom watched the sunset fade behind the hills. The long day had taken its toll on him.",
+            "The forest was silent as Tom marched through the trees. His friends were farther ahead on the trail. Exhaustion crept up as the stars twinkled above."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "Ralston dropped back to twelfth after stumbling on a rock.",
+        "example2": "He dropped off the minute his head hit the pillow."
+    },
+    "35": {
+        "sentence": "Sandra's cats had packed",
+        "word": "pack",
+        "meaning1": "have the property of compacting neatly",
+        "meaning2": "gain weight",
+        "focus_meaning": "have the property of compacting neatly",
+        "precontexts": [
+            "Sandra noticed her cats enjoying their new homemade recipes. They also seemed more energetic while playing around. Each day, they curiously inspected every corner of the house.",
+            "Sandra found some mysterious snacks in the storage room for the cats.",
+            "Sandra's cats discovered a cozy spot in the closet. They secretly spent hours there each day."
+        ],
+        "endings": [
+            "Sandra noticed her cats were taking up more room in their baskets.",
+            "Sandra watched her cats squeeze together in her small suitcase. Their meals had become noticeably larger in the past few weeks.",
+            "Every evening, Sandra left her cats with a mountain of food. Over time, they began to prefer staying close to their feeding bowls. This morning, they sat snugly among her clothes in the closet."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "Live animals don't pack well. ",
+        "example2": "Teenage tyrannosaurs packed on the pounds."
+    },
+    "36": {
+        "sentence": "Sandra's cats had packed",
+        "word": "pack",
+        "meaning1": "have the property of compacting neatly",
+        "meaning2": "gain weight",
+        "focus_meaning": "gain weight",
+        "precontexts": [
+            "Sandra noticed her cats enjoying their new homemade recipes. They also seemed more energetic while playing around. Each day, they curiously inspected every corner of the house.",
+            "Sandra found some mysterious snacks in the storage room for the cats.",
+            "Sandra's cats discovered a cozy spot in the closet. They secretly spent hours there each day."
+        ],
+        "endings": [
+            "Sandra noticed her cats were taking up more room in their baskets.",
+            "Sandra watched her cats squeeze together in her small suitcase. Their meals had become noticeably larger in the past few weeks.",
+            "Every evening, Sandra left her cats with a mountain of food. Over time, they began to prefer staying close to their feeding bowls. This morning, they sat snugly among her clothes in the closet."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "Live animals don't pack well. ",
+        "example2": "Teenage tyrannosaurs packed on the pounds."
+    },
+    "37": {
+        "sentence": "THe boy in the shop started to convulse",
+        "word": "convulse",
+        "meaning1": "(Cause to) be overcome with laughter,    causing movement.",
+        "meaning2": "Physically contract (repeatedly).",
+        "focus_meaning": "(Cause to) be overcome with laughter,    causing movement.",
+        "precontexts": [
+            "A young boy held a tiny vial in his hand, curious about its contents. He cautiously opened it, releasing a strange cloud into the air.",
+            "The comedian performed his hilarious act in front of an unexpected audience.",
+            "The antique shop was filled with mysterious treasures from faraway lands. A group of kids entered, each daring the other to find the most unusual item. One boy decided to test out an old, dusty artifact he found on a shelf."
+        ],
+        "endings": [
+            "The boy picked up an unusual looking gadget that buzzed and shook violently when turned on. He held it close, unsure if it was broken or just strangely designed. Despite its odd motions, it was oddly comical, and the boy couldn't help but giggle.",
+            "The boy saw a dancing puppet that reminded him of a funny video he watched yesterday. It was as if the puppet had a mind of its own, moving strangely and suddenly.",
+            "The clown began performing tricks with rubber chickens and silly faces."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "The comedian convulsed the crowd.",
+        "example2": "The feverish patient convulsed in his bed."
+    },
+    "38": {
+        "sentence": "THe boy in the shop started to convulse",
+        "word": "convulse",
+        "meaning1": "(Cause to) be overcome with laughter,    causing movement.",
+        "meaning2": "Physically contract (repeatedly).",
+        "focus_meaning": "Physically contract (repeatedly).",
+        "precontexts": [
+            "A young boy held a tiny vial in his hand, curious about its contents. He cautiously opened it, releasing a strange cloud into the air.",
+            "The comedian performed his hilarious act in front of an unexpected audience.",
+            "The antique shop was filled with mysterious treasures from faraway lands. A group of kids entered, each daring the other to find the most unusual item. One boy decided to test out an old, dusty artifact he found on a shelf."
+        ],
+        "endings": [
+            "The boy picked up an unusual looking gadget that buzzed and shook violently when turned on. He held it close, unsure if it was broken or just strangely designed. Despite its odd motions, it was oddly comical, and the boy couldn't help but giggle.",
+            "The boy saw a dancing puppet that reminded him of a funny video he watched yesterday. It was as if the puppet had a mind of its own, moving strangely and suddenly.",
+            "The clown began performing tricks with rubber chickens and silly faces."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "The comedian convulsed the crowd.",
+        "example2": "The feverish patient convulsed in his bed."
+    },
+    "39": {
+        "sentence": "The US air force were in flight",
+        "word": "flight",
+        "meaning1": "the act of escaping, fleeing",
+        "meaning2": "an air force military unit, smaller than a squadron",
+        "focus_meaning": "the act of escaping, fleeing",
+        "precontexts": [
+            "As the sun set, a low hum echoed across the desert. Shadows loomed large under the floodlights. The soldiers exchanged anxious glances.",
+            "A sudden change in plans threw the base into chaos. No one knew what to expect next.",
+            "Amidst the growing tension, orders came from the top, leaving everyone on edge."
+        ],
+        "endings": [
+            "They had been on high alert for days, unsure of what lay ahead. The command center buzzed with anxious whispers. All eyes were fixed on the radar screen, waiting for something to happen.",
+            "The sun barely peeked over the horizon. Everyone was ready for the unexpected orders.",
+            "The situation was tense as they received the urgent call."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "They read about the Jewish people's flight from Egypt.",
+        "example2": "John and Bob flew in the same flight in the Air Force."
+    },
+    "40": {
+        "sentence": "The US air force were in flight",
+        "word": "flight",
+        "meaning1": "the act of escaping, fleeing",
+        "meaning2": "an air force military unit, smaller than a squadron",
+        "focus_meaning": "an air force military unit, smaller than a squadron",
+        "precontexts": [
+            "As the sun set, a low hum echoed across the desert. Shadows loomed large under the floodlights. The soldiers exchanged anxious glances.",
+            "A sudden change in plans threw the base into chaos. No one knew what to expect next.",
+            "Amidst the growing tension, orders came from the top, leaving everyone on edge."
+        ],
+        "endings": [
+            "They had been on high alert for days, unsure of what lay ahead. The command center buzzed with anxious whispers. All eyes were fixed on the radar screen, waiting for something to happen.",
+            "The sun barely peeked over the horizon. Everyone was ready for the unexpected orders.",
+            "The situation was tense as they received the urgent call."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "They read about the Jewish people's flight from Egypt.",
+        "example2": "John and Bob flew in the same flight in the Air Force."
+    },
+    "41": {
+        "sentence": "The noise from the floor was so intense that everyone stopped what they were doing",
+        "word": "floor",
+        "meaning1": "the bottom surface of an area or place, often walked upon",
+        "meaning2": "a room where trading of financial securities takes place",
+        "focus_meaning": "the bottom surface of an area or place, often walked upon",
+        "precontexts": [
+            "The sound of chairs sliding and people bustling filled the room. Papers rustled amidst the clamoring voices.",
+            "A sudden rise in laughter and chatter created an overwhelming noise. The visitors watched in astonishment as the commotion grew louder. Eager spectators quickly gathered at the center.",
+            "The meeting was chaotic, with loud thuds echoing through the room."
+        ],
+        "endings": [
+            "A bell rang, signaling the start of something important. The people became increasingly animated.",
+            "People were gathering in the large open space as the event began.",
+            "It was the busiest day of the year, and anticipation filled the air. Everyone had their eyes fixed on the scene below. The sound of intense activity grew louder by the minute."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The floors of this house are solid maple!",
+        "example2": "A bomb went off on the trading floor of a large Wall Street securities firm today."
+    },
+    "42": {
+        "sentence": "The noise from the floor was so intense that everyone stopped what they were doing",
+        "word": "floor",
+        "meaning1": "the bottom surface of an area or place, often walked upon",
+        "meaning2": "a room where trading of financial securities takes place",
+        "focus_meaning": "a room where trading of financial securities takes place",
+        "precontexts": [
+            "The sound of chairs sliding and people bustling filled the room. Papers rustled amidst the clamoring voices.",
+            "A sudden rise in laughter and chatter created an overwhelming noise. The visitors watched in astonishment as the commotion grew louder. Eager spectators quickly gathered at the center.",
+            "The meeting was chaotic, with loud thuds echoing through the room."
+        ],
+        "endings": [
+            "A bell rang, signaling the start of something important. The people became increasingly animated.",
+            "People were gathering in the large open space as the event began.",
+            "It was the busiest day of the year, and anticipation filled the air. Everyone had their eyes fixed on the scene below. The sound of intense activity grew louder by the minute."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The floors of this house are solid maple!",
+        "example2": "A bomb went off on the trading floor of a large Wall Street securities firm today."
+    },
+    "43": {
+        "sentence": "She adjusted her position until the design showed the balance she was looking for",
+        "word": "balance",
+        "meaning1": "a physical state of equilibrium",
+        "meaning2": "the property of mathematical symmetry",
+        "focus_meaning": "a physical state of equilibrium",
+        "precontexts": [
+            "The exhibit was almost ready, but something seemed off. She moved around, trying to find the right perspective.",
+            "It was a windy afternoon, and the mobile swayed gently on its strings. Each angle offered a new view of its intricate design. She paused, contemplating her next move.",
+            "She carefully maneuvered the sculpture, seeking perfection in its form."
+        ],
+        "endings": [
+            "She squinted her eyes at the drawing. The pattern wasn't quite right yet.",
+            "The artists gathered around the large canvas. Each brushstroke brought the painting closer to perfection. She needed to make one final adjustment to get it right.",
+            "She carefully positioned each stone on the sculpture."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "John lost his balance and fell into the river.",
+        "example2": "A diameter on a circle creates two semicircles of perfect balance."
+    },
+    "44": {
+        "sentence": "She adjusted her position until the design showed the balance she was looking for",
+        "word": "balance",
+        "meaning1": "a physical state of equilibrium",
+        "meaning2": "the property of mathematical symmetry",
+        "focus_meaning": "the property of mathematical symmetry",
+        "precontexts": [
+            "The exhibit was almost ready, but something seemed off. She moved around, trying to find the right perspective.",
+            "It was a windy afternoon, and the mobile swayed gently on its strings. Each angle offered a new view of its intricate design. She paused, contemplating her next move.",
+            "She carefully maneuvered the sculpture, seeking perfection in its form."
+        ],
+        "endings": [
+            "She squinted her eyes at the drawing. The pattern wasn't quite right yet.",
+            "The artists gathered around the large canvas. Each brushstroke brought the painting closer to perfection. She needed to make one final adjustment to get it right.",
+            "She carefully positioned each stone on the sculpture."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "John lost his balance and fell into the river.",
+        "example2": "A diameter on a circle creates two semicircles of perfect balance."
+    },
+    "45": {
+        "sentence": "After the announcement, everyone wondered whether their team would be moved to a different division next year",
+        "word": "division",
+        "meaning1": "an operational military unit",
+        "meaning2": "a ranked league, e.g., sports",
+        "focus_meaning": "an operational military unit",
+        "precontexts": [
+            "Rumors had been spreading around the office for weeks. Everyone was on edge about what might change.",
+            "The board met quietly in the conference room, emerging hours later with unreadable expressions.",
+            "The team leader received a confidential email marked as highly important. Speculation grew as the office buzzed with whispered conversations about potential changes. No one knew what it all meant for their future."
+        ],
+        "endings": [
+            "In the midst of a tense season, rumors were spreading like wildfire. Management had hinted at significant organizational changes.",
+            "The announcement left them all in suspense about their future roles.",
+            "The past few weeks had been filled with various rumors, turning their usual routine upside down. They had heard whispers of strategic decisions happening behind closed doors. The prospect of upcoming changes left the team on edge, uncertain about tomorrow."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "They are calling up an extra division of infantry.",
+        "example2": "At the volleyball tournament John will play in the top division."
+    },
+    "46": {
+        "sentence": "After the announcement, everyone wondered whether their team would be moved to a different division next year",
+        "word": "division",
+        "meaning1": "an operational military unit",
+        "meaning2": "a ranked league, e.g., sports",
+        "focus_meaning": "a ranked league, e.g., sports",
+        "precontexts": [
+            "Rumors had been spreading around the office for weeks. Everyone was on edge about what might change.",
+            "The board met quietly in the conference room, emerging hours later with unreadable expressions.",
+            "The team leader received a confidential email marked as highly important. Speculation grew as the office buzzed with whispered conversations about potential changes. No one knew what it all meant for their future."
+        ],
+        "endings": [
+            "In the midst of a tense season, rumors were spreading like wildfire. Management had hinted at significant organizational changes.",
+            "The announcement left them all in suspense about their future roles.",
+            "The past few weeks had been filled with various rumors, turning their usual routine upside down. They had heard whispers of strategic decisions happening behind closed doors. The prospect of upcoming changes left the team on edge, uncertain about tomorrow."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "They are calling up an extra division of infantry.",
+        "example2": "At the volleyball tournament John will play in the top division."
+    },
+    "47": {
+        "sentence": "They said they needed one more head before the group could set off",
+        "word": "head",
+        "meaning1": "the cranium, uppermost portion of the human anatomy",
+        "meaning2": "a count of people or animals",
+        "focus_meaning": "the cranium, uppermost portion of the human anatomy",
+        "precontexts": [
+            "There was a final check for the expedition list. Everyone knew one element was still absent.",
+            "The team gathered, noting the missing piece for their project.",
+            "The organizers reviewed the roster, identifying a need. Their journey couldn't begin without completing the lineup. Each participant was vital to the mission."
+        ],
+        "endings": [
+            "The travelers gathered at dawn, counting their companions.",
+            "The explorers stood by the edge of the forest as the morning mist lifted. They had been informed of a secret society's meeting, but attendance was limited. Their guide mentioned the need for an exact number in the group.",
+            "In the dim light, the circus crew prepared for their next performance. They were just one short of the required number."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "He suffered severe head injuries in the accident.",
+        "example2": "He'll buy 200 head of cattle."
+    },
+    "48": {
+        "sentence": "They said they needed one more head before the group could set off",
+        "word": "head",
+        "meaning1": "the cranium, uppermost portion of the human anatomy",
+        "meaning2": "a count of people or animals",
+        "focus_meaning": "a count of people or animals",
+        "precontexts": [
+            "There was a final check for the expedition list. Everyone knew one element was still absent.",
+            "The team gathered, noting the missing piece for their project.",
+            "The organizers reviewed the roster, identifying a need. Their journey couldn't begin without completing the lineup. Each participant was vital to the mission."
+        ],
+        "endings": [
+            "The travelers gathered at dawn, counting their companions.",
+            "The explorers stood by the edge of the forest as the morning mist lifted. They had been informed of a secret society's meeting, but attendance was limited. Their guide mentioned the need for an exact number in the group.",
+            "In the dim light, the circus crew prepared for their next performance. They were just one short of the required number."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "He suffered severe head injuries in the accident.",
+        "example2": "He'll buy 200 head of cattle."
+    },
+    "49": {
+        "sentence": "If you say it that way, it might look strange to them",
+        "word": "look",
+        "meaning1": "appear, be",
+        "meaning2": "idioms",
+        "focus_meaning": "appear, be",
+        "precontexts": [
+            "He placed his unusual mask on the table. The others turned to him, uncertain how to react.",
+            "The city was bustling with people dressed in colorful costumes. A parade was marching through the main street. She was trying to teach the foreign visitors how to join in properly.",
+            "Their eyes widened as they noticed the bright orange hat on her head."
+        ],
+        "endings": [
+            "During the rehearsal, the director emphasized the importance of delivering the line with the right intonation. The aspiring actor was nervous about how it might sound. It was crucial to impress the casting crew.",
+            "He carefully dressed for the meeting, choosing his best suit. It was important to convey confidence and competence.",
+            "She wondered if presenting the report in that format would lead to misunderstandings."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "These numbers look fishy to me.",
+        "example2": "The neighbors look down on us because we have an old car."
+    },
+    "50": {
+        "sentence": "If you say it that way, it might look strange to them",
+        "word": "look",
+        "meaning1": "appear, be",
+        "meaning2": "idioms",
+        "focus_meaning": "idioms",
+        "precontexts": [
+            "He placed his unusual mask on the table. The others turned to him, uncertain how to react.",
+            "The city was bustling with people dressed in colorful costumes. A parade was marching through the main street. She was trying to teach the foreign visitors how to join in properly.",
+            "Their eyes widened as they noticed the bright orange hat on her head."
+        ],
+        "endings": [
+            "During the rehearsal, the director emphasized the importance of delivering the line with the right intonation. The aspiring actor was nervous about how it might sound. It was crucial to impress the casting crew.",
+            "He carefully dressed for the meeting, choosing his best suit. It was important to convey confidence and competence.",
+            "She wondered if presenting the report in that format would lead to misunderstandings."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "These numbers look fishy to me.",
+        "example2": "The neighbors look down on us because we have an old car."
+    },
+    "51": {
+        "sentence": "he pulled a trick on his teacher",
+        "word": "pull",
+        "meaning1": "commit, do",
+        "meaning2": "idioms",
+        "focus_meaning": "commit, do",
+        "precontexts": [
+            "During the science fair, Mark had quietly swapped the labels on two experiments. The class was buzzing with excitement at the chaos that followed. Everyone knew Mark's reputation for surprising pranks.",
+            "Tom hid the teacher's chalk during recess.",
+            "Anna found a note on the teacher's desk. It seemed to have been written by Jack."
+        ],
+        "endings": [
+            "The teacher was preoccupied with preparing for an important presentation. Tom had been planning something with a glimmer of excitement in his eyes all week. Everyone wondered what he was up to.",
+            "Jenny noticed the classroom seemed oddly quiet. Tom had been whispering with a cheeky smile since the bell rang.",
+            "Tom had a mischievous look when he entered the classroom that morning."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "He's pulled five bank robberies.",
+        "example2": "He pulled a face when his mother asked him to eat his vegetables."
+    },
+    "52": {
+        "sentence": "he pulled a trick on his teacher",
+        "word": "pull",
+        "meaning1": "commit, do",
+        "meaning2": "idioms",
+        "focus_meaning": "idioms",
+        "precontexts": [
+            "During the science fair, Mark had quietly swapped the labels on two experiments. The class was buzzing with excitement at the chaos that followed. Everyone knew Mark's reputation for surprising pranks.",
+            "Tom hid the teacher's chalk during recess.",
+            "Anna found a note on the teacher's desk. It seemed to have been written by Jack."
+        ],
+        "endings": [
+            "The teacher was preoccupied with preparing for an important presentation. Tom had been planning something with a glimmer of excitement in his eyes all week. Everyone wondered what he was up to.",
+            "Jenny noticed the classroom seemed oddly quiet. Tom had been whispering with a cheeky smile since the bell rang.",
+            "Tom had a mischievous look when he entered the classroom that morning."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "He's pulled five bank robberies.",
+        "example2": "He pulled a face when his mother asked him to eat his vegetables."
+    },
+    "53": {
+        "sentence": "he wanted part of the project",
+        "word": "part",
+        "meaning1": "portion",
+        "meaning2": "share",
+        "focus_meaning": "portion",
+        "precontexts": [
+            "The team had been working tirelessly for months. The idea was brilliant, and the demand was rising. Investors were eager to get involved.",
+            "There was a new startup looking for investors.",
+            "They were developing something innovative and exciting. Everyone in the office knew the potential it held."
+        ],
+        "endings": [
+            "They were discussing who should join the new venture.",
+            "The team gathered around the table to decide on their roles. Everyone wanted to contribute something significant.",
+            "The startup had just received a huge investment. Each member had ideas that could push the project forward. However, resources were limited, and choices had to be made."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "He wanted to feel a part of something bigger than himself.",
+        "example2": "He wanted his part in cash."
+    },
+    "54": {
+        "sentence": "he wanted part of the project",
+        "word": "part",
+        "meaning1": "portion",
+        "meaning2": "share",
+        "focus_meaning": "share",
+        "precontexts": [
+            "The team had been working tirelessly for months. The idea was brilliant, and the demand was rising. Investors were eager to get involved.",
+            "There was a new startup looking for investors.",
+            "They were developing something innovative and exciting. Everyone in the office knew the potential it held."
+        ],
+        "endings": [
+            "They were discussing who should join the new venture.",
+            "The team gathered around the table to decide on their roles. Everyone wanted to contribute something significant.",
+            "The startup had just received a huge investment. Each member had ideas that could push the project forward. However, resources were limited, and choices had to be made."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "He wanted to feel a part of something bigger than himself.",
+        "example2": "He wanted his part in cash."
+    },
+    "55": {
+        "sentence": "she could sense danger approaching",
+        "word": "sense",
+        "meaning1": "perceive through the senses",
+        "meaning2": "feel or become aware of by intuition",
+        "focus_meaning": "perceive through the senses",
+        "precontexts": [
+            "The wind whispered through the trees, carrying an unsettling chill. Shadows seemed to move in the corners of her eyes.",
+            "Emma walked alone through the dark forest.",
+            "As the clock struck midnight, Julia found herself alone in the deserted city park. A rustling sound echoed behind her, making the hairs on her neck stand up. She took a deep breath, feeling a sudden unease."
+        ],
+        "endings": [
+            "The air grew colder as the sun set behind the hills. Shadows stretched across the ground, creating an odd pattern.",
+            "The forest was eerily quiet, with not a sound to be heard.",
+            "As she wandered the narrow streets of the old town, the dim lights flickered above. Her footsteps echoed, bouncing off the stone walls. With each step, the atmosphere of unease deepened."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "I sensed the insect land lightly on my ear.",
+        "example2": "An interesting theory that is emerging is that the animals sensed"
+    },
+    "56": {
+        "sentence": "she could sense danger approaching",
+        "word": "sense",
+        "meaning1": "perceive through the senses",
+        "meaning2": "feel or become aware of by intuition",
+        "focus_meaning": "feel or become aware of by intuition",
+        "precontexts": [
+            "The wind whispered through the trees, carrying an unsettling chill. Shadows seemed to move in the corners of her eyes.",
+            "Emma walked alone through the dark forest.",
+            "As the clock struck midnight, Julia found herself alone in the deserted city park. A rustling sound echoed behind her, making the hairs on her neck stand up. She took a deep breath, feeling a sudden unease."
+        ],
+        "endings": [
+            "The air grew colder as the sun set behind the hills. Shadows stretched across the ground, creating an odd pattern.",
+            "The forest was eerily quiet, with not a sound to be heard.",
+            "As she wandered the narrow streets of the old town, the dim lights flickered above. Her footsteps echoed, bouncing off the stone walls. With each step, the atmosphere of unease deepened."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "I sensed the insect land lightly on my ear.",
+        "example2": "An interesting theory that is emerging is that the animals sensed"
+    },
+    "57": {
+        "sentence": "the hospital will discharge the patients today",
+        "word": "discharge",
+        "meaning1": "get rid of; empty; cause to expel",
+        "meaning2": "free from obligations, service or confinement",
+        "focus_meaning": "get rid of; empty; cause to expel",
+        "precontexts": [
+            "The hospital has been surprisingly crowded due to the recent events.",
+            "Patients have been staying longer than expected. The staff is preparing for changes today.",
+            "A storm caused a massive blackout, leaving the hospital with limited resources. Many staff members discussed ways to handle the challenges. A hasty solution needs to be implemented."
+        ],
+        "endings": [
+            "The hospital staff prepared the necessary paperwork and updated the records.",
+            "Over the past week, a contagious illness spread rapidly through the hospital wards. Fearing a wider outbreak, management took drastic measures. They held a meeting to discuss the best way to resolve the situation.",
+            "The storm caused significant damage to the hospital wing. Authorities decided to move some patients to a temporary location."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "Isn't it great that my loan was discharged?!",
+        "example2": "The fate of patients discharged the day following surgery has not been reported."
+    },
+    "58": {
+        "sentence": "the hospital will discharge the patients today",
+        "word": "discharge",
+        "meaning1": "get rid of; empty; cause to expel",
+        "meaning2": "free from obligations, service or confinement",
+        "focus_meaning": "free from obligations, service or confinement",
+        "precontexts": [
+            "The hospital has been surprisingly crowded due to the recent events.",
+            "Patients have been staying longer than expected. The staff is preparing for changes today.",
+            "A storm caused a massive blackout, leaving the hospital with limited resources. Many staff members discussed ways to handle the challenges. A hasty solution needs to be implemented."
+        ],
+        "endings": [
+            "The hospital staff prepared the necessary paperwork and updated the records.",
+            "Over the past week, a contagious illness spread rapidly through the hospital wards. Fearing a wider outbreak, management took drastic measures. They held a meeting to discuss the best way to resolve the situation.",
+            "The storm caused significant damage to the hospital wing. Authorities decided to move some patients to a temporary location."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "Isn't it great that my loan was discharged?!",
+        "example2": "The fate of patients discharged the day following surgery has not been reported."
+    },
+    "59": {
+        "sentence": "if you break the rules, you will get in trouble",
+        "word": "get",
+        "meaning1": "become aware of",
+        "meaning2": "receive punishment",
+        "focus_meaning": "become aware of",
+        "precontexts": [
+            "The children gathered around the ancient book. It clearly warned of consequences for those who disobeyed its commands.",
+            "Tommy sneaked into the kitchen despite being told not to.",
+            "Sara heard the whispers in the hallway about the forbidden door. Her curiosity was stronger than her fear. Everyone who dared to enter never returned the same."
+        ],
+        "endings": [
+            "Jack discovered a mysterious map hidden in the attic. The map pointed to a forbidden cave. He decided to explore it despite the danger signs.",
+            "Ella had a bad feeling about the old library. But curiosity drew her inside anyway.",
+            "Sam entered the abandoned house against his friends' warnings."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "Be informed--get a line on new bankruptcy ramifications. ",
+        "example2": "Oooh, now you're gonna get it!"
+    },
+    "60": {
+        "sentence": "if you break the rules, you will get in trouble",
+        "word": "get",
+        "meaning1": "become aware of",
+        "meaning2": "receive punishment",
+        "focus_meaning": "receive punishment",
+        "precontexts": [
+            "The children gathered around the ancient book. It clearly warned of consequences for those who disobeyed its commands.",
+            "Tommy sneaked into the kitchen despite being told not to.",
+            "Sara heard the whispers in the hallway about the forbidden door. Her curiosity was stronger than her fear. Everyone who dared to enter never returned the same."
+        ],
+        "endings": [
+            "Jack discovered a mysterious map hidden in the attic. The map pointed to a forbidden cave. He decided to explore it despite the danger signs.",
+            "Ella had a bad feeling about the old library. But curiosity drew her inside anyway.",
+            "Sam entered the abandoned house against his friends' warnings."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "Be informed--get a line on new bankruptcy ramifications. ",
+        "example2": "Oooh, now you're gonna get it!"
+    },
+    "61": {
+        "sentence": "As they entered the room, the title they were looking for had slipped their mind.",
+        "word": "title",
+        "meaning1": "The name of a piece of work.",
+        "meaning2": "An established or recognized right, formal or informal.",
+        "focus_meaning": "The name of a piece of work.",
+        "precontexts": [
+            "They had been searching for what seemed like forever.",
+            "After weeks of research, they finally stumbled upon a clue. It led them to a small, dusty bookstore downtown.",
+            "The two detectives had received a mysterious envelope that morning. Inside, there was a cryptic message and an old map. Their investigation led them to this abandoned manor."
+        ],
+        "endings": [
+            "They browsed the old library in search of something important.",
+            "Eagerly, they stepped into the grand mansion they had heard so much about. Rumors hinted at a certain elusive piece hidden inside. They were determined to find what had brought them here.",
+            "In the dim-lit hallway, they whispered, trying to recall a critical detail. The room they approached was said to hold secrets."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "He looked for books with long titles.",
+        "example2": "He has title to any of his father's property."
+    },
+    "62": {
+        "sentence": "As they entered the room, the title they were looking for had slipped their mind.",
+        "word": "title",
+        "meaning1": "The name of a piece of work.",
+        "meaning2": "An established or recognized right, formal or informal.",
+        "focus_meaning": "An established or recognized right, formal or informal.",
+        "precontexts": [
+            "They had been searching for what seemed like forever.",
+            "After weeks of research, they finally stumbled upon a clue. It led them to a small, dusty bookstore downtown.",
+            "The two detectives had received a mysterious envelope that morning. Inside, there was a cryptic message and an old map. Their investigation led them to this abandoned manor."
+        ],
+        "endings": [
+            "They browsed the old library in search of something important.",
+            "Eagerly, they stepped into the grand mansion they had heard so much about. Rumors hinted at a certain elusive piece hidden inside. They were determined to find what had brought them here.",
+            "In the dim-lit hallway, they whispered, trying to recall a critical detail. The room they approached was said to hold secrets."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "He looked for books with long titles.",
+        "example2": "He has title to any of his father's property."
+    },
+    "63": {
+        "sentence": "When they needed to most, the could not identify the top.",
+        "word": "top",
+        "meaning1": "platform at the head of a ship's mast",
+        "meaning2": "a lid or cover on a jar, can",
+        "focus_meaning": "platform at the head of a ship's mast",
+        "precontexts": [
+            "The night was dark, and the container was somewhere on deck. As the waves crashed mercilessly, supplies were precious to them all. In the confusion, they feared losing their way.",
+            "Amidst the swirling storm, they clung to whatever was at hand. The captain shouted commands over the roaring winds.",
+            "The crew searched frantically for what had gone missing."
+        ],
+        "endings": [
+            "They had a map to guide them through the rough seas. A crucial part of the journey remained elusive.",
+            "The crew had just been hit by a sudden storm.",
+            "The ship was tossed around by the relentless waves. Supplies were checked as panic began to spread among the sailors. They faced a challenge unlike any they had seen before."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The antiaircraft guns were located in the warship's top.",
+        "example2": "I can't find the top for the peanut butter jar."
+    },
+    "64": {
+        "sentence": "When they needed to most, the could not identify the top.",
+        "word": "top",
+        "meaning1": "platform at the head of a ship's mast",
+        "meaning2": "a lid or cover on a jar, can",
+        "focus_meaning": "a lid or cover on a jar, can",
+        "precontexts": [
+            "The night was dark, and the container was somewhere on deck. As the waves crashed mercilessly, supplies were precious to them all. In the confusion, they feared losing their way.",
+            "Amidst the swirling storm, they clung to whatever was at hand. The captain shouted commands over the roaring winds.",
+            "The crew searched frantically for what had gone missing."
+        ],
+        "endings": [
+            "They had a map to guide them through the rough seas. A crucial part of the journey remained elusive.",
+            "The crew had just been hit by a sudden storm.",
+            "The ship was tossed around by the relentless waves. Supplies were checked as panic began to spread among the sailors. They faced a challenge unlike any they had seen before."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "The antiaircraft guns were located in the warship's top.",
+        "example2": "I can't find the top for the peanut butter jar."
+    },
+    "65": {
+        "sentence": "The sudden jump caused the hairs on his arm to stand on end.",
+        "word": "jump",
+        "meaning1": "startled movement",
+        "meaning2": "parachuting",
+        "focus_meaning": "startled movement",
+        "precontexts": [
+            "He hadn't expected the noise to be so loud.",
+            "Late at night, the wind howled through the trees. Harry stared at the shadows, trying to ignore his racing heart. Something unexpected had happened just moments ago.",
+            "The instructor shouted, \"Go, go, go!\" Tom hesitated at the edge."
+        ],
+        "endings": [
+            "The plane began to descend sharply. Jack quickly checked his equipment.",
+            "The forest was silent, except for the rustle of leaves underfoot. Jack's friends dared him to step closer, pushing him towards the mysterious noise. He took a deep breath, ready for the unknown.",
+            "Jack felt his heart race as he approached the edge of the cliff."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "He awoke from his nightmare with a jump.",
+        "example2": "I've made forty-three parachute jumps into enemy territory."
+    },
+    "66": {
+        "sentence": "The sudden jump caused the hairs on his arm to stand on end.",
+        "word": "jump",
+        "meaning1": "startled movement",
+        "meaning2": "parachuting",
+        "focus_meaning": "parachuting",
+        "precontexts": [
+            "He hadn't expected the noise to be so loud.",
+            "Late at night, the wind howled through the trees. Harry stared at the shadows, trying to ignore his racing heart. Something unexpected had happened just moments ago.",
+            "The instructor shouted, \"Go, go, go!\" Tom hesitated at the edge."
+        ],
+        "endings": [
+            "The plane began to descend sharply. Jack quickly checked his equipment.",
+            "The forest was silent, except for the rustle of leaves underfoot. Jack's friends dared him to step closer, pushing him towards the mysterious noise. He took a deep breath, ready for the unknown.",
+            "Jack felt his heart race as he approached the edge of the cliff."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "He awoke from his nightmare with a jump.",
+        "example2": "I've made forty-three parachute jumps into enemy territory."
+    },
+    "67": {
+        "sentence": "The reaction was not at all what they had expected.",
+        "word": "reaction",
+        "meaning1": "A bodily process occurring due to the effect of some antecedent stimulus or agent.",
+        "meaning2": "(mechanics) the equal and opposite force that is produced when any force is applied to a body.",
+        "focus_meaning": "A bodily process occurring due to the effect of some antecedent stimulus or agent.",
+        "precontexts": [
+            "They added the final ingredient to the bubbling mixture and waited.",
+            "After days of preparation, they were finally ready for the big launch. The CEO said a few words of encouragement, and everyone braced themselves. The button was pressed with great anticipation.",
+            "The team gathered around the machine as the countdown reached zero. Each of them hoped for something extraordinary."
+        ],
+        "endings": [
+            "The scientist injected the serum into the subject's arm. A few moments later, the subject's heart rate began to increase.",
+            "The engineer tightened the last bolt on the newly-designed machine with high precision. As the switch flipped on, a faint tremor ran through the structure. They all held their breath, waiting to see what would happen next.",
+            "When they pressed the button, the large contraption began to whirr loudly."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "He had a bad reaction to the medicine.",
+        "example2": "Every action has an equal and opposite reaction."
+    },
+    "68": {
+        "sentence": "The reaction was not at all what they had expected.",
+        "word": "reaction",
+        "meaning1": "A bodily process occurring due to the effect of some antecedent stimulus or agent.",
+        "meaning2": "(mechanics) the equal and opposite force that is produced when any force is applied to a body.",
+        "focus_meaning": "(mechanics) the equal and opposite force that is produced when any force is applied to a body.",
+        "precontexts": [
+            "They added the final ingredient to the bubbling mixture and waited.",
+            "After days of preparation, they were finally ready for the big launch. The CEO said a few words of encouragement, and everyone braced themselves. The button was pressed with great anticipation.",
+            "The team gathered around the machine as the countdown reached zero. Each of them hoped for something extraordinary."
+        ],
+        "endings": [
+            "The scientist injected the serum into the subject's arm. A few moments later, the subject's heart rate began to increase.",
+            "The engineer tightened the last bolt on the newly-designed machine with high precision. As the switch flipped on, a faint tremor ran through the structure. They all held their breath, waiting to see what would happen next.",
+            "When they pressed the button, the large contraption began to whirr loudly."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "He had a bad reaction to the medicine.",
+        "example2": "Every action has an equal and opposite reaction."
+    },
+    "69": {
+        "sentence": "His crown was badly damaged after today's events.",
+        "word": "crown",
+        "meaning1": "coronate",
+        "meaning2": "uppermost part of",
+        "focus_meaning": "coronate",
+        "precontexts": [
+            "Tom carefully placed his masterpiece on the shelf. During the ceremony, he leaned in for a closer look. Suddenly, a loud crash echoed as something precious fell.",
+            "The king tripped over the throne room steps. His head hit the floor with a loud thud.",
+            "He stumbled while balancing an ornate, golden object on his head."
+        ],
+        "endings": [
+            "The king slipped and fell during the parade.",
+            "He gazed at his reflection in the polished trophy. A loud crash suddenly interrupted his thoughts.",
+            "Riding through the forest, he felt the wind whipping against him. The old tree branch stretched across his path. With a quick dodge, he narrowly avoided it."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "The winner of today's game will be crowned the best club team in Europe.",
+        "example2": "Crenellated spires crown the Norman towers of St. Peters Cathedral."
+    },
+    "70": {
+        "sentence": "His crown was badly damaged after today's events.",
+        "word": "crown",
+        "meaning1": "coronate",
+        "meaning2": "uppermost part of",
+        "focus_meaning": "uppermost part of",
+        "precontexts": [
+            "Tom carefully placed his masterpiece on the shelf. During the ceremony, he leaned in for a closer look. Suddenly, a loud crash echoed as something precious fell.",
+            "The king tripped over the throne room steps. His head hit the floor with a loud thud.",
+            "He stumbled while balancing an ornate, golden object on his head."
+        ],
+        "endings": [
+            "The king slipped and fell during the parade.",
+            "He gazed at his reflection in the polished trophy. A loud crash suddenly interrupted his thoughts.",
+            "Riding through the forest, he felt the wind whipping against him. The old tree branch stretched across his path. With a quick dodge, he narrowly avoided it."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "The winner of today's game will be crowned the best club team in Europe.",
+        "example2": "Crenellated spires crown the Norman towers of St. Peters Cathedral."
+    },
+    "71": {
+        "sentence": "There was a chill in camp before the game.",
+        "word": "chill",
+        "meaning1": "Depress, discourage, or frighten an    individual, group, or process.",
+        "meaning2": "(Cause to) become physically cooler.",
+        "focus_meaning": "Depress, discourage, or frighten an    individual, group, or process.",
+        "precontexts": [
+            "The team sat silently, staring at the dark clouds looming overhead.",
+            "Their coach had given them unsettling news just before they arrived at the camp. A mysterious figure watched them from the edge of the forest.",
+            "As the sun set, the players noticed frost beginning to form on the grass. They huddled around a dim fire, exchanging worried glances. An unnatural silence filled the air, amplifying their sense of unease."
+        ],
+        "endings": [
+            "The rumor of the other team's new star player had spread among them. Adding to that were the gray clouds slowly covering the sky. The players could feel the tension in the air as they sat together on the benches.",
+            "The team huddled around the coach for a final pep talk.",
+            "A sudden breeze swept through the trees as the players sat quietly. They were all thinking about the upcoming match."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "The news of the city's surrender chilled the soldiers.",
+        "example2": "The air chilled considerably after the thunderstorm."
+    },
+    "72": {
+        "sentence": "There was a chill in camp before the game.",
+        "word": "chill",
+        "meaning1": "Depress, discourage, or frighten an    individual, group, or process.",
+        "meaning2": "(Cause to) become physically cooler.",
+        "focus_meaning": "(Cause to) become physically cooler.",
+        "precontexts": [
+            "The team sat silently, staring at the dark clouds looming overhead.",
+            "Their coach had given them unsettling news just before they arrived at the camp. A mysterious figure watched them from the edge of the forest.",
+            "As the sun set, the players noticed frost beginning to form on the grass. They huddled around a dim fire, exchanging worried glances. An unnatural silence filled the air, amplifying their sense of unease."
+        ],
+        "endings": [
+            "The rumor of the other team's new star player had spread among them. Adding to that were the gray clouds slowly covering the sky. The players could feel the tension in the air as they sat together on the benches.",
+            "The team huddled around the coach for a final pep talk.",
+            "A sudden breeze swept through the trees as the players sat quietly. They were all thinking about the upcoming match."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "The news of the city's surrender chilled the soldiers.",
+        "example2": "The air chilled considerably after the thunderstorm."
+    },
+    "73": {
+        "sentence": "He looked longingly at the remembrance.",
+        "word": "remembrance",
+        "meaning1": "social commemoration of the deceased",
+        "meaning2": "an artifact or token that serves as a reminder",
+        "focus_meaning": "social commemoration of the deceased",
+        "precontexts": [
+            "The air was heavy with the scent of pine as he wandered through the silent garden. A distant echo of voices filled his ears, reminders of gatherings long past. His hand brushed against a carved stone, its surface worn by time and touch.",
+            "He sat on the park bench, clutching an old photograph in his hand.",
+            "The sun set slowly behind the hills as he strolled down the narrow path. His thoughts were tangled in memories of laughter and tears."
+        ],
+        "endings": [
+            "In the quiet room, a single candle flickered on the windowsill. He lingered by the mantelpiece crowded with trinkets from the past.",
+            "The old daydreamer paused before the dusty shelf, where an old photo lay among faded memories.",
+            "The village square was bustling with people wearing black, their faces solemn. A child's laughter echoed in the background, a stark contrast to the somber expressions. He bent down, picking up a small, worn-out locket from the grass."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "Memorial Day is held in remembrance of soldiers who died serving their country.",
+        "example2": "The guests all received small silver boxes as a remembrance of the wedding."
+    },
+    "74": {
+        "sentence": "He looked longingly at the remembrance.",
+        "word": "remembrance",
+        "meaning1": "social commemoration of the deceased",
+        "meaning2": "an artifact or token that serves as a reminder",
+        "focus_meaning": "an artifact or token that serves as a reminder",
+        "precontexts": [
+            "The air was heavy with the scent of pine as he wandered through the silent garden. A distant echo of voices filled his ears, reminders of gatherings long past. His hand brushed against a carved stone, its surface worn by time and touch.",
+            "He sat on the park bench, clutching an old photograph in his hand.",
+            "The sun set slowly behind the hills as he strolled down the narrow path. His thoughts were tangled in memories of laughter and tears."
+        ],
+        "endings": [
+            "In the quiet room, a single candle flickered on the windowsill. He lingered by the mantelpiece crowded with trinkets from the past.",
+            "The old daydreamer paused before the dusty shelf, where an old photo lay among faded memories.",
+            "The village square was bustling with people wearing black, their faces solemn. A child's laughter echoed in the background, a stark contrast to the somber expressions. He bent down, picking up a small, worn-out locket from the grass."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "Memorial Day is held in remembrance of soldiers who died serving their country.",
+        "example2": "The guests all received small silver boxes as a remembrance of the wedding."
+    },
+    "75": {
+        "sentence": "The girl was worrying about her final.",
+        "word": "final",
+        "meaning1": "academic test",
+        "meaning2": "physical test",
+        "focus_meaning": "academic test",
+        "precontexts": [
+            "She glanced at the calendar, noting the big day was approaching.",
+            "With her mind racing, she took a deep breath. She couldn't let the pressure get to her.",
+            "Sitting at her desk, she checked the time and the notes scattered around her. Memories of past challenges surfaced, making her anxious. The room felt colder as expectations loomed over her."
+        ],
+        "endings": [
+            "She stared at the calendar with a growing sense of unease.",
+            "There was a buzz of excitement and tension in the school hall. Her heart raced as her turn came closer.",
+            "The coach announced the day of the big event, and whispers spread through the locker room. She had trained for weeks, pushing herself to the limit. Now, only a few days remained to prepare."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "I studied all night for my Linguistics final.",
+        "example2": "John spilled coffee all over his final."
+    },
+    "76": {
+        "sentence": "The girl was worrying about her final.",
+        "word": "final",
+        "meaning1": "academic test",
+        "meaning2": "physical test",
+        "focus_meaning": "physical test",
+        "precontexts": [
+            "She glanced at the calendar, noting the big day was approaching.",
+            "With her mind racing, she took a deep breath. She couldn't let the pressure get to her.",
+            "Sitting at her desk, she checked the time and the notes scattered around her. Memories of past challenges surfaced, making her anxious. The room felt colder as expectations loomed over her."
+        ],
+        "endings": [
+            "She stared at the calendar with a growing sense of unease.",
+            "There was a buzz of excitement and tension in the school hall. Her heart raced as her turn came closer.",
+            "The coach announced the day of the big event, and whispers spread through the locker room. She had trained for weeks, pushing herself to the limit. Now, only a few days remained to prepare."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "I studied all night for my Linguistics final.",
+        "example2": "John spilled coffee all over his final."
+    },
+    "77": {
+        "sentence": "The wall was rendered unsafe.",
+        "word": "render",
+        "meaning1": "cause to become",
+        "meaning2": "coat with plastic or cement",
+        "focus_meaning": "cause to become",
+        "precontexts": [
+            "The storm had been raging for hours, and the building materials were strewn about.",
+            "Last night's party got out of hand. Paint cans and careless dances left marks everywhere.",
+            "The construction workers had been in a rush all day, laying bricks and mortar without the usual precision. An unexpected inspection was announced, causing a frenzy of activity. Heavy machinery clattered against the half-finished surfaces."
+        ],
+        "endings": [
+            "The workers arrived early, setting up their equipment. They were tasked with fixing the old wall but had doubts about their materials.",
+            "In a small town, the local council decided to enhance the community park. Volunteers gathered with enthusiasm, hauling bags of new material. They hoped it would strengthen the aging structures before the upcoming festival.",
+            "The old building stood abandoned for years before anyone noticed its condition."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "The shot rendered her immobile.",
+        "example2": "I got plasterers to lay a slab of concrete for the floor and to render the brick walls."
+    },
+    "78": {
+        "sentence": "The wall was rendered unsafe.",
+        "word": "render",
+        "meaning1": "cause to become",
+        "meaning2": "coat with plastic or cement",
+        "focus_meaning": "coat with plastic or cement",
+        "precontexts": [
+            "The storm had been raging for hours, and the building materials were strewn about.",
+            "Last night's party got out of hand. Paint cans and careless dances left marks everywhere.",
+            "The construction workers had been in a rush all day, laying bricks and mortar without the usual precision. An unexpected inspection was announced, causing a frenzy of activity. Heavy machinery clattered against the half-finished surfaces."
+        ],
+        "endings": [
+            "The workers arrived early, setting up their equipment. They were tasked with fixing the old wall but had doubts about their materials.",
+            "In a small town, the local council decided to enhance the community park. Volunteers gathered with enthusiasm, hauling bags of new material. They hoped it would strengthen the aging structures before the upcoming festival.",
+            "The old building stood abandoned for years before anyone noticed its condition."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "The shot rendered her immobile.",
+        "example2": "I got plasterers to lay a slab of concrete for the floor and to render the brick walls."
+    },
+    "79": {
+        "sentence": "The weakness of the country's prime minister was obvious to many.",
+        "word": "weakness",
+        "meaning1": "a flaw or imperfection",
+        "meaning2": "a state of social or political powerlessness",
+        "focus_meaning": "a flaw or imperfection",
+        "precontexts": [
+            "The prime minister struggled to handle the crisis that gripped the nation.",
+            "The economy teetered on the brink of collapse due to poor decisions by the leadership. Citizens took to the streets demanding change. Opposition leaders seized the moment to gather momentum.",
+            "Public confidence in the prime minister waned after the recent scandal. Whispers of betrayal haunted the halls of the capital."
+        ],
+        "endings": [
+            "The prime minister faced mounting criticism from the cabinet.",
+            "A new policy failed to improve the economic situation. The public grew increasingly uneasy with the leader's decisions.",
+            "Rumors of corruption in the government were spreading fast. Many citizens started to lose faith in their leader. Allies questioned his ability to lead effectively."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "You must evaluate your product's strengths and weaknesses.",
+        "example2": "Their party's weakness in the senate means there may not be enough votes for the bill."
+    },
+    "80": {
+        "sentence": "The weakness of the country's prime minister was obvious to many.",
+        "word": "weakness",
+        "meaning1": "a flaw or imperfection",
+        "meaning2": "a state of social or political powerlessness",
+        "focus_meaning": "a state of social or political powerlessness",
+        "precontexts": [
+            "The prime minister struggled to handle the crisis that gripped the nation.",
+            "The economy teetered on the brink of collapse due to poor decisions by the leadership. Citizens took to the streets demanding change. Opposition leaders seized the moment to gather momentum.",
+            "Public confidence in the prime minister waned after the recent scandal. Whispers of betrayal haunted the halls of the capital."
+        ],
+        "endings": [
+            "The prime minister faced mounting criticism from the cabinet.",
+            "A new policy failed to improve the economic situation. The public grew increasingly uneasy with the leader's decisions.",
+            "Rumors of corruption in the government were spreading fast. Many citizens started to lose faith in their leader. Allies questioned his ability to lead effectively."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "You must evaluate your product's strengths and weaknesses.",
+        "example2": "Their party's weakness in the senate means there may not be enough votes for the bill."
+    },
+    "81": {
+        "sentence": "Martha gave him the slip",
+        "word": "slip",
+        "meaning1": "a mistake during communication",
+        "meaning2": "calculated escape",
+        "focus_meaning": "a mistake during communication",
+        "precontexts": [
+            "At the party, Martha was nervous about seeing him. She decided to act quickly.",
+            "Martha noticed him approaching from across the room. She glanced at her watch, realizing she was already late for her next appointment. Avoiding eye contact, she maneuvered through the crowd.",
+            "Martha whispered something to him and turned away."
+        ],
+        "endings": [
+            "At the cafe, he asked Martha about the missing files from the office. She hesitated and suddenly changed the topic to the weather. Right after, her phone vibrated, and she stood up abruptly, mumbling something about an appointment.",
+            "As they walked by the river, he noticed Martha was unusually quiet. She seemed to be lost in her thoughts, avoiding eye contact.",
+            "Martha nervously glanced over her shoulder as she quickened her pace through the crowded market."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The candidate is known for making slips of the tongue during his speeches.",
+        "example2": "The burglar gave the police the slip by going down a back alleyway."
+    },
+    "82": {
+        "sentence": "Martha gave him the slip",
+        "word": "slip",
+        "meaning1": "a mistake during communication",
+        "meaning2": "calculated escape",
+        "focus_meaning": "calculated escape",
+        "precontexts": [
+            "At the party, Martha was nervous about seeing him. She decided to act quickly.",
+            "Martha noticed him approaching from across the room. She glanced at her watch, realizing she was already late for her next appointment. Avoiding eye contact, she maneuvered through the crowd.",
+            "Martha whispered something to him and turned away."
+        ],
+        "endings": [
+            "At the cafe, he asked Martha about the missing files from the office. She hesitated and suddenly changed the topic to the weather. Right after, her phone vibrated, and she stood up abruptly, mumbling something about an appointment.",
+            "As they walked by the river, he noticed Martha was unusually quiet. She seemed to be lost in her thoughts, avoiding eye contact.",
+            "Martha nervously glanced over her shoulder as she quickened her pace through the crowded market."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "The candidate is known for making slips of the tongue during his speeches.",
+        "example2": "The burglar gave the police the slip by going down a back alleyway."
+    },
+    "83": {
+        "sentence": "it irrupted into the room",
+        "word": "irrupt",
+        "meaning1": "to interrupt, enter uninvited",
+        "meaning2": "to grow rapidly",
+        "focus_meaning": "to interrupt, enter uninvited",
+        "precontexts": [
+            "Late at night, the old clock on the wall chimed with an unsettling echo. The room was empty, save for a lone figure huddled in the corner. The tension was almost palpable.",
+            "The mysterious shadow loomed over the house.",
+            "The curious cat had been watching the strange box intently. The air was thick with anticipation."
+        ],
+        "endings": [
+            "Everyone was deep in conversation when the door swung open violently.",
+            "In the dimly lit laboratory, the scientists huddled over their notes. A strange vibration shook the air. With no warning, the creature broke free from its containment.",
+            "The children were playing quietly in the nursery. Suddenly, something slammed against the window."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "They irrupted into society again in 1871, reasserting their rights.",
+        "example2": "However, where deer populations faced lower mortality, they irrupted."
+    },
+    "84": {
+        "sentence": "it irrupted into the room",
+        "word": "irrupt",
+        "meaning1": "to interrupt, enter uninvited",
+        "meaning2": "to grow rapidly",
+        "focus_meaning": "to grow rapidly",
+        "precontexts": [
+            "Late at night, the old clock on the wall chimed with an unsettling echo. The room was empty, save for a lone figure huddled in the corner. The tension was almost palpable.",
+            "The mysterious shadow loomed over the house.",
+            "The curious cat had been watching the strange box intently. The air was thick with anticipation."
+        ],
+        "endings": [
+            "Everyone was deep in conversation when the door swung open violently.",
+            "In the dimly lit laboratory, the scientists huddled over their notes. A strange vibration shook the air. With no warning, the creature broke free from its containment.",
+            "The children were playing quietly in the nursery. Suddenly, something slammed against the window."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "They irrupted into society again in 1871, reasserting their rights.",
+        "example2": "However, where deer populations faced lower mortality, they irrupted."
+    },
+    "85": {
+        "sentence": "He was going to pick up a date",
+        "word": "date",
+        "meaning1": "Person on a date",
+        "meaning2": "Edible fruit",
+        "focus_meaning": "Person on a date",
+        "precontexts": [
+            "The evening air was cool as he stepped outside. He knew this was an important night.",
+            "The market buzzed with activity as he weaved through the crowd. His mind was racing, trying to anticipate every detail. He couldn't afford to forget anything tonight.",
+            "He checked his watch and realized he was running late."
+        ],
+        "endings": [
+            "He took a deep breath as he neared the market. It was almost time for his surprise.",
+            "He checked the time and realized he had only a few minutes left.",
+            "He had been planning for this moment all week, selecting his best outfit. The sun was setting, adding a warm glow to the bustling street. His heart raced as he imagined the upcoming evening adventure."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "I spilled grape juice all over my date's lap.",
+        "example2": "I sank my teeth into a juicy date."
+    },
+    "86": {
+        "sentence": "He was going to pick up a date",
+        "word": "date",
+        "meaning1": "Person on a date",
+        "meaning2": "Edible fruit",
+        "focus_meaning": "Edible fruit",
+        "precontexts": [
+            "The evening air was cool as he stepped outside. He knew this was an important night.",
+            "The market buzzed with activity as he weaved through the crowd. His mind was racing, trying to anticipate every detail. He couldn't afford to forget anything tonight.",
+            "He checked his watch and realized he was running late."
+        ],
+        "endings": [
+            "He took a deep breath as he neared the market. It was almost time for his surprise.",
+            "He checked the time and realized he had only a few minutes left.",
+            "He had been planning for this moment all week, selecting his best outfit. The sun was setting, adding a warm glow to the bustling street. His heart raced as he imagined the upcoming evening adventure."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "I spilled grape juice all over my date's lap.",
+        "example2": "I sank my teeth into a juicy date."
+    },
+    "87": {
+        "sentence": "he balanced the two positions well",
+        "word": "balance",
+        "meaning1": "bring into or maintain a physically stable position",
+        "meaning2": "manage accounts",
+        "focus_meaning": "bring into or maintain a physically stable position",
+        "precontexts": [
+            "He stood on the surfboard, deciding the budget for the new project.",
+            "In the city, he frequently juggled his work and passion for acrobatics. His colleagues wondered how he managed it.",
+            "As a circus performer, he effortlessly walked the tightrope, drawing cheers from the crowd. Meanwhile, his small business thrived under his careful watch. He often marveled at how similar his two worlds felt."
+        ],
+        "endings": [
+            "Growing up in a circus family, he was taught the importance of precision both on the wire and at the ledger. He watched his father, a humble acrobat, manage the circus finances with careful attention. Inspired, he decided to pursue both disciplines.",
+            "He spent years practicing the art of tightrope walking and bookkeeping.",
+            "As the CEO of a thriving startup, he often found himself walking the tightrope of decisions. But he also enjoyed the peace of meticulously reviewing spreadsheets every evening."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "She balanced the tray on one wide fat palm.",
+        "example2": "Not one Republican president has balanced the budget in 34 years in this country."
+    },
+    "88": {
+        "sentence": "he balanced the two positions well",
+        "word": "balance",
+        "meaning1": "bring into or maintain a physically stable position",
+        "meaning2": "manage accounts",
+        "focus_meaning": "manage accounts",
+        "precontexts": [
+            "He stood on the surfboard, deciding the budget for the new project.",
+            "In the city, he frequently juggled his work and passion for acrobatics. His colleagues wondered how he managed it.",
+            "As a circus performer, he effortlessly walked the tightrope, drawing cheers from the crowd. Meanwhile, his small business thrived under his careful watch. He often marveled at how similar his two worlds felt."
+        ],
+        "endings": [
+            "Growing up in a circus family, he was taught the importance of precision both on the wire and at the ledger. He watched his father, a humble acrobat, manage the circus finances with careful attention. Inspired, he decided to pursue both disciplines.",
+            "He spent years practicing the art of tightrope walking and bookkeeping.",
+            "As the CEO of a thriving startup, he often found himself walking the tightrope of decisions. But he also enjoyed the peace of meticulously reviewing spreadsheets every evening."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "She balanced the tray on one wide fat palm.",
+        "example2": "Not one Republican president has balanced the budget in 34 years in this country."
+    },
+    "89": {
+        "sentence": "the script was very elaborate",
+        "word": "script",
+        "meaning1": "a dramatic composition, e.g., for a play",
+        "meaning2": "style of personal handwriting",
+        "focus_meaning": "a dramatic composition, e.g., for a play",
+        "precontexts": [
+            "John found the dusty old notebook in the attic and was intrigued by what he saw.",
+            "Emma always admired her grandfather's neat notes and wondered about his life. While visiting her grandmother, she stumbled upon a collection of aged pages in a hidden box. She decided to read them all in one sitting.",
+            "The group gathered in the theater, each holding a piece of paper with their lines. They were eager to see how it would all come together."
+        ],
+        "endings": [
+            "Anna discovered a dusty journal in the attic, filled with detailed secrets of a bygone era. She couldn't help but wonder who wrote it. Her heart raced as she flipped through the fragile pages.",
+            "Jenny found the mysterious envelope hidden under the old floorboard.",
+            "Mark had been practicing tirelessly for weeks. His dedication was about to be tested tonight."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The actor threw his script down in disgust.",
+        "example2": "The scrawling large script of the note looked like John's handwriting."
+    },
+    "90": {
+        "sentence": "the script was very elaborate",
+        "word": "script",
+        "meaning1": "a dramatic composition, e.g., for a play",
+        "meaning2": "style of personal handwriting",
+        "focus_meaning": "style of personal handwriting",
+        "precontexts": [
+            "John found the dusty old notebook in the attic and was intrigued by what he saw.",
+            "Emma always admired her grandfather's neat notes and wondered about his life. While visiting her grandmother, she stumbled upon a collection of aged pages in a hidden box. She decided to read them all in one sitting.",
+            "The group gathered in the theater, each holding a piece of paper with their lines. They were eager to see how it would all come together."
+        ],
+        "endings": [
+            "Anna discovered a dusty journal in the attic, filled with detailed secrets of a bygone era. She couldn't help but wonder who wrote it. Her heart raced as she flipped through the fragile pages.",
+            "Jenny found the mysterious envelope hidden under the old floorboard.",
+            "Mark had been practicing tirelessly for weeks. His dedication was about to be tested tonight."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The actor threw his script down in disgust.",
+        "example2": "The scrawling large script of the note looked like John's handwriting."
+    },
+    "91": {
+        "sentence": "the builders working on the new house with  the problems say they hope will be  settlement",
+        "word": "settlement",
+        "meaning1": "resolution of a disagreement",
+        "meaning2": "the subsiding of ground or a structure on it",
+        "focus_meaning": "resolution of a disagreement",
+        "precontexts": [
+            "Rumors spread quickly about the land's history. Some say it was once home to an ancient village. Others speak of tensions between the workers and locals.",
+            "A rare artifact was found beneath the construction site. Both builders and archaeologists are interested in the find.",
+            "The team discovered unexpected issues with the foundation."
+        ],
+        "endings": [
+            "A new house is being built in the old part of town.",
+            "The project began after lengthy discussions with the community. Old foundations have been discovered on the site. Building plans have faced some unexpected challenges.",
+            "The construction site is located near a historic area. Some residents have voiced concerns about changes."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "The settlement of the dispute wasn't for several days.",
+        "example2": "A boundary wall, which has cracked due to settlement, is to be replaced."
+    },
+    "92": {
+        "sentence": "the builders working on the new house with  the problems say they hope will be  settlement",
+        "word": "settlement",
+        "meaning1": "resolution of a disagreement",
+        "meaning2": "the subsiding of ground or a structure on it",
+        "focus_meaning": "the subsiding of ground or a structure on it",
+        "precontexts": [
+            "Rumors spread quickly about the land's history. Some say it was once home to an ancient village. Others speak of tensions between the workers and locals.",
+            "A rare artifact was found beneath the construction site. Both builders and archaeologists are interested in the find.",
+            "The team discovered unexpected issues with the foundation."
+        ],
+        "endings": [
+            "A new house is being built in the old part of town.",
+            "The project began after lengthy discussions with the community. Old foundations have been discovered on the site. Building plans have faced some unexpected challenges.",
+            "The construction site is located near a historic area. Some residents have voiced concerns about changes."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The settlement of the dispute wasn't for several days.",
+        "example2": "A boundary wall, which has cracked due to settlement, is to be replaced."
+    },
+    "93": {
+        "sentence": "Mary who is playing the part of the patient  in the new play has asked for the script",
+        "word": "script",
+        "meaning1": "rote, stereotypical social behavior",
+        "meaning2": "a doctor's prescription",
+        "focus_meaning": "rote, stereotypical social behavior",
+        "precontexts": [
+            "Mary recently started rehearsing for a new play, where she portrays a patient. Her anxious nature makes her request guidance. The director emphasizes the need to remain authentic in her performance.",
+            "Mary landed a role in a medical drama and wants to be prepared.",
+            "The theater director is worried about Mary's performance. She decides to focus and perfect her role as a patient."
+        ],
+        "endings": [
+            "Her friend whispered that Mary always needed to know everything ahead of time. Mary was excited about her new role but also worried about her health. She wanted to make sure everything was covered before they started rehearsals.",
+            "The director insists that everyone knows their role exactly.",
+            "Mary has felt unwell lately but loves acting. She wants to be prepared despite her condition."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The princess was expected to follow the script of being the wife of royalty.",
+        "example2": "Dr. Jones wrote Mary a script for an anti-depressant."
+    },
+    "94": {
+        "sentence": "Mary who is playing the part of the patient  in the new play has asked for the script",
+        "word": "script",
+        "meaning1": "rote, stereotypical social behavior",
+        "meaning2": "a doctor's prescription",
+        "focus_meaning": "a doctor's prescription",
+        "precontexts": [
+            "Mary recently started rehearsing for a new play, where she portrays a patient. Her anxious nature makes her request guidance. The director emphasizes the need to remain authentic in her performance.",
+            "Mary landed a role in a medical drama and wants to be prepared.",
+            "The theater director is worried about Mary's performance. She decides to focus and perfect her role as a patient."
+        ],
+        "endings": [
+            "Her friend whispered that Mary always needed to know everything ahead of time. Mary was excited about her new role but also worried about her health. She wanted to make sure everything was covered before they started rehearsals.",
+            "The director insists that everyone knows their role exactly.",
+            "Mary has felt unwell lately but loves acting. She wants to be prepared despite her condition."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "The princess was expected to follow the script of being the wife of royalty.",
+        "example2": "Dr. Jones wrote Mary a script for an anti-depressant."
+    },
+    "95": {
+        "sentence": "I would like to divide the room in view of the disharmony in the group",
+        "word": "divide",
+        "meaning1": "disunite a group of people, animals, or other individuals",
+        "meaning2": "cause or be in a disagreement between people",
+        "focus_meaning": "disunite a group of people, animals, or other individuals",
+        "precontexts": [
+            "As the team prepared for their project presentation, differing opinions became more apparent. The tension was thick, with each subgroup firm in their beliefs. The atmosphere felt charged and on the edge of a split decision.",
+            "The room was filled with clashing personalities, each group clustered in opposite corners. A sense of division lingered in the air.",
+            "A heated argument broke out at the meeting, leaving everyone visibly tense."
+        ],
+        "endings": [
+            "The room was filled with murmurs as the discussion heated up.",
+            "The long table in the middle cast a shadow that seemed to separate groups. People eyed each other with suspicion.",
+            "They stood under the high ceiling, their voices echoing in different accents. Some leaned against the ornate walls while others gathered near the entrance. The temperature seemed to change depending on where one stood."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "I'd like all the students to divide into small discussion groups.",
+        "example2": "The conflict divided the nation along religious lines."
+    },
+    "96": {
+        "sentence": "I would like to divide the room in view of the disharmony in the group",
+        "word": "divide",
+        "meaning1": "disunite a group of people, animals, or other individuals",
+        "meaning2": "cause or be in a disagreement between people",
+        "focus_meaning": "cause or be in a disagreement between people",
+        "precontexts": [
+            "As the team prepared for their project presentation, differing opinions became more apparent. The tension was thick, with each subgroup firm in their beliefs. The atmosphere felt charged and on the edge of a split decision.",
+            "The room was filled with clashing personalities, each group clustered in opposite corners. A sense of division lingered in the air.",
+            "A heated argument broke out at the meeting, leaving everyone visibly tense."
+        ],
+        "endings": [
+            "The room was filled with murmurs as the discussion heated up.",
+            "The long table in the middle cast a shadow that seemed to separate groups. People eyed each other with suspicion.",
+            "They stood under the high ceiling, their voices echoing in different accents. Some leaned against the ornate walls while others gathered near the entrance. The temperature seemed to change depending on where one stood."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "I'd like all the students to divide into small discussion groups.",
+        "example2": "The conflict divided the nation along religious lines."
+    },
+    "97": {
+        "sentence": "the athletics club has some unsavoury characters that Jim runs with",
+        "word": "run",
+        "meaning1": "move quickly or freely, travel",
+        "meaning2": "keep company",
+        "focus_meaning": "move quickly or freely, travel",
+        "precontexts": [
+            "Jim had always been passionate about sports, ever since he was a kid. Moving to a new city didn't change that. He found himself gravitating towards the athletics club to make new connections.",
+            "Jim joined the athletics club after moving to the city.",
+            "Jim was new in town and decided to join the athletics club. He quickly made a group of friends there."
+        ],
+        "endings": [
+            "Jim felt like he needed a change in his life. The athletics club seemed like a perfect opportunity. It didn't take long for him to notice some intriguing individuals there.",
+            "Jim joined the athletics club to meet new people and keep fit.",
+            "Jim joined the athletics club, hoping to find a sense of community. He quickly became familiar with the regular members."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "Don't run or you'll be out of breath!",
+        "example2": "He runs with a bad crowd."
+    },
+    "98": {
+        "sentence": "the athletics club has some unsavoury characters that Jim runs with",
+        "word": "run",
+        "meaning1": "move quickly or freely, travel",
+        "meaning2": "keep company",
+        "focus_meaning": "keep company",
+        "precontexts": [
+            "Jim had always been passionate about sports, ever since he was a kid. Moving to a new city didn't change that. He found himself gravitating towards the athletics club to make new connections.",
+            "Jim joined the athletics club after moving to the city.",
+            "Jim was new in town and decided to join the athletics club. He quickly made a group of friends there."
+        ],
+        "endings": [
+            "Jim felt like he needed a change in his life. The athletics club seemed like a perfect opportunity. It didn't take long for him to notice some intriguing individuals there.",
+            "Jim joined the athletics club to meet new people and keep fit.",
+            "Jim joined the athletics club, hoping to find a sense of community. He quickly became familiar with the regular members."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "Don't run or you'll be out of breath!",
+        "example2": "He runs with a bad crowd."
+    },
+    "99": {
+        "sentence": "The new soprano in Wagner's opera doesn't look at all well and we were worried about her attack on stage",
+        "word": "attack",
+        "meaning1": "the stylistic onset of a musical note",
+        "meaning2": "sudden fit of illness",
+        "focus_meaning": "the stylistic onset of a musical note",
+        "precontexts": [
+            "As the opera director observed her, he felt a growing concern.",
+            "Before the show, the orchestra murmured about her rehearsals. In the dressing room, colleagues whispered about her recent struggles. Tonight's performance was the talk of the theater.",
+            "The understudy watched from the wings, sensing something was off. This performance was crucial, and everyone knew it."
+        ],
+        "endings": [
+            "The cast whispered about the new soprano\u2019s condition behind the curtains. Her rehearsal had everyone holding their breath. The director hoped she would manage during the show.",
+            "She struggled through the rehearsals all week. Everyone was on edge during her performance.",
+            "The director was frustrated as rehearsals were interrupted yet again."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "Critics say her attack of the high notes is somewhat diffident and underpowered.",
+        "example2": "The baby had two attacks of diarrhea during the night."
+    },
+    "100": {
+        "sentence": "The new soprano in Wagner's opera doesn't look at all well and we were worried about her attack on stage",
+        "word": "attack",
+        "meaning1": "the stylistic onset of a musical note",
+        "meaning2": "sudden fit of illness",
+        "focus_meaning": "sudden fit of illness",
+        "precontexts": [
+            "As the opera director observed her, he felt a growing concern.",
+            "Before the show, the orchestra murmured about her rehearsals. In the dressing room, colleagues whispered about her recent struggles. Tonight's performance was the talk of the theater.",
+            "The understudy watched from the wings, sensing something was off. This performance was crucial, and everyone knew it."
+        ],
+        "endings": [
+            "The cast whispered about the new soprano\u2019s condition behind the curtains. Her rehearsal had everyone holding their breath. The director hoped she would manage during the show.",
+            "She struggled through the rehearsals all week. Everyone was on edge during her performance.",
+            "The director was frustrated as rehearsals were interrupted yet again."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "Critics say her attack of the high notes is somewhat diffident and underpowered.",
+        "example2": "The baby had two attacks of diarrhea during the night."
+    },
+    "101": {
+        "sentence": "Benedict called at his parents",
+        "word": "call",
+        "meaning1": "a brief visit, social or professional",
+        "meaning2": "within hearing or summons",
+        "focus_meaning": "a brief visit, social or professional",
+        "precontexts": [
+            "Benedict had been working late into the night for weeks. He realized he had neglected his family during this busy period. He finally decided to stop by his parents' house unannounced.",
+            "Benedict felt a growing sense of unease. He decided to visit his parents.",
+            "Benedict felt an urgent need to see his parents."
+        ],
+        "endings": [
+            "Benedict needed to deliver some important news to his parents.",
+            "After finishing his work, Benedict remembered the promise he made to his parents. He decided it was time to fulfill it.",
+            "Benedict had been thinking about the recent family meeting. His mother had sounded a bit worried on the phone. He felt it necessary to reach out and see how they were doing."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The elderly sisters decided to make a call on their new neighbor.",
+        "example2": "Dogs may be off leash but within call of their owner's voice commands."
+    },
+    "102": {
+        "sentence": "Benedict called at his parents",
+        "word": "call",
+        "meaning1": "a brief visit, social or professional",
+        "meaning2": "within hearing or summons",
+        "focus_meaning": "within hearing or summons",
+        "precontexts": [
+            "Benedict had been working late into the night for weeks. He realized he had neglected his family during this busy period. He finally decided to stop by his parents' house unannounced.",
+            "Benedict felt a growing sense of unease. He decided to visit his parents.",
+            "Benedict felt an urgent need to see his parents."
+        ],
+        "endings": [
+            "Benedict needed to deliver some important news to his parents.",
+            "After finishing his work, Benedict remembered the promise he made to his parents. He decided it was time to fulfill it.",
+            "Benedict had been thinking about the recent family meeting. His mother had sounded a bit worried on the phone. He felt it necessary to reach out and see how they were doing."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The elderly sisters decided to make a call on their new neighbor.",
+        "example2": "Dogs may be off leash but within call of their owner's voice commands."
+    },
+    "103": {
+        "sentence": "The document was seen under a different light",
+        "word": "light",
+        "meaning1": "a source or body of illumination",
+        "meaning2": "perspective or orientation",
+        "focus_meaning": "a source or body of illumination",
+        "precontexts": [
+            "The library was deserted, filled only with the sounds of distant thunder. The scholar opened a dusty drawer and discovered an unfamiliar folder. A sense of curiosity and doubt filled the room.",
+            "The investigator fiddled with the desk lamp that kept flickering. She noticed something odd about the edges of the paper.",
+            "The power went out just as the unexpected files appeared on the desk."
+        ],
+        "endings": [
+            "The ancient tome rested on the dusty table. A whisper of a secret seemed to linger around its pages.",
+            "After the storm, they returned to the old library.",
+            "In the attic, a candle flickered softly as shadows danced across the walls. Alice and Tom continued their search, hoping for an answer. Every corner seemed to hold a mystery yet to be revealed."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "There were no lights on at Mary's house when we drove by.",
+        "example2": "After speaking with Bob, we saw the matter in a different light."
+    },
+    "104": {
+        "sentence": "The document was seen under a different light",
+        "word": "light",
+        "meaning1": "a source or body of illumination",
+        "meaning2": "perspective or orientation",
+        "focus_meaning": "perspective or orientation",
+        "precontexts": [
+            "The library was deserted, filled only with the sounds of distant thunder. The scholar opened a dusty drawer and discovered an unfamiliar folder. A sense of curiosity and doubt filled the room.",
+            "The investigator fiddled with the desk lamp that kept flickering. She noticed something odd about the edges of the paper.",
+            "The power went out just as the unexpected files appeared on the desk."
+        ],
+        "endings": [
+            "The ancient tome rested on the dusty table. A whisper of a secret seemed to linger around its pages.",
+            "After the storm, they returned to the old library.",
+            "In the attic, a candle flickered softly as shadows danced across the walls. Alice and Tom continued their search, hoping for an answer. Every corner seemed to hold a mystery yet to be revealed."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "There were no lights on at Mary's house when we drove by.",
+        "example2": "After speaking with Bob, we saw the matter in a different light."
+    },
+    "105": {
+        "sentence": "She was so emotional she choked up ",
+        "word": "choke",
+        "meaning1": "suppress, check or trap",
+        "meaning2": "reduce the air intake of a carburetor",
+        "focus_meaning": "suppress, check or trap",
+        "precontexts": [
+            "The old car sputtered and stalled as she drove to the meeting. Her heart raced as she restarted it, thinking of her looming speech.",
+            "She held the photograph tightly, tears brimming in her eyes. The memory of his laughter flooded back, overpowering her senses. Her breathing hitched, unsteady as she tried to compose herself.",
+            "As she stood in front of the crowd, the pressure was overwhelming."
+        ],
+        "endings": [
+            "As she stared at the photograph, a wave of emotions hit her, much like the stifling cloud of smoke from the car's exhaust. Memories of her father fixing the car flooded her mind, making it hard to breathe. She thought of the times they'd spent together, battered by life's challenges yet holding on.",
+            "Tears welled up in her eyes as she listened to the distant rumble of the old car. Her heart felt heavy, mirroring the troubles of the sputtering engine.",
+            "The engine sputtered as she sat beside it, trying to calm herself."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "She choked her anger.",
+        "example2": "It lacks a great deal of explanation covering how to choke the carburetor."
+    },
+    "106": {
+        "sentence": "She was so emotional she choked up ",
+        "word": "choke",
+        "meaning1": "suppress, check or trap",
+        "meaning2": "reduce the air intake of a carburetor",
+        "focus_meaning": "reduce the air intake of a carburetor",
+        "precontexts": [
+            "The old car sputtered and stalled as she drove to the meeting. Her heart raced as she restarted it, thinking of her looming speech.",
+            "She held the photograph tightly, tears brimming in her eyes. The memory of his laughter flooded back, overpowering her senses. Her breathing hitched, unsteady as she tried to compose herself.",
+            "As she stood in front of the crowd, the pressure was overwhelming."
+        ],
+        "endings": [
+            "As she stared at the photograph, a wave of emotions hit her, much like the stifling cloud of smoke from the car's exhaust. Memories of her father fixing the car flooded her mind, making it hard to breathe. She thought of the times they'd spent together, battered by life's challenges yet holding on.",
+            "Tears welled up in her eyes as she listened to the distant rumble of the old car. Her heart felt heavy, mirroring the troubles of the sputtering engine.",
+            "The engine sputtered as she sat beside it, trying to calm herself."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "She choked her anger.",
+        "example2": "It lacks a great deal of explanation covering how to choke the carburetor."
+    },
+    "107": {
+        "sentence": "I fell into the harsh ground",
+        "word": "ground",
+        "meaning1": "land, surface of the earth",
+        "meaning2": "soil substance, dirt, earth",
+        "focus_meaning": "land, surface of the earth",
+        "precontexts": [
+            "As children, we dared each other to climb the old oak despite our parents' warnings. Curiosity got the best of me, and I reached for a branch that snapped under my weight. For a moment, everything seemed to freeze as I plummeted downward.",
+            "The wind blew fiercely, making it hard to see as I stumbled forward.",
+            "The hill was steep, but I ran down to reach the valley quicker. My foot slipped on a rock, and I couldn't stop myself from falling."
+        ],
+        "endings": [
+            "The chase through the dense forest was relentless. My legs gave way beneath me.",
+            "While climbing the mountain, the rocks loosened under my boots. The slope was steep and treacherous. I couldn\u2019t hold on any longer.",
+            "As the storm intensified, I lost my footing."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The ground shook violently from the earthquake.",
+        "example2": "The ground is a mass of slippery mud so be careful as you walk."
+    },
+    "108": {
+        "sentence": "I fell into the harsh ground",
+        "word": "ground",
+        "meaning1": "land, surface of the earth",
+        "meaning2": "soil substance, dirt, earth",
+        "focus_meaning": "soil substance, dirt, earth",
+        "precontexts": [
+            "As children, we dared each other to climb the old oak despite our parents' warnings. Curiosity got the best of me, and I reached for a branch that snapped under my weight. For a moment, everything seemed to freeze as I plummeted downward.",
+            "The wind blew fiercely, making it hard to see as I stumbled forward.",
+            "The hill was steep, but I ran down to reach the valley quicker. My foot slipped on a rock, and I couldn't stop myself from falling."
+        ],
+        "endings": [
+            "The chase through the dense forest was relentless. My legs gave way beneath me.",
+            "While climbing the mountain, the rocks loosened under my boots. The slope was steep and treacherous. I couldn\u2019t hold on any longer.",
+            "As the storm intensified, I lost my footing."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The ground shook violently from the earthquake.",
+        "example2": "The ground is a mass of slippery mud so be careful as you walk."
+    },
+    "109": {
+        "sentence": "Life can be represented in an infinite combination of different ways",
+        "word": "represent",
+        "meaning1": "symbolize, serve as an example of",
+        "meaning2": "depict or portray in art, words, or model",
+        "focus_meaning": "symbolize, serve as an example of",
+        "precontexts": [
+            "An eccentric inventor created a machine that allowed people to view their dreams as if they were movies. Each dream was unique, filled with vivid landscapes and complex characters. The villagers gathered every evening to watch the intriguing nocturnal tales.",
+            "The ancient book contained symbols that seemed to hold the key to understanding existence. It drew curious scholars from around the world.",
+            "In a quiet village, a mysterious painting captured the essence of every resident's daily life."
+        ],
+        "endings": [
+            "Daniel stared at the old painting in his grandmother's attic. It seemed to hold secrets of a world unknown.",
+            "On a rainy afternoon, Lily discovered a mysterious set of keys hidden in the garden. Each key was etched with intricate designs. She felt they belonged to a series of hidden doors leading to other worlds.",
+            "In the quiet town of Willow Creek, Emily found a tattered book filled with strange symbols."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "Letters of the alphabet represent sounds.",
+        "example2": "The painter represented his wife as a young girl."
+    },
+    "110": {
+        "sentence": "Life can be represented in an infinite combination of different ways",
+        "word": "represent",
+        "meaning1": "symbolize, serve as an example of",
+        "meaning2": "depict or portray in art, words, or model",
+        "focus_meaning": "depict or portray in art, words, or model",
+        "precontexts": [
+            "An eccentric inventor created a machine that allowed people to view their dreams as if they were movies. Each dream was unique, filled with vivid landscapes and complex characters. The villagers gathered every evening to watch the intriguing nocturnal tales.",
+            "The ancient book contained symbols that seemed to hold the key to understanding existence. It drew curious scholars from around the world.",
+            "In a quiet village, a mysterious painting captured the essence of every resident's daily life."
+        ],
+        "endings": [
+            "Daniel stared at the old painting in his grandmother's attic. It seemed to hold secrets of a world unknown.",
+            "On a rainy afternoon, Lily discovered a mysterious set of keys hidden in the garden. Each key was etched with intricate designs. She felt they belonged to a series of hidden doors leading to other worlds.",
+            "In the quiet town of Willow Creek, Emily found a tattered book filled with strange symbols."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "Letters of the alphabet represent sounds.",
+        "example2": "The painter represented his wife as a young girl."
+    },
+    "111": {
+        "sentence": "Andrew said Susan was responsible for the pollution.",
+        "word": "pollution",
+        "meaning1": "act of polluting",
+        "meaning2": "the stuff",
+        "focus_meaning": "act of polluting",
+        "precontexts": [
+            "Andrew had always been curious about the colorful waste dumped outside the red building. The locals had been complaining about strange smells coming from the forest for weeks. Susan had been spending a lot of time there recently.",
+            "The factory next to town had been busier than usual.",
+            "Susan had just received a large shipment of mysterious barrels. Some people saw her near the river that afternoon."
+        ],
+        "endings": [
+            "Susan often visited the industrial site nearby. Strange chemicals appeared along the shoreline.",
+            "Susan dumped mysterious barrels near the river.",
+            "The local animal sanctuary noticed a decline in bird populations. Susan had been seen around the area with suspicious equipment. Concerns grew about the declining health of the water."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "George's act of throwing his trash on the ground is pollution of the environment.",
+        "example2": "Look at all the pollution on the ground."
+    },
+    "112": {
+        "sentence": "Andrew said Susan was responsible for the pollution.",
+        "word": "pollution",
+        "meaning1": "act of polluting",
+        "meaning2": "the stuff",
+        "focus_meaning": "the stuff",
+        "precontexts": [
+            "Andrew had always been curious about the colorful waste dumped outside the red building. The locals had been complaining about strange smells coming from the forest for weeks. Susan had been spending a lot of time there recently.",
+            "The factory next to town had been busier than usual.",
+            "Susan had just received a large shipment of mysterious barrels. Some people saw her near the river that afternoon."
+        ],
+        "endings": [
+            "Susan often visited the industrial site nearby. Strange chemicals appeared along the shoreline.",
+            "Susan dumped mysterious barrels near the river.",
+            "The local animal sanctuary noticed a decline in bird populations. Susan had been seen around the area with suspicious equipment. Concerns grew about the declining health of the water."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "George's act of throwing his trash on the ground is pollution of the environment.",
+        "example2": "Look at all the pollution on the ground."
+    },
+    "113": {
+        "sentence": "I don't think it should puff like that.",
+        "word": "puff",
+        "meaning1": "Breathe in an uncontrolled manner.",
+        "meaning2": "Emit clouds of a substance.",
+        "focus_meaning": "Breathe in an uncontrolled manner.",
+        "precontexts": [
+            "Tammy watched the old magician perform his tricks with fascination. Suddenly, smoke began to rise from the mysterious box. The crowd gasped in anticipation.",
+            "The old steam engine roared to life, making an unusual sound.",
+            "The dragon woke from its slumber, its breath filling the cave. Smoke curled mysteriously around its nostrils."
+        ],
+        "endings": [
+            "The ancient machine rumbled to life for the first time in decades.",
+            "Oliver watched as the steam engine started wheezing uncontrollably. A mysterious fog enveloped the entire room.",
+            "Lily found an old wooden box in the attic with strange inscriptions on it. As she opened it, a thick mist began to spill out. Her heart raced as she struggled to catch her breath in the dense cloud."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "He huffed and puffed as he made his way up the mountain.",
+        "example2": "The factory puffed smoke."
+    },
+    "114": {
+        "sentence": "I don't think it should puff like that.",
+        "word": "puff",
+        "meaning1": "Breathe in an uncontrolled manner.",
+        "meaning2": "Emit clouds of a substance.",
+        "focus_meaning": "Emit clouds of a substance.",
+        "precontexts": [
+            "Tammy watched the old magician perform his tricks with fascination. Suddenly, smoke began to rise from the mysterious box. The crowd gasped in anticipation.",
+            "The old steam engine roared to life, making an unusual sound.",
+            "The dragon woke from its slumber, its breath filling the cave. Smoke curled mysteriously around its nostrils."
+        ],
+        "endings": [
+            "The ancient machine rumbled to life for the first time in decades.",
+            "Oliver watched as the steam engine started wheezing uncontrollably. A mysterious fog enveloped the entire room.",
+            "Lily found an old wooden box in the attic with strange inscriptions on it. As she opened it, a thick mist began to spill out. Her heart raced as she struggled to catch her breath in the dense cloud."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "He huffed and puffed as he made his way up the mountain.",
+        "example2": "The factory puffed smoke."
+    },
+    "115": {
+        "sentence": "It is a job for Gillian, I think. ",
+        "word": "job",
+        "meaning1": "paid position",
+        "meaning2": "a difficulty",
+        "focus_meaning": "paid position",
+        "precontexts": [
+            "The old, creaky gate to the mansion was ajar. Someone needed to take care of the mess inside.",
+            "The townsfolk gathered around the bulletin board, whispering about the creature in the dark woods. It had been terrorizing them for days now. The mayor was looking for a brave soul to face it.",
+            "Gillian just moved to town with her suitcase full of ambitions."
+        ],
+        "endings": [
+            "When the mysterious package appeared on the doorstep, everyone was perplexed. It was uncertain who should deal with it. As people whispered nervously, someone had to step forward.",
+            "Gillian always tackles tricky issues while seeking new opportunities.",
+            "The company was in crisis and needed a reliable person. It was clear who could handle the upcoming challenges."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "John had trouble finding a job after he graduated with a Linguistics major.",
+        "example2": "It's always a job to contact him when he's eating."
+    },
+    "116": {
+        "sentence": "It is a job for Gillian, I think. ",
+        "word": "job",
+        "meaning1": "paid position",
+        "meaning2": "a difficulty",
+        "focus_meaning": "a difficulty",
+        "precontexts": [
+            "The old, creaky gate to the mansion was ajar. Someone needed to take care of the mess inside.",
+            "The townsfolk gathered around the bulletin board, whispering about the creature in the dark woods. It had been terrorizing them for days now. The mayor was looking for a brave soul to face it.",
+            "Gillian just moved to town with her suitcase full of ambitions."
+        ],
+        "endings": [
+            "When the mysterious package appeared on the doorstep, everyone was perplexed. It was uncertain who should deal with it. As people whispered nervously, someone had to step forward.",
+            "Gillian always tackles tricky issues while seeking new opportunities.",
+            "The company was in crisis and needed a reliable person. It was clear who could handle the upcoming challenges."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "John had trouble finding a job after he graduated with a Linguistics major.",
+        "example2": "It's always a job to contact him when he's eating."
+    },
+    "117": {
+        "sentence": "Meet me on the port side before we take the boat.",
+        "word": "port",
+        "meaning1": "an opening",
+        "meaning2": "left side of a ship",
+        "focus_meaning": "an opening",
+        "precontexts": [
+            "There is a small gap causing a distraction on deck. It needs fixing without delay.",
+            "The crew gathered to discuss the upcoming journey. An important inspection must be done before departure. All members must report to their stations for final checks.",
+            "We need to prepare before setting sail."
+        ],
+        "endings": [
+            "Mark was tasked with checking the integrity of the vessel's design. His attention was drawn to the drawings displayed in the shipyard office. The details were crucial for the upcoming journey.",
+            "The captain instructed everyone to get ready for departure.",
+            "Sarah glanced at the blueprint of the vessel. She knew the layout well from her previous adventures."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "Upon further investigation they discovered that the porthole had been",
+        "example2": "The monster's tail struck the larbord port."
+    },
+    "118": {
+        "sentence": "Meet me on the port side before we take the boat.",
+        "word": "port",
+        "meaning1": "an opening",
+        "meaning2": "left side of a ship",
+        "focus_meaning": "left side of a ship",
+        "precontexts": [
+            "There is a small gap causing a distraction on deck. It needs fixing without delay.",
+            "The crew gathered to discuss the upcoming journey. An important inspection must be done before departure. All members must report to their stations for final checks.",
+            "We need to prepare before setting sail."
+        ],
+        "endings": [
+            "Mark was tasked with checking the integrity of the vessel's design. His attention was drawn to the drawings displayed in the shipyard office. The details were crucial for the upcoming journey.",
+            "The captain instructed everyone to get ready for departure.",
+            "Sarah glanced at the blueprint of the vessel. She knew the layout well from her previous adventures."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "Upon further investigation they discovered that the porthole had been",
+        "example2": "The monster's tail struck the larbord port."
+    },
+    "119": {
+        "sentence": "Dissolution is the best approach here.",
+        "word": "dissolution",
+        "meaning1": "the process of dissolving into a solution",
+        "meaning2": "the breakup or termination of a social relationship",
+        "focus_meaning": "the process of dissolving into a solution",
+        "precontexts": [
+            "The team was torn over what to do next.",
+            "The scientists debated the fate of their latest experiment. Some wanted to save it, while others preferred a different course.",
+            "The friends sat around the table, their faces tense. Their project had hit a dead end, and hope was fading. They needed a drastic solution."
+        ],
+        "endings": [
+            "The two friends sat in the quiet coffee shop. They were facing an irreparable divide between them.",
+            "The band had been together for over a decade, but the financial strain was becoming unbearable. They met to talk about the debts they couldn't escape. Each member had their own opinion on the matter.",
+            "The family gathered around the table to discuss the future of their small business."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The syrup is created by a dissolution of sugar into water, then boiling it.",
+        "example2": "Mr. Brown called for a dissolution of the meeting and finally got a vote on it."
+    },
+    "120": {
+        "sentence": "Dissolution is the best approach here.",
+        "word": "dissolution",
+        "meaning1": "the process of dissolving into a solution",
+        "meaning2": "the breakup or termination of a social relationship",
+        "focus_meaning": "the breakup or termination of a social relationship",
+        "precontexts": [
+            "The team was torn over what to do next.",
+            "The scientists debated the fate of their latest experiment. Some wanted to save it, while others preferred a different course.",
+            "The friends sat around the table, their faces tense. Their project had hit a dead end, and hope was fading. They needed a drastic solution."
+        ],
+        "endings": [
+            "The two friends sat in the quiet coffee shop. They were facing an irreparable divide between them.",
+            "The band had been together for over a decade, but the financial strain was becoming unbearable. They met to talk about the debts they couldn't escape. Each member had their own opinion on the matter.",
+            "The family gathered around the table to discuss the future of their small business."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The syrup is created by a dissolution of sugar into water, then boiling it.",
+        "example2": "Mr. Brown called for a dissolution of the meeting and finally got a vote on it."
+    },
+    "121": {
+        "sentence": "Good grief susan how does it work.",
+        "word": "grief",
+        "meaning1": "a cause or source of annoyance, bother",
+        "meaning2": "a misfortune, mishap, disaster",
+        "focus_meaning": "a cause or source of annoyance, bother",
+        "precontexts": [
+            "Susan arrived late, carrying a peculiar contraption under her arm, which she claimed could make life easier. Everyone gathered around, eager to see what it could do. Its unfamiliar shape drew wary glances, yet no one dared voice their skepticism.",
+            "Susan revealed a strange gadget during the meeting, causing everyone to pause. They looked at it with a mixture of disbelief and curiosity.",
+            "Susan showed up with an odd device that immediately drew everyone's attention."
+        ],
+        "endings": [
+            "Susan nervously eyed her experimental contraption that she promised would revolutionize communication. Earlier it had sparked wildly, nearly setting the curtains on fire. An unwelcome thought crept in about its reliability.",
+            "Susan's invention started making strange noises in the middle of the night.",
+            "Susan demonstrated her new machine to her friends. It suddenly jammed and puffed out a cloud of smoke."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "This crashing computer program has been a major grief all week.",
+        "example2": "Many a ship has come to grief along these shores."
+    },
+    "122": {
+        "sentence": "Good grief susan how does it work.",
+        "word": "grief",
+        "meaning1": "a cause or source of annoyance, bother",
+        "meaning2": "a misfortune, mishap, disaster",
+        "focus_meaning": "a misfortune, mishap, disaster",
+        "precontexts": [
+            "Susan arrived late, carrying a peculiar contraption under her arm, which she claimed could make life easier. Everyone gathered around, eager to see what it could do. Its unfamiliar shape drew wary glances, yet no one dared voice their skepticism.",
+            "Susan revealed a strange gadget during the meeting, causing everyone to pause. They looked at it with a mixture of disbelief and curiosity.",
+            "Susan showed up with an odd device that immediately drew everyone's attention."
+        ],
+        "endings": [
+            "Susan nervously eyed her experimental contraption that she promised would revolutionize communication. Earlier it had sparked wildly, nearly setting the curtains on fire. An unwelcome thought crept in about its reliability.",
+            "Susan's invention started making strange noises in the middle of the night.",
+            "Susan demonstrated her new machine to her friends. It suddenly jammed and puffed out a cloud of smoke."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "This crashing computer program has been a major grief all week.",
+        "example2": "Many a ship has come to grief along these shores."
+    },
+    "123": {
+        "sentence": "I have always to be by the sea and ascend.",
+        "word": "ascend",
+        "meaning1": "enter into or acquire a higher status (social)",
+        "meaning2": "go toward a river's (or similar) source.",
+        "focus_meaning": "enter into or acquire a higher status (social)",
+        "precontexts": [
+            "Every summer, we would pack up and head to the little beach town. The call of the waves was irresistible.",
+            "My grandmother often spoke of the water's power to transform lives. She insisted there was magic where the river met the ocean. I was eager to find out for myself.",
+            "The journey to the coast was long, but it felt like home was calling."
+        ],
+        "endings": [
+            "Growing up near the coast, I always heard tales of ancient treasures hidden upstream. Everyone in our town believed that those who ventured beyond were destined for greatness. I couldn't shake the feeling that my future lay somewhere between the tides and those hidden paths.",
+            "As a child, I spent countless hours fishing by the shore. The sea always made me feel like possibilities were endless.",
+            "Long ago, I found myself yearning for the sound of waves and dreams of a place above."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "The princess ascended the throne after the prince's demise.",
+        "example2": "The boat ascended the Delaware."
+    },
+    "124": {
+        "sentence": "I have always to be by the sea and ascend.",
+        "word": "ascend",
+        "meaning1": "enter into or acquire a higher status (social)",
+        "meaning2": "go toward a river's (or similar) source.",
+        "focus_meaning": "go toward a river's (or similar) source.",
+        "precontexts": [
+            "Every summer, we would pack up and head to the little beach town. The call of the waves was irresistible.",
+            "My grandmother often spoke of the water's power to transform lives. She insisted there was magic where the river met the ocean. I was eager to find out for myself.",
+            "The journey to the coast was long, but it felt like home was calling."
+        ],
+        "endings": [
+            "Growing up near the coast, I always heard tales of ancient treasures hidden upstream. Everyone in our town believed that those who ventured beyond were destined for greatness. I couldn't shake the feeling that my future lay somewhere between the tides and those hidden paths.",
+            "As a child, I spent countless hours fishing by the shore. The sea always made me feel like possibilities were endless.",
+            "Long ago, I found myself yearning for the sound of waves and dreams of a place above."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "The princess ascended the throne after the prince's demise.",
+        "example2": "The boat ascended the Delaware."
+    },
+    "125": {
+        "sentence": "It was at that moment where I felt it click, never again.",
+        "word": "click",
+        "meaning1": "Become clear or enter one's consciousness or emotions.",
+        "meaning2": "CLICK OFF: perform or finish an action rapidly.",
+        "focus_meaning": "Become clear or enter one's consciousness or emotions.",
+        "precontexts": [
+            "The puzzle pieces finally fit together.",
+            "She had been practicing the piano piece for months. Today, her fingers finally danced across the keys like they were meant to.",
+            "After years of searching, he finally mapped out the entire constellation. It was a sight to behold under the clear night sky. His heart raced with a sense of discovery and accomplishment."
+        ],
+        "endings": [
+            "The orchestra played in harmony, each note weaving a tapestry of sound. As the crescendo approached, Emily held her breath, anticipation welling up inside her. The world around seemed to slow, focusing sharply in that singular instant.",
+            "John had run for miles, pushing his body beyond its limits. He suddenly stopped, overwhelmed by a rush of understanding.",
+            "Lucy stared at the puzzle, her fingers trembling above the final piece."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "It finally clicked for him that college was not as easy as it first appeared.",
+        "example2": "The game was clicked off in 1:48."
+    },
+    "126": {
+        "sentence": "It was at that moment where I felt it click, never again.",
+        "word": "click",
+        "meaning1": "Become clear or enter one's consciousness or emotions.",
+        "meaning2": "CLICK OFF: perform or finish an action rapidly.",
+        "focus_meaning": "CLICK OFF: perform or finish an action rapidly.",
+        "precontexts": [
+            "The puzzle pieces finally fit together.",
+            "She had been practicing the piano piece for months. Today, her fingers finally danced across the keys like they were meant to.",
+            "After years of searching, he finally mapped out the entire constellation. It was a sight to behold under the clear night sky. His heart raced with a sense of discovery and accomplishment."
+        ],
+        "endings": [
+            "The orchestra played in harmony, each note weaving a tapestry of sound. As the crescendo approached, Emily held her breath, anticipation welling up inside her. The world around seemed to slow, focusing sharply in that singular instant.",
+            "John had run for miles, pushing his body beyond its limits. He suddenly stopped, overwhelmed by a rush of understanding.",
+            "Lucy stared at the puzzle, her fingers trembling above the final piece."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "It finally clicked for him that college was not as easy as it first appeared.",
+        "example2": "The game was clicked off in 1:48."
+    },
+    "127": {
+        "sentence": "It was at that moment where the pass went astray and I then made a return.",
+        "word": "return",
+        "meaning1": "going the other way",
+        "meaning2": "football play",
+        "focus_meaning": "going the other way",
+        "precontexts": [
+            "The sun was setting, casting long shadows across the field. My team was struggling, and the clock was ticking down. I got the ball, dodged a defender, and aimed for an opportunity.",
+            "The match was tense, and our coach kept shouting from the sidelines.",
+            "We were down by one goal, and the crowd was growing restless. I spotted an opening and charged forward, hoping to change our fate."
+        ],
+        "endings": [
+            "The players were exhausted, giving their all on the field. I had a moment of doubt, wondering how this match would end.",
+            "The sun was setting over the small, dusty town as I walked down the lane, lost in thought. Memories of past games filled my mind, and every decision seemed to weigh heavily. Suddenly, an unexpected chance presented itself on the field.",
+            "The crowd was tense as the game reached its climax."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "I met John during his return from Australia.",
+        "example2": "He dodged through crowds for a thirty-yard return on the kickoff."
+    },
+    "128": {
+        "sentence": "It was at that moment where the pass went astray and I then made a return.",
+        "word": "return",
+        "meaning1": "going the other way",
+        "meaning2": "football play",
+        "focus_meaning": "football play",
+        "precontexts": [
+            "The sun was setting, casting long shadows across the field. My team was struggling, and the clock was ticking down. I got the ball, dodged a defender, and aimed for an opportunity.",
+            "The match was tense, and our coach kept shouting from the sidelines.",
+            "We were down by one goal, and the crowd was growing restless. I spotted an opening and charged forward, hoping to change our fate."
+        ],
+        "endings": [
+            "The players were exhausted, giving their all on the field. I had a moment of doubt, wondering how this match would end.",
+            "The sun was setting over the small, dusty town as I walked down the lane, lost in thought. Memories of past games filled my mind, and every decision seemed to weigh heavily. Suddenly, an unexpected chance presented itself on the field.",
+            "The crowd was tense as the game reached its climax."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "I met John during his return from Australia.",
+        "example2": "He dodged through crowds for a thirty-yard return on the kickoff."
+    },
+    "129": {
+        "sentence": "we seemed lost and needed to be square.",
+        "word": "square",
+        "meaning1": "make or position so as to be square",
+        "meaning2": "turn an oar or paddle while rowing or canoeing",
+        "focus_meaning": "make or position so as to be square",
+        "precontexts": [
+            "The current was stronger than we anticipated. Our course veered off unexpectedly.",
+            "After hours of paddling, the river seemed endless. We couldn't find any familiar landmark. The setting sun made navigating even more difficult.",
+            "We drifted aimlessly on the open sea."
+        ],
+        "endings": [
+            "Our canoe wobbled as waves lapped against its sides, the sun's position was no longer a reliable guide. We felt the current pulling us away from the shoreline. At that moment, our sense of direction shifted with the movement of the water.",
+            "We drifted on open waters, surrounded by the endless horizon.",
+            "The boat rocked gently, the map fluttered in the wind. Our compass needle spun erratically, leaving us unsure of our path."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "After showing the 5 of spades he squared the deck.",
+        "example2": "Jim and I squared away to paddle upstream."
+    },
+    "130": {
+        "sentence": "we seemed lost and needed to be square.",
+        "word": "square",
+        "meaning1": "make or position so as to be square",
+        "meaning2": "turn an oar or paddle while rowing or canoeing",
+        "focus_meaning": "turn an oar or paddle while rowing or canoeing",
+        "precontexts": [
+            "The current was stronger than we anticipated. Our course veered off unexpectedly.",
+            "After hours of paddling, the river seemed endless. We couldn't find any familiar landmark. The setting sun made navigating even more difficult.",
+            "We drifted aimlessly on the open sea."
+        ],
+        "endings": [
+            "Our canoe wobbled as waves lapped against its sides, the sun's position was no longer a reliable guide. We felt the current pulling us away from the shoreline. At that moment, our sense of direction shifted with the movement of the water.",
+            "We drifted on open waters, surrounded by the endless horizon.",
+            "The boat rocked gently, the map fluttered in the wind. Our compass needle spun erratically, leaving us unsure of our path."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "After showing the 5 of spades he squared the deck.",
+        "example2": "Jim and I squared away to paddle upstream."
+    }
+}

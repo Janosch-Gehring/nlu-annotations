@@ -77,10 +77,10 @@ TASK_INFO = {
         "group_assignment": "post-qualification"
     },
     "var_ending_test": {
-        "annotation_filepath": "var_ending_test/resources/test_samples.json",
+        "annotation_filepath": "var_ending_test/resources/first_samples.json",
         "qualification_filepath": "var_ending_test/resources/qualification_questions.json",
         "tutorial_filepath": "var_ending_test/resources/tutorial_questions.json",
-        "number_of_annotator_groups": 2,
+        "number_of_annotator_groups": 3,
     },
     "var_sentence_task": {
         "annotation_filepath": "var_sentence_task/resources/sense_pairs.json",

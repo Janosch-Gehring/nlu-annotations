@@ -10,8 +10,8 @@ st.session_state.page = "var_ending_test_qualification_page_sample" + str(st.ses
 
 # user qualification of -1 or 1 mean that the test was already attempted
 user_qualification = user_repository.get_qualification()
-if user_qualification == 1:
-    st.markdown("\n## You have successfully completed the qualification test.\n\n Select **Annotation** on the navigation bar to get to the main task.")
+if user_qualification > 0:
+    st.markdown("\n## You have successfully completed the qualification test.\n\n Select **Tutorial** on the navigation bar next.")
 elif user_qualification == -1:
     st.markdown("\n## You did not pass the qualification test. \n\n You have already attempted the qualification test and failed. Sorry about that! Please copy the below completion code into Prolific.\n\n")
     st.markdown("## Your completion code: " + os.getenv("PROLIFIC_SCREENOUT_CODE"))
@@ -21,7 +21,7 @@ else:
     index = int(st.session_state.qualification_progress)
 
     if index == 1:
-        st.markdown("""**Please do the following qualification test to verify that you are human and an English speaker.**
+        st.markdown("""**Before we move on to the task, please do the following qualification test to verify that you are human and an English speaker.**
         
 Below are English sentences where one word is marked with blue color. The word has multiple dictionary meanings, but the intended meaning is clear from the context.
 

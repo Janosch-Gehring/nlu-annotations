@@ -22,7 +22,14 @@ def format_sentence(sentence):
     return "***" + sentence.replace("[", ":blue-background[") + "***\n"
 
 
-def sentence_selection_box(sentences, index, part="Beginning"):
+def sentence_selection_box(sentences, index, part="Beginning", in_tutorial=False):
+    disable_this_box = False
+    if in_tutorial and part=="Beginning" and st.session_state["tutorial_stage"] in [4, 5, 6, 7]:
+        disable_this_box = True
+    elif in_tutorial and part=="Ending" and st.session_state["tutorial_stage"] in [0, 1, 2, 3]:
+        disable_this_box = True
+
+
     if "sample_state" not in st.session_state: # no idea why this is necessary. man
         reset_sample_state()
         
@@ -32,7 +39,7 @@ def sentence_selection_box(sentences, index, part="Beginning"):
         print_part = "Second part"
 
     if not st.session_state["sample_state"]["editing"][part]:
-        radio_selection = st.radio(print_part + ":", options=[st.session_state["sample_state"][part]] + sentences, key=index)
+        radio_selection = st.radio(print_part + ":", options=[st.session_state["sample_state"][part]] + sentences, key=index, disabled=disable_this_box)
         if radio_selection != st.session_state["sample_state"][part]:
             st.session_state["sample_state"]["choice"][part] = radio_selection
             #print("updating selection state...")
@@ -45,12 +52,12 @@ def sentence_selection_box(sentences, index, part="Beginning"):
         elif part == "Beginning" and st.session_state["tutorial_stage"] == 3:
             st.write(tutorial_texts["3"])
 
-        if st.button("Edit selected sentence", key=index+1005):
+        if st.button("Edit selected sentence", key=index+1005, disabled=disable_this_box):
             st.session_state["sample_state"]["editing"][part] = True
             st.session_state["sample_state"][part] = radio_selection
             st.rerun()
     else:
-        custom_text = st.text_area("Write your edit here and confirm by pressing the button below.", value=st.session_state["sample_state"][part])
+        custom_text = st.text_area("Write your edit here and confirm by pressing the button below.", value=st.session_state["sample_state"][part], max_chars=1000)
         if st.button("Confirm", key=index + 2006):
             st.session_state["sample_state"][part] = custom_text
             st.session_state["sample_state"]["editing"][part] = False
@@ -123,7 +130,16 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
         if subtask == "annotation":
 
             st.markdown(f"""
-The following sentence contains the word {question["word"]}, which has these two meanings:
+                        
+Construct a story around this sentence:
+
+-------
+{question["sentence"]}
+-------       
+-------                
+
+
+This sentence contains the word '{question["word"]}', which has these two meanings:
 
 - {question["meaning1"]}
 
@@ -141,16 +157,41 @@ Use and edit the story building blocks so that the slightly more plausible sense
 
         if in_tutorial:
             st.write(tutorial_texts["0"])
+        else:
+            if st.toggle("Show Guidelines", value=False, key=index*10):
+                st.markdown("""
+**Rules**
+                            
+- Select story parts from the templates to create a context in which the above meaning is more plausible for the given ambiguous words.
+                            
+- It should only be implied, not explicitly stated. Readers must use their world knowledge, reasoning and common sense to understand your story.
+                            
+- You can edit templates as much as you need to, e.g. to fix logical inconsistencies, imply one of the meanings, stylistic reasons, etc.
+                            
+- You must not use the ambiguous word in your story.
+        
+
+**Tips**
+                            
+- If one of the templates fits the meaning perfectly, simply pick it.
+
+- If one of the templates almost fits, edit it so it fits. For example, maybe it's sometimes enough to replace one word with another one.
+                            
+- If none of the templates fit at all, you can also write your own. 
+                            
+- If the story is good as-is, you can also choose to not add anything.
+
+""")
         
         # precontext
-        sentence_selection_box(sentences=additional_choices_precontext + question["precontexts"], index=index*10+1, part="Beginning")
+        sentence_selection_box(sentences=additional_choices_precontext + question["precontexts"], index=index*10+1, part="Beginning", in_tutorial=in_tutorial)
 
         if in_tutorial and st.session_state["tutorial_stage"] == 4:
             st.write(tutorial_texts["4"])
 
         sentence_box = st.radio("Central Sentence: (Cannot be changed)", options=[question["sentence"]], key=index*10+2)
 
-        sentence_selection_box(sentences=additional_choices_ending + question["endings"], index=index*10+3, part="Ending")
+        sentence_selection_box(sentences=additional_choices_ending + question["endings"], index=index*10+3, part="Ending", in_tutorial=in_tutorial)
                                 
         if in_tutorial and st.session_state["tutorial_stage"] == 5:
             st.write(tutorial_texts["5"])
@@ -164,12 +205,19 @@ Use and edit the story building blocks so that the slightly more plausible sense
 ---------
 Your constructed story:
                     
-{"" if picked_precontext=="(No text necessary)" else picked_precontext} {sentence_box} {"" if picked_ending== "(No text necessary)" else picked_ending}
+{"" if picked_precontext=="(No text necessary)" else picked_precontext} 
+{sentence_box} 
+{"" if picked_ending== "(No text necessary)" else picked_ending}
+
 ---------
         """)
 
         if in_tutorial and st.session_state["tutorial_stage"] == 6:
             st.write(tutorial_texts["7"])
+
+        comment = ""
+        if not in_tutorial:
+            comment = st.text_input("Optional space for comments", max_chars=2000, key=index*10+7)
 
         next_input = False
         if not in_tutorial:
@@ -185,4 +233,4 @@ Your constructed story:
 
                 next_input = st.button(key = 10 * index + 9, label="Next", help="Save this story and advance to the next one.")
 
-        return picked_precontext, sentence_box, picked_ending, next_input
+        return picked_precontext, sentence_box, picked_ending, comment, next_input

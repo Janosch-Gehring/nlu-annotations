@@ -143,7 +143,7 @@ elif st.session_state.user_id:
         available_pages["Story Ending Task"] = [big_ending_round2_start_page, big_ending_round2_qualification_page, big_ending_round2_annotation_page]
 
     elif utils.authenticate_id("var_ending_test", st.session_state.user_id):
-        available_pages["Ending Task"] = [var_ending_test_tutorial_page, var_ending_test_annotation_page]
+        available_pages["Story Building Task"] = [var_ending_test_qualification_page, var_ending_test_tutorial_page, var_ending_test_annotation_page]
 
     elif utils.authenticate_id("big_eval_ending_task", st.session_state.user_id):
         if user_repository.get_qualification() != 1:

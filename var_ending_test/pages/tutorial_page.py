@@ -46,7 +46,7 @@ def tutorial_stage_logic_checks():
                 st.rerun()
         else:
             st.session_state["tutorial_stage"] = 6
-            user_repository.set_qualification(st.session_state["user_id"], 1)
+            user_repository.set_qualification(st.session_state.user_id, 2)
             st.rerun()
     elif st.session_state["tutorial_stage"] == 6:
         if "squeak" in ending:
@@ -58,9 +58,9 @@ samples = read_json_from_file(TASK_INFO["var_ending_test"]["annotation_filepath"
 
 st.session_state.page = "var_ending_test_tutorial"
 
-#if user_repository.get_qualification() != 1:
-#    st.write("## You must pass qualification before starting annotation. \n\n Select **Qualification** in the navigation bar to your left to try the qualification test.")
-if user_repository.check_if_done(st.session_state.user_id):
+if user_repository.get_qualification() < 1:
+    st.write("## You must pass qualification before starting the tutorial. \n\n Select **Qualification** in the navigation bar to your left to try the qualification test.")
+elif user_repository.check_if_done(st.session_state.user_id):
     st.write("## You have finished annotation. \n\nThank you for your time!")
     st.write("\n\n\n")
     st.write("**Your Prolific Completion Code:**")
@@ -68,7 +68,7 @@ if user_repository.check_if_done(st.session_state.user_id):
 else:
     index = int("1")
 
-    precontext, sentence, ending, next_input = utils.print_annotation_schema("tutorial", index)
+    precontext, sentence, ending, comment, next_input = utils.print_annotation_schema("tutorial", index)
     precontext = st.session_state["sample_state"]["choice"]["Beginning"]
     ending = st.session_state["sample_state"]["choice"]["Ending"]
     print(precontext, sentence, ending)
