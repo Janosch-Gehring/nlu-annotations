@@ -283,4 +283,5 @@ Your constructed story:
                 next_input = st.button(key=index*20+11, label="Next", help="Save this story and advance to the next one.")
 
 
+        print(picked_precontext, sentence_box, picked_ending, comment, confidence, skipping_reason, question, next_input)
         return picked_precontext, sentence_box, picked_ending, comment, confidence, skipping_reason, question, next_input
