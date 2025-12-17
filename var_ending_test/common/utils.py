@@ -35,15 +35,24 @@ def sentence_selection_box(sentences, index, part="Beginning", in_tutorial=False
         
     if part == "Beginning":
         print_part = "First part"
+        select_text = "Select the first part."
     else:
         print_part = "Second part"
+        select_text = "Select the second part."
+
+    contains_edited_sentence = False
+    if st.session_state["sample_state"][part] not in ["Select the first part.", "Select the second part."]:
+        contains_edited_sentence = True
 
     if not st.session_state["sample_state"]["editing"][part]:
-        radio_selection = st.radio(print_part + ":", options=[st.session_state["sample_state"][part]] + sentences, key=index, disabled=disable_this_box)
+
+        if not contains_edited_sentence:
+            radio_selection = st.radio(print_part + ":", options=[st.session_state["sample_state"][part]] + sentences, key=index*20, disabled=disable_this_box)
+        else:
+            radio_selection = st.radio(print_part + ":", options=[st.session_state["sample_state"][part]], key=index*20+1, disabled=disable_this_box)
+
         if radio_selection != st.session_state["sample_state"][part]:
             st.session_state["sample_state"]["choice"][part] = radio_selection
-            #print("updating selection state...")
-            #st.rerun()
 
         if part == "Beginning" and st.session_state["tutorial_stage"] == 1:
             st.write(tutorial_texts['1'])
@@ -52,13 +61,29 @@ def sentence_selection_box(sentences, index, part="Beginning", in_tutorial=False
         elif part == "Beginning" and st.session_state["tutorial_stage"] == 3:
             st.write(tutorial_texts["3"])
 
-        if st.button("Edit selected sentence", key=index+1005, disabled=disable_this_box):
-            st.session_state["sample_state"]["editing"][part] = True
-            st.session_state["sample_state"][part] = radio_selection
-            st.rerun()
+        if not contains_edited_sentence:
+            if st.button("Edit selected sentences", key=index*20+3, disabled=disable_this_box, help="Open a text editor to edit the currently selected option."):  
+                st.session_state["sample_state"]["editing"][part] = True
+                st.session_state["sample_state"][part] = radio_selection
+                st.rerun()
+        else:
+            col1, col2 = st.columns(2)
+
+            with col1:
+                if st.button("Edit", key=index*20+4, disabled=disable_this_box, help="Edit your story part."):  
+                    st.session_state["sample_state"]["editing"][part] = True
+                    st.session_state["sample_state"][part] = radio_selection
+                    st.rerun()
+
+            with col2:
+                if st.button("Reset", key=index*20+5, disabled=disable_this_box, help="Reset the selection to display the templates again."):
+                    st.session_state["sample_state"][part] = select_text
+                    st.rerun()
+
+
     else:
         custom_text = st.text_area("Write your edit here and confirm by pressing the button below.", value=st.session_state["sample_state"][part], max_chars=1000)
-        if st.button("Confirm", key=index + 2006):
+        if st.button("Confirm", key=index*20+6):
             st.session_state["sample_state"][part] = custom_text
             st.session_state["sample_state"]["editing"][part] = False
             st.session_state["sample_state"]["choice"][part] = custom_text
@@ -100,11 +125,11 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
 
         st.markdown("Focus on the highlighted word: :blue-background[" + question["word"] + "].\n")
         st.write("Which of these is more plausible?")
-        checkbox1 = st.checkbox(key = 10 * index + 1, label=question["meaning1"], value=value_checkbox1)
-        checkbox2 = st.checkbox(key = 10 * index + 2, label=question["meaning2"], value=value_checkbox2)
+        checkbox1 = st.checkbox(key=index*20+10, label=question["meaning1"], value=value_checkbox1)
+        checkbox2 = st.checkbox(key =index*20+11, label=question["meaning2"], value=value_checkbox2)
 
         if (checkbox1 or checkbox2) and not (checkbox1 and checkbox2):
-            next_input = st.button(key = 10 * index + 9, label="Next", help="Save this annotation and advance to the next one.")
+            next_input = st.button(key=index*20+12, label="Next", help="Save this annotation and advance to the next one.")
         else:
             next_input = None
 
@@ -158,7 +183,7 @@ Use and edit the story building blocks so that the slightly more plausible sense
         if in_tutorial:
             st.write(tutorial_texts["0"])
         else:
-            if st.toggle("Show Guidelines", value=False, key=index*10):
+            if st.toggle("Show Guidelines", value=False, key=index*20+7):
                 st.markdown("""
 **Rules**
                             
@@ -189,7 +214,7 @@ Use and edit the story building blocks so that the slightly more plausible sense
         if in_tutorial and st.session_state["tutorial_stage"] == 4:
             st.write(tutorial_texts["4"])
 
-        sentence_box = st.radio("Central Sentence: (Cannot be changed)", options=[question["sentence"]], key=index*10+2)
+        sentence_box = st.radio("Central Sentence: (Cannot be changed)", options=[question["sentence"]], key=index*20+8)
 
         sentence_selection_box(sentences=additional_choices_ending + question["endings"], index=index*10+3, part="Ending", in_tutorial=in_tutorial)
                                 
@@ -217,7 +242,7 @@ Your constructed story:
 
         comment = ""
         if not in_tutorial:
-            comment = st.text_input("Optional space for comments", max_chars=2000, key=index*10+7)
+            comment = st.text_input("Optional space for comments", max_chars=2000, key=index*20+9)
 
         next_input = False
         if not in_tutorial:
@@ -231,6 +256,6 @@ Your constructed story:
                 st.write(f":red[Your constructed story contains the focus word {question["word"]} in the second part. Please avoid that.]")
             else:
 
-                next_input = st.button(key = 10 * index + 9, label="Next", help="Save this story and advance to the next one.")
+                next_input = st.button(key=index*20+10, label="Next", help="Save this story and advance to the next one.")
 
-        return picked_precontext, sentence_box, picked_ending, comment, next_input
+        return picked_precontext, sentence_box, picked_ending, comment, question, next_input

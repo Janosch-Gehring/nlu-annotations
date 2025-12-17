@@ -13,7 +13,7 @@ if not st.session_state.user_id:
                 
     If you were redirected here for the purpose of annotation, find the 'Log In' option in the sidebar to your left.
     Then, enter the unique annotator ID that we shared with you.
-    Once you have successfully logged in, new options will become available to you so you can start reading the introduction and taking the qualification test.
+    Once you have successfully logged in, new options will become available to you so you can start taking the qualification test.
     """)
 
 else:
@@ -25,5 +25,5 @@ else:
     ## Are you here for annotation?
                 
     **You have successfully logged in as an annotator.**  
-    Please read the task's introduction page before starting the qualification test.
+    Click on the items in the leftside menu to start the task.
     """)

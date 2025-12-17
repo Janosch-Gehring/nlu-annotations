@@ -68,7 +68,7 @@ elif user_repository.check_if_done(st.session_state.user_id):
 else:
     index = int("1")
 
-    precontext, sentence, ending, comment, next_input = utils.print_annotation_schema("tutorial", index)
+    precontext, sentence, ending, comment, question, next_input = utils.print_annotation_schema("tutorial", index)
     precontext = st.session_state["sample_state"]["choice"]["Beginning"]
     ending = st.session_state["sample_state"]["choice"]["Ending"]
     print(precontext, sentence, ending)

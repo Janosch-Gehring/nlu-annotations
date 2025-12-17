@@ -32,8 +32,8 @@ else:
     # back button not really necessary here i think
     back_button = None#st.button(label="Back", key = 10 * index + 7, help="Go back to the previous sample.")
 
-    precontext, sentence, ending, comment, next_input = utils.print_annotation_schema("annotation", index)
-    annotation = {"precontext": precontext, "sentence": sentence, "ending": ending, "comment": comment}
+    precontext, sentence, ending, comment, question, next_input = utils.print_annotation_schema("annotation", index)
+    annotation = {"question": question, "precontext": precontext, "sentence": sentence, "ending": ending, "comment": comment}
 
     if next_input:
         utils.reset_sample_state()
