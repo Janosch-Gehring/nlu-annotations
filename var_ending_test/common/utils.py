@@ -23,15 +23,16 @@ def format_sentence(sentence):
 
 
 def sentence_selection_box(sentences, index, part="Beginning", in_tutorial=False):
+    if "sample_state" not in st.session_state: # no idea why this is necessary. man
+        reset_sample_state()
+    if "tutorial_stage" not in st.session_state:
+        st.session_state["tutorial_stage"] = 0  # you can skip the tutorial and go straight to the annotation if you take a break
+
     disable_this_box = False
     if in_tutorial and part=="Beginning" and st.session_state["tutorial_stage"] in [4, 5, 6, 7]:
         disable_this_box = True
     elif in_tutorial and part=="Ending" and st.session_state["tutorial_stage"] in [0, 1, 2, 3]:
         disable_this_box = True
-
-
-    if "sample_state" not in st.session_state: # no idea why this is necessary. man
-        reset_sample_state()
         
     if part == "Beginning":
         print_part = "First part"
@@ -100,6 +101,9 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
     :return: The sentence and widget inputs in the order they are displayed to the user.
     """
     in_tutorial = False
+    skipping_reason = ""
+    skip_toggle = False
+    next_input = False
     if subtask=="tutorial":
         in_tutorial = True
 
@@ -154,25 +158,40 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
         
         if subtask == "annotation":
 
+
+            if not in_tutorial:
+                skip_toggle = st.toggle("Skip this story?", key=index*20+12, help="Show options for skipping the sample.")
+                if skip_toggle:
+                    st.markdown("In certain cases, you are allowed to skip stories. For example, if the given sentence makes no sense, if you are not familiar with the word's meanings, or if the given sentence is not ambiguous. If you skip excessively without a reason, you may be asked to return (or if you fail to return, rejected).")
+                    skipping_reason = st.text_input("Why do you want to skip this story? (Required)", max_chars=1000, key=index*20+13)
+                    if skipping_reason:
+                        skip_button = st.button("Send and skip to next sample.")
+                        if skip_button:
+                            picked_precontext = "SKIPPED"
+                            picked_ending = "SKIPPED"
+                            next_input = True
+
             st.markdown(f"""
                         
 Construct a story around this sentence:
 
 -------
-{question["sentence"]}
--------       
+## {question["sentence"]}     
 -------                
 
 
-This sentence contains the word '{question["word"]}', which has these two meanings:
+This sentence contains the word **'{question["word"]}'**, which has these two meanings:
 
-- {question["meaning1"]}
+#### Meanings of {question['word']}:
 
-- {question["meaning2"]}
+##### 1) {question["meaning1"]}
+(as in: {question["example1"]})
+
+##### 2) {question["meaning2"]} 
+(as in: {question["example2"]})
 
 Use and edit the story building blocks so that the slightly more plausible sense of the word in this context becomes:
-
-- {question["focus_meaning"]}
+##### {question["focus_meaning"]}
 
 -------
             """)
@@ -230,9 +249,7 @@ Use and edit the story building blocks so that the slightly more plausible sense
 ---------
 Your constructed story:
                     
-{"" if picked_precontext=="(No text necessary)" else picked_precontext} 
-{sentence_box} 
-{"" if picked_ending== "(No text necessary)" else picked_ending}
+### {"" if picked_precontext=="(No text necessary)" else picked_precontext} {sentence_box.replace(question["word"], ":blue-background[" + question["word"] + "]")} {"" if picked_ending== "(No text necessary)" else picked_ending}
 
 ---------
         """)
@@ -241,12 +258,18 @@ Your constructed story:
             st.write(tutorial_texts["7"])
 
         comment = ""
-        if not in_tutorial:
-            comment = st.text_input("Optional space for comments", max_chars=2000, key=index*20+9)
+        confidence = ""
 
-        next_input = False
         if not in_tutorial:
-            if picked_precontext == "Select the first part.":
+
+            confidence = st.checkbox("I am confident that this story came out well. (No impact on payment)", key=index*20+9, help="We want to differentiate between stories that are of high quality and ones with some flaws. You will get paid the same regardless, so you can be honest.")
+
+            comment = st.text_input("Optional space for comments", max_chars=2000, key=index*20+10)
+
+        if not in_tutorial:
+            if skip_toggle:
+                st.write(":red[Deactivate the 'Skip this story' option at the top to send the story normally]")
+            elif picked_precontext == "Select the first part.":
                 st.write(":red[You need to select an option for the first part.]")
             elif picked_ending == "Select the second part.":
                 st.write(":red[You need to select an option for the second part.]")
@@ -256,6 +279,8 @@ Your constructed story:
                 st.write(f":red[Your constructed story contains the focus word {question["word"]} in the second part. Please avoid that.]")
             else:
 
-                next_input = st.button(key=index*20+10, label="Next", help="Save this story and advance to the next one.")
+                st.write(f":green[OK.] Click next to finish this story.")
+                next_input = st.button(key=index*20+11, label="Next", help="Save this story and advance to the next one.")
 
-        return picked_precontext, sentence_box, picked_ending, comment, question, next_input
+
+        return picked_precontext, sentence_box, picked_ending, comment, confidence, skipping_reason, question, next_input

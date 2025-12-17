@@ -21,7 +21,7 @@ else:
     index = int(st.session_state.qualification_progress)
 
     if index == 1:
-        st.markdown("""**Before we move on to the task, please do the following qualification test to verify that you are human and an English speaker.**
+        st.markdown("""**Before we move on to the task, please do the following qualification test.**
         
 Below are English sentences where one word is marked with blue color. The word has multiple dictionary meanings, but the intended meaning is clear from the context.
 
