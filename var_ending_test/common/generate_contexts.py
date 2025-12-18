@@ -10,8 +10,8 @@ load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-OUTPUT_FILEPATH = "var_ending_test/resources/position_samples.json"
-NUMBER_OF_GROUPS = 3
+OUTPUT_FILEPATH = "var_ending_test/resources/new_samples.json"
+NUMBER_OF_GROUPS = 15
 
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
@@ -149,3 +149,4 @@ if __name__ == "__main__":
 
         with open(OUTPUT_FILEPATH, "w") as f:
             json.dump(output, f, indent=4)
+

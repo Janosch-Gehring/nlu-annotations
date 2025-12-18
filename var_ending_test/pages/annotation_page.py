@@ -37,6 +37,7 @@ else:
                   "confidence": confidence, "skipping_reason": skipping_reason}
 
     if next_input:
+        st.write("Continuing to next story!")
         utils.reset_sample_state()
         handle_next_button(annotation, index, samples, "annotation")
 

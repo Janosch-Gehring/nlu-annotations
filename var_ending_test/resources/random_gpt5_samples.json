@@ -1,0 +1,36 @@
+{
+    "1": {
+        "sentence": "The credit did not appear on the records as expected.",
+        "word": "credit",
+        "meaning1": "money returned to a financial account",
+        "meaning2": "academic course units",
+        "focus_meaning": "money returned to a financial account",
+        "precontexts": [
+            "I opened the portal on my phone. I expected a change from last week."
+        ],
+        "endings": [
+            "I refreshed the page and checked the date. I sent a short message and waited."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "The bookstore double-charged me for a book, and the credit for one of them hasn't yet appeared on my statement.",
+        "example2": "I'm taking 10 credits this semester."
+    },
+    "2": {
+        "sentence": "The credit did not appear on the records as expected.",
+        "word": "credit",
+        "meaning1": "money returned to a financial account",
+        "meaning2": "academic course units",
+        "focus_meaning": "academic course units",
+        "precontexts": [
+            "I opened the portal on my phone. I expected a change from last week."
+        ],
+        "endings": [
+            "I refreshed the page and checked the date. I sent a short message and waited."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The bookstore double-charged me for a book, and the credit for one of them hasn't yet appeared on my statement.",
+        "example2": "I'm taking 10 credits this semester."
+    }
+}
