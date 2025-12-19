@@ -77,7 +77,7 @@ TASK_INFO = {
         "group_assignment": "post-qualification"
     },
     "var_ending_test": {
-        "annotation_filepath": "var_ending_test/resources/first_samples.json",
+        "annotation_filepath": "var_ending_test/resources/new_samples.json",
         "qualification_filepath": "var_ending_test/resources/qualification_questions.json",
         "tutorial_filepath": "var_ending_test/resources/tutorial_questions.json",
         "number_of_annotator_groups": 15,
