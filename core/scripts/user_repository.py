@@ -213,7 +213,7 @@ def assign_to_weakest_group(user_id: str, task: str):
 
     for user in users:
         u_id, user_task, qualified, group, progress, _, data = user
-        if (user_task != task) or (qualified != 1) or (u_id == user_id):
+        if (user_task != task) or (qualified < 1) or (u_id == user_id):
             continue
         if "test" in data["prolific_id"].lower():
             continue
