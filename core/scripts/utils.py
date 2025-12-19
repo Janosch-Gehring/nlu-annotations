@@ -81,12 +81,12 @@ TASK_INFO = {
         "qualification_filepath": "var_ending_test/resources/qualification_questions.json",
         "tutorial_filepath": "var_ending_test/resources/tutorial_questions.json",
         "number_of_annotator_groups": 15,
+        "group_assignment": "post-qualification"
     },
     "var_sentence_task": {
         "annotation_filepath": "var_sentence_task/resources/sense_pairs.json",
         "qualification_filepath": "var_sentence_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 1,
-        "group_assignment": "post-qualification"
+        "number_of_annotator_groups": 1
     }
 }
 
