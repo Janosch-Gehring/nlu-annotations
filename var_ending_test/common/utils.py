@@ -262,7 +262,7 @@ Your constructed story:
 
         if not in_tutorial:
 
-            confidence = st.checkbox("I am confident that this story came out well. (No impact on payment)", key=index*20+9, help="We want to differentiate between stories that are of high quality and ones with some flaws. You will get paid the same regardless, so you can be honest.")
+            confidence = st.checkbox("I am confident that this story came out well. (No impact on payment)", key=index*20+9, help="Pick this if the story is coherent, sounds natural, and implies the meaning successfully. It doesn't affect your payment or submission review, so just be honest. We know it's hard sometimes.")
 
             comment = st.text_input("Optional space for comments", max_chars=2000, key=index*20+10)
 
