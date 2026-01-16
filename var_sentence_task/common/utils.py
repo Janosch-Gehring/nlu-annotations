@@ -58,7 +58,7 @@ def print_annotation_schema(index: int) -> tuple:
     """
     st.write("Completed", str(check_number_of_annotations()), "out of 5 sentences")
 
-    samples = read_json_from_file(TASK_INFO["var_sentence_task"]["annotation_filepath"])
+    samples = read_json_from_file(TASK_INFO["var_sentence_task2"]["annotation_filepath"])
 
     if "random_sample" not in st.session_state:
         random.shuffle(samples)
