@@ -1,0 +1,587 @@
+{
+    "1": {
+        "word": "credit",
+        "meaning1": "money returned to a financial account",
+        "meaning2": "academic course units",
+        "sentence": "The credit did not appear on the records as expected.",
+        "pos": "n",
+        "example1": "The bookstore double-charged me for a book, and the credit for one of them hasn't yet appeared on my statement.",
+        "example2": "I'm taking 10 credits this semester."
+    },
+    "2": {
+        "word": "tip",
+        "meaning1": "(Cause to) tilt, tumble, incline or reverse position.",
+        "meaning2": "Walk on one's toes, usually in an attempt to be quiet.",
+        "sentence": "The boys tipped down the stairs at 7pm.",
+        "pos": "v",
+        "example1": "I tipped the sideview mirror to see the traffic behind me.",
+        "example2": "The children tipped down the hallway on Christmas morning."
+    },
+    "3": {
+        "word": "lead",
+        "meaning1": "a leash or tether to control an animal",
+        "meaning2": "a channel of water",
+        "sentence": "The dog loved the lead very much at it meant his favourite walk.",
+        "pos": "n",
+        "example1": "Dogs must be on a lead at all times in this park.",
+        "example2": "Melting ice formed several leads across the glacier."
+    },
+    "4": {
+        "word": "lodge",
+        "meaning1": "a small residential dwelling",
+        "meaning2": "the membership of a social club",
+        "sentence": "The men were both in the lodge at the time.",
+        "pos": "n",
+        "example1": "There is a small hunting lodge at the top of the mountain.",
+        "example2": "Several brothers of the lodge were implicated in the crime."
+    },
+    "5": {
+        "word": "page",
+        "meaning1": "a unit of displayed information on the World Wide Web",
+        "meaning2": "a state of agreement",
+        "sentence": "Reading the instructions meant they were all on the same page.",
+        "pos": "n",
+        "example1": "Go to the site's home page and from there you can navigate to the photo gallery of the recent conference.",
+        "example2": "The members of his team are not on the same page."
+    },
+    "6": {
+        "word": "cut",
+        "meaning1": "make or form (as if) by incision or grinding",
+        "meaning2": "grow through the gums",
+        "sentence": "The pain from the cut was quite unbearable.",
+        "pos": "v",
+        "example1": "I love how she cuts my hair.",
+        "example2": "The baby is cutting a new tooth."
+    },
+    "7": {
+        "word": "element",
+        "meaning1": "an electrical heating component of a device",
+        "meaning2": "the normal environment in which a living thing can thrive",
+        "sentence": "It was the correct element to provide the required temperature.",
+        "pos": "n",
+        "example1": "One of the back elements on the stove is not working.",
+        "example2": "A fish, when removed from its element of water, will die quickly."
+    },
+    "8": {
+        "word": "visit",
+        "meaning1": "social call",
+        "meaning2": "appointment",
+        "sentence": "Jade was struggling to remember her last visit. ",
+        "pos": "n",
+        "example1": "He dropped by for a visit",
+        "example2": "He scheduled a visit to the dentist"
+    },
+    "9": {
+        "word": "push",
+        "meaning1": "making an effort to advance a goal",
+        "meaning2": "IDIOM: a decisive moment",
+        "sentence": "One last push as needed for completion. ",
+        "pos": "n",
+        "example1": "The army was engaged in a push against guerilla strongholds.",
+        "example2": "When push comes to shove, people look out for their own needs."
+    },
+    "10": {
+        "word": "wave",
+        "meaning1": "(physics) One of a series of ridges, as of particles or liquid.",
+        "meaning2": "The movement of a certain phenomenon, similar to a physical undulation..",
+        "sentence": "They could feel the wave as their senses responded. ",
+        "pos": "n",
+        "example1": "The wave moved over the surface of the water.",
+        "example2": "The troops advanced in waves."
+    },
+    "11": {
+        "word": "pool",
+        "meaning1": "a consortium of enterprises pursuing a shared goal or interest",
+        "meaning2": "a continuous region of sedimentary rock containing oil or gas",
+        "sentence": "Two of my friends wanted to go into the pool.",
+        "pos": "n",
+        "example1": "Five high tech companies have formed a licensing pool for their products.",
+        "example2": "Geologists are calculating how much gas can be extracted from this pool."
+    },
+    "12": {
+        "word": "recognition",
+        "meaning1": "the act of offering thanks to someone for some deed on their part",
+        "meaning2": "the chemical bonding of complementary molecules",
+        "sentence": "I felt that there was some recognition in how he addressed me.",
+        "pos": "n",
+        "example1": "We should give John recognition for attempting such a difficult task, even though he didn't succeed.",
+        "example2": "Molecular recognition is the driving force behind all biological processes."
+    },
+    "13": {
+        "word": "incline",
+        "meaning1": "Have a tendency or disposition.",
+        "meaning2": "Be at an angle",
+        "sentence": "It looked as though the sheep were inclined to move.",
+        "pos": "v",
+        "example1": "She is inclined to be nervous before her lectures.",
+        "example2": "The terrain inclined down the mountain."
+    },
+    "14": {
+        "word": "play",
+        "meaning1": "piece of drama",
+        "meaning2": "a participant's turn in a game",
+        "sentence": "Whatever the play, she would react badly.",
+        "pos": "n",
+        "example1": "\"Cats\" is my favorite play about cats.",
+        "example2": "Hurry up-- it's still your play!"
+    },
+    "15": {
+        "word": "hit",
+        "meaning1": "a striking contact, or collision, between objects",
+        "meaning2": "retrieved data that match search criteria in a computerized search",
+        "sentence": "He knew that the result would be a hit.",
+        "pos": "n",
+        "example1": "The moon's surface is pocked with thousands of hits from meteors in outer space.",
+        "example2": "My query 'hawaii hotels' returned hundreds of hits."
+    },
+    "16": {
+        "word": "shock",
+        "meaning1": "seismic shaking of an earthquake",
+        "meaning2": "an intense surprise, often unpleasant",
+        "sentence": "The shock of the earthquake caused a lot of anxiety",
+        "pos": "n",
+        "example1": "The shock from the 8.6 quake brought down a number of buildings.",
+        "example2": "It was a shock for Mary to see John with short hair."
+    },
+    "17": {
+        "word": "drop",
+        "meaning1": "move to the rear, retreat",
+        "meaning2": "fall asleep",
+        "sentence": "Tom dropped off quickly",
+        "pos": "v",
+        "example1": "Ralston dropped back to twelfth after stumbling on a rock.",
+        "example2": "He dropped off the minute his head hit the pillow."
+    },
+    "18": {
+        "word": "pack",
+        "meaning1": "have the property of compacting neatly",
+        "meaning2": "gain weight",
+        "sentence": "Sandra's cats had packed",
+        "pos": "v",
+        "example1": "Live animals don't pack well. ",
+        "example2": "Teenage tyrannosaurs packed on the pounds."
+    },
+    "19": {
+        "word": "convulse",
+        "meaning1": "(Cause to) be overcome with laughter,    causing movement.",
+        "meaning2": "Physically contract (repeatedly).",
+        "sentence": "THe boy in the shop started to convulse",
+        "pos": "v",
+        "example1": "The comedian convulsed the crowd.",
+        "example2": "The feverish patient convulsed in his bed."
+    },
+    "20": {
+        "word": "flight",
+        "meaning1": "the act of escaping, fleeing",
+        "meaning2": "an air force military unit, smaller than a squadron",
+        "sentence": "The US air force were in flight",
+        "pos": "n",
+        "example1": "They read about the Jewish people's flight from Egypt.",
+        "example2": "John and Bob flew in the same flight in the Air Force."
+    },
+    "21": {
+        "word": "floor",
+        "meaning1": "the bottom surface of an area or place, often walked upon",
+        "meaning2": "a room where trading of financial securities takes place",
+        "sentence": "The noise from the floor was so intense that everyone stopped what they were doing",
+        "pos": "n",
+        "example1": "The floors of this house are solid maple!",
+        "example2": "A bomb went off on the trading floor of a large Wall Street securities firm today."
+    },
+    "22": {
+        "word": "balance",
+        "meaning1": "a physical state of equilibrium",
+        "meaning2": "the property of mathematical symmetry",
+        "sentence": "She adjusted her position until the design showed the balance she was looking for",
+        "pos": "n",
+        "example1": "John lost his balance and fell into the river.",
+        "example2": "A diameter on a circle creates two semicircles of perfect balance."
+    },
+    "23": {
+        "word": "division",
+        "meaning1": "an operational military unit",
+        "meaning2": "a ranked league, e.g., sports",
+        "sentence": "After the announcement, everyone wondered whether their team would be moved to a different division next year",
+        "pos": "n",
+        "example1": "They are calling up an extra division of infantry.",
+        "example2": "At the volleyball tournament John will play in the top division."
+    },
+    "24": {
+        "word": "head",
+        "meaning1": "the cranium, uppermost portion of the human anatomy",
+        "meaning2": "a count of people or animals",
+        "sentence": "They said they needed one more head before the group could set off",
+        "pos": "n",
+        "example1": "He suffered severe head injuries in the accident.",
+        "example2": "He'll buy 200 head of cattle."
+    },
+    "25": {
+        "word": "look",
+        "meaning1": "appear, be",
+        "meaning2": "idioms",
+        "sentence": "If you say it that way, it might look strange to them",
+        "pos": "v",
+        "example1": "These numbers look fishy to me.",
+        "example2": "The neighbors look down on us because we have an old car."
+    },
+    "26": {
+        "word": "pull",
+        "meaning1": "commit, do",
+        "meaning2": "idioms",
+        "sentence": "he pulled a trick on his teacher",
+        "pos": "v",
+        "example1": "He's pulled five bank robberies.",
+        "example2": "He pulled a face when his mother asked him to eat his vegetables."
+    },
+    "27": {
+        "word": "part",
+        "meaning1": "portion",
+        "meaning2": "share",
+        "sentence": "he wanted part of the project",
+        "pos": "n",
+        "example1": "He wanted to feel a part of something bigger than himself.",
+        "example2": "He wanted his part in cash."
+    },
+    "28": {
+        "word": "sense",
+        "meaning1": "perceive through the senses",
+        "meaning2": "feel or become aware of by intuition",
+        "sentence": "she could sense danger approaching",
+        "pos": "v",
+        "example1": "I sensed the insect land lightly on my ear.",
+        "example2": "An interesting theory that is emerging is that the animals sensed"
+    },
+    "29": {
+        "word": "discharge",
+        "meaning1": "get rid of; empty; cause to expel",
+        "meaning2": "free from obligations, service or confinement",
+        "sentence": "the hospital will discharge the patients today",
+        "pos": "v",
+        "example1": "Isn't it great that my loan was discharged?!",
+        "example2": "The fate of patients discharged the day following surgery has not been reported."
+    },
+    "30": {
+        "word": "get",
+        "meaning1": "become aware of",
+        "meaning2": "receive punishment",
+        "sentence": "if you break the rules, you will get in trouble",
+        "pos": "v",
+        "example1": "Be informed--get a line on new bankruptcy ramifications. ",
+        "example2": "Oooh, now you're gonna get it!"
+    },
+    "31": {
+        "word": "title",
+        "meaning1": "The name of a piece of work.",
+        "meaning2": "An established or recognized right, formal or informal.",
+        "sentence": "As they entered the room, the title they were looking for had slipped their mind.",
+        "pos": "n",
+        "example1": "He looked for books with long titles.",
+        "example2": "He has title to any of his father's property."
+    },
+    "32": {
+        "word": "top",
+        "meaning1": "platform at the head of a ship's mast",
+        "meaning2": "a lid or cover on a jar, can",
+        "sentence": "When they needed to most, the could not identify the top.",
+        "pos": "n",
+        "example1": "The antiaircraft guns were located in the warship's top.",
+        "example2": "I can't find the top for the peanut butter jar."
+    },
+    "33": {
+        "word": "jump",
+        "meaning1": "startled movement",
+        "meaning2": "parachuting",
+        "sentence": "The sudden jump caused the hairs on his arm to stand on end.",
+        "pos": "n",
+        "example1": "He awoke from his nightmare with a jump.",
+        "example2": "I've made forty-three parachute jumps into enemy territory."
+    },
+    "34": {
+        "word": "reaction",
+        "meaning1": "A bodily process occurring due to the effect of some antecedent stimulus or agent.",
+        "meaning2": "(mechanics) the equal and opposite force that is produced when any force is applied to a body.",
+        "sentence": "The reaction was not at all what they had expected.",
+        "pos": "n",
+        "example1": "He had a bad reaction to the medicine.",
+        "example2": "Every action has an equal and opposite reaction."
+    },
+    "35": {
+        "word": "crown",
+        "meaning1": "coronate",
+        "meaning2": "uppermost part of",
+        "sentence": "His crown was badly damaged after today's events.",
+        "pos": "v",
+        "example1": "The winner of today's game will be crowned the best club team in Europe.",
+        "example2": "Crenellated spires crown the Norman towers of St. Peters Cathedral."
+    },
+    "36": {
+        "word": "chill",
+        "meaning1": "Depress, discourage, or frighten an    individual, group, or process.",
+        "meaning2": "(Cause to) become physically cooler.",
+        "sentence": "There was a chill in camp before the game.",
+        "pos": "v",
+        "example1": "The news of the city's surrender chilled the soldiers.",
+        "example2": "The air chilled considerably after the thunderstorm."
+    },
+    "37": {
+        "word": "remembrance",
+        "meaning1": "social commemoration of the deceased",
+        "meaning2": "an artifact or token that serves as a reminder",
+        "sentence": "He looked longingly at the remembrance.",
+        "pos": "n",
+        "example1": "Memorial Day is held in remembrance of soldiers who died serving their country.",
+        "example2": "The guests all received small silver boxes as a remembrance of the wedding."
+    },
+    "38": {
+        "word": "final",
+        "meaning1": "academic test",
+        "meaning2": "physical test",
+        "sentence": "The girl was worrying about her final.",
+        "pos": "n",
+        "example1": "I studied all night for my Linguistics final.",
+        "example2": "John spilled coffee all over his final."
+    },
+    "39": {
+        "word": "render",
+        "meaning1": "cause to become",
+        "meaning2": "coat with plastic or cement",
+        "sentence": "The wall was rendered unsafe.",
+        "pos": "v",
+        "example1": "The shot rendered her immobile.",
+        "example2": "I got plasterers to lay a slab of concrete for the floor and to render the brick walls."
+    },
+    "40": {
+        "word": "weakness",
+        "meaning1": "a flaw or imperfection",
+        "meaning2": "a state of social or political powerlessness",
+        "sentence": "The weakness of the country's prime minister was obvious to many.",
+        "pos": "n",
+        "example1": "You must evaluate your product's strengths and weaknesses.",
+        "example2": "Their party's weakness in the senate means there may not be enough votes for the bill."
+    },
+    "41": {
+        "word": "slip",
+        "meaning1": "a mistake during communication",
+        "meaning2": "calculated escape",
+        "sentence": "Martha gave him the slip",
+        "pos": "n",
+        "example1": "The candidate is known for making slips of the tongue during his speeches.",
+        "example2": "The burglar gave the police the slip by going down a back alleyway."
+    },
+    "42": {
+        "word": "irrupt",
+        "meaning1": "to interrupt, enter uninvited",
+        "meaning2": "to grow rapidly",
+        "sentence": "it irrupted into the room",
+        "pos": "v",
+        "example1": "They irrupted into society again in 1871, reasserting their rights.",
+        "example2": "However, where deer populations faced lower mortality, they irrupted."
+    },
+    "43": {
+        "word": "date",
+        "meaning1": "Person on a date",
+        "meaning2": "Edible fruit",
+        "sentence": "He was going to pick up a date",
+        "pos": "n",
+        "example1": "I spilled grape juice all over my date's lap.",
+        "example2": "I sank my teeth into a juicy date."
+    },
+    "44": {
+        "word": "balance",
+        "meaning1": "bring into or maintain a physically stable position",
+        "meaning2": "manage accounts",
+        "sentence": "he balanced the two positions well",
+        "pos": "v",
+        "example1": "She balanced the tray on one wide fat palm.",
+        "example2": "Not one Republican president has balanced the budget in 34 years in this country."
+    },
+    "45": {
+        "word": "script",
+        "meaning1": "a dramatic composition, e.g., for a play",
+        "meaning2": "style of personal handwriting",
+        "sentence": "the script was very elaborate",
+        "pos": "n",
+        "example1": "The actor threw his script down in disgust.",
+        "example2": "The scrawling large script of the note looked like John's handwriting."
+    },
+    "46": {
+        "word": "settlement",
+        "meaning1": "resolution of a disagreement",
+        "meaning2": "the subsiding of ground or a structure on it",
+        "sentence": "the builders working on the new house with  the problems say they hope will be  settlement",
+        "pos": "n",
+        "example1": "The settlement of the dispute wasn't for several days.",
+        "example2": "A boundary wall, which has cracked due to settlement, is to be replaced."
+    },
+    "47": {
+        "word": "script",
+        "meaning1": "rote, stereotypical social behavior",
+        "meaning2": "a doctor's prescription",
+        "sentence": "Mary who is playing the part of the patient  in the new play has asked for the script",
+        "pos": "n",
+        "example1": "The princess was expected to follow the script of being the wife of royalty.",
+        "example2": "Dr. Jones wrote Mary a script for an anti-depressant."
+    },
+    "48": {
+        "word": "divide",
+        "meaning1": "disunite a group of people, animals, or other individuals",
+        "meaning2": "cause or be in a disagreement between people",
+        "sentence": "I would like to divide the room in view of the disharmony in the group",
+        "pos": "v",
+        "example1": "I'd like all the students to divide into small discussion groups.",
+        "example2": "The conflict divided the nation along religious lines."
+    },
+    "49": {
+        "word": "run",
+        "meaning1": "move quickly or freely, travel",
+        "meaning2": "keep company",
+        "sentence": "the athletics club has some unsavoury characters that Jim runs with",
+        "pos": "v",
+        "example1": "Don't run or you'll be out of breath!",
+        "example2": "He runs with a bad crowd."
+    },
+    "50": {
+        "word": "attack",
+        "meaning1": "the stylistic onset of a musical note",
+        "meaning2": "sudden fit of illness",
+        "sentence": "The new soprano in Wagner's opera doesn't look at all well and we were worried about her attack on stage",
+        "pos": "n",
+        "example1": "Critics say her attack of the high notes is somewhat diffident and underpowered.",
+        "example2": "The baby had two attacks of diarrhea during the night."
+    },
+    "51": {
+        "word": "call",
+        "meaning1": "a brief visit, social or professional",
+        "meaning2": "within hearing or summons",
+        "sentence": "Benedict called at his parents",
+        "pos": "n",
+        "example1": "The elderly sisters decided to make a call on their new neighbor.",
+        "example2": "Dogs may be off leash but within call of their owner's voice commands."
+    },
+    "52": {
+        "word": "light",
+        "meaning1": "a source or body of illumination",
+        "meaning2": "perspective or orientation",
+        "sentence": "The document was seen under a different light",
+        "pos": "n",
+        "example1": "There were no lights on at Mary's house when we drove by.",
+        "example2": "After speaking with Bob, we saw the matter in a different light."
+    },
+    "53": {
+        "word": "choke",
+        "meaning1": "suppress, check or trap",
+        "meaning2": "reduce the air intake of a carburetor",
+        "sentence": "She was so emotional she choked up ",
+        "pos": "v",
+        "example1": "She choked her anger.",
+        "example2": "It lacks a great deal of explanation covering how to choke the carburetor."
+    },
+    "54": {
+        "word": "ground",
+        "meaning1": "land, surface of the earth",
+        "meaning2": "soil substance, dirt, earth",
+        "sentence": "I fell into the harsh ground",
+        "pos": "n",
+        "example1": "The ground shook violently from the earthquake.",
+        "example2": "The ground is a mass of slippery mud so be careful as you walk."
+    },
+    "55": {
+        "word": "represent",
+        "meaning1": "symbolize, serve as an example of",
+        "meaning2": "depict or portray in art, words, or model",
+        "sentence": "Life can be represented in an infinite combination of different ways",
+        "pos": "v",
+        "example1": "Letters of the alphabet represent sounds.",
+        "example2": "The painter represented his wife as a young girl."
+    },
+    "56": {
+        "word": "pollution",
+        "meaning1": "act of polluting",
+        "meaning2": "the stuff",
+        "sentence": "Andrew said Susan was responsible for the pollution.",
+        "pos": "n",
+        "example1": "George's act of throwing his trash on the ground is pollution of the environment.",
+        "example2": "Look at all the pollution on the ground."
+    },
+    "57": {
+        "word": "puff",
+        "meaning1": "Breathe in an uncontrolled manner.",
+        "meaning2": "Emit clouds of a substance.",
+        "sentence": "I don't think it should puff like that.",
+        "pos": "v",
+        "example1": "He huffed and puffed as he made his way up the mountain.",
+        "example2": "The factory puffed smoke."
+    },
+    "58": {
+        "word": "job",
+        "meaning1": "paid position",
+        "meaning2": "a difficulty",
+        "sentence": "It is a job for Gillian, I think. ",
+        "pos": "n",
+        "example1": "John had trouble finding a job after he graduated with a Linguistics major.",
+        "example2": "It's always a job to contact him when he's eating."
+    },
+    "59": {
+        "word": "port",
+        "meaning1": "an opening",
+        "meaning2": "left side of a ship",
+        "sentence": "Meet me on the port side before we take the boat.",
+        "pos": "n",
+        "example1": "Upon further investigation they discovered that the porthole had been",
+        "example2": "The monster's tail struck the larbord port."
+    },
+    "60": {
+        "word": "dissolution",
+        "meaning1": "the process of dissolving into a solution",
+        "meaning2": "the breakup or termination of a social relationship",
+        "sentence": "Dissolution is the best approach here.",
+        "pos": "n",
+        "example1": "The syrup is created by a dissolution of sugar into water, then boiling it.",
+        "example2": "Mr. Brown called for a dissolution of the meeting and finally got a vote on it."
+    },
+    "61": {
+        "word": "grief",
+        "meaning1": "a cause or source of annoyance, bother",
+        "meaning2": "a misfortune, mishap, disaster",
+        "sentence": "Good grief susan how does it work.",
+        "pos": "n",
+        "example1": "This crashing computer program has been a major grief all week.",
+        "example2": "Many a ship has come to grief along these shores."
+    },
+    "62": {
+        "word": "ascend",
+        "meaning1": "enter into or acquire a higher status (social)",
+        "meaning2": "go toward a river's (or similar) source.",
+        "sentence": "I have always to be by the sea and ascend.",
+        "pos": "v",
+        "example1": "The princess ascended the throne after the prince's demise.",
+        "example2": "The boat ascended the Delaware."
+    },
+    "63": {
+        "word": "click",
+        "meaning1": "Become clear or enter one's consciousness or emotions.",
+        "meaning2": "CLICK OFF: perform or finish an action rapidly.",
+        "sentence": "It was at that moment where I felt it click, never again.",
+        "pos": "v",
+        "example1": "It finally clicked for him that college was not as easy as it first appeared.",
+        "example2": "The game was clicked off in 1:48."
+    },
+    "64": {
+        "word": "return",
+        "meaning1": "going the other way",
+        "meaning2": "football play",
+        "sentence": "It was at that moment where the pass went astray and I then made a return.",
+        "pos": "n",
+        "example1": "I met John during his return from Australia.",
+        "example2": "He dodged through crowds for a thirty-yard return on the kickoff."
+    },
+    "65": {
+        "word": "square",
+        "meaning1": "make or position so as to be square",
+        "meaning2": "turn an oar or paddle while rowing or canoeing",
+        "sentence": "we seemed lost and needed to be square.",
+        "pos": "v",
+        "example1": "After showing the 5 of spades he squared the deck.",
+        "example2": "Jim and I squared away to paddle upstream."
+    }
+}

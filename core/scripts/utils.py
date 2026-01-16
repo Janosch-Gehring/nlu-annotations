@@ -87,6 +87,11 @@ TASK_INFO = {
         "annotation_filepath": "var_sentence_task/resources/sense_pairs.json",
         "qualification_filepath": "var_sentence_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 1
+    },
+    "var_sentence_task2": {
+        "annotation_filepath": "var_sentence_task2/resources/sense_pairs.json",
+        "qualification_filepath": "var_sentence_task2/resources/qualification_questions.json",
+        "number_of_annotator_groups": 1
     }
 }
 
@@ -224,7 +229,9 @@ def finish_qualification(qualification_function: str):
         st.write("The qualification test has ended. Please wait a moment...")
         user_repository.set_qualification(st.session_state.user_id)
         # Since the user is qualified, automatic group assignment can now take place...
+        print("automatic group assignment is...")
         if "group_assignment" in TASK_INFO[user[1]] and TASK_INFO[user[1]]["group_assignment"] == "post-qualification":
+            print("desired")
             user_repository.assign_to_weakest_group(st.session_state.user_id, user[1])
         st.rerun()
     else:

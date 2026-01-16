@@ -108,13 +108,13 @@ var_ending_test_tutorial_page = st.Page(
 )
 
 var_sentence_task_start_page = st.Page(
-    "var_sentence_task/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
+    "var_sentence_task2/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
 )
 var_sentence_task_qualification_page = st.Page(
-    "var_sentence_task/pages/qualification_page.py", title="Qualification",  icon="📙" 
+    "var_sentence_task2/pages/qualification_page.py", title="Qualification",  icon="🔑" 
 )
 var_sentence_task_annotation_page = st.Page(
-    "var_sentence_task/pages/annotation_page.py", title="Annotation",  icon="📙" 
+    "var_sentence_task2/pages/annotation_page.py", title="Annotation",  icon="✏️" 
 )
 
 
@@ -133,7 +133,7 @@ elif st.session_state.user_id:
     if utils.authenticate_id("big_ambisentence_task", st.session_state.user_id):
         available_pages["Ambiguous Sentence Task"] = [big_ambisentence_start_page, big_ambisentence_qualification_page, big_ambisentence_annotation_page]
 
-    elif utils.authenticate_id("var_sentence_task", st.session_state.user_id):
+    elif utils.authenticate_id("var_sentence_task2", st.session_state.user_id):
         available_pages["Ambiguous Sentence Task"] = [var_sentence_task_start_page, var_sentence_task_qualification_page, var_sentence_task_annotation_page]
 
     elif utils.authenticate_id("big_ending_task", st.session_state.user_id):
