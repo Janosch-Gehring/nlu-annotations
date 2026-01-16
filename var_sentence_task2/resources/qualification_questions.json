@@ -8,7 +8,7 @@
         "correct_answer": [1, 0]
     },
     "2": {
-        "sentence": "The service there was really [lousy].",
+        "sentence": "The service there was quite [lousy].",
         "word": "lousy",
         "meaning1": "infested with lice",
         "meaning2": "very bad",
