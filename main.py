@@ -107,6 +107,19 @@ var_ending_test_tutorial_page = st.Page(
     "var_ending_test/pages/tutorial_page.py", title="Tutorial",icon="📖"
 )
 
+var_ending_test2_start_page = st.Page(
+    "var_ending_test2/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
+)
+var_ending_test2_qualification_page = st.Page(
+    "var_ending_test2/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+var_ending_test2_annotation_page = st.Page(
+    "var_ending_test2/pages/annotation_page.py", title="Annotation", icon="✏️"
+)
+var_ending_test2_tutorial_page = st.Page(
+    "var_ending_test2/pages/tutorial_page.py", title="Tutorial",icon="📖"
+)
+
 var_sentence_task2_start_page = st.Page(
     "var_sentence_task2/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
 )
@@ -145,6 +158,10 @@ elif st.session_state.user_id:
     elif utils.authenticate_id("var_ending_test", st.session_state.user_id):
         available_pages["Story Building Task"] = [var_ending_test_qualification_page, var_ending_test_tutorial_page, var_ending_test_annotation_page]
 
+    elif utils.authenticate_id("var_ending_test2", st.session_state.user_id):
+        available_pages["Story Building Task"] = [var_ending_test2_qualification_page, var_ending_test2_tutorial_page, var_ending_test2_annotation_page]
+
+
     elif utils.authenticate_id("big_eval_ending_task", st.session_state.user_id):
         if user_repository.get_qualification() != 1:
             available_pages["Story Interpretation Task"] = [big_eval_ending_start_page, big_eval_ending_qualification_page]
@@ -168,7 +185,7 @@ else:
     pg = st.navigation(
         {
         "Home": [main_page, authentication_page],
-        "Task Previews": [var_sentence_task2_start_page]
+        "Task Previews": [var_ending_test2_start_page]
         }
     )
 

@@ -83,6 +83,13 @@ TASK_INFO = {
         "number_of_annotator_groups": 15,
         "group_assignment": "post-qualification"
     },
+    "var_ending_test2": {
+        "annotation_filepath": "var_ending_test2/resources/new_samples.json",
+        "qualification_filepath": "var_ending_test2/resources/qualification_questions.json",
+        "tutorial_filepath": "var_ending_test2/resources/tutorial_questions.json",
+        "number_of_annotator_groups": 15,
+        "group_assignment": "post-qualification"
+    },
     "var_sentence_task": {
         "annotation_filepath": "var_sentence_task/resources/sense_pairs.json",
         "qualification_filepath": "var_sentence_task/resources/qualification_questions.json",

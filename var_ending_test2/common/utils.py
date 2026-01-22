@@ -89,8 +89,23 @@ def sentence_selection_box(sentences, index, part="Beginning", in_tutorial=False
             st.session_state["sample_state"]["editing"][part] = False
             st.session_state["sample_state"]["choice"][part] = custom_text
             st.rerun()
-    
 
+def check_user_sample_progress():
+    samples_done = 0
+    samples_skipped = 0
+    if "annotation" not in st.session_state.user[5]:
+        return 0, 0
+    annotations = st.session_state.user[5]["annotation"]
+    for annotation in annotations:
+        if not annotation:
+            continue 
+        if annotation["skipping_reason"]:
+            samples_skipped += 1
+        else:
+            samples_done += 1
+    print(samples_done, samples_skipped)
+    return samples_done, samples_skipped
+    
 
 def print_annotation_schema(subtask: str, index: int) -> tuple:
     """
@@ -120,7 +135,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
         
         question = samples[str(index)]
         # display the "Sample 1/5" thing
-        display_progress(key=subtask)
+        # display_progress(key=subtask)
 
         st.markdown("Read the following story:")
 
@@ -141,18 +156,17 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
 
     else:  # annotation and tutorial
         if subtask == "annotation":
-            samples = read_json_from_file(TASK_INFO["var_ending_test"]["annotation_filepath"])
+            samples = read_json_from_file(TASK_INFO["var_ending_test2"]["annotation_filepath"])
         else:
             samples = read_json_from_file(TASK_INFO["var_ending_test"]["tutorial_filepath"])
 
         # load values previously filled in checkboxes or None if this is first time annotating this sample
         sample_preload = load_annotation(subtask, index)
-        if sample_preload is None:
-            value_textbox1, value_textbox2 = "", ""
-        else:
-            value_textbox1, value_textbox2 = (sample_preload["ending"], sample_preload["comment"])
+        
 
-        display_progress(key=subtask)
+        # display_progress(key=subtask)
+        samples_done, samples_skipped = check_user_sample_progress()
+        st.write(f"{samples_done} out of 10 stories finished.")
 
         question = samples[str(index)]
         
@@ -160,9 +174,18 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
 
 
             if not in_tutorial:
-                skip_toggle = st.toggle("Skip this story?", key=index*20+12, help="Show options for skipping the sample.")
+                skip_toggle = st.toggle("Show options for skipping", key=index*20+12, help="Show options for skipping a story (Pressing this button does not yet skip the story).")
                 if skip_toggle:
-                    st.markdown("In certain cases, you are allowed to skip stories. For example, if the given sentence makes no sense, if you are not familiar with the word's meanings, or if the given sentence is not ambiguous. If you skip excessively without a reason, you may be asked to return (or if you fail to return, rejected).")
+                    st.markdown("""
+You are allowed to skip stories. Possible reasons are, for example: 
+    
+- The given sentence makes no sense
+                                
+- You are not familiar with the word's meanings
+                                
+- The given sentence is not ambiguous
+                                
+You will not be punished for skipping stories, but keep in mind that skipped stories won't count towards your task completion.""")
                     skipping_reason = st.text_input("Why do you want to skip this story? (Required)", max_chars=1000, key=index*20+13)
                     if skipping_reason:
                         skip_button = st.button("Send and skip to next sample.")
@@ -262,7 +285,7 @@ Your constructed story:
 
         if not in_tutorial:
 
-            confidence = st.checkbox("I am confident that this story came out well. (No impact on payment)", key=index*20+9, help="Pick this if the story is coherent, sounds natural, and implies the meaning successfully. It doesn't affect your payment or submission review, so just be honest. We know it's hard sometimes.")
+            confidence = True#st.checkbox("Do you think this story came out above average compared to your other stories? (No impact on payment)", key=index*20+9, help="Pick this if the story is coherent, sounds natural, and implies the meaning successfully. It doesn't affect your payment or submission review, so just be honest. We know it's hard sometimes.")
 
             comment = st.text_input("Optional space for comments", max_chars=2000, key=index*20+10)
 
