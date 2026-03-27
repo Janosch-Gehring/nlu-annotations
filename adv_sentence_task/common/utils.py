@@ -60,24 +60,37 @@ def print_annotation_schema(index: int) -> tuple:
 
     samples = read_json_from_file(TASK_INFO["adv_sentence_task"]["annotation_filepath"])
 
+    random_flip_sample = (hash(index) % 2) == 0
+
     if "random_sample" not in st.session_state:
         random.shuffle(samples)
         sample = samples[0]
         st.session_state.random_sample = sample
 
-    st.write("Can't think of anything? You can press the button below to get a different word. Don't worry, you can press it as often as you want to.")
+    st.write("Can't think of anything, or not familiar with the word and its meanings? You can press the button below to get a different random word. Don't worry, you can press it as often as you want to.")
     reroll_button = st.button(key = 10 * index + 1, label="A different word, please!")
 
     sample = st.session_state.random_sample
 
+    if not random_flip_sample:
+        meaning1 = sample["meaning1"]
+        meaning2 = sample["meaning2"]
+        example1 = sample["example1"]
+        example2 = sample["example2"]
+    else:
+        meaning1 = sample["meaning2"]
+        meaning2 = sample["meaning1"]
+        example1 = sample["example2"]
+        example2 = sample["example1"]
+
     st.markdown(f"""
     ### The word ***{sample["word"]}*** has two meanings: 
 
-    ##### **Meaning 1**: *{sample["meaning1"]}*   
-    (as in: "{sample["example1"]}")  
+    ##### **Meaning 1**: *{meaning1}*   
+    (as in: "{example1}")  
 
-    ##### **Meaning 2**: *{sample["meaning2"]}*  
-    (as in: "{sample["example2"]}")
+    ##### **Meaning 2**: *{meaning2}*  
+    (as in: "{example2}")
     
     *Can you write a sentence where the word {sample["word"]} is used in such a way that both of these meanings are plausible interpretations?*
     """)
