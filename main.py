@@ -130,6 +130,16 @@ var_sentence_task2_annotation_page = st.Page(
     "var_sentence_task2/pages/annotation_page.py", title="Annotation",  icon="✏️" 
 )
 
+adv_sentence_task_start_page = st.Page(
+    "adv_sentence_task/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
+)
+adv_sentence_task_qualification_page = st.Page(
+    "adv_sentence_task/pages/qualification_page.py", title="Qualification",  icon="🔑" 
+)
+adv_sentence_task_annotation_page = st.Page(
+    "adv_sentence_task/pages/annotation_page.py", title="Annotation",  icon="✏️" 
+)
+
 
 # Create navigation bar
 
@@ -177,6 +187,10 @@ elif st.session_state.user_id:
                                                             big_eval_sentence_qualification_page,
                                                             big_eval_sentence_annotation_page]
 
+    elif utils.authenticate_id("adv_sentence_task", st.session_state.user_id):
+        available_pages["Ambiguous Sentence Task"] = [adv_sentence_task_start_page, adv_sentence_task_qualification_page, adv_sentence_task_annotation_page]
+
+
     available_pages["Other"] = [logout_page]
 
     pg = st.navigation(available_pages)
@@ -185,7 +199,7 @@ else:
     pg = st.navigation(
         {
         "Home": [main_page, authentication_page],
-        "Task Previews": [var_ending_test2_start_page]
+        "Task Previews": [adv_sentence_task_start_page]
         }
     )
 

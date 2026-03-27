@@ -99,6 +99,11 @@ TASK_INFO = {
         "annotation_filepath": "var_sentence_task2/resources/sense_pairs.json",
         "qualification_filepath": "var_sentence_task2/resources/qualification_questions.json",
         "number_of_annotator_groups": 1
+    },
+    "adv_sentence_task": {
+        "annotation_filepath": "adv_sentence_task/resources/sense_pairs.json",
+        "qualification_filepath": "adv_sentence_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 1
     }
 }
 
