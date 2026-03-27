@@ -27,8 +27,8 @@ elif utils.check_number_of_annotations() >= 5:
 else:
     index = int(st.session_state.progress)
 
-    word, meaning1, meaning2, sentence, next_input = utils.print_annotation_schema(index)
-    annotation = {"word": word, "meaning1": meaning1, "meaning2": meaning2, "sentence": sentence}
+    word, meaning1, meaning2, domain, sentence, next_input = utils.print_annotation_schema(index)
+    annotation = {"domain": domain, "word": word, "meaning1": meaning1, "meaning2": meaning2, "sentence": sentence}
 
     if next_input:
         user_repository.add_log(st.session_state.user_id, "SUBMITTED a sample.")

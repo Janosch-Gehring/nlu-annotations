@@ -114,7 +114,7 @@ def print_annotation_schema(index: int) -> tuple:
         st.session_state.random_sample = sample
         st.rerun()
 
-    return sample["word"], sample["meaning1"], sample["meaning2"], text_input, next_input
+    return sample["word"], sample["meaning1"], sample["meaning2"], sample["domain"], text_input, next_input
 
 
 
