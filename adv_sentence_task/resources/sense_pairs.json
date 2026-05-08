@@ -1,335 +1,5 @@
 [
     {
-        "word": "plot",
-        "domain": "agriculture",
-        "pos": "n",
-        "meaning1": "a small area of ground covered by specific vegetation",
-        "meaning2": "a secret scheme to do something (especially something underhand or illegal)",
-        "key1": "plot.n.02",
-        "key2": "plot.n.01",
-        "example1": "She tended a small plot of vegetables in the backyard.",
-        "example2": "The police uncovered a plot to steal the museum's paintings."
-    },
-    {
-        "word": "patch",
-        "domain": "agriculture",
-        "pos": "n",
-        "meaning1": "a small area of ground covered by specific vegetation",
-        "meaning2": "a piece of cloth used as decoration or to mend or cover a hole",
-        "key1": "plot.n.02",
-        "key2": "patch.n.03",
-        "example1": "A patch of wildflowers brightened the roadside.",
-        "example2": "She sewed a colorful patch over the hole in his jeans."
-    },
-    {
-        "word": "wrangle",
-        "domain": "agriculture",
-        "pos": "v",
-        "meaning1": "herd and care for",
-        "meaning2": "to quarrel noisily, angrily or disruptively",
-        "key1": "wrangle.v.02",
-        "key2": "brawl.v.01",
-        "example1": "They wrangle the cattle every morning.",
-        "example2": "The siblings began to wrangle loudly over the last cookie."
-    },
-    {
-        "word": "uncultivated",
-        "domain": "agriculture",
-        "pos": "a",
-        "meaning1": "(of land or fields) not prepared for raising crops",
-        "meaning2": "(of persons) lacking art or knowledge",
-        "key1": "uncultivated.a.01",
-        "key2": "artless.s.04",
-        "example1": "The farmer left the field uncultivated to let the soil rest.",
-        "example2": "He was uncultivated and knew little about art or literature."
-    },
-    {
-        "word": "scorch",
-        "domain": "agriculture",
-        "pos": "n",
-        "meaning1": "a plant disease that produces a browning or scorched appearance of plant tissues",
-        "meaning2": "a surface burn",
-        "key1": "scorch.n.02",
-        "key2": "scorch.n.01",
-        "example1": "Several rose bushes suffered scorch, leaving brown, crispy leaves.",
-        "example2": "The iron left a scorch on the shirt."
-    },
-    {
-        "word": "range",
-        "domain": "agriculture",
-        "pos": "n",
-        "meaning1": "a large tract of grassy open land on which livestock can graze",
-        "meaning2": "an area in which something acts or operates or has power or control:",
-        "key1": "range.n.03",
-        "key2": "scope.n.01",
-        "example1": "The cattle grazed peacefully on the open range.",
-        "example2": "The radio tower's signal has a range of five miles."
-    },
-    {
-        "word": "header",
-        "domain": "agriculture",
-        "pos": "n",
-        "meaning1": "a machine that cuts the heads off grain and moves them into a wagon",
-        "meaning2": "a line of text serving to indicate what the passage below it is about",
-        "key1": "header.n.05",
-        "key2": "heading.n.01",
-        "example1": "The header cut the heads off the wheat and moved them into the wagon.",
-        "example2": "The header \"Introduction\" told readers what the passage below was about."
-    },
-    {
-        "word": "composition",
-        "domain": "music",
-        "pos": "n",
-        "meaning1": "a musical work that has been created",
-        "meaning2": "the way in which someone or something is composed",
-        "key1": "musical_composition.n.01",
-        "key2": "constitution.n.04",
-        "example1": "She played her new composition at the school recital.",
-        "example2": "The composition of the committee includes three teachers, two parents, and a student."
-    },
-    {
-        "word": "mode",
-        "domain": "music",
-        "pos": "n",
-        "meaning1": "any of various fixed orders of the various diatonic notes within an octave",
-        "meaning2": "a particular functioning condition or arrangement",
-        "key1": "mode.n.05",
-        "key2": "mode.n.02",
-        "example1": "The piece is written in the Dorian mode, giving it a medieval minor sound.",
-        "example2": "My phone is in airplane mode during the flight."
-    },
-    {
-        "word": "string",
-        "domain": "music",
-        "pos": "n",
-        "meaning1": "stringed instruments that are played with a bow",
-        "meaning2": "a lightweight cord",
-        "key1": "bowed_stringed_instrument.n.01",
-        "key2": "string.n.01",
-        "example1": "The string quartet played a gentle melody.",
-        "example2": "She tied the package with a piece of string."
-    },
-    {
-        "word": "key",
-        "domain": "music",
-        "pos": "n",
-        "meaning1": "pitch of the voice",
-        "meaning2": "metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated",
-        "key1": "key.n.03",
-        "key2": "key.n.01",
-        "example1": "She sang the song in a lower key to suit her voice.",
-        "example2": "He inserted the key into the lock and turned it to open the door."
-    },
-    {
-        "word": "fiddle",
-        "domain": "music",
-        "pos": "v",
-        "meaning1": "play the violin or fiddle",
-        "meaning2": "manipulate manually or in one's mind or imagination",
-        "key1": "fiddle.v.03",
-        "key2": "toy.v.02",
-        "example1": "She learned to fiddle when she was five and now plays at local festivals.",
-        "example2": "He likes to fiddle with ideas in his mind until he finds a solution."
-    },
-    {
-        "word": "harmony",
-        "domain": "music",
-        "pos": "n",
-        "meaning1": "the structure of music with respect to the composition and progression of chords",
-        "meaning2": "agreement of opinions",
-        "key1": "harmony.n.02",
-        "key2": "harmony.n.04",
-        "example1": "The harmony is built on a repeating four-chord progression.",
-        "example2": "The board members were in harmony over the budget proposal."
-    },
-    {
-        "word": "score",
-        "domain": "music",
-        "pos": "v",
-        "meaning1": "write a musical score for",
-        "meaning2": "gain points in a game",
-        "key1": "score.v.04",
-        "key2": "score.v.01",
-        "example1": "The composer will score the film.",
-        "example2": "He scored three points in the final minute."
-    },
-    {
-        "word": "horn",
-        "domain": "music",
-        "pos": "n",
-        "meaning1": "a brass musical instrument with a brilliant tone; has a narrow tube and a flared bell and is played by means of valves",
-        "meaning2": "one of the bony outgrowths on the heads of certain ungulates",
-        "key1": "cornet.n.01",
-        "key2": "horn.n.02",
-        "example1": "She played the horn solo with a bright, clear tone.",
-        "example2": "The goat used its horn to pull down the branch."
-    },
-    {
-        "word": "keynote",
-        "domain": "music",
-        "pos": "n",
-        "meaning1": "(music) the first note of a diatonic scale",
-        "meaning2": "the principal theme in a speech or literary work",
-        "key1": "tonic.n.03",
-        "key2": "keynote.n.01",
-        "example1": "The teacher played the keynote so the students could sing the scale.",
-        "example2": "The keynote of her speech was cooperation."
-    },
-    {
-        "word": "pick",
-        "domain": "music",
-        "pos": "n",
-        "meaning1": "a small thin device (of metal or plastic or ivory) used to pluck a stringed instrument",
-        "meaning2": "the person or thing chosen or selected",
-        "key1": "pick.n.05",
-        "key2": "choice.n.01",
-        "example1": "She used a pick to play the guitar.",
-        "example2": "My pick for team captain is Maria."
-    },
-    {
-        "word": "antagonist",
-        "domain": "pharmacy",
-        "pos": "n",
-        "meaning1": "a drug that neutralizes or counteracts the effects of another drug",
-        "meaning2": "someone who offers opposition",
-        "key1": "antagonist.n.03",
-        "key2": "adversary.n.01",
-        "example1": "The doctor gave naloxone, an opioid antagonist, to reverse the patient's overdose.",
-        "example2": "The antagonist opposed the committee's proposal."
-    },
-    {
-        "word": "blocker",
-        "domain": "pharmacy",
-        "pos": "n",
-        "meaning1": "a class of drugs that inhibit (block) some biological process",
-        "meaning2": "a football player whose responsibility is to block players attempting to stop an offensive play",
-        "key1": "blocker.n.02",
-        "key2": "blocker.n.01",
-        "example1": "The doctor prescribed a beta-blocker to lower his blood pressure.",
-        "example2": "The blocker shoved the defender aside so the running back could reach the end zone."
-    },
-    {
-        "word": "capsule",
-        "domain": "pharmacy",
-        "pos": "n",
-        "meaning1": "a pill in the form of a small rounded gelatinous container with medicine inside",
-        "meaning2": "a small container",
-        "key1": "capsule.n.02",
-        "key2": "capsule.n.01",
-        "example1": "She swallowed a capsule of cold medicine before bed.",
-        "example2": "He found a small metal capsule buried in the sand."
-    },
-    {
-        "word": "tonic",
-        "domain": "pharmacy",
-        "pos": "n",
-        "meaning1": "a medicine that strengthens and invigorates",
-        "meaning2": "lime- or lemon-flavored carbonated water containing quinine",
-        "key1": "tonic.n.04",
-        "key2": "tonic.n.01",
-        "example1": "She drank a tonic every morning to feel stronger and more energized.",
-        "example2": "He drank a glass of tonic with a slice of lime."
-    },
-    {
-        "word": "booster",
-        "domain": "pharmacy",
-        "pos": "n",
-        "meaning1": "an additional dose that makes sure the first dose was effective",
-        "meaning2": "an amplifier for restoring the strength of a transmitted signal",
-        "key1": "booster.n.06",
-        "key2": "booster.n.04",
-        "example1": "He got a booster to make sure his first dose was effective.",
-        "example2": "They installed a booster to amplify the weak radio signal and restore clear transmission."
-    },
-    {
-        "word": "abductor",
-        "domain": "anatomy",
-        "pos": "n",
-        "meaning1": "a muscle that draws a body part away from the median line",
-        "meaning2": "someone who unlawfully seizes and detains a victim (usually for ransom)",
-        "key1": "abductor.n.02",
-        "key2": "kidnapper.n.01",
-        "example1": "The hip abductor contracts to move the leg away from the body's midline.",
-        "example2": "The abductor demanded a ransom after taking the child from the park."
-    },
-    {
-        "word": "extremity",
-        "domain": "anatomy",
-        "pos": "n",
-        "meaning1": "an external body part that projects from the body",
-        "meaning2": "an extreme condition or state (especially of adversity or disease)",
-        "key1": "extremity.n.01",
-        "key2": "extremity.n.02",
-        "example1": "The nurse wrapped the injured extremity to stop the bleeding.",
-        "example2": "The patient was in extremity from the infection and needed immediate care."
-    },
-    {
-        "word": "temporal",
-        "domain": "anatomy",
-        "pos": "a",
-        "meaning1": "of or relating to the temples (the sides of the skull behind the orbit)",
-        "meaning2": "not eternal; - F.D.Roosevelt",
-        "key1": "temporal.a.03",
-        "key2": "temporal.s.01",
-        "example1": "The doctor examined the temporal area at the side of the patient's skull behind his eye.",
-        "example2": "All temporal pleasures will pass."
-    },
-    {
-        "word": "ridge",
-        "domain": "anatomy",
-        "pos": "n",
-        "meaning1": "any long raised border or margin of a bone or tooth or membrane",
-        "meaning2": "a long narrow natural elevation or striation",
-        "key1": "ridge.n.05",
-        "key2": "ridge.n.01",
-        "example1": "The dentist pointed out a tiny ridge along the edge of the tooth.",
-        "example2": "We walked along the narrow ridge to reach the mountain's summit."
-    },
-    {
-        "word": "capsule",
-        "domain": "anatomy",
-        "pos": "n",
-        "meaning1": "a structure that encloses a body part",
-        "meaning2": "a small container",
-        "key1": "capsule.n.05",
-        "key2": "capsule.n.01",
-        "example1": "A thin capsule surrounds the kidney, protecting it from injury.",
-        "example2": "She sealed the fossil in a small capsule."
-    },
-    {
-        "word": "nucleus",
-        "domain": "anatomy",
-        "pos": "n",
-        "meaning1": "a part of the cell containing DNA and RNA and responsible for growth and reproduction",
-        "meaning2": "a small group of indispensable persons or things",
-        "key1": "nucleus.n.01",
-        "key2": "core.n.01",
-        "example1": "The nucleus contains DNA and RNA and controls the cell's growth and reproduction.",
-        "example2": "A nucleus of five volunteers organized the relief effort."
-    },
-    {
-        "word": "atrium",
-        "domain": "anatomy",
-        "pos": "n",
-        "meaning1": "any chamber that is connected to other chambers or passageways (especially one of the two upper chambers of the heart)",
-        "meaning2": "the central area in a building; open to the sky",
-        "key1": "atrium.n.01",
-        "key2": "atrium.n.02",
-        "example1": "The left atrium receives oxygen-rich blood from the lungs.",
-        "example2": "The library's atrium was open to the sky, bathing the reading tables in natural light."
-    },
-    {
-        "word": "appendix",
-        "domain": "anatomy",
-        "pos": "n",
-        "meaning1": "a vestigial process that extends from the lower end of the cecum and that resembles a small pouch",
-        "meaning2": "supplementary material that is collected and appended at the back of a book",
-        "key1": "appendix.n.02",
-        "key2": "appendix.n.01",
-        "example1": "The surgeon removed her inflamed appendix during the emergency operation.",
-        "example2": "The appendix contains the full list of references."
-    },
-    {
         "word": "outfit",
         "domain": "military",
         "pos": "n",
@@ -337,8 +7,19 @@
         "meaning2": "a set of clothing (with accessories)",
         "key1": "outfit.n.01",
         "key2": "outfit.n.02",
-        "example1": "The outfit was ordered to hold the ridge.",
-        "example2": "She bought a new outfit for the party."
+        "example1": "The small outfit was sent to secure the mountain pass.",
+        "example2": "She wore a new outfit with matching shoes and a hat."
+    },
+    {
+        "word": "blast",
+        "domain": "military",
+        "pos": "n",
+        "meaning1": "an explosion (as of dynamite)",
+        "meaning2": "a sudden very loud noise",
+        "key1": "blast.n.04",
+        "key2": "bang.n.02",
+        "example1": "The blast from the dynamite echoed through the canyon.",
+        "example2": "A blast shook the house and made the windows rattle."
     },
     {
         "word": "enlist",
@@ -349,7 +30,7 @@
         "key1": "enlist.v.01",
         "key2": "engage.v.08",
         "example1": "He decided to enlist in the army.",
-        "example2": "We decided to enlist a plumber to fix the leaking pipe."
+        "example2": "We decided to enlist a tutor to help our son with math."
     },
     {
         "word": "draft",
@@ -359,8 +40,8 @@
         "meaning2": "a document ordering the payment of money; drawn by one person or bank on another",
         "key1": "conscription.n.01",
         "key2": "draft.n.01",
-        "example1": "He received a draft notice and had to join the army.",
-        "example2": "The seller cashed the draft drawn on the buyer's bank to receive payment."
+        "example1": "He was called up for the draft last year.",
+        "example2": "She paid the supplier with a bank draft drawn on her account."
     },
     {
         "word": "intelligence",
@@ -370,8 +51,41 @@
         "meaning2": "the ability to comprehend; to understand and profit from experience",
         "key1": "intelligence.n.03",
         "key2": "intelligence.n.01",
-        "example1": "The commander received intelligence about the enemy's movements.",
-        "example2": "Her intelligence helped her learn from mistakes and improve."
+        "example1": "The commander received intelligence that the enemy was planning an attack at dawn.",
+        "example2": "Her intelligence allowed her to learn from mistakes and improve."
+    },
+    {
+        "word": "recruit",
+        "domain": "military",
+        "pos": "v",
+        "meaning1": "cause to assemble or enlist in the military",
+        "meaning2": "seek to employ",
+        "key1": "recruit.v.03",
+        "key2": "recruit.v.02",
+        "example1": "The army will recruit volunteers to strengthen its ranks.",
+        "example2": "The company will recruit new employees to meet growing demand."
+    },
+    {
+        "word": "armor",
+        "domain": "military",
+        "pos": "n",
+        "meaning1": "protective covering made of metal and used in combat",
+        "meaning2": "tough more-or-less rigid protective covering of an animal or plant",
+        "key1": "armor.n.01",
+        "key2": "armor.n.03",
+        "example1": "The knight's armor protected him in combat.",
+        "example2": "The armadillo curled into a ball, its armor protecting it from predators."
+    },
+    {
+        "word": "trooper",
+        "domain": "military",
+        "pos": "n",
+        "meaning1": "a soldier in a motorized army unit",
+        "meaning2": "a state police officer",
+        "key1": "cavalryman.n.01",
+        "key2": "trooper.n.03",
+        "example1": "The trooper rode in the armored vehicle during the patrol.",
+        "example2": "The trooper directed traffic after the highway accident."
     },
     {
         "word": "division",
@@ -381,8 +95,19 @@
         "meaning2": "one of the portions into which something is regarded as divided and which together constitute a whole",
         "key1": "division.n.01",
         "key2": "part.n.09",
-        "example1": "The division advanced at dawn to secure the town.",
-        "example2": "The garden had three divisions, each planted with a different crop."
+        "example1": "The division advanced across the river at dawn.",
+        "example2": "One division of the cake was saved for the birthday child."
+    },
+    {
+        "word": "guard",
+        "domain": "military",
+        "pos": "n",
+        "meaning1": "a military unit serving to protect some place or person",
+        "meaning2": "a person who keeps watch over something or someone",
+        "key1": "guard.n.06",
+        "key2": "guard.n.01",
+        "example1": "A guard of soldiers stood outside the embassy to protect the ambassador.",
+        "example2": "The guard watched the gate all night."
     },
     {
         "word": "hold",
@@ -392,8 +117,19 @@
         "meaning2": "the act of grasping",
         "key1": "hold.n.06",
         "key2": "clasp.n.02",
-        "example1": "The fortress served as a hold during the siege.",
-        "example2": "He kept a firm hold on the rope."
+        "example1": "The castle was the last hold against the invading army.",
+        "example2": "She tightened her hold on the rope."
+    },
+    {
+        "word": "active",
+        "domain": "military",
+        "pos": "s",
+        "meaning1": "engaged in or ready for military or naval operations",
+        "meaning2": "tending to become more severe or wider in scope",
+        "key1": "active.s.02",
+        "key2": "active.a.01",
+        "example1": "The navy kept two destroyers active in the region.",
+        "example2": "The wildfire is active and likely to spread to nearby communities."
     },
     {
         "word": "destroyer",
@@ -403,8 +139,30 @@
         "meaning2": "a person who destroys or ruins or lays waste to",
         "key1": "destroyer.n.01",
         "key2": "destroyer.n.02",
-        "example1": "The destroyer, fast and heavily armed despite its light armor, raced to protect the convoy.",
-        "example2": "The conqueror was a destroyer who laid waste to villages."
+        "example1": "The destroyer raced to intercept the enemy submarine.",
+        "example2": "The dictator was a destroyer who ruined the country's schools and hospitals."
+    },
+    {
+        "word": "headquarters",
+        "domain": "military",
+        "pos": "n",
+        "meaning1": "the military installation from which a commander performs the functions of command",
+        "meaning2": "(usually plural) the office that serves as the administrative center of an enterprise",
+        "key1": "headquarters.n.02",
+        "key2": "headquarters.n.01",
+        "example1": "The commander returned to headquarters to direct the operation.",
+        "example2": "The company's headquarters moved to Chicago last year."
+    },
+    {
+        "word": "mission",
+        "domain": "military",
+        "pos": "n",
+        "meaning1": "an operation that is assigned by a higher headquarters",
+        "meaning2": "a special assignment that is given to a person or group",
+        "key1": "mission.n.02",
+        "key2": "mission.n.03",
+        "example1": "The platoon's mission from headquarters was to secure the bridge before dawn.",
+        "example2": "The team was given a mission to deliver the supplies before dawn."
     },
     {
         "word": "base",
@@ -414,8 +172,8 @@
         "meaning2": "lowest support of a structure",
         "key1": "base.n.01",
         "key2": "foundation.n.03",
-        "example1": "The troops returned to base after completing the mission.",
-        "example2": "The statue stood firmly on a marble base."
+        "example1": "The pilots launched from the base at dawn.",
+        "example2": "The lamp's heavy base keeps it from tipping over."
     },
     {
         "word": "detachment",
@@ -425,63 +183,140 @@
         "meaning2": "avoiding emotional involvement",
         "key1": "detachment.n.04",
         "key2": "withdrawal.n.04",
-        "example1": "A detachment of engineers was sent to repair the damaged bridge.",
-        "example2": "Her detachment kept her from getting emotionally involved in the argument."
+        "example1": "A detachment of soldiers and medics was sent to secure the village.",
+        "example2": "She maintained detachment to avoid becoming emotionally involved."
     },
     {
-        "word": "revolutionary",
-        "domain": "politics",
-        "pos": "a",
-        "meaning1": "advocating or engaged in revolution",
-        "meaning2": "markedly new or introducing radical change",
-        "key1": "revolutionary.a.04",
-        "key2": "revolutionary.s.01",
-        "example1": "The revolutionary group called for the overthrow of the corrupt government.",
-        "example2": "The new app offered a revolutionary way to organize daily tasks."
-    },
-    {
-        "word": "radical",
-        "domain": "politics",
-        "pos": "s",
-        "meaning1": "(used of opinions and actions) far beyond the norm",
-        "meaning2": "markedly new or introducing radical change",
-        "key1": "extremist.s.01",
-        "key2": "revolutionary.s.01",
-        "example1": "Her radical ideas about education surprised the whole town.",
-        "example2": "Her radical plan transformed the way the city manages traffic."
-    },
-    {
-        "word": "resistance",
-        "domain": "politics",
-        "pos": "n",
-        "meaning1": "a secret group organized to overthrow a government or occupation force",
-        "meaning2": "any mechanical force that tends to retard or oppose motion",
-        "key1": "underground.n.01",
-        "key2": "resistance.n.02",
-        "example1": "The resistance met in secret to plan an attack on the occupying forces.",
-        "example2": "The swimmer felt the water's resistance as she pushed forward."
-    },
-    {
-        "word": "cell",
-        "domain": "politics",
-        "pos": "n",
-        "meaning1": "a small unit serving as part of or as the nucleus of a larger political movement",
-        "meaning2": "any small compartment",
-        "key1": "cell.n.04",
-        "key2": "cell.n.01",
-        "example1": "A local cell of the movement organized voter-registration drives in the neighborhood.",
-        "example2": "Each cell in the honeycomb holds a drop of nectar."
-    },
-    {
-        "word": "pass",
-        "domain": "politics",
+        "word": "build_up",
+        "domain": "military",
         "pos": "v",
-        "meaning1": "make laws, bills, etc. or bring into effect by legislation",
-        "meaning2": "go across or through",
-        "key1": "legislate.v.01",
-        "key2": "pass.v.01",
-        "example1": "The legislature will pass the new safety law next month.",
-        "example2": "We will pass through the tunnel."
+        "meaning1": "prepare oneself for a military confrontation",
+        "meaning2": "enlarge, develop, or increase by degrees or in stages",
+        "key1": "arm.v.01",
+        "key2": "build_up.v.01",
+        "example1": "The army started to build_up its forces for a possible war.",
+        "example2": "She hopes to build_up her savings by depositing a little each month."
+    },
+    {
+        "word": "plot",
+        "domain": "agriculture",
+        "pos": "n",
+        "meaning1": "a small area of ground covered by specific vegetation",
+        "meaning2": "a secret scheme to do something (especially something underhand or illegal)",
+        "key1": "plot.n.02",
+        "key2": "plot.n.01",
+        "example1": "She tended a small plot of lavender behind her house.",
+        "example2": "They uncovered a plot to rob the bank."
+    },
+    {
+        "word": "patch",
+        "domain": "agriculture",
+        "pos": "n",
+        "meaning1": "a small area of ground covered by specific vegetation",
+        "meaning2": "a piece of cloth used as decoration or to mend or cover a hole",
+        "key1": "plot.n.02",
+        "key2": "patch.n.03",
+        "example1": "A patch of clover grew beside the fence.",
+        "example2": "She sewed a colorful patch over the hole in her jeans."
+    },
+    {
+        "word": "combine",
+        "domain": "agriculture",
+        "pos": "n",
+        "meaning1": "harvester that heads and threshes and cleans grain while moving across the field",
+        "meaning2": "an occurrence that results in things being united",
+        "key1": "combine.n.01",
+        "key2": "combining.n.01",
+        "example1": "The farmer drove the combine across the wheat field at dawn.",
+        "example2": "The combine of the two companies created a stronger business."
+    },
+    {
+        "word": "scorch",
+        "domain": "agriculture",
+        "pos": "n",
+        "meaning1": "a plant disease that produces a browning or scorched appearance of plant tissues",
+        "meaning2": "a surface burn",
+        "key1": "scorch.n.02",
+        "key2": "scorch.n.01",
+        "example1": "The tomato plants developed scorch, turning the leaves brown and dry.",
+        "example2": "The scorch on the counter came from the hot pan."
+    },
+    {
+        "word": "lumberjack",
+        "domain": "agriculture",
+        "pos": "n",
+        "meaning1": "a person who fells trees",
+        "meaning2": "a short warm outer jacket",
+        "key1": "lumberman.n.01",
+        "key2": "lumberjack.n.02",
+        "example1": "The lumberjack felled the old oak tree with an axe.",
+        "example2": "He zipped up his lumberjack and stepped out into the cold."
+    },
+    {
+        "word": "range",
+        "domain": "agriculture",
+        "pos": "n",
+        "meaning1": "a large tract of grassy open land on which livestock can graze",
+        "meaning2": "an area in which something acts or operates or has power or control:",
+        "key1": "range.n.03",
+        "key2": "scope.n.01",
+        "example1": "The cows grazed on the open range.",
+        "example2": "The governor's range of power stops at the state line."
+    },
+    {
+        "word": "epic",
+        "domain": "literature",
+        "pos": "a",
+        "meaning1": "constituting or having to do with or suggestive of a literary epic",
+        "meaning2": "very imposing or impressive; surpassing the ordinary (especially in size or scale)",
+        "key1": "epic.a.02",
+        "key2": "epic.s.01",
+        "example1": "The poem's epic scope and heroic characters recalled ancient myths.",
+        "example2": "The mountain's epic cliffs rose far above the valley."
+    },
+    {
+        "word": "draft",
+        "domain": "literature",
+        "pos": "n",
+        "meaning1": "any of the various versions in the development of a written work",
+        "meaning2": "a current of air (usually coming into a chimney or room or vehicle)",
+        "key1": "draft.n.05",
+        "key2": "draft.n.02",
+        "example1": "I saved the first draft of my essay before making revisions.",
+        "example2": "She felt a cold draft coming through the window."
+    },
+    {
+        "word": "adaptation",
+        "domain": "literature",
+        "pos": "n",
+        "meaning1": "a written work (as a novel) that has been recast in a new form",
+        "meaning2": "the process of adapting to something (such as environmental conditions)",
+        "key1": "adaptation.n.01",
+        "key2": "adaptation.n.02",
+        "example1": "The film adaptation of the novel brought the story to life on screen.",
+        "example2": "Her adaptation to the colder climate took several weeks."
+    },
+    {
+        "word": "column",
+        "domain": "literature",
+        "pos": "n",
+        "meaning1": "an article giving opinions or perspectives",
+        "meaning2": "anything that approximates the shape of a column or tower",
+        "key1": "column.n.05",
+        "key2": "column.n.04",
+        "example1": "She wrote a column expressing her views on the school's new dress code.",
+        "example2": "A tall column of smoke rose into the sky."
+    },
+    {
+        "word": "stream_of_consciousness",
+        "domain": "literature",
+        "pos": "n",
+        "meaning1": "a literary genre that reveals a character's thoughts and feeling as they develop by means of a long soliloquy",
+        "meaning2": "the continuous flow of ideas and feelings that constitute an individual's conscious experience",
+        "key1": "stream_of_consciousness.n.01",
+        "key2": "stream_of_consciousness.n.02",
+        "example1": "The novel's stream_of_consciousness reveals the main character's thoughts in a long, flowing soliloquy.",
+        "example2": "Her stream_of_consciousness kept shifting from childhood memories to tomorrow's tasks."
     },
     {
         "word": "map",
@@ -491,8 +326,8 @@
         "meaning2": "make a map of; show or establish the features of details of",
         "key1": "map.v.06",
         "key2": "map.v.01",
-        "example1": "We map each integer to its square.",
-        "example2": "The team will map the forest to record the locations of rare plants."
+        "example1": "Define the function f to map each integer n to its square n^2.",
+        "example2": "Geologists will map the fault lines to assess earthquake risk."
     },
     {
         "word": "fraction",
@@ -502,8 +337,41 @@
         "meaning2": "a small part or item forming a piece of a whole",
         "key1": "fraction.n.03",
         "key2": "fraction.n.02",
-        "example1": "3/4 is a fraction representing the quotient of the rational numbers 3 and 4.",
+        "example1": "The fraction 3/4 is the quotient of 3 and 4.",
         "example2": "Only a fraction of the cake remained after the party."
+    },
+    {
+        "word": "sign",
+        "domain": "mathematics",
+        "pos": "n",
+        "meaning1": "a character indicating a relation between quantities",
+        "meaning2": "a perceptible indication of something not immediately apparent (as a visible clue that something has happened)",
+        "key1": "sign.n.11",
+        "key2": "sign.n.01",
+        "example1": "The equals sign shows that the values on both sides are the same.",
+        "example2": "The muddy footprints were a sign that someone had walked through the kitchen."
+    },
+    {
+        "word": "series",
+        "domain": "mathematics",
+        "pos": "n",
+        "meaning1": "(mathematics) the sum of a finite or infinite sequence of expressions",
+        "meaning2": "similar things placed in order or happening one after another",
+        "key1": "series.n.07",
+        "key2": "series.n.01",
+        "example1": "The infinite series 1 + 1/2 + 1/4 + 1/8 + ... equals 2.",
+        "example2": "A series of storms hit the coast this week."
+    },
+    {
+        "word": "differential",
+        "domain": "mathematics",
+        "pos": "a",
+        "meaning1": "involving or containing one or more derivatives",
+        "meaning2": "relating to or showing a difference",
+        "key1": "differential.a.02",
+        "key2": "differential.a.01",
+        "example1": "The differential equation involves derivatives of the unknown function.",
+        "example2": "There is a differential pay rate between senior and junior staff."
     },
     {
         "word": "term",
@@ -513,8 +381,8 @@
         "meaning2": "a limited period of time",
         "key1": "term.n.04",
         "key2": "term.n.02",
-        "example1": "In the polynomial 3x^2 + 5x - 7, 3x^2 is a term.",
-        "example2": "He served a four-year term as mayor."
+        "example1": "The polynomial 3x^2 + 5x - 7 contains the term 5x.",
+        "example2": "He served a four-year term on the city council."
     },
     {
         "word": "division",
@@ -524,8 +392,8 @@
         "meaning2": "an administrative unit in government or business",
         "key1": "division.n.11",
         "key2": "division.n.04",
-        "example1": "She used division to calculate that 12 divided by 3 equals 4.",
-        "example2": "The marketing division handles all advertising and promotions."
+        "example1": "You use division to compute the quotient of two numbers, for example 12 \u00f7 3 = 4.",
+        "example2": "The city's public works division is responsible for fixing potholes."
     },
     {
         "word": "analysis",
@@ -535,8 +403,8 @@
         "meaning2": "an investigation of the component parts of a whole and their relations in making up the whole",
         "key1": "analysis.n.05",
         "key2": "analysis.n.01",
-        "example1": "She studied analysis to master limits, sequences, and integration.",
-        "example2": "Her analysis of the machine showed how the parts worked together to make it run."
+        "example1": "She is studying analysis to learn about limits, derivatives, and integrals.",
+        "example2": "The engineer's analysis of the machine's parts showed how they work together."
     },
     {
         "word": "average",
@@ -546,8 +414,30 @@
         "meaning2": "lacking special distinction, rank, or status; commonly encountered",
         "key1": "average.s.01",
         "key2": "average.s.02",
-        "example1": "The average test score in the class was 82.",
-        "example2": "He's an average person who doesn't stand out in a crowd."
+        "example1": "Her test score was about average for the class.",
+        "example2": "He's an average employee who does his job but doesn't stand out."
+    },
+    {
+        "word": "common_denominator",
+        "domain": "mathematics",
+        "pos": "n",
+        "meaning1": "an integer that is a common multiple of the denominators of two or more fractions",
+        "meaning2": "an attribute that is common to all members of a category",
+        "key1": "common_denominator.n.01",
+        "key2": "common_denominator.n.02",
+        "example1": "To add 1/3 and 1/4, use 12 as a common_denominator.",
+        "example2": "Curiosity was the common_denominator among all the students in the class."
+    },
+    {
+        "word": "factor_in",
+        "domain": "mathematics",
+        "pos": "v",
+        "meaning1": "resolve into factors",
+        "meaning2": "consider as relevant when making a decision",
+        "key1": "factor.v.01",
+        "key2": "factor.v.03",
+        "example1": "Factor_in 15 to get 3 \u00d7 5.",
+        "example2": "Factor_in the weather when planning a picnic."
     },
     {
         "word": "square",
@@ -558,84 +448,51 @@
         "key1": "square.v.02",
         "key2": "square.v.01",
         "example1": "If you square 5, you get 25.",
-        "example2": "Square the picture frame before you hang it."
+        "example2": "Square the corners of the picture frame."
     },
     {
-        "word": "drop",
-        "domain": "economy",
-        "pos": "v",
-        "meaning1": "go down in value",
-        "meaning2": "let fall to the ground",
-        "key1": "drop.v.03",
-        "key2": "drop.v.01",
-        "example1": "The stock began to drop after the earnings report.",
-        "example2": "Don't drop the vase."
-    },
-    {
-        "word": "land",
-        "domain": "economy",
+        "word": "dividend",
+        "domain": "mathematics",
         "pos": "n",
-        "meaning1": "the land on which real estate is located",
-        "meaning2": "material in the top layer of the surface of the earth in which plants can grow (especially with reference to its quality or use)",
-        "key1": "land.n.01",
-        "key2": "land.n.02",
-        "example1": "They bought the land next to the house to build a garage.",
-        "example2": "The land here is rich and fertile for growing crops."
+        "meaning1": "a number to be divided by another number",
+        "meaning2": "that part of the earnings of a corporation that is distributed to its shareholders; usually paid quarterly",
+        "key1": "dividend.n.02",
+        "key2": "dividend.n.01",
+        "example1": "In 24 \u00f7 6, 24 is the dividend and 6 is the divisor.",
+        "example2": "The company paid a quarterly dividend of $0.50 per share."
     },
     {
-        "word": "net",
-        "domain": "economy",
-        "pos": "v",
-        "meaning1": "make as a net profit",
-        "meaning2": "construct or form a web, as if by weaving",
-        "key1": "net.v.01",
-        "key2": "web.v.01",
-        "example1": "The project will net $10,000 in profit.",
-        "example2": "The caterpillars net leaves together to make a shelter."
+        "word": "closed",
+        "domain": "mathematics",
+        "pos": "a",
+        "meaning1": "(set theory) of an interval that contains both its endpoints",
+        "meaning2": "not open or affording passage or access",
+        "key1": "closed.a.02",
+        "key2": "closed.a.01",
+        "example1": "The interval [0, 1] is closed because it contains both endpoints 0 and 1.",
+        "example2": "The gate was closed, so we couldn't enter."
     },
     {
-        "word": "ship",
-        "domain": "economy",
-        "pos": "v",
-        "meaning1": "transport commercially",
-        "meaning2": "go on board",
-        "key1": "transport.v.04",
-        "key2": "embark.v.01",
-        "example1": "We will ship your order tomorrow.",
-        "example2": "They will ship aboard the ferry at noon."
-    },
-    {
-        "word": "firing",
-        "domain": "economy",
-        "pos": "n",
-        "meaning1": "the termination of someone's employment (leaving them free to depart)",
-        "meaning2": "the act of firing weapons or artillery at an enemy",
-        "key1": "dismissal.n.04",
-        "key2": "fire.n.02",
-        "example1": "Her firing last week meant she was free to look for another job.",
-        "example2": "The soldiers started firing at the enemy."
-    },
-    {
-        "word": "freeze",
-        "domain": "economy",
-        "pos": "v",
-        "meaning1": "prohibit the conversion or use of (assets)",
-        "meaning2": "stop moving or become immobilized",
-        "key1": "freeze.v.08",
-        "key2": "freeze.v.01",
-        "example1": "The court will freeze the suspect's bank accounts during the investigation.",
-        "example2": "The rabbit will freeze in the grass when the dog barks."
-    },
-    {
-        "word": "register",
+        "word": "compiler",
         "domain": "computer_science",
         "pos": "n",
-        "meaning1": "(computer science) memory device that is the part of computer memory that has a specific address and that is used to hold information of a specific kind",
-        "meaning2": "an official written record of names or events or transactions",
-        "key1": "register.n.04",
-        "key2": "register.n.01",
-        "example1": "The CPU stores the loop counter in a register for fast access.",
-        "example2": "Please sign the visitor register at the reception desk."
+        "meaning1": "(computer science) a program that decodes instructions written in a higher order language and produces an assembly language program",
+        "meaning2": "a person who compiles information (as for reference purposes)",
+        "key1": "compiler.n.02",
+        "key2": "compiler.n.01",
+        "example1": "The compiler converted the C program into assembly code so the processor could execute it.",
+        "example2": "The compiler assembled a list of sources for the research handbook."
+    },
+    {
+        "word": "error",
+        "domain": "computer_science",
+        "pos": "n",
+        "meaning1": "(computer science) the occurrence of an incorrect result produced by a computer",
+        "meaning2": "a wrong action attributable to bad judgment or ignorance or inattention",
+        "key1": "error.n.06",
+        "key2": "mistake.n.01",
+        "example1": "A programming error caused the computer to output the wrong total.",
+        "example2": "His error in judgment cost the company a major client."
     },
     {
         "word": "library",
@@ -645,19 +502,30 @@
         "meaning2": "a room where books are kept",
         "key1": "library.n.04",
         "key2": "library.n.01",
-        "example1": "I imported a graphics library to draw shapes on the screen.",
-        "example2": "I went to the library to borrow a book."
+        "example1": "The developer used a math library to perform complex calculations.",
+        "example2": "She went to the library to borrow a book."
     },
     {
-        "word": "job",
+        "word": "reference",
         "domain": "computer_science",
         "pos": "n",
-        "meaning1": "(computer science) a program application that may consist of several steps but is a single logical unit",
-        "meaning2": "the principal activity in your life that you do to earn money",
-        "key1": "job.n.11",
-        "key2": "occupation.n.01",
-        "example1": "I scheduled a data-processing job to clean, transform, and load the records.",
-        "example2": "My job is teaching at the local school."
+        "meaning1": "(computer science) the code that identifies where a piece of information is stored",
+        "meaning2": "a remark that calls attention to something or someone",
+        "key1": "address.n.01",
+        "key2": "mention.n.01",
+        "example1": "The application saved a reference to the record's location rather than the record itself.",
+        "example2": "The manager's reference to John's hard work brought applause."
+    },
+    {
+        "word": "partition",
+        "domain": "computer_science",
+        "pos": "n",
+        "meaning1": "(computer science) the part of a hard disk that is dedicated to a particular operating system or application and accessed as a single unit",
+        "meaning2": "a vertical structure that divides or separates (as a wall divides one room from another)",
+        "key1": "partition.n.02",
+        "key2": "partition.n.01",
+        "example1": "I created a separate partition on my hard disk to install Linux.",
+        "example2": "A wooden partition divided the living room from the dining area."
     },
     {
         "word": "directory",
@@ -667,8 +535,41 @@
         "meaning2": "an alphabetical list of names and addresses",
         "key1": "directory.n.02",
         "key2": "directory.n.01",
-        "example1": "Open the project directory to view all the files.",
-        "example2": "The church published a directory of members' names and addresses."
+        "example1": "Open the directory to see a listing of the files on the disk.",
+        "example2": "I checked the phone directory for his name and address."
+    },
+    {
+        "word": "firewall",
+        "domain": "computer_science",
+        "pos": "n",
+        "meaning1": "(computing) a security system consisting of a combination of hardware and software that limits the exposure of a computer or computer network to attack from crackers; commonly used on local area networks that are connected to the internet",
+        "meaning2": "a fireproof (or fire-resistant) wall designed to prevent the spread of fire through a building or a vehicle",
+        "key1": "firewall.n.02",
+        "key2": "firewall.n.03",
+        "example1": "We installed a firewall to block unauthorized access to the company's network.",
+        "example2": "The building's firewall prevented the small kitchen blaze from spreading to the rest of the house."
+    },
+    {
+        "word": "dump",
+        "domain": "computer_science",
+        "pos": "n",
+        "meaning1": "(computer science) a copy of the contents of a computer storage device; sometimes used in debugging programs",
+        "meaning2": "a piece of land where waste materials are dumped",
+        "key1": "dump.n.03",
+        "key2": "dump.n.02",
+        "example1": "The developer uploaded the memory dump to help debug the crash.",
+        "example2": "We took the old couch to the dump."
+    },
+    {
+        "word": "menu",
+        "domain": "computer_science",
+        "pos": "n",
+        "meaning1": "(computer science) a list of options available to a computer user",
+        "meaning2": "a list of dishes available at a restaurant",
+        "key1": "menu.n.03",
+        "key2": "menu.n.01",
+        "example1": "Click the File menu to open, save, or print the document.",
+        "example2": "She looked at the menu and chose the grilled salmon for dinner."
     },
     {
         "word": "backup",
@@ -678,8 +579,8 @@
         "meaning2": "someone who takes the place of another (as when things get dangerous or difficult)",
         "key1": "backup.n.04",
         "key2": "stand-in.n.01",
-        "example1": "I saved a backup of my report to an external hard drive.",
-        "example2": "When the lead firefighter was injured, his backup rushed in to finish the rescue."
+        "example1": "I created a backup of my files on an external hard drive.",
+        "example2": "When the lead pilot became ill, the backup landed the plane."
     },
     {
         "word": "platform",
@@ -689,8 +590,8 @@
         "meaning2": "a raised horizontal surface",
         "key1": "platform.n.03",
         "key2": "platform.n.01",
-        "example1": "The game is designed for the Windows platform, so it won't run on my Mac.",
-        "example2": "She stood on the platform waiting for the train."
+        "example1": "The app was built for the macOS platform on our Apple laptops.",
+        "example2": "She stood on the platform to board the train."
     },
     {
         "word": "cookie",
@@ -700,8 +601,52 @@
         "meaning2": "any of various small flat sweet cakes (`biscuit' is the British term)",
         "key1": "cookie.n.03",
         "key2": "cookie.n.01",
-        "example1": "The website saved a cookie on my computer to remember my preferences.",
-        "example2": "I ate a chocolate chip cookie."
+        "example1": "The website placed a cookie on my computer to remember my login.",
+        "example2": "She ate a warm chocolate chip cookie with her milk."
+    },
+    {
+        "word": "cache",
+        "domain": "computer_science",
+        "pos": "n",
+        "meaning1": "(computer science) RAM memory that is set aside as a specialized buffer storage that is continually updated; used to optimize data transfers between system elements with different characteristics",
+        "meaning2": "a hidden storage space (for money or provisions or weapons)",
+        "key1": "cache.n.03",
+        "key2": "cache.n.01",
+        "example1": "The CPU's cache temporarily holds data from RAM to speed up access between the processor and memory.",
+        "example2": "The campers found a cache of food hidden beneath the fallen log."
+    },
+    {
+        "word": "editor",
+        "domain": "computer_science",
+        "pos": "n",
+        "meaning1": "(computer science) a program designed to perform such editorial functions as rearrangement or modification or deletion of data",
+        "meaning2": "a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine)",
+        "key1": "editor_program.n.01",
+        "key2": "editor.n.01",
+        "example1": "I opened the file in a text editor to rearrange and delete the unnecessary lines.",
+        "example2": "The editor decided which articles would appear in the magazine."
+    },
+    {
+        "word": "virus",
+        "domain": "computer_science",
+        "pos": "n",
+        "meaning1": "a software program capable of reproducing itself and usually capable of causing great harm to files or other programs on the same computer",
+        "meaning2": "(virology) ultramicroscopic infectious agent that replicates itself only within cells of living hosts; many are pathogenic; a piece of nucleic acid (DNA or RNA) wrapped in a thin coat of protein",
+        "key1": "virus.n.03",
+        "key2": "virus.n.01",
+        "example1": "The virus infected my computer and deleted important files.",
+        "example2": "The virus replicated inside his cells and caused the infection."
+    },
+    {
+        "word": "architecture",
+        "domain": "computer_science",
+        "pos": "n",
+        "meaning1": "(computer science) the structure and organization of a computer's hardware or system software",
+        "meaning2": "an architectural product or work",
+        "key1": "computer_architecture.n.02",
+        "key2": "architecture.n.01",
+        "example1": "We redesigned the system architecture to improve performance and reliability.",
+        "example2": "The city's new library is a stunning piece of modern architecture."
     },
     {
         "word": "driver",
@@ -711,151 +656,327 @@
         "meaning2": "the operator of a motor vehicle",
         "key1": "driver.n.04",
         "key2": "driver.n.01",
-        "example1": "I installed the printer driver so the computer could communicate with the new printer.",
-        "example2": "The driver slowed down when the pedestrian crossed the street."
+        "example1": "I need to install the printer driver before the computer can print.",
+        "example2": "The driver stopped the car to let the child cross the street."
     },
     {
-        "word": "mass",
-        "domain": "physics",
-        "pos": "n",
-        "meaning1": "the property of a body that causes it to have weight in a gravitational field",
-        "meaning2": "an ill-structured collection of similar things (objects or people)",
-        "key1": "mass.n.01",
-        "key2": "mass.n.03",
-        "example1": "The mass of the box determines its weight under Earth's gravity.",
-        "example2": "A mass of people crowded the subway platform."
+        "word": "deliver",
+        "domain": "religion",
+        "pos": "v",
+        "meaning1": "save from sins",
+        "meaning2": "deliver (a speech, oration, or idea)",
+        "key1": "deliver.v.08",
+        "key2": "deliver.v.01",
+        "example1": "Jesus came to deliver us from our sins.",
+        "example2": "She will deliver the keynote speech at the conference tomorrow."
     },
     {
-        "word": "energy",
-        "domain": "physics",
-        "pos": "n",
-        "meaning1": "(physics) a thermodynamic quantity equivalent to the capacity of a physical system to do work; the units of energy are joules or ergs",
-        "meaning2": "enterprising or ambitious drive",
-        "key1": "energy.n.01",
-        "key2": "energy.n.03",
-        "example1": "The moving car has kinetic energy that can do work and is measured in joules.",
-        "example2": "Her energy led her to start several ambitious projects."
+        "word": "bless",
+        "domain": "religion",
+        "pos": "v",
+        "meaning1": "render holy by means of religious rites",
+        "meaning2": "confer prosperity or happiness on",
+        "key1": "consecrate.v.04",
+        "key2": "bless.v.02",
+        "example1": "The priest will bless the church.",
+        "example2": "May this new home bless your family with joy and prosperity."
     },
     {
-        "word": "flavor",
-        "domain": "physics",
+        "word": "blessing",
+        "domain": "religion",
         "pos": "n",
-        "meaning1": "(physics) the six kinds of quarks",
-        "meaning2": "the taste experience when a savoury condiment is taken into the mouth",
-        "key1": "flavor.n.03",
-        "key2": "relish.n.03",
-        "example1": "In particle physics, flavor refers to the six types of quarks: up, down, charm, strange, top, and bottom.",
-        "example2": "When I tasted the mustard, its sharp flavor filled my mouth."
+        "meaning1": "a short prayer of thanks before a meal",
+        "meaning2": "the formal act of approving",
+        "key1": "grace.n.06",
+        "key2": "blessing.n.01",
+        "example1": "Before dinner, we said a blessing.",
+        "example2": "The committee gave its blessing to the new policy."
     },
     {
-        "word": "attraction",
-        "domain": "physics",
+        "word": "wickedness",
+        "domain": "religion",
         "pos": "n",
-        "meaning1": "the force by which one object attracts another",
-        "meaning2": "an entertainment that is offered to the public",
-        "key1": "attraction.n.01",
-        "key2": "attraction.n.02",
-        "example1": "The attraction between the magnet and the paperclip held the paperclip to the fridge.",
-        "example2": "The circus was the main attraction at the fair."
+        "meaning1": "estrangement from god",
+        "meaning2": "morally objectionable behavior",
+        "key1": "sin.n.01",
+        "key2": "evil.n.01",
+        "example1": "Their wickedness had driven them away from God.",
+        "example2": "They were horrified by the wickedness of his crimes."
     },
     {
-        "word": "fusion",
-        "domain": "physics",
+        "word": "text",
+        "domain": "religion",
         "pos": "n",
-        "meaning1": "a nuclear reaction in which nuclei combine to form more massive nuclei with the simultaneous release of energy",
-        "meaning2": "the state of being combined into one body",
-        "key1": "fusion.n.04",
-        "key2": "coalition.n.02",
-        "example1": "Fusion powers the sun by combining hydrogen nuclei into helium and releasing vast amounts of energy.",
-        "example2": "The fusion of the two departments created a single team."
+        "meaning1": "a passage from the Bible that is used as the subject of a sermon",
+        "meaning2": "a book prepared for use in schools or colleges",
+        "key1": "text.n.02",
+        "key2": "textbook.n.01",
+        "example1": "The pastor used Psalm 23 as the text for his sermon.",
+        "example2": "The professor assigned a new text for the biology course."
     },
     {
-        "word": "moment",
-        "domain": "physics",
+        "word": "vigil",
+        "domain": "religion",
         "pos": "n",
-        "meaning1": "a turning force produced by an object acting at a distance (or a measure of that force)",
-        "meaning2": "a particular point in time",
-        "key1": "moment.n.05",
-        "key2": "moment.n.01",
-        "example1": "Applying force farther from the hinge increased the moment and opened the door more easily.",
-        "example2": "At that moment, the crowd fell silent."
+        "meaning1": "the rite of staying awake for devotional purposes (especially on the eve of a religious festival)",
+        "meaning2": "a period of sleeplessness",
+        "key1": "vigil.n.02",
+        "key2": "vigil.n.01",
+        "example1": "On the eve of the festival, the villagers held a candlelit vigil at the church.",
+        "example2": "She kept a vigil at the hospital all night."
     },
     {
-        "word": "strain",
-        "domain": "physics",
-        "pos": "n",
-        "meaning1": "(physics) deformation of a physical body under the action of applied forces",
-        "meaning2": "difficulty that causes worry or emotional tension; ; - R.J.Samuelson",
-        "key1": "strain.n.01",
-        "key2": "stress.n.04",
-        "example1": "The metal beam experienced strain when the heavy truck drove over it.",
-        "example2": "The strain of caring for her sick father caused her constant worry."
+        "word": "devout",
+        "domain": "religion",
+        "pos": "s",
+        "meaning1": "deeply religious;  H.L.Mencken",
+        "meaning2": "earnest",
+        "key1": "devout.s.01",
+        "key2": "dear.s.03",
+        "example1": "She was a devout woman who attended church every Sunday.",
+        "example2": "He made a devout promise to always tell the truth."
     },
     {
-        "word": "tension",
-        "domain": "physics",
+        "word": "grace",
+        "domain": "religion",
         "pos": "n",
-        "meaning1": "(physics) a stress that produces an elongation of an elastic physical body",
-        "meaning2": "(psychology) a state of mental or emotional strain or suspense",
-        "key1": "tension.n.04",
-        "key2": "tension.n.01",
-        "example1": "The tension in the spring caused it to elongate.",
-        "example2": "He couldn't hide the tension in his voice."
+        "meaning1": "(Christian theology) a state of sanctification by God; the state of one who is under such divine influence",
+        "meaning2": "elegance and beauty of movement or expression",
+        "key1": "grace.n.01",
+        "key2": "grace.n.02",
+        "example1": "She lived under God's grace, becoming kinder and more faithful.",
+        "example2": "She danced with effortless grace across the stage."
     },
     {
-        "word": "accent",
-        "domain": "linguistics",
+        "word": "praise",
+        "domain": "religion",
         "pos": "n",
-        "meaning1": "a diacritical mark used to indicate stress or placed above a vowel to indicate a special pronunciation",
-        "meaning2": "special importance or significance",
-        "key1": "accent.n.05",
-        "key2": "emphasis.n.01",
-        "example1": "The accent on the \"\u00e9\" in \"caf\u00e9\" shows how to pronounce the vowel.",
-        "example2": "We should place the accent on quality rather than quantity."
+        "meaning1": "offering words of homage as an act of worship",
+        "meaning2": "an expression of approval and commendation",
+        "key1": "praise.n.02",
+        "key2": "praise.n.01",
+        "example1": "They praise God with songs of worship.",
+        "example2": "She received praise from her teacher for her excellent work."
     },
     {
-        "word": "script",
-        "domain": "linguistics",
+        "word": "vein",
+        "domain": "anatomy",
         "pos": "n",
-        "meaning1": "a particular orthography or writing system",
-        "meaning2": "a written version of a play or other dramatic composition; used in preparing for a performance",
-        "key1": "script.n.03",
-        "key2": "script.n.01",
-        "example1": "She learned to read the Cyrillic script in just a few weeks.",
-        "example2": "The actors studied the script before rehearsal."
+        "meaning1": "a blood vessel that carries blood from the capillaries toward the heart",
+        "meaning2": "a distinctive style or manner",
+        "key1": "vein.n.01",
+        "key2": "vein.n.02",
+        "example1": "The nurse drew blood from the patient's vein.",
+        "example2": "Her remarks were made in a playful vein."
     },
     {
-        "word": "loan",
-        "domain": "linguistics",
+        "word": "hemisphere",
+        "domain": "anatomy",
         "pos": "n",
-        "meaning1": "a word borrowed from another language; e.g. `blitz' is a German word borrowed into modern English",
-        "meaning2": "the temporary provision of money (usually at interest)",
-        "key1": "loanword.n.01",
-        "key2": "loan.n.01",
-        "example1": "The word \"kindergarten\" is a loan from German.",
-        "example2": "She took out a loan from the bank to buy a car."
+        "meaning1": "either half of the cerebrum",
+        "meaning2": "half of the terrestrial globe",
+        "key1": "hemisphere.n.03",
+        "key2": "hemisphere.n.01",
+        "example1": "The left hemisphere of the brain controls speech and language in most people.",
+        "example2": "Australia is located in the Southern Hemisphere."
     },
     {
-        "word": "ending",
-        "domain": "linguistics",
+        "word": "fissure",
+        "domain": "anatomy",
         "pos": "n",
-        "meaning1": "the end of a word (a suffix or inflectional ending or final morpheme)",
-        "meaning2": "the act of ending something",
-        "key1": "ending.n.01",
-        "key2": "termination.n.05",
-        "example1": "Add the ending \"-s\" to make the noun plural.",
-        "example2": "The ending of the project surprised everyone."
+        "meaning1": "(anatomy) a long narrow slit or groove that divides an organ into lobes",
+        "meaning2": "a long narrow depression in a surface",
+        "key1": "fissure.n.03",
+        "key2": "crevice.n.01",
+        "example1": "The surgeon followed the fissure between the lung lobes to remove the damaged tissue.",
+        "example2": "A narrow fissure ran through the rock face."
     },
     {
-        "word": "aspiration",
-        "domain": "linguistics",
+        "word": "extremity",
+        "domain": "anatomy",
         "pos": "n",
-        "meaning1": "a manner of articulation involving an audible release of breath",
-        "meaning2": "a will to succeed",
-        "key1": "aspiration.n.03",
-        "key2": "aspiration.n.01",
-        "example1": "In English, the initial p in 'pin' is pronounced with aspiration.",
-        "example2": "Her aspiration to become a doctor drove her to study late every night."
+        "meaning1": "an external body part that projects from the body",
+        "meaning2": "an extreme condition or state (especially of adversity or disease)",
+        "key1": "extremity.n.01",
+        "key2": "extremity.n.02",
+        "example1": "The patient complained of numbness in his left extremity.",
+        "example2": "By the time help arrived, he had reached the extremity of his disease."
+    },
+    {
+        "word": "temporal",
+        "domain": "anatomy",
+        "pos": "a",
+        "meaning1": "of or relating to the temples (the sides of the skull behind the orbit)",
+        "meaning2": "not eternal; - F.D.Roosevelt",
+        "key1": "temporal.a.03",
+        "key2": "temporal.s.01",
+        "example1": "She felt a sharp pain in her temporal area on the side of her skull.",
+        "example2": "Temporal comforts vanish, reminding us that nothing lasts forever."
+    },
+    {
+        "word": "ridge",
+        "domain": "anatomy",
+        "pos": "n",
+        "meaning1": "any long raised border or margin of a bone or tooth or membrane",
+        "meaning2": "a long narrow natural elevation or striation",
+        "key1": "ridge.n.05",
+        "key2": "ridge.n.01",
+        "example1": "The dentist pointed to the ridge on the patient's tooth.",
+        "example2": "We walked along the narrow ridge to reach the summit."
+    },
+    {
+        "word": "nucleus",
+        "domain": "anatomy",
+        "pos": "n",
+        "meaning1": "a part of the cell containing DNA and RNA and responsible for growth and reproduction",
+        "meaning2": "a small group of indispensable persons or things",
+        "key1": "nucleus.n.01",
+        "key2": "core.n.01",
+        "example1": "The nucleus contains DNA and directs the cell's growth and reproduction.",
+        "example2": "A nucleus of volunteers kept the community garden running."
+    },
+    {
+        "word": "sympathetic",
+        "domain": "anatomy",
+        "pos": "a",
+        "meaning1": "of or relating to the sympathetic nervous system",
+        "meaning2": "expressing or feeling or resulting from sympathy or compassion or friendly fellow feelings; disposed toward",
+        "key1": "sympathetic.a.01",
+        "key2": "sympathetic.a.02",
+        "example1": "Sympathetic stimulation made his heart race.",
+        "example2": "She gave him a sympathetic smile when he talked about his problems."
+    },
+    {
+        "word": "atrium",
+        "domain": "anatomy",
+        "pos": "n",
+        "meaning1": "any chamber that is connected to other chambers or passageways (especially one of the two upper chambers of the heart)",
+        "meaning2": "the central area in a building; open to the sky",
+        "key1": "atrium.n.01",
+        "key2": "atrium.n.02",
+        "example1": "Oxygen-poor blood entered the right atrium before moving into the right ventricle.",
+        "example2": "Guests gathered in the atrium, the building's central area open to the sky."
+    },
+    {
+        "word": "appendix",
+        "domain": "anatomy",
+        "pos": "n",
+        "meaning1": "a vestigial process that extends from the lower end of the cecum and that resembles a small pouch",
+        "meaning2": "supplementary material that is collected and appended at the back of a book",
+        "key1": "appendix.n.02",
+        "key2": "appendix.n.01",
+        "example1": "The surgeon removed her inflamed appendix, a small pouch extending from the cecum.",
+        "example2": "The appendix contains the full list of references."
+    },
+    {
+        "word": "vestibule",
+        "domain": "anatomy",
+        "pos": "n",
+        "meaning1": "any of various bodily cavities leading to another cavity (as of the ear or vagina)",
+        "meaning2": "a large entrance or reception room or area",
+        "key1": "vestibule.n.02",
+        "key2": "anteroom.n.01",
+        "example1": "The doctor examined the vestibule of the ear to check for signs of infection.",
+        "example2": "The guests gathered in the vestibule before the ceremony began."
+    },
+    {
+        "word": "persona",
+        "domain": "psychology",
+        "pos": "n",
+        "meaning1": "(Jungian psychology) a personal facade that one presents to the world",
+        "meaning2": "an actor's portrayal of someone in a play",
+        "key1": "persona.n.02",
+        "key2": "character.n.04",
+        "example1": "She maintained a cheerful persona to hide her true sadness.",
+        "example2": "The actor's persona as the villain frightened the audience."
+    },
+    {
+        "word": "obfuscation",
+        "domain": "psychology",
+        "pos": "n",
+        "meaning1": "confusion resulting from failure to understand",
+        "meaning2": "darkening or obscuring the sight of something",
+        "key1": "bewilderment.n.01",
+        "key2": "obfuscation.n.03",
+        "example1": "The teacher's complicated answer caused obfuscation among the students.",
+        "example2": "The obfuscation caused by thick fog hid the coastline."
+    },
+    {
+        "word": "objectify",
+        "domain": "psychology",
+        "pos": "v",
+        "meaning1": "make impersonal or present as an object",
+        "meaning2": "make external or objective, or give reality to",
+        "key1": "depersonalize.v.01",
+        "key2": "exteriorize.v.02",
+        "example1": "Don't objectify people by treating them as tools instead of human beings.",
+        "example2": "She tried to objectify her anxiety by writing it down."
+    },
+    {
+        "word": "suspense",
+        "domain": "psychology",
+        "pos": "n",
+        "meaning1": "an uncertain cognitive state",
+        "meaning2": "excited anticipation of an approaching climax",
+        "key1": "suspense.n.02",
+        "key2": "suspense.n.03",
+        "example1": "She waited in suspense, unsure what the doctor would say.",
+        "example2": "The movie built suspense as the detective closed in on the killer."
+    },
+    {
+        "word": "reservation",
+        "domain": "psychology",
+        "pos": "n",
+        "meaning1": "an unstated doubt that prevents you from accepting something wholeheartedly",
+        "meaning2": "a district that is reserved for particular purpose",
+        "key1": "mental_reservation.n.01",
+        "key2": "reservation.n.01",
+        "example1": "I accepted the proposal, but I have a reservation about its feasibility.",
+        "example2": "The island was turned into a wildlife reservation."
+    },
+    {
+        "word": "vegetate",
+        "domain": "psychology",
+        "pos": "v",
+        "meaning1": "lead a passive existence without using one's body or mind",
+        "meaning2": "establish vegetation on",
+        "key1": "vegetate.v.01",
+        "key2": "vegetate.v.02",
+        "example1": "He vegetated on the couch all weekend, watching television and doing nothing else.",
+        "example2": "Volunteers vegetate the hillside with wildflowers."
+    },
+    {
+        "word": "autopilot",
+        "domain": "psychology",
+        "pos": "n",
+        "meaning1": "a cognitive state in which you act without self-awareness",
+        "meaning2": "a navigational device that automatically keeps ships or planes or spacecraft on a steady course",
+        "key1": "automatic_pilot.n.01",
+        "key2": "autopilot.n.02",
+        "example1": "I was on autopilot during the meeting and missed important details.",
+        "example2": "The pilot engaged the autopilot to keep the plane on a steady course."
+    },
+    {
+        "word": "ego",
+        "domain": "psychology",
+        "pos": "n",
+        "meaning1": "your consciousness of your own identity",
+        "meaning2": "an inflated feeling of pride in your superiority to others",
+        "key1": "self.n.01",
+        "key2": "ego.n.01",
+        "example1": "He felt his ego, his sense of who he was, changing after the move.",
+        "example2": "His ego made him feel superior to everyone else."
+    },
+    {
+        "word": "jury",
+        "domain": "law",
+        "pos": "n",
+        "meaning1": "a body of citizens sworn to give a true verdict according to the evidence presented in a court of law",
+        "meaning2": "a committee appointed to judge a competition",
+        "key1": "jury.n.01",
+        "key2": "jury.n.02",
+        "example1": "The jury, sworn to decide according to the evidence, returned a guilty verdict.",
+        "example2": "The jury for the cooking competition awarded first prize to Maria."
     },
     {
         "word": "pass",
@@ -865,8 +986,8 @@
         "meaning2": "go across or through",
         "key1": "legislate.v.01",
         "key2": "pass.v.01",
-        "example1": "The council will pass the new law next week.",
-        "example2": "We will pass through the tunnel to reach the town."
+        "example1": "The city council voted to pass the new noise ordinance.",
+        "example2": "We will pass through the tunnel."
     },
     {
         "word": "bond",
@@ -876,8 +997,8 @@
         "meaning2": "a connection based on kinship or marriage or common interest",
         "key1": "bond.n.02",
         "key2": "alliance.n.02",
-        "example1": "She bought a government bond that pays interest every year and repays the principal at maturity.",
-        "example2": "The bond between the sisters grew stronger after they cared for their aging father."
+        "example1": "She bought a government bond that pays annual interest and returns the principal at maturity.",
+        "example2": "Their shared love of music formed a strong bond between them."
     },
     {
         "word": "conviction",
@@ -887,8 +1008,8 @@
         "meaning2": "an unshakable belief in something without need for proof or evidence",
         "key1": "conviction.n.02",
         "key2": "conviction.n.01",
-        "example1": "After his conviction, he was sentenced to five years in prison.",
-        "example2": "She had the conviction that he would return, even without any evidence."
+        "example1": "After the trial, his conviction meant he would serve seven years in prison.",
+        "example2": "She held the conviction that the old house was haunted, even without any proof."
     },
     {
         "word": "sentence",
@@ -898,8 +1019,8 @@
         "meaning2": "a string of words satisfying the grammatical rules of a language",
         "key1": "conviction.n.02",
         "key2": "sentence.n.01",
-        "example1": "After being found guilty, he received a five-year sentence.",
-        "example2": "This sentence follows the rules of English grammar."
+        "example1": "He received a five-year sentence for theft.",
+        "example2": "This sentence is grammatically correct."
     },
     {
         "word": "title",
@@ -909,8 +1030,8 @@
         "meaning2": "the name of a work of art or literary composition etc.",
         "key1": "title.n.07",
         "key2": "title.n.02",
-        "example1": "She holds the title to the house.",
-        "example2": "I couldn't remember the title of the song."
+        "example1": "He has legal title to the house.",
+        "example2": "The title of the book is \"The Secret Garden.\""
     },
     {
         "word": "try",
@@ -920,8 +1041,8 @@
         "meaning2": "put to the test, as for its quality, or give experimental use to",
         "key1": "judge.v.05",
         "key2": "test.v.01",
-        "example1": "The judge will try the defendant for theft next Monday.",
-        "example2": "Try the new coffee to see if it's any good."
+        "example1": "The judge will try the defendant for theft next week.",
+        "example2": "Try the device to see how well it works."
     },
     {
         "word": "file",
@@ -931,8 +1052,19 @@
         "meaning2": "smooth with a file",
         "key1": "charge.v.06",
         "key2": "file.v.02",
-        "example1": "She will file charges against him tomorrow.",
-        "example2": "File the rough edge until it's smooth."
+        "example1": "She plans to file charges against the man who stole her purse.",
+        "example2": "She will file the rough edge until it is smooth."
+    },
+    {
+        "word": "summons",
+        "domain": "law",
+        "pos": "v",
+        "meaning1": "call in an official matter, such as to attend court",
+        "meaning2": "gather or bring together",
+        "key1": "summon.v.01",
+        "key2": "muster.v.01",
+        "example1": "She received a summons to appear in court.",
+        "example2": "The teacher summons the students to the front of the class."
     },
     {
         "word": "seizure",
@@ -943,7 +1075,18 @@
         "key1": "seizure.n.04",
         "key2": "seizure.n.01",
         "example1": "The court ordered the seizure of his assets to pay the unpaid taxes.",
-        "example2": "She experienced a seizure during class and was taken to the hospital."
+        "example2": "She had a seizure during the meeting and was rushed to the hospital."
+    },
+    {
+        "word": "engage",
+        "domain": "law",
+        "pos": "v",
+        "meaning1": "ask to represent; of legal counsel",
+        "meaning2": "carry out or participate in an activity; be involved in",
+        "key1": "engage.v.04",
+        "key2": "prosecute.v.03",
+        "example1": "They decided to engage a lawyer to represent them in court.",
+        "example2": "They engage in community service every weekend."
     },
     {
         "word": "appeal",
@@ -953,7 +1096,1096 @@
         "meaning2": "be attractive to",
         "key1": "appeal.v.01",
         "key2": "attract.v.02",
-        "example1": "The defendant plans to appeal the conviction to a higher court.",
-        "example2": "The bright colors and fun shapes appeal to children."
+        "example1": "They decided to appeal the verdict to a higher court.",
+        "example2": "The park's playground and picnic areas appeal to families."
+    },
+    {
+        "word": "composition",
+        "domain": "music",
+        "pos": "n",
+        "meaning1": "a musical work that has been created",
+        "meaning2": "the way in which someone or something is composed",
+        "key1": "musical_composition.n.01",
+        "key2": "constitution.n.04",
+        "example1": "She played her new composition at the recital.",
+        "example2": "The composition of the team shows a balance of experienced and new players."
+    },
+    {
+        "word": "string",
+        "domain": "music",
+        "pos": "n",
+        "meaning1": "stringed instruments that are played with a bow",
+        "meaning2": "a lightweight cord",
+        "key1": "bowed_stringed_instrument.n.01",
+        "key2": "string.n.01",
+        "example1": "The string section played a haunting melody.",
+        "example2": "She tied the package with a piece of string."
+    },
+    {
+        "word": "key",
+        "domain": "music",
+        "pos": "n",
+        "meaning1": "pitch of the voice",
+        "meaning2": "metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated",
+        "key1": "key.n.03",
+        "key2": "key.n.01",
+        "example1": "Please sing the line in a lower key so you don't strain your voice.",
+        "example2": "She turned the key to unlock the door."
+    },
+    {
+        "word": "fiddle",
+        "domain": "music",
+        "pos": "v",
+        "meaning1": "play the violin or fiddle",
+        "meaning2": "manipulate manually or in one's mind or imagination",
+        "key1": "fiddle.v.03",
+        "key2": "toy.v.02",
+        "example1": "She fiddled a lively tune on her violin.",
+        "example2": "He likes to fiddle with ideas in his mind until one becomes a plan."
+    },
+    {
+        "word": "harmony",
+        "domain": "music",
+        "pos": "n",
+        "meaning1": "the structure of music with respect to the composition and progression of chords",
+        "meaning2": "agreement of opinions",
+        "key1": "harmony.n.02",
+        "key2": "harmony.n.04",
+        "example1": "The harmony of the song uses simple chord progressions to create a warm, full sound.",
+        "example2": "After talking, the team was in harmony about the plan."
+    },
+    {
+        "word": "score",
+        "domain": "music",
+        "pos": "v",
+        "meaning1": "write a musical score for",
+        "meaning2": "gain points in a game",
+        "key1": "score.v.04",
+        "key2": "score.v.01",
+        "example1": "She was asked to score the new film.",
+        "example2": "She tried to score during the basketball game."
+    },
+    {
+        "word": "horn",
+        "domain": "music",
+        "pos": "n",
+        "meaning1": "a brass musical instrument with a brilliant tone; has a narrow tube and a flared bell and is played by means of valves",
+        "meaning2": "one of the bony outgrowths on the heads of certain ungulates",
+        "key1": "cornet.n.01",
+        "key2": "horn.n.02",
+        "example1": "She played her horn in the school band.",
+        "example2": "The mountain goat had a broken horn."
+    },
+    {
+        "word": "keynote",
+        "domain": "music",
+        "pos": "n",
+        "meaning1": "(music) the first note of a diatonic scale",
+        "meaning2": "the principal theme in a speech or literary work",
+        "key1": "tonic.n.03",
+        "key2": "keynote.n.01",
+        "example1": "The choir tuned to the piano's keynote before beginning the hymn.",
+        "example2": "The keynote of her speech was the importance of community service."
+    },
+    {
+        "word": "recorder",
+        "domain": "music",
+        "pos": "n",
+        "meaning1": "a tubular wind instrument with 8 finger holes and a fipple mouthpiece",
+        "meaning2": "equipment for making records",
+        "key1": "fipple_flute.n.01",
+        "key2": "recorder.n.01",
+        "example1": "She learned to play the recorder in music class.",
+        "example2": "She turned on the recorder before the interview started."
+    },
+    {
+        "word": "pick",
+        "domain": "music",
+        "pos": "n",
+        "meaning1": "a small thin device (of metal or plastic or ivory) used to pluck a stringed instrument",
+        "meaning2": "the person or thing chosen or selected",
+        "key1": "pick.n.05",
+        "key2": "choice.n.01",
+        "example1": "She used a pick to play the guitar.",
+        "example2": "My pick for team captain is Sam."
+    },
+    {
+        "word": "orchestrate",
+        "domain": "music",
+        "pos": "v",
+        "meaning1": "write an orchestra score for",
+        "meaning2": "plan and direct (a complex undertaking)",
+        "key1": "orchestrate.v.01",
+        "key2": "mastermind.v.01",
+        "example1": "The composer will orchestrate the piano piece for the orchestra.",
+        "example2": "The project leader will orchestrate the team to complete the software rollout on time."
+    },
+    {
+        "word": "bass",
+        "domain": "music",
+        "pos": "n",
+        "meaning1": "the lowest part of the musical range",
+        "meaning2": "the lean flesh of a saltwater fish of the family Serranidae",
+        "key1": "bass.n.01",
+        "key2": "sea_bass.n.01",
+        "example1": "The bass sang the lowest part in the choir.",
+        "example2": "She pan-seared the bass until its lean flesh was white and flaky."
+    },
+    {
+        "word": "mouthpiece",
+        "domain": "music",
+        "pos": "n",
+        "meaning1": "the aperture of a wind instrument into which the player blows directly",
+        "meaning2": "a part that goes over or into the mouth of a person",
+        "key1": "mouthpiece.n.06",
+        "key2": "mouthpiece.n.01",
+        "example1": "He pressed the trumpet mouthpiece to his lips and blew a steady note.",
+        "example2": "She placed the snorkel's mouthpiece between her lips before diving."
+    },
+    {
+        "word": "dissonant",
+        "domain": "music",
+        "pos": "a",
+        "meaning1": "characterized by musical dissonance; harmonically unresolved",
+        "meaning2": "not in accord",
+        "key1": "dissonant.a.02",
+        "key2": "dissonant.a.03",
+        "example1": "The violin and trumpet created a dissonant chord",
+        "example2": "Her cheerful speech felt dissonant with the bad news."
+    },
+    {
+        "word": "capsule",
+        "domain": "pharmacy",
+        "pos": "n",
+        "meaning1": "a pill in the form of a small rounded gelatinous container with medicine inside",
+        "meaning2": "a small container",
+        "key1": "capsule.n.02",
+        "key2": "capsule.n.01",
+        "example1": "Take one capsule after dinner.",
+        "example2": "The astronauts returned safely in the capsule."
+    },
+    {
+        "word": "blocker",
+        "domain": "pharmacy",
+        "pos": "n",
+        "meaning1": "a class of drugs that inhibit (block) some biological process",
+        "meaning2": "a football player whose responsibility is to block players attempting to stop an offensive play",
+        "key1": "blocker.n.02",
+        "key2": "blocker.n.01",
+        "example1": "The doctor prescribed a beta blocker to lower her blood pressure.",
+        "example2": "The blocker pushed the defender aside so the running back could get through."
+    },
+    {
+        "word": "over-the-counter",
+        "domain": "pharmacy",
+        "pos": "a",
+        "meaning1": "purchasable without a doctor's prescription",
+        "meaning2": "(of securities) not traded on a stock exchange",
+        "key1": "nonprescription.a.01",
+        "key2": "over-the-counter.s.02",
+        "example1": "You can buy that pain reliever over-the-counter at any drugstore.",
+        "example2": "The company's shares are traded over-the-counter instead of on a stock exchange."
+    },
+    {
+        "word": "tonic",
+        "domain": "pharmacy",
+        "pos": "n",
+        "meaning1": "a medicine that strengthens and invigorates",
+        "meaning2": "lime- or lemon-flavored carbonated water containing quinine",
+        "key1": "tonic.n.04",
+        "key2": "tonic.n.01",
+        "example1": "The doctor gave her a tonic to help restore her strength.",
+        "example2": "She poured tonic over ice and added a lime wedge."
+    },
+    {
+        "word": "essence",
+        "domain": "pharmacy",
+        "pos": "n",
+        "meaning1": "any substance possessing to a high degree the predominant properties of a plant or drug or other natural product from which it is extracted",
+        "meaning2": "the choicest or most essential or most vital part of some idea or experience",
+        "key1": "essence.n.02",
+        "key2": "kernel.n.03",
+        "example1": "She added a few drops of vanilla essence to the cake batter.",
+        "example2": "The essence of the plan is simplicity."
+    },
+    {
+        "word": "hit",
+        "domain": "pharmacy",
+        "pos": "n",
+        "meaning1": "a dose of a narcotic drug",
+        "meaning2": "the act of contacting one thing with another",
+        "key1": "hit.n.05",
+        "key2": "hit.n.02",
+        "example1": "He took a hit of heroin and felt numb.",
+        "example2": "He hit the ball with the bat."
+    },
+    {
+        "word": "booster",
+        "domain": "pharmacy",
+        "pos": "n",
+        "meaning1": "an additional dose that makes sure the first dose was effective",
+        "meaning2": "an amplifier for restoring the strength of a transmitted signal",
+        "key1": "booster.n.06",
+        "key2": "booster.n.04",
+        "example1": "I got a booster to make sure the first vaccine dose worked.",
+        "example2": "The technician installed a booster to amplify the weak radio signal."
+    },
+    {
+        "word": "preventive",
+        "domain": "pharmacy",
+        "pos": "n",
+        "meaning1": "remedy that prevents or slows the course of an illness or disease",
+        "meaning2": "any obstruction that impedes or is burdensome",
+        "key1": "preventive.n.01",
+        "key2": "hindrance.n.02",
+        "example1": "She took a preventive to reduce her risk of getting the flu.",
+        "example2": "The fallen tree was a preventive, blocking the road."
+    },
+    {
+        "word": "revolution",
+        "domain": "history",
+        "pos": "n",
+        "meaning1": "the overthrow of a government by those who are governed",
+        "meaning2": "a drastic and far-reaching change in ways of thinking and behaving",
+        "key1": "revolution.n.02",
+        "key2": "revolution.n.01",
+        "example1": "The revolution overthrew the corrupt government.",
+        "example2": "The civil rights movement sparked a revolution in how people thought about equality."
+    },
+    {
+        "word": "tyrant",
+        "domain": "history",
+        "pos": "n",
+        "meaning1": "a cruel and oppressive dictator",
+        "meaning2": "any person who exercises power in a cruel way",
+        "key1": "tyrant.n.01",
+        "key2": "tyrant.n.03",
+        "example1": "The tyrant ruled the country with fear and cruelty.",
+        "example2": "The tyrant ruled the village with cruelty and fear."
+    },
+    {
+        "word": "coup",
+        "domain": "history",
+        "pos": "n",
+        "meaning1": "a sudden and decisive change of government illegally or by force",
+        "meaning2": "a brilliant and notable success",
+        "key1": "coup_d'etat.n.01",
+        "key2": "coup.n.02",
+        "example1": "The military staged a coup and took control of the government.",
+        "example2": "Securing the major investor was a coup for the startup."
+    },
+    {
+        "word": "Mogul",
+        "domain": "history",
+        "pos": "n",
+        "meaning1": "a member of the Muslim dynasty that ruled India until 1857",
+        "meaning2": "a very wealthy or powerful businessman",
+        "key1": "mogul.n.02",
+        "key2": "baron.n.03",
+        "example1": "The Mogul emperor ordered the construction of a grand mausoleum.",
+        "example2": "The tech Mogul invested in startups that changed the industry."
+    },
+    {
+        "word": "assault",
+        "domain": "history",
+        "pos": "n",
+        "meaning1": "close fighting during the culmination of a military attack",
+        "meaning2": "a threatened or attempted physical attack by someone who appears to be able to cause bodily harm if not stopped",
+        "key1": "assault.n.01",
+        "key2": "assault.n.02",
+        "example1": "At dawn the soldiers launched an assault to seize the enemy trench.",
+        "example2": "The man was arrested for assault after he lunged at a passerby."
+    },
+    {
+        "word": "Bourbon",
+        "domain": "history",
+        "pos": "n",
+        "meaning1": "a member of the European royal family that ruled France",
+        "meaning2": "whiskey distilled from a mash of corn and malt and rye and aged in charred oak barrels",
+        "key1": "bourbon.n.03",
+        "key2": "bourbon.n.02",
+        "example1": "A Bourbon returned to France to reclaim his crown.",
+        "example2": "He poured a glass of Bourbon and savored its vanilla and oak flavors."
+    },
+    {
+        "word": "sheik",
+        "domain": "history",
+        "pos": "n",
+        "meaning1": "the leader of an Arab village or family",
+        "meaning2": "a man who is much concerned with his dress and appearance",
+        "key1": "sheik.n.01",
+        "key2": "dandy.n.01",
+        "example1": "The villagers turned to the sheik for guidance during the dispute.",
+        "example2": "The sheik spent an hour in front of the mirror perfecting his suit and hair."
+    },
+    {
+        "word": "headhunter",
+        "domain": "history",
+        "pos": "n",
+        "meaning1": "a savage who cuts off and preserves the heads of enemies as trophies",
+        "meaning2": "a recruiter of personnel (especially for corporations)",
+        "key1": "headhunter.n.02",
+        "key2": "headhunter.n.01",
+        "example1": "The headhunter preserved the heads of his enemies as trophies.",
+        "example2": "A headhunter contacted me about a senior marketing position at a tech company."
+    },
+    {
+        "word": "revolutionary",
+        "domain": "politics",
+        "pos": "a",
+        "meaning1": "advocating or engaged in revolution",
+        "meaning2": "markedly new or introducing radical change",
+        "key1": "revolutionary.a.04",
+        "key2": "revolutionary.s.01",
+        "example1": "The revolutionary group planned to overthrow the government.",
+        "example2": "The startup introduced a revolutionary battery that doubled smartphone life."
+    },
+    {
+        "word": "alliance",
+        "domain": "politics",
+        "pos": "n",
+        "meaning1": "an organization of people (or countries) involved in a pact or treaty",
+        "meaning2": "the state of being allied or confederated",
+        "key1": "alliance.n.03",
+        "key2": "alliance.n.01",
+        "example1": "The countries formed an alliance to defend each other against attacks.",
+        "example2": "The alliance between the two countries ensured they would defend each other."
+    },
+    {
+        "word": "union",
+        "domain": "politics",
+        "pos": "n",
+        "meaning1": "an organization of employees formed to bargain with the employer",
+        "meaning2": "the state of being joined or united or linked",
+        "key1": "union.n.01",
+        "key2": "union.n.04",
+        "example1": "The workers joined a union to negotiate for better wages and safer working conditions.",
+        "example2": "The union of the two pieces completed the puzzle."
+    },
+    {
+        "word": "radical",
+        "domain": "politics",
+        "pos": "s",
+        "meaning1": "(used of opinions and actions) far beyond the norm",
+        "meaning2": "markedly new or introducing radical change",
+        "key1": "extremist.s.01",
+        "key2": "revolutionary.s.01",
+        "example1": "Her radical proposals for restructuring the company shocked the board.",
+        "example2": "Her radical plan transformed the city's public transportation."
+    },
+    {
+        "word": "resistance",
+        "domain": "politics",
+        "pos": "n",
+        "meaning1": "a secret group organized to overthrow a government or occupation force",
+        "meaning2": "any mechanical force that tends to retard or oppose motion",
+        "key1": "underground.n.01",
+        "key2": "resistance.n.02",
+        "example1": "The resistance sabotaged the enemy's supply lines at night.",
+        "example2": "The wind resistance slowed the cyclist as he pedaled harder."
+    },
+    {
+        "word": "cell",
+        "domain": "politics",
+        "pos": "n",
+        "meaning1": "a small unit serving as part of or as the nucleus of a larger political movement",
+        "meaning2": "any small compartment",
+        "key1": "cell.n.04",
+        "key2": "cell.n.01",
+        "example1": "The activists formed a cell to organize local protests.",
+        "example2": "The beekeeper inspected each cell of the honeycomb."
+    },
+    {
+        "word": "withdrawal",
+        "domain": "politics",
+        "pos": "n",
+        "meaning1": "formal separation from an alliance or federation",
+        "meaning2": "the act of taking out money or other capital",
+        "key1": "secession.n.03",
+        "key2": "withdrawal.n.02",
+        "example1": "The country's withdrawal from the alliance was approved by parliament.",
+        "example2": "She made a withdrawal of $200 from her savings account."
+    },
+    {
+        "word": "pass",
+        "domain": "politics",
+        "pos": "v",
+        "meaning1": "make laws, bills, etc. or bring into effect by legislation",
+        "meaning2": "go across or through",
+        "key1": "legislate.v.01",
+        "key2": "pass.v.01",
+        "example1": "The city council voted to pass the new noise ordinance.",
+        "example2": "Cars pass through the tunnel every hour."
+    },
+    {
+        "word": "neutrality",
+        "domain": "politics",
+        "pos": "n",
+        "meaning1": "nonparticipation in a dispute or war",
+        "meaning2": "tolerance attributable to a lack of involvement",
+        "key1": "neutrality.n.01",
+        "key2": "disinterest.n.01",
+        "example1": "The country declared its neutrality and refused to join either side in the war.",
+        "example2": "The teacher's neutrality during the students' debate meant she tolerated their disagreements without intervening."
+    },
+    {
+        "word": "radical",
+        "domain": "chemistry",
+        "pos": "n",
+        "meaning1": "(chemistry) two or more atoms bound together as a single unit and forming part of a molecule",
+        "meaning2": "a person who has radical ideas or opinions",
+        "key1": "group.n.02",
+        "key2": "radical.n.03",
+        "example1": "The methyl radical attached to the molecule, changing its chemical properties.",
+        "example2": "The radical proposed sweeping changes to the education system."
+    },
+    {
+        "word": "formula",
+        "domain": "chemistry",
+        "pos": "n",
+        "meaning1": "a representation of a substance using symbols for its constituent elements",
+        "meaning2": "directions for making something",
+        "key1": "formula.n.04",
+        "key2": "recipe.n.01",
+        "example1": "The chemical formula for water is H2O.",
+        "example2": "The chemist followed the formula to make the new compound."
+    },
+    {
+        "word": "neutralize",
+        "domain": "chemistry",
+        "pos": "v",
+        "meaning1": "make chemically neutral",
+        "meaning2": "make politically neutral and thus inoffensive",
+        "key1": "neutralize.v.06",
+        "key2": "neutralize.v.01",
+        "example1": "Add baking soda to the acid to neutralize it.",
+        "example2": "The editor neutralized the article's language to avoid political controversy."
+    },
+    {
+        "word": "phase",
+        "domain": "chemistry",
+        "pos": "n",
+        "meaning1": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary",
+        "meaning2": "any distinct time period in a sequence of events",
+        "key1": "phase.n.02",
+        "key2": "phase.n.01",
+        "example1": "The sample contained two phases: an oil phase floating above an aqueous phase.",
+        "example2": "The project entered a new phase after the design was approved."
+    },
+    {
+        "word": "organic",
+        "domain": "chemistry",
+        "pos": "a",
+        "meaning1": "relating or belonging to the class of chemical compounds having a carbon basis",
+        "meaning2": "of or relating to foodstuff grown or raised without synthetic fertilizers or pesticides or hormones",
+        "key1": "organic.a.01",
+        "key2": "organic.s.04",
+        "example1": "Organic compounds are carbon-based molecules found in living organisms.",
+        "example2": "We buy organic vegetables grown without synthetic pesticides or fertilizers."
+    },
+    {
+        "word": "free",
+        "domain": "chemistry",
+        "pos": "a",
+        "meaning1": "unconstrained or not chemically bound in a molecule or not fixed and capable of relatively unrestricted motion",
+        "meaning2": "able to act at will; not hampered; not under compulsion or restraint",
+        "key1": "free.a.02",
+        "key2": "free.a.01",
+        "example1": "In water, the salt separates into free ions that conduct electricity.",
+        "example2": "After finishing her homework, Maria was free to go outside and play."
+    },
+    {
+        "word": "precipitation",
+        "domain": "chemistry",
+        "pos": "n",
+        "meaning1": "the process of forming a chemical precipitate",
+        "meaning2": "the quantity of water falling to earth at a specific place within a specified period of time",
+        "key1": "precipitation.n.02",
+        "key2": "precipitation.n.01",
+        "example1": "The precipitation of calcium carbonate formed a white solid in the beaker.",
+        "example2": "Last month's precipitation in the valley amounted to four inches."
+    },
+    {
+        "word": "drop",
+        "domain": "economy",
+        "pos": "v",
+        "meaning1": "go down in value",
+        "meaning2": "let fall to the ground",
+        "key1": "drop.v.03",
+        "key2": "drop.v.01",
+        "example1": "If stock prices drop, my investments will lose value.",
+        "example2": "Don't drop the vase."
+    },
+    {
+        "word": "land",
+        "domain": "economy",
+        "pos": "n",
+        "meaning1": "the land on which real estate is located",
+        "meaning2": "material in the top layer of the surface of the earth in which plants can grow (especially with reference to its quality or use)",
+        "key1": "land.n.01",
+        "key2": "land.n.02",
+        "example1": "They bought the vacant land next to the house to build a garage.",
+        "example2": "The land was rich and loamy, perfect for growing vegetables."
+    },
+    {
+        "word": "net",
+        "domain": "economy",
+        "pos": "v",
+        "meaning1": "make as a net profit",
+        "meaning2": "construct or form a web, as if by weaving",
+        "key1": "net.v.01",
+        "key2": "web.v.01",
+        "example1": "The sale will net her $3,000 after expenses.",
+        "example2": "The spider will net the window to catch flies."
+    },
+    {
+        "word": "compensation",
+        "domain": "economy",
+        "pos": "n",
+        "meaning1": "something (such as money) given or received as payment or reparation (as for a service or loss or injury)",
+        "meaning2": "(psychiatry) a defense mechanism that conceals your undesirable shortcomings by exaggerating desirable behaviors",
+        "key1": "compensation.n.01",
+        "key2": "compensation.n.02",
+        "example1": "After the accident, she received compensation for her injuries.",
+        "example2": "Her constant perfectionism was compensation for deep-seated feelings of inadequacy."
+    },
+    {
+        "word": "dismiss",
+        "domain": "economy",
+        "pos": "v",
+        "meaning1": "terminate the employment of; discharge from an office or position",
+        "meaning2": "bar from attention or consideration",
+        "key1": "displace.v.03",
+        "key2": "dismiss.v.01",
+        "example1": "The company dismissed the employee for theft.",
+        "example2": "The committee dismissed his proposal without further consideration."
+    },
+    {
+        "word": "ship",
+        "domain": "economy",
+        "pos": "v",
+        "meaning1": "transport commercially",
+        "meaning2": "go on board",
+        "key1": "transport.v.04",
+        "key2": "embark.v.01",
+        "example1": "We will ship your order tomorrow.",
+        "example2": "They will ship for England tomorrow."
+    },
+    {
+        "word": "firing",
+        "domain": "economy",
+        "pos": "n",
+        "meaning1": "the termination of someone's employment (leaving them free to depart)",
+        "meaning2": "the act of firing weapons or artillery at an enemy",
+        "key1": "dismissal.n.04",
+        "key2": "fire.n.02",
+        "example1": "The firing left Anna free to look for a new job.",
+        "example2": "The troops began firing at the enemy."
+    },
+    {
+        "word": "freeze",
+        "domain": "economy",
+        "pos": "v",
+        "meaning1": "prohibit the conversion or use of (assets)",
+        "meaning2": "stop moving or become immobilized",
+        "key1": "freeze.v.08",
+        "key2": "freeze.v.01",
+        "example1": "The bank will freeze the company's assets during the fraud investigation.",
+        "example2": "When the music stopped, everyone had to freeze."
+    },
+    {
+        "word": "payoff",
+        "domain": "economy",
+        "pos": "n",
+        "meaning1": "the final payment of a debt",
+        "meaning2": "a recompense for worthy acts or retribution for wrongdoing",
+        "key1": "payoff.n.01",
+        "key2": "wages.n.01",
+        "example1": "She made the final payoff on her car loan today.",
+        "example2": "The promotion was the payoff for his years of hard work."
+    },
+    {
+        "word": "accent",
+        "domain": "linguistics",
+        "pos": "n",
+        "meaning1": "a diacritical mark used to indicate stress or placed above a vowel to indicate a special pronunciation",
+        "meaning2": "special importance or significance",
+        "key1": "accent.n.05",
+        "key2": "emphasis.n.01",
+        "example1": "The caf\u00e9 sign uses an accent over the \"e\" to show its correct pronunciation.",
+        "example2": "They put the accent on quality rather than speed."
+    },
+    {
+        "word": "script",
+        "domain": "linguistics",
+        "pos": "n",
+        "meaning1": "a particular orthography or writing system",
+        "meaning2": "a written version of a play or other dramatic composition; used in preparing for a performance",
+        "key1": "script.n.03",
+        "key2": "script.n.01",
+        "example1": "The ancient script on the tablet puzzled historians.",
+        "example2": "The actors rehearsed their lines from the script before opening night."
+    },
+    {
+        "word": "transcribe",
+        "domain": "linguistics",
+        "pos": "v",
+        "meaning1": "make a phonetic transcription of",
+        "meaning2": "write out from speech, notes, etc.",
+        "key1": "transcribe.v.04",
+        "key2": "transcribe.v.01",
+        "example1": "Please transcribe her pronunciation into phonetic symbols.",
+        "example2": "Please transcribe the interview into a written report."
+    },
+    {
+        "word": "standard",
+        "domain": "linguistics",
+        "pos": "a",
+        "meaning1": "conforming to the established language usage of educated native speakers;  (American);  (British)",
+        "meaning2": "commonly used or supplied",
+        "key1": "standard.a.04",
+        "key2": "standard.s.02",
+        "example1": "He writes in standard English for official documents.",
+        "example2": "The laptop comes with the standard charger."
+    },
+    {
+        "word": "loan",
+        "domain": "linguistics",
+        "pos": "n",
+        "meaning1": "a word borrowed from another language; e.g. `blitz' is a German word borrowed into modern English",
+        "meaning2": "the temporary provision of money (usually at interest)",
+        "key1": "loanword.n.01",
+        "key2": "loan.n.01",
+        "example1": "The word \"caf\u00e9\" is a loan from French.",
+        "example2": "She took out a loan to buy a car."
+    },
+    {
+        "word": "intensive",
+        "domain": "linguistics",
+        "pos": "a",
+        "meaning1": "tending to give force or emphasis",
+        "meaning2": "characterized by a high degree or intensity; often used as a combining form",
+        "key1": "intensive.a.02",
+        "key2": "intensive.s.01",
+        "example1": "The speaker's intensive delivery made every word feel urgent.",
+        "example2": "She enrolled in an intensive language course to learn quickly."
+    },
+    {
+        "word": "rule",
+        "domain": "linguistics",
+        "pos": "n",
+        "meaning1": "(linguistics) a rule describing (or prescribing) a linguistic practice",
+        "meaning2": "a principle or condition that customarily governs behavior",
+        "key1": "rule.n.04",
+        "key2": "rule.n.01",
+        "example1": "The grammar rule states that adjectives come before nouns in English.",
+        "example2": "In our classroom, the rule is to raise your hand before speaking."
+    },
+    {
+        "word": "ending",
+        "domain": "linguistics",
+        "pos": "n",
+        "meaning1": "the end of a word (a suffix or inflectional ending or final morpheme)",
+        "meaning2": "the act of ending something",
+        "key1": "ending.n.01",
+        "key2": "termination.n.05",
+        "example1": "The ending \"-ed\" shows that a verb is in the past tense.",
+        "example2": "The ending of the meeting surprised everyone."
+    },
+    {
+        "word": "aspiration",
+        "domain": "linguistics",
+        "pos": "n",
+        "meaning1": "a manner of articulation involving an audible release of breath",
+        "meaning2": "a will to succeed",
+        "key1": "aspiration.n.03",
+        "key2": "aspiration.n.01",
+        "example1": "The \"p\" in \"pin\" has aspiration, so you hear a small burst of breath.",
+        "example2": "Her aspiration to succeed drove her to study every night."
+    },
+    {
+        "word": "eclipse",
+        "domain": "astronomy",
+        "pos": "v",
+        "meaning1": "cause an eclipse of (a celestial body) by intervention",
+        "meaning2": "be greater in significance than",
+        "key1": "eclipse.v.02",
+        "key2": "overshadow.v.01",
+        "example1": "The moon will eclipse the sun tomorrow.",
+        "example2": "Her achievements in conservation eclipse those of her colleagues."
+    },
+    {
+        "word": "culmination",
+        "domain": "astronomy",
+        "pos": "n",
+        "meaning1": "(astronomy) a heavenly body's highest celestial point above an observer's horizon",
+        "meaning2": "a final climactic stage",
+        "key1": "culmination.n.02",
+        "key2": "apogee.n.01",
+        "example1": "At midnight the star reached its culmination, the highest point above the observer's horizon.",
+        "example2": "The fireworks display was the culmination of the festival."
+    },
+    {
+        "word": "stellar",
+        "domain": "astronomy",
+        "pos": "a",
+        "meaning1": "being or relating to or resembling or emanating from stars",
+        "meaning2": "indicating the most important performer or role",
+        "key1": "stellar.a.02",
+        "key2": "leading.s.01",
+        "example1": "Astronomers observed a stellar flare erupting from a nearby star.",
+        "example2": "She was cast in the stellar role of the lead character."
+    },
+    {
+        "word": "depression",
+        "domain": "astronomy",
+        "pos": "n",
+        "meaning1": "angular distance below the horizon (especially of a celestial object)",
+        "meaning2": "a mental state characterized by a pessimistic sense of inadequacy and a despondent lack of activity",
+        "key1": "depression.n.09",
+        "key2": "depression.n.01",
+        "example1": "The sun's depression below the horizon measured three degrees at dawn.",
+        "example2": "After losing his job, Tom fell into depression and stopped leaving the house."
+    },
+    {
+        "word": "galactic",
+        "domain": "astronomy",
+        "pos": "a",
+        "meaning1": "of or relating to a galaxy (especially our galaxy the Milky Way)",
+        "meaning2": "inconceivably large",
+        "key1": "galactic.a.01",
+        "key2": "astronomic.s.02",
+        "example1": "Astronomers studied galactic stars to map the structure of the Milky Way.",
+        "example2": "The repair bill was galactic."
+    },
+    {
+        "word": "metaphysical",
+        "domain": "philosophy",
+        "pos": "a",
+        "meaning1": "pertaining to or of the nature of metaphysics",
+        "meaning2": "without material form or substance",
+        "key1": "metaphysical.a.01",
+        "key2": "metaphysical.s.02",
+        "example1": "The metaphysical lecture explored the nature of existence.",
+        "example2": "She claimed the soul was metaphysical, existing without any material form."
+    },
+    {
+        "word": "philosophic",
+        "domain": "philosophy",
+        "pos": "a",
+        "meaning1": "of or relating to philosophy or philosophers",
+        "meaning2": "characterized by the attitude of a philosopher; meeting trouble with level-headed detachment",
+        "key1": "philosophic.a.01",
+        "key2": "philosophical.s.02",
+        "example1": "She wrote a philosophic essay about ethics.",
+        "example2": "He remained philosophic after the failure, meeting the setback with calm, level-headed detachment."
+    },
+    {
+        "word": "mechanism",
+        "domain": "philosophy",
+        "pos": "n",
+        "meaning1": "(philosophy) the philosophical theory that all phenomena can be explained in terms of physical or biological causes",
+        "meaning2": "device consisting of a piece of machinery; has moving parts that perform some function",
+        "key1": "mechanism.n.04",
+        "key2": "mechanism.n.05",
+        "example1": "As a proponent of mechanism, she believed all mental phenomena could be explained by physical brain processes.",
+        "example2": "The clock's mechanism needed oiling to keep the hands moving."
+    },
+    {
+        "word": "moralist",
+        "domain": "philosophy",
+        "pos": "n",
+        "meaning1": "a philosopher who specializes in morals and moral problems",
+        "meaning2": "someone who demands exact conformity to rules and forms",
+        "key1": "moralist.n.01",
+        "key2": "martinet.n.01",
+        "example1": "The moralist lectured on whether lying can ever be justified.",
+        "example2": "The moralist insisted everyone obey the rules to the letter."
+    },
+    {
+        "word": "inductive",
+        "domain": "philosophy",
+        "pos": "a",
+        "meaning1": "of reasoning; proceeding from particular facts to a general conclusion",
+        "meaning2": "arising from inductance",
+        "key1": "inductive.a.02",
+        "key2": "inductive.a.01",
+        "example1": "From several wet sidewalks and open umbrellas, she used inductive reasoning to infer it had rained.",
+        "example2": "The inductive voltage spike from the coil damaged the circuit."
+    },
+    {
+        "word": "pragmatist",
+        "domain": "philosophy",
+        "pos": "n",
+        "meaning1": "an adherent of philosophical pragmatism",
+        "meaning2": "a person who takes a practical approach to problems and is concerned primarily with the success or failure of her actions",
+        "key1": "pragmatist.n.01",
+        "key2": "pragmatist.n.02",
+        "example1": "As a pragmatist, she believed that ideas are true only if they work in practice.",
+        "example2": "As a pragmatist, Maya tests ideas quickly and keeps only those that work."
+    },
+    {
+        "word": "quintessence",
+        "domain": "philosophy",
+        "pos": "n",
+        "meaning1": "the fifth and highest element after air and earth and fire and water; was believed to be the substance composing all heavenly bodies",
+        "meaning2": "the purest and most concentrated essence of something",
+        "key1": "quintessence.n.01",
+        "key2": "quintessence.n.02",
+        "example1": "Ancient philosophers believed the stars were made of quintessence, the pure fifth element beyond earth, air, fire, and water.",
+        "example2": "The old orchard was the quintessence of autumn, with crisp apples and golden leaves."
+    },
+    {
+        "word": "environmentalism",
+        "domain": "philosophy",
+        "pos": "n",
+        "meaning1": "the philosophical doctrine that environment is more important than heredity in determining intellectual growth",
+        "meaning2": "the activity of protecting the environment from pollution or destruction",
+        "key1": "environmentalism.n.01",
+        "key2": "environmentalism.n.02",
+        "example1": "Her environmentalism held that upbringing and schooling shape intellectual development more than heredity.",
+        "example2": "Her environmentalism led her to organize neighborhood cleanups and plant trees to stop pollution and habitat loss."
+    },
+    {
+        "word": "relativistic",
+        "domain": "philosophy",
+        "pos": "a",
+        "meaning1": "of or relating to the philosophical doctrine of relativism",
+        "meaning2": "relating or subject to the special or the general theory of relativity",
+        "key1": "relativistic.a.02",
+        "key2": "relativistic.a.01",
+        "example1": "She took a relativistic view, arguing that moral truths depend on cultural context.",
+        "example2": "Relativistic effects become noticeable when particles travel near the speed of light."
+    },
+    {
+        "word": "house",
+        "domain": "theatre",
+        "pos": "n",
+        "meaning1": "the audience gathered together in a theatre or cinema",
+        "meaning2": "a dwelling that serves as living quarters for one or more families",
+        "key1": "house.n.04",
+        "key2": "house.n.01",
+        "example1": "The house gave a standing ovation to the singer.",
+        "example2": "The family moved into a new house on Maple Street."
+    },
+    {
+        "word": "ham",
+        "domain": "theatre",
+        "pos": "n",
+        "meaning1": "an unskilled actor who overacts",
+        "meaning2": "meat cut from the thigh of a hog (usually smoked)",
+        "key1": "ham.n.04",
+        "key2": "ham.n.01",
+        "example1": "The ham's overacting ruined the entire show.",
+        "example2": "He bought a smoked ham for the family dinner."
+    },
+    {
+        "word": "upstage",
+        "domain": "theatre",
+        "pos": "v",
+        "meaning1": "steal the show, draw attention to oneself away from someone else",
+        "meaning2": "treat snobbishly, put in one's place",
+        "key1": "upstage.v.03",
+        "key2": "upstage.v.01",
+        "example1": "She upstaged the guest speaker by making a dramatic entrance.",
+        "example2": "The manager upstaged the junior, putting him in his place during the meeting."
+    },
+    {
+        "word": "puppetry",
+        "domain": "theatre",
+        "pos": "n",
+        "meaning1": "a stilted dramatic performance (as if by puppets)",
+        "meaning2": "the art of making puppets and presenting puppet shows",
+        "key1": "puppetry.n.02",
+        "key2": "puppetry.n.01",
+        "example1": "The actors' wooden performances reduced the scene to mere puppetry.",
+        "example2": "She learned puppetry to make puppets and perform puppet shows."
+    },
+    {
+        "word": "prop",
+        "domain": "theatre",
+        "pos": "n",
+        "meaning1": "any movable articles or objects used on the set of a play or movie",
+        "meaning2": "a support placed beneath or against something to keep it from shaking or falling",
+        "key1": "property.n.05",
+        "key2": "prop.n.01",
+        "example1": "The stagehand carried the prop bouquet onto the set.",
+        "example2": "She placed a prop under the table to stop it from wobbling."
+    },
+    {
+        "word": "trouper",
+        "domain": "theatre",
+        "pos": "n",
+        "meaning1": "an actor who travels around the country presenting plays",
+        "meaning2": "a person who is reliable and uncomplaining and hard working",
+        "key1": "barnstormer.n.01",
+        "key2": "trouper.n.01",
+        "example1": "The trouper toured the country, performing plays in small towns.",
+        "example2": "Even after the long shift, he remained a trouper and finished every task without complaint."
+    },
+    {
+        "word": "shifter",
+        "domain": "theatre",
+        "pos": "n",
+        "meaning1": "a stagehand responsible for moving scenery",
+        "meaning2": "a mechanical device for engaging and disengaging gears",
+        "key1": "sceneshifter.n.01",
+        "key2": "gearshift.n.01",
+        "example1": "The shifter moved the backdrop into place during the scene change.",
+        "example2": "She grabbed the shifter and eased the car into second gear."
+    },
+    {
+        "word": "scenario",
+        "domain": "theatre",
+        "pos": "n",
+        "meaning1": "an outline or synopsis of a play (or, by extension, of a literary work)",
+        "meaning2": "a postulated sequence of possible events",
+        "key1": "scenario.n.01",
+        "key2": "scenario.n.03",
+        "example1": "The playwright handed the director a brief scenario summarizing the play's plot.",
+        "example2": "In this scenario, if the alarms fail, the sprinkler system will activate."
+    },
+    {
+        "word": "flux",
+        "domain": "physics",
+        "pos": "n",
+        "meaning1": "the rate of flow of energy or particles across a given surface",
+        "meaning2": "in constant change",
+        "key1": "flux.n.01",
+        "key2": "flux.n.08",
+        "example1": "Scientists measured the flux of particles passing through the detector each second.",
+        "example2": "The schedule is in flux, so check for updates."
+    },
+    {
+        "word": "mass",
+        "domain": "physics",
+        "pos": "n",
+        "meaning1": "the property of a body that causes it to have weight in a gravitational field",
+        "meaning2": "an ill-structured collection of similar things (objects or people)",
+        "key1": "mass.n.01",
+        "key2": "mass.n.03",
+        "example1": "The mass of the box determines how heavy it is in Earth's gravity.",
+        "example2": "A mass of people clogged the subway platform."
+    },
+    {
+        "word": "energy",
+        "domain": "physics",
+        "pos": "n",
+        "meaning1": "(physics) a thermodynamic quantity equivalent to the capacity of a physical system to do work; the units of energy are joules or ergs",
+        "meaning2": "enterprising or ambitious drive",
+        "key1": "energy.n.01",
+        "key2": "energy.n.03",
+        "example1": "The system's energy increased by 150 joules after heating.",
+        "example2": "Her energy drove her to launch a new business."
+    },
+    {
+        "word": "relativistic",
+        "domain": "physics",
+        "pos": "a",
+        "meaning1": "relating or subject to the special or the general theory of relativity",
+        "meaning2": "of or relating to the philosophical doctrine of relativism",
+        "key1": "relativistic.a.01",
+        "key2": "relativistic.a.02",
+        "example1": "The satellite's clock required relativistic corrections to remain accurate.",
+        "example2": "Her relativistic view held that moral truths depend on cultural context."
+    },
+    {
+        "word": "conservation",
+        "domain": "physics",
+        "pos": "n",
+        "meaning1": "(physics) the maintenance of a certain quantities unchanged during chemical reactions or physical transformations",
+        "meaning2": "the preservation and careful management of the environment and of natural resources",
+        "key1": "conservation.n.03",
+        "key2": "conservation.n.02",
+        "example1": "The conservation of mass means the total mass remains unchanged during a chemical reaction.",
+        "example2": "Conservation efforts helped protect the wetland and the animals that live there."
+    },
+    {
+        "word": "event",
+        "domain": "physics",
+        "pos": "n",
+        "meaning1": "something that happens at a given place and time",
+        "meaning2": "a phenomenon that follows and is caused by some previous phenomenon",
+        "key1": "event.n.01",
+        "key2": "consequence.n.01",
+        "example1": "The charity run is an event taking place at the park tomorrow.",
+        "example2": "The power outage was an event caused by the lightning strike."
+    },
+    {
+        "word": "attraction",
+        "domain": "physics",
+        "pos": "n",
+        "meaning1": "the force by which one object attracts another",
+        "meaning2": "an entertainment that is offered to the public",
+        "key1": "attraction.n.01",
+        "key2": "attraction.n.02",
+        "example1": "The attraction between the Earth and the moon keeps the moon in orbit.",
+        "example2": "The amusement park's newest roller coaster is a popular attraction."
+    },
+    {
+        "word": "deflection",
+        "domain": "physics",
+        "pos": "n",
+        "meaning1": "the property of being bent or deflected",
+        "meaning2": "a twist or aberration; especially a perverse or abnormal way of judging or acting",
+        "key1": "deflection.n.04",
+        "key2": "deflection.n.01",
+        "example1": "The deflection of the beam under the load was clearly visible.",
+        "example2": "The judge's deflection of judgment led to several unfair sentences."
+    },
+    {
+        "word": "radiate",
+        "domain": "physics",
+        "pos": "v",
+        "meaning1": "send out rays or waves",
+        "meaning2": "extend or spread outward from a center or focus or inward towards a center",
+        "key1": "radiate.v.01",
+        "key2": "radiate.v.03",
+        "example1": "The radio antenna will radiate signals across the city.",
+        "example2": "Ripples radiate outward from the point where the stone hit the pond."
+    },
+    {
+        "word": "fusion",
+        "domain": "physics",
+        "pos": "n",
+        "meaning1": "a nuclear reaction in which nuclei combine to form more massive nuclei with the simultaneous release of energy",
+        "meaning2": "the state of being combined into one body",
+        "key1": "fusion.n.04",
+        "key2": "coalition.n.02",
+        "example1": "Fusion happens when atomic nuclei combine to form heavier nuclei and release energy.",
+        "example2": "The fusion of the two companies created a single corporation."
+    },
+    {
+        "word": "moment",
+        "domain": "physics",
+        "pos": "n",
+        "meaning1": "a turning force produced by an object acting at a distance (or a measure of that force)",
+        "meaning2": "a particular point in time",
+        "key1": "moment.n.05",
+        "key2": "moment.n.01",
+        "example1": "He used a longer wrench to increase the moment and loosen the bolt.",
+        "example2": "At that moment, the lights went out."
+    },
+    {
+        "word": "strain",
+        "domain": "physics",
+        "pos": "n",
+        "meaning1": "(physics) deformation of a physical body under the action of applied forces",
+        "meaning2": "difficulty that causes worry or emotional tension; ; - R.J.Samuelson",
+        "key1": "strain.n.01",
+        "key2": "stress.n.04",
+        "example1": "The engineer measured the strain in the steel beam as the heavy truck crossed the bridge.",
+        "example2": "The financial strain of paying the bills kept her up at night."
+    },
+    {
+        "word": "tension",
+        "domain": "physics",
+        "pos": "n",
+        "meaning1": "(physics) a stress that produces an elongation of an elastic physical body",
+        "meaning2": "(psychology) a state of mental or emotional strain or suspense",
+        "key1": "tension.n.04",
+        "key2": "tension.n.01",
+        "example1": "The tension in the spring caused it to elongate.",
+        "example2": "She felt tension building as the deadline approached."
     }
 ]

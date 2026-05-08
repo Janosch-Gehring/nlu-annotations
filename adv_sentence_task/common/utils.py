@@ -48,6 +48,28 @@ def save_one_annotation(user_id: str, key: str, question_index: int, question_an
     st.session_state.user[5] = annotations
     conn.commit()
 
+def reroll_logic(samples):
+    random.shuffle(samples)
+    domain_word_representation = []
+    all_annotations = user_repository.fetch_task_annotations("adv_sentence_task")
+
+    for annotation in all_annotations:
+        if "domain" not in annotation:
+            continue
+        domain_word_representation.append((annotation["word"], annotation["domain"]))
+    
+    for sample in samples:
+        sample_representation = (sample["word"], sample["domain"])
+        if domain_word_representation.count(sample_representation) <= 3:  # 3 = max samples a sentence can get, then it stops getting shown.
+            return sample
+    
+    # Oops, we went through all and found nothing
+    st.write("[Debug Note: All samples finished]")
+    print("all samples finished...")
+    return sample
+
+
+
 
 def print_annotation_schema(index: int) -> tuple:
     """
@@ -63,9 +85,8 @@ def print_annotation_schema(index: int) -> tuple:
     random_flip_sample = (hash(index) % 2) == 0
 
     if "random_sample" not in st.session_state:
-        random.shuffle(samples)
-        sample = samples[0]
-        st.session_state.random_sample = sample
+        st.session_state.random_sample = reroll_logic(samples)
+        st.rerun()
 
     st.write("Can't think of anything, or not familiar with the word and its meanings? You can press the button below to get a different random word. Don't worry, you can press it as often as you want to.")
     reroll_button = st.button(key = 10 * index + 1, label="A different word, please!")
@@ -109,9 +130,7 @@ def print_annotation_schema(index: int) -> tuple:
 
     if reroll_button:
         user_repository.add_log(st.session_state.user_id, f"REROLL on word <{sample["word"]}> <{sample["meaning1"]}> <{sample["meaning2"]}>")
-        random.shuffle(samples)
-        sample = samples[0]
-        st.session_state.random_sample = sample
+        st.session_state.random_sample = reroll_logic(samples)
         st.rerun()
 
     return sample["word"], sample["meaning1"], sample["meaning2"], sample["domain"], text_input, next_input

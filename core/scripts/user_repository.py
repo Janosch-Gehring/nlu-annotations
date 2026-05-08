@@ -266,3 +266,18 @@ def fetch_user_data():
         user_id, task, qualified, annotator_group, progress, annotations, data = row
         st.write(f"User ID: {user_id}, Qualified: {qualified}, Task: {task} Progress: {progress}, Annotations: {annotations}")
     # conn.close()
+
+def fetch_task_annotations(task="adv_sentence_task"):
+    """
+    Fetch all non-qualification non-debug test annotations for the current task
+    """
+    conn = st.session_state.conn
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM user_data WHERE task = %s AND NOT (data->>'prolific_id' ILIKE '%%test%%');", (task,))
+    rows = cursor.fetchall()
+    all_annotations = []
+    for row in rows:
+        user_id, task, qualified, annotator_group, progress, annotations, data = row
+        if "annotation" in annotations:
+            all_annotations += annotations["annotation"]
+    return all_annotations
