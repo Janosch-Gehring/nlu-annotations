@@ -88,7 +88,7 @@ def print_annotation_schema(index: int) -> tuple:
         st.session_state.random_sample = reroll_logic(samples)
         st.rerun()
 
-    st.write("Can't think of anything, or not familiar with the word and its meanings? You can press the button below to get a different random word. Don't worry, you can press it as often as you want to.")
+    st.write("Can't think of anything, or not familiar with the word and its meanings? You can press the button below to get a different random word. Don't worry, you can press it as often as you want to.\n(Note: As the study goes on, the selection of remaining words will shrink and you may receive repeats.)")
     reroll_button = st.button(key = 10 * index + 1, label="A different word, please!")
 
     sample = st.session_state.random_sample
