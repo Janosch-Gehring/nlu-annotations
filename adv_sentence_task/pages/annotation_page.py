@@ -32,9 +32,7 @@ else:
 
     if next_input:
         user_repository.add_log(st.session_state.user_id, "SUBMITTED a sample.")
-        random.shuffle(samples)
-        sample = samples[0]
-        st.session_state.random_sample = sample
+        st.session_state.random_sample = utils.reroll_logic(samples)
 
         # using the normal next button behavior is proably not a good idea here...
         utils.save_one_annotation(st.session_state.user_id, "annotation", index, annotation)
