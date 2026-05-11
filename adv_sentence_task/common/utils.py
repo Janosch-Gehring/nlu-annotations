@@ -59,9 +59,11 @@ def reroll_logic(samples):
         domain_word_representation.append((annotation["word"], annotation["domain"]))
     
     for sample in samples:
+        print("random sample:", sample["word"])
         sample_representation = (sample["word"], sample["domain"])
-        if domain_word_representation.count(sample_representation) <= 3:  # 3 = max samples a sentence can get, then it stops getting shown.
+        if domain_word_representation.count(sample_representation) < 3:  # 3 = max samples a sentence can get, then it stops getting shown.
             return sample
+        print(sample["word"], "but skipping that one")
     
     # Oops, we went through all and found nothing
     st.write("[Debug Note: All samples finished]")
