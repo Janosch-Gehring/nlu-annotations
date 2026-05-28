@@ -5,6 +5,33 @@ import random
 from core.scripts.utils import display_progress, read_json_from_file, load_annotation, TASK_INFO, user_repository
 
 
+redo_samples = [
+    ("division", "military"),
+    ("combine", "agriculture"),
+    ("stream_of_consciousness", "literature"),
+    ("average", "mathematics"),
+    ("closed", "mathematics"),
+    ("cache", "computer_science"),
+    ("editor", "computer_science"),
+    ("deliver", "religion"),
+    ("vein", "anatomy"),
+    ("atrium", "anatomy"),
+    ("sentence", "law"),
+    ("try", "law"),
+    ("engage", "law"),
+    ("appeal", "law"),
+    ("string", "music"),
+    ("radical", "politics"),
+    ("neutralize", "chemistry"),
+    ("free", "chemistry"),
+    ("net", "economy"),
+    ("ship", "economy"),
+    ("intensive", "linguistics"),
+    ("event", "physics"),
+    ("tension", "physics")
+]
+
+
 def format_sentence(sentence):
     return "***" + sentence.replace("[", ":blue-background[") + "***\n"
 
@@ -63,6 +90,9 @@ def reroll_logic(samples):
         sample_representation = (sample["word"], sample["domain"])
         if domain_word_representation.count(sample_representation) < 3:  # 3 = max samples a sentence can get, then it stops getting shown.
             return sample
+        if domain_word_representation.count(sample_representation) < 6:
+            if sample_representation in redo_samples:
+                return sample
         print(sample["word"], "but skipping that one")
     
     # Oops, we went through all and found nothing
