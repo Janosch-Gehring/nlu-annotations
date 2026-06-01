@@ -96,7 +96,7 @@ def reroll_logic(samples):
         print(sample["word"], "but skipping that one")
     
     # Oops, we went through all and found nothing
-    st.write("[Debug Note: All samples finished]")
+    st.write("[Debug Note: All data collected. You can finish the study like normal.]")
     print("all samples finished...")
     return sample
 

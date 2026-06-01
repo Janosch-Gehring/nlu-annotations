@@ -104,7 +104,14 @@ TASK_INFO = {
         "annotation_filepath": "adv_sentence_task/resources/sense_pairs.json",
         "qualification_filepath": "adv_sentence_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 1
-    }
+    },
+    "adv_ending_task": {
+        "annotation_filepath": "adv_ending_task/resources/contexts.json",
+        "qualification_filepath": "var_ending_test2/resources/qualification_questions.json",
+        "tutorial_filepath": "var_ending_test2/resources/tutorial_questions.json",
+        "number_of_annotator_groups": 40,
+        "group_assignment": "post-qualification"
+    },
 }
 
 def read_json_from_file(path: str) -> dict:
