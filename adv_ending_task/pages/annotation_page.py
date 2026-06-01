@@ -36,11 +36,16 @@ def skip_to_next_sample(index: int, samples: dict, grouping: int, direction: int
     if index < 1:
         return 1
     
+    start_grouping = grouping
+    
     grouping = (grouping + 2 * loops_done) % TASK_INFO["adv_ending_task"]["number_of_annotator_groups"] 
     
     while True:
         if index > len(samples):
             index = 1  # grouping will increase, get reborn.
+            if grouping == start_grouping:
+                # Thats not supposed to happen...
+                grouping = (grouping + 2) % TASK_INFO["adv_ending_task"]["number_of_annotator_groups"] 
 
         if str(index) not in samples:  # account for samples having id gaps
             index += direction
