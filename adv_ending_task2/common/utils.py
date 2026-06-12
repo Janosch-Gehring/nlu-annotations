@@ -297,7 +297,7 @@ Your constructed story:
             elif picked_precontext in question["precontexts"] and picked_ending in question["endings"]:
                 st.write(f":red[You need to edit either the first or second part. You currently have not edited either.]")
             elif picked_precontext not in question["precontexts"] and picked_ending not in question["endings"]:
-                st.write(f":red[You can only edit either the first or second part, not both. Please reset one of the parts.]")
+                st.write(f":red[You can only edit either the first or second part, not both. Please reset one of the parts, then select a template for it.]")
             else:
 
                 st.write(f":green[OK.] Click next to finish this story.")
