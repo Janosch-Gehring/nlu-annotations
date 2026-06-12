@@ -7,7 +7,7 @@ from core.scripts.utils import read_json_from_file, handle_back_button, TASK_INF
 from adv_ending_task2.common import utils
 
 
-samples = read_json_from_file(TASK_INFO["adv_ending_task"]["annotation_filepath"])
+samples = read_json_from_file(TASK_INFO["adv_ending_task2"]["annotation_filepath"])
 
 SAMPLES_NEEDED = 10
 
@@ -38,14 +38,14 @@ def skip_to_next_sample(index: int, samples: dict, grouping: int, direction: int
     
     start_grouping = grouping
     
-    grouping = (grouping + 2 * loops_done) % TASK_INFO["adv_ending_task"]["number_of_annotator_groups"] 
+    grouping = (grouping + 2 * loops_done) % TASK_INFO["adv_ending_task2"]["number_of_annotator_groups"] 
     
     while True:
         if index > len(samples):
             index = 1  # grouping will increase, get reborn.
             if grouping == start_grouping:
                 # Thats not supposed to happen...
-                grouping = (grouping + 2) % TASK_INFO["adv_ending_task"]["number_of_annotator_groups"] 
+                grouping = (grouping + 2) % TASK_INFO["adv_ending_task2"]["number_of_annotator_groups"] 
 
         if str(index) not in samples:  # account for samples having id gaps
             index += direction
@@ -83,7 +83,7 @@ if "progress" not in st.session_state:
     st.session_state.progress = user_repository.get_checkpoint("annotation")
     if not st.session_state.progress:  # no checkpoint yet -> simply go to the first relevant sample
         st.session_state.progress = skip_to_next_sample(0, samples, st.session_state.user[3], 1)
-st.session_state.page = "adv_ending_task_annotation_page_sample" + str(st.session_state.progress)
+st.session_state.page = "adv_ending_task2_annotation_page_sample" + str(st.session_state.progress)
 
 if "tutorial_stage" in st.session_state and st.session_state["tutorial_stage"] > 5:
     utils.reset_sample_state()
