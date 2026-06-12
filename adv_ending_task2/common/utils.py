@@ -294,9 +294,9 @@ Your constructed story:
                 st.write(f":red[Your constructed story contains the focus word {question["word"]} in the first part. Please avoid that.]")
             elif " " + question["word"] in picked_ending:
                 st.write(f":red[Your constructed story contains the focus word {question["word"]} in the second part. Please avoid that.]")
-            elif picked_precontext in question["precontexts"] and picked_ending in question["endings"]:
+            elif picked_precontext in ["(No text necessary)"] + question["precontexts"] and picked_ending in ["(No text necessary)"] + question["endings"]:
                 st.write(f":red[You need to edit either the first or second part. You currently have not edited either.]")
-            elif picked_precontext not in question["precontexts"] and picked_ending not in question["endings"]:
+            elif picked_precontext not in ["(No text necessary)"] + question["precontexts"] and picked_ending not in ["(No text necessary)"] + question["endings"]:
                 st.write(f":red[You can only edit either the first or second part, not both. Please reset one of the parts, then select a template for it.]")
             else:
 
