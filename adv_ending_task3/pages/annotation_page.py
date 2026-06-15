@@ -4,7 +4,7 @@ import streamlit as st
 
 from core.scripts import user_repository
 from core.scripts.utils import read_json_from_file, handle_back_button, TASK_INFO, finish_subtask
-from adv_ending_task2.common import utils
+from adv_ending_task3.common import utils
 
 
 samples = read_json_from_file(TASK_INFO["adv_ending_task3"]["annotation_filepath"])
