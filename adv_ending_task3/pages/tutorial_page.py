@@ -8,7 +8,7 @@ from core.scripts.utils import read_json_from_file, handle_next_button, handle_b
 if "tutorial_stage" not in st.session_state:
     st.session_state["tutorial_stage"] = 0
 
-from adv_ending_task2.common import utils
+from adv_ending_task3.common import utils
 
 
 #print("Running from the top, current stage ", st.session_state["tutorial_stage"], "current story ", st.session_state["sample_state"])
