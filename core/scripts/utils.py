@@ -121,7 +121,7 @@ TASK_INFO = {
     },
     "adv_ending_task3": {
         "annotation_filepath": "adv_ending_task3/resources/contexts_redo.json",
-        "qualification_filepath": "adv_ending_test3/resources/qualification_questions.json",
+        "qualification_filepath": "adv_ending_task3/resources/qualification_questions.json",
         "tutorial_filepath": "adv_ending_task3/resources/tutorial_questions.json",
         "number_of_annotator_groups": 40,
         "group_assignment": "post-qualification"
