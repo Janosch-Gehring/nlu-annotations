@@ -166,6 +166,20 @@ adv_ending_task2_tutorial_page = st.Page(
     "adv_ending_task2/pages/tutorial_page.py", title="Tutorial",icon="📖"
 )
 
+
+adv_ending_task3_start_page = st.Page(
+    "adv_ending_task3/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
+)
+adv_ending_task3_qualification_page = st.Page(
+    "adv_ending_task3/pages/qualification_page.py", title="Qualification", icon="🔑"
+)
+adv_ending_task3_annotation_page = st.Page(
+    "adv_ending_task3/pages/annotation_page.py", title="Annotation", icon="✏️"
+)
+adv_ending_task3_tutorial_page = st.Page(
+    "adv_ending_task3/pages/tutorial_page.py", title="Tutorial",icon="📖"
+)
+
 # Create navigation bar
 
 if st.session_state.user_id == "admin":
@@ -201,6 +215,12 @@ elif st.session_state.user_id:
 
     elif utils.authenticate_id("adv_ending_task2", st.session_state.user_id):
         available_pages["Story Building Task"] = [adv_ending_task2_qualification_page, adv_ending_task2_tutorial_page, adv_ending_task2_annotation_page]
+
+    elif utils.authenticate_id("adv_ending_task2", st.session_state.user_id):
+        available_pages["Story Building Task"] = [adv_ending_task2_qualification_page, adv_ending_task2_tutorial_page, adv_ending_task2_annotation_page]
+
+    elif utils.authenticate_id("adv_ending_task3", st.session_state.user_id):
+        available_pages["Story Building Task"] = [adv_ending_task3_qualification_page, adv_ending_task3_tutorial_page, adv_ending_task3_annotation_page]
 
 
     elif utils.authenticate_id("big_eval_ending_task", st.session_state.user_id):

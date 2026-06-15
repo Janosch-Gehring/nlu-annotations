@@ -1,0 +1,2102 @@
+{
+    "1": {
+        "sentence": "Today's exercise would be particularly difficult.",
+        "word": "exercise",
+        "meaning1": "physical exertion",
+        "meaning2": "the utilization or employment of something",
+        "focus_meaning": "physical exertion",
+        "precontexts": [
+            "The instructor gathered everyone in a circle.",
+            "He woke up earlier than usual. The air was chilly outside. There was a sense of calm all around.",
+            "The kids gathered in the backyard, eagerly waiting. Each of them had their instructions with them."
+        ],
+        "endings": [
+            "He braced himself and took a deep breath.",
+            "Some headed for the playground, while others set to work. They all knew they had to give it their best. By evening, everyone was exhausted but satisfied.",
+            "Some people looked nervous about it. Instructions were given out clearly. We all took a deep breath and began."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "Bob's doctor told him to get more exercise and to eat less.",
+        "example2": "The President's exercise of his veto power surprised the Congress."
+    },
+    "2": {
+        "sentence": "Today's exercise would be particularly difficult.",
+        "word": "exercise",
+        "meaning1": "physical exertion",
+        "meaning2": "the utilization or employment of something",
+        "focus_meaning": "the utilization or employment of something",
+        "precontexts": [
+            "The instructor gathered everyone in a circle.",
+            "He woke up earlier than usual. The air was chilly outside. There was a sense of calm all around.",
+            "The kids gathered in the backyard, eagerly waiting. Each of them had their instructions with them."
+        ],
+        "endings": [
+            "He braced himself and took a deep breath.",
+            "Some headed for the playground, while others set to work. They all knew they had to give it their best. By evening, everyone was exhausted but satisfied.",
+            "Some people looked nervous about it. Instructions were given out clearly. We all took a deep breath and began."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "Bob's doctor told him to get more exercise and to eat less.",
+        "example2": "The President's exercise of his veto power surprised the Congress."
+    },
+    "3": {
+        "sentence": "He carried the note high into the rooftops.",
+        "word": "note",
+        "meaning1": "a pitch or tone of music",
+        "meaning2": "A very brief written piece of information",
+        "focus_meaning": "a pitch or tone of music",
+        "precontexts": [
+            "He walked through the quiet street. In his hand was something he held dear. People around stopped to watch him.",
+            "He fumbled for it in his pocket, determined to keep it safe.",
+            "He found an old piece of paper in the attic. He read it out loud."
+        ],
+        "endings": [
+            "The wind was strong, and he worried it might slip away. Someone below was waiting eagerly. He hoped to deliver it intact and on time.",
+            "The sound echoed across the city. Everyone listened closely, wondering what it meant.",
+            "She smiled when she heard it. From then on, it felt like a secret between them."
+        ],
+        "pos": "n",
+        "grouping": 3,
+        "example1": "The soprano held the high note in an astonishing pianissimo.",
+        "example2": "I received a rather cryptic note from John about tomorrow's meeting."
+    },
+    "4": {
+        "sentence": "He carried the note high into the rooftops.",
+        "word": "note",
+        "meaning1": "a pitch or tone of music",
+        "meaning2": "A very brief written piece of information",
+        "focus_meaning": "A very brief written piece of information",
+        "precontexts": [
+            "He walked through the quiet street. In his hand was something he held dear. People around stopped to watch him.",
+            "He fumbled for it in his pocket, determined to keep it safe.",
+            "He found an old piece of paper in the attic. He read it out loud."
+        ],
+        "endings": [
+            "The wind was strong, and he worried it might slip away. Someone below was waiting eagerly. He hoped to deliver it intact and on time.",
+            "The sound echoed across the city. Everyone listened closely, wondering what it meant.",
+            "She smiled when she heard it. From then on, it felt like a secret between them."
+        ],
+        "pos": "n",
+        "grouping": 4,
+        "example1": "The soprano held the high note in an astonishing pianissimo.",
+        "example2": "I received a rather cryptic note from John about tomorrow's meeting."
+    },
+    "5": {
+        "sentence": "The group assembled before the court that day.",
+        "word": "court",
+        "meaning1": "a demarcated area for sports play",
+        "meaning2": "a sovereign regime and its assemblage",
+        "focus_meaning": "a demarcated area for sports play",
+        "precontexts": [
+            "They huddled closely near the entrance. It was an important moment for everyone involved. Excitement and nerves filled the air.",
+            "It was an important occasion for everyone involved. Each person had their own reasons for being there.",
+            "The sun rose high in the sky."
+        ],
+        "endings": [
+            "Some looked at their watches. Others chatted quietly among themselves. They waited patiently for what was to come.",
+            "There was a sense of anticipation in the air. They wondered how the events would unfold. By noon, all eyes were set on the main event.",
+            "When it was over, they discussed what just happened. They knew it would be remembered."
+        ],
+        "pos": "n",
+        "grouping": 5,
+        "example1": "This basketball court has a new floor.",
+        "example2": "Many consider the Court at Versailles to have been the most brilliant in all of European history."
+    },
+    "6": {
+        "sentence": "The group assembled before the court that day.",
+        "word": "court",
+        "meaning1": "a demarcated area for sports play",
+        "meaning2": "a sovereign regime and its assemblage",
+        "focus_meaning": "a sovereign regime and its assemblage",
+        "precontexts": [
+            "They huddled closely near the entrance. It was an important moment for everyone involved. Excitement and nerves filled the air.",
+            "It was an important occasion for everyone involved. Each person had their own reasons for being there.",
+            "The sun rose high in the sky."
+        ],
+        "endings": [
+            "Some looked at their watches. Others chatted quietly among themselves. They waited patiently for what was to come.",
+            "There was a sense of anticipation in the air. They wondered how the events would unfold. By noon, all eyes were set on the main event.",
+            "When it was over, they discussed what just happened. They knew it would be remembered."
+        ],
+        "pos": "n",
+        "grouping": 6,
+        "example1": "This basketball court has a new floor.",
+        "example2": "Many consider the Court at Versailles to have been the most brilliant in all of European history."
+    },
+    "7": {
+        "sentence": "She searched hard within her memory to find what she needed.",
+        "word": "memory",
+        "meaning1": "An electronic storage device.",
+        "meaning2": "The cognitive processes and capacity to remember.",
+        "focus_meaning": "An electronic storage device.",
+        "precontexts": [
+            "It was a quiet afternoon and she sat at her desk. Everything seemed to be in its place, but something felt missing.",
+            "She sat alone in the quiet room. The clock's ticking was the only sound. Her task was simple, yet her mind kept wandering.",
+            "It was getting late. "
+        ],
+        "endings": [
+            "After a moment, a bright smile appeared on her face. She reached for a drawer and pulled out an old photograph. It was just what she had been looking for.",
+            "The answer was not coming easily. Time was running out quickly. She hoped to solve the problem soon.",
+            "Finally, she breathed a sigh of relief. It was done, at last."
+        ],
+        "pos": "n",
+        "grouping": 7,
+        "example1": "Memory and the CPU for the core of the computer.",
+        "example2": "He can do it from memory."
+    },
+    "8": {
+        "sentence": "She searched hard within her memory to find what she needed.",
+        "word": "memory",
+        "meaning1": "An electronic storage device.",
+        "meaning2": "The cognitive processes and capacity to remember.",
+        "focus_meaning": "The cognitive processes and capacity to remember.",
+        "precontexts": [
+            "It was a quiet afternoon and she sat at her desk. Everything seemed to be in its place, but something felt missing.",
+            "She sat alone in the quiet room. The clock's ticking was the only sound. Her task was simple, yet her mind kept wandering.",
+            "It was getting late. "
+        ],
+        "endings": [
+            "After a moment, a bright smile appeared on her face. She reached for a drawer and pulled out an old photograph. It was just what she had been looking for.",
+            "The answer was not coming easily. Time was running out quickly. She hoped to solve the problem soon.",
+            "Finally, she breathed a sigh of relief. It was done, at last."
+        ],
+        "pos": "n",
+        "grouping": 8,
+        "example1": "Memory and the CPU for the core of the computer.",
+        "example2": "He can do it from memory."
+    },
+    "9": {
+        "sentence": "The coach was in a rush to be on time.",
+        "word": "coach",
+        "meaning1": "a trainer for an athletic team",
+        "meaning2": "a railway car that carries passengers",
+        "focus_meaning": "a trainer for an athletic team",
+        "precontexts": [
+            "The team gathered early in the morning. Everyone was excited for the day.",
+            "The morning started with a thick fog. Everyone was looking at their watches. The platform was crowded and noisy.",
+            "It was a busy morning with tasks piling up."
+        ],
+        "endings": [
+            "People hurried along with their bags. The day promised unexpected adventures.",
+            "He grabbed his bag and hurried out the door. The journey was crucial to his day. As he moved swiftly, the need for promptness weighed heavily on him.",
+            "They all hoped to make it by midday. There was a lot to prepare before the big event."
+        ],
+        "pos": "n",
+        "grouping": 9,
+        "example1": "The basketball coach at the high school also teaches algebra.",
+        "example2": "Wealthy people traveled by private rail coach in the 1920s."
+    },
+    "10": {
+        "sentence": "The coach was in a rush to be on time.",
+        "word": "coach",
+        "meaning1": "a trainer for an athletic team",
+        "meaning2": "a railway car that carries passengers",
+        "focus_meaning": "a railway car that carries passengers",
+        "precontexts": [
+            "The team gathered early in the morning. Everyone was excited for the day.",
+            "The morning started with a thick fog. Everyone was looking at their watches. The platform was crowded and noisy.",
+            "It was a busy morning with tasks piling up."
+        ],
+        "endings": [
+            "People hurried along with their bags. The day promised unexpected adventures.",
+            "He grabbed his bag and hurried out the door. The journey was crucial to his day. As he moved swiftly, the need for promptness weighed heavily on him.",
+            "They all hoped to make it by midday. There was a lot to prepare before the big event."
+        ],
+        "pos": "n",
+        "grouping": 10,
+        "example1": "The basketball coach at the high school also teaches algebra.",
+        "example2": "Wealthy people traveled by private rail coach in the 1920s."
+    },
+    "11": {
+        "sentence": "It was a tricky device to understand.",
+        "word": "device",
+        "meaning1": "a contrivance, tool, or instrument that has a purpose",
+        "meaning2": "a plan, maneuver or trick",
+        "focus_meaning": "a contrivance, tool, or instrument that has a purpose",
+        "precontexts": [
+            "The old man handed me an odd contraption. He smiled and said, 'You'll figure it out.'",
+            "He found an old box in the attic.",
+            "He found a strange gadget in the attic. It looked like something from an old movie. His curiosity got the better of him."
+        ],
+        "endings": [
+            "He fiddled with it for hours. Finally, something clicked. A small compartment popped open, revealing a note inside.",
+            "I spent several hours fiddling with it. Finally, something clicked, and it started working. The old man nodded approvingly.",
+            "After a few tries, he made it work. He couldn't believe what it could do."
+        ],
+        "pos": "n",
+        "grouping": 11,
+        "example1": "Computers usually use mice and keyboards as input devices.",
+        "example2": "Mary thinks John's chronic lateness to meetings is a manipulative device to control others."
+    },
+    "12": {
+        "sentence": "It was a tricky device to understand.",
+        "word": "device",
+        "meaning1": "a contrivance, tool, or instrument that has a purpose",
+        "meaning2": "a plan, maneuver or trick",
+        "focus_meaning": "a plan, maneuver or trick",
+        "precontexts": [
+            "The old man handed me an odd contraption. He smiled and said, 'You'll figure it out.'",
+            "He found an old box in the attic.",
+            "He found a strange gadget in the attic. It looked like something from an old movie. His curiosity got the better of him."
+        ],
+        "endings": [
+            "He fiddled with it for hours. Finally, something clicked. A small compartment popped open, revealing a note inside.",
+            "I spent several hours fiddling with it. Finally, something clicked, and it started working. The old man nodded approvingly.",
+            "After a few tries, he made it work. He couldn't believe what it could do."
+        ],
+        "pos": "n",
+        "grouping": 12,
+        "example1": "Computers usually use mice and keyboards as input devices.",
+        "example2": "Mary thinks John's chronic lateness to meetings is a manipulative device to control others."
+    },
+    "13": {
+        "sentence": "The register was too high for Darren to reach.",
+        "word": "register",
+        "meaning1": "slide on a musical organ that controls pipes",
+        "meaning2": "an official written record",
+        "focus_meaning": "slide on a musical organ that controls pipes",
+        "precontexts": [
+            "Darren stood in the quiet room, looking up.",
+            "Darren entered the dusty old room with a sense of curiosity. He noticed something interesting perched high on the wall.",
+            "Darren entered the quiet room. He looked around cautiously. His eyes landed on the object."
+        ],
+        "endings": [
+            "He looked around for something to stand on. Finding a sturdy chair, he climbed up carefully. Finally, he was able to reach it.",
+            "He searched for a stool to stand on. After a moment, he found one in the corner. With a little effort, he finally managed to reach it.",
+            "He sighed and went to fetch a chair."
+        ],
+        "pos": "n",
+        "grouping": 13,
+        "example1": "The organist moved the register as he played the piece.",
+        "example2": "This old book appears to be an 16th-century register of births and deaths in an English village."
+    },
+    "14": {
+        "sentence": "The register was too high for Darren to reach.",
+        "word": "register",
+        "meaning1": "slide on a musical organ that controls pipes",
+        "meaning2": "an official written record",
+        "focus_meaning": "an official written record",
+        "precontexts": [
+            "Darren stood in the quiet room, looking up.",
+            "Darren entered the dusty old room with a sense of curiosity. He noticed something interesting perched high on the wall.",
+            "Darren entered the quiet room. He looked around cautiously. His eyes landed on the object."
+        ],
+        "endings": [
+            "He looked around for something to stand on. Finding a sturdy chair, he climbed up carefully. Finally, he was able to reach it.",
+            "He searched for a stool to stand on. After a moment, he found one in the corner. With a little effort, he finally managed to reach it.",
+            "He sighed and went to fetch a chair."
+        ],
+        "pos": "n",
+        "grouping": 14,
+        "example1": "The organist moved the register as he played the piece.",
+        "example2": "This old book appears to be an 16th-century register of births and deaths in an English village."
+    },
+    "15": {
+        "sentence": "The boy wasn't sure in which class it belonged.",
+        "word": "class",
+        "meaning1": "a collection of things defined by shared characteristics",
+        "meaning2": "students who attend an instructional course together",
+        "focus_meaning": "a collection of things defined by shared characteristics",
+        "precontexts": [
+            "The boy found a strange object while walking in the school hallway.",
+            "He found an old book in the attic. Curious, he decided to take it to school. The teacher looked at it confused.",
+            "A boy found a strange object in the playground. It looked unfamiliar to him."
+        ],
+        "endings": [
+            "He asked a teacher who suggested that it might belong in the art room. The boy decided to check the art room first. He hoped he could solve the mystery quickly.",
+            "She suggested he sort it out with the librarian.",
+            "He decided to ask his teacher for help. The teacher smiled and nodded in understanding. Together, they walked to the right place."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "German has three major noun classes - masculine, feminine and neuter.",
+        "example2": "The class became quiet when the principal entered the room."
+    },
+    "16": {
+        "sentence": "The boy wasn't sure in which class it belonged.",
+        "word": "class",
+        "meaning1": "a collection of things defined by shared characteristics",
+        "meaning2": "students who attend an instructional course together",
+        "focus_meaning": "students who attend an instructional course together",
+        "precontexts": [
+            "The boy found a strange object while walking in the school hallway.",
+            "He found an old book in the attic. Curious, he decided to take it to school. The teacher looked at it confused.",
+            "A boy found a strange object in the playground. It looked unfamiliar to him."
+        ],
+        "endings": [
+            "He asked a teacher who suggested that it might belong in the art room. The boy decided to check the art room first. He hoped he could solve the mystery quickly.",
+            "She suggested he sort it out with the librarian.",
+            "He decided to ask his teacher for help. The teacher smiled and nodded in understanding. Together, they walked to the right place."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "German has three major noun classes - masculine, feminine and neuter.",
+        "example2": "The class became quiet when the principal entered the room."
+    },
+    "17": {
+        "sentence": "It was a difficult fight, which was ultimately lost.",
+        "word": "fight",
+        "meaning1": "to combat or oppose someone or something",
+        "meaning2": "to strive, make a strenuous effort",
+        "focus_meaning": "to combat or oppose someone or something",
+        "precontexts": [
+            "He woke up before the sun rose, determined to win.",
+            "They had trained for months. Everyone was hopeful and nervous. The day had finally arrived.",
+            "The team worked hard day and night. They believed they had a good chance."
+        ],
+        "endings": [
+            "Still, he did not let disappointment weigh him down. Instead, he learned from the experience and moved on. He knew there would be more chances to try again.",
+            "Sadness filled the air, but they promised to try again next time.",
+            "Everyone felt a bit defeated afterwards. Still, they learned a lot from the experience. They promised to try again next time."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "The armies fought on the outskirts of Moscow.",
+        "example2": "She is fighting for her life."
+    },
+    "18": {
+        "sentence": "It was a difficult fight, which was ultimately lost.",
+        "word": "fight",
+        "meaning1": "to combat or oppose someone or something",
+        "meaning2": "to strive, make a strenuous effort",
+        "focus_meaning": "to strive, make a strenuous effort",
+        "precontexts": [
+            "He woke up before the sun rose, determined to win.",
+            "They had trained for months. Everyone was hopeful and nervous. The day had finally arrived.",
+            "The team worked hard day and night. They believed they had a good chance."
+        ],
+        "endings": [
+            "Still, he did not let disappointment weigh him down. Instead, he learned from the experience and moved on. He knew there would be more chances to try again.",
+            "Sadness filled the air, but they promised to try again next time.",
+            "Everyone felt a bit defeated afterwards. Still, they learned a lot from the experience. They promised to try again next time."
+        ],
+        "pos": "v",
+        "grouping": 3,
+        "example1": "The armies fought on the outskirts of Moscow.",
+        "example2": "She is fighting for her life."
+    },
+    "19": {
+        "sentence": "At some point during the day the routine was interrupted.",
+        "word": "routine",
+        "meaning1": "a sequence of logic steps in a computer program",
+        "meaning2": "regular method or procedure of doing something",
+        "focus_meaning": "a sequence of logic steps in a computer program",
+        "precontexts": [
+            "He sat at his desk early in the morning. The coffee was hot, and the screen glowed in front of him. He began working steadily.",
+            "He started his work early in the morning. Everything was going smoothly.",
+            "The day was going smoothly as always in the small office."
+        ],
+        "endings": [
+            "A message appeared on the screen, catching everyone's attention. The team gathered around to see what was happening. Soon after, everything went back to normal.",
+            "A strange noise came from the hallway. He got up to check it out. What he found outside was unexpected.",
+            "He paused, took a deep breath, and continued with a smile. The day carried on smoothly after that."
+        ],
+        "pos": "n",
+        "grouping": 4,
+        "example1": "John wrote a recursive pattern-matching routine for his computer science project.",
+        "example2": "Mary's daily routine includes an hour at the gym, and lunch at her desk."
+    },
+    "20": {
+        "sentence": "At some point during the day the routine was interrupted.",
+        "word": "routine",
+        "meaning1": "a sequence of logic steps in a computer program",
+        "meaning2": "regular method or procedure of doing something",
+        "focus_meaning": "regular method or procedure of doing something",
+        "precontexts": [
+            "He sat at his desk early in the morning. The coffee was hot, and the screen glowed in front of him. He began working steadily.",
+            "He started his work early in the morning. Everything was going smoothly.",
+            "The day was going smoothly as always in the small office."
+        ],
+        "endings": [
+            "A message appeared on the screen, catching everyone's attention. The team gathered around to see what was happening. Soon after, everything went back to normal.",
+            "A strange noise came from the hallway. He got up to check it out. What he found outside was unexpected.",
+            "He paused, took a deep breath, and continued with a smile. The day carried on smoothly after that."
+        ],
+        "pos": "n",
+        "grouping": 5,
+        "example1": "John wrote a recursive pattern-matching routine for his computer science project.",
+        "example2": "Mary's daily routine includes an hour at the gym, and lunch at her desk."
+    },
+    "21": {
+        "sentence": "She was tired out after going through the struggle.",
+        "word": "struggle",
+        "meaning1": "fight or make effort to defeat someone or something",
+        "meaning2": "make strenuous efforts",
+        "focus_meaning": "fight or make effort to defeat someone or something",
+        "precontexts": [
+            "After a long day, she finally sat down to relax. The challenges she faced were more than she expected.",
+            "She woke up earlier than usual. There was a lot on her mind. She needed to address some challenges.",
+            "She got up early to face a difficult day."
+        ],
+        "endings": [
+            "But she knew tomorrow might be better. She decided to rest for now.",
+            "All she hoped for was a peaceful evening. With a deep breath, she decided to leave it behind. Maybe tomorrow would be better.",
+            "In the end, she finally found a moment to sit by the window. She watched the world outside with a cup of tea in hand. It was quiet now, and she felt a bit of peace."
+        ],
+        "pos": "v",
+        "grouping": 6,
+        "example1": "He struggled with his attacker who then ran off.",
+        "example2": "She struggled to be polite."
+    },
+    "22": {
+        "sentence": "She was tired out after going through the struggle.",
+        "word": "struggle",
+        "meaning1": "fight or make effort to defeat someone or something",
+        "meaning2": "make strenuous efforts",
+        "focus_meaning": "make strenuous efforts",
+        "precontexts": [
+            "After a long day, she finally sat down to relax. The challenges she faced were more than she expected.",
+            "She woke up earlier than usual. There was a lot on her mind. She needed to address some challenges.",
+            "She got up early to face a difficult day."
+        ],
+        "endings": [
+            "But she knew tomorrow might be better. She decided to rest for now.",
+            "All she hoped for was a peaceful evening. With a deep breath, she decided to leave it behind. Maybe tomorrow would be better.",
+            "In the end, she finally found a moment to sit by the window. She watched the world outside with a cup of tea in hand. It was quiet now, and she felt a bit of peace."
+        ],
+        "pos": "v",
+        "grouping": 7,
+        "example1": "He struggled with his attacker who then ran off.",
+        "example2": "She struggled to be polite."
+    },
+    "23": {
+        "sentence": "His arm ached from too many strokes.",
+        "word": "stroke",
+        "meaning1": "the act of striking an object, usually with an implement",
+        "meaning2": "petting, brushing motion of the hand, or implement",
+        "focus_meaning": "the act of striking an object, usually with an implement",
+        "precontexts": [
+            "He walked alone by the river. The sun was setting slowly. He spent minutes looking at the water.",
+            "He sat quietly in the garden. The morning sun cast shadows around him.",
+            "The day felt long and exhausting."
+        ],
+        "endings": [
+            "He thought about taking a break. The birds chirped softly nearby. He decided to continue a bit longer.",
+            "He took a break to let his muscles relax. Sitting down, he reached for a glass of water. The rest would help him continue soon.",
+            "Finally, he decided to rest for a while. Then he continued on his journey."
+        ],
+        "pos": "n",
+        "grouping": 8,
+        "example1": "They received three strokes of the cane as punishment.",
+        "example2": "The cat purred in my lap and seemed to enjoy the stroke of its fur."
+    },
+    "24": {
+        "sentence": "His arm ached from too many strokes.",
+        "word": "stroke",
+        "meaning1": "the act of striking an object, usually with an implement",
+        "meaning2": "petting, brushing motion of the hand, or implement",
+        "focus_meaning": "petting, brushing motion of the hand, or implement",
+        "precontexts": [
+            "He walked alone by the river. The sun was setting slowly. He spent minutes looking at the water.",
+            "He sat quietly in the garden. The morning sun cast shadows around him.",
+            "The day felt long and exhausting."
+        ],
+        "endings": [
+            "He thought about taking a break. The birds chirped softly nearby. He decided to continue a bit longer.",
+            "He took a break to let his muscles relax. Sitting down, he reached for a glass of water. The rest would help him continue soon.",
+            "Finally, he decided to rest for a while. Then he continued on his journey."
+        ],
+        "pos": "n",
+        "grouping": 9,
+        "example1": "They received three strokes of the cane as punishment.",
+        "example2": "The cat purred in my lap and seemed to enjoy the stroke of its fur."
+    },
+    "25": {
+        "sentence": "The statement didn't make sense.",
+        "word": "statement",
+        "meaning1": "functional line of computer programming code",
+        "meaning2": "act of making a declaration, assertion",
+        "focus_meaning": "functional line of computer programming code",
+        "precontexts": [
+            "He looked at the screen and frowned. Something was not right.",
+            "He was staring at the screen. The document had lots of notes. He was trying to understand them.",
+            "He sat at his desk staring at the screen. "
+        ],
+        "endings": [
+            "He decided to ask his colleague for help. They both stared at the project, puzzled. Maybe they had missed a detail.",
+            "He decided to ask for help from a friend.",
+            "He sighed and tried reading it again. Was it a typo or did he misunderstand something? He decided to ask his colleague for a second opinion."
+        ],
+        "pos": "n",
+        "grouping": 10,
+        "example1": "How do you construct an 'if' statement in Perl?",
+        "example2": "The guests filed into the dining room after the butler's statement that dinner was now served."
+    },
+    "26": {
+        "sentence": "The statement didn't make sense.",
+        "word": "statement",
+        "meaning1": "functional line of computer programming code",
+        "meaning2": "act of making a declaration, assertion",
+        "focus_meaning": "act of making a declaration, assertion",
+        "precontexts": [
+            "He looked at the screen and frowned. Something was not right.",
+            "He was staring at the screen. The document had lots of notes. He was trying to understand them.",
+            "He sat at his desk staring at the screen. "
+        ],
+        "endings": [
+            "He decided to ask his colleague for help. They both stared at the project, puzzled. Maybe they had missed a detail.",
+            "He decided to ask for help from a friend.",
+            "He sighed and tried reading it again. Was it a typo or did he misunderstand something? He decided to ask his colleague for a second opinion."
+        ],
+        "pos": "n",
+        "grouping": 11,
+        "example1": "How do you construct an 'if' statement in Perl?",
+        "example2": "The guests filed into the dining room after the butler's statement that dinner was now served."
+    },
+    "27": {
+        "sentence": "The body was damaged.",
+        "word": "body",
+        "meaning1": "any intact living organism",
+        "meaning2": "the primary anatomical or structural component of something",
+        "focus_meaning": "any intact living organism",
+        "precontexts": [
+            "There was a loud noise in the middle of the night. A strange figure was found near the garage.",
+            "The storm had been relentless all night. By morning, the aftermath was clear. Trees were uprooted, and debris was everywhere.",
+            "They found something unusual in the field."
+        ],
+        "endings": [
+            "It would take days to repair everything. No one was sure where to start.",
+            "In the morning, they called for help. The experts arrived and started assessing the situation. Everyone was curious about what really happened.",
+            "It needed urgent attention to prevent further harm. They gathered the necessary tools and supplies. The work had to be careful and precise."
+        ],
+        "pos": "n",
+        "grouping": 12,
+        "example1": "I need two able bodies to guard the front door.",
+        "example2": "That auto repair shop does good body work. (of a car)"
+    },
+    "28": {
+        "sentence": "The body was damaged.",
+        "word": "body",
+        "meaning1": "any intact living organism",
+        "meaning2": "the primary anatomical or structural component of something",
+        "focus_meaning": "the primary anatomical or structural component of something",
+        "precontexts": [
+            "There was a loud noise in the middle of the night. A strange figure was found near the garage.",
+            "The storm had been relentless all night. By morning, the aftermath was clear. Trees were uprooted, and debris was everywhere.",
+            "They found something unusual in the field."
+        ],
+        "endings": [
+            "It would take days to repair everything. No one was sure where to start.",
+            "In the morning, they called for help. The experts arrived and started assessing the situation. Everyone was curious about what really happened.",
+            "It needed urgent attention to prevent further harm. They gathered the necessary tools and supplies. The work had to be careful and precise."
+        ],
+        "pos": "n",
+        "grouping": 13,
+        "example1": "I need two able bodies to guard the front door.",
+        "example2": "That auto repair shop does good body work. (of a car)"
+    },
+    "29": {
+        "sentence": "The programme had taken the team a long time to complete.",
+        "word": "programme",
+        "meaning1": "(computer science) a sequence of instructions that a computer can interpret and execute.",
+        "meaning2": "The physical brochure describing the details of a presentation or sporting event.",
+        "focus_meaning": "(computer science) a sequence of instructions that a computer can interpret and execute.",
+        "precontexts": [
+            "The team worked hard day and night. They faced many challenges along the way. Finally, they saw some progress.",
+            "The team was exhausted from their long project. They knew this would be a challenging job from the start.",
+            "The team gathered in the meeting room early in the morning."
+        ],
+        "endings": [
+            "Everyone was relieved when it was done. They celebrated their success together.",
+            "Finally, they gathered to see the final result. Everyone was hopeful it would run smoothly. Celebration lingered in the air as they awaited feedback.",
+            "They were relieved it was finally finished. Now, they had to check everything for any errors. Everyone hoped their efforts would be worth it."
+        ],
+        "pos": "n",
+        "grouping": 14,
+        "example1": "The programme required several hundred lines of code.",
+        "example2": "The programme this year was small and flimsy."
+    },
+    "30": {
+        "sentence": "The programme had taken the team a long time to complete.",
+        "word": "programme",
+        "meaning1": "(computer science) a sequence of instructions that a computer can interpret and execute.",
+        "meaning2": "The physical brochure describing the details of a presentation or sporting event.",
+        "focus_meaning": "The physical brochure describing the details of a presentation or sporting event.",
+        "precontexts": [
+            "The team worked hard day and night. They faced many challenges along the way. Finally, they saw some progress.",
+            "The team was exhausted from their long project. They knew this would be a challenging job from the start.",
+            "The team gathered in the meeting room early in the morning."
+        ],
+        "endings": [
+            "Everyone was relieved when it was done. They celebrated their success together.",
+            "Finally, they gathered to see the final result. Everyone was hopeful it would run smoothly. Celebration lingered in the air as they awaited feedback.",
+            "They were relieved it was finally finished. Now, they had to check everything for any errors. Everyone hoped their efforts would be worth it."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The programme required several hundred lines of code.",
+        "example2": "The programme this year was small and flimsy."
+    },
+    "31": {
+        "sentence": "He started to race.",
+        "word": "race",
+        "meaning1": "(cause to) compete in or as if in a race or competition.",
+        "meaning2": "move or function at top speed; rush (to accomplish a goal).",
+        "focus_meaning": "(cause to) compete in or as if in a race or competition.",
+        "precontexts": [
+            "The sun dipped below the horizon, casting long shadows. The air was crisp and filled with anticipation. He took a deep breath, feeling the tension.",
+            "The morning sun peeked through the curtains. He glanced at the clock and realized he was late again.",
+            "The sun rose brightly over the hills."
+        ],
+        "endings": [
+            "The sound of his pounding footsteps echoed in the hallway. Reaching the corner, he quickly slipped on his jacket. Finally, he burst through the door with determination.",
+            "His heart pounded. People cheered in the background.",
+            "His heart was pounding with excitement. Every moment felt urgent and important. He had never experienced such a rush before."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "Let's race and see who gets there first!",
+        "example2": "Please stop racing around--the house looks fine."
+    },
+    "32": {
+        "sentence": "He started to race.",
+        "word": "race",
+        "meaning1": "(cause to) compete in or as if in a race or competition.",
+        "meaning2": "move or function at top speed; rush (to accomplish a goal).",
+        "focus_meaning": "move or function at top speed; rush (to accomplish a goal).",
+        "precontexts": [
+            "The sun dipped below the horizon, casting long shadows. The air was crisp and filled with anticipation. He took a deep breath, feeling the tension.",
+            "The morning sun peeked through the curtains. He glanced at the clock and realized he was late again.",
+            "The sun rose brightly over the hills."
+        ],
+        "endings": [
+            "The sound of his pounding footsteps echoed in the hallway. Reaching the corner, he quickly slipped on his jacket. Finally, he burst through the door with determination.",
+            "His heart pounded. People cheered in the background.",
+            "His heart was pounding with excitement. Every moment felt urgent and important. He had never experienced such a rush before."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "Let's race and see who gets there first!",
+        "example2": "Please stop racing around--the house looks fine."
+    },
+    "33": {
+        "sentence": "The man held up his score.",
+        "word": "score",
+        "meaning1": "a written form, document, of a musical composition",
+        "meaning2": "the tallied points of a game, at a given time",
+        "focus_meaning": "a written form, document, of a musical composition",
+        "precontexts": [
+            "Everyone had gathered in the hall.",
+            "The man was excited to share news with his friends. They gathered around, curious and eager.",
+            "A man entered the small room. A woman was waiting with anticipation. They had prepared for this moment."
+        ],
+        "endings": [
+            "People clapped and cheered. He smiled with satisfaction. The day turned out to be memorable for him.",
+            "There was a mix of applause and confusion. Some tried to understand what they saw. Others waited for an explanation.",
+            "The woman nodded approvingly. Everyone else seemed to hold their breath."
+        ],
+        "pos": "n",
+        "grouping": 3,
+        "example1": "The composer left a copy of his score at the publisher's office.",
+        "example2": "The score at the bottom of the sixth inning was tied 3-3."
+    },
+    "34": {
+        "sentence": "The man held up his score.",
+        "word": "score",
+        "meaning1": "a written form, document, of a musical composition",
+        "meaning2": "the tallied points of a game, at a given time",
+        "focus_meaning": "the tallied points of a game, at a given time",
+        "precontexts": [
+            "Everyone had gathered in the hall.",
+            "The man was excited to share news with his friends. They gathered around, curious and eager.",
+            "A man entered the small room. A woman was waiting with anticipation. They had prepared for this moment."
+        ],
+        "endings": [
+            "People clapped and cheered. He smiled with satisfaction. The day turned out to be memorable for him.",
+            "There was a mix of applause and confusion. Some tried to understand what they saw. Others waited for an explanation.",
+            "The woman nodded approvingly. Everyone else seemed to hold their breath."
+        ],
+        "pos": "n",
+        "grouping": 4,
+        "example1": "The composer left a copy of his score at the publisher's office.",
+        "example2": "The score at the bottom of the sixth inning was tied 3-3."
+    },
+    "35": {
+        "sentence": "The officer's job was to sort through the scores.",
+        "word": "score",
+        "meaning1": "lots of, or many of something",
+        "meaning2": "assigned quantitative value that is on a scale",
+        "focus_meaning": "lots of, or many of something",
+        "precontexts": [
+            "It was a busy morning at the precinct. Papers were stacked all around.",
+            "The officer entered the room with a serious look.",
+            "The officer entered the old storage room. Papers were scattered everywhere. It was overwhelming."
+        ],
+        "endings": [
+            "Coffee cups lined the desks. Phones rang constantly, adding to the chaos.",
+            "Finally, he found what he was looking for. It took a lot of time, but it was worth it.",
+            "He spent hours at the desk, checking each sheet carefully. It was tiring, but he knew it was important. Eventually, he gathered enough information to make a report."
+        ],
+        "pos": "n",
+        "grouping": 5,
+        "example1": "He sent scores of resumes out to companies all around the country.",
+        "example2": "The colleges were impressed by Sally's high scores on the SAT."
+    },
+    "36": {
+        "sentence": "The officer's job was to sort through the scores.",
+        "word": "score",
+        "meaning1": "lots of, or many of something",
+        "meaning2": "assigned quantitative value that is on a scale",
+        "focus_meaning": "assigned quantitative value that is on a scale",
+        "precontexts": [
+            "It was a busy morning at the precinct. Papers were stacked all around.",
+            "The officer entered the room with a serious look.",
+            "The officer entered the old storage room. Papers were scattered everywhere. It was overwhelming."
+        ],
+        "endings": [
+            "Coffee cups lined the desks. Phones rang constantly, adding to the chaos.",
+            "Finally, he found what he was looking for. It took a lot of time, but it was worth it.",
+            "He spent hours at the desk, checking each sheet carefully. It was tiring, but he knew it was important. Eventually, he gathered enough information to make a report."
+        ],
+        "pos": "n",
+        "grouping": 6,
+        "example1": "He sent scores of resumes out to companies all around the country.",
+        "example2": "The colleges were impressed by Sally's high scores on the SAT."
+    },
+    "37": {
+        "sentence": "The monitor fell over.",
+        "word": "monitor",
+        "meaning1": "a student in a supervisory role",
+        "meaning2": "an instrument that tracks some process",
+        "focus_meaning": "a student in a supervisory role",
+        "precontexts": [
+            "It was a busy day at school. The classroom was noisy with chatter. Someone bumped into the table.",
+            "It was a busy day at school.",
+            "In the afternoon, they gathered in the classroom. Everyone was busy with their tasks."
+        ],
+        "endings": [
+            "Kids rushed to help, and someone went to get the teacher. In the corner, a device showed some strange numbers. Everyone wondered what would happen next.",
+            "There was a brief moment of chaos. Someone quickly rushed to set things right. They all resumed their work without further incident.",
+            "Everyone in the room turned to look. There was a moment of silence."
+        ],
+        "pos": "n",
+        "grouping": 7,
+        "example1": "The teacher has appointed three hall monitors.",
+        "example2": "The heart monitor indicated the patient was having some difficulty."
+    },
+    "38": {
+        "sentence": "The monitor fell over.",
+        "word": "monitor",
+        "meaning1": "a student in a supervisory role",
+        "meaning2": "an instrument that tracks some process",
+        "focus_meaning": "an instrument that tracks some process",
+        "precontexts": [
+            "It was a busy day at school. The classroom was noisy with chatter. Someone bumped into the table.",
+            "It was a busy day at school.",
+            "In the afternoon, they gathered in the classroom. Everyone was busy with their tasks."
+        ],
+        "endings": [
+            "Kids rushed to help, and someone went to get the teacher. In the corner, a device showed some strange numbers. Everyone wondered what would happen next.",
+            "There was a brief moment of chaos. Someone quickly rushed to set things right. They all resumed their work without further incident.",
+            "Everyone in the room turned to look. There was a moment of silence."
+        ],
+        "pos": "n",
+        "grouping": 8,
+        "example1": "The teacher has appointed three hall monitors.",
+        "example2": "The heart monitor indicated the patient was having some difficulty."
+    },
+    "39": {
+        "sentence": "He faced his opponent.",
+        "word": "face",
+        "meaning1": "oppose, fight",
+        "meaning2": "confront, deal",
+        "focus_meaning": "oppose, fight",
+        "precontexts": [
+            "He entered the small arena.",
+            "Under the bright gym lights, he took a deep breath. His coach gave him a final nod.",
+            "He entered the room with confidence. The room was silent and tense. Everyone watched closely."
+        ],
+        "endings": [
+            "The atmosphere was tense and no one spoke. They circled each other, waiting for a move. Slowly, a plan began to form in his mind.",
+            "The outcome would be significant. Only time would tell who would succeed.",
+            "The room was quiet, only the sound of breathing filled the air. In his mind, he ran through his strategy. Now was the time to give his best."
+        ],
+        "pos": "v",
+        "grouping": 9,
+        "example1": "David faced Goliath in battle.",
+        "example2": "He has finally faced the consequences of his drinking problem."
+    },
+    "40": {
+        "sentence": "He faced his opponent.",
+        "word": "face",
+        "meaning1": "oppose, fight",
+        "meaning2": "confront, deal",
+        "focus_meaning": "confront, deal",
+        "precontexts": [
+            "He entered the small arena.",
+            "Under the bright gym lights, he took a deep breath. His coach gave him a final nod.",
+            "He entered the room with confidence. The room was silent and tense. Everyone watched closely."
+        ],
+        "endings": [
+            "The atmosphere was tense and no one spoke. They circled each other, waiting for a move. Slowly, a plan began to form in his mind.",
+            "The outcome would be significant. Only time would tell who would succeed.",
+            "The room was quiet, only the sound of breathing filled the air. In his mind, he ran through his strategy. Now was the time to give his best."
+        ],
+        "pos": "v",
+        "grouping": 10,
+        "example1": "David faced Goliath in battle.",
+        "example2": "He has finally faced the consequences of his drinking problem."
+    },
+    "41": {
+        "sentence": "He was too far away to read the score.",
+        "word": "score",
+        "meaning1": "a written form, document, of a musical composition",
+        "meaning2": "the tallied points of a game, at a given time",
+        "focus_meaning": "a written form, document, of a musical composition",
+        "precontexts": [
+            "He arrived at the park on a sunny afternoon. The gathering was much bigger than he had expected.",
+            "He went to the concert with his friends. As they arrived, they realized they were seated at the very back. The game on the field was in full swing.",
+            "He arrived late to the event."
+        ],
+        "endings": [
+            "He squinted to try and make it out. Others around him were cheering loudly. Regardless, he decided to simply enjoy the atmosphere.",
+            "His friend lent him binoculars to help him see. They stayed until the end, enjoying nonetheless.",
+            "He hoped someone else would fill him in soon. A cheer erupted from the crowd behind him."
+        ],
+        "pos": "n",
+        "grouping": 11,
+        "example1": "The composer left a copy of his score at the publisher's office.",
+        "example2": "The score at the bottom of the sixth inning was tied 3-3."
+    },
+    "42": {
+        "sentence": "He was too far away to read the score.",
+        "word": "score",
+        "meaning1": "a written form, document, of a musical composition",
+        "meaning2": "the tallied points of a game, at a given time",
+        "focus_meaning": "the tallied points of a game, at a given time",
+        "precontexts": [
+            "He arrived at the park on a sunny afternoon. The gathering was much bigger than he had expected.",
+            "He went to the concert with his friends. As they arrived, they realized they were seated at the very back. The game on the field was in full swing.",
+            "He arrived late to the event."
+        ],
+        "endings": [
+            "He squinted to try and make it out. Others around him were cheering loudly. Regardless, he decided to simply enjoy the atmosphere.",
+            "His friend lent him binoculars to help him see. They stayed until the end, enjoying nonetheless.",
+            "He hoped someone else would fill him in soon. A cheer erupted from the crowd behind him."
+        ],
+        "pos": "n",
+        "grouping": 12,
+        "example1": "The composer left a copy of his score at the publisher's office.",
+        "example2": "The score at the bottom of the sixth inning was tied 3-3."
+    },
+    "43": {
+        "sentence": "At the country fayre, she had difficulty picking the best roses.",
+        "word": "pick",
+        "meaning1": "notice or perceive; learn without being taught",
+        "meaning2": "look for and gather/pluck",
+        "focus_meaning": "notice or perceive; learn without being taught",
+        "precontexts": [
+            "She walked into the garden early in the morning. The sun was shining brightly. The flowers glowed in the sunlight.",
+            "She loved going to fairs and seeing all the things on display.",
+            "She loved the smell of flowers. The market had so many kinds on display."
+        ],
+        "endings": [
+            "After a while, the vendor showed her some unique blooms. She took them home, feeling happy. The day felt well spent with a bouquet in hand.",
+            "The variety of colors left her puzzled. She asked a friend for advice. In the end, she left with a beautiful bouquet.",
+            "Her decision took longer than expected. Finally, she made her choice and smiled."
+        ],
+        "pos": "v",
+        "grouping": 13,
+        "example1": "In most cases people are able to pick up the signal within a day.",
+        "example2": "Shuksan and Rainier strawberries are picked fresh daily and are of commercial quality."
+    },
+    "44": {
+        "sentence": "At the country fayre, she had difficulty picking the best roses.",
+        "word": "pick",
+        "meaning1": "notice or perceive; learn without being taught",
+        "meaning2": "look for and gather/pluck",
+        "focus_meaning": "look for and gather/pluck",
+        "precontexts": [
+            "She walked into the garden early in the morning. The sun was shining brightly. The flowers glowed in the sunlight.",
+            "She loved going to fairs and seeing all the things on display.",
+            "She loved the smell of flowers. The market had so many kinds on display."
+        ],
+        "endings": [
+            "After a while, the vendor showed her some unique blooms. She took them home, feeling happy. The day felt well spent with a bouquet in hand.",
+            "The variety of colors left her puzzled. She asked a friend for advice. In the end, she left with a beautiful bouquet.",
+            "Her decision took longer than expected. Finally, she made her choice and smiled."
+        ],
+        "pos": "v",
+        "grouping": 14,
+        "example1": "In most cases people are able to pick up the signal within a day.",
+        "example2": "Shuksan and Rainier strawberries are picked fresh daily and are of commercial quality."
+    },
+    "45": {
+        "sentence": "The campaign continued for months and months...",
+        "word": "campaign",
+        "meaning1": "run for office/position",
+        "meaning2": "work toward a goal",
+        "focus_meaning": "run for office/position",
+        "precontexts": [
+            "A person stood nervously in front of a crowd. They had a lot at stake.",
+            "A group of friends had a big idea.",
+            "It all started with an unexpected decision. Everyone gathered to plan the next steps. Each day brought new challenges."
+        ],
+        "endings": [
+            "Finally, the results were announced. Everyone waited anxiously. The outcome surprised everyone.",
+            "No one knew if they would succeed. Spirits were high despite the challenges. Everyone was keen to see the outcome.",
+            "Finally, results began to show. Everyone hoped for the best outcome."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "Nikki Jach campaigned for treasurer and garnered 228 votes.",
+        "example2": "The Union is campaigning for presumptive legislation to support and"
+    },
+    "46": {
+        "sentence": "The campaign continued for months and months...",
+        "word": "campaign",
+        "meaning1": "run for office/position",
+        "meaning2": "work toward a goal",
+        "focus_meaning": "work toward a goal",
+        "precontexts": [
+            "A person stood nervously in front of a crowd. They had a lot at stake.",
+            "A group of friends had a big idea.",
+            "It all started with an unexpected decision. Everyone gathered to plan the next steps. Each day brought new challenges."
+        ],
+        "endings": [
+            "Finally, the results were announced. Everyone waited anxiously. The outcome surprised everyone.",
+            "No one knew if they would succeed. Spirits were high despite the challenges. Everyone was keen to see the outcome.",
+            "Finally, results began to show. Everyone hoped for the best outcome."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "Nikki Jach campaigned for treasurer and garnered 228 votes.",
+        "example2": "The Union is campaigning for presumptive legislation to support and"
+    },
+    "47": {
+        "sentence": "The final score was rather shocking to everyone who heard it.",
+        "word": "score",
+        "meaning1": "Gain points in a game or contest.",
+        "meaning2": "Make underscoring marks for a piece of music.",
+        "focus_meaning": "Gain points in a game or contest.",
+        "precontexts": [
+            "The music contest had just finished for the day. The judge walked to the center of the stage. Everyone was tense, waiting for the results.",
+            "Everyone was excited about the big event. ",
+            "The crowd gathered excitedly in the hall. Rumors of a big surprise circulated."
+        ],
+        "endings": [
+            "People started whispering among themselves. Some looked disappointed, while others seemed confused. No one knew what would happen next.",
+            "The crowd erupted in surprise, whispers filling the room. No one expected the outcome at all.",
+            "People whispered among themselves questioning what had happened. Some were thrilled while others seemed confused. It was a memorable evening for all."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "The home team scored many times.",
+        "example2": "John scored his magnum opus for slide whistle and kazoo choir."
+    },
+    "48": {
+        "sentence": "The final score was rather shocking to everyone who heard it.",
+        "word": "score",
+        "meaning1": "Gain points in a game or contest.",
+        "meaning2": "Make underscoring marks for a piece of music.",
+        "focus_meaning": "Make underscoring marks for a piece of music.",
+        "precontexts": [
+            "The music contest had just finished for the day. The judge walked to the center of the stage. Everyone was tense, waiting for the results.",
+            "Everyone was excited about the big event. ",
+            "The crowd gathered excitedly in the hall. Rumors of a big surprise circulated."
+        ],
+        "endings": [
+            "People started whispering among themselves. Some looked disappointed, while others seemed confused. No one knew what would happen next.",
+            "The crowd erupted in surprise, whispers filling the room. No one expected the outcome at all.",
+            "People whispered among themselves questioning what had happened. Some were thrilled while others seemed confused. It was a memorable evening for all."
+        ],
+        "pos": "v",
+        "grouping": 3,
+        "example1": "The home team scored many times.",
+        "example2": "John scored his magnum opus for slide whistle and kazoo choir."
+    },
+    "49": {
+        "sentence": "The official was clear about the reason for her decision.",
+        "word": "official",
+        "meaning1": "referee",
+        "meaning2": "office worker",
+        "focus_meaning": "referee",
+        "precontexts": [
+            "She walked into the room with confidence.",
+            "Two people met at a cafe. They discussed the recent game. One wanted to know about the last call.",
+            "It was a busy afternoon. Everyone waited for her to speak."
+        ],
+        "endings": [
+            "Some agreed right away. Others needed more time to think. At least now, the plan could move forward.",
+            "The crowd waited silently for what would come next. Some nodded in agreement. Others seemed puzzled by her choice.",
+            "With that explained, they moved on to talk about something else."
+        ],
+        "pos": "n",
+        "grouping": 4,
+        "example1": "The golfer asked for an official who could give him a ruling.",
+        "example2": "An official from the health department told Fido not to go into the restaurant."
+    },
+    "50": {
+        "sentence": "The official was clear about the reason for her decision.",
+        "word": "official",
+        "meaning1": "referee",
+        "meaning2": "office worker",
+        "focus_meaning": "office worker",
+        "precontexts": [
+            "She walked into the room with confidence.",
+            "Two people met at a cafe. They discussed the recent game. One wanted to know about the last call.",
+            "It was a busy afternoon. Everyone waited for her to speak."
+        ],
+        "endings": [
+            "Some agreed right away. Others needed more time to think. At least now, the plan could move forward.",
+            "The crowd waited silently for what would come next. Some nodded in agreement. Others seemed puzzled by her choice.",
+            "With that explained, they moved on to talk about something else."
+        ],
+        "pos": "n",
+        "grouping": 5,
+        "example1": "The golfer asked for an official who could give him a ruling.",
+        "example2": "An official from the health department told Fido not to go into the restaurant."
+    },
+    "51": {
+        "sentence": "He had to go out and pick some some flowers.",
+        "word": "pick",
+        "meaning1": "lightly pluck or hit at",
+        "meaning2": "look for and gather/pluck",
+        "focus_meaning": "lightly pluck or hit at",
+        "precontexts": [
+            "He woke up to an empty house. Everything seemed quieter than usual.",
+            "He was feeling restless at home. The afternoon was sunny and warm. He decided to take a walk to the garden.",
+            "It was his mom's birthday."
+        ],
+        "endings": [
+            "He wondered if she would like them. On the way, he saw kids playing in the park. They seemed happy together.",
+            "When he returned, he placed them on the table. Someone might appreciate them, he thought.",
+            "When he came back, he felt more relaxed. The flowers were placed in a vase on the table."
+        ],
+        "pos": "v",
+        "grouping": 6,
+        "example1": "After slow-cooking, you can easily pick the meat off the bone.",
+        "example2": "Shuksan and Rainier strawberries are picked fresh daily and are of commercial quality."
+    },
+    "52": {
+        "sentence": "He had to go out and pick some some flowers.",
+        "word": "pick",
+        "meaning1": "lightly pluck or hit at",
+        "meaning2": "look for and gather/pluck",
+        "focus_meaning": "look for and gather/pluck",
+        "precontexts": [
+            "He woke up to an empty house. Everything seemed quieter than usual.",
+            "He was feeling restless at home. The afternoon was sunny and warm. He decided to take a walk to the garden.",
+            "It was his mom's birthday."
+        ],
+        "endings": [
+            "He wondered if she would like them. On the way, he saw kids playing in the park. They seemed happy together.",
+            "When he returned, he placed them on the table. Someone might appreciate them, he thought.",
+            "When he came back, he felt more relaxed. The flowers were placed in a vase on the table."
+        ],
+        "pos": "v",
+        "grouping": 7,
+        "example1": "After slow-cooking, you can easily pick the meat off the bone.",
+        "example2": "Shuksan and Rainier strawberries are picked fresh daily and are of commercial quality."
+    },
+    "53": {
+        "sentence": "He entered the wrong words into his laptop causing an error.",
+        "word": "error",
+        "meaning1": "(computer science) the occurence of an incorrect result produced by a computer.",
+        "meaning2": "An instance or action of being incorrect.",
+        "focus_meaning": "(computer science) the occurence of an incorrect result produced by a computer.",
+        "precontexts": [
+            "He sat down at his desk with a cup of coffee.",
+            "He sat down with his laptop at the kitchen table. He was trying to finish his report before dinner.",
+            "He rushed through breakfast, eager to finish his assignment. His mind was elsewhere as he typed quickly. He didn't notice the warnings on the screen."
+        ],
+        "endings": [
+            "His sister asked if everything was okay. He sighed and decided to take a break. A cup of tea would help clear his mind.",
+            "Frustrated, he stared at the screen, wondering what went wrong. He sighed and started checking his work again.",
+            "Frustrated, he leaned back and sighed. The deadline was looming closer. He had to fix the problem before it was too late."
+        ],
+        "pos": "n",
+        "grouping": 8,
+        "example1": "The program demonstrated many errors.",
+        "example2": "He made a grave error."
+    },
+    "54": {
+        "sentence": "He entered the wrong words into his laptop causing an error.",
+        "word": "error",
+        "meaning1": "(computer science) the occurence of an incorrect result produced by a computer.",
+        "meaning2": "An instance or action of being incorrect.",
+        "focus_meaning": "An instance or action of being incorrect.",
+        "precontexts": [
+            "He sat down at his desk with a cup of coffee.",
+            "He sat down with his laptop at the kitchen table. He was trying to finish his report before dinner.",
+            "He rushed through breakfast, eager to finish his assignment. His mind was elsewhere as he typed quickly. He didn't notice the warnings on the screen."
+        ],
+        "endings": [
+            "His sister asked if everything was okay. He sighed and decided to take a break. A cup of tea would help clear his mind.",
+            "Frustrated, he stared at the screen, wondering what went wrong. He sighed and started checking his work again.",
+            "Frustrated, he leaned back and sighed. The deadline was looming closer. He had to fix the problem before it was too late."
+        ],
+        "pos": "n",
+        "grouping": 9,
+        "example1": "The program demonstrated many errors.",
+        "example2": "He made a grave error."
+    },
+    "55": {
+        "sentence": "The group fought a very brilliant campaign.",
+        "word": "campaign",
+        "meaning1": "a political race or contest for election",
+        "meaning2": "a series of military operations to attain an objective",
+        "focus_meaning": "a political race or contest for election",
+        "precontexts": [
+            "The meeting room was filled with anxious faces.",
+            "Everyone gathered early in the morning. They had a tough task ahead.",
+            "The city was buzzing with excitement. People gathered on the street corners, discussing plans. Leaders had been meeting for weeks."
+        ],
+        "endings": [
+            "Everyone was eager to see the results. The leader promised a celebration if they achieved their goal. While waiting for news, they quietly discussed the next steps.",
+            "Their efforts paid off when the announcement was made. Everyone cheered and celebrated the victory.",
+            "Afterwards, they celebrated with a feast. They shared stories of hard work and determination. The outcome was better than anyone had expected."
+        ],
+        "pos": "n",
+        "grouping": 10,
+        "example1": "Who will run against her in the senate campaign?",
+        "example2": "He was the commander of the air campaign in Iraq."
+    },
+    "56": {
+        "sentence": "The group fought a very brilliant campaign.",
+        "word": "campaign",
+        "meaning1": "a political race or contest for election",
+        "meaning2": "a series of military operations to attain an objective",
+        "focus_meaning": "a series of military operations to attain an objective",
+        "precontexts": [
+            "The meeting room was filled with anxious faces.",
+            "Everyone gathered early in the morning. They had a tough task ahead.",
+            "The city was buzzing with excitement. People gathered on the street corners, discussing plans. Leaders had been meeting for weeks."
+        ],
+        "endings": [
+            "Everyone was eager to see the results. The leader promised a celebration if they achieved their goal. While waiting for news, they quietly discussed the next steps.",
+            "Their efforts paid off when the announcement was made. Everyone cheered and celebrated the victory.",
+            "Afterwards, they celebrated with a feast. They shared stories of hard work and determination. The outcome was better than anyone had expected."
+        ],
+        "pos": "n",
+        "grouping": 11,
+        "example1": "Who will run against her in the senate campaign?",
+        "example2": "He was the commander of the air campaign in Iraq."
+    },
+    "57": {
+        "sentence": "We all worked together for this campaign resulting in victory.",
+        "word": "campaign",
+        "meaning1": "run for office/position",
+        "meaning2": "work toward a goal",
+        "focus_meaning": "run for office/position",
+        "precontexts": [
+            "We had been planning for weeks.",
+            "The team met every weekend for months. There was a lot to plan and execute.",
+            "They all met at the local diner. Goals were set and roles were assigned. There was a lot to be done."
+        ],
+        "endings": [
+            "After it was over, they celebrated with ice cream. Everyone felt proud of their hard work.",
+            "Everyone was thrilled with the outcome. We celebrated our hard work. It was a memorable day for all of us.",
+            "Everyone celebrated at the local caf\u00e9. There were smiles all around. It was a day to remember."
+        ],
+        "pos": "v",
+        "grouping": 12,
+        "example1": "Nikki Jach campaigned for treasurer and garnered 228 votes.",
+        "example2": "The Union is campaigning for presumptive legislation to support and"
+    },
+    "58": {
+        "sentence": "We all worked together for this campaign resulting in victory.",
+        "word": "campaign",
+        "meaning1": "run for office/position",
+        "meaning2": "work toward a goal",
+        "focus_meaning": "work toward a goal",
+        "precontexts": [
+            "We had been planning for weeks.",
+            "The team met every weekend for months. There was a lot to plan and execute.",
+            "They all met at the local diner. Goals were set and roles were assigned. There was a lot to be done."
+        ],
+        "endings": [
+            "After it was over, they celebrated with ice cream. Everyone felt proud of their hard work.",
+            "Everyone was thrilled with the outcome. We celebrated our hard work. It was a memorable day for all of us.",
+            "Everyone celebrated at the local caf\u00e9. There were smiles all around. It was a day to remember."
+        ],
+        "pos": "v",
+        "grouping": 13,
+        "example1": "Nikki Jach campaigned for treasurer and garnered 228 votes.",
+        "example2": "The Union is campaigning for presumptive legislation to support and"
+    },
+    "59": {
+        "sentence": "The team executed the game masterfully.",
+        "word": "game",
+        "meaning1": "System of rules defining the form of a contest",
+        "meaning2": "Physical game equipment",
+        "focus_meaning": "System of rules defining the form of a contest",
+        "precontexts": [
+            "The group gathered in the small room. They checked the plan one last time. Everyone was nervous but determined.",
+            "The tournament had begun, and everyone was excited.",
+            "It was the day of the big event. Everyone was nervous but ready."
+        ],
+        "endings": [
+            "Afterwards, they gathered to discuss what happened. There was a lot to celebrate. Plans were quickly made for next time.",
+            "Spectators cheered loudly as the day went on. By afternoon, scores were neck and neck. It was an intense competition until the very last round.",
+            "Afterwards, they celebrated with laughter and high-fives. It was a day they wouldn't forget."
+        ],
+        "pos": "n",
+        "grouping": 14,
+        "example1": "We need four people to play my favorite card game, Hearts.",
+        "example2": "My game of Monopoly is missing a few pieces."
+    },
+    "60": {
+        "sentence": "The team executed the game masterfully.",
+        "word": "game",
+        "meaning1": "System of rules defining the form of a contest",
+        "meaning2": "Physical game equipment",
+        "focus_meaning": "Physical game equipment",
+        "precontexts": [
+            "The group gathered in the small room. They checked the plan one last time. Everyone was nervous but determined.",
+            "The tournament had begun, and everyone was excited.",
+            "It was the day of the big event. Everyone was nervous but ready."
+        ],
+        "endings": [
+            "Afterwards, they gathered to discuss what happened. There was a lot to celebrate. Plans were quickly made for next time.",
+            "Spectators cheered loudly as the day went on. By afternoon, scores were neck and neck. It was an intense competition until the very last round.",
+            "Afterwards, they celebrated with laughter and high-fives. It was a day they wouldn't forget."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "We need four people to play my favorite card game, Hearts.",
+        "example2": "My game of Monopoly is missing a few pieces."
+    },
+    "61": {
+        "sentence": "There was a chip in my computer, it was damaged after I dropped it.",
+        "word": "chip",
+        "meaning1": "a tiny electronic device made of semiconducting material",
+        "meaning2": "a flaw or mark on something, a small missing bit of something",
+        "focus_meaning": "a tiny electronic device made of semiconducting material",
+        "precontexts": [
+            "I was cleaning my desk this morning. My computer slipped from my hands. I heard a worrying noise when it hit the floor.",
+            "I was cleaning up my room when it happened.",
+            "I was rushing out of my room when it slipped from my hand. It hit the floor with a loud smack."
+        ],
+        "endings": [
+            "I called a friend to help me. He took a look at it and nodded. We headed out to find a repair shop.",
+            "I tried to turn it on, but nothing happened. I called a friend for help. He suggested taking it to a repair shop.",
+            "Now, it doesn't turn on. I need to find a repair shop."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "The memory chip market has been going through a slump.",
+        "example2": "I never noticed this chip on the glass table before."
+    },
+    "62": {
+        "sentence": "There was a chip in my computer, it was damaged after I dropped it.",
+        "word": "chip",
+        "meaning1": "a tiny electronic device made of semiconducting material",
+        "meaning2": "a flaw or mark on something, a small missing bit of something",
+        "focus_meaning": "a flaw or mark on something, a small missing bit of something",
+        "precontexts": [
+            "I was cleaning my desk this morning. My computer slipped from my hands. I heard a worrying noise when it hit the floor.",
+            "I was cleaning up my room when it happened.",
+            "I was rushing out of my room when it slipped from my hand. It hit the floor with a loud smack."
+        ],
+        "endings": [
+            "I called a friend to help me. He took a look at it and nodded. We headed out to find a repair shop.",
+            "I tried to turn it on, but nothing happened. I called a friend for help. He suggested taking it to a repair shop.",
+            "Now, it doesn't turn on. I need to find a repair shop."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The memory chip market has been going through a slump.",
+        "example2": "I never noticed this chip on the glass table before."
+    },
+    "63": {
+        "sentence": "Sometimes, when he gets mad, the guitar player plunks his guitar heavily.",
+        "word": "plunk",
+        "meaning1": "Pull lightly but sharply.",
+        "meaning2": "Drop steeply (perhaps metaphorically).",
+        "focus_meaning": "Pull lightly but sharply.",
+        "precontexts": [
+            "The band practiced in a small garage. ",
+            "The band gathered for their weekly practice. Everyone was in a cheerful mood. Suddenly, a heated argument broke out.",
+            "The band struggled with their new song during practice. The singer kept missing her cue."
+        ],
+        "endings": [
+            "The rest of the band just watched silently. After a few deep breaths, he seemed calmer. They continued playing, trying to get the chords right.",
+            "The room falls silent as they all glance at each other awkwardly. Practice ends earlier that day.",
+            "The drummer tapped his sticks, looking around. Silence fell for a moment. Then, they started again from the top."
+        ],
+        "pos": "v",
+        "grouping": 3,
+        "example1": "He plunked the strings of his mandolin.",
+        "example2": "The hawk plunked out of the sky."
+    },
+    "64": {
+        "sentence": "Sometimes, when he gets mad, the guitar player plunks his guitar heavily.",
+        "word": "plunk",
+        "meaning1": "Pull lightly but sharply.",
+        "meaning2": "Drop steeply (perhaps metaphorically).",
+        "focus_meaning": "Drop steeply (perhaps metaphorically).",
+        "precontexts": [
+            "The band practiced in a small garage. ",
+            "The band gathered for their weekly practice. Everyone was in a cheerful mood. Suddenly, a heated argument broke out.",
+            "The band struggled with their new song during practice. The singer kept missing her cue."
+        ],
+        "endings": [
+            "The rest of the band just watched silently. After a few deep breaths, he seemed calmer. They continued playing, trying to get the chords right.",
+            "The room falls silent as they all glance at each other awkwardly. Practice ends earlier that day.",
+            "The drummer tapped his sticks, looking around. Silence fell for a moment. Then, they started again from the top."
+        ],
+        "pos": "v",
+        "grouping": 4,
+        "example1": "He plunked the strings of his mandolin.",
+        "example2": "The hawk plunked out of the sky."
+    },
+    "65": {
+        "sentence": "When the flower grew, it's style was very unique.",
+        "word": "style",
+        "meaning1": "a distinctive artistic form, as in painting, music",
+        "meaning2": "elongated portion of a plant pistil",
+        "focus_meaning": "a distinctive artistic form, as in painting, music",
+        "precontexts": [
+            "There was a garden everyone loved. In the middle of it stood a strange flower.",
+            "In the middle of the field, there was a small plant. Nobody paid attention to it at first. But soon, it caught people's eyes.",
+            "A young artist planted a flower in his backyard."
+        ],
+        "endings": [
+            "It became the talk of the town for days. Everyone loved how different it was.",
+            "People came to admire it every day. It became the garden's main attraction. Everyone wondered what made it so special.",
+            "He often sat by it, finding inspiration for his paintings. His friend loved discussing the beauty of nature with him. They both wondered what more the garden would bring."
+        ],
+        "pos": "n",
+        "grouping": 5,
+        "example1": "She didn't care for the flowery literary style of 18th-century prose.",
+        "example2": "The style of the flower is located between the ovary and the stigma of the pistil."
+    },
+    "66": {
+        "sentence": "When the flower grew, it's style was very unique.",
+        "word": "style",
+        "meaning1": "a distinctive artistic form, as in painting, music",
+        "meaning2": "elongated portion of a plant pistil",
+        "focus_meaning": "elongated portion of a plant pistil",
+        "precontexts": [
+            "There was a garden everyone loved. In the middle of it stood a strange flower.",
+            "In the middle of the field, there was a small plant. Nobody paid attention to it at first. But soon, it caught people's eyes.",
+            "A young artist planted a flower in his backyard."
+        ],
+        "endings": [
+            "It became the talk of the town for days. Everyone loved how different it was.",
+            "People came to admire it every day. It became the garden's main attraction. Everyone wondered what made it so special.",
+            "He often sat by it, finding inspiration for his paintings. His friend loved discussing the beauty of nature with him. They both wondered what more the garden would bring."
+        ],
+        "pos": "n",
+        "grouping": 6,
+        "example1": "She didn't care for the flowery literary style of 18th-century prose.",
+        "example2": "The style of the flower is located between the ovary and the stigma of the pistil."
+    },
+    "67": {
+        "sentence": "Sometimes at work, I have to provide an idea for pitch.",
+        "word": "idea",
+        "meaning1": "an artistic theme or motif",
+        "meaning2": "an estimate or calculation",
+        "focus_meaning": "an artistic theme or motif",
+        "precontexts": [
+            "At the company, we often have meetings. The team looks to me when there's pressure.",
+            "The boss called us into the meeting room.",
+            "Every Monday morning starts with a team meeting. Our boss always asks for new thoughts. He wants something fresh or innovative."
+        ],
+        "endings": [
+            "It can be challenging, but it keeps us sharp. Last week, we planned for the upcoming project next together.",
+            "Everyone was anxious about it. We discussed options and laid out the plans. By the end, we had something solid to work on.",
+            "It can be quite challenging. But when it works, it's rewarding. Everyone feels accomplished."
+        ],
+        "pos": "n",
+        "grouping": 7,
+        "example1": "Beethoven develops this musical idea throughout the first movement.",
+        "example2": "The guide has an excellent idea of how long the tour will last."
+    },
+    "68": {
+        "sentence": "Sometimes at work, I have to provide an idea for pitch.",
+        "word": "idea",
+        "meaning1": "an artistic theme or motif",
+        "meaning2": "an estimate or calculation",
+        "focus_meaning": "an estimate or calculation",
+        "precontexts": [
+            "At the company, we often have meetings. The team looks to me when there's pressure.",
+            "The boss called us into the meeting room.",
+            "Every Monday morning starts with a team meeting. Our boss always asks for new thoughts. He wants something fresh or innovative."
+        ],
+        "endings": [
+            "It can be challenging, but it keeps us sharp. Last week, we planned for the upcoming project next together.",
+            "Everyone was anxious about it. We discussed options and laid out the plans. By the end, we had something solid to work on.",
+            "It can be quite challenging. But when it works, it's rewarding. Everyone feels accomplished."
+        ],
+        "pos": "n",
+        "grouping": 8,
+        "example1": "Beethoven develops this musical idea throughout the first movement.",
+        "example2": "The guide has an excellent idea of how long the tour will last."
+    },
+    "69": {
+        "sentence": "When I workout, I feel the weight to my core.",
+        "word": "weight",
+        "meaning1": "sports equipment used in lifting exercises",
+        "meaning2": "oppressive or worrisome emotional state",
+        "focus_meaning": "sports equipment used in lifting exercises",
+        "precontexts": [
+            "Each morning, I set out for the gym. The routine never feels easy.",
+            "Every morning is the same. I lace up my shoes and head to the gym. My mind is crowded with thoughts.",
+            "Each morning, I lace up my shoes."
+        ],
+        "endings": [
+            "Afterward, I always feel a bit lighter. It's the best part of my day.",
+            "Afterward, I shower and get ready for the day. I think about things I must do while eating breakfast. Then I head out, feeling lighter but focused.",
+            "But afterward, there's a sense of relief. I know I'm getting stronger. It's slowly becoming something I look forward to."
+        ],
+        "pos": "n",
+        "grouping": 9,
+        "example1": "This gym has all the newest weight machines.",
+        "example2": "Moving the deadline up by two weeks removed a big weight from our shoulders."
+    },
+    "70": {
+        "sentence": "When I workout, I feel the weight to my core.",
+        "word": "weight",
+        "meaning1": "sports equipment used in lifting exercises",
+        "meaning2": "oppressive or worrisome emotional state",
+        "focus_meaning": "oppressive or worrisome emotional state",
+        "precontexts": [
+            "Each morning, I set out for the gym. The routine never feels easy.",
+            "Every morning is the same. I lace up my shoes and head to the gym. My mind is crowded with thoughts.",
+            "Each morning, I lace up my shoes."
+        ],
+        "endings": [
+            "Afterward, I always feel a bit lighter. It's the best part of my day.",
+            "Afterward, I shower and get ready for the day. I think about things I must do while eating breakfast. Then I head out, feeling lighter but focused.",
+            "But afterward, there's a sense of relief. I know I'm getting stronger. It's slowly becoming something I look forward to."
+        ],
+        "pos": "n",
+        "grouping": 10,
+        "example1": "This gym has all the newest weight machines.",
+        "example2": "Moving the deadline up by two weeks removed a big weight from our shoulders."
+    },
+    "71": {
+        "sentence": "When he arranged the blocks it made a completely new composition.",
+        "word": "block",
+        "meaning1": "flat solid areas of color",
+        "meaning2": "a solid 3D object with rectangular sides",
+        "focus_meaning": "flat solid areas of color",
+        "precontexts": [
+            "He entered the room and looked around.",
+            "He stood in the room looking at all the pieces. Piles were scattered across the floor. He began his work quietly.",
+            "He stared at the pieces in front of him. There was a bit of a mess everywhere."
+        ],
+        "endings": [
+            "Satisfied, he stepped back to admire his work. She came in and nodded with approval. They decided to keep it that way for a while.",
+            "Pleased, he stepped back to admire his work. The project was finally complete.",
+            "He stepped back and admired his work. It was exactly what he hoped for."
+        ],
+        "pos": "n",
+        "grouping": 11,
+        "example1": "The abstract painting was a series of overlapping blocks of bright colors.",
+        "example2": "The child played with building blocks."
+    },
+    "72": {
+        "sentence": "When he arranged the blocks it made a completely new composition.",
+        "word": "block",
+        "meaning1": "flat solid areas of color",
+        "meaning2": "a solid 3D object with rectangular sides",
+        "focus_meaning": "a solid 3D object with rectangular sides",
+        "precontexts": [
+            "He entered the room and looked around.",
+            "He stood in the room looking at all the pieces. Piles were scattered across the floor. He began his work quietly.",
+            "He stared at the pieces in front of him. There was a bit of a mess everywhere."
+        ],
+        "endings": [
+            "Satisfied, he stepped back to admire his work. She came in and nodded with approval. They decided to keep it that way for a while.",
+            "Pleased, he stepped back to admire his work. The project was finally complete.",
+            "He stepped back and admired his work. It was exactly what he hoped for."
+        ],
+        "pos": "n",
+        "grouping": 12,
+        "example1": "The abstract painting was a series of overlapping blocks of bright colors.",
+        "example2": "The child played with building blocks."
+    },
+    "73": {
+        "sentence": "The image stayed with him for a long time after he first saw it.",
+        "word": "image",
+        "meaning1": "a reproduction or physical representation of something",
+        "meaning2": "a mental impression, or representation, mental vision",
+        "focus_meaning": "a reproduction or physical representation of something",
+        "precontexts": [
+            "He walked through the gallery, surrounded by strange paintings. One piece particularly caught his eye. It reminded him of a dream he once had.",
+            "He walked into the museum, curious and excited.",
+            "He walked past the old bookstore every day on his way to work. One afternoon, something in the window caught his eye."
+        ],
+        "endings": [
+            "Every time he closed his eyes, it came back to him. He tried to sketch it, but never quite captured it right. Eventually, he decided to paint what he felt instead of what he saw.",
+            "Even later, he found himself sketching its outline. He wondered why it left such a mark on him.",
+            "He often found himself thinking about it while drinking his morning coffee. It was strange how it pulled him back. Eventually, he returned to see it again."
+        ],
+        "pos": "n",
+        "grouping": 13,
+        "example1": "These images of Mars were taken with a 12-inch reflector telescope.",
+        "example2": "John could not push the image of the burning towers out of his mind."
+    },
+    "74": {
+        "sentence": "The image stayed with him for a long time after he first saw it.",
+        "word": "image",
+        "meaning1": "a reproduction or physical representation of something",
+        "meaning2": "a mental impression, or representation, mental vision",
+        "focus_meaning": "a mental impression, or representation, mental vision",
+        "precontexts": [
+            "He walked through the gallery, surrounded by strange paintings. One piece particularly caught his eye. It reminded him of a dream he once had.",
+            "He walked into the museum, curious and excited.",
+            "He walked past the old bookstore every day on his way to work. One afternoon, something in the window caught his eye."
+        ],
+        "endings": [
+            "Every time he closed his eyes, it came back to him. He tried to sketch it, but never quite captured it right. Eventually, he decided to paint what he felt instead of what he saw.",
+            "Even later, he found himself sketching its outline. He wondered why it left such a mark on him.",
+            "He often found himself thinking about it while drinking his morning coffee. It was strange how it pulled him back. Eventually, he returned to see it again."
+        ],
+        "pos": "n",
+        "grouping": 14,
+        "example1": "These images of Mars were taken with a 12-inch reflector telescope.",
+        "example2": "John could not push the image of the burning towers out of his mind."
+    },
+    "75": {
+        "sentence": "He could never put his ideas together in a way that felt satisfying.",
+        "word": "put",
+        "meaning1": "place or set, physically (or abstractly)",
+        "meaning2": "to formulate, express, or present something",
+        "focus_meaning": "place or set, physically (or abstractly)",
+        "precontexts": [
+            "He spent hours in his small workshop every day.",
+            "He had been working on the project all morning. Papers were scattered all over the desk.",
+            "He sat at his desk every morning with great determination. Papers were scattered around, full of scribbles and sketches. His mind buzzed with possibilities."
+        ],
+        "endings": [
+            "His tools lay scattered around, untouched. Frustration clouded his thoughts. Still, he hoped tomorrow would be different.",
+            "His friend suggested taking a break. They decided to take a walk outside. The fresh air seemed to help clear his mind.",
+            "Still, he hoped tomorrow would bring clarity. He tidied up the room before calling it a day."
+        ],
+        "pos": "v",
+        "grouping": 0,
+        "example1": "She is putting the tray of food on the table.",
+        "example2": "I would put that differently."
+    },
+    "76": {
+        "sentence": "He could never put his ideas together in a way that felt satisfying.",
+        "word": "put",
+        "meaning1": "place or set, physically (or abstractly)",
+        "meaning2": "to formulate, express, or present something",
+        "focus_meaning": "to formulate, express, or present something",
+        "precontexts": [
+            "He spent hours in his small workshop every day.",
+            "He had been working on the project all morning. Papers were scattered all over the desk.",
+            "He sat at his desk every morning with great determination. Papers were scattered around, full of scribbles and sketches. His mind buzzed with possibilities."
+        ],
+        "endings": [
+            "His tools lay scattered around, untouched. Frustration clouded his thoughts. Still, he hoped tomorrow would be different.",
+            "His friend suggested taking a break. They decided to take a walk outside. The fresh air seemed to help clear his mind.",
+            "Still, he hoped tomorrow would bring clarity. He tidied up the room before calling it a day."
+        ],
+        "pos": "v",
+        "grouping": 1,
+        "example1": "She is putting the tray of food on the table.",
+        "example2": "I would put that differently."
+    },
+    "77": {
+        "sentence": "They are still trying to decide how these issues relate to his family members.",
+        "word": "relate",
+        "meaning1": "consciously associate, make a logical or casual connection",
+        "meaning2": "establish relationship of understanding with",
+        "focus_meaning": "consciously associate, make a logical or casual connection",
+        "precontexts": [
+            "The meeting started early in the morning.",
+            "He found an old letter hidden in a dusty drawer. The letter was full of confusing details.",
+            "He sat quietly in the living room. Papers were scattered on the coffee table. They were full of notes and scribbles."
+        ],
+        "endings": [
+            "This confusion has delayed the final decision. They have scheduled another meeting for tomorrow. Everyone hopes things become clearer then.",
+            "Some family secrets were buried in the past. Everyone hoped for answers soon.",
+            "He gazed out the window, lost in thought. A decision seemed far away."
+        ],
+        "pos": "v",
+        "grouping": 2,
+        "example1": "Researchers are trying to relate low test results to large class size.",
+        "example2": "She relates well to her peers."
+    },
+    "78": {
+        "sentence": "They are still trying to decide how these issues relate to his family members.",
+        "word": "relate",
+        "meaning1": "consciously associate, make a logical or casual connection",
+        "meaning2": "establish relationship of understanding with",
+        "focus_meaning": "establish relationship of understanding with",
+        "precontexts": [
+            "The meeting started early in the morning.",
+            "He found an old letter hidden in a dusty drawer. The letter was full of confusing details.",
+            "He sat quietly in the living room. Papers were scattered on the coffee table. They were full of notes and scribbles."
+        ],
+        "endings": [
+            "This confusion has delayed the final decision. They have scheduled another meeting for tomorrow. Everyone hopes things become clearer then.",
+            "Some family secrets were buried in the past. Everyone hoped for answers soon.",
+            "He gazed out the window, lost in thought. A decision seemed far away."
+        ],
+        "pos": "v",
+        "grouping": 3,
+        "example1": "Researchers are trying to relate low test results to large class size.",
+        "example2": "She relates well to her peers."
+    },
+    "79": {
+        "sentence": "Their children grabbed their instruments and played with each other all afternoon.",
+        "word": "play",
+        "meaning1": "perform or transmit music",
+        "meaning2": "engage in a fun or recreational (childlike) activity",
+        "focus_meaning": "perform or transmit music",
+        "precontexts": [
+            "On a sunny Saturday, the family sat in the backyard. The parents relaxed under the shade of a big tree.",
+            "It was a sunny weekend and everyone was in high spirits.",
+            "The adults gathered in the garden, enjoying the sunny weather. They set up a table with snacks and drinks. The children were soon curious about the noise coming from the garage."
+        ],
+        "endings": [
+            "The parents relaxed on the porch, listening to the sounds. Laughter and sounds filled the air as time passed by. By evening, they all gathered for a simple meal together.",
+            "The adults smiled as they watched, feeling grateful for the peaceful day. As the sun set, they called the children in for dinner.",
+            "The house was filled with laughter and noise. By evening, everyone was tired but happy. The parents called them inside for dinner."
+        ],
+        "pos": "v",
+        "grouping": 4,
+        "example1": "The band played all night long.",
+        "example2": "The children are playing across the street."
+    },
+    "80": {
+        "sentence": "Their children grabbed their instruments and played with each other all afternoon.",
+        "word": "play",
+        "meaning1": "perform or transmit music",
+        "meaning2": "engage in a fun or recreational (childlike) activity",
+        "focus_meaning": "engage in a fun or recreational (childlike) activity",
+        "precontexts": [
+            "On a sunny Saturday, the family sat in the backyard. The parents relaxed under the shade of a big tree.",
+            "It was a sunny weekend and everyone was in high spirits.",
+            "The adults gathered in the garden, enjoying the sunny weather. They set up a table with snacks and drinks. The children were soon curious about the noise coming from the garage."
+        ],
+        "endings": [
+            "The parents relaxed on the porch, listening to the sounds. Laughter and sounds filled the air as time passed by. By evening, they all gathered for a simple meal together.",
+            "The adults smiled as they watched, feeling grateful for the peaceful day. As the sun set, they called the children in for dinner.",
+            "The house was filled with laughter and noise. By evening, everyone was tired but happy. The parents called them inside for dinner."
+        ],
+        "pos": "v",
+        "grouping": 5,
+        "example1": "The band played all night long.",
+        "example2": "The children are playing across the street."
+    },
+    "81": {
+        "sentence": "The end result was it's basic function as a utility was rendered useless.",
+        "word": "utility",
+        "meaning1": "a computer program that performs system support",
+        "meaning2": "a company that provides public service commodities",
+        "focus_meaning": "a computer program that performs system support",
+        "precontexts": [
+            "He woke up early and turned on his computer. But something felt off. He decided to check the system.",
+            "Yesterday, they installed a new system to improve performance.",
+            "He was thrilled when he first got it. Everything seemed to work perfectly."
+        ],
+        "endings": [
+            "Everyone was frustrated with the lack of progress. The system was supposed to simplify tasks. Now, they had to find a better solution.",
+            "He tried fixing it several times. Eventually, he gave up and left it to gather dust. Disappointingly, life went on without it.",
+            "Frustrated, he called the help desk. He hoped they could fix it soon."
+        ],
+        "pos": "n",
+        "grouping": 6,
+        "example1": "You should familiarize yourself with the basic Unix utilities.",
+        "example2": "They have deregulated many of the public utilities. (companies have fewer rules to follow)"
+    },
+    "82": {
+        "sentence": "The end result was it's basic function as a utility was rendered useless.",
+        "word": "utility",
+        "meaning1": "a computer program that performs system support",
+        "meaning2": "a company that provides public service commodities",
+        "focus_meaning": "a company that provides public service commodities",
+        "precontexts": [
+            "He woke up early and turned on his computer. But something felt off. He decided to check the system.",
+            "Yesterday, they installed a new system to improve performance.",
+            "He was thrilled when he first got it. Everything seemed to work perfectly."
+        ],
+        "endings": [
+            "Everyone was frustrated with the lack of progress. The system was supposed to simplify tasks. Now, they had to find a better solution.",
+            "He tried fixing it several times. Eventually, he gave up and left it to gather dust. Disappointingly, life went on without it.",
+            "Frustrated, he called the help desk. He hoped they could fix it soon."
+        ],
+        "pos": "n",
+        "grouping": 7,
+        "example1": "You should familiarize yourself with the basic Unix utilities.",
+        "example2": "They have deregulated many of the public utilities. (companies have fewer rules to follow)"
+    },
+    "83": {
+        "sentence": "Ultimately nothing could touch the chandelier.",
+        "word": "touch",
+        "meaning1": "Achieve a value or quality",
+        "meaning2": "make physical contact with, possibly with the effect of physically manipulating.",
+        "focus_meaning": "Achieve a value or quality",
+        "precontexts": [
+            "The room was empty and dark. The old ceiling groaned with every gust of wind.",
+            "The living room was a disaster after the party. Someone had hung streamers everywhere. People attempted all night to hit the hanging pi\u00f1ata.",
+            "The family gathered in the large dining room for a celebration."
+        ],
+        "endings": [
+            "By morning, everyone realized it was still gleaming above. It was like it had been out of reach all along.",
+            "The kids tried throwing things toward it. The adults nervously watched. Finally, they gave up and moved on to dessert.",
+            "It hung there, cool and distant. We all watched, hopeful yet uncertain. Time passed, and we began to wonder if it would ever change."
+        ],
+        "pos": "v",
+        "grouping": 8,
+        "example1": "Nothing can touch cotton for durability.",
+        "example2": "He touched her once and she turned into a golden creature."
+    },
+    "84": {
+        "sentence": "Ultimately nothing could touch the chandelier.",
+        "word": "touch",
+        "meaning1": "Achieve a value or quality",
+        "meaning2": "make physical contact with, possibly with the effect of physically manipulating.",
+        "focus_meaning": "make physical contact with, possibly with the effect of physically manipulating.",
+        "precontexts": [
+            "The room was empty and dark. The old ceiling groaned with every gust of wind.",
+            "The living room was a disaster after the party. Someone had hung streamers everywhere. People attempted all night to hit the hanging pi\u00f1ata.",
+            "The family gathered in the large dining room for a celebration."
+        ],
+        "endings": [
+            "By morning, everyone realized it was still gleaming above. It was like it had been out of reach all along.",
+            "The kids tried throwing things toward it. The adults nervously watched. Finally, they gave up and moved on to dessert.",
+            "It hung there, cool and distant. We all watched, hopeful yet uncertain. Time passed, and we began to wonder if it would ever change."
+        ],
+        "pos": "v",
+        "grouping": 9,
+        "example1": "Nothing can touch cotton for durability.",
+        "example2": "He touched her once and she turned into a golden creature."
+    },
+    "85": {
+        "sentence": "He was the ultimate champion.",
+        "word": "champion",
+        "meaning1": "supporter, advocate of something or someone",
+        "meaning2": "title-holder, winner of a competition, a hotshot who excels",
+        "focus_meaning": "supporter, advocate of something or someone",
+        "precontexts": [
+            "He trained every morning at sunrise.",
+            "The town held a big event every year. He was always at the center of it all. People admired him for his dedication.",
+            "They gathered at the old park for the annual event. Everyone had been waiting for this moment all year."
+        ],
+        "endings": [
+            "Everyone felt inspired by his energy. He made the town proud.",
+            "Everyone in town knew his name. They admired his dedication. His legacy was celebrated far and wide.",
+            "Cheering filled the air as he walked onto the field. His friends stood by him, proud and smiling. The day was his to remember."
+        ],
+        "pos": "n",
+        "grouping": 10,
+        "example1": "He has always been a champion of women's rights.",
+        "example2": "He was the heavyweight champion of the world for five years."
+    },
+    "86": {
+        "sentence": "He was the ultimate champion.",
+        "word": "champion",
+        "meaning1": "supporter, advocate of something or someone",
+        "meaning2": "title-holder, winner of a competition, a hotshot who excels",
+        "focus_meaning": "title-holder, winner of a competition, a hotshot who excels",
+        "precontexts": [
+            "He trained every morning at sunrise.",
+            "The town held a big event every year. He was always at the center of it all. People admired him for his dedication.",
+            "They gathered at the old park for the annual event. Everyone had been waiting for this moment all year."
+        ],
+        "endings": [
+            "Everyone felt inspired by his energy. He made the town proud.",
+            "Everyone in town knew his name. They admired his dedication. His legacy was celebrated far and wide.",
+            "Cheering filled the air as he walked onto the field. His friends stood by him, proud and smiling. The day was his to remember."
+        ],
+        "pos": "n",
+        "grouping": 11,
+        "example1": "He has always been a champion of women's rights.",
+        "example2": "He was the heavyweight champion of the world for five years."
+    },
+    "87": {
+        "sentence": "You could tell the register wasn't affected.",
+        "word": "register",
+        "meaning1": "pitch range of a voice, either human or instrumental",
+        "meaning2": "a computer data cache",
+        "focus_meaning": "pitch range of a voice, either human or instrumental",
+        "precontexts": [
+            "The power went out during the presentation. Everyone in the room went silent.",
+            "She dropped her phone on the desk. It slipped off the edge and hit the floor hard. Anxiously, she picked it up, checking for any damage.",
+            "After the alarm sounded, everyone looked worried."
+        ],
+        "endings": [
+            "The technician inspected the equipment calmly. Meanwhile, someone continued singing with ease. Everything seemed back to normal by lunchtime.",
+            "She sighed, relieved. Maybe the case really was as sturdy as they claimed.",
+            "People resumed talking after a few seconds. Someone suggested continuing the meeting. They looked for a flashlight or some candles."
+        ],
+        "pos": "n",
+        "grouping": 12,
+        "example1": "The boy's voice dropped a register during puberty.",
+        "example2": "These values are stored in a register and used by a later computation."
+    },
+    "88": {
+        "sentence": "You could tell the register wasn't affected.",
+        "word": "register",
+        "meaning1": "pitch range of a voice, either human or instrumental",
+        "meaning2": "a computer data cache",
+        "focus_meaning": "a computer data cache",
+        "precontexts": [
+            "The power went out during the presentation. Everyone in the room went silent.",
+            "She dropped her phone on the desk. It slipped off the edge and hit the floor hard. Anxiously, she picked it up, checking for any damage.",
+            "After the alarm sounded, everyone looked worried."
+        ],
+        "endings": [
+            "The technician inspected the equipment calmly. Meanwhile, someone continued singing with ease. Everything seemed back to normal by lunchtime.",
+            "She sighed, relieved. Maybe the case really was as sturdy as they claimed.",
+            "People resumed talking after a few seconds. Someone suggested continuing the meeting. They looked for a flashlight or some candles."
+        ],
+        "pos": "n",
+        "grouping": 13,
+        "example1": "The boy's voice dropped a register during puberty.",
+        "example2": "These values are stored in a register and used by a later computation."
+    },
+    "89": {
+        "sentence": "It wasn't his duty to monitor in the way he was.",
+        "word": "monitor",
+        "meaning1": "a student in a supervisory role",
+        "meaning2": "an observer of a process or activity",
+        "focus_meaning": "a student in a supervisory role",
+        "precontexts": [
+            "He sat quietly at the back, unnoticed by most. The room was buzzing with chatter and laughter. He had always been good at keeping an eye on things.",
+            "He liked to pay attention to the details of things around him. Sometimes, he would jot down notes in his little book.",
+            "He noticed the classmates sneaking glances at each other's notes in class. "
+        ],
+        "endings": [
+            "People often wondered why he did it. Still, he quietly continued his observations. Others went about their day none the wiser.",
+            "Yet, he felt a sense of responsibility creeping in. During lunch, he sat quietly at the table. The teacher knew something was different but said nothing.",
+            "Still, he continued to watch and listen, waiting for something important to happen."
+        ],
+        "pos": "n",
+        "grouping": 14,
+        "example1": "The teacher has appointed three hall monitors.",
+        "example2": "The assembly line is fully automated, but requires human monitors in case of malfunctions."
+    },
+    "90": {
+        "sentence": "It wasn't his duty to monitor in the way he was.",
+        "word": "monitor",
+        "meaning1": "a student in a supervisory role",
+        "meaning2": "an observer of a process or activity",
+        "focus_meaning": "an observer of a process or activity",
+        "precontexts": [
+            "He sat quietly at the back, unnoticed by most. The room was buzzing with chatter and laughter. He had always been good at keeping an eye on things.",
+            "He liked to pay attention to the details of things around him. Sometimes, he would jot down notes in his little book.",
+            "He noticed the classmates sneaking glances at each other's notes in class. "
+        ],
+        "endings": [
+            "People often wondered why he did it. Still, he quietly continued his observations. Others went about their day none the wiser.",
+            "Yet, he felt a sense of responsibility creeping in. During lunch, he sat quietly at the table. The teacher knew something was different but said nothing.",
+            "Still, he continued to watch and listen, waiting for something important to happen."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The teacher has appointed three hall monitors.",
+        "example2": "The assembly line is fully automated, but requires human monitors in case of malfunctions."
+    },
+    "91": {
+        "sentence": "The programme was challenging to view.",
+        "word": "programme",
+        "meaning1": "(computer science) a sequence of instructions that a computer can interpret and execute.",
+        "meaning2": "The physical brochure describing the details of a presentation or sporting event.",
+        "focus_meaning": "(computer science) a sequence of instructions that a computer can interpret and execute.",
+        "precontexts": [
+            "He turned on the new device and hoped it worked. She leafed through the pages, looking for something interesting.",
+            "He stared at the screen, unsure of what to do next.",
+            "Everyone gathered in the small room. The projector flickered as it started. There was a quiet hum from the machine."
+        ],
+        "endings": [
+            "Some looked confused, while others took notes. The session ended with a few questions.",
+            "They both felt a bit lost at first. Slowly, they began to figure things out.",
+            "He scratched his head, trying to make sense of it. In frustration, he flipped through some old papers. He wondered if he needed to ask for help."
+        ],
+        "pos": "n",
+        "grouping": 1,
+        "example1": "The programme required several hundred lines of code.",
+        "example2": "The programme this year was small and flimsy."
+    },
+    "92": {
+        "sentence": "The programme was challenging to view.",
+        "word": "programme",
+        "meaning1": "(computer science) a sequence of instructions that a computer can interpret and execute.",
+        "meaning2": "The physical brochure describing the details of a presentation or sporting event.",
+        "focus_meaning": "The physical brochure describing the details of a presentation or sporting event.",
+        "precontexts": [
+            "He turned on the new device and hoped it worked. She leafed through the pages, looking for something interesting.",
+            "He stared at the screen, unsure of what to do next.",
+            "Everyone gathered in the small room. The projector flickered as it started. There was a quiet hum from the machine."
+        ],
+        "endings": [
+            "Some looked confused, while others took notes. The session ended with a few questions.",
+            "They both felt a bit lost at first. Slowly, they began to figure things out.",
+            "He scratched his head, trying to make sense of it. In frustration, he flipped through some old papers. He wondered if he needed to ask for help."
+        ],
+        "pos": "n",
+        "grouping": 2,
+        "example1": "The programme required several hundred lines of code.",
+        "example2": "The programme this year was small and flimsy."
+    },
+    "93": {
+        "sentence": "He remembered the event with complete clarity-",
+        "word": "event",
+        "meaning1": "a recognized social, purposeful gathering",
+        "meaning2": "a happening or incident of human significance",
+        "focus_meaning": "a recognized social, purposeful gathering",
+        "precontexts": [
+            "He was sitting quietly at the kitchen table.",
+            "He sat quietly by the window. Outside, the world went on as usual.",
+            "He stood quietly in the living room. The guests had all left by now. The room was silent except for the ticking clock."
+        ],
+        "endings": [
+            "It felt more significant than he had anticipated. He knew he would think about it for a long time.",
+            "There had been words exchanged, not all of them kind. The day remained etched in his mind. He couldn't decide if it made him better or worse.",
+            "His friends had been there with him. Something about it was still puzzling. He shook his head and decided to move on with his day."
+        ],
+        "pos": "n",
+        "grouping": 3,
+        "example1": "The event is open to the public.",
+        "example2": "Events developed rapidly in the days following the president's admission of guilt."
+    },
+    "94": {
+        "sentence": "He remembered the event with complete clarity.",
+        "word": "event",
+        "meaning1": "a recognized social, purposeful gathering",
+        "meaning2": "a happening or incident of human significance",
+        "focus_meaning": "a happening or incident of human significance",
+        "precontexts": [
+            "He was sitting quietly at the kitchen table.",
+            "He sat quietly by the window. Outside, the world went on as usual.",
+            "He stood quietly in the living room. The guests had all left by now. The room was silent except for the ticking clock."
+        ],
+        "endings": [
+            "It felt more significant than he had anticipated. He knew he would think about it for a long time.",
+            "There had been words exchanged, not all of them kind. The day remained etched in his mind. He couldn't decide if it made him better or worse.",
+            "His friends had been there with him. Something about it was still puzzling. He shook his head and decided to move on with his day."
+        ],
+        "pos": "n",
+        "grouping": 4,
+        "example1": "The event is open to the public.",
+        "example2": "Events developed rapidly in the days following the president's admission of guilt."
+    },
+    "95": {
+        "sentence": "Access to the files was denied as he failed to gain entry.",
+        "word": "access",
+        "meaning1": "computational operation of reading or writing digital data",
+        "meaning2": "a physical entry or exit location",
+        "focus_meaning": "computational operation of reading or writing digital data",
+        "precontexts": [
+            "He arrived at the office early that morning. His task was seemingly simple yet crucial. He spent hours trying to figure it out.",
+            "He tried to enter the building using a passcode. ",
+            "He stood outside, waiting patiently. The computer screen flickered, asking for credentials."
+        ],
+        "endings": [
+            "He sighed and called the support desk for help. They asked him to wait while they checked the system. He hoped the issue was just a simple mistake.",
+            "He sighed, hoping to find another way. His colleague suggested trying again later. They decided to grab a coffee in the meantime.",
+            "He decided to go and ask for help. Hopefully, someone knew what was wrong."
+        ],
+        "pos": "n",
+        "grouping": 5,
+        "example1": "Data access in registers in main memory is much faster than access on the disk drive.",
+        "example2": "A fallen tree is blocking access to John's driveway."
+    },
+    "96": {
+        "sentence": "Access to the files was denied as he failed to gain entry.",
+        "word": "access",
+        "meaning1": "computational operation of reading or writing digital data",
+        "meaning2": "a physical entry or exit location",
+        "focus_meaning": "a physical entry or exit location",
+        "precontexts": [
+            "He arrived at the office early that morning. His task was seemingly simple yet crucial. He spent hours trying to figure it out.",
+            "He tried to enter the building using a passcode. ",
+            "He stood outside, waiting patiently. The computer screen flickered, asking for credentials."
+        ],
+        "endings": [
+            "He sighed and called the support desk for help. They asked him to wait while they checked the system. He hoped the issue was just a simple mistake.",
+            "He sighed, hoping to find another way. His colleague suggested trying again later. They decided to grab a coffee in the meantime.",
+            "He decided to go and ask for help. Hopefully, someone knew what was wrong."
+        ],
+        "pos": "n",
+        "grouping": 6,
+        "example1": "Data access in registers in main memory is much faster than access on the disk drive.",
+        "example2": "A fallen tree is blocking access to John's driveway."
+    },
+    "97": {
+        "sentence": "He spent the afternoon working on the routine.",
+        "word": "routine",
+        "meaning1": "a sequence of logic steps in a computer program",
+        "meaning2": "a short performance, often theatrical",
+        "focus_meaning": "a sequence of logic steps in a computer program",
+        "precontexts": [
+            "He sat down at his desk.",
+            "The quiet room was filled with papers. He sat in front of his computer, focused. Notes and sheets were scattered everywhere.",
+            "She found an old book on the shelf. The book was full of notes and scribbles."
+        ],
+        "endings": [
+            "Later, he grabbed a coffee. He went over his notes. It was almost time for dinner.",
+            "The clock ticked softly on the wall. By evening, he felt satisfied with his progress.",
+            "He wanted it to be just right. As the sun set, he added the final touches."
+        ],
+        "pos": "n",
+        "grouping": 7,
+        "example1": "John wrote a recursive pattern-matching routine for his computer science project.",
+        "example2": "That's an old song-and-dance routine from vaudeville."
+    },
+    "98": {
+        "sentence": "He spent the afternoon working on the routine.",
+        "word": "routine",
+        "meaning1": "a sequence of logic steps in a computer program",
+        "meaning2": "a short performance, often theatrical",
+        "focus_meaning": "a short performance, often theatrical",
+        "precontexts": [
+            "He sat down at his desk.",
+            "The quiet room was filled with papers. He sat in front of his computer, focused. Notes and sheets were scattered everywhere.",
+            "She found an old book on the shelf. The book was full of notes and scribbles."
+        ],
+        "endings": [
+            "Later, he grabbed a coffee. He went over his notes. It was almost time for dinner.",
+            "The clock ticked softly on the wall. By evening, he felt satisfied with his progress.",
+            "He wanted it to be just right. As the sun set, he added the final touches."
+        ],
+        "pos": "n",
+        "grouping": 8,
+        "example1": "John wrote a recursive pattern-matching routine for his computer science project.",
+        "example2": "That's an old song-and-dance routine from vaudeville."
+    },
+    "99": {
+        "sentence": "He purchased a substantial length of string as it was essential for him to complete the project.",
+        "word": "string",
+        "meaning1": "a thin, flexible cord or twine",
+        "meaning2": "a stretched wire that can vibrate",
+        "focus_meaning": "a thin, flexible cord or twine",
+        "precontexts": [
+            "He was working on his new project in the garage. The tools were scattered around.",
+            "He checked the list to ensure all items were accounted for.",
+            "He stared at the list of items he needed. The project had to be done by the end of the month. He checked off each item as he acquired it."
+        ],
+        "endings": [
+            "Back at his workstation, he laid everything out neatly. The tools were arranged in a tidy row. He got to work focusing on making everything just right.",
+            "His friend came by to watch him work. They both hoped it would be done by the weekend. The coffee kept them going through the day.",
+            "With everything ready, he could finally start. It was going to take a lot of patience."
+        ],
+        "pos": "n",
+        "grouping": 9,
+        "example1": "The package was tied up with string.",
+        "example2": "Pete replaced the strings on his violin."
+    },
+    "100": {
+        "sentence": "He purchased a substantial length of string as it was essential for him to complete the project.",
+        "word": "string",
+        "meaning1": "a thin, flexible cord or twine",
+        "meaning2": "a stretched wire that can vibrate",
+        "focus_meaning": "a stretched wire that can vibrate",
+        "precontexts": [
+            "He was working on his new project in the garage. The tools were scattered around.",
+            "He checked the list to ensure all items were accounted for.",
+            "He stared at the list of items he needed. The project had to be done by the end of the month. He checked off each item as he acquired it."
+        ],
+        "endings": [
+            "Back at his workstation, he laid everything out neatly. The tools were arranged in a tidy row. He got to work focusing on making everything just right.",
+            "His friend came by to watch him work. They both hoped it would be done by the weekend. The coffee kept them going through the day.",
+            "With everything ready, he could finally start. It was going to take a lot of patience."
+        ],
+        "pos": "n",
+        "grouping": 10,
+        "example1": "The package was tied up with string.",
+        "example2": "Pete replaced the strings on his violin."
+    }
+}
