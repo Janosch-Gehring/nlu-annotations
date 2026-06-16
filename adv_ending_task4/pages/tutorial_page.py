@@ -8,7 +8,7 @@ from core.scripts.utils import read_json_from_file, handle_next_button, handle_b
 if "tutorial_stage" not in st.session_state:
     st.session_state["tutorial_stage"] = 0
 
-from adv_ending_task3.common import utils
+from adv_ending_task4.common import utils
 
 
 #print("Running from the top, current stage ", st.session_state["tutorial_stage"], "current story ", st.session_state["sample_state"])
@@ -54,9 +54,9 @@ def tutorial_stage_logic_checks():
             st.rerun()
     
 
-samples = read_json_from_file(TASK_INFO["adv_ending_task3"]["annotation_filepath"])
+samples = read_json_from_file(TASK_INFO["adv_ending_task4"]["annotation_filepath"])
 
-st.session_state.page = "adv_ending_task3_tutorial"
+st.session_state.page = "adv_ending_task4_tutorial"
 
 if user_repository.get_qualification() < 1:
     st.write("## You must pass qualification before starting the tutorial. \n\n Select **Qualification** in the navigation bar to your left to try the qualification test.")
