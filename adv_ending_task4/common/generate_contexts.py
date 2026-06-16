@@ -10,7 +10,7 @@ load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-OUTPUT_FILEPATH = "adv_ending_task3/resources/contexts_redo_exp.json"
+OUTPUT_FILEPATH = "adv_ending_task4/resources/contexts_redo_exp.json"
 NUMBER_OF_GROUPS = 40
 
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
@@ -127,7 +127,7 @@ def get_stories_for_sentence(sample):
 
 
 if __name__ == "__main__":
-    with open("adv_ending_task/resources/sentence_samples.json", "r") as f:
+    with open("adv_ending_task4/resources/sentence_samples.json", "r") as f:
         homonyms = json.load(f)
 
     output = {}

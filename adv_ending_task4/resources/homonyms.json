@@ -1,0 +1,502 @@
+{
+    "1": {
+        "word": "exercise",
+        "meaning1": "physical exertion",
+        "meaning2": "the utilization or employment of something",
+        "sentence": "Today's exercise would be particularly difficult",
+        "pos": "n",
+        "example1": "Bob's doctor told him to get more exercise and to eat less.",
+        "example2": "The President's exercise of his veto power surprised the Congress.",
+        "domain": "sport"
+    },
+    "2": {
+        "word": "note",
+        "meaning1": "a pitch or tone of music",
+        "meaning2": "A very brief written piece of information",
+        "sentence": "He carried the note high into the rooftops. ",
+        "pos": "n",
+        "example1": "The soprano held the high note in an astonishing pianissimo.",
+        "example2": "I received a rather cryptic note from John about tomorrow's meeting.",
+        "domain": "music"
+    },
+    "3": {
+        "word": "court",
+        "meaning1": "a demarcated area for sports play",
+        "meaning2": "a sovereign regime and its assemblage",
+        "sentence": "The group assembled before the court that day.",
+        "pos": "n",
+        "example1": "This basketball court has a new floor.",
+        "example2": "Many consider the Court at Versailles to have been the most brilliant in all of European history.",
+        "domain": "sport"
+    },
+    "4": {
+        "word": "memory",
+        "meaning1": "An electronic storage device.",
+        "meaning2": "The cognitive processes and capacity to remember.",
+        "sentence": "She searched hard within her memory to find what she needed.",
+        "pos": "n",
+        "example1": "Memory and the CPU for the core of the computer.",
+        "example2": "He can do it from memory.",
+        "domain": "computer_science"
+    },
+    "5": {
+        "word": "coach",
+        "meaning1": "a trainer for an athletic team",
+        "meaning2": "a railway car that carries passengers",
+        "sentence": "The coach was in a rush to be on time.",
+        "pos": "n",
+        "example1": "The basketball coach at the high school also teaches algebra.",
+        "example2": "Wealthy people traveled by private rail coach in the 1920s.",
+        "domain": "sport"
+    },
+    "6": {
+        "word": "device",
+        "meaning1": "a contrivance, tool, or instrument that has a purpose",
+        "meaning2": "a plan, maneuver or trick",
+        "sentence": "It was a tricky device to understand",
+        "pos": "n",
+        "example1": "Computers usually use mice and keyboards as input devices.",
+        "example2": "Mary thinks John's chronic lateness to meetings is a manipulative device to control others.",
+        "domain": "computer_science"
+    },
+    "7": {
+        "word": "register",
+        "meaning1": "slide on a musical organ that controls pipes",
+        "meaning2": "an official written record",
+        "sentence": "The register was too high for Darren to reach.",
+        "pos": "n",
+        "example1": "The organist moved the register as he played the piece.",
+        "example2": "This old book appears to be an 16th-century register of births and deaths in an English village.",
+        "domain": "music"
+    },
+    "8": {
+        "word": "class",
+        "meaning1": "a collection of things defined by shared characteristics",
+        "meaning2": "students who attend an instructional course together",
+        "sentence": "The boy wasn't sure in which class it belonged.",
+        "pos": "n",
+        "example1": "German has three major noun classes - masculine, feminine and neuter.",
+        "example2": "The class became quiet when the principal entered the room.",
+        "domain": "music"
+    },
+    "9": {
+        "word": "fight",
+        "meaning1": "to combat or oppose someone or something",
+        "meaning2": "to strive, make a strenuous effort",
+        "sentence": "It was a difficult fight, which was ultimately lost.",
+        "pos": "v",
+        "example1": "The armies fought on the outskirts of Moscow.",
+        "example2": "She is fighting for her life.",
+        "domain": "sport"
+    },
+    "10": {
+        "word": "routine",
+        "meaning1": "a sequence of logic steps in a computer program",
+        "meaning2": "regular method or procedure of doing something",
+        "sentence": "At some point during the day the routine was interrupted.",
+        "pos": "n",
+        "example1": "John wrote a recursive pattern-matching routine for his computer science project.",
+        "example2": "Mary's daily routine includes an hour at the gym, and lunch at her desk.",
+        "domain": "computer_science"
+    },
+    "11": {
+        "word": "struggle",
+        "meaning1": "fight or make effort to defeat someone or something",
+        "meaning2": "make strenuous efforts",
+        "sentence": "She was tired out after going through the struggle.",
+        "pos": "v",
+        "example1": "He struggled with his attacker who then ran off.",
+        "example2": "She struggled to be polite.",
+        "domain": "sport"
+    },
+    "12": {
+        "word": "stroke",
+        "meaning1": "the act of striking an object, usually with an implement",
+        "meaning2": "petting, brushing motion of the hand, or implement",
+        "sentence": "His arm ached from too many strokes.",
+        "pos": "n",
+        "example1": "They received three strokes of the cane as punishment.",
+        "example2": "The cat purred in my lap and seemed to enjoy the stroke of its fur.",
+        "domain": "sport"
+    },
+    "13": {
+        "word": "statement",
+        "meaning1": "functional line of computer programming code",
+        "meaning2": "act of making a declaration, assertion",
+        "sentence": "The statement didn't make sense.",
+        "pos": "n",
+        "example1": "How do you construct an 'if' statement in Perl?",
+        "example2": "The guests filed into the dining room after the butler's statement that dinner was now served.",
+        "domain": "computer_science"
+    },
+    "14": {
+        "word": "body",
+        "meaning1": "any intact living organism",
+        "meaning2": "the primary anatomical or structural component of something",
+        "sentence": "The body was damaged.",
+        "pos": "n",
+        "example1": "I need two able bodies to guard the front door.",
+        "example2": "That auto repair shop does good body work. (of a car)",
+        "domain": "sport"
+    },
+    "15": {
+        "word": "programme",
+        "meaning1": "(computer science) a sequence of instructions that a computer can interpret and execute.",
+        "meaning2": "The physical brochure describing the details of a presentation or sporting event.",
+        "sentence": "The programme had taken the team a long time to complete.",
+        "pos": "n",
+        "example1": "The programme required several hundred lines of code.",
+        "example2": "The programme this year was small and flimsy.",
+        "domain": "computer_science"
+    },
+    "16": {
+        "word": "race",
+        "meaning1": "(cause to) compete in or as if in a race or competition.",
+        "meaning2": "move or function at top speed; rush (to accomplish a goal).",
+        "sentence": "He started to race.",
+        "pos": "v",
+        "example1": "Let's race and see who gets there first!",
+        "example2": "Please stop racing around--the house looks fine.",
+        "domain": "sport"
+    },
+    "17": {
+        "word": "score",
+        "meaning1": "a written form, document, of a musical composition",
+        "meaning2": "the tallied points of a game, at a given time",
+        "sentence": "The man held up his score.",
+        "pos": "n",
+        "example1": "The composer left a copy of his score at the publisher's office.",
+        "example2": "The score at the bottom of the sixth inning was tied 3-3.",
+        "domain": "music"
+    },
+    "18": {
+        "word": "score",
+        "meaning1": "lots of, or many of something",
+        "meaning2": "assigned quantitative value that is on a scale",
+        "sentence": "The officer's job was to sort through the scores.",
+        "pos": "n",
+        "example1": "He sent scores of resumes out to companies all around the country.",
+        "example2": "The colleges were impressed by Sally's high scores on the SAT.",
+        "domain": "music"
+    },
+    "19": {
+        "word": "monitor",
+        "meaning1": "a student in a supervisory role",
+        "meaning2": "an instrument that tracks some process",
+        "sentence": "The monitor fell over.",
+        "pos": "n",
+        "example1": "The teacher has appointed three hall monitors.",
+        "example2": "The heart monitor indicated the patient was having some difficulty.",
+        "domain": "computer_science"
+    },
+    "20": {
+        "word": "face",
+        "meaning1": "oppose, fight",
+        "meaning2": "confront, deal",
+        "sentence": "He faced his opponent.",
+        "pos": "v",
+        "example1": "David faced Goliath in battle.",
+        "example2": "He has finally faced the consequences of his drinking problem.",
+        "domain": "sport"
+    },
+    "21": {
+        "word": "score",
+        "meaning1": "a written form, document, of a musical composition",
+        "meaning2": "the tallied points of a game, at a given time",
+        "sentence": "He was too far away to read the score",
+        "pos": "n",
+        "example1": "The composer left a copy of his score at the publisher's office.",
+        "example2": "The score at the bottom of the sixth inning was tied 3-3.",
+        "domain": "music"
+    },
+    "22": {
+        "word": "pick",
+        "meaning1": "notice or perceive; learn without being taught",
+        "meaning2": "look for and gather/pluck",
+        "sentence": "At the country fayre, she had difficulty picking the best roses.",
+        "pos": "v",
+        "example1": "In most cases people are able to pick up the signal within a day.",
+        "example2": "Shuksan and Rainier strawberries are picked fresh daily and are of commercial quality.",
+        "domain": "music"
+    },
+    "23": {
+        "word": "campaign",
+        "meaning1": "run for office/position",
+        "meaning2": "work toward a goal",
+        "sentence": "the campaign continued for months and months...",
+        "pos": "v",
+        "example1": "Nikki Jach campaigned for treasurer and garnered 228 votes.",
+        "example2": "The Union is campaigning for presumptive legislation to support and",
+        "domain": "sport"
+    },
+    "24": {
+        "word": "score",
+        "meaning1": "Gain points in a game or contest.",
+        "meaning2": "Make underscoring marks for a piece of music.",
+        "sentence": "the final score was rather shocking to everyone who heard it.",
+        "pos": "v",
+        "example1": "The home team scored many times.",
+        "example2": "John scored his magnum opus for slide whistle and kazoo choir.",
+        "domain": "sport"
+    },
+    "25": {
+        "word": "official",
+        "meaning1": "referee",
+        "meaning2": "office worker",
+        "sentence": "the official was clear about the reason for her decision.",
+        "pos": "n",
+        "example1": "The golfer asked for an official who could give him a ruling.",
+        "example2": "An official from the health department told Fido not to go into the restaurant.",
+        "domain": "sport"
+    },
+    "26": {
+        "word": "pick",
+        "meaning1": "lightly pluck or hit at",
+        "meaning2": "look for and gather/pluck",
+        "sentence": "He had to go out and pick some some flowers",
+        "pos": "v",
+        "example1": "After slow-cooking, you can easily pick the meat off the bone.",
+        "example2": "Shuksan and Rainier strawberries are picked fresh daily and are of commercial quality.",
+        "domain": "music"
+    },
+    "27": {
+        "word": "error",
+        "meaning1": "(computer science) the occurence of an incorrect result produced by a computer.",
+        "meaning2": "An instance or action of being incorrect.",
+        "sentence": "He entered the wrong words into his laptop causing an error ",
+        "pos": "n",
+        "example1": "The program demonstrated many errors.",
+        "example2": "He made a grave error.",
+        "domain": "computer_science"
+    },
+    "28": {
+        "word": "campaign",
+        "meaning1": "a political race or contest for election",
+        "meaning2": "a series of military operations to attain an objective",
+        "sentence": "The group fought a very brilliant campaign",
+        "pos": "n",
+        "example1": "Who will run against her in the senate campaign?",
+        "example2": "He was the commander of the air campaign in Iraq.",
+        "domain": "sport"
+    },
+    "29": {
+        "word": "campaign",
+        "meaning1": "run for office/position",
+        "meaning2": "work toward a goal",
+        "sentence": "We all worked together for this campaign resulting in victory",
+        "pos": "v",
+        "example1": "Nikki Jach campaigned for treasurer and garnered 228 votes.",
+        "example2": "The Union is campaigning for presumptive legislation to support and",
+        "domain": "sport"
+    },
+    "30": {
+        "word": "game",
+        "meaning1": "System of rules defining the form of a contest",
+        "meaning2": "Physical game equipment",
+        "sentence": "The team executed the game masterfully",
+        "pos": "n",
+        "example1": "We need four people to play my favorite card game, Hearts.",
+        "example2": "My game of Monopoly is missing a few pieces.",
+        "domain": "sport"
+    },
+    "31": {
+        "word": "chip",
+        "meaning1": "a tiny electronic device made of semiconducting material",
+        "meaning2": "a flaw or mark on something, a small missing bit of something",
+        "sentence": "There was a chip in my computer, it was damaged after I dropped it",
+        "pos": "n",
+        "example1": "The memory chip market has been going through a slump.",
+        "example2": "I never noticed this chip on the glass table before.",
+        "domain": "computer_science"
+    },
+    "32": {
+        "word": "plunk",
+        "meaning1": "Pull lightly but sharply.",
+        "meaning2": "Drop steeply (perhaps metaphorically).",
+        "sentence": "Sometimes, when he gets mad, the guitar player plunks his guitar heavily ",
+        "pos": "v",
+        "example1": "He plunked the strings of his mandolin.",
+        "example2": "The hawk plunked out of the sky.",
+        "domain": "music"
+    },
+    "33": {
+        "word": "style",
+        "meaning1": "a distinctive artistic form, as in painting, music",
+        "meaning2": "elongated portion of a plant pistil",
+        "sentence": "When the flower grew, it's style was very unique",
+        "pos": "n",
+        "example1": "She didn't care for the flowery literary style of 18th-century prose.",
+        "example2": "The style of the flower is located between the ovary and the stigma of the pistil.",
+        "domain": "music"
+    },
+    "34": {
+        "word": "idea",
+        "meaning1": "an artistic theme or motif",
+        "meaning2": "an estimate or calculation",
+        "sentence": "Sometimes at work, I have to provide an idea for pitch",
+        "pos": "n",
+        "example1": "Beethoven develops this musical idea throughout the first movement.",
+        "example2": "The guide has an excellent idea of how long the tour will last.",
+        "domain": "music"
+    },
+    "35": {
+        "word": "weight",
+        "meaning1": "sports equipment used in lifting exercises",
+        "meaning2": "oppressive or worrisome emotional state",
+        "sentence": "When I workout, I feel the weight to my core",
+        "pos": "n",
+        "example1": "This gym has all the newest weight machines.",
+        "example2": "Moving the deadline up by two weeks removed a big weight from our shoulders.",
+        "domain": "sport"
+    },
+    "36": {
+        "word": "block",
+        "meaning1": "flat solid areas of color",
+        "meaning2": "a solid 3D object with rectangular sides",
+        "sentence": "When he arranged the blocks it made a completely new composition.",
+        "pos": "n",
+        "example1": "The abstract painting was a series of overlapping blocks of bright colors.",
+        "example2": "The child played with building blocks.",
+        "domain": "computer_science"
+    },
+    "37": {
+        "word": "image",
+        "meaning1": "a reproduction or physical representation of something",
+        "meaning2": "a mental impression, or representation, mental vision",
+        "sentence": "The image stayed with him for a long time after he first saw it.",
+        "pos": "n",
+        "example1": "These images of Mars were taken with a 12-inch reflector telescope.",
+        "example2": "John could not push the image of the burning towers out of his mind.",
+        "domain": "computer_science"
+    },
+    "38": {
+        "word": "put",
+        "meaning1": "place or set, physically (or abstractly)",
+        "meaning2": "to formulate, express, or present something",
+        "sentence": "He could never put his ideas together in a way that felt satisfying",
+        "pos": "v",
+        "example1": "She is putting the tray of food on the table.",
+        "example2": "I would put that differently.",
+        "domain": "music"
+    },
+    "39": {
+        "word": "relate",
+        "meaning1": "consciously associate, make a logical or casual connection",
+        "meaning2": "establish relationship of understanding with",
+        "sentence": "They are still trying to decide how these issues relate to his family members",
+        "pos": "v",
+        "example1": "Researchers are trying to relate low test results to large class size.",
+        "example2": "She relates well to her peers.",
+        "domain": "computer_science"
+    },
+    "40": {
+        "word": "play",
+        "meaning1": "perform or transmit music",
+        "meaning2": "engage in a fun or recreational (childlike) activity",
+        "sentence": "Their children grabbed their instruments and played with each other all afternoon",
+        "pos": "v",
+        "example1": "The band played all night long.",
+        "example2": "The children are playing across the street.",
+        "domain": "music"
+    },
+    "41": {
+        "word": "utility",
+        "meaning1": "a computer program that performs system support",
+        "meaning2": "a company that provides public service commodities",
+        "sentence": "The end result was it's basic function as a utility was rendered useless.",
+        "pos": "n",
+        "example1": "You should familiarize yourself with the basic Unix utilities.",
+        "example2": "They have deregulated many of the public utilities. (companies have fewer rules to follow)",
+        "domain": "computer_science"
+    },
+    "42": {
+        "word": "touch",
+        "meaning1": "Achieve a value or quality",
+        "meaning2": "make physical contact with, possibly with the effect of physically manipulating.",
+        "sentence": "Ultimately nothing could touch the chandelier ",
+        "pos": "v",
+        "example1": "Nothing can touch cotton for durability.",
+        "example2": "He touched her once and she turned into a golden creature.",
+        "domain": "sport"
+    },
+    "43": {
+        "word": "champion",
+        "meaning1": "supporter, advocate of something or someone",
+        "meaning2": "title-holder, winner of a competition, a hotshot who excels",
+        "sentence": "He was the ultimate champion",
+        "pos": "n",
+        "example1": "He has always been a champion of women's rights.",
+        "example2": "He was the heavyweight champion of the world for five years.",
+        "domain": "sport"
+    },
+    "44": {
+        "word": "register",
+        "meaning1": "pitch range of a voice, either human or instrumental",
+        "meaning2": "a computer data cache",
+        "sentence": "You could tell the register wasn't affected",
+        "pos": "n",
+        "example1": "The boy's voice dropped a register during puberty.",
+        "example2": "These values are stored in a register and used by a later computation.",
+        "domain": "music"
+    },
+    "45": {
+        "word": "monitor",
+        "meaning1": "a student in a supervisory role",
+        "meaning2": "an observer of a process or activity",
+        "sentence": "it wasn't his duty to monitor in the way he was",
+        "pos": "n",
+        "example1": "The teacher has appointed three hall monitors.",
+        "example2": "The assembly line is fully automated, but requires human monitors in case of malfunctions.",
+        "domain": "computer_science"
+    },
+    "46": {
+        "word": "programme",
+        "meaning1": "(computer science) a sequence of instructions that a computer can interpret and execute.",
+        "meaning2": "The physical brochure describing the details of a presentation or sporting event.",
+        "sentence": "The programme was challenging to view",
+        "pos": "n",
+        "example1": "The programme required several hundred lines of code.",
+        "example2": "The programme this year was small and flimsy.",
+        "domain": "computer_science"
+    },
+    "47": {
+        "word": "event",
+        "meaning1": "a recognized social, purposeful gathering",
+        "meaning2": "a happening or incident of human significance",
+        "sentence": "he remembered the event with complete clarity",
+        "pos": "n",
+        "example1": "The event is open to the public.",
+        "example2": "Events developed rapidly in the days following the president's admission of guilt.",
+        "domain": "sport"
+    },
+    "48": {
+        "word": "access",
+        "meaning1": "computational operation of reading or writing digital data",
+        "meaning2": "a physical entry or exit location",
+        "sentence": "Access to the files was denied as he failed to gain entry",
+        "pos": "n",
+        "example1": "Data access in registers in main memory is much faster than access on the disk drive.",
+        "example2": "A fallen tree is blocking access to John's driveway.",
+        "domain": "computer_science"
+    },
+    "49": {
+        "word": "routine",
+        "meaning1": "a sequence of logic steps in a computer program",
+        "meaning2": "a short performance, often theatrical",
+        "sentence": "He spent the afternoon working on the routine ",
+        "pos": "n",
+        "example1": "John wrote a recursive pattern-matching routine for his computer science project.",
+        "example2": "That's an old song-and-dance routine from vaudeville.",
+        "domain": "computer_science"
+    },
+    "50": {
+        "word": "string",
+        "meaning1": "a thin, flexible cord or twine",
+        "meaning2": "a stretched wire that can vibrate",
+        "sentence": "He purchased a substantial length of string as it was essential for him to complete the project.",
+        "pos": "n",
+        "example1": "The package was tied up with string.",
+        "example2": "Pete replaced the strings on his violin.",
+        "domain": "computer_science"
+    }
+}

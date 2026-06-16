@@ -2,7 +2,7 @@ import streamlit as st
 
 from core.scripts import database_repository, admin_functions, utils
 
-TASK_OPTIONS = ("None selected", "ambiguity_task", "example_task", "ambistory_task", "ambisentence_task", "eval_ambisentence_task", "ambistory2_task", "ending_task", "eval_ending_task", "big_ambisentence_task", "big_ending_task", "big_ending_task_round2", "big_eval_ending_task", "big_eval_sentence_task", "var_ending_test", "var_ending_test2", "var_sentence_task", "var_sentence_task2", "adv_sentence_task", "adv_ending_task", "adv_ending_task2", "adv_ending_task3")
+TASK_OPTIONS = ("None selected", "ambiguity_task", "example_task", "ambistory_task", "ambisentence_task", "eval_ambisentence_task", "ambistory2_task", "ending_task", "eval_ending_task", "big_ambisentence_task", "big_ending_task", "big_ending_task_round2", "big_eval_ending_task", "big_eval_sentence_task", "var_ending_test", "var_ending_test2", "var_sentence_task", "var_sentence_task2", "adv_sentence_task", "adv_ending_task", "adv_ending_task2", "adv_ending_task3", "adv_ending_task4")
 
 if "database" not in st.session_state:
     st.session_state.database = "Press the other button first"

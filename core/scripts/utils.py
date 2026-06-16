@@ -126,6 +126,13 @@ TASK_INFO = {
         "number_of_annotator_groups": 40,
         "group_assignment": "post-qualification"
     },
+    "adv_ending_task4": {
+        "annotation_filepath": "adv_ending_task4/resources/contexts_redo.json",
+        "qualification_filepath": "adv_ending_task4/resources/qualification_questions.json",
+        "tutorial_filepath": "adv_ending_task4/resources/tutorial_questions.json",
+        "number_of_annotator_groups": 40,
+        "group_assignment": "post-qualification"
+    },
 }
 
 def read_json_from_file(path: str) -> dict:
