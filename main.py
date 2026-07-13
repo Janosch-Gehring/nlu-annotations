@@ -193,6 +193,10 @@ adv_ending_task4_tutorial_page = st.Page(
     "adv_ending_task4/pages/tutorial_page.py", title="Tutorial",icon="📖"
 )
 
+expertise_task_annotation_page = st.Page(
+    "expertise_task/pages/annotation_page.py", title="Term Familarity Task", icon="📙"
+)
+
 # Create navigation bar
 
 if st.session_state.user_id == "admin":
@@ -257,6 +261,9 @@ elif st.session_state.user_id:
 
     elif utils.authenticate_id("adv_sentence_task", st.session_state.user_id):
         available_pages["Ambiguous Sentence Task"] = [adv_sentence_task_start_page, adv_sentence_task_qualification_page, adv_sentence_task_annotation_page]
+
+    elif utils.authenticate_id("expertise_task", st.session_state.user_id):
+        available_pages["Term Familiarity Task"] = [expertise_task_annotation_page]
 
 
     available_pages["Other"] = [logout_page]

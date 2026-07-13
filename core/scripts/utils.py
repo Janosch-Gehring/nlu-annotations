@@ -133,6 +133,10 @@ TASK_INFO = {
         "number_of_annotator_groups": 9,
         "group_assignment": "post-qualification"
     },
+    "expertise_task": {
+        "annotation_filepath": "expertise_task/resources/expertise_words.json",
+        "number_of_annotator_groups": 1
+    }
 }
 
 def read_json_from_file(path: str) -> dict:
