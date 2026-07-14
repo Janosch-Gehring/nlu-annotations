@@ -4,7 +4,7 @@ import streamlit as st
 import random
 
 from core.scripts import user_repository
-from core.scripts.utils import display_progress, read_json_from_file, handle_next_button, handle_back_button, TASK_INFO, skip_to_next_sample
+from core.scripts.utils import display_progress, read_json_from_file, handle_next_button, handle_back_button, TASK_INFO, skip_to_next_sample, load_annotation
 
 
 samples = read_json_from_file(TASK_INFO["expertise_task"]["annotation_filepath"])
@@ -35,7 +35,7 @@ You probably won't be familiar with most of the words, and we promise you will n
                 
 There are 105 terms in total. Have fun!
                 
-**Please note: Please do not leave/refresh the page or stay inactive for a prolonged period of time - You will lose your progress!**
+**Please note: Please do not leave/refresh the page or stay inactive for a prolonged period of time.**
                 """)
 
 
@@ -84,6 +84,9 @@ if "progress" not in st.session_state:
         st.session_state.domain_list = list(randomized_samples.keys())
 
         st.session_state.progress = 0
+
+        user_repository.save_one_annotation(st.session_state.user_id, "samples", 1, randomized_samples)
+
 st.session_state.page = "expertise_sample" + str(st.session_state.progress)
 
 if user_repository.check_if_done(st.session_state.user_id):
@@ -95,6 +98,9 @@ else:
     index = int(st.session_state.progress)
 
     back_button = None#st.button(label="Back", key = 10 * index + 7, help="Go back to the previous sample.")
+
+    if not st.session_state.samples:
+        st.session_state.samples = load_annotation("samples", 1)
 
     choices, next_input = print_annotation_schema(st.session_state.samples, index)
     domain = st.session_state.domain_list[index]
