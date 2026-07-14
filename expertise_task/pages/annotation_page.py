@@ -99,7 +99,7 @@ else:
 
     back_button = None#st.button(label="Back", key = 10 * index + 7, help="Go back to the previous sample.")
 
-    if not st.session_state.samples:
+    if "samples" not in st.session_state:
         st.session_state.samples = load_annotation("samples", 1)
 
     choices, next_input = print_annotation_schema(st.session_state.samples, index)
