@@ -35,7 +35,7 @@ You probably won't be familiar with most of the words, and we promise you will n
                 
 There are 105 terms in total. Have fun!
                 
-**Please note: Please do not leave/refresh the page or stay inactive for a prolonged period of time.**
+**Please note: Please do not leave/refresh the page or stay inactive for a prolonged period of time, or you will lose progress.**
                 """)
 
 
@@ -100,6 +100,7 @@ else:
     back_button = None#st.button(label="Back", key = 10 * index + 7, help="Go back to the previous sample.")
 
     if "samples" not in st.session_state:
+        st.write("(Note: Using Failsafe after leaving page. You may experience unexpected behavior.)")
         st.session_state.samples = load_annotation("samples", 1)
         st.session_state.domain_list = list(st.session_state.samples.keys())
 
