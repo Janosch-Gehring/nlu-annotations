@@ -89,6 +89,9 @@ if "progress" not in st.session_state:
 
 st.session_state.page = "expertise_sample" + str(st.session_state.progress)
 
+st.write(st.session_state.progress)
+st.write(st.session_state.domain_list)
+
 if user_repository.check_if_done(st.session_state.user_id):
     st.write("## You have finished annotation. \n\nThank you for your time!")
     st.write("\n\n\n")
