@@ -58,7 +58,7 @@ There are 105 terms in total. Have fun!
 def handle_next_button(annotation, index, samples):
     user_repository.save_one_annotation(st.session_state.user_id, "annotation", index+1, annotation)
 
-    if st.session_state.progress > 18:
+    if st.session_state.progress > 19:
         user_repository.mark_as_done(st.session_state.user_id)
         st.rerun()
     else:
@@ -88,9 +88,6 @@ if "progress" not in st.session_state:
         user_repository.save_one_annotation(st.session_state.user_id, "samples", 1, randomized_samples)
 
 st.session_state.page = "expertise_sample" + str(st.session_state.progress)
-
-st.write(st.session_state.progress)
-st.write(st.session_state.domain_list)
 
 if user_repository.check_if_done(st.session_state.user_id):
     st.write("## You have finished annotation. \n\nThank you for your time!")

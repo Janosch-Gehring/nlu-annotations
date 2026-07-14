@@ -521,6 +521,33 @@
             2.46
         ]
     ],
+    "physics": [
+        [
+            "isotropic.a.01",
+            "isotropic",
+            2.5
+        ],
+        [
+            "boltzmann.n.01",
+            "Boltzmann",
+            2.48
+        ],
+        [
+            "kinematics.n.01",
+            "kinematics",
+            2.47
+        ],
+        [
+            "fresnel.n.01",
+            "Fresnel",
+            2.42
+        ],
+        [
+            "adiabatic.a.01",
+            "adiabatic",
+            2.4
+        ]
+    ],
     "attention_check": [
         [
             "xx",
@@ -544,7 +571,7 @@
         ],
         [
             "xx",
-            "hamanekisaru",
+            "hamankisaru",
             0
         ]
     ]
