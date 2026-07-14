@@ -101,6 +101,7 @@ else:
 
     if "samples" not in st.session_state:
         st.session_state.samples = load_annotation("samples", 1)
+        st.session_state.domain_list = list(st.session_state.samples.keys())
 
     choices, next_input = print_annotation_schema(st.session_state.samples, index)
     domain = st.session_state.domain_list[index]
