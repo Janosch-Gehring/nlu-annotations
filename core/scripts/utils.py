@@ -136,6 +136,10 @@ TASK_INFO = {
     "expertise_task": {
         "annotation_filepath": "expertise_task/resources/expertise_words.json",
         "number_of_annotator_groups": 1
+    },
+    "expertise_task2": {
+        "annotation_filepath": "expertise_task2/resources/expertise_words.json",
+        "number_of_annotator_groups": 1
     }
 }
 

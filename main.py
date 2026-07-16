@@ -196,6 +196,10 @@ adv_ending_task4_tutorial_page = st.Page(
 expertise_task_annotation_page = st.Page(
     "expertise_task/pages/annotation_page.py", title="Term Familarity Task", icon="📙"
 )
+expertise_task2_annotation_page = st.Page(
+    "expertise_task2/pages/annotation_page.py", title="Term Familarity Task", icon="📙"
+)
+
 
 # Create navigation bar
 
@@ -264,6 +268,10 @@ elif st.session_state.user_id:
 
     elif utils.authenticate_id("expertise_task", st.session_state.user_id):
         available_pages["Term Familiarity Task"] = [expertise_task_annotation_page]
+
+
+    elif utils.authenticate_id("expertise_task2", st.session_state.user_id):
+        available_pages["Term Familiarity Task"] = [expertise_task2_annotation_page]
 
 
     available_pages["Other"] = [logout_page]
