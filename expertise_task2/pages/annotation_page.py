@@ -198,6 +198,6 @@ else:
     annotation = {"domain": domain, "choices": choices}
 
     if next_input:
-        handle_next_button(annotation, index, st.session_state.samples)
         st.session_state.connections = []
         st.session_state.clipboard = None
+        handle_next_button(annotation, index, st.session_state.samples)
