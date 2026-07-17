@@ -23,11 +23,11 @@ def print_annotation_schema_connections(samples, index):
     st.markdown("""**Connect the terms on the left with the category that best describes it on the right. For example, if one of the terms on the left is 'cat', you should look for a fitting category such as 'feline' or 'mammal'.**
                 
 Many of the terms in this study will be rather obscure. You are not expected to know most terms. 
-Once you finished connecting the terms that you know, press the 'I don't know the other terms' button. *Do not blindly guess or use search engines(!). Only connect terms that you feel somewhat confident about.*
+Once you finished connecting the terms that you know, press the 'Next - I don't know enough about the other words' button. *Do not blindly guess or use search engines(!). Only connect terms that you feel somewhat confident about.* If you don't know, just go to the next one.
                 
 Each category will have at least one term associated with it. You may use process of elimination to connect the last term.
                 
-**You will not be rejected for knowing too little or too much, and it is okay to make mistakes. The most important thing is that you give it an honest shot without cheating or blindly guessing.** If you don't know, it's better to skip.
+**You will not be rejected for knowing too little or too much, and it is okay to make mistakes. The most important thing is that you give it an honest shot without cheating or blindly guessing.**
                     
 To connect a word, first **click on the term on the left side, then click on the category on the right.** The connection will be displayed below.
 
@@ -84,7 +84,7 @@ There are 21 groups of 5 terms in total. Have fun!
     for term, category in st.session_state.connections:
         st.write(f"{term} -> {category}")
 
-    if st.button("Reset these connections (Start this page from beginning)", key=20 * int(index) + 18):
+    if st.button("Reset these connections (Start this page from the beginning)", key=20 * int(index) + 18):
         st.session_state.connections = []
         st.session_state.clipboard = None
         st.rerun()
@@ -92,12 +92,12 @@ There are 21 groups of 5 terms in total. Have fun!
     st.write("When you're finished or stuck, press the button below.")
 
     if len(st.session_state.connections) == 0:
-        label = "I don't know any of these words"
+        label = "Next - I don't know any of these words"
     elif len(st.session_state.connections) < 5:
-        label = "I don't know the other words"
+        label = "Next - I don't know enough about the other words"
     else:
         label = "Next"
-    next_input = st.button(key = 20 * int(index) + 19, label=label, help="Save this annotation and advance to the next one.")
+    next_input = st.button(key = 20 * int(index) + 19, label=label, help="Press this button to continue to the next group of terms.")
 
     st.write("The terms above will update when you click the button. Be careful not to double-click it!")
 
@@ -160,7 +160,7 @@ if "clipboard" not in st.session_state:
 if "connections" not in st.session_state:
     st.session_state.connections = []
 
-if "categories" not in st.session_state:
+if "list_of_categories" not in st.session_state:
     st.session_state.list_of_categories = []
     st.session_state.list_of_terms = []
 
