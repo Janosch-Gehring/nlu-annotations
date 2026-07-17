@@ -23,13 +23,13 @@ def print_annotation_schema_connections(samples, index):
     st.markdown("""**Connect the terms on the left with the category that best describes it on the right. For example, if one of the terms on the left is 'cat', you should look for a fitting category such as 'feline' or 'mammal'.**
                 
 Many of the terms in this study will be rather obscure. You are not expected to know most terms. 
-Once you finished connecting the terms that you know, you can press the 'I don't know the other terms' button. *Do not blindly guess or use search engines. Only connect terms that you feel somewhat confident about.*
+Once you finished connecting the terms that you know, press the 'I don't know the other terms' button. *Do not blindly guess or use search engines(!). Only connect terms that you feel somewhat confident about.*
                 
-Each term belongs to one category, and each category belongs to one term. If there are more terms than categories, then a category may fit multiple terms. You can use process of elimination to connect the last term.
+Each category will have at least one term associated with it. You may use process of elimination to connect the last term.
                 
-You will not be rejected for knowing too little or too much, and it is okay to make mistakes. The most important thing is that you give it an honest shot without cheating or blindly guessing.
+**You will not be rejected for knowing too little or too much, and it is okay to make mistakes. The most important thing is that you give it an honest shot without cheating or blindly guessing.** If you don't know, it's better to skip.
                     
-To connect a word, first click on the term on the left side, then click on the category on the right. The connection will be displayed below.
+To connect a word, first **click on the term on the left side, then click on the category on the right.** The connection will be displayed below.
 
 There are 21 groups of 5 terms in total. Have fun!
                     
@@ -38,16 +38,20 @@ There are 21 groups of 5 terms in total. Have fun!
     
     print(question)
 
-    list_of_terms = [x[1] for x in question]
-    print(list_of_terms)
-    list_of_categories = list(set(x[3] for x in question))
-    print(list_of_categories)
+    if not st.session_state.list_of_terms:
+        list_of_terms = [x[1] for x in question]
+        random.shuffle(list_of_terms)
+        st.session_state.list_of_terms = list_of_terms
+        
+        list_of_categories = list(set(x[3] for x in question))
+        random.shuffle(list_of_categories)
+        st.session_state.list_of_categories = list_of_categories
 
     col_left, col_right = st.columns(2)
 
     with col_left:
         st.subheader("Terms")
-        for item in list_of_terms:
+        for item in st.session_state.list_of_terms:
             if item in [x[0] for x in st.session_state.connections]:
                 disable_item = True
             else:
@@ -57,13 +61,13 @@ There are 21 groups of 5 terms in total. Have fun!
             else:
                 color = "secondary"
 
-            if st.button(item, key=f"{20*index}_a_{item}", disabled=disable_item, type=color):
-                st.write(f"Connect {item} with what?")
+            if st.button(item.lower(), key=f"{20*index}_a_{item}", disabled=disable_item, type=color):
+                st.write(f"Connect {item.lower()} with what?")
                 st.session_state.clipboard = item
 
     with col_right:
         st.subheader("Categories")
-        for item in list_of_categories:
+        for item in st.session_state.list_of_categories:
             categories_disabled = False
             if not st.session_state.clipboard:
                 categories_disabled = True
@@ -156,6 +160,10 @@ if "clipboard" not in st.session_state:
 if "connections" not in st.session_state:
     st.session_state.connections = []
 
+if "categories" not in st.session_state:
+    st.session_state.list_of_categories = []
+    st.session_state.list_of_terms = []
+
 if "progress" not in st.session_state:
     st.session_state.progress = user_repository.get_checkpoint("annotation")
     if not st.session_state.progress:  # no checkpoint yet -> simply go to the first relevant sample
@@ -174,7 +182,7 @@ if "progress" not in st.session_state:
 
         st.session_state.progress = 0
 
-        user_repository.save_one_annotation(st.session_state.user_id, "samples", 1, randomized_samples)
+        user_repository.save_one_annotation(st.session_state.user_id, "sample_order", 1, st.session_state.domain_list)
 
 st.session_state.page = "expertise_sample" + str(st.session_state.progress)
 
@@ -189,9 +197,9 @@ else:
     back_button = None#st.button(label="Back", key = 10 * index + 7, help="Go back to the previous sample.")
 
     if "samples" not in st.session_state:
-        st.write("(Note: Using Failsafe after leaving page. You may experience unexpected behavior.)")
-        st.session_state.samples = load_annotation("samples", 1)
-        st.session_state.domain_list = list(st.session_state.samples.keys())
+        st.write("(Note: Tried to re-load checkpoint after leaving page.)")
+        st.session_state.domain_list = load_annotation("sample_order", 1)
+        st.session_state.samples = samples
 
     choices, next_input = print_annotation_schema_connections(st.session_state.samples, index)
     domain = st.session_state.domain_list[index]
@@ -200,4 +208,6 @@ else:
     if next_input:
         st.session_state.connections = []
         st.session_state.clipboard = None
+        st.session_state.list_of_categories = []
+        st.session_state.list_of_terms = []
         handle_next_button(annotation, index, st.session_state.samples)

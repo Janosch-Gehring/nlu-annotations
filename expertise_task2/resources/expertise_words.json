@@ -111,10 +111,10 @@
             "militiaman"
         ],
         [
-            "reservist.n.01",
-            "reservist",
-            2.47,
-            "soldier"
+            "tsushima.n.01",
+            "Tsushima",
+            2.16,
+            "naval battle"
         ],
         [
             "mauser.n.02",
@@ -356,10 +356,10 @@
     ],
     "computer_science": [
         [
-            "debugger.n.01",
-            "debugger",
-            2.47,
-            "program"
+            "fragmentation.n.03",
+            "fragmentation",
+            3.23,
+            "storage"
         ],
         [
             "prolog.n.01",
@@ -374,16 +374,16 @@
             "word processing system"
         ],
         [
-            "applet.n.01",
-            "applet",
-            2.31,
-            "application"
+            "sequencer.n.02",
+            "sequencer",
+            2.58,
+            "hardware"
         ],
         [
             "shareware.n.01",
             "shareware",
             2.28,
-            "package"
+            "software package"
         ]
     ],
     "philosophy": [
@@ -392,19 +392,19 @@
             "taoism.n.04",
             "Taoism",
             2.49,
-            "philosophical doctrine"
+            "way of life"
         ],
         [
             "semiotics.n.01",
             "semiotics",
             2.49,
-            "philosophical doctrine"
+            "meaning"
         ],
         [
-            "pragmatist.n.01",
-            "pragmatist",
-            2.48,
-            "realist"
+            "dialectics.n.01",
+            "dialectics",
+            2.31,
+            "rationale"
         ],
         [
             "eclecticism.n.01",
@@ -413,11 +413,11 @@
             "decision making"
         ],
         [
-            "existentialist.n.01",
-            "existentialist",
-            2.38,
-            "philosopher"
-        ]
+            "fatalism.n.02",
+            "fatalism",
+            2.3,
+            "determinism"
+        ],
     ],
     "commerce": [
         [
@@ -486,16 +486,16 @@
     ],
     "theatre": [
         [
-            "parquet.n.02",
-            "parquet",
-            2.46,
-            "seats"
+            "playbill.n.01",
+            "playbill",
+            2.09,
+            "program"
         ],
         [
             "ringling.n.01",
             "Ringling",
             2.35,
-            "showman"
+            "troop"
         ],
         [
             "soliloquy.n.02",
@@ -513,7 +513,7 @@
             "thespian.a.01",
             "thespian",
             2.36,
-            "performer"
+            "actor"
         ]
     ],
     "agriculture": [
