@@ -26,7 +26,7 @@ def print_annotation_schema_connections(samples, index):
                 
 Many of the terms in this study will be rather obscure. You are not expected to know most terms. 
 Once you finished connecting the terms that you know, press the 'Next - I don't know enough about the other words' button. *Do not blindly guess or use search engines(!). Only connect terms that you feel somewhat confident about.* If you don't know, just proceed to the next one.
-                
+
 Each category will have at least one term associated with it. You are allowed to use process of elimination to connect the last term.
                 
 **You will not be rejected for knowing too little or too much, and it is okay to make mistakes. The most important thing is that you give it an honest shot without cheating or blindly guessing.**
@@ -81,6 +81,7 @@ There are 21 groups of 5 terms in total. Have fun!
                     st.rerun()
                 
 
+    self_assessment = st.segmented_control("Regarding the field these terms are from, and regardless of your performance here - would you consider yourself to usually be more knowledgeable in this field than the average person?", options=["Yes", "No", "I don't know"], default=None, key=20*int(index)+17)
 
     st.write("Current connections:")
     for term, category in st.session_state.connections:
@@ -101,11 +102,17 @@ There are 21 groups of 5 terms in total. Have fun!
         label = "Next - I don't know enough about the other words"
     else:
         label = "Next"
-    next_input = st.button(key = 20 * int(index) + 19, label=label, help="Press this button to continue to the next group of terms.")
+
+    if not self_assessment:
+        st.write("(You need to select something for the button above before you can continue.)")
+        next_input = None
+    else:
+        next_input = st.button(key = 20 * int(index) + 19, label=label, help="Press this button to continue to the next group of terms.")
 
     st.write("**The terms above will update when you click the button. Be careful not to double-click it!**")
 
-    return st.session_state.connections, next_input
+
+    return st.session_state.connections, self_assessment, next_input
 
 def print_annotation_schema(samples, index):
     """
@@ -205,9 +212,9 @@ else:
         st.session_state.domain_list = load_annotation("sample_order", 1)
         st.session_state.samples = samples
 
-    choices, next_input = print_annotation_schema_connections(st.session_state.samples, index)
+    choices, next_input, self_assessment = print_annotation_schema_connections(st.session_state.samples, index)
     domain = st.session_state.domain_list[index]
-    annotation = {"domain": domain, "choices": choices}
+    annotation = {"domain": domain, "choices": choices, "self_assessment": self_assessment}
 
     if next_input:
         st.session_state.connections = []

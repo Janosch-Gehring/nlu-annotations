@@ -649,15 +649,15 @@
     "attention_check": [
         [
             "xx",
-            "firefly",
+            "parrot",
             5,
-            "beetle"
+            "bird"
         ],
         [
             "xx",
-            "scorpion",
+            "crocodile",
             5,
-            "arachnid"
+            "reptile"
         ],
         [
             "xx",
@@ -669,7 +669,7 @@
             "xx",
             "prakavogel",
             0,
-            "raptor"
+            "dinosaur"
         ],
         [
             "xx",
