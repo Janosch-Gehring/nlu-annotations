@@ -59,7 +59,7 @@ There are 21 groups of 5 terms in total. Have fun!
             else:
                 disable_item = False
             if st.session_state.clipboard == item:
-                color = "primary"
+                color = "secondary" #"primary"  # nevermind.. this would require a rerun
             else:
                 color = "secondary"
 
