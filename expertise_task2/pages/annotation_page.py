@@ -20,12 +20,14 @@ def print_annotation_schema_connections(samples, index):
     # display the "Sample 1/5" thing
     display_progress(key="annotation")
 
-    st.markdown("""**Connect the terms on the left with the category that best describes it on the right. For example, if one of the terms on the left is 'cat', you should look for a fitting category such as 'feline' or 'mammal'.**
+    st.markdown("""**In this study, we are investigating how familiar or unfamiliar field-specific terminology is.**
+                
+**Connect the terms on the left with the category that best describes it on the right. For example, if one of the terms on the left is 'cat', you should look for a fitting category such as 'feline' or 'mammal'.**
                 
 Many of the terms in this study will be rather obscure. You are not expected to know most terms. 
-Once you finished connecting the terms that you know, press the 'Next - I don't know enough about the other words' button. *Do not blindly guess or use search engines(!). Only connect terms that you feel somewhat confident about.* If you don't know, just go to the next one.
+Once you finished connecting the terms that you know, press the 'Next - I don't know enough about the other words' button. *Do not blindly guess or use search engines(!). Only connect terms that you feel somewhat confident about.* If you don't know, just proceed to the next one.
                 
-Each category will have at least one term associated with it. You may use process of elimination to connect the last term.
+Each category will have at least one term associated with it. You are allowed to use process of elimination to connect the last term.
                 
 **You will not be rejected for knowing too little or too much, and it is okay to make mistakes. The most important thing is that you give it an honest shot without cheating or blindly guessing.**
                     
@@ -33,7 +35,7 @@ To connect a word, first **click on the term on the left side, then click on the
 
 There are 21 groups of 5 terms in total. Have fun!
                     
-**Please note: Please do not leave/refresh the page or stay inactive for a prolonged period of time, or you will lose progress.**
+**Please note: Please do not leave/refresh the page or stay inactive for a prolonged period of time, as you may lose some progress.**
                 """)
     
     print(question)
@@ -93,13 +95,15 @@ There are 21 groups of 5 terms in total. Have fun!
 
     if len(st.session_state.connections) == 0:
         label = "Next - I don't know any of these words"
+        if st.session_state.progress > 0:
+            st.write("**Your solution for the last word group was saved. Please check the new words above.**")
     elif len(st.session_state.connections) < 5:
         label = "Next - I don't know enough about the other words"
     else:
         label = "Next"
     next_input = st.button(key = 20 * int(index) + 19, label=label, help="Press this button to continue to the next group of terms.")
 
-    st.write("The terms above will update when you click the button. Be careful not to double-click it!")
+    st.write("**The terms above will update when you click the button. Be careful not to double-click it!**")
 
     return st.session_state.connections, next_input
 
