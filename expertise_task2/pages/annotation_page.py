@@ -79,6 +79,8 @@ Some tips:
                 
 
     self_assessment = st.segmented_control("Regarding the field these terms are from, and regardless of your performance here - would you consider yourself to usually be more knowledgeable in this field than the average person?", options=["Yes", "No", "I don't know"], default=None, key=20*int(index)+17)
+    if self_assessment:
+        st.session_state.self_assessment = self_assessment
 
     st.write("Current connections:")
     for term, category in st.session_state.connections:
@@ -100,7 +102,7 @@ Some tips:
     else:
         label = "Next"
 
-    if not self_assessment:
+    if not st.session_state.self_assessment:
         st.write("(You need to select 'yes'/'No'/'I Don't Know' on the button above before you can continue.)")
         next_input = None
     else:
@@ -173,6 +175,9 @@ if "list_of_categories" not in st.session_state:
     st.session_state.list_of_categories = []
     st.session_state.list_of_terms = []
 
+if "self_assessment" not in st.session_state:
+    st.session_state.self_assessment = False
+
 if "progress" not in st.session_state:
     st.session_state.progress = user_repository.get_checkpoint("annotation")
     if not st.session_state.progress:  # no checkpoint yet -> simply go to the first relevant sample
@@ -222,4 +227,5 @@ else:
         st.session_state.clipboard = None
         st.session_state.list_of_categories = []
         st.session_state.list_of_terms = []
+        st.session_state.self_assessment = None
         handle_next_button(annotation, index, st.session_state.samples)
