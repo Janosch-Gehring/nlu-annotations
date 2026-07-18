@@ -197,7 +197,10 @@ expertise_task_annotation_page = st.Page(
     "expertise_task/pages/annotation_page.py", title="Term Familarity Task", icon="📙"
 )
 expertise_task2_annotation_page = st.Page(
-    "expertise_task2/pages/annotation_page.py", title="Term Familarity Task", icon="📙"
+    "expertise_task2/pages/annotation_page.py", title="Main Study", icon="📙"
+)
+expertise_task2_qualification_page = st.Page(
+    "expertise_task2/pages/qualification_page.py", title="Qualification Test", icon="🔑"
 )
 
 
@@ -271,7 +274,7 @@ elif st.session_state.user_id:
 
 
     elif utils.authenticate_id("expertise_task2", st.session_state.user_id):
-        available_pages["Term Familiarity Task"] = [expertise_task2_annotation_page]
+        available_pages["Term Familiarity Task"] = [expertise_task2_qualification_page, expertise_task2_annotation_page]
 
 
     available_pages["Other"] = [logout_page]

@@ -20,22 +20,21 @@ def print_annotation_schema_connections(samples, index):
     # display the "Sample 1/5" thing
     display_progress(key="annotation")
 
-    st.markdown("""**In this study, we are investigating how familiar or unfamiliar field-specific terminology is.**
+    st.markdown("""**As before, connect the terms on the left with the category that best describes it on the right.**
                 
-**Connect the terms on the left with the category that best describes it on the right. For example, if one of the terms on the left is 'cat', you should look for a fitting category such as 'feline' or 'mammal'.**
+From now on, the terms will become much more obscure. You probably will not know most of them. **Please continue skipping terms that you don't know!**
                 
-Many of the terms in this study will be rather obscure. You are not expected to know most terms. 
-Once you finished connecting the terms that you know, press the 'Next - I don't know enough about the other words' button. *Do not blindly guess or use search engines(!). Only connect terms that you feel somewhat confident about.* If you don't know, just proceed to the next one.
-
-Each category will have at least one term associated with it. You are allowed to use process of elimination to connect the last term.
+Some tips:
                 
-**You will not be rejected for knowing too little or too much, and it is okay to make mistakes. The most important thing is that you give it an honest shot without cheating or blindly guessing.**
+- Each category will fit to at least one term. You may use process of elimination to connect the last term.
+                
+- You will not be rejected for knowing too little or making some mistakes. Please simply give this test an honest shot.
+                
+- **Please do not blindly guess or cheat by using search engines.**
+   
+- There are 21 groups of 5 terms in total.
                     
-To connect a word, first **click on the term on the left side, then click on the category on the right.** The connection will be displayed below.
-
-There are 21 groups of 5 terms in total. Have fun!
-                    
-**Please note: Please do not leave/refresh the page or stay inactive for a prolonged period of time, as you may lose some progress.**
+**Please note: Do not leave/refresh the page or stay inactive for a prolonged period of time, as you may lose some progress.**
                 """)
     
     print(question)
@@ -202,6 +201,9 @@ if user_repository.check_if_done(st.session_state.user_id):
     st.write("\n\n\n")
     st.write("**Your Prolific Completion Code:**")
     st.write("# " + os.getenv("PROLIFIC_COMPLETION_CODE"))
+elif user_repository.get_qualification() < 1:
+    st.write("## You must successfully clear the qualification test before starting the main study.")
+
 else:
     index = int(st.session_state.progress)
 
