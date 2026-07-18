@@ -15,7 +15,7 @@ def print_annotation_schema_connections(samples, index):
     """
     Print annotation schema for connect-the-concept type annotatoin.
     """
-    domain = st.session_state.domain_list[index]
+    domain = "qualification"
     question = samples[domain]
     # display the "Sample 1/5" thing
 
@@ -95,7 +95,7 @@ To connect a word, first **click on the term on the left side, then click on the
     else:
         label = "Submit"
 
-    next_input = st.button(key = 20 * int(index) + 19, label=label, help="Press this button to submit your connections.")
+    next_input = st.button(key = 20 * int(index) + 15, label=label, help="Press this button to submit your connections.")
 
     st.write("**The terms above will update when you click the button. Be careful not to double-click it!**")
 
@@ -134,17 +134,16 @@ elif user_repository.get_qualification() == -1:
     st.write("## Sorry, you failed the qualification test. Please copy the below screenout code into Prolific.")
     st.write("##" + os.getenv("PROLIFIC_SCREENOUT_CODE"))
 else:
-    index = 0
+    index = 1
 
     back_button = None#st.button(label="Back", key = 10 * index + 7, help="Go back to the previous sample.")
 
     if "samples" not in st.session_state:
         st.write("(Note: Tried to re-load checkpoint after leaving page.)")
-        st.session_state.domain_list = load_annotation("sample_order", 1)
-        st.session_state.samples = samples
+        domain_list = ["qualification"]
 
-    choices, next_input, self_assessment = print_annotation_schema_connections(st.session_state.samples, index)
-    domain = st.session_state.domain_list[index]
+    choices, next_input, self_assessment = print_annotation_schema_connections(samples, index)
+    domain = domain_list[0]
     annotation = {"domain": domain, "choices": choices, "self_assessment": self_assessment}
 
     if next_input:

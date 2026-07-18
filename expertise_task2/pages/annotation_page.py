@@ -174,7 +174,7 @@ if "list_of_categories" not in st.session_state:
     st.session_state.list_of_categories = []
     st.session_state.list_of_terms = []
 
-if "progress" not in st.session_state:
+if "progress" not in st.session_state and user_repository.get_qualification() == 1:
     st.session_state.progress = user_repository.get_checkpoint("annotation")
     if not st.session_state.progress:  # no checkpoint yet -> simply go to the first relevant sample
 
