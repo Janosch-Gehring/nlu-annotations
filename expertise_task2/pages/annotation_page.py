@@ -103,12 +103,13 @@ Some tips:
         label = "Next"
 
     if not self_assessment:
-        st.write("(You need to select something for the button above before you can continue.)")
+        st.write("(You need to select 'yes'/'No'/'I Don't Know' on the button above before you can continue.)")
         next_input = None
     else:
         next_input = st.button(key = 20 * int(index) + 19, label=label, help="Press this button to continue to the next group of terms.")
 
-    st.write("**The terms above will update when you click the button. Be careful not to double-click it!**")
+    # not an issue anymore
+    #st.write("**The terms above will update when you click the button. Be careful not to double-click it!**")
 
 
     return st.session_state.connections, next_input, self_assessment
