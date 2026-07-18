@@ -132,7 +132,7 @@ if user_repository.get_qualification() == 1:
     st.write("## You finished the qualification test successfully! Now select 'Main Study' on the left to begin the study.")
 elif user_repository.get_qualification() == -1:
     st.write("## Sorry, you failed the qualification test. Please copy the below screenout code into Prolific.")
-    st.write("##" + os.getenv("PROLIFIC_SCREENOUT_CODE"))
+    st.write("## " + os.getenv("PROLIFIC_SCREENOUT_CODE"))
 else:
     index = 1
 
