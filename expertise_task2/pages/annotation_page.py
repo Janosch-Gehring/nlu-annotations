@@ -28,9 +28,7 @@ Some tips:
                 
 - Each category will fit to at least one term. You may use process of elimination to connect the last term.
                 
-- You will not be rejected for knowing too little or making some mistakes. Please simply give this test an honest shot.
-                
-- **Please do not blindly guess or cheat by using search engines.**
+- **Please do not blindly guess or cheat by using search engines.** Being honest about what you know is most important for this study.
    
 - There are 21 groups of 5 terms in total.
                     
