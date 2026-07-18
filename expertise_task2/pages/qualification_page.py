@@ -4,7 +4,7 @@ import streamlit as st
 import random
 
 from core.scripts import user_repository
-from core.scripts.utils import display_progress, read_json_from_file, handle_next_button, handle_back_button, TASK_INFO, skip_to_next_sample, load_annotation
+from core.scripts.utils import display_progress, read_json_from_file, handle_back_button, TASK_INFO, skip_to_next_sample, load_annotation
 
 
 samples = read_json_from_file(TASK_INFO["expertise_task2"]["qualification_filepath"])
@@ -97,11 +97,11 @@ To connect a word, first **click on the term on the left side, then click on the
 
     next_input = st.button(key = 20 * int(index) + 15, label=label, help="Press this button to submit your connections.")
 
-    return st.session_state.connections, self_assessment, next_input
+    return st.session_state.connections, next_input, self_assessment
 
 
 def handle_next_button(annotation, index, samples):
-    st.write("Finishing qualification...")
+    st.write("Please wait...")
     user_repository.save_one_annotation(st.session_state.user_id, "qualification", index+1, annotation)
 
     connections = annotation["choices"]

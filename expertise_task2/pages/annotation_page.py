@@ -111,7 +111,7 @@ Some tips:
     st.write("**The terms above will update when you click the button. Be careful not to double-click it!**")
 
 
-    return st.session_state.connections, self_assessment, next_input
+    return st.session_state.connections, next_input, self_assessment
 
 def print_annotation_schema(samples, index):
     """
