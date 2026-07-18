@@ -97,13 +97,11 @@ To connect a word, first **click on the term on the left side, then click on the
 
     next_input = st.button(key = 20 * int(index) + 15, label=label, help="Press this button to submit your connections.")
 
-    st.write("**The terms above will update when you click the button. Be careful not to double-click it!**")
-
-
     return st.session_state.connections, self_assessment, next_input
 
 
 def handle_next_button(annotation, index, samples):
+    st.write("Finishing qualification...")
     user_repository.save_one_annotation(st.session_state.user_id, "qualification", index+1, annotation)
 
     connections = annotation["choices"]
@@ -111,8 +109,10 @@ def handle_next_button(annotation, index, samples):
     if ["green", "color"] in connections and ["microsoft", "company"] in connections and ["milkshake", "drink"] in connections \
         and ("dschanbaringta" not in connected_terms) and ("katanberoug" not in connected_terms):
         user_repository.set_qualification(st.session_state.user_id, setting=1)
+        print("qualified")
     else:
         user_repository.set_qualification(st.session_state.user_id, setting=-1)
+        print("unqualified")
 
     st.rerun()
 
@@ -138,9 +138,7 @@ else:
 
     back_button = None#st.button(label="Back", key = 10 * index + 7, help="Go back to the previous sample.")
 
-    if "samples" not in st.session_state:
-        st.write("(Note: Tried to re-load checkpoint after leaving page.)")
-        domain_list = ["qualification"]
+    domain_list = ["qualification"]
 
     choices, next_input, self_assessment = print_annotation_schema_connections(samples, index)
     domain = domain_list[0]
@@ -151,4 +149,4 @@ else:
         st.session_state.clipboard = None
         st.session_state.list_of_categories = []
         st.session_state.list_of_terms = []
-        handle_next_button(annotation, index, st.session_state.samples)
+        handle_next_button(annotation, index, samples)
