@@ -1,72 +1,75 @@
 {
     "1": {
-        "story_id": "0",
-        "word": "hard",
-        "judged_meaning": "solid; not soft",
-        "precontext": "The puzzle pieces were scattered across the table. We spent hours on the puzzle, but each piece seemed to fit nowhere.",
-        "sentence": "It was a hard puzzle.",
-        "ending": "",
-        "sentence_info": {
-            "author": "admin",
-            "ID": -1,
-            "meaning1": "solid; not soft",
-            "meaning2": "difficult to understand or solve",
-            "meaning1_example": "The stone floor is hard.",
-            "meaning2_example": "Math is hard.",
-            "original_sentence": ""
+        "sentence": "It was a hard puzzle",
+        "story_meaning": "solid; not soft",
+        "focus_meaning_gloss": "solid; not soft",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "attention_check",
+        "example1": "The stone floor was hard.",
+        "revision": {
+            "part1": "The puzzle pieces were scattered across the table. We spent hours on the puzzle, but each piece seemed to fit nowhere.",
+            "part2": "It was a hard puzzle.",
+            "part3": ""
         },
-        "ending_info": {
-            "original_ending": "",
-            "comment": "",
-            "intended_meaning": "difficult to understand or solve"
-        },
+        "context_detailed": [
+            "She sat at the front of the room and smoothed the pages of her notebook.",
+            "After class she stayed behind to ask for another chance to perform. [added: The teacher said that perhaps she could be able to perform at the winter faite.]"
+        ],
+        "context_raw": [
+            "",
+            ""
+        ],
+        "domain_meaning": true,
         "correct_answer": [1, 2]
     },
     "2": {
-        "story_id": "1",
         "sentence": "The service there was really lousy.",
-        "ending": "",
-        "judged_meaning": "very bad",
         "word": "lousy",
-        "sentence_info": {
-            "meaning1": "infested with lice",
-            "meaning2": "very bad",
-            "meaning1_example": "My hair feels lousy and won't stop itching.",
-            "meaning2_example": "That movie was lousy!" 
+        "story_meaning": "very bad",
+        "focus_meaning_gloss": "very bad",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "attention_check",
+        "example1": "That movie was lousy!",
+        "revision": {
+            "part1": "The hotel I stayed at last week was the worst. The room was dirty and there was no one at the reception.",
+            "part2": "The service there was really lousy.",
+            "part3": ""
         },
-        "ending_info": {},
-        "precontext": "The hotel I stayed at last week was the worst. The room was dirty and there was no one at the reception.",
+        "domain_meaning": true,
         "correct_answer": [4, 5]
     },
     "3": {
-        "story_id": "2",
         "sentence": "If he had a fan, the heat would be bearable.",
-        "word": "fan",
-        "judged_meaning": "an enthusiastic follower or admirer",
-        "ending": "",
-        "sentence_info": {
-            "meaning1": "a device for creating a current of air",
-            "meaning2": "an enthusiastic follower or admirer",
-            "meaning1_example": "I bought a fan at the electronics store.",
-            "meaning2_example": "I am a huge fan of this actress."
+        "story_meaning": "an enthusiastic follower or admirer",
+        "focus_meaning_gloss": "an enthusiastic follower or admirer",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "attention_check",
+        "revision": {
+            "part1": "Max started sweating in the summer heat. His entire house felt like a sauna.",
+            "part2": "",
+            "part3": ""
         },
-        "ending_info": {},
-        "precontext": "Max started sweating in the summer heat. His entire house felt like a sauna.",
+        "domain_meaning": true,
         "correct_answer": [1, 2]
     },
     "4": {
-        "story_id": 3,
         "sentence": "In the end, Mia beat him in the race.",
         "word": "beat",
-        "judged_meaning": "come out better in a competition, race or conflict",
-        "ending": "",
-        "sentence_info": {
-            "meaning1": "strike a person violently",
-            "meaning2": "come out better in a competition, race, or conflict",
-            "meaning1_example": "It's usually not a good idea to beat your kids.",
-            "meaning2_example": "No one can beat John at chess."            
+        "story_meaning": "come out better in a competition, race or conflict",
+        "focus_meaning_gloss": "come out better in a competition, race or conflict",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "attention_check",
+        "example1": "No one can beat John at chess.",
+        "revision": {
+            "part1": "Mia and Peter were preparing for the big race. Peter was confident in his talent, so he did not train much.",
+            "part2": "",
+            "part3": ""
         },
-        "precontext": "Mia and Peter were preparing for the big race. Peter was confident in his talent, so he did not train much.",
-        "correct_answer": [4, 5]    
+        "domain_meaning": true,
+        "correct_answer": [4, 5]
     }
 }
