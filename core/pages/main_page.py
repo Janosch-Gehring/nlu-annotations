@@ -1,5 +1,6 @@
 
 import streamlit as st
+from core.scripts import user_repository
 
 st.session_state.page = "main_page"
 
@@ -27,3 +28,6 @@ else:
     **You have successfully logged in as an annotator.**  
     Click on the items in the leftside menu to start the task.
     """)
+
+    if s := st.selectbox("Set curr user qualification (debug)", options=[-1, 0, 1, 2, 3, 4], index=None):
+        user_repository.set_qualification(st.session_state.user_id, s)

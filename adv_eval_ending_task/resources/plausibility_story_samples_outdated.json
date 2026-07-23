@@ -1,0 +1,2827 @@
+{
+    "1": {
+        "sentence": "After much thought, they finally decided to enlist.",
+        "story_meaning": "hire for work or assistance",
+        "focus_meaning_gloss": "hire for work or assistance",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "military",
+        "context_detailed": [
+            "They had spent months weighing options about their next step. A small packet arrived with forms and a short list of expectations. They sat at the kitchen table late into the night talking through each clause.",
+            "The next morning they signed [added: on] [deleted: and handed] the [added: dotted line] [deleted: papers over.]"
+        ],
+        "context_raw": [
+            "They had spent months weighing options about their next step. A small packet arrived with forms and a short list of expectations. They sat at the kitchen table late into the night talking through each clause.",
+            "The next morning they signed on the dotted line"
+        ],
+        "domain_meaning": false,
+        "grouping": 0
+    },
+    "2": {
+        "sentence": "After much thought, they finally decided to enlist.",
+        "story_meaning": "hire for work or assistance",
+        "focus_meaning_gloss": "join the military",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "military",
+        "context_detailed": [
+            "They had spent months weighing options about their next step. A small packet arrived with forms and a short list of expectations. They sat at the kitchen table late into the night talking through each clause.",
+            "The next morning they signed [added: on] [deleted: and handed] the [added: dotted line] [deleted: papers over.]"
+        ],
+        "context_raw": [
+            "They had spent months weighing options about their next step. A small packet arrived with forms and a short list of expectations. They sat at the kitchen table late into the night talking through each clause.",
+            "The next morning they signed on the dotted line"
+        ],
+        "domain_meaning": false,
+        "grouping": 1
+    },
+    "3": {
+        "sentence": "After much thought, they finally decided to enlist.",
+        "story_meaning": "join the military",
+        "focus_meaning_gloss": "join the military",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "military",
+        "context_detailed": [
+            "They had spent months weighing options about their next step. A small packet arrived with forms and a short list of expectations. They sat at the kitchen table late into the night talking through each clause.",
+            "The next morning [added: as soon as they were awake] they signed and handed the papers over."
+        ],
+        "context_raw": [
+            "They had spent months weighing options about their next step. A small packet arrived with forms and a short list of expectations. They sat at the kitchen table late into the night talking through each clause.",
+            "The next morning as soon as they were awake they signed and handed the papers over."
+        ],
+        "domain_meaning": true,
+        "grouping": 2
+    },
+    "4": {
+        "sentence": "After much thought, they finally decided to enlist.",
+        "story_meaning": "join the military",
+        "focus_meaning_gloss": "hire for work or assistance",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "military",
+        "context_detailed": [
+            "They had spent months weighing options about their next step. A small packet arrived with forms and a short list of expectations. They sat at the kitchen table late into the night talking through each clause.",
+            "The next morning [added: as soon as they were awake] they signed and handed the papers over."
+        ],
+        "context_raw": [
+            "They had spent months weighing options about their next step. A small packet arrived with forms and a short list of expectations. They sat at the kitchen table late into the night talking through each clause.",
+            "The next morning as soon as they were awake they signed and handed the papers over."
+        ],
+        "domain_meaning": true,
+        "grouping": 3
+    },
+    "5": {
+        "sentence": "The draft arrived when they least expected.",
+        "story_meaning": "compulsory military service",
+        "focus_meaning_gloss": "a document ordering the payment of money; drawn by one person or bank on another",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "military",
+        "context_detailed": [
+            "They spent the morning sorting papers at the kitchen table. A neighbor stopped by to ask if they needed help with anything. One of them went to check the mailbox and held the [added: official-looking] envelope for a long [added: time, noting the government seal.] [deleted: time.]",
+            "One of them stared at the paper with a hand over their mouth. They called the number printed and left a hesitant message. By evening they were making a plan, neither sure how it would change their lives."
+        ],
+        "context_raw": [
+            "They spent the morning sorting papers at the kitchen table. A neighbor stopped by to ask if they needed help with anything. One of them went to check the mailbox and held the official-looking envelope for a long time, noting the government seal.",
+            "One of them stared at the paper with a hand over their mouth. They called the number printed and left a hesitant message. By evening they were making a plan, neither sure how it would change their lives."
+        ],
+        "domain_meaning": true,
+        "grouping": 0
+    },
+    "6": {
+        "sentence": "The draft arrived when they least expected.",
+        "story_meaning": "compulsory military service",
+        "focus_meaning_gloss": "compulsory military service",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "military",
+        "context_detailed": [
+            "They spent the morning sorting papers at the kitchen table. A neighbor stopped by to ask if they needed help with anything. One of them went to check the mailbox and held the [added: official-looking] envelope for a long [added: time, noting the government seal.] [deleted: time.]",
+            "One of them stared at the paper with a hand over their mouth. They called the number printed and left a hesitant message. By evening they were making a plan, neither sure how it would change their lives."
+        ],
+        "context_raw": [
+            "They spent the morning sorting papers at the kitchen table. A neighbor stopped by to ask if they needed help with anything. One of them went to check the mailbox and held the official-looking envelope for a long time, noting the government seal.",
+            "One of them stared at the paper with a hand over their mouth. They called the number printed and left a hesitant message. By evening they were making a plan, neither sure how it would change their lives."
+        ],
+        "domain_meaning": true,
+        "grouping": 1
+    },
+    "7": {
+        "sentence": "The draft arrived when they least expected.",
+        "story_meaning": "a document ordering the payment of money; drawn by one person or bank on another",
+        "focus_meaning_gloss": "a document ordering the payment of money; drawn by one person or bank on another",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "military",
+        "context_detailed": [
+            "They spent the morning sorting papers at the kitchen table. A neighbor stopped by to ask if they needed help with anything. One of them went to check the mailbox and held the [added: envelope.] [deleted: envelope for a long time.]",
+            "One of them stared at the paper with a hand over their mouth. They called the number printed and left a hesitant message. By evening they were making a plan, neither sure how it would change their lives."
+        ],
+        "context_raw": [
+            "They spent the morning sorting papers at the kitchen table. A neighbor stopped by to ask if they needed help with anything. One of them went to check the mailbox and held the envelope.",
+            "One of them stared at the paper with a hand over their mouth. They called the number printed and left a hesitant message. By evening they were making a plan, neither sure how it would change their lives."
+        ],
+        "domain_meaning": false,
+        "grouping": 2
+    },
+    "8": {
+        "sentence": "The draft arrived when they least expected.",
+        "story_meaning": "a document ordering the payment of money; drawn by one person or bank on another",
+        "focus_meaning_gloss": "compulsory military service",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "military",
+        "context_detailed": [
+            "They spent the morning sorting papers at the kitchen table. A neighbor stopped by to ask if they needed help with anything. One of them went to check the mailbox and held the [added: envelope.] [deleted: envelope for a long time.]",
+            "One of them stared at the paper with a hand over their mouth. They called the number printed and left a hesitant message. By evening they were making a plan, neither sure how it would change their lives."
+        ],
+        "context_raw": [
+            "They spent the morning sorting papers at the kitchen table. A neighbor stopped by to ask if they needed help with anything. One of them went to check the mailbox and held the envelope.",
+            "One of them stared at the paper with a hand over their mouth. They called the number printed and left a hesitant message. By evening they were making a plan, neither sure how it would change their lives."
+        ],
+        "domain_meaning": false,
+        "grouping": 3
+    },
+    "9": {
+        "sentence": "The lack of intelligence was disturbing.",
+        "story_meaning": "secret information about an enemy (or potential enemy)",
+        "focus_meaning_gloss": "secret information about an enemy (or potential enemy)",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "military",
+        "context_detailed": [
+            "They gathered in the living room [deleted: with a stack of folders] and [added: reviewed the papers.] [deleted: a laptop.]",
+            "They packed the materials away without deciding who would take responsibility."
+        ],
+        "context_raw": [
+            "They gathered in the living room and reviewed the papers.",
+            "They packed the materials away without deciding who would take responsibility."
+        ],
+        "domain_meaning": true,
+        "grouping": 0
+    },
+    "10": {
+        "sentence": "The lack of intelligence was disturbing.",
+        "story_meaning": "secret information about an enemy (or potential enemy)",
+        "focus_meaning_gloss": "the ability to comprehend; to understand and profit from experience",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "military",
+        "context_detailed": [
+            "They gathered in the living room [deleted: with a stack of folders] and [added: reviewed the papers.] [deleted: a laptop.]",
+            "They packed the materials away without deciding who would take responsibility."
+        ],
+        "context_raw": [
+            "They gathered in the living room and reviewed the papers.",
+            "They packed the materials away without deciding who would take responsibility."
+        ],
+        "domain_meaning": true,
+        "grouping": 1
+    },
+    "11": {
+        "sentence": "The lack of intelligence was disturbing.",
+        "story_meaning": "the ability to comprehend; to understand and profit from experience",
+        "focus_meaning_gloss": "the ability to comprehend; to understand and profit from experience",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "military",
+        "context_detailed": [
+            "They gathered in the living [added: room, faces blank,] [deleted: room] with a stack of folders and a laptop.",
+            "They packed the materials away without deciding who would take responsibility."
+        ],
+        "context_raw": [
+            "They gathered in the living room, faces blank, with a stack of folders and a laptop.",
+            "They packed the materials away without deciding who would take responsibility."
+        ],
+        "domain_meaning": false,
+        "grouping": 2
+    },
+    "12": {
+        "sentence": "The lack of intelligence was disturbing.",
+        "story_meaning": "the ability to comprehend; to understand and profit from experience",
+        "focus_meaning_gloss": "secret information about an enemy (or potential enemy)",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "military",
+        "context_detailed": [
+            "They gathered in the living [added: room, faces blank,] [deleted: room] with a stack of folders and a laptop.",
+            "They packed the materials away without deciding who would take responsibility."
+        ],
+        "context_raw": [
+            "They gathered in the living room, faces blank, with a stack of folders and a laptop.",
+            "They packed the materials away without deciding who would take responsibility."
+        ],
+        "domain_meaning": false,
+        "grouping": 3
+    },
+    "13": {
+        "sentence": "I was blessed when the priest visited me for tea.",
+        "story_meaning": "confer prosperity or happiness on",
+        "focus_meaning_gloss": "confer prosperity or happiness on",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "religion",
+        "context_detailed": [
+            "I hadn't expected visitors that afternoon. Rain had started, so I lit the lamp by the table. There was a soft knock, and the priest stepped inside [added: with an unhurried calm that made the whole room feel warmer than before.] [deleted: without asking.]",
+            "He stayed longer than I expected and talked about small things while stirring his cup. Before he left, he placed his hand lightly on my shoulder. Afterwards I felt oddly lighter and kept the teacup as a reminder."
+        ],
+        "context_raw": [
+            "I hadn't expected visitors that afternoon. Rain had started, so I lit the lamp by the table. There was a soft knock, and the priest stepped inside with an unhurried calm that made the whole room feel warmer than before.",
+            "He stayed longer than I expected and talked about small things while stirring his cup. Before he left, he placed his hand lightly on my shoulder. Afterwards I felt oddly lighter and kept the teacup as a reminder."
+        ],
+        "domain_meaning": false,
+        "grouping": 0
+    },
+    "14": {
+        "sentence": "I was blessed when the priest visited me for tea.",
+        "story_meaning": "confer prosperity or happiness on",
+        "focus_meaning_gloss": "render holy by means of religious rites",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "religion",
+        "context_detailed": [
+            "I hadn't expected visitors that afternoon. Rain had started, so I lit the lamp by the table. There was a soft knock, and the priest stepped inside [added: with an unhurried calm that made the whole room feel warmer than before.] [deleted: without asking.]",
+            "He stayed longer than I expected and talked about small things while stirring his cup. Before he left, he placed his hand lightly on my shoulder. Afterwards I felt oddly lighter and kept the teacup as a reminder."
+        ],
+        "context_raw": [
+            "I hadn't expected visitors that afternoon. Rain had started, so I lit the lamp by the table. There was a soft knock, and the priest stepped inside with an unhurried calm that made the whole room feel warmer than before.",
+            "He stayed longer than I expected and talked about small things while stirring his cup. Before he left, he placed his hand lightly on my shoulder. Afterwards I felt oddly lighter and kept the teacup as a reminder."
+        ],
+        "domain_meaning": false,
+        "grouping": 1
+    },
+    "15": {
+        "sentence": "I was blessed when the priest visited me for tea.",
+        "story_meaning": "render holy by means of religious rites",
+        "focus_meaning_gloss": "render holy by means of religious rites",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "religion",
+        "context_detailed": [
+            "I hadn't expected visitors that afternoon. Rain had started, so I lit the lamp by the table. There was a soft knock, and the priest stepped inside without asking.",
+            "He stayed longer than I expected and talked about small things while stirring his cup. Before he left, he [added: made the sign of the cross and] placed his hand lightly on my shoulder. Afterwards I felt oddly lighter and kept the teacup as a reminder."
+        ],
+        "context_raw": [
+            "I hadn't expected visitors that afternoon. Rain had started, so I lit the lamp by the table. There was a soft knock, and the priest stepped inside without asking.",
+            "He stayed longer than I expected and talked about small things while stirring his cup. Before he left, he made the sign of the cross and placed his hand lightly on my shoulder. Afterwards I felt oddly lighter and kept the teacup as a reminder."
+        ],
+        "domain_meaning": true,
+        "grouping": 2
+    },
+    "16": {
+        "sentence": "I was blessed when the priest visited me for tea.",
+        "story_meaning": "render holy by means of religious rites",
+        "focus_meaning_gloss": "confer prosperity or happiness on",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "religion",
+        "context_detailed": [
+            "I hadn't expected visitors that afternoon. Rain had started, so I lit the lamp by the table. There was a soft knock, and the priest stepped inside without asking.",
+            "He stayed longer than I expected and talked about small things while stirring his cup. Before he left, he [added: made the sign of the cross and] placed his hand lightly on my shoulder. Afterwards I felt oddly lighter and kept the teacup as a reminder."
+        ],
+        "context_raw": [
+            "I hadn't expected visitors that afternoon. Rain had started, so I lit the lamp by the table. There was a soft knock, and the priest stepped inside without asking.",
+            "He stayed longer than I expected and talked about small things while stirring his cup. Before he left, he made the sign of the cross and placed his hand lightly on my shoulder. Afterwards I felt oddly lighter and kept the teacup as a reminder."
+        ],
+        "domain_meaning": true,
+        "grouping": 3
+    },
+    "17": {
+        "sentence": "The wife placed the roast dinner on the table whilst the husband happily gave his blessing.",
+        "story_meaning": "a short prayer of thanks before a meal",
+        "focus_meaning_gloss": "a short prayer of thanks before a meal",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "religion",
+        "context_detailed": [
+            "They had been cleaning the house since morning to get ready for guests.",
+            "[added: Afterwards, forks] [deleted: Forks] clinked and everyone reached for food as a warm smell filled the kitchen."
+        ],
+        "context_raw": [
+            "They had been cleaning the house since morning to get ready for guests.",
+            "Afterwards, forks clinked and everyone reached for food as a warm smell filled the kitchen."
+        ],
+        "domain_meaning": true,
+        "grouping": 0
+    },
+    "18": {
+        "sentence": "The wife placed the roast dinner on the table whilst the husband happily gave his blessing.",
+        "story_meaning": "a short prayer of thanks before a meal",
+        "focus_meaning_gloss": "the formal act of approving",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "religion",
+        "context_detailed": [
+            "They had been cleaning the house since morning to get ready for guests.",
+            "[added: Afterwards, forks] [deleted: Forks] clinked and everyone reached for food as a warm smell filled the kitchen."
+        ],
+        "context_raw": [
+            "They had been cleaning the house since morning to get ready for guests.",
+            "Afterwards, forks clinked and everyone reached for food as a warm smell filled the kitchen."
+        ],
+        "domain_meaning": true,
+        "grouping": 1
+    },
+    "19": {
+        "sentence": "The wife placed the roast dinner on the table whilst the husband happily gave his blessing.",
+        "story_meaning": "the formal act of approving",
+        "focus_meaning_gloss": "a short prayer of thanks before a meal",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "religion",
+        "context_detailed": [
+            "They had been cleaning the house since morning to get ready for [added: important] guests.",
+            "Forks clinked and everyone reached for food as a warm smell filled the kitchen."
+        ],
+        "context_raw": [
+            "They had been cleaning the house since morning to get ready for important guests.",
+            "Forks clinked and everyone reached for food as a warm smell filled the kitchen."
+        ],
+        "domain_meaning": false,
+        "grouping": 2
+    },
+    "20": {
+        "sentence": "The wife placed the roast dinner on the table whilst the husband happily gave his blessing.",
+        "story_meaning": "the formal act of approving",
+        "focus_meaning_gloss": "the formal act of approving",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "religion",
+        "context_detailed": [
+            "They had been cleaning the house since morning to get ready for [added: important] guests.",
+            "Forks clinked and everyone reached for food as a warm smell filled the kitchen."
+        ],
+        "context_raw": [
+            "They had been cleaning the house since morning to get ready for important guests.",
+            "Forks clinked and everyone reached for food as a warm smell filled the kitchen."
+        ],
+        "domain_meaning": false,
+        "grouping": 3
+    },
+    "21": {
+        "sentence": "Elon regretted his wickedness.",
+        "story_meaning": "morally objectionable behavior",
+        "focus_meaning_gloss": "estrangement from god",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "religion",
+        "context_detailed": [
+            "Elon locked the front door behind him and looked up at the gray sky. He unfolded a letter he had kept since the meeting that morning and smoothed the creases. The handwriting accused him of something he had hoped would be forgotten. [added: He knew he could never escape.]",
+            "He tucked the letter back into his pocket and walked toward the river without calling anyone."
+        ],
+        "context_raw": [
+            "Elon locked the front door behind him and looked up at the gray sky. He unfolded a letter he had kept since the meeting that morning and smoothed the creases. The handwriting accused him of something he had hoped would be forgotten. He knew he could never escape.",
+            "He tucked the letter back into his pocket and walked toward the river without calling anyone."
+        ],
+        "domain_meaning": false,
+        "grouping": 0
+    },
+    "22": {
+        "sentence": "Elon regretted his wickedness.",
+        "story_meaning": "morally objectionable behavior",
+        "focus_meaning_gloss": "morally objectionable behavior",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "religion",
+        "context_detailed": [
+            "Elon locked the front door behind him and looked up at the gray sky. He unfolded a letter he had kept since the meeting that morning and smoothed the creases. The handwriting accused him of something he had hoped would be forgotten. [added: He knew he could never escape.]",
+            "He tucked the letter back into his pocket and walked toward the river without calling anyone."
+        ],
+        "context_raw": [
+            "Elon locked the front door behind him and looked up at the gray sky. He unfolded a letter he had kept since the meeting that morning and smoothed the creases. The handwriting accused him of something he had hoped would be forgotten. He knew he could never escape.",
+            "He tucked the letter back into his pocket and walked toward the river without calling anyone."
+        ],
+        "domain_meaning": false,
+        "grouping": 1
+    },
+    "23": {
+        "sentence": "Elon regretted his wickedness.",
+        "story_meaning": "estrangement from god",
+        "focus_meaning_gloss": "estrangement from god",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "religion",
+        "context_detailed": [
+            "Elon locked the front door behind him and looked up at the [deleted: gray] sky. He unfolded a letter he had kept since the meeting that morning and smoothed the creases. The handwriting accused him of something he had hoped would be forgotten.",
+            "He tucked the letter back into his pocket and walked toward the river without calling anyone."
+        ],
+        "context_raw": [
+            "Elon locked the front door behind him and looked up at the sky. He unfolded a letter he had kept since the meeting that morning and smoothed the creases. The handwriting accused him of something he had hoped would be forgotten.",
+            "He tucked the letter back into his pocket and walked toward the river without calling anyone."
+        ],
+        "domain_meaning": true,
+        "grouping": 2
+    },
+    "24": {
+        "sentence": "Elon regretted his wickedness.",
+        "story_meaning": "estrangement from god",
+        "focus_meaning_gloss": "morally objectionable behavior",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "religion",
+        "context_detailed": [
+            "Elon locked the front door behind him and looked up at the [deleted: gray] sky. He unfolded a letter he had kept since the meeting that morning and smoothed the creases. The handwriting accused him of something he had hoped would be forgotten.",
+            "He tucked the letter back into his pocket and walked toward the river without calling anyone."
+        ],
+        "context_raw": [
+            "Elon locked the front door behind him and looked up at the sky. He unfolded a letter he had kept since the meeting that morning and smoothed the creases. The handwriting accused him of something he had hoped would be forgotten.",
+            "He tucked the letter back into his pocket and walked toward the river without calling anyone."
+        ],
+        "domain_meaning": true,
+        "grouping": 3
+    },
+    "25": {
+        "sentence": "Attending a religious school, Peter was regularly tasked with learning texts.",
+        "story_meaning": "a book prepared for use in schools or colleges",
+        "focus_meaning_gloss": "a passage from the Bible that is used as the subject of a sermon",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "religion",
+        "context_detailed": [
+            "Peter moved back to town with his family just before the school year started. Each day began early and followed a strict schedule.",
+            "At home his mother listened [added: intently] as he repeated them and marked which parts he still needed to work on."
+        ],
+        "context_raw": [
+            "Peter moved back to town with his family just before the school year started. Each day began early and followed a strict schedule.",
+            "At home his mother listened intently as he repeated them and marked which parts he still needed to work on."
+        ],
+        "domain_meaning": false,
+        "grouping": 0
+    },
+    "26": {
+        "sentence": "Attending a religious school, Peter was regularly tasked with learning texts.",
+        "story_meaning": "a book prepared for use in schools or colleges",
+        "focus_meaning_gloss": "a book prepared for use in schools or colleges",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "religion",
+        "context_detailed": [
+            "Peter moved back to town with his family just before the school year started. Each day began early and followed a strict schedule.",
+            "At home his mother listened [added: intently] as he repeated them and marked which parts he still needed to work on."
+        ],
+        "context_raw": [
+            "Peter moved back to town with his family just before the school year started. Each day began early and followed a strict schedule.",
+            "At home his mother listened intently as he repeated them and marked which parts he still needed to work on."
+        ],
+        "domain_meaning": false,
+        "grouping": 1
+    },
+    "27": {
+        "sentence": "Attending a religious school, Peter was regularly tasked with learning texts.",
+        "story_meaning": "a passage from the Bible that is used as the subject of a sermon",
+        "focus_meaning_gloss": "a book prepared for use in schools or colleges",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "religion",
+        "context_detailed": [
+            "Peter moved back to town with his family just before the school year started. Each day began early and followed a strict schedule.",
+            "At home his mother listened as he repeated them and marked which [added: passages] [deleted: parts] he still needed to work on."
+        ],
+        "context_raw": [
+            "Peter moved back to town with his family just before the school year started. Each day began early and followed a strict schedule.",
+            "At home his mother listened as he repeated them and marked which passages he still needed to work on."
+        ],
+        "domain_meaning": true,
+        "grouping": 2
+    },
+    "28": {
+        "sentence": "Attending a religious school, Peter was regularly tasked with learning texts.",
+        "story_meaning": "a passage from the Bible that is used as the subject of a sermon",
+        "focus_meaning_gloss": "a passage from the Bible that is used as the subject of a sermon",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "religion",
+        "context_detailed": [
+            "Peter moved back to town with his family just before the school year started. Each day began early and followed a strict schedule.",
+            "At home his mother listened as he repeated them and marked which [added: passages] [deleted: parts] he still needed to work on."
+        ],
+        "context_raw": [
+            "Peter moved back to town with his family just before the school year started. Each day began early and followed a strict schedule.",
+            "At home his mother listened as he repeated them and marked which passages he still needed to work on."
+        ],
+        "domain_meaning": true,
+        "grouping": 3
+    },
+    "29": {
+        "sentence": "As we sat on the hill and talked, I noticed some obfuscation.",
+        "story_meaning": "confusion resulting from failure to understand",
+        "focus_meaning_gloss": "confusion resulting from failure to understand",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "psychology",
+        "context_detailed": [
+            "We climbed the low hill after dinner to watch the view. We spread a blanket [added: .] [deleted: and passed a bottle back and forth.]",
+            "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow path."
+        ],
+        "context_raw": [
+            "We climbed the low hill after dinner to watch the view. We spread a blanket .",
+            "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow path."
+        ],
+        "domain_meaning": true,
+        "grouping": 0
+    },
+    "30": {
+        "sentence": "As we sat on the hill and talked, I noticed some obfuscation.",
+        "story_meaning": "confusion resulting from failure to understand",
+        "focus_meaning_gloss": "darkening or obscuring the sight of something",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "psychology",
+        "context_detailed": [
+            "We climbed the low hill after dinner to watch the view. We spread a blanket [added: .] [deleted: and passed a bottle back and forth.]",
+            "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow path."
+        ],
+        "context_raw": [
+            "We climbed the low hill after dinner to watch the view. We spread a blanket .",
+            "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow path."
+        ],
+        "domain_meaning": true,
+        "grouping": 1
+    },
+    "31": {
+        "sentence": "As we sat on the hill and talked, I noticed some obfuscation.",
+        "story_meaning": "darkening or obscuring the sight of something",
+        "focus_meaning_gloss": "darkening or obscuring the sight of something",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "psychology",
+        "context_detailed": [
+            "We climbed the low hill after dinner to watch the view. We spread a blanket and passed a bottle back and forth.",
+            "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow [added: path very quickly!] [deleted: path.]"
+        ],
+        "context_raw": [
+            "We climbed the low hill after dinner to watch the view. We spread a blanket and passed a bottle back and forth.",
+            "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow path very quickly!"
+        ],
+        "domain_meaning": false,
+        "grouping": 2
+    },
+    "32": {
+        "sentence": "As we sat on the hill and talked, I noticed some obfuscation.",
+        "story_meaning": "darkening or obscuring the sight of something",
+        "focus_meaning_gloss": "confusion resulting from failure to understand",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "psychology",
+        "context_detailed": [
+            "We climbed the low hill after dinner to watch the view. We spread a blanket and passed a bottle back and forth.",
+            "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow [added: path very quickly!] [deleted: path.]"
+        ],
+        "context_raw": [
+            "We climbed the low hill after dinner to watch the view. We spread a blanket and passed a bottle back and forth.",
+            "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow path very quickly!"
+        ],
+        "domain_meaning": false,
+        "grouping": 3
+    },
+    "33": {
+        "sentence": "She was objectified by the men around her as they drew her portrait.",
+        "story_meaning": "make external or objective, or give reality to",
+        "focus_meaning_gloss": "make impersonal or present as an object",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "psychology",
+        "context_detailed": [
+            "She agreed to pose for the afternoon session at the shared studio. A circle of men leaned in, sharpening pencils and arranging their boards. She sat on a stool and kept her hands folded while they measured angles.",
+            "[added: She thought it was best to carry on.] [deleted: (No text necessary)]"
+        ],
+        "context_raw": [
+            "She agreed to pose for the afternoon session at the shared studio. A circle of men leaned in, sharpening pencils and arranging their boards. She sat on a stool and kept her hands folded while they measured angles.",
+            "She thought it was best to carry on."
+        ],
+        "domain_meaning": false,
+        "grouping": 0
+    },
+    "34": {
+        "sentence": "She was objectified by the men around her as they drew her portrait.",
+        "story_meaning": "make external or objective, or give reality to",
+        "focus_meaning_gloss": "make external or objective, or give reality to",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "psychology",
+        "context_detailed": [
+            "She agreed to pose for the afternoon session at the shared studio. A circle of men leaned in, sharpening pencils and arranging their boards. She sat on a stool and kept her hands folded while they measured angles.",
+            "[added: She thought it was best to carry on.] [deleted: (No text necessary)]"
+        ],
+        "context_raw": [
+            "She agreed to pose for the afternoon session at the shared studio. A circle of men leaned in, sharpening pencils and arranging their boards. She sat on a stool and kept her hands folded while they measured angles.",
+            "She thought it was best to carry on."
+        ],
+        "domain_meaning": false,
+        "grouping": 1
+    },
+    "35": {
+        "sentence": "She was objectified by the men around her as they drew her portrait.",
+        "story_meaning": "make impersonal or present as an object",
+        "focus_meaning_gloss": "make impersonal or present as an object",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "psychology",
+        "context_detailed": [
+            "She [added: reluctantly] agreed to pose for the afternoon session at the shared studio. A circle of men [added: eagerly] leaned in, sharpening pencils and arranging their boards. [added: They fixed their eyes] [deleted: She sat] on [deleted: a stool and kept] her [added: as] [deleted: hands folded while] they [added: started to work.] [deleted: measured angles.]",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "She reluctantly agreed to pose for the afternoon session at the shared studio. A circle of men eagerly leaned in, sharpening pencils and arranging their boards. They fixed their eyes on her as they started to work.",
+            "(No text necessary)"
+        ],
+        "domain_meaning": true,
+        "grouping": 2
+    },
+    "36": {
+        "sentence": "She was objectified by the men around her as they drew her portrait.",
+        "story_meaning": "make impersonal or present as an object",
+        "focus_meaning_gloss": "make external or objective, or give reality to",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "psychology",
+        "context_detailed": [
+            "She [added: reluctantly] agreed to pose for the afternoon session at the shared studio. A circle of men [added: eagerly] leaned in, sharpening pencils and arranging their boards. [added: They fixed their eyes] [deleted: She sat] on [deleted: a stool and kept] her [added: as] [deleted: hands folded while] they [added: started to work.] [deleted: measured angles.]",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "She reluctantly agreed to pose for the afternoon session at the shared studio. A circle of men eagerly leaned in, sharpening pencils and arranging their boards. They fixed their eyes on her as they started to work.",
+            "(No text necessary)"
+        ],
+        "domain_meaning": true,
+        "grouping": 3
+    },
+    "37": {
+        "sentence": "The suspense was killing her.",
+        "story_meaning": "excited anticipation of an approaching climax",
+        "focus_meaning_gloss": "an uncertain cognitive state",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "psychology",
+        "context_detailed": [
+            "She had been checking the small digital clock on her phone every few minutes. [added: Still nothing.]",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "She had been checking the small digital clock on her phone every few minutes. Still nothing.",
+            "(No text necessary)"
+        ],
+        "domain_meaning": false,
+        "grouping": 0
+    },
+    "38": {
+        "sentence": "The suspense was killing her.",
+        "story_meaning": "excited anticipation of an approaching climax",
+        "focus_meaning_gloss": "excited anticipation of an approaching climax",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "psychology",
+        "context_detailed": [
+            "She had been checking the small digital clock on her phone every few minutes. [added: Still nothing.]",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "She had been checking the small digital clock on her phone every few minutes. Still nothing.",
+            "(No text necessary)"
+        ],
+        "domain_meaning": false,
+        "grouping": 1
+    },
+    "39": {
+        "sentence": "The suspense was killing her.",
+        "story_meaning": "an uncertain cognitive state",
+        "focus_meaning_gloss": "excited anticipation of an approaching climax",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "psychology",
+        "context_detailed": [
+            "She had been checking the small digital clock on her phone every few [added: seconds] [deleted: minutes.]",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "She had been checking the small digital clock on her phone every few seconds",
+            "(No text necessary)"
+        ],
+        "domain_meaning": true,
+        "grouping": 2
+    },
+    "40": {
+        "sentence": "The suspense was killing her.",
+        "story_meaning": "an uncertain cognitive state",
+        "focus_meaning_gloss": "an uncertain cognitive state",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "psychology",
+        "context_detailed": [
+            "She had been checking the small digital clock on her phone every few [added: seconds] [deleted: minutes.]",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "She had been checking the small digital clock on her phone every few seconds",
+            "(No text necessary)"
+        ],
+        "domain_meaning": true,
+        "grouping": 3
+    },
+    "41": {
+        "sentence": "She was concerned with this newest reservation.",
+        "story_meaning": "a district that is reserved for particular purpose",
+        "focus_meaning_gloss": "a district that is reserved for particular purpose",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "psychology",
+        "context_detailed": [
+            "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen [added: before or had expected to see.] [deleted: before.]",
+            "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        ],
+        "context_raw": [
+            "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen before or had expected to see.",
+            "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        ],
+        "domain_meaning": false,
+        "grouping": 0
+    },
+    "42": {
+        "sentence": "She was concerned with this newest reservation.",
+        "story_meaning": "a district that is reserved for particular purpose",
+        "focus_meaning_gloss": "an unstated doubt that prevents you from accepting something wholeheartedly",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "psychology",
+        "context_detailed": [
+            "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen [added: before or had expected to see.] [deleted: before.]",
+            "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        ],
+        "context_raw": [
+            "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen before or had expected to see.",
+            "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        ],
+        "domain_meaning": false,
+        "grouping": 1
+    },
+    "43": {
+        "sentence": "She was concerned with this newest reservation.",
+        "story_meaning": "an unstated doubt that prevents you from accepting something wholeheartedly",
+        "focus_meaning_gloss": "an unstated doubt that prevents you from accepting something wholeheartedly",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "psychology",
+        "context_detailed": [
+            "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen [added: before, a third party may obstruct her ongoing work.] [deleted: before.]",
+            "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        ],
+        "context_raw": [
+            "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen before, a third party may obstruct her ongoing work.",
+            "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        ],
+        "domain_meaning": true,
+        "grouping": 2
+    },
+    "44": {
+        "sentence": "She was concerned with this newest reservation.",
+        "story_meaning": "an unstated doubt that prevents you from accepting something wholeheartedly",
+        "focus_meaning_gloss": "a district that is reserved for particular purpose",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "psychology",
+        "context_detailed": [
+            "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen [added: before, a third party may obstruct her ongoing work.] [deleted: before.]",
+            "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        ],
+        "context_raw": [
+            "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen before, a third party may obstruct her ongoing work.",
+            "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        ],
+        "domain_meaning": true,
+        "grouping": 3
+    },
+    "45": {
+        "sentence": "The revolution led to a drastic change in direction.",
+        "story_meaning": "a drastic and far-reaching change in ways of thinking and behaving",
+        "focus_meaning_gloss": "a drastic and far-reaching change in ways of thinking and behaving",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "history",
+        "context_detailed": [
+            "They gathered in the square before dawn with quiet purpose.",
+            "Within days, the pattern of movement in the neighborhood was noticeably [added: different.] [deleted: different and friends kept asking one another how it had started.]"
+        ],
+        "context_raw": [
+            "They gathered in the square before dawn with quiet purpose.",
+            "Within days, the pattern of movement in the neighborhood was noticeably different."
+        ],
+        "domain_meaning": false,
+        "grouping": 0
+    },
+    "46": {
+        "sentence": "The revolution led to a drastic change in direction.",
+        "story_meaning": "a drastic and far-reaching change in ways of thinking and behaving",
+        "focus_meaning_gloss": "the overthrow of a government by those who are governed",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "history",
+        "context_detailed": [
+            "They gathered in the square before dawn with quiet purpose.",
+            "Within days, the pattern of movement in the neighborhood was noticeably [added: different.] [deleted: different and friends kept asking one another how it had started.]"
+        ],
+        "context_raw": [
+            "They gathered in the square before dawn with quiet purpose.",
+            "Within days, the pattern of movement in the neighborhood was noticeably different."
+        ],
+        "domain_meaning": false,
+        "grouping": 1
+    },
+    "47": {
+        "sentence": "The revolution led to a drastic change in direction.",
+        "story_meaning": "the overthrow of a government by those who are governed",
+        "focus_meaning_gloss": "a drastic and far-reaching change in ways of thinking and behaving",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "history",
+        "context_detailed": [
+            "They gathered in the square before dawn with quiet purpose.",
+            "Within days, the [added: atmosphere] [deleted: pattern of movement] in the neighborhood was noticeably different and friends kept asking one another how it had started."
+        ],
+        "context_raw": [
+            "They gathered in the square before dawn with quiet purpose.",
+            "Within days, the atmosphere in the neighborhood was noticeably different and friends kept asking one another how it had started."
+        ],
+        "domain_meaning": true,
+        "grouping": 2
+    },
+    "48": {
+        "sentence": "The revolution led to a drastic change in direction.",
+        "story_meaning": "the overthrow of a government by those who are governed",
+        "focus_meaning_gloss": "the overthrow of a government by those who are governed",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "history",
+        "context_detailed": [
+            "They gathered in the square before dawn with quiet purpose.",
+            "Within days, the [added: atmosphere] [deleted: pattern of movement] in the neighborhood was noticeably different and friends kept asking one another how it had started."
+        ],
+        "context_raw": [
+            "They gathered in the square before dawn with quiet purpose.",
+            "Within days, the atmosphere in the neighborhood was noticeably different and friends kept asking one another how it had started."
+        ],
+        "domain_meaning": true,
+        "grouping": 3
+    },
+    "49": {
+        "sentence": "Her time there was ruined by the tyrant in charge.",
+        "story_meaning": "a cruel and oppressive dictator",
+        "focus_meaning_gloss": "a cruel and oppressive dictator",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "history",
+        "context_detailed": [
+            "She took a job at a coastal research station to save money.",
+            "She lodged complaints with others but nothing changed. After two months she [deleted: stopped answering messages and] booked the earliest boat off the island. Back home she could not shake how small decisions there still made her anxious."
+        ],
+        "context_raw": [
+            "She took a job at a coastal research station to save money.",
+            "She lodged complaints with others but nothing changed. After two months she booked the earliest boat off the island. Back home she could not shake how small decisions there still made her anxious."
+        ],
+        "domain_meaning": true,
+        "grouping": 0
+    },
+    "50": {
+        "sentence": "Her time there was ruined by the tyrant in charge.",
+        "story_meaning": "a cruel and oppressive dictator",
+        "focus_meaning_gloss": "any person who exercises power in a cruel way",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "history",
+        "context_detailed": [
+            "She took a job at a coastal research station to save money.",
+            "She lodged complaints with others but nothing changed. After two months she [deleted: stopped answering messages and] booked the earliest boat off the island. Back home she could not shake how small decisions there still made her anxious."
+        ],
+        "context_raw": [
+            "She took a job at a coastal research station to save money.",
+            "She lodged complaints with others but nothing changed. After two months she booked the earliest boat off the island. Back home she could not shake how small decisions there still made her anxious."
+        ],
+        "domain_meaning": true,
+        "grouping": 1
+    },
+    "51": {
+        "sentence": "Her time there was ruined by the tyrant in charge.",
+        "story_meaning": "any person who exercises power in a cruel way",
+        "focus_meaning_gloss": "a cruel and oppressive dictator",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "history",
+        "context_detailed": [
+            "She took a job at a coastal research station to save money.",
+            "She lodged complaints with others [added: about the behaviour] but nothing changed. After two months she stopped answering messages and booked the earliest boat off the island. [deleted: Back home she could not shake how small decisions there still made her anxious.]"
+        ],
+        "context_raw": [
+            "She took a job at a coastal research station to save money.",
+            "She lodged complaints with others about the behaviour but nothing changed. After two months she stopped answering messages and booked the earliest boat off the island."
+        ],
+        "domain_meaning": false,
+        "grouping": 2
+    },
+    "52": {
+        "sentence": "Her time there was ruined by the tyrant in charge.",
+        "story_meaning": "any person who exercises power in a cruel way",
+        "focus_meaning_gloss": "any person who exercises power in a cruel way",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "history",
+        "context_detailed": [
+            "She took a job at a coastal research station to save money.",
+            "She lodged complaints with others [added: about the behaviour] but nothing changed. After two months she stopped answering messages and booked the earliest boat off the island. [deleted: Back home she could not shake how small decisions there still made her anxious.]"
+        ],
+        "context_raw": [
+            "She took a job at a coastal research station to save money.",
+            "She lodged complaints with others about the behaviour but nothing changed. After two months she stopped answering messages and booked the earliest boat off the island."
+        ],
+        "domain_meaning": false,
+        "grouping": 3
+    },
+    "53": {
+        "sentence": "It was a big coup for all involved.",
+        "story_meaning": "a sudden and decisive change of government illegally or by force",
+        "focus_meaning_gloss": "a brilliant and notable success",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "history",
+        "context_detailed": [
+            "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the [added: government building .] [deleted: bridge.]",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the government building .",
+            "(No text necessary)"
+        ],
+        "domain_meaning": true,
+        "grouping": 0
+    },
+    "54": {
+        "sentence": "It was a big coup for all involved.",
+        "story_meaning": "a sudden and decisive change of government illegally or by force",
+        "focus_meaning_gloss": "a sudden and decisive change of government illegally or by force",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "history",
+        "context_detailed": [
+            "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the [added: government building .] [deleted: bridge.]",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the government building .",
+            "(No text necessary)"
+        ],
+        "domain_meaning": true,
+        "grouping": 1
+    },
+    "55": {
+        "sentence": "It was a big coup for all involved.",
+        "story_meaning": "a brilliant and notable success",
+        "focus_meaning_gloss": "a brilliant and notable success",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "history",
+        "context_detailed": [
+            "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the bridge.",
+            "[added: Select the second part.] [deleted: (No text necessary)]"
+        ],
+        "context_raw": [
+            "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the bridge.",
+            "Select the second part."
+        ],
+        "domain_meaning": false,
+        "grouping": 2
+    },
+    "56": {
+        "sentence": "It was a big coup for all involved.",
+        "story_meaning": "a brilliant and notable success",
+        "focus_meaning_gloss": "a sudden and decisive change of government illegally or by force",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "history",
+        "context_detailed": [
+            "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the bridge.",
+            "[added: Select the second part.] [deleted: (No text necessary)]"
+        ],
+        "context_raw": [
+            "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the bridge.",
+            "Select the second part."
+        ],
+        "domain_meaning": false,
+        "grouping": 3
+    },
+    "57": {
+        "sentence": "The meteor NASA discovered last week is going to eclipse Mercury.",
+        "story_meaning": "be greater in significance than",
+        "focus_meaning_gloss": "be greater in significance than",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "astronomy",
+        "context_detailed": [
+            "A short bulletin ran across the agency's feed about an object they had only just noticed. [added: Follow-up analysis compared its projected significance with that of nearby celestial bodies, including Mercury.]",
+            "Officials say they will release more detailed data after the evening press conference. Amateur astronomers and science blogs are already debating what the announcement will mean."
+        ],
+        "context_raw": [
+            "A short bulletin ran across the agency's feed about an object they had only just noticed. Follow-up analysis compared its projected significance with that of nearby celestial bodies, including Mercury.",
+            "Officials say they will release more detailed data after the evening press conference. Amateur astronomers and science blogs are already debating what the announcement will mean."
+        ],
+        "domain_meaning": false,
+        "grouping": 0
+    },
+    "58": {
+        "sentence": "The meteor NASA discovered last week is going to eclipse Mercury.",
+        "story_meaning": "be greater in significance than",
+        "focus_meaning_gloss": "cause an eclipse of (a celestial body) by intervention",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "astronomy",
+        "context_detailed": [
+            "A short bulletin ran across the agency's feed about an object they had only just noticed. [added: Follow-up analysis compared its projected significance with that of nearby celestial bodies, including Mercury.]",
+            "Officials say they will release more detailed data after the evening press conference. Amateur astronomers and science blogs are already debating what the announcement will mean."
+        ],
+        "context_raw": [
+            "A short bulletin ran across the agency's feed about an object they had only just noticed. Follow-up analysis compared its projected significance with that of nearby celestial bodies, including Mercury.",
+            "Officials say they will release more detailed data after the evening press conference. Amateur astronomers and science blogs are already debating what the announcement will mean."
+        ],
+        "domain_meaning": false,
+        "grouping": 1
+    },
+    "59": {
+        "sentence": "The meteor NASA discovered last week is going to eclipse Mercury.",
+        "story_meaning": "cause an eclipse of (a celestial body) by intervention",
+        "focus_meaning_gloss": "be greater in significance than",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "astronomy",
+        "context_detailed": [
+            "A short bulletin ran across the agency's feed about an object they had only just noticed.",
+            "Officials say they will release more detailed data after the evening press conference. Amateur astronomers and science blogs are already debating what the announcement will mean. [added: This was the first time in a century that Mercury would be fully covered]"
+        ],
+        "context_raw": [
+            "A short bulletin ran across the agency's feed about an object they had only just noticed.",
+            "Officials say they will release more detailed data after the evening press conference. Amateur astronomers and science blogs are already debating what the announcement will mean. This was the first time in a century that Mercury would be fully covered"
+        ],
+        "domain_meaning": true,
+        "grouping": 2
+    },
+    "60": {
+        "sentence": "The meteor NASA discovered last week is going to eclipse Mercury.",
+        "story_meaning": "cause an eclipse of (a celestial body) by intervention",
+        "focus_meaning_gloss": "cause an eclipse of (a celestial body) by intervention",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "astronomy",
+        "context_detailed": [
+            "A short bulletin ran across the agency's feed about an object they had only just noticed.",
+            "Officials say they will release more detailed data after the evening press conference. Amateur astronomers and science blogs are already debating what the announcement will mean. [added: This was the first time in a century that Mercury would be fully covered]"
+        ],
+        "context_raw": [
+            "A short bulletin ran across the agency's feed about an object they had only just noticed.",
+            "Officials say they will release more detailed data after the evening press conference. Amateur astronomers and science blogs are already debating what the announcement will mean. This was the first time in a century that Mercury would be fully covered"
+        ],
+        "domain_meaning": true,
+        "grouping": 3
+    },
+    "61": {
+        "sentence": "The prop was right where it should be.",
+        "story_meaning": "any movable articles or objects used on the set of a play or movie",
+        "focus_meaning_gloss": "a support placed beneath or against something to keep it from shaking or falling",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "theatre",
+        "context_detailed": [
+            "She set the box down on the floor and wiped her hands. A framed photograph leaned against the shelf after she moved [added: it to match the scene layout.] [deleted: it.] She stepped back and scanned the room for anything out of place.",
+            "They gave it a careful tap and watched whether anything shifted. Their phone buzzed with a message asking if everything was ready, and they typed a quick \"yes\". Before leaving, they flipped the switch and closed the door behind them."
+        ],
+        "context_raw": [
+            "She set the box down on the floor and wiped her hands. A framed photograph leaned against the shelf after she moved it to match the scene layout. She stepped back and scanned the room for anything out of place.",
+            "They gave it a careful tap and watched whether anything shifted. Their phone buzzed with a message asking if everything was ready, and they typed a quick \"yes\". Before leaving, they flipped the switch and closed the door behind them."
+        ],
+        "domain_meaning": true,
+        "grouping": 0
+    },
+    "62": {
+        "sentence": "The prop was right where it should be.",
+        "story_meaning": "any movable articles or objects used on the set of a play or movie",
+        "focus_meaning_gloss": "any movable articles or objects used on the set of a play or movie",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "theatre",
+        "context_detailed": [
+            "She set the box down on the floor and wiped her hands. A framed photograph leaned against the shelf after she moved [added: it to match the scene layout.] [deleted: it.] She stepped back and scanned the room for anything out of place.",
+            "They gave it a careful tap and watched whether anything shifted. Their phone buzzed with a message asking if everything was ready, and they typed a quick \"yes\". Before leaving, they flipped the switch and closed the door behind them."
+        ],
+        "context_raw": [
+            "She set the box down on the floor and wiped her hands. A framed photograph leaned against the shelf after she moved it to match the scene layout. She stepped back and scanned the room for anything out of place.",
+            "They gave it a careful tap and watched whether anything shifted. Their phone buzzed with a message asking if everything was ready, and they typed a quick \"yes\". Before leaving, they flipped the switch and closed the door behind them."
+        ],
+        "domain_meaning": true,
+        "grouping": 1
+    },
+    "63": {
+        "sentence": "The prop was right where it should be.",
+        "story_meaning": "a support placed beneath or against something to keep it from shaking or falling",
+        "focus_meaning_gloss": "a support placed beneath or against something to keep it from shaking or falling",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "theatre",
+        "context_detailed": [
+            "She set the box down on the floor and wiped her hands. A framed photograph leaned against the shelf after she moved it. She stepped back and scanned the room for anything out of [added: place, noticing a small wooden wedge placed beneath the cabinet to keep it from tilting.] [deleted: place.]",
+            "They gave it a careful tap and watched whether anything shifted. Their phone buzzed with a message asking if everything was ready, and they typed a quick \"yes\". Before leaving, they flipped the switch and closed the door behind them."
+        ],
+        "context_raw": [
+            "She set the box down on the floor and wiped her hands. A framed photograph leaned against the shelf after she moved it. She stepped back and scanned the room for anything out of place, noticing a small wooden wedge placed beneath the cabinet to keep it from tilting.",
+            "They gave it a careful tap and watched whether anything shifted. Their phone buzzed with a message asking if everything was ready, and they typed a quick \"yes\". Before leaving, they flipped the switch and closed the door behind them."
+        ],
+        "domain_meaning": false,
+        "grouping": 2
+    },
+    "64": {
+        "sentence": "The prop was right where it should be.",
+        "story_meaning": "a support placed beneath or against something to keep it from shaking or falling",
+        "focus_meaning_gloss": "any movable articles or objects used on the set of a play or movie",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "theatre",
+        "context_detailed": [
+            "She set the box down on the floor and wiped her hands. A framed photograph leaned against the shelf after she moved it. She stepped back and scanned the room for anything out of [added: place, noticing a small wooden wedge placed beneath the cabinet to keep it from tilting.] [deleted: place.]",
+            "They gave it a careful tap and watched whether anything shifted. Their phone buzzed with a message asking if everything was ready, and they typed a quick \"yes\". Before leaving, they flipped the switch and closed the door behind them."
+        ],
+        "context_raw": [
+            "She set the box down on the floor and wiped her hands. A framed photograph leaned against the shelf after she moved it. She stepped back and scanned the room for anything out of place, noticing a small wooden wedge placed beneath the cabinet to keep it from tilting.",
+            "They gave it a careful tap and watched whether anything shifted. Their phone buzzed with a message asking if everything was ready, and they typed a quick \"yes\". Before leaving, they flipped the switch and closed the door behind them."
+        ],
+        "domain_meaning": false,
+        "grouping": 3
+    },
+    "65": {
+        "sentence": "Sally was recognised by all as an experienced, reliable trouper.",
+        "story_meaning": "an actor who travels around the country presenting plays",
+        "focus_meaning_gloss": "a person who is reliable and uncomplaining and hard working",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "theatre",
+        "context_detailed": [
+            "Sally arrived at the hall before dawn with a battered [added: suitcase] [deleted: case] under her arm. She checked the schedule pinned by the door and tightened the straps on her bag.",
+            "After the crowd dispersed she counted the receipts, loaded the van, and drove back home."
+        ],
+        "context_raw": [
+            "Sally arrived at the hall before dawn with a battered suitcase under her arm. She checked the schedule pinned by the door and tightened the straps on her bag.",
+            "After the crowd dispersed she counted the receipts, loaded the van, and drove back home."
+        ],
+        "domain_meaning": true,
+        "grouping": 0
+    },
+    "66": {
+        "sentence": "Sally was recognised by all as an experienced, reliable trouper.",
+        "story_meaning": "an actor who travels around the country presenting plays",
+        "focus_meaning_gloss": "an actor who travels around the country presenting plays",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "theatre",
+        "context_detailed": [
+            "Sally arrived at the hall before dawn with a battered [added: suitcase] [deleted: case] under her arm. She checked the schedule pinned by the door and tightened the straps on her bag.",
+            "After the crowd dispersed she counted the receipts, loaded the van, and drove back home."
+        ],
+        "context_raw": [
+            "Sally arrived at the hall before dawn with a battered suitcase under her arm. She checked the schedule pinned by the door and tightened the straps on her bag.",
+            "After the crowd dispersed she counted the receipts, loaded the van, and drove back home."
+        ],
+        "domain_meaning": true,
+        "grouping": 1
+    },
+    "67": {
+        "sentence": "Sally was recognised by all as an experienced, reliable trouper.",
+        "story_meaning": "a person who is reliable and uncomplaining and hard working",
+        "focus_meaning_gloss": "a person who is reliable and uncomplaining and hard working",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "theatre",
+        "context_detailed": [
+            "Sally arrived at the hall before dawn with a battered case under her arm. She checked the schedule pinned by the door and tightened the straps on her bag.",
+            "[added: But sometimes she just wanted to step back, from all] [deleted: After] the [added: responsibilities] [deleted: crowd dispersed she counted the receipts, loaded the van,] and [added: switch off.] [deleted: drove back home.]"
+        ],
+        "context_raw": [
+            "Sally arrived at the hall before dawn with a battered case under her arm. She checked the schedule pinned by the door and tightened the straps on her bag.",
+            "But sometimes she just wanted to step back, from all the responsibilities and switch off."
+        ],
+        "domain_meaning": false,
+        "grouping": 2
+    },
+    "68": {
+        "sentence": "Sally was recognised by all as an experienced, reliable trouper.",
+        "story_meaning": "a person who is reliable and uncomplaining and hard working",
+        "focus_meaning_gloss": "an actor who travels around the country presenting plays",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "theatre",
+        "context_detailed": [
+            "Sally arrived at the hall before dawn with a battered case under her arm. She checked the schedule pinned by the door and tightened the straps on her bag.",
+            "[added: But sometimes she just wanted to step back, from all] [deleted: After] the [added: responsibilities] [deleted: crowd dispersed she counted the receipts, loaded the van,] and [added: switch off.] [deleted: drove back home.]"
+        ],
+        "context_raw": [
+            "Sally arrived at the hall before dawn with a battered case under her arm. She checked the schedule pinned by the door and tightened the straps on her bag.",
+            "But sometimes she just wanted to step back, from all the responsibilities and switch off."
+        ],
+        "domain_meaning": false,
+        "grouping": 3
+    },
+    "69": {
+        "sentence": "We had a huge delay in getting to the end, since the shifter wasn't working today.",
+        "story_meaning": "a mechanical device for engaging and disengaging gears",
+        "focus_meaning_gloss": "a stagehand responsible for moving scenery",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "theatre",
+        "context_detailed": [
+            "We rushed through the preparations when the clock kept ticking down. A volunteer signaled that something needed to be checked right before we started. [added: The pressure was really on.]",
+            "After a long wait we improvised a workaround and finally completed the run well past schedule."
+        ],
+        "context_raw": [
+            "We rushed through the preparations when the clock kept ticking down. A volunteer signaled that something needed to be checked right before we started. The pressure was really on.",
+            "After a long wait we improvised a workaround and finally completed the run well past schedule."
+        ],
+        "domain_meaning": false,
+        "grouping": 0
+    },
+    "70": {
+        "sentence": "We had a huge delay in getting to the end, since the shifter wasn't working today.",
+        "story_meaning": "a mechanical device for engaging and disengaging gears",
+        "focus_meaning_gloss": "a mechanical device for engaging and disengaging gears",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "theatre",
+        "context_detailed": [
+            "We rushed through the preparations when the clock kept ticking down. A volunteer signaled that something needed to be checked right before we started. [added: The pressure was really on.]",
+            "After a long wait we improvised a workaround and finally completed the run well past schedule."
+        ],
+        "context_raw": [
+            "We rushed through the preparations when the clock kept ticking down. A volunteer signaled that something needed to be checked right before we started. The pressure was really on.",
+            "After a long wait we improvised a workaround and finally completed the run well past schedule."
+        ],
+        "domain_meaning": false,
+        "grouping": 1
+    },
+    "71": {
+        "sentence": "We had a huge delay in getting to the end, since the shifter wasn't working today.",
+        "story_meaning": "a stagehand responsible for moving scenery",
+        "focus_meaning_gloss": "a stagehand responsible for moving scenery",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "theatre",
+        "context_detailed": [
+            "We rushed through the [added: preparations, being unfamiliar with how the scenery was set up,] [deleted: preparations when] the clock kept ticking down. A volunteer signaled that something needed to be checked right before we started.",
+            "After a long wait we improvised a workaround and finally completed the run well past schedule."
+        ],
+        "context_raw": [
+            "We rushed through the preparations, being unfamiliar with how the scenery was set up, the clock kept ticking down. A volunteer signaled that something needed to be checked right before we started.",
+            "After a long wait we improvised a workaround and finally completed the run well past schedule."
+        ],
+        "domain_meaning": true,
+        "grouping": 2
+    },
+    "72": {
+        "sentence": "We had a huge delay in getting to the end, since the shifter wasn't working today.",
+        "story_meaning": "a stagehand responsible for moving scenery",
+        "focus_meaning_gloss": "a mechanical device for engaging and disengaging gears",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "theatre",
+        "context_detailed": [
+            "We rushed through the [added: preparations, being unfamiliar with how the scenery was set up,] [deleted: preparations when] the clock kept ticking down. A volunteer signaled that something needed to be checked right before we started.",
+            "After a long wait we improvised a workaround and finally completed the run well past schedule."
+        ],
+        "context_raw": [
+            "We rushed through the preparations, being unfamiliar with how the scenery was set up, the clock kept ticking down. A volunteer signaled that something needed to be checked right before we started.",
+            "After a long wait we improvised a workaround and finally completed the run well past schedule."
+        ],
+        "domain_meaning": true,
+        "grouping": 3
+    },
+    "73": {
+        "sentence": "Everyone was struggling to understand the scenario.",
+        "story_meaning": "a postulated sequence of possible events",
+        "focus_meaning_gloss": "an outline or synopsis of a play (or, by extension, of a literary work)",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "theatre",
+        "context_detailed": [
+            "A dozen people crowded around a folding table in the fluorescent-lit room. Someone pushed a single sheet forward and tapped on a paragraph with a pen. The air filled with low questions and the scratch of pens as notes were taken.",
+            "Someone tapped a pen and made a tentative suggestion. A few heads turned to the screen as a presenter [added: outlined their interpretation.] [deleted: scrolled the file. They agreed to start at the first page and work through it together.]"
+        ],
+        "context_raw": [
+            "A dozen people crowded around a folding table in the fluorescent-lit room. Someone pushed a single sheet forward and tapped on a paragraph with a pen. The air filled with low questions and the scratch of pens as notes were taken.",
+            "Someone tapped a pen and made a tentative suggestion. A few heads turned to the screen as a presenter outlined their interpretation."
+        ],
+        "domain_meaning": false,
+        "grouping": 0
+    },
+    "74": {
+        "sentence": "Everyone was struggling to understand the scenario.",
+        "story_meaning": "a postulated sequence of possible events",
+        "focus_meaning_gloss": "a postulated sequence of possible events",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "theatre",
+        "context_detailed": [
+            "A dozen people crowded around a folding table in the fluorescent-lit room. Someone pushed a single sheet forward and tapped on a paragraph with a pen. The air filled with low questions and the scratch of pens as notes were taken.",
+            "Someone tapped a pen and made a tentative suggestion. A few heads turned to the screen as a presenter [added: outlined their interpretation.] [deleted: scrolled the file. They agreed to start at the first page and work through it together.]"
+        ],
+        "context_raw": [
+            "A dozen people crowded around a folding table in the fluorescent-lit room. Someone pushed a single sheet forward and tapped on a paragraph with a pen. The air filled with low questions and the scratch of pens as notes were taken.",
+            "Someone tapped a pen and made a tentative suggestion. A few heads turned to the screen as a presenter outlined their interpretation."
+        ],
+        "domain_meaning": false,
+        "grouping": 1
+    },
+    "75": {
+        "sentence": "Everyone was struggling to understand the scenario.",
+        "story_meaning": "an outline or synopsis of a play (or, by extension, of a literary work)",
+        "focus_meaning_gloss": "an outline or synopsis of a play (or, by extension, of a literary work)",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "theatre",
+        "context_detailed": [
+            "A dozen people crowded around a folding table in the fluorescent-lit room. Someone pushed a single sheet forward and tapped on a paragraph with a pen. The air filled with low questions and the scratch of pens as notes were taken.",
+            "Someone tapped a pen and made a [added: concrete] [deleted: tentative] suggestion. A few heads turned to the screen as a presenter scrolled the file. They agreed to start at the first page and work through it together."
+        ],
+        "context_raw": [
+            "A dozen people crowded around a folding table in the fluorescent-lit room. Someone pushed a single sheet forward and tapped on a paragraph with a pen. The air filled with low questions and the scratch of pens as notes were taken.",
+            "Someone tapped a pen and made a concrete suggestion. A few heads turned to the screen as a presenter scrolled the file. They agreed to start at the first page and work through it together."
+        ],
+        "domain_meaning": true,
+        "grouping": 2
+    },
+    "76": {
+        "sentence": "Everyone was struggling to understand the scenario.",
+        "story_meaning": "an outline or synopsis of a play (or, by extension, of a literary work)",
+        "focus_meaning_gloss": "a postulated sequence of possible events",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "theatre",
+        "context_detailed": [
+            "A dozen people crowded around a folding table in the fluorescent-lit room. Someone pushed a single sheet forward and tapped on a paragraph with a pen. The air filled with low questions and the scratch of pens as notes were taken.",
+            "Someone tapped a pen and made a [added: concrete] [deleted: tentative] suggestion. A few heads turned to the screen as a presenter scrolled the file. They agreed to start at the first page and work through it together."
+        ],
+        "context_raw": [
+            "A dozen people crowded around a folding table in the fluorescent-lit room. Someone pushed a single sheet forward and tapped on a paragraph with a pen. The air filled with low questions and the scratch of pens as notes were taken.",
+            "Someone tapped a pen and made a concrete suggestion. A few heads turned to the screen as a presenter scrolled the file. They agreed to start at the first page and work through it together."
+        ],
+        "domain_meaning": true,
+        "grouping": 3
+    },
+    "77": {
+        "sentence": "The scorch had really done major damage.",
+        "story_meaning": "a surface burn",
+        "focus_meaning_gloss": "a plant disease that produces a browning or scorched appearance of plant tissues",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "agriculture",
+        "context_detailed": [
+            "I stepped outside at dawn to see what had happened in the yard.",
+            "They set to work clearing the worst [added: parts, which didn't take long.] [deleted: parts and dialing a number for help.]"
+        ],
+        "context_raw": [
+            "I stepped outside at dawn to see what had happened in the yard.",
+            "They set to work clearing the worst parts, which didn't take long."
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "78": {
+        "sentence": "The scorch had really done major damage.",
+        "story_meaning": "a surface burn",
+        "focus_meaning_gloss": "a surface burn",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "agriculture",
+        "context_detailed": [
+            "I stepped outside at dawn to see what had happened in the yard.",
+            "They set to work clearing the worst [added: parts, which didn't take long.] [deleted: parts and dialing a number for help.]"
+        ],
+        "context_raw": [
+            "I stepped outside at dawn to see what had happened in the yard.",
+            "They set to work clearing the worst parts, which didn't take long."
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "79": {
+        "sentence": "The scorch had really done major damage.",
+        "story_meaning": "a plant disease that produces a browning or scorched appearance of plant tissues",
+        "focus_meaning_gloss": "a surface burn",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "agriculture",
+        "context_detailed": [
+            "I stepped outside at dawn to see what had happened in the yard.",
+            "They set to work clearing the worst parts [added: .] [deleted: and dialing a number for help.]"
+        ],
+        "context_raw": [
+            "I stepped outside at dawn to see what had happened in the yard.",
+            "They set to work clearing the worst parts ."
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "80": {
+        "sentence": "The scorch had really done major damage.",
+        "story_meaning": "a plant disease that produces a browning or scorched appearance of plant tissues",
+        "focus_meaning_gloss": "a plant disease that produces a browning or scorched appearance of plant tissues",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "agriculture",
+        "context_detailed": [
+            "I stepped outside at dawn to see what had happened in the yard.",
+            "They set to work clearing the worst parts [added: .] [deleted: and dialing a number for help.]"
+        ],
+        "context_raw": [
+            "I stepped outside at dawn to see what had happened in the yard.",
+            "They set to work clearing the worst parts ."
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "81": {
+        "sentence": "I didn't know what to think when I saw the lumberjack hanging from a high branch.",
+        "story_meaning": "a short warm outer jacket",
+        "focus_meaning_gloss": "a person who fells trees",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "agriculture",
+        "context_detailed": [
+            "I was walking home through the park after a long day.",
+            "A group of people had gathered; some were pointing and one person filmed it on their phone. A sudden gust of wind made it sway and I held my breath. [deleted: After a few minutes a park attendant put up a ladder and climbed up to take it down.]"
+        ],
+        "context_raw": [
+            "I was walking home through the park after a long day.",
+            "A group of people had gathered; some were pointing and one person filmed it on their phone. A sudden gust of wind made it sway and I held my breath."
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "82": {
+        "sentence": "I didn't know what to think when I saw the lumberjack hanging from a high branch.",
+        "story_meaning": "a short warm outer jacket",
+        "focus_meaning_gloss": "a short warm outer jacket",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "agriculture",
+        "context_detailed": [
+            "I was walking home through the park after a long day.",
+            "A group of people had gathered; some were pointing and one person filmed it on their phone. A sudden gust of wind made it sway and I held my breath. [deleted: After a few minutes a park attendant put up a ladder and climbed up to take it down.]"
+        ],
+        "context_raw": [
+            "I was walking home through the park after a long day.",
+            "A group of people had gathered; some were pointing and one person filmed it on their phone. A sudden gust of wind made it sway and I held my breath."
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "83": {
+        "sentence": "I didn't know what to think when I saw the lumberjack hanging from a high branch.",
+        "story_meaning": "a person who fells trees",
+        "focus_meaning_gloss": "a person who fells trees",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "agriculture",
+        "context_detailed": [
+            "I was walking home through the park after a long day.",
+            "A group of people had gathered; some were pointing and one person filmed it on their phone. A sudden gust of wind made it sway and I held my breath. After a few minutes a park attendant put up a ladder and climbed up to take [added: them] [deleted: it] down."
+        ],
+        "context_raw": [
+            "I was walking home through the park after a long day.",
+            "A group of people had gathered; some were pointing and one person filmed it on their phone. A sudden gust of wind made it sway and I held my breath. After a few minutes a park attendant put up a ladder and climbed up to take them down."
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "84": {
+        "sentence": "I didn't know what to think when I saw the lumberjack hanging from a high branch.",
+        "story_meaning": "a person who fells trees",
+        "focus_meaning_gloss": "a short warm outer jacket",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "agriculture",
+        "context_detailed": [
+            "I was walking home through the park after a long day.",
+            "A group of people had gathered; some were pointing and one person filmed it on their phone. A sudden gust of wind made it sway and I held my breath. After a few minutes a park attendant put up a ladder and climbed up to take [added: them] [deleted: it] down."
+        ],
+        "context_raw": [
+            "I was walking home through the park after a long day.",
+            "A group of people had gathered; some were pointing and one person filmed it on their phone. A sudden gust of wind made it sway and I held my breath. After a few minutes a park attendant put up a ladder and climbed up to take them down."
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "85": {
+        "sentence": "The patrol remained within the range for the entire winter.",
+        "story_meaning": "an area in which something acts or operates or has power or control:",
+        "focus_meaning_gloss": "a large tract of grassy open land on which livestock can graze",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "agriculture",
+        "context_detailed": [
+            "They met before dawn to check gear and assign shifts. When the first heavy snow fell they shoveled paths and tightened straps. A single lantern guided them on the worst nights.",
+            "They took turns making short forays to check equipment and [added: tracks inside their assigned operating area.] [deleted: tracks.] In spring they packed the records and handed the area over to the next shift."
+        ],
+        "context_raw": [
+            "They met before dawn to check gear and assign shifts. When the first heavy snow fell they shoveled paths and tightened straps. A single lantern guided them on the worst nights.",
+            "They took turns making short forays to check equipment and tracks inside their assigned operating area. In spring they packed the records and handed the area over to the next shift."
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "86": {
+        "sentence": "The patrol remained within the range for the entire winter.",
+        "story_meaning": "an area in which something acts or operates or has power or control:",
+        "focus_meaning_gloss": "an area in which something acts or operates or has power or control:",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "agriculture",
+        "context_detailed": [
+            "They met before dawn to check gear and assign shifts. When the first heavy snow fell they shoveled paths and tightened straps. A single lantern guided them on the worst nights.",
+            "They took turns making short forays to check equipment and [added: tracks inside their assigned operating area.] [deleted: tracks.] In spring they packed the records and handed the area over to the next shift."
+        ],
+        "context_raw": [
+            "They met before dawn to check gear and assign shifts. When the first heavy snow fell they shoveled paths and tightened straps. A single lantern guided them on the worst nights.",
+            "They took turns making short forays to check equipment and tracks inside their assigned operating area. In spring they packed the records and handed the area over to the next shift."
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "87": {
+        "sentence": "The patrol remained within the range for the entire winter.",
+        "story_meaning": "a large tract of grassy open land on which livestock can graze",
+        "focus_meaning_gloss": "an area in which something acts or operates or has power or control:",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "agriculture",
+        "context_detailed": [
+            "They met before dawn to check gear and assign shifts. When the first heavy snow fell they shoveled paths and tightened straps. A single lantern guided them on the worst nights. [added: They had to make sure the livestock was ok!]",
+            "They took turns making short forays to check equipment and tracks. In spring they packed the records and handed the area over to the next shift."
+        ],
+        "context_raw": [
+            "They met before dawn to check gear and assign shifts. When the first heavy snow fell they shoveled paths and tightened straps. A single lantern guided them on the worst nights. They had to make sure the livestock was ok!",
+            "They took turns making short forays to check equipment and tracks. In spring they packed the records and handed the area over to the next shift."
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "88": {
+        "sentence": "The patrol remained within the range for the entire winter.",
+        "story_meaning": "a large tract of grassy open land on which livestock can graze",
+        "focus_meaning_gloss": "a large tract of grassy open land on which livestock can graze",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "agriculture",
+        "context_detailed": [
+            "They met before dawn to check gear and assign shifts. When the first heavy snow fell they shoveled paths and tightened straps. A single lantern guided them on the worst nights. [added: They had to make sure the livestock was ok!]",
+            "They took turns making short forays to check equipment and tracks. In spring they packed the records and handed the area over to the next shift."
+        ],
+        "context_raw": [
+            "They met before dawn to check gear and assign shifts. When the first heavy snow fell they shoveled paths and tightened straps. A single lantern guided them on the worst nights. They had to make sure the livestock was ok!",
+            "They took turns making short forays to check equipment and tracks. In spring they packed the records and handed the area over to the next shift."
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "89": {
+        "sentence": "The book was epic.",
+        "story_meaning": "very imposing or impressive; surpassing the ordinary (especially in size or scale)",
+        "focus_meaning_gloss": "constituting or having to do with or suggestive of a literary epic",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "literature",
+        "context_detailed": [
+            "I picked up a book someone had left on the bench. Its spine was cracked and a small sticker hid part of the title. [added: The cover of the book was like nothing I had ever seen before.]",
+            "A commuter stopped to listen as I read the first lines and stayed until the station. When I left the platform I set it back on the seat for the next person."
+        ],
+        "context_raw": [
+            "I picked up a book someone had left on the bench. Its spine was cracked and a small sticker hid part of the title. The cover of the book was like nothing I had ever seen before.",
+            "A commuter stopped to listen as I read the first lines and stayed until the station. When I left the platform I set it back on the seat for the next person."
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "90": {
+        "sentence": "The book was epic.",
+        "story_meaning": "very imposing or impressive; surpassing the ordinary (especially in size or scale)",
+        "focus_meaning_gloss": "very imposing or impressive; surpassing the ordinary (especially in size or scale)",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "literature",
+        "context_detailed": [
+            "I picked up a book someone had left on the bench. Its spine was cracked and a small sticker hid part of the title. [added: The cover of the book was like nothing I had ever seen before.]",
+            "A commuter stopped to listen as I read the first lines and stayed until the station. When I left the platform I set it back on the seat for the next person."
+        ],
+        "context_raw": [
+            "I picked up a book someone had left on the bench. Its spine was cracked and a small sticker hid part of the title. The cover of the book was like nothing I had ever seen before.",
+            "A commuter stopped to listen as I read the first lines and stayed until the station. When I left the platform I set it back on the seat for the next person."
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "91": {
+        "sentence": "The book was epic.",
+        "story_meaning": "constituting or having to do with or suggestive of a literary epic",
+        "focus_meaning_gloss": "very imposing or impressive; surpassing the ordinary (especially in size or scale)",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "literature",
+        "context_detailed": [
+            "I picked up a book someone had left on the bench. Its spine was cracked and a small sticker hid part of the title.",
+            "A commuter stopped to listen as I read the first [added: lines, suddenly more] [deleted: lines] and [added: more people crowded around to listen.] [deleted: stayed until the station. When I left the platform I set it back on the seat for the next person.]"
+        ],
+        "context_raw": [
+            "I picked up a book someone had left on the bench. Its spine was cracked and a small sticker hid part of the title.",
+            "A commuter stopped to listen as I read the first lines, suddenly more and more people crowded around to listen."
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "92": {
+        "sentence": "The book was epic.",
+        "story_meaning": "constituting or having to do with or suggestive of a literary epic",
+        "focus_meaning_gloss": "constituting or having to do with or suggestive of a literary epic",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "literature",
+        "context_detailed": [
+            "I picked up a book someone had left on the bench. Its spine was cracked and a small sticker hid part of the title.",
+            "A commuter stopped to listen as I read the first [added: lines, suddenly more] [deleted: lines] and [added: more people crowded around to listen.] [deleted: stayed until the station. When I left the platform I set it back on the seat for the next person.]"
+        ],
+        "context_raw": [
+            "I picked up a book someone had left on the bench. Its spine was cracked and a small sticker hid part of the title.",
+            "A commuter stopped to listen as I read the first lines, suddenly more and more people crowded around to listen."
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "93": {
+        "sentence": "I checked that the correct dividend was used in the calculation.",
+        "story_meaning": "a number to be divided by another number",
+        "focus_meaning_gloss": "a number to be divided by another number",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "mathematics",
+        "context_detailed": [
+            "I sat at the kitchen table with a [deleted: stack of papers and a] calculator.",
+            "Satisfied, I sent the updated file back to the group and shut the laptop."
+        ],
+        "context_raw": [
+            "I sat at the kitchen table with a calculator.",
+            "Satisfied, I sent the updated file back to the group and shut the laptop."
+        ],
+        "domain_meaning": true,
+        "grouping": 4
+    },
+    "94": {
+        "sentence": "I checked that the correct dividend was used in the calculation.",
+        "story_meaning": "a number to be divided by another number",
+        "focus_meaning_gloss": "that part of the earnings of a corporation that is distributed to its shareholders; usually paid quarterly",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "mathematics",
+        "context_detailed": [
+            "I sat at the kitchen table with a [deleted: stack of papers and a] calculator.",
+            "Satisfied, I sent the updated file back to the group and shut the laptop."
+        ],
+        "context_raw": [
+            "I sat at the kitchen table with a calculator.",
+            "Satisfied, I sent the updated file back to the group and shut the laptop."
+        ],
+        "domain_meaning": true,
+        "grouping": 5
+    },
+    "95": {
+        "sentence": "I checked that the correct dividend was used in the calculation.",
+        "story_meaning": "that part of the earnings of a corporation that is distributed to its shareholders; usually paid quarterly",
+        "focus_meaning_gloss": "that part of the earnings of a corporation that is distributed to its shareholders; usually paid quarterly",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "mathematics",
+        "context_detailed": [
+            "I sat at the kitchen table with a stack of papers and a [added: calculator, eager to sort things out.] [deleted: calculator.]",
+            "Satisfied, I sent the updated file back to the group and shut the laptop."
+        ],
+        "context_raw": [
+            "I sat at the kitchen table with a stack of papers and a calculator, eager to sort things out.",
+            "Satisfied, I sent the updated file back to the group and shut the laptop."
+        ],
+        "domain_meaning": false,
+        "grouping": 6
+    },
+    "96": {
+        "sentence": "I checked that the correct dividend was used in the calculation.",
+        "story_meaning": "that part of the earnings of a corporation that is distributed to its shareholders; usually paid quarterly",
+        "focus_meaning_gloss": "a number to be divided by another number",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "mathematics",
+        "context_detailed": [
+            "I sat at the kitchen table with a stack of papers and a [added: calculator, eager to sort things out.] [deleted: calculator.]",
+            "Satisfied, I sent the updated file back to the group and shut the laptop."
+        ],
+        "context_raw": [
+            "I sat at the kitchen table with a stack of papers and a calculator, eager to sort things out.",
+            "Satisfied, I sent the updated file back to the group and shut the laptop."
+        ],
+        "domain_meaning": false,
+        "grouping": 7
+    },
+    "97": {
+        "sentence": "The boundary was considered closed.",
+        "story_meaning": "not open or affording passage or access",
+        "focus_meaning_gloss": "(set theory) of an interval that contains both its endpoints",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "mathematics",
+        "context_detailed": [
+            "She spread the plans across the table and ran a pencil along the drawn line. Across from her, a colleague tapped figures into a laptop and checked a spreadsheet. They reviewed their annotations one more time and exchanged a short nod.",
+            "They slid the papers into the folder and walked out to meet the [added: client knowing their plans were destroyed] [deleted: client.]"
+        ],
+        "context_raw": [
+            "She spread the plans across the table and ran a pencil along the drawn line. Across from her, a colleague tapped figures into a laptop and checked a spreadsheet. They reviewed their annotations one more time and exchanged a short nod.",
+            "They slid the papers into the folder and walked out to meet the client knowing their plans were destroyed"
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "98": {
+        "sentence": "The boundary was considered closed.",
+        "story_meaning": "not open or affording passage or access",
+        "focus_meaning_gloss": "not open or affording passage or access",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "mathematics",
+        "context_detailed": [
+            "She spread the plans across the table and ran a pencil along the drawn line. Across from her, a colleague tapped figures into a laptop and checked a spreadsheet. They reviewed their annotations one more time and exchanged a short nod.",
+            "They slid the papers into the folder and walked out to meet the [added: client knowing their plans were destroyed] [deleted: client.]"
+        ],
+        "context_raw": [
+            "She spread the plans across the table and ran a pencil along the drawn line. Across from her, a colleague tapped figures into a laptop and checked a spreadsheet. They reviewed their annotations one more time and exchanged a short nod.",
+            "They slid the papers into the folder and walked out to meet the client knowing their plans were destroyed"
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "99": {
+        "sentence": "The boundary was considered closed.",
+        "story_meaning": "(set theory) of an interval that contains both its endpoints",
+        "focus_meaning_gloss": "not open or affording passage or access",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "mathematics",
+        "context_detailed": [
+            "She spread the plans across the table and ran a pencil along the drawn line. [deleted: Across from her, a colleague tapped figures into a laptop and checked a spreadsheet.] They reviewed their annotations one more time and exchanged a short nod.",
+            "They slid the papers into the folder and walked out to meet the client."
+        ],
+        "context_raw": [
+            "She spread the plans across the table and ran a pencil along the drawn line. They reviewed their annotations one more time and exchanged a short nod.",
+            "They slid the papers into the folder and walked out to meet the client."
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "100": {
+        "sentence": "The boundary was considered closed.",
+        "story_meaning": "(set theory) of an interval that contains both its endpoints",
+        "focus_meaning_gloss": "(set theory) of an interval that contains both its endpoints",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "mathematics",
+        "context_detailed": [
+            "She spread the plans across the table and ran a pencil along the drawn line. [deleted: Across from her, a colleague tapped figures into a laptop and checked a spreadsheet.] They reviewed their annotations one more time and exchanged a short nod.",
+            "They slid the papers into the folder and walked out to meet the client."
+        ],
+        "context_raw": [
+            "She spread the plans across the table and ran a pencil along the drawn line. They reviewed their annotations one more time and exchanged a short nod.",
+            "They slid the papers into the folder and walked out to meet the client."
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "101": {
+        "sentence": "It was a difficult task for the old compiler.",
+        "story_meaning": "a person who compiles information (as for reference purposes)",
+        "focus_meaning_gloss": "a person who compiles information (as for reference purposes)",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "computer_science",
+        "context_detailed": [
+            "Work had piled up while the team waited. A single workstation managed the incoming stack and flagged inconsistencies. [added: They were quite over worked.]",
+            "They spent hours cross-checking pages and rerunning tasks. When it finished, everyone breathed a little easier."
+        ],
+        "context_raw": [
+            "Work had piled up while the team waited. A single workstation managed the incoming stack and flagged inconsistencies. They were quite over worked.",
+            "They spent hours cross-checking pages and rerunning tasks. When it finished, everyone breathed a little easier."
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "102": {
+        "sentence": "It was a difficult task for the old compiler.",
+        "story_meaning": "a person who compiles information (as for reference purposes)",
+        "focus_meaning_gloss": "(computer science) a program that decodes instructions written in a higher order language and produces an assembly language program",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "computer_science",
+        "context_detailed": [
+            "Work had piled up while the team waited. A single workstation managed the incoming stack and flagged inconsistencies. [added: They were quite over worked.]",
+            "They spent hours cross-checking pages and rerunning tasks. When it finished, everyone breathed a little easier."
+        ],
+        "context_raw": [
+            "Work had piled up while the team waited. A single workstation managed the incoming stack and flagged inconsistencies. They were quite over worked.",
+            "They spent hours cross-checking pages and rerunning tasks. When it finished, everyone breathed a little easier."
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "103": {
+        "sentence": "It was a difficult task for the old compiler.",
+        "story_meaning": "(computer science) a program that decodes instructions written in a higher order language and produces an assembly language program",
+        "focus_meaning_gloss": "a person who compiles information (as for reference purposes)",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "computer_science",
+        "context_detailed": [
+            "Work had piled up while the team waited. A single workstation managed the incoming stack [deleted: and flagged inconsistencies.]",
+            "They spent hours cross-checking pages and rerunning tasks. When it finished, everyone breathed a little easier."
+        ],
+        "context_raw": [
+            "Work had piled up while the team waited. A single workstation managed the incoming stack",
+            "They spent hours cross-checking pages and rerunning tasks. When it finished, everyone breathed a little easier."
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "104": {
+        "sentence": "It was a difficult task for the old compiler.",
+        "story_meaning": "(computer science) a program that decodes instructions written in a higher order language and produces an assembly language program",
+        "focus_meaning_gloss": "(computer science) a program that decodes instructions written in a higher order language and produces an assembly language program",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "computer_science",
+        "context_detailed": [
+            "Work had piled up while the team waited. A single workstation managed the incoming stack [deleted: and flagged inconsistencies.]",
+            "They spent hours cross-checking pages and rerunning tasks. When it finished, everyone breathed a little easier."
+        ],
+        "context_raw": [
+            "Work had piled up while the team waited. A single workstation managed the incoming stack",
+            "They spent hours cross-checking pages and rerunning tasks. When it finished, everyone breathed a little easier."
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "105": {
+        "sentence": "They know why this error happened.",
+        "story_meaning": "(computer science) the occurrence of an incorrect result produced by a computer",
+        "focus_meaning_gloss": "(computer science) the occurrence of an incorrect result produced by a computer",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "computer_science",
+        "context_detailed": [
+            "A small group gathered at the table after lunch to address the recent problem. They looked through [added: the] [deleted: what was] available [added: documents] and compared different accounts. One person stepped through the sequence and pointed to where things diverged.",
+            "After that they agreed on steps to make sure it did not happen again."
+        ],
+        "context_raw": [
+            "A small group gathered at the table after lunch to address the recent problem. They looked through the available documents and compared different accounts. One person stepped through the sequence and pointed to where things diverged.",
+            "After that they agreed on steps to make sure it did not happen again."
+        ],
+        "domain_meaning": true,
+        "grouping": 4
+    },
+    "106": {
+        "sentence": "They know why this error happened.",
+        "story_meaning": "(computer science) the occurrence of an incorrect result produced by a computer",
+        "focus_meaning_gloss": "a wrong action attributable to bad judgment or ignorance or inattention",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "computer_science",
+        "context_detailed": [
+            "A small group gathered at the table after lunch to address the recent problem. They looked through [added: the] [deleted: what was] available [added: documents] and compared different accounts. One person stepped through the sequence and pointed to where things diverged.",
+            "After that they agreed on steps to make sure it did not happen again."
+        ],
+        "context_raw": [
+            "A small group gathered at the table after lunch to address the recent problem. They looked through the available documents and compared different accounts. One person stepped through the sequence and pointed to where things diverged.",
+            "After that they agreed on steps to make sure it did not happen again."
+        ],
+        "domain_meaning": true,
+        "grouping": 5
+    },
+    "107": {
+        "sentence": "They know why this error happened.",
+        "story_meaning": "a wrong action attributable to bad judgment or ignorance or inattention",
+        "focus_meaning_gloss": "a wrong action attributable to bad judgment or ignorance or inattention",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "computer_science",
+        "context_detailed": [
+            "A small group gathered at the table after lunch to address the recent problem. They looked through what was available and compared different accounts. One person stepped through the sequence and pointed to where things [added: took the wrong turn.] [deleted: diverged.]",
+            "After that they agreed on steps to make sure it did not happen again."
+        ],
+        "context_raw": [
+            "A small group gathered at the table after lunch to address the recent problem. They looked through what was available and compared different accounts. One person stepped through the sequence and pointed to where things took the wrong turn.",
+            "After that they agreed on steps to make sure it did not happen again."
+        ],
+        "domain_meaning": false,
+        "grouping": 6
+    },
+    "108": {
+        "sentence": "They know why this error happened.",
+        "story_meaning": "a wrong action attributable to bad judgment or ignorance or inattention",
+        "focus_meaning_gloss": "(computer science) the occurrence of an incorrect result produced by a computer",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "computer_science",
+        "context_detailed": [
+            "A small group gathered at the table after lunch to address the recent problem. They looked through what was available and compared different accounts. One person stepped through the sequence and pointed to where things [added: took the wrong turn.] [deleted: diverged.]",
+            "After that they agreed on steps to make sure it did not happen again."
+        ],
+        "context_raw": [
+            "A small group gathered at the table after lunch to address the recent problem. They looked through what was available and compared different accounts. One person stepped through the sequence and pointed to where things took the wrong turn.",
+            "After that they agreed on steps to make sure it did not happen again."
+        ],
+        "domain_meaning": false,
+        "grouping": 7
+    },
+    "109": {
+        "sentence": "The strings needed continuous adjustment.",
+        "story_meaning": "a lightweight cord",
+        "focus_meaning_gloss": "stringed instruments that are played with a bow",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "music",
+        "context_detailed": [
+            "Someone carried the battered case across the room and set it on the table. They took out each component and laid it in order, checking for defects. Every tweak changed how the whole thing behaved, so they worked slowly.",
+            "[added: Hands kept working, testing tension] [deleted: At the end, they stepped back, tried it once more,] and [added: shifting parts until everything looked even.] [deleted: nodded with relief.]"
+        ],
+        "context_raw": [
+            "Someone carried the battered case across the room and set it on the table. They took out each component and laid it in order, checking for defects. Every tweak changed how the whole thing behaved, so they worked slowly.",
+            "Hands kept working, testing tension and shifting parts until everything looked even."
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "110": {
+        "sentence": "The strings needed continuous adjustment.",
+        "story_meaning": "a lightweight cord",
+        "focus_meaning_gloss": "a lightweight cord",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "music",
+        "context_detailed": [
+            "Someone carried the battered case across the room and set it on the table. They took out each component and laid it in order, checking for defects. Every tweak changed how the whole thing behaved, so they worked slowly.",
+            "[added: Hands kept working, testing tension] [deleted: At the end, they stepped back, tried it once more,] and [added: shifting parts until everything looked even.] [deleted: nodded with relief.]"
+        ],
+        "context_raw": [
+            "Someone carried the battered case across the room and set it on the table. They took out each component and laid it in order, checking for defects. Every tweak changed how the whole thing behaved, so they worked slowly.",
+            "Hands kept working, testing tension and shifting parts until everything looked even."
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "111": {
+        "sentence": "The strings needed continuous adjustment.",
+        "story_meaning": "stringed instruments that are played with a bow",
+        "focus_meaning_gloss": "stringed instruments that are played with a bow",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "music",
+        "context_detailed": [
+            "Someone carried the battered case across the room and set it on the table. [deleted: They took out each component and laid it in order, checking for defects.] Every tweak changed how the whole thing behaved, so they worked slowly.",
+            "At the end, they stepped back, tried it once more, and nodded with relief."
+        ],
+        "context_raw": [
+            "Someone carried the battered case across the room and set it on the table. Every tweak changed how the whole thing behaved, so they worked slowly.",
+            "At the end, they stepped back, tried it once more, and nodded with relief."
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "112": {
+        "sentence": "The strings needed continuous adjustment.",
+        "story_meaning": "stringed instruments that are played with a bow",
+        "focus_meaning_gloss": "a lightweight cord",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "music",
+        "context_detailed": [
+            "Someone carried the battered case across the room and set it on the table. [deleted: They took out each component and laid it in order, checking for defects.] Every tweak changed how the whole thing behaved, so they worked slowly.",
+            "At the end, they stepped back, tried it once more, and nodded with relief."
+        ],
+        "context_raw": [
+            "Someone carried the battered case across the room and set it on the table. Every tweak changed how the whole thing behaved, so they worked slowly.",
+            "At the end, they stepped back, tried it once more, and nodded with relief."
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "113": {
+        "sentence": "They have to work out the correct key to use.",
+        "story_meaning": "metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated",
+        "focus_meaning_gloss": "metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "music",
+        "context_detailed": [
+            "They were gathered around a single sheet, exchanging low voices.",
+            "[added: They started testing different options.] [deleted: (No text necessary)]"
+        ],
+        "context_raw": [
+            "They were gathered around a single sheet, exchanging low voices.",
+            "They started testing different options."
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "114": {
+        "sentence": "They have to work out the correct key to use.",
+        "story_meaning": "metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated",
+        "focus_meaning_gloss": "pitch of the voice",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "music",
+        "context_detailed": [
+            "They were gathered around a single sheet, exchanging low voices.",
+            "[added: They started testing different options.] [deleted: (No text necessary)]"
+        ],
+        "context_raw": [
+            "They were gathered around a single sheet, exchanging low voices.",
+            "They started testing different options."
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "115": {
+        "sentence": "They have to work out the correct key to use.",
+        "story_meaning": "pitch of the voice",
+        "focus_meaning_gloss": "metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "music",
+        "context_detailed": [
+            "They arrived early and unpacked their equipment. One person skimmed the notes while another opened a small case.",
+            "They started testing different options, marking each attempt on a sheet. When they were satisfied, they [added: were ready] [deleted: packed up and left] for the [added: performance.] [deleted: next appointment.]"
+        ],
+        "context_raw": [
+            "They arrived early and unpacked their equipment. One person skimmed the notes while another opened a small case.",
+            "They started testing different options, marking each attempt on a sheet. When they were satisfied, they were ready for the performance."
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "116": {
+        "sentence": "They have to work out the correct key to use.",
+        "story_meaning": "pitch of the voice",
+        "focus_meaning_gloss": "pitch of the voice",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "music",
+        "context_detailed": [
+            "They arrived early and unpacked their equipment. One person skimmed the notes while another opened a small case.",
+            "They started testing different options, marking each attempt on a sheet. When they were satisfied, they [added: were ready] [deleted: packed up and left] for the [added: performance.] [deleted: next appointment.]"
+        ],
+        "context_raw": [
+            "They arrived early and unpacked their equipment. One person skimmed the notes while another opened a small case.",
+            "They started testing different options, marking each attempt on a sheet. When they were satisfied, they were ready for the performance."
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "117": {
+        "sentence": "He likes to fiddle with a bow, although the outcome is not always quite on target.",
+        "story_meaning": "play the violin or fiddle",
+        "focus_meaning_gloss": "manipulate manually or in one's mind or imagination",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "music",
+        "context_detailed": [
+            "He arrived earlier than usual and set a small case on the table.",
+            "[added: He had a big performance to prepare for, so it was important to get some extra practice in.] After a few attempts he smiled at the result and packed everything back into the case."
+        ],
+        "context_raw": [
+            "He arrived earlier than usual and set a small case on the table.",
+            "He had a big performance to prepare for, so it was important to get some extra practice in. After a few attempts he smiled at the result and packed everything back into the case."
+        ],
+        "domain_meaning": true,
+        "grouping": 4
+    },
+    "118": {
+        "sentence": "He likes to fiddle with a bow, although the outcome is not always quite on target.",
+        "story_meaning": "play the violin or fiddle",
+        "focus_meaning_gloss": "play the violin or fiddle",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "music",
+        "context_detailed": [
+            "He arrived earlier than usual and set a small case on the table.",
+            "[added: He had a big performance to prepare for, so it was important to get some extra practice in.] After a few attempts he smiled at the result and packed everything back into the case."
+        ],
+        "context_raw": [
+            "He arrived earlier than usual and set a small case on the table.",
+            "He had a big performance to prepare for, so it was important to get some extra practice in. After a few attempts he smiled at the result and packed everything back into the case."
+        ],
+        "domain_meaning": true,
+        "grouping": 5
+    },
+    "119": {
+        "sentence": "He likes to fiddle with a bow, although the outcome is not always quite on target.",
+        "story_meaning": "manipulate manually or in one's mind or imagination",
+        "focus_meaning_gloss": "manipulate manually or in one's mind or imagination",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "music",
+        "context_detailed": [
+            "He arrived earlier than usual and set a small case on the table.",
+            "After a few [added: attempts,] [deleted: attempts] he smiled at the result and packed [added: it] [deleted: everything] back into the case."
+        ],
+        "context_raw": [
+            "He arrived earlier than usual and set a small case on the table.",
+            "After a few attempts, he smiled at the result and packed it back into the case."
+        ],
+        "domain_meaning": false,
+        "grouping": 6
+    },
+    "120": {
+        "sentence": "He likes to fiddle with a bow, although the outcome is not always quite on target.",
+        "story_meaning": "manipulate manually or in one's mind or imagination",
+        "focus_meaning_gloss": "play the violin or fiddle",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "music",
+        "context_detailed": [
+            "He arrived earlier than usual and set a small case on the table.",
+            "After a few [added: attempts,] [deleted: attempts] he smiled at the result and packed [added: it] [deleted: everything] back into the case."
+        ],
+        "context_raw": [
+            "He arrived earlier than usual and set a small case on the table.",
+            "After a few attempts, he smiled at the result and packed it back into the case."
+        ],
+        "domain_meaning": false,
+        "grouping": 7
+    },
+    "121": {
+        "sentence": "Sarah sat in the bliss of the harmony that surrounded her.",
+        "story_meaning": "the structure of music with respect to the composition and progression of chords",
+        "focus_meaning_gloss": "the structure of music with respect to the composition and progression of chords",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "music",
+        "context_detailed": [
+            "Sarah [deleted: unlocked the community room and] stepped inside [added: the theatre] with a small smile. Chairs were arranged in neat [added: rows, the lights dimmed,] [deleted: rows] and [deleted: a lamp cast a warm glow over the faces gathered. Someone handed her a folded sheet while] a man at the front lifted his hand as if to begin.",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "Sarah stepped inside the theatre with a small smile. Chairs were arranged in neat rows, the lights dimmed, and a man at the front lifted his hand as if to begin.",
+            "(No text necessary)"
+        ],
+        "domain_meaning": true,
+        "grouping": 4
+    },
+    "122": {
+        "sentence": "Sarah sat in the bliss of the harmony that surrounded her.",
+        "story_meaning": "the structure of music with respect to the composition and progression of chords",
+        "focus_meaning_gloss": "agreement of opinions",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "music",
+        "context_detailed": [
+            "Sarah [deleted: unlocked the community room and] stepped inside [added: the theatre] with a small smile. Chairs were arranged in neat [added: rows, the lights dimmed,] [deleted: rows] and [deleted: a lamp cast a warm glow over the faces gathered. Someone handed her a folded sheet while] a man at the front lifted his hand as if to begin.",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "Sarah stepped inside the theatre with a small smile. Chairs were arranged in neat rows, the lights dimmed, and a man at the front lifted his hand as if to begin.",
+            "(No text necessary)"
+        ],
+        "domain_meaning": true,
+        "grouping": 5
+    },
+    "123": {
+        "sentence": "Sarah sat in the bliss of the harmony that surrounded her.",
+        "story_meaning": "agreement of opinions",
+        "focus_meaning_gloss": "agreement of opinions",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "music",
+        "context_detailed": [
+            "Sarah unlocked the community room and stepped inside with a small smile. Chairs were arranged in neat rows and a lamp cast a warm glow over the faces gathered. Someone handed her a folded sheet while a man at the front lifted his hand as if to begin.",
+            "When it ended she folded the paper into her bag and walked home with a lighter [added: step, pleased that it had gone well.] [deleted: step.]"
+        ],
+        "context_raw": [
+            "Sarah unlocked the community room and stepped inside with a small smile. Chairs were arranged in neat rows and a lamp cast a warm glow over the faces gathered. Someone handed her a folded sheet while a man at the front lifted his hand as if to begin.",
+            "When it ended she folded the paper into her bag and walked home with a lighter step, pleased that it had gone well."
+        ],
+        "domain_meaning": false,
+        "grouping": 6
+    },
+    "124": {
+        "sentence": "Sarah sat in the bliss of the harmony that surrounded her.",
+        "story_meaning": "agreement of opinions",
+        "focus_meaning_gloss": "the structure of music with respect to the composition and progression of chords",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "music",
+        "context_detailed": [
+            "Sarah unlocked the community room and stepped inside with a small smile. Chairs were arranged in neat rows and a lamp cast a warm glow over the faces gathered. Someone handed her a folded sheet while a man at the front lifted his hand as if to begin.",
+            "When it ended she folded the paper into her bag and walked home with a lighter [added: step, pleased that it had gone well.] [deleted: step.]"
+        ],
+        "context_raw": [
+            "Sarah unlocked the community room and stepped inside with a small smile. Chairs were arranged in neat rows and a lamp cast a warm glow over the faces gathered. Someone handed her a folded sheet while a man at the front lifted his hand as if to begin.",
+            "When it ended she folded the paper into her bag and walked home with a lighter step, pleased that it had gone well."
+        ],
+        "domain_meaning": false,
+        "grouping": 7
+    },
+    "125": {
+        "sentence": "He struggled to handle the preventive.",
+        "story_meaning": "remedy that prevents or slows the course of an illness or disease",
+        "focus_meaning_gloss": "any obstruction that impedes or is burdensome",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "pharmacy",
+        "context_detailed": [
+            "He stayed late to sort through a small delivery. A supervisor tapped a wrapped item and told him to take it.",
+            "He sighed, wiped his hands, and tried the steps from the [added: medical] leaflet. An attendant across the room watched him fumble and stepped forward to steady the [added: device.] [deleted: setup.] After a few careful adjustments it settled into place and he let out a quiet laugh of relief."
+        ],
+        "context_raw": [
+            "He stayed late to sort through a small delivery. A supervisor tapped a wrapped item and told him to take it.",
+            "He sighed, wiped his hands, and tried the steps from the medical leaflet. An attendant across the room watched him fumble and stepped forward to steady the device. After a few careful adjustments it settled into place and he let out a quiet laugh of relief."
+        ],
+        "domain_meaning": true,
+        "grouping": 4
+    },
+    "126": {
+        "sentence": "He struggled to handle the preventive.",
+        "story_meaning": "remedy that prevents or slows the course of an illness or disease",
+        "focus_meaning_gloss": "remedy that prevents or slows the course of an illness or disease",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "pharmacy",
+        "context_detailed": [
+            "He stayed late to sort through a small delivery. A supervisor tapped a wrapped item and told him to take it.",
+            "He sighed, wiped his hands, and tried the steps from the [added: medical] leaflet. An attendant across the room watched him fumble and stepped forward to steady the [added: device.] [deleted: setup.] After a few careful adjustments it settled into place and he let out a quiet laugh of relief."
+        ],
+        "context_raw": [
+            "He stayed late to sort through a small delivery. A supervisor tapped a wrapped item and told him to take it.",
+            "He sighed, wiped his hands, and tried the steps from the medical leaflet. An attendant across the room watched him fumble and stepped forward to steady the device. After a few careful adjustments it settled into place and he let out a quiet laugh of relief."
+        ],
+        "domain_meaning": true,
+        "grouping": 5
+    },
+    "127": {
+        "sentence": "He struggled to handle the preventive.",
+        "story_meaning": "any obstruction that impedes or is burdensome",
+        "focus_meaning_gloss": "any obstruction that impedes or is burdensome",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "pharmacy",
+        "context_detailed": [
+            "He stayed late to sort through a small delivery. A supervisor tapped a wrapped item and told him to take it. [added: When he carried it out to the corridor, he found a collapsed section of shelving blocking the narrow passage.]",
+            "He sighed, wiped his hands, and tried the steps from the leaflet. An attendant across the room watched him fumble and stepped forward to steady the setup. After a few careful adjustments it settled into place and he let out a quiet laugh of relief."
+        ],
+        "context_raw": [
+            "He stayed late to sort through a small delivery. A supervisor tapped a wrapped item and told him to take it. When he carried it out to the corridor, he found a collapsed section of shelving blocking the narrow passage.",
+            "He sighed, wiped his hands, and tried the steps from the leaflet. An attendant across the room watched him fumble and stepped forward to steady the setup. After a few careful adjustments it settled into place and he let out a quiet laugh of relief."
+        ],
+        "domain_meaning": false,
+        "grouping": 6
+    },
+    "128": {
+        "sentence": "He struggled to handle the preventive.",
+        "story_meaning": "any obstruction that impedes or is burdensome",
+        "focus_meaning_gloss": "remedy that prevents or slows the course of an illness or disease",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "pharmacy",
+        "context_detailed": [
+            "He stayed late to sort through a small delivery. A supervisor tapped a wrapped item and told him to take it. [added: When he carried it out to the corridor, he found a collapsed section of shelving blocking the narrow passage.]",
+            "He sighed, wiped his hands, and tried the steps from the leaflet. An attendant across the room watched him fumble and stepped forward to steady the setup. After a few careful adjustments it settled into place and he let out a quiet laugh of relief."
+        ],
+        "context_raw": [
+            "He stayed late to sort through a small delivery. A supervisor tapped a wrapped item and told him to take it. When he carried it out to the corridor, he found a collapsed section of shelving blocking the narrow passage.",
+            "He sighed, wiped his hands, and tried the steps from the leaflet. An attendant across the room watched him fumble and stepped forward to steady the setup. After a few careful adjustments it settled into place and he let out a quiet laugh of relief."
+        ],
+        "domain_meaning": false,
+        "grouping": 7
+    },
+    "129": {
+        "sentence": "It's too strong, so it cannot be neutralized.",
+        "story_meaning": "make chemically neutral",
+        "focus_meaning_gloss": "make politically neutral and thus inoffensive",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "chemistry",
+        "context_detailed": [
+            "She examined the sample on the table and frowned.",
+            "[added: It was safely disposed of, as per instructions from her manager.] [deleted: They set the bundle in a metal tray and called for outside help.]"
+        ],
+        "context_raw": [
+            "She examined the sample on the table and frowned.",
+            "It was safely disposed of, as per instructions from her manager."
+        ],
+        "domain_meaning": true,
+        "grouping": 4
+    },
+    "130": {
+        "sentence": "It's too strong, so it cannot be neutralized.",
+        "story_meaning": "make chemically neutral",
+        "focus_meaning_gloss": "make chemically neutral",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "chemistry",
+        "context_detailed": [
+            "She examined the sample on the table and frowned.",
+            "[added: It was safely disposed of, as per instructions from her manager.] [deleted: They set the bundle in a metal tray and called for outside help.]"
+        ],
+        "context_raw": [
+            "She examined the sample on the table and frowned.",
+            "It was safely disposed of, as per instructions from her manager."
+        ],
+        "domain_meaning": true,
+        "grouping": 5
+    },
+    "131": {
+        "sentence": "It's too strong, so it cannot be neutralized.",
+        "story_meaning": "make politically neutral and thus inoffensive",
+        "focus_meaning_gloss": "make chemically neutral",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "chemistry",
+        "context_detailed": [
+            "She examined the sample on the table and frowned.",
+            "[added: She called] [deleted: They set] the [added: sender] [deleted: bundle in a metal tray] and [added: repeated the exact words from the label.] [deleted: called for outside help.]"
+        ],
+        "context_raw": [
+            "She examined the sample on the table and frowned.",
+            "She called the sender and repeated the exact words from the label."
+        ],
+        "domain_meaning": false,
+        "grouping": 6
+    },
+    "132": {
+        "sentence": "It's too strong, so it cannot be neutralized.",
+        "story_meaning": "make politically neutral and thus inoffensive",
+        "focus_meaning_gloss": "make politically neutral and thus inoffensive",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "chemistry",
+        "context_detailed": [
+            "She examined the sample on the table and frowned.",
+            "[added: She called] [deleted: They set] the [added: sender] [deleted: bundle in a metal tray] and [added: repeated the exact words from the label.] [deleted: called for outside help.]"
+        ],
+        "context_raw": [
+            "She examined the sample on the table and frowned.",
+            "She called the sender and repeated the exact words from the label."
+        ],
+        "domain_meaning": false,
+        "grouping": 7
+    },
+    "133": {
+        "sentence": "If everything goes to plan, a change of phase is expected within the next few hours.",
+        "story_meaning": "any distinct time period in a sequence of events",
+        "focus_meaning_gloss": "any distinct time period in a sequence of events",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "chemistry",
+        "context_detailed": [
+            "A small team filed into the [added: meeting] [deleted: control] room and set their cases down.",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "A small team filed into the meeting room and set their cases down.",
+            "(No text necessary)"
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "134": {
+        "sentence": "If everything goes to plan, a change of phase is expected within the next few hours.",
+        "story_meaning": "any distinct time period in a sequence of events",
+        "focus_meaning_gloss": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "chemistry",
+        "context_detailed": [
+            "A small team filed into the [added: meeting] [deleted: control] room and set their cases down.",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "A small team filed into the meeting room and set their cases down.",
+            "(No text necessary)"
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "135": {
+        "sentence": "If everything goes to plan, a change of phase is expected within the next few hours.",
+        "story_meaning": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary",
+        "focus_meaning_gloss": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "chemistry",
+        "context_detailed": [
+            "A small team [added: of scientists walked] [deleted: filed] into the [added: lab] [deleted: control room] and [added: looked at the experiment they had been preparing for weeks.] [deleted: set their cases down.]",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "A small team of scientists walked into the lab and looked at the experiment they had been preparing for weeks.",
+            "(No text necessary)"
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "136": {
+        "sentence": "If everything goes to plan, a change of phase is expected within the next few hours.",
+        "story_meaning": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary",
+        "focus_meaning_gloss": "any distinct time period in a sequence of events",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "chemistry",
+        "context_detailed": [
+            "A small team [added: of scientists walked] [deleted: filed] into the [added: lab] [deleted: control room] and [added: looked at the experiment they had been preparing for weeks.] [deleted: set their cases down.]",
+            "(No text necessary)"
+        ],
+        "context_raw": [
+            "A small team of scientists walked into the lab and looked at the experiment they had been preparing for weeks.",
+            "(No text necessary)"
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "137": {
+        "sentence": "Craig believes that it is organic.",
+        "story_meaning": "of or relating to foodstuff grown or raised without synthetic fertilizers or pesticides or hormones",
+        "focus_meaning_gloss": "of or relating to foodstuff grown or raised without synthetic fertilizers or pesticides or hormones",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "chemistry",
+        "context_detailed": [
+            "Craig lifted a small sealed [added: food] jar off the table.",
+            "He turned it so the label caught the light and tried to read the print. When the words stayed unclear he held it to his nose, then set it down. He left the jar on the shelf and planned to ask about it later."
+        ],
+        "context_raw": [
+            "Craig lifted a small sealed food jar off the table.",
+            "He turned it so the label caught the light and tried to read the print. When the words stayed unclear he held it to his nose, then set it down. He left the jar on the shelf and planned to ask about it later."
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "138": {
+        "sentence": "Craig believes that it is organic.",
+        "story_meaning": "of or relating to foodstuff grown or raised without synthetic fertilizers or pesticides or hormones",
+        "focus_meaning_gloss": "relating or belonging to the class of chemical compounds having a carbon basis",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "chemistry",
+        "context_detailed": [
+            "Craig lifted a small sealed [added: food] jar off the table.",
+            "He turned it so the label caught the light and tried to read the print. When the words stayed unclear he held it to his nose, then set it down. He left the jar on the shelf and planned to ask about it later."
+        ],
+        "context_raw": [
+            "Craig lifted a small sealed food jar off the table.",
+            "He turned it so the label caught the light and tried to read the print. When the words stayed unclear he held it to his nose, then set it down. He left the jar on the shelf and planned to ask about it later."
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "139": {
+        "sentence": "Craig believes that it is organic.",
+        "story_meaning": "relating or belonging to the class of chemical compounds having a carbon basis",
+        "focus_meaning_gloss": "of or relating to foodstuff grown or raised without synthetic fertilizers or pesticides or hormones",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "chemistry",
+        "context_detailed": [
+            "Craig lifted a small sealed jar off the table.",
+            "He turned it so the label caught the light and tried to read the print. When the words stayed unclear he held it to his nose, then set it down. He left the jar on the shelf and planned to ask about it later. [added: The words were longer than anything he ever recognized.]"
+        ],
+        "context_raw": [
+            "Craig lifted a small sealed jar off the table.",
+            "He turned it so the label caught the light and tried to read the print. When the words stayed unclear he held it to his nose, then set it down. He left the jar on the shelf and planned to ask about it later. The words were longer than anything he ever recognized."
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "140": {
+        "sentence": "Craig believes that it is organic.",
+        "story_meaning": "relating or belonging to the class of chemical compounds having a carbon basis",
+        "focus_meaning_gloss": "relating or belonging to the class of chemical compounds having a carbon basis",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "chemistry",
+        "context_detailed": [
+            "Craig lifted a small sealed jar off the table.",
+            "He turned it so the label caught the light and tried to read the print. When the words stayed unclear he held it to his nose, then set it down. He left the jar on the shelf and planned to ask about it later. [added: The words were longer than anything he ever recognized.]"
+        ],
+        "context_raw": [
+            "Craig lifted a small sealed jar off the table.",
+            "He turned it so the label caught the light and tried to read the print. When the words stayed unclear he held it to his nose, then set it down. He left the jar on the shelf and planned to ask about it later. The words were longer than anything he ever recognized."
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "141": {
+        "sentence": "Finally, it was free.",
+        "story_meaning": "unconstrained or not chemically bound in a molecule or not fixed and capable of relatively unrestricted motion",
+        "focus_meaning_gloss": "unconstrained or not chemically bound in a molecule or not fixed and capable of relatively unrestricted motion",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "chemistry",
+        "context_detailed": [
+            "A small jar had sat on the sill since winter, its lid sealed tight with grime. She set it in a bowl and held it under the tap until the glass warmed. [deleted: After a while a faint tapping came from inside.]",
+            "A faint scuttle against the glass made their hand stop midway. They hesitated, unsure whether to lift the lid or step back. Slowly, they opened it and watched whatever had been inside slip into the shadows."
+        ],
+        "context_raw": [
+            "A small jar had sat on the sill since winter, its lid sealed tight with grime. She set it in a bowl and held it under the tap until the glass warmed.",
+            "A faint scuttle against the glass made their hand stop midway. They hesitated, unsure whether to lift the lid or step back. Slowly, they opened it and watched whatever had been inside slip into the shadows."
+        ],
+        "domain_meaning": true,
+        "grouping": 4
+    },
+    "142": {
+        "sentence": "Finally, it was free.",
+        "story_meaning": "unconstrained or not chemically bound in a molecule or not fixed and capable of relatively unrestricted motion",
+        "focus_meaning_gloss": "able to act at will; not hampered; not under compulsion or restraint",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "chemistry",
+        "context_detailed": [
+            "A small jar had sat on the sill since winter, its lid sealed tight with grime. She set it in a bowl and held it under the tap until the glass warmed. [deleted: After a while a faint tapping came from inside.]",
+            "A faint scuttle against the glass made their hand stop midway. They hesitated, unsure whether to lift the lid or step back. Slowly, they opened it and watched whatever had been inside slip into the shadows."
+        ],
+        "context_raw": [
+            "A small jar had sat on the sill since winter, its lid sealed tight with grime. She set it in a bowl and held it under the tap until the glass warmed.",
+            "A faint scuttle against the glass made their hand stop midway. They hesitated, unsure whether to lift the lid or step back. Slowly, they opened it and watched whatever had been inside slip into the shadows."
+        ],
+        "domain_meaning": true,
+        "grouping": 5
+    },
+    "143": {
+        "sentence": "Finally, it was free.",
+        "story_meaning": "able to act at will; not hampered; not under compulsion or restraint",
+        "focus_meaning_gloss": "able to act at will; not hampered; not under compulsion or restraint",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "chemistry",
+        "context_detailed": [
+            "A small jar had sat on the sill since winter, its lid sealed tight with grime. She set it in a bowl and held it under the tap until the glass warmed. After a while a faint tapping came from inside.",
+            "A faint scuttle against the glass made their hand stop midway. They hesitated, [added: slowly,] [deleted: unsure whether to lift the lid or step back. Slowly,] they opened it and watched whatever had been inside slip into the shadows."
+        ],
+        "context_raw": [
+            "A small jar had sat on the sill since winter, its lid sealed tight with grime. She set it in a bowl and held it under the tap until the glass warmed. After a while a faint tapping came from inside.",
+            "A faint scuttle against the glass made their hand stop midway. They hesitated, slowly, they opened it and watched whatever had been inside slip into the shadows."
+        ],
+        "domain_meaning": false,
+        "grouping": 6
+    },
+    "144": {
+        "sentence": "Finally, it was free.",
+        "story_meaning": "able to act at will; not hampered; not under compulsion or restraint",
+        "focus_meaning_gloss": "unconstrained or not chemically bound in a molecule or not fixed and capable of relatively unrestricted motion",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "chemistry",
+        "context_detailed": [
+            "A small jar had sat on the sill since winter, its lid sealed tight with grime. She set it in a bowl and held it under the tap until the glass warmed. After a while a faint tapping came from inside.",
+            "A faint scuttle against the glass made their hand stop midway. They hesitated, [added: slowly,] [deleted: unsure whether to lift the lid or step back. Slowly,] they opened it and watched whatever had been inside slip into the shadows."
+        ],
+        "context_raw": [
+            "A small jar had sat on the sill since winter, its lid sealed tight with grime. She set it in a bowl and held it under the tap until the glass warmed. After a while a faint tapping came from inside.",
+            "A faint scuttle against the glass made their hand stop midway. They hesitated, slowly, they opened it and watched whatever had been inside slip into the shadows."
+        ],
+        "domain_meaning": false,
+        "grouping": 7
+    },
+    "145": {
+        "sentence": "Students should follow all rules.",
+        "story_meaning": "a principle or condition that customarily governs behavior",
+        "focus_meaning_gloss": "a principle or condition that customarily governs behavior",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "linguistics",
+        "context_detailed": [
+            "The instructor handed out folders and tapped a pen to get everyone's attention. People flipped through the sheets, worrying about the practical examination that would start soon. One page showed bold headings and a short paragraph printed across the top.",
+            "A marker squeaked as someone underlined a line and pushed the pen along the margin. When the bell rang, most heads bent down and the room filled with low discussion. [deleted: At the end, the papers were collected and stacked into one neat pile.]"
+        ],
+        "context_raw": [
+            "The instructor handed out folders and tapped a pen to get everyone's attention. People flipped through the sheets, worrying about the practical examination that would start soon. One page showed bold headings and a short paragraph printed across the top.",
+            "A marker squeaked as someone underlined a line and pushed the pen along the margin. When the bell rang, most heads bent down and the room filled with low discussion."
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "146": {
+        "sentence": "Students should follow all rules.",
+        "story_meaning": "a principle or condition that customarily governs behavior",
+        "focus_meaning_gloss": "(linguistics) a rule describing (or prescribing) a linguistic practice",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "linguistics",
+        "context_detailed": [
+            "The instructor handed out folders and tapped a pen to get everyone's attention. People flipped through the sheets, worrying about the practical examination that would start soon. One page showed bold headings and a short paragraph printed across the top.",
+            "A marker squeaked as someone underlined a line and pushed the pen along the margin. When the bell rang, most heads bent down and the room filled with low discussion. [deleted: At the end, the papers were collected and stacked into one neat pile.]"
+        ],
+        "context_raw": [
+            "The instructor handed out folders and tapped a pen to get everyone's attention. People flipped through the sheets, worrying about the practical examination that would start soon. One page showed bold headings and a short paragraph printed across the top.",
+            "A marker squeaked as someone underlined a line and pushed the pen along the margin. When the bell rang, most heads bent down and the room filled with low discussion."
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "147": {
+        "sentence": "Students should follow all rules.",
+        "story_meaning": "(linguistics) a rule describing (or prescribing) a linguistic practice",
+        "focus_meaning_gloss": "(linguistics) a rule describing (or prescribing) a linguistic practice",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "linguistics",
+        "context_detailed": [
+            "The instructor handed out folders and tapped a pen to get everyone's attention. People flipped through the [added: grammar] sheets, worrying about the practical examination that would start soon. One page showed bold headings and a short paragraph printed across the top.",
+            "A marker squeaked as someone underlined a line and pushed the pen along the margin. When the bell rang, most heads bent down and the room filled with low discussion. At the end, the papers were collected and stacked into one neat pile."
+        ],
+        "context_raw": [
+            "The instructor handed out folders and tapped a pen to get everyone's attention. People flipped through the grammar sheets, worrying about the practical examination that would start soon. One page showed bold headings and a short paragraph printed across the top.",
+            "A marker squeaked as someone underlined a line and pushed the pen along the margin. When the bell rang, most heads bent down and the room filled with low discussion. At the end, the papers were collected and stacked into one neat pile."
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "148": {
+        "sentence": "Students should follow all rules.",
+        "story_meaning": "(linguistics) a rule describing (or prescribing) a linguistic practice",
+        "focus_meaning_gloss": "a principle or condition that customarily governs behavior",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "linguistics",
+        "context_detailed": [
+            "The instructor handed out folders and tapped a pen to get everyone's attention. People flipped through the [added: grammar] sheets, worrying about the practical examination that would start soon. One page showed bold headings and a short paragraph printed across the top.",
+            "A marker squeaked as someone underlined a line and pushed the pen along the margin. When the bell rang, most heads bent down and the room filled with low discussion. At the end, the papers were collected and stacked into one neat pile."
+        ],
+        "context_raw": [
+            "The instructor handed out folders and tapped a pen to get everyone's attention. People flipped through the grammar sheets, worrying about the practical examination that would start soon. One page showed bold headings and a short paragraph printed across the top.",
+            "A marker squeaked as someone underlined a line and pushed the pen along the margin. When the bell rang, most heads bent down and the room filled with low discussion. At the end, the papers were collected and stacked into one neat pile."
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "149": {
+        "sentence": "The teacher explained the ending carefully before class was over.",
+        "story_meaning": "the end of a word (a suffix or inflectional ending or final morpheme)",
+        "focus_meaning_gloss": "the end of a word (a suffix or inflectional ending or final morpheme)",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "linguistics",
+        "context_detailed": [
+            "Students shuffled their papers as the [added: English lesson] [deleted: period] began.",
+            "A few students raised their hands to ask questions. One student lingered after class to ask for extra clarification. When the bell rang, everyone filed out and the teacher closed the textbook."
+        ],
+        "context_raw": [
+            "Students shuffled their papers as the English lesson began.",
+            "A few students raised their hands to ask questions. One student lingered after class to ask for extra clarification. When the bell rang, everyone filed out and the teacher closed the textbook."
+        ],
+        "domain_meaning": true,
+        "grouping": 4
+    },
+    "150": {
+        "sentence": "The teacher explained the ending carefully before class was over.",
+        "story_meaning": "the end of a word (a suffix or inflectional ending or final morpheme)",
+        "focus_meaning_gloss": "the act of ending something",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "linguistics",
+        "context_detailed": [
+            "Students shuffled their papers as the [added: English lesson] [deleted: period] began.",
+            "A few students raised their hands to ask questions. One student lingered after class to ask for extra clarification. When the bell rang, everyone filed out and the teacher closed the textbook."
+        ],
+        "context_raw": [
+            "Students shuffled their papers as the English lesson began.",
+            "A few students raised their hands to ask questions. One student lingered after class to ask for extra clarification. When the bell rang, everyone filed out and the teacher closed the textbook."
+        ],
+        "domain_meaning": true,
+        "grouping": 5
+    },
+    "151": {
+        "sentence": "The teacher explained the ending carefully before class was over.",
+        "story_meaning": "the act of ending something",
+        "focus_meaning_gloss": "the end of a word (a suffix or inflectional ending or final morpheme)",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "linguistics",
+        "context_detailed": [
+            "[added: The class had come to] [deleted: Students shuffled their papers as] the [added: conclusion of the book they had been studying.] [deleted: period began.]",
+            "A few students raised their hands to ask questions. One student lingered after class to ask for extra clarification. When the bell rang, everyone filed out and the teacher closed the textbook."
+        ],
+        "context_raw": [
+            "The class had come to the conclusion of the book they had been studying.",
+            "A few students raised their hands to ask questions. One student lingered after class to ask for extra clarification. When the bell rang, everyone filed out and the teacher closed the textbook."
+        ],
+        "domain_meaning": false,
+        "grouping": 6
+    },
+    "152": {
+        "sentence": "The teacher explained the ending carefully before class was over.",
+        "story_meaning": "the act of ending something",
+        "focus_meaning_gloss": "the act of ending something",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "linguistics",
+        "context_detailed": [
+            "[added: The class had come to] [deleted: Students shuffled their papers as] the [added: conclusion of the book they had been studying.] [deleted: period began.]",
+            "A few students raised their hands to ask questions. One student lingered after class to ask for extra clarification. When the bell rang, everyone filed out and the teacher closed the textbook."
+        ],
+        "context_raw": [
+            "The class had come to the conclusion of the book they had been studying.",
+            "A few students raised their hands to ask questions. One student lingered after class to ask for extra clarification. When the bell rang, everyone filed out and the teacher closed the textbook."
+        ],
+        "domain_meaning": false,
+        "grouping": 7
+    },
+    "153": {
+        "sentence": "Her teacher said her aspiration was really noticeable.",
+        "story_meaning": "a will to succeed",
+        "focus_meaning_gloss": "a will to succeed",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "linguistics",
+        "context_detailed": [
+            "She sat at the front of the room and [added: read through] [deleted: smoothed] the pages of her notebook.",
+            "After class she stayed behind to ask for another chance to perform."
+        ],
+        "context_raw": [
+            "She sat at the front of the room and read through the pages of her notebook.",
+            "After class she stayed behind to ask for another chance to perform."
+        ],
+        "domain_meaning": false,
+        "grouping": 4
+    },
+    "154": {
+        "sentence": "Her teacher said her aspiration was really noticeable.",
+        "story_meaning": "a will to succeed",
+        "focus_meaning_gloss": "a manner of articulation involving an audible release of breath",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "linguistics",
+        "context_detailed": [
+            "She sat at the front of the room and [added: read through] [deleted: smoothed] the pages of her notebook.",
+            "After class she stayed behind to ask for another chance to perform."
+        ],
+        "context_raw": [
+            "She sat at the front of the room and read through the pages of her notebook.",
+            "After class she stayed behind to ask for another chance to perform."
+        ],
+        "domain_meaning": false,
+        "grouping": 5
+    },
+    "155": {
+        "sentence": "Her teacher said her aspiration was really noticeable.",
+        "story_meaning": "a manner of articulation involving an audible release of breath",
+        "focus_meaning_gloss": "a will to succeed",
+        "focus_meaning": "meaning2",
+        "nonfocus_meaning": "meaning1",
+        "domain": "linguistics",
+        "context_detailed": [
+            "She sat at the front of the room and smoothed the pages of her notebook.",
+            "After class she stayed behind to ask for another chance to perform. [added: The teacher said that perhaps she could be able to perform at the winter faite.]"
+        ],
+        "context_raw": [
+            "She sat at the front of the room and smoothed the pages of her notebook.",
+            "After class she stayed behind to ask for another chance to perform. The teacher said that perhaps she could be able to perform at the winter faite."
+        ],
+        "domain_meaning": true,
+        "grouping": 6
+    },
+    "156": {
+        "sentence": "Her teacher said her aspiration was really noticeable.",
+        "story_meaning": "a manner of articulation involving an audible release of breath",
+        "focus_meaning_gloss": "a manner of articulation involving an audible release of breath",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "linguistics",
+        "context_detailed": [
+            "She sat at the front of the room and smoothed the pages of her notebook.",
+            "After class she stayed behind to ask for another chance to perform. [added: The teacher said that perhaps she could be able to perform at the winter faite.]"
+        ],
+        "context_raw": [
+            "She sat at the front of the room and smoothed the pages of her notebook.",
+            "After class she stayed behind to ask for another chance to perform. The teacher said that perhaps she could be able to perform at the winter faite."
+        ],
+        "domain_meaning": true,
+        "grouping": 7
+    },
+    "158": {
+        "sentence": "It was a hard puzzle.",
+        "story_meaning": "solid; not soft",
+        "focus_meaning_gloss": "solid; not soft",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "attention_check",
+        "context_detailed": [
+            "The puzzle pieces were scattered across the table. We spent hours on the puzzle, but each piece seemed to fit nowhere.",
+            ""
+        ],
+        "context_raw": [
+            "The puzzle pieces were scattered across the table. We spent hours on the puzzle, but each piece seemed to fit nowhere.",
+            ""
+        ],
+        "domain_meaning": false
+    }
+}

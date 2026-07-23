@@ -141,6 +141,14 @@ TASK_INFO = {
         "annotation_filepath": "expertise_task2/resources/expertise_words.json",
         "qualification_filepath": "expertise_task2/resources/qualification_test.json",
         "number_of_annotator_groups": 1
+    },
+    "adv_eval_ending_task": {
+        "annotation_filepath": "adv_eval_ending_task/resources/plausibility_story_samples.json",
+        "annotation_filepath2": "adv_eval_ending_task/resources/expertise_words.json",
+        "qualification_filepath": "adv_eval_ending_task/resources/qualification_questions.json",
+        "qualification_filepath2": "adv_eval_ending_task/resources/qualification_connections.json",
+        "number_of_annotator_groups": 8,
+        "group_assignment": "post-qualification"
     }
 }
 
@@ -257,8 +265,12 @@ def load_annotation(subtask: str, index: int) -> tuple:
     return annotations[subtask][index-1]
 
 def finish_annotation():
-    st.write("You finished the annotation!")
-    user_repository.mark_as_done(st.session_state.user_id)
+    #st.write("You finished the annotation!")
+    if user_repository.get_qualification() > 1:
+        # Some tasks use qualification as nonbinary progress marker.
+        user_repository.set_qualification(st.session_state.user_id, user_repository.get_qualification() + 1)
+    else:
+        user_repository.mark_as_done(st.session_state.user_id)
     st.rerun()
     st.write("Thank you for submitting your annotations.")
 
