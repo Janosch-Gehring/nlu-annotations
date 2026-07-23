@@ -128,7 +128,7 @@ Some tips:
     #st.write("**The terms above will update when you click the button. Be careful not to double-click it!**")
 
 
-    return st.session_state.connections, next_input, self_assessment
+    return st.session_state.connections, next_input, st.session_state.self_assessment
 
 
 def handle_next_button(annotation, index, samples):
