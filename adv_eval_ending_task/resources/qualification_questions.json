@@ -1,6 +1,6 @@
 {
     "1": {
-        "sentence": "It was a hard puzzle",
+        "sentence": "It was a hard puzzle.",
         "word": "hard",
         "story_meaning": "solid; not soft",
         "focus_meaning_gloss": "solid; not soft",
@@ -46,6 +46,7 @@
         "word": "fan",
         "story_meaning": "an enthusiastic follower or admirer",
         "focus_meaning_gloss": "an enthusiastic follower or admirer",
+        "example1": "He is a big fan of this actress.",
         "focus_meaning": "meaning1",
         "nonfocus_meaning": "meaning2",
         "domain": "attention_check",
