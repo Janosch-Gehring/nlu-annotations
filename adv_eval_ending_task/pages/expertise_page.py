@@ -157,9 +157,9 @@ if "list_of_categories" not in st.session_state:
 if "self_assessment" not in st.session_state:
     st.session_state.self_assessment = False 
 
-if "progress2" not in st.session_state:
+if "progress2" not in st.session_state and user_repository.get_qualification() > 1:
     st.session_state.progress2 = user_repository.get_checkpoint("annotation2")
-    if not st.session_state.progress2 and user_repository.get_qualification() == 3:  # no checkpoint yet -> simply go to the first relevant sample
+    if not st.session_state.progress2:  # no checkpoint yet -> simply go to the first relevant sample
 
         # user will get a random sample order upon first visit.
         domains = list(samples)
