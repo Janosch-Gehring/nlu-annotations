@@ -10,7 +10,7 @@ This is a joint study. That means that you will have to do two tasks in successi
 There is a qualification test for each one too. As such, your total workload will be:
 
 - Clearing the Plausibility Task Qualification Test (Rating 4 short texts)
-- Clearing the Connection Task Annotation Test (Doing 1 5x5 puzzle)
+- Clearing the Connection Task Qualification Test (Doing 1 5x5 puzzle)
 - Finishing the Plausibility Task (Rating about 20 short texts)
 - Finishing the Connection Task (Doing about 8 5x5 puzzles)
 
