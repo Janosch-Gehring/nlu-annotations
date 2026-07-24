@@ -14,9 +14,9 @@ There is a qualification test for each one too. As such, your total workload wil
 - Finishing the Plausibility Task (Rating about 20 short texts)
 - Finishing the Connection Task (Doing about 8 5x5 puzzles)
 
-So there are a little over 30 'samples' in total, each of which should ideally be completeable in about a minute. **Please go through the tasks in the order of the left sidebar.**
+So there are a little over 30 'samples' in total, each of which should be doable in about a minute. **Please go through the tasks in the order of the left sidebar.**
 
-**Below is a thorough explanation of the Plausibility Task, which is the task you will start with. The rules of the Connection Task are simple and will be explained during its qualification test.**
+**Below is an explanation of the Plausibility Task, which is the task you will start with. The rules of the Connection Task are simple and will be explained before its qualification test.**
 
 ## Plausibility Task
 
@@ -33,9 +33,7 @@ You will see a short text in which one sentence is written in bold. That sentenc
 
 See below for examples.
 
-You can also mark stories as *nonsensical*, meaning that the text is strange no matter which meaning of the word is used. Even if a story is nonsensical, try to pick whatever makes the most sense to you. You can simply go with your intuition here. 
-
-Also, feel free to add comments in the comment field.
+You can also mark stories as *nonsensical*. Even if a story is nonsensical, try to pick whatever makes the most sense to you.
 
 There will be times where there is no objectively correct answer. Whatever the case, always look at all of the sentences and carefully think about how plausible each meaning would be.
 
@@ -49,7 +47,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 
 **Your Rating**: *1*
 
-**Explanation**: A baseball bat flying out of a cave is inconceivable; it obviously refers to an animal.
+**Explanation**: A baseball bat flying out of a cave is basically inconceivable; it obviously refers to an animal.
 
 ---
 
@@ -59,7 +57,7 @@ There will be times where there is no objectively correct answer. Whatever the c
 
 **Your Rating**: *3*
 
-**Explanation**: *Bank* could refer to the financial institution, but it could also be a river bank. Neither one seems particularly plausible compared to the other, so your rating should be in the middle.
+**Explanation**: *Bank* could refer to the financial institution, but it could also be a river bank. Neither one seems particularly plausible compared to the other. The exact rating is subjective, but yours should be somewhere in the middle.
 
 ---
 
@@ -83,14 +81,5 @@ There will be times where there is no objectively correct answer. Whatever the c
 
 
 ---
-# The Annotation Procedure
-
-You will first have to pass the qualification test, which consists of four questions. **You only have one attempt at this.** Carefully look at the sentences and determine the plausibility of meanings. 
-
-**If you fail at the qualification test**: You will not be able to start the annotation. **Remember to copy the Screen-Out Completion Code that will be displayed to Prolific.** 
-
-**If you succeed at the qualification test**: Once you pass the qualification test, you will automatically unlock access to the annotation page. Each annotator is assigned 50 samples.
-
-Your progress for both qualification and annotation is **saved automatically** anytime you press the *NEXT* button.
 
 ### **Good luck and have fun!**

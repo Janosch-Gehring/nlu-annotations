@@ -69,7 +69,7 @@
             "adagio.n.01",
             "adagio",
             2.5,
-            "musical passage"
+            "tempo"
         ],
         [
             "bolero.n.01",
@@ -330,10 +330,10 @@
             "bone"
         ],
         [
-            "medulla.n.03",
-            "medulla",
-            2.49,
-            "fat"
+            "abductor.n.02",
+            "abductor",
+            2.46,
+            "skeletal muscle"
         ],
         [
             "lymphocyte.n.01",
@@ -356,10 +356,10 @@
     ],
     "computer_science": [
         [
-            "fragmentation.n.03",
-            "fragmentation",
-            3.23,
-            "storage"
+            "mips.n.01",
+            "MIPS",
+            2.49,
+            "unit of measurement"
         ],
         [
             "prolog.n.01",
@@ -374,10 +374,10 @@
             "word processing system"
         ],
         [
-            "sequencer.n.02",
-            "sequencer",
-            2.58,
-            "hardware"
+            "alphanumeric.a.01",
+            "alphanumeric",
+            2.46,
+            "character set"
         ],
         [
             "shareware.n.01",
@@ -466,10 +466,10 @@
             "binary star"
         ],
         [
-            "antares.n.01",
-            "Antares",
-            2.48,
-            "binary star"
+            "cassiopeia.n.02",
+            "Cassiopeia",
+            2.38,
+            "constellation"
         ],
         [
             "oort.n.01",

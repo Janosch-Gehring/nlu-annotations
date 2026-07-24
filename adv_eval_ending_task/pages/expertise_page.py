@@ -30,7 +30,7 @@ def print_annotation_schema_connections(samples, index):
     domain = st.session_state.domain_list[index]
     question = samples[domain]
     # display the "Sample 1/5" thing
-    display_progress(key="annotation2")
+    # display_progress(key="annotation2")  # hmm this doesnt work, but maybe its not needed for now...
 
     st.markdown("""**As before, connect the terms on the left with the category that best describes it on the right.**
                 
@@ -38,13 +38,15 @@ From now on, the terms will become much more obscure. You probably will not know
                 
 Some tips:
                 
-- Each category will fit to at least one term. You may use process of elimination to connect the last term.
+- To connect, always press on the left word first and the right word second. If you made a mistake, press the reset button.
                 
 - **Please do not blindly guess or cheat by using search engines.** Being honest about what you know is most important for this study.
    
-- There are 21 groups of 5 terms in total.
+- If you don't know any of the words, that's okay! There's a button below you can press in that case.
+
+- There will be about 8 of these 5x5 puzzles assigned to you in total. (The exact number may vary a bit.)
                     
-**Please note: Do not leave/refresh the page or stay inactive for a prolonged period of time, as you may lose some progress.**
+**Please note: Do not leave/refresh the page or stay inactive for a prolonged period of time.**
                 """)
     
     print(question)
