@@ -1937,7 +1937,7 @@
         ],
         "context_raw": [
             "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the bridge.",
-            "Select the second part."
+            ""
         ],
         "domain_meaning": false,
         "example1": "The military staged a coup and took control of the government.",
@@ -1946,7 +1946,7 @@
         "revision": {
             "part1": "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the bridge.",
             "part2": "It was a big coup for all involved.",
-            "part3": "Select the second part."
+            "part3": ""
         }
     },
     "76": {
@@ -1963,7 +1963,7 @@
         ],
         "context_raw": [
             "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the bridge.",
-            "Select the second part."
+            ""
         ],
         "domain_meaning": false,
         "example1": "The military staged a coup and took control of the government.",
@@ -1972,7 +1972,7 @@
         "revision": {
             "part1": "They met at midnight by the river and checked each other's watches. Someone handed out a small envelope and everyone nodded before they moved toward the bridge.",
             "part2": "It was a big coup for all involved.",
-            "part3": "Select the second part."
+            "part3": ""
         }
     },
     "77": {
