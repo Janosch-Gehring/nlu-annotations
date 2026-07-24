@@ -180,7 +180,7 @@ if "progress2" not in st.session_state and user_repository.get_qualification() >
 
         user_repository.save_one_annotation(st.session_state.user_id, "sample_order", 1, st.session_state.domain_list)
 
-st.session_state.page = "expertise_sample" + str(st.session_state.progress2)
+st.session_state.page = "expertise_samples"
 
 if user_repository.get_qualification() > 3:
     st.write("## You have finished annotation. \n\nThank you for your time!")
