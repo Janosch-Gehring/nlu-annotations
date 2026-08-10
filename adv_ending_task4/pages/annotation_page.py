@@ -79,11 +79,11 @@ def handle_next_button(annotation, index, samples):
 
 
 
-if "progress" not in st.session_state:
+if user_repository.get_qualification() == 2 and "progress" not in st.session_state:
     st.session_state.progress = user_repository.get_checkpoint("annotation")
     if not st.session_state.progress:  # no checkpoint yet -> simply go to the first relevant sample
         st.session_state.progress = skip_to_next_sample(0, samples, st.session_state.user[3], 1)
-st.session_state.page = "adv_ending_task4_annotation_page_sample" + str(st.session_state.progress)
+st.session_state.page = "adv_ending_task4_annotation_page_sampleX"
 
 if "tutorial_stage" in st.session_state and st.session_state["tutorial_stage"] > 5:
     utils.reset_sample_state()
