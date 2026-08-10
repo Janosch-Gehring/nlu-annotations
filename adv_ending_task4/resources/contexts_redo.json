@@ -1,46 +1,4 @@
 {
-    "-1": {
-        "sentence": "The general spent all night going over his outfit.",
-        "word": "outfit",
-        "meaning1": "any cohesive unit such as a military company",
-        "meaning2": "a set of clothing (with accessories)",
-        "focus_meaning": "any cohesive unit such as a military company",
-        "precontexts": [
-            "He stayed awake in the dim office because the morning would be important. Calls were stacked on the desk and the radio hummed with updates. He rewrote his brief and practiced a single paragraph until his hand ached.",
-            "He sat at the table under a lamp with a pile of papers and a pencil.",
-            "He sat at the table and spread papers and notes across the wood. There were messages from the staff, and deadlines were closing in."
-        ],
-        "endings": [
-            "By morning he had made several changes and marked items to be tested. The staff came in and waited for his final say before beginning the day's work. He folded the papers, gave a quick nod, and opened the door.",
-            "When he finished, he set everything aside and tried to rest for an hour. At first light he made his preparations and stepped out to see the result.",
-            "At dawn he stepped outside and paused as everyone turned to watch."
-        ],
-        "pos": "n",
-        "grouping": 39,
-        "example1": "The small outfit was sent to secure the mountain pass.",
-        "example2": "She wore a new outfit with matching shoes and a hat."
-    },
-    "0": {
-        "sentence": "The general spent all night going over his outfit.",
-        "word": "outfit",
-        "meaning1": "any cohesive unit such as a military company",
-        "meaning2": "a set of clothing (with accessories)",
-        "focus_meaning": "a set of clothing (with accessories)",
-        "precontexts": [
-            "He stayed awake in the dim office because the morning would be important. Calls were stacked on the desk and the radio hummed with updates. He rewrote his brief and practiced a single paragraph until his hand ached.",
-            "He sat at the table under a lamp with a pile of papers and a pencil.",
-            "He sat at the table and spread papers and notes across the wood. There were messages from the staff, and deadlines were closing in."
-        ],
-        "endings": [
-            "By morning he had made several changes and marked items to be tested. The staff came in and waited for his final say before beginning the day's work. He folded the papers, gave a quick nod, and opened the door.",
-            "When he finished, he set everything aside and tried to rest for an hour. At first light he made his preparations and stepped out to see the result.",
-            "At dawn he stepped outside and paused as everyone turned to watch."
-        ],
-        "pos": "n",
-        "grouping": 0,
-        "example1": "The small outfit was sent to secure the mountain pass.",
-        "example2": "She wore a new outfit with matching shoes and a hat."
-    },
     "1": {
         "sentence": "The music was very loud at the party; Tom thought it was a blast.",
         "word": "blast",
@@ -8314,5 +8272,47 @@
         "grouping": 34,
         "example1": "The tension in the spring caused it to elongate.",
         "example2": "She felt tension building as the deadline approached."
+    },
+    "395": {
+        "sentence": "The general spent all night going over his outfit.",
+        "word": "outfit",
+        "meaning1": "any cohesive unit such as a military company",
+        "meaning2": "a set of clothing (with accessories)",
+        "focus_meaning": "any cohesive unit such as a military company",
+        "precontexts": [
+            "He stayed awake in the dim office because the morning would be important. Calls were stacked on the desk and the radio hummed with updates. He rewrote his brief and practiced a single paragraph until his hand ached.",
+            "He sat at the table under a lamp with a pile of papers and a pencil.",
+            "He sat at the table and spread papers and notes across the wood. There were messages from the staff, and deadlines were closing in."
+        ],
+        "endings": [
+            "By morning he had made several changes and marked items to be tested. The staff came in and waited for his final say before beginning the day's work. He folded the papers, gave a quick nod, and opened the door.",
+            "When he finished, he set everything aside and tried to rest for an hour. At first light he made his preparations and stepped out to see the result.",
+            "At dawn he stepped outside and paused as everyone turned to watch."
+        ],
+        "pos": "n",
+        "grouping": 39,
+        "example1": "The small outfit was sent to secure the mountain pass.",
+        "example2": "She wore a new outfit with matching shoes and a hat."
+    },
+    "396": {
+        "sentence": "The general spent all night going over his outfit.",
+        "word": "outfit",
+        "meaning1": "any cohesive unit such as a military company",
+        "meaning2": "a set of clothing (with accessories)",
+        "focus_meaning": "a set of clothing (with accessories)",
+        "precontexts": [
+            "He stayed awake in the dim office because the morning would be important. Calls were stacked on the desk and the radio hummed with updates. He rewrote his brief and practiced a single paragraph until his hand ached.",
+            "He sat at the table under a lamp with a pile of papers and a pencil.",
+            "He sat at the table and spread papers and notes across the wood. There were messages from the staff, and deadlines were closing in."
+        ],
+        "endings": [
+            "By morning he had made several changes and marked items to be tested. The staff came in and waited for his final say before beginning the day's work. He folded the papers, gave a quick nod, and opened the door.",
+            "When he finished, he set everything aside and tried to rest for an hour. At first light he made his preparations and stepped out to see the result.",
+            "At dawn he stepped outside and paused as everyone turned to watch."
+        ],
+        "pos": "n",
+        "grouping": 0,
+        "example1": "The small outfit was sent to secure the mountain pass.",
+        "example2": "She wore a new outfit with matching shoes and a hat."
     }
 }
