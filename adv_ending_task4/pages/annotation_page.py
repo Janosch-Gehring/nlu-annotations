@@ -79,7 +79,7 @@ def handle_next_button(annotation, index, samples):
 
 
 
-if user_repository.get_qualification() == 2 and "progress" not in st.session_state:
+if user_repository.get_qualification() > 1 and "progress" not in st.session_state:
     st.session_state.progress = user_repository.get_checkpoint("annotation")
     if not st.session_state.progress:  # no checkpoint yet -> simply go to the first relevant sample
         st.session_state.progress = skip_to_next_sample(0, samples, st.session_state.user[3], 1)
@@ -88,9 +88,9 @@ st.session_state.page = "adv_ending_task4_annotation_page_sampleX"
 if "tutorial_stage" in st.session_state and st.session_state["tutorial_stage"] > 5:
     utils.reset_sample_state()
 
-if user_repository.get_qualification() != 2:
+if user_repository.get_qualification() < 2:
     st.write("## You must do the qualification and tutorial before starting annotation. \n\n Select **Qualification**, then **Tutorial** in the navigation bar to your left.")
-elif user_repository.check_if_done(st.session_state.user_id):
+elif user_repository.get_qualification() == 3:
     st.write("## You have finished annotation. \n\nThank you for your time!")
     st.write("\n\n\n")
     st.write("**Your Prolific Completion Code:**")
