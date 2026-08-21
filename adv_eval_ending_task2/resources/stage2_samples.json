@@ -11314,6 +11314,11 @@
         "example1": "The teacher's complicated answer caused obfuscation among the students.",
         "example2": "The obfuscation caused by thick fog hid the coastline.",
         "sentence_id": "81",
+        "context": {
+            "part1": "We climbed the low hill after dinner to watch the view. We spread a blanket.",
+            "part2": "As we sat on the hill and talked, I noticed some obfuscation.",
+            "part3": "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow path."
+        },
         "grouping": 4
     },
     "630": {
@@ -11327,6 +11332,11 @@
         "example1": "The teacher's complicated answer caused obfuscation among the students.",
         "example2": "The obfuscation caused by thick fog hid the coastline.",
         "sentence_id": "81",
+        "context": {
+            "part1": "We climbed the low hill after dinner to watch the view. We spread a blanket.",
+            "part2": "As we sat on the hill and talked, I noticed some obfuscation.",
+            "part3": "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow path."
+        },
         "grouping": 5
     },
     "631": {
@@ -11340,6 +11350,11 @@
         "example1": "The teacher's complicated answer caused obfuscation among the students.",
         "example2": "The obfuscation caused by thick fog hid the coastline.",
         "sentence_id": "81",
+        "context": {
+            "part1": "We climbed the low hill after dinner to watch the view. We spread a blanket and passed a bottle back and forth.",
+            "part2": "As we sat on the hill and talked, I noticed some obfuscation.",
+            "part3": "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow path very quickly!"
+        },
         "grouping": 6
     },
     "632": {
@@ -11353,6 +11368,11 @@
         "example1": "The teacher's complicated answer caused obfuscation among the students.",
         "example2": "The obfuscation caused by thick fog hid the coastline.",
         "sentence_id": "81",
+        "context": {
+            "part1": "We climbed the low hill after dinner to watch the view. We spread a blanket and passed a bottle back and forth.",
+            "part2": "As we sat on the hill and talked, I noticed some obfuscation.",
+            "part3": "My companion pointed toward the valley and went quiet. We folded the blanket and walked home down the narrow path very quickly!"
+        },
         "grouping": 7
     },
     "633": {
@@ -11366,6 +11386,11 @@
         "example1": "Don't objectify people by treating them as tools instead of human beings.",
         "example2": "She tried to objectify her anxiety by writing it down.",
         "sentence_id": "82",
+        "context": {
+            "part1": "She reluctantly agreed to pose for the afternoon session at the shared studio. A circle of men eagerly leaned in, sharpening pencils and arranging their boards. They fixed their eyes on her as they started to work.",
+            "part2": "She was objectified by the men around her as they drew her portrait.",
+            "part3": ""
+        },
         "grouping": 8
     },
     "634": {
@@ -11379,6 +11404,11 @@
         "example1": "Don't objectify people by treating them as tools instead of human beings.",
         "example2": "She tried to objectify her anxiety by writing it down.",
         "sentence_id": "82",
+        "context": {
+            "part1": "She reluctantly agreed to pose for the afternoon session at the shared studio. A circle of men eagerly leaned in, sharpening pencils and arranging their boards. They fixed their eyes on her as they started to work.",
+            "part2": "She was objectified by the men around her as they drew her portrait.",
+            "part3": ""
+        },
         "grouping": 9
     },
     "635": {
@@ -11392,6 +11422,11 @@
         "example1": "Don't objectify people by treating them as tools instead of human beings.",
         "example2": "She tried to objectify her anxiety by writing it down.",
         "sentence_id": "82",
+        "context": {
+            "part1": "She agreed to pose for the afternoon session at the shared studio. A circle of men leaned in, sharpening pencils and arranging their boards. She sat on a stool and kept her hands folded while they measured angles.",
+            "part2": "She was objectified by the men around her as they drew her portrait.",
+            "part3": "She thought it was best to carry on."
+        },
         "grouping": 10
     },
     "636": {
@@ -11405,6 +11440,11 @@
         "example1": "Don't objectify people by treating them as tools instead of human beings.",
         "example2": "She tried to objectify her anxiety by writing it down.",
         "sentence_id": "82",
+        "context": {
+            "part1": "She agreed to pose for the afternoon session at the shared studio. A circle of men leaned in, sharpening pencils and arranging their boards. She sat on a stool and kept her hands folded while they measured angles.",
+            "part2": "She was objectified by the men around her as they drew her portrait.",
+            "part3": "She thought it was best to carry on."
+        },
         "grouping": 11
     },
     "637": {
@@ -11418,6 +11458,11 @@
         "example1": "She waited in suspense, unsure what the doctor would say.",
         "example2": "The movie built suspense as the detective closed in on the killer.",
         "sentence_id": "83",
+        "context": {
+            "part1": "She had been checking the small digital clock on her phone every few seconds.",
+            "part2": "The suspense was killing her.",
+            "part3": ""
+        },
         "grouping": 12
     },
     "638": {
@@ -11431,6 +11476,11 @@
         "example1": "She waited in suspense, unsure what the doctor would say.",
         "example2": "The movie built suspense as the detective closed in on the killer.",
         "sentence_id": "83",
+        "context": {
+            "part1": "She had been checking the small digital clock on her phone every few seconds.",
+            "part2": "The suspense was killing her.",
+            "part3": ""
+        },
         "grouping": 13
     },
     "639": {
@@ -11444,6 +11494,11 @@
         "example1": "She waited in suspense, unsure what the doctor would say.",
         "example2": "The movie built suspense as the detective closed in on the killer.",
         "sentence_id": "83",
+        "context": {
+            "part1": "She had been checking the small digital clock on her phone every few minutes. Still nothing.",
+            "part2": "The suspense was killing her.",
+            "part3": ""
+        },
         "grouping": 0
     },
     "640": {
@@ -11457,6 +11512,11 @@
         "example1": "She waited in suspense, unsure what the doctor would say.",
         "example2": "The movie built suspense as the detective closed in on the killer.",
         "sentence_id": "83",
+        "context": {
+            "part1": "She had been checking the small digital clock on her phone every few minutes. Still nothing.",
+            "part2": "The suspense was killing her.",
+            "part3": ""
+        },
         "grouping": 1
     },
     "641": {
@@ -11470,6 +11530,11 @@
         "example1": "I accepted the proposal, but I have a reservation about its feasibility.",
         "example2": "The island was turned into a wildlife reservation.",
         "sentence_id": "84",
+        "context": {
+            "part1": "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen before; a third party may obstruct her ongoing work.",
+            "part2": "She was concerned with this newest reservation.",
+            "part3": "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        },
         "grouping": 2
     },
     "642": {
@@ -11483,6 +11548,11 @@
         "example1": "I accepted the proposal, but I have a reservation about its feasibility.",
         "example2": "The island was turned into a wildlife reservation.",
         "sentence_id": "84",
+        "context": {
+            "part1": "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen before; a third party may obstruct her ongoing work.",
+            "part2": "She was concerned about this newest reservation.",
+            "part3": "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        },
         "grouping": 3
     },
     "643": {
@@ -11496,6 +11566,11 @@
         "example1": "I accepted the proposal, but I have a reservation about its feasibility.",
         "example2": "The island was turned into a wildlife reservation.",
         "sentence_id": "84",
+        "context": {
+            "part1": "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen before or expected to see.",
+            "part2": "She was concerned about this newest reservation.",
+            "part3": "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        },
         "grouping": 4
     },
     "644": {
@@ -11509,6 +11584,11 @@
         "example1": "I accepted the proposal, but I have a reservation about its feasibility.",
         "example2": "The island was turned into a wildlife reservation.",
         "sentence_id": "84",
+        "context": {
+            "part1": "The coordinator opened her tablet and checked the day's tasks. An email had just arrived with details she hadn't seen before or expected to see.",
+            "part2": "She was concerned about this newest reservation.",
+            "part3": "It listed a time, a code, and a single name she recognized. She called the number and left a voice message asking for clarification. Later, she sat on the back steps clutching the paper and deciding whether to follow up or let it go."
+        },
         "grouping": 5
     },
     "645": {
@@ -11522,6 +11602,11 @@
         "example1": "The poem's epic scope and heroic characters recalled ancient myths.",
         "example2": "The mountain's epic cliffs rose far above the valley.",
         "sentence_id": "24",
+        "context": {
+            "part1": "I picked up a book someone had left on the bench. Its spine was cracked and a small sticker hid part of the title. The cover of the book was like nothing I had ever seen before.",
+            "part2": "The book was epic.",
+            "part3": "A commuter stopped to listen as I read the first lines and stayed until the station. When I left the platform, I set it back on the seat for the next person."
+        },
         "grouping": 28
     },
     "646": {
@@ -11535,6 +11620,11 @@
         "example1": "In 24 \u00f7 6, 24 is the dividend and 6 is the divisor.",
         "example2": "The company paid a quarterly dividend of $0.50 per share.",
         "sentence_id": "41",
+        "context": {
+            "part1": "I sat at the kitchen table with a stack of papers and a calculator, eager to sort things out.",
+            "part2": "I checked that the correct dividend was used in the calculation.",
+            "part3": "Satisfied, I sent the updated file back to the group and shut the laptop."
+        },
         "grouping": 6
     },
     "647": {
@@ -11548,6 +11638,11 @@
         "example1": "The interval [0, 1] is closed because it contains both endpoints 0 and 1.",
         "example2": "The gate was closed, so we couldn't enter.",
         "sentence_id": "42",
+        "context": {
+            "part1": "She spread the plans across the table and ran a pencil along the drawn line. They reviewed their annotations one more time and exchanged a short nod.",
+            "part2": "The boundary was considered closed.",
+            "part3": "They slid the papers into the folder and walked out to meet the client."
+        },
         "grouping": 7
     },
     "648": {
@@ -11561,6 +11656,11 @@
         "example1": "The string section played a haunting melody.",
         "example2": "She tied the package with a piece of string.",
         "sentence_id": "101",
+        "context": {
+            "part1": "Someone carried the battered case across the room and set it on the table. They took out each component and laid it in order, checking for defects. Every tweak changed how the whole thing behaved, so they worked slowly.",
+            "part2": "The strings needed continuous adjustment.",
+            "part3": "Hands kept working, testing tension and shifting parts until everything looked even."
+        },
         "grouping": 26
     },
     "649": {
@@ -11574,6 +11674,11 @@
         "example1": "Please sing the line in a lower key so you don't strain your voice.",
         "example2": "She turned the key to unlock the door.",
         "sentence_id": "102",
+        "context": {
+            "part1": "They arrived early and unpacked their equipment. One person skimmed the notes while another opened a small case.",
+            "part2": "They have to work out the correct key to use.",
+            "part3": "They started testing different options, marking each attempt on a sheet. When they were satisfied, they were ready for the performance."
+        },
         "grouping": 27
     },
     "650": {
@@ -11587,6 +11692,11 @@
         "example1": "She fiddled a lively tune on her violin.",
         "example2": "He likes to fiddle with ideas in his mind until one becomes a plan.",
         "sentence_id": "103",
+        "context": {
+            "part1": "He arrived earlier than usual and set a small case on the table.",
+            "part2": "He likes to fiddle with a bow, although the outcome is not always quite on target.",
+            "part3": "After a few attempts, he smiled at the result and packed it back into the case."
+        },
         "grouping": 14
     },
     "651": {
@@ -11600,6 +11710,11 @@
         "example1": "The harmony of the song uses simple chord progressions to create a warm, full sound.",
         "example2": "After talking, the team was in harmony about the plan.",
         "sentence_id": "104",
+        "context": {
+            "part1": "Sarah stepped inside the theatre with a small smile. Chairs were arranged in neat rows, the lights dimmed, and a man at the front lifted his hand as if to begin.",
+            "part2": "Sarah sat in the bliss of the harmony that surrounded her.",
+            "part3": ""
+        },
         "grouping": 15
     },
     "652": {
@@ -11613,6 +11728,11 @@
         "example1": "She took a preventive to reduce her risk of getting the flu.",
         "example2": "The fallen tree was a preventive, blocking the road.",
         "sentence_id": "121",
+        "context": {
+            "part1": "He stayed late to sort through a small delivery. A supervisor tapped a wrapped item and told him to take it.",
+            "part2": "He struggled to handle the preventive.",
+            "part3": "He sighed, wiped his hands, and tried the steps from the medical leaflet. An attendant across the room watched him fumble and stepped forward to steady the device. After a few careful adjustments, it settled into place, and he let out a quiet laugh of relief."
+        },
         "grouping": 16
     },
     "653": {
@@ -11626,6 +11746,11 @@
         "example1": "Add baking soda to the acid to neutralize it.",
         "example2": "The editor neutralized the article's language to avoid political controversy.",
         "sentence_id": "141",
+        "context": {
+            "part1": "She examined the sample on the table and frowned.",
+            "part2": "It's too strong, so it cannot be neutralized.",
+            "part3": "It was safely disposed of, as per instructions from her manager."
+        },
         "grouping": 8
     },
     "654": {
@@ -11639,6 +11764,11 @@
         "example1": "The sample contained two phases: an oil phase floating above an aqueous phase.",
         "example2": "The project entered a new phase after the design was approved.",
         "sentence_id": "142",
+        "context": {
+            "part1": "A small team of scientists walked into the lab and looked at the experiment they had been preparing for weeks.",
+            "part2": "If everything goes to plan, a change of phase is expected within the next few hours.",
+            "part3": ""
+        },
         "grouping": 9
     },
     "655": {
@@ -11652,6 +11782,11 @@
         "example1": "Organic compounds are carbon-based molecules found in living organisms.",
         "example2": "We buy organic vegetables grown without synthetic pesticides or fertilizers.",
         "sentence_id": "143",
+        "context": {
+            "part1": "Craig lifted a small sealed jar off the table.",
+            "part2": "Craig believes that it is organic.",
+            "part3": "He turned it so the label caught the light and tried to read the print. When the words stayed unclear, he held it to his nose, then set it down. He left the jar on the shelf and planned to ask about it later. The words were longer than anything he ever recognized."
+        },
         "grouping": 10
     },
     "656": {
@@ -11665,6 +11800,11 @@
         "example1": "In water, the salt separates into free ions that conduct electricity.",
         "example2": "After finishing her homework, Maria was free to go outside and play.",
         "sentence_id": "144",
+        "context": {
+            "part1": "A small jar had sat on the sill since winter; its lid sealed tight with grime. She set it in a bowl and held it under the tap until the glass warmed.",
+            "part2": "Finally, it was free.",
+            "part3": "A faint scuttle against the glass made their hand stop midway. They hesitated, unsure whether to lift the lid or step back. Slowly, they opened it and watched whatever had been inside slip into the shadows."
+        },
         "grouping": 11
     },
     "657": {
@@ -11678,6 +11818,11 @@
         "example1": "The grammar rule states that adjectives come before nouns in English.",
         "example2": "In our classroom, the rule is to raise your hand before speaking.",
         "sentence_id": "161",
+        "context": {
+            "part1": "The instructor handed out folders and tapped a pen to get everyone's attention. People flipped through the grammar sheets, worrying about the practical examination that would start soon. One page showed bold headings and a short paragraph printed across the top.",
+            "part2": "Students should follow all rules.",
+            "part3": "A marker squeaked as someone underlined a line and pushed the pen along the margin. When the bell rang, most heads bent down and the room filled with low discussion. At the end, the papers were collected and stacked into one neat pile."
+        },
         "grouping": 12
     },
     "658": {
@@ -11691,6 +11836,11 @@
         "example1": "The ending \"-ed\" shows that a verb is in the past tense.",
         "example2": "The ending of the meeting surprised everyone.",
         "sentence_id": "162",
+        "context": {
+            "part1": "Students shuffled their papers as the English lesson began.",
+            "part2": "The teacher explained the ending carefully before class was over.",
+            "part3": "A few students raised their hands to ask questions. One student lingered after class to ask for extra clarification. When the bell rang, everyone filed out and the teacher closed the textbook."
+        },
         "grouping": 13
     },
     "659": {
@@ -11704,6 +11854,11 @@
         "example1": "The \"p\" in \"pin\" has aspiration, so you hear a small burst of breath.",
         "example2": "Her aspiration to succeed drove her to study every night.",
         "sentence_id": "163",
+        "context": {
+            "part1": "She sat at the front of the room and smoothed the pages of her notebook.",
+            "part2": "Her teacher said her aspiration was really noticeable.",
+            "part3": "After class she stayed behind to ask for another chance to perform. The teacher said that perhaps she could perform at the winter fair."
+        },
         "grouping": 0
     },
     "660": {
@@ -11717,6 +11872,11 @@
         "example1": "The moon will eclipse the sun tomorrow.",
         "example2": "Her achievements in conservation eclipse those of her colleagues.",
         "sentence_id": "164",
+        "context": {
+            "part1": "A short bulletin ran across the agency's feed about an object they had only just noticed.",
+            "part2": "The meteor NASA discovered last week is going to eclipse Mercury.",
+            "part3": "Officials say they will release more detailed data after the evening press conference. Amateur astronomers and science blogs are already debating what the announcement will mean. This was the first time in a century that Mercury would be fully covered."
+        },
         "grouping": 1
     },
     "661": {
@@ -11730,6 +11890,11 @@
         "example1": "The stagehand carried the prop bouquet onto the set.",
         "example2": "She placed a prop under the table to stop it from wobbling.",
         "sentence_id": "181",
+        "context": {
+            "part1": "She set the box down on the floor and wiped her hands. A framed photograph leaned against the shelf after she moved it to match the scene layout. She stepped back and scanned the room for anything out of place.",
+            "part2": "The prop was right where it should be.",
+            "part3": "They gave it a careful tap and watched whether anything shifted. Their phone buzzed with a message asking if everything was ready, and they typed a quick \"yes.\" Before leaving, they flipped the switch and closed the door behind them."
+        },
         "grouping": 17
     },
     "662": {
@@ -11743,6 +11908,11 @@
         "example1": "The trouper toured the country, performing plays in small towns.",
         "example2": "Even after the long shift, he remained a trouper and finished every task without complaint.",
         "sentence_id": "182",
+        "context": {
+            "part1": "Sally arrived at the hall before dawn with a battered case under her arm. She checked the schedule pinned by the door and tightened the straps on her bag.",
+            "part2": "Sally was recognised by all as an experienced, reliable trouper.",
+            "part3": "But sometimes she just wanted to step back from all the responsibilities and switch off."
+        },
         "grouping": 18
     },
     "663": {
@@ -11756,6 +11926,11 @@
         "example1": "The shifter moved the backdrop into place during the scene change.",
         "example2": "She grabbed the shifter and eased the car into second gear.",
         "sentence_id": "183",
+        "context": {
+            "part1": "We rushed through the preparations when the clock kept ticking down. A volunteer signaled that something needed to be checked right before we started. The pressure was really on.",
+            "part2": "We had a huge delay in getting to the end, since the shifter wasn't working today.",
+            "part3": "After a long wait, we improvised a workaround and finally completed the run well past schedule."
+        },
         "grouping": 19
     },
     "664": {
@@ -11769,30 +11944,11 @@
         "example1": "The playwright handed the director a brief scenario summarizing the play's plot.",
         "example2": "In this scenario, if the alarms fail, the sprinkler system will activate.",
         "sentence_id": "184",
-        "grouping": 20
-    },
-    "665": {
-        "sentence": "It was a hard puzzle.",
-        "word": "hard",
-        "story_meaning": "solid; not soft",
-        "focus_meaning_gloss": "solid; not soft",
-        "focus_meaning": "meaning1",
-        "nonfocus_meaning": "meaning2",
-        "domain": "attention_check",
         "context": {
-            "part1": "The puzzle pieces were scattered across the table. We spent hours on the puzzle, but each piece seemed to fit nowhere.",
-            "part2": "It was a hard puzzle.",
-            "part3": ""
+            "part1": "A dozen people crowded around a folding table in the fluorescent-lit room. Someone pushed a single sheet forward and tapped on a paragraph with a pen. The air filled with low questions and the scratch of pens as notes were taken.",
+            "part2": "Everyone was struggling to understand the scenario.",
+            "part3": "Someone tapped a pen and made a tentative suggestion. A few heads turned to the screen as a presenter outlined their interpretation."
         },
-        "context_detailed": [
-            "She sat at the front of the room and smoothed the pages of her notebook.",
-            "After class she stayed behind to ask for another chance to perform. [added: The teacher said that perhaps she could be able to perform at the winter faite.]"
-        ],
-        "context_raw": [
-            "",
-            ""
-        ],
-        "domain_meaning": true,
-        "example1": "The stone floor is hard."
+        "grouping": 20
     }
 }
