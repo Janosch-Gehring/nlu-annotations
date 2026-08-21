@@ -223,6 +223,31 @@ adv_eval_ending_annotation2_page = st.Page(
 )
 
 
+
+
+
+adv_eval_ending2_start_page = st.Page(
+    "adv_eval_ending_task2/pages/introduction_page.py", title="Introduction",  icon="📙"
+)
+adv_eval_ending2_qualification1_page = st.Page(
+    "adv_eval_ending_task2/pages/qualification_page.py", title="Qualification (Part 1)", icon="🔑"
+)
+
+adv_eval_ending2_qualification2_page = st.Page(
+    "adv_eval_ending_task2/pages/expertise_qualification_page.py", title="Qualification (Part 2)", icon="🔑"
+)
+
+adv_eval_ending2_annotation1_page = st.Page(
+    "adv_eval_ending_task2/pages/annotation_page.py", title="Main Study Part 1: Plausibility", icon="✏️"
+)
+
+adv_eval_ending2_annotation2_page = st.Page(
+    "adv_eval_ending_task2/pages/expertise_page.py", title="Main Study Part 2: Connection", icon="✏️"
+)
+
+
+
+
 # Create navigation bar
 
 if st.session_state.user_id == "admin":
@@ -298,6 +323,10 @@ elif st.session_state.user_id:
     elif utils.authenticate_id("adv_eval_ending_task", st.session_state.user_id):
         available_pages["Plausibility+Connection Task"] = [adv_eval_ending_start_page, adv_eval_ending_qualification1_page, adv_eval_ending_qualification2_page, 
                                                            adv_eval_ending_annotation1_page, adv_eval_ending_annotation2_page]
+
+    elif utils.authenticate_id("adv_eval_ending_task2", st.session_state.user_id):
+        available_pages["Plausibility+Connection Task"] = [adv_eval_ending2_start_page, adv_eval_ending2_qualification1_page, adv_eval_ending2_qualification2_page, 
+                                                           adv_eval_ending2_annotation1_page, adv_eval_ending2_annotation2_page]
 
 
     available_pages["Other"] = [logout_page]
