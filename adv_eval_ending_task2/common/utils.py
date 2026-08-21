@@ -62,7 +62,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     st.write("---")
 
-    st.markdown(question["revision"]["part1"] + " " + format_sentence(question["sentence"]) + " " + question["revision"]["part3"])
+    st.markdown(question["context"]["part1"] + " " + format_sentence(question["sentence"]) + " " + question["context"]["part3"])
 
     st.write("---")
 
@@ -114,7 +114,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     return_sample = {
         "index": str(index),
         "sentence": question["sentence"],
-        "context": question["revision"],
+        "context": question["context"],
         "word": question["word"],
         "focus_meaning": question["focus_meaning"]
     }
