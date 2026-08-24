@@ -15,7 +15,7 @@
             "part3": "On the appointed day, transportation vehicles rolled out and dozens answered the call."
         },
         "sentence_id": "5",
-        "grouping": 0
+        "grouping": 1
     },
     "2": {
         "sentence": "They need to recruit as many people as possible to achieve success.",
@@ -33,7 +33,7 @@
             "part3": "On the appointed day, transportation vehicles rolled out and dozens answered the call."
         },
         "sentence_id": "5",
-        "grouping": 1
+        "grouping": 0
     },
     "3": {
         "sentence": "They need to recruit as many people as possible to achieve success.",
@@ -87,7 +87,7 @@
             "part3": "A boy leaned down, curious, and ran a finger along its back; his nail left a faint scrape that did not break the surface. A neighbor passed over a pocketknife and raised an eyebrow, but no one wanted to hurt it. They scooped it into a cardboard shoebox and carried it inside to show an adult."
         },
         "sentence_id": "6",
-        "grouping": 4
+        "grouping": 5
     },
     "6": {
         "sentence": "Its armor protects it from stabs and cuts.",
@@ -105,7 +105,7 @@
             "part3": "A boy leaned down, curious, and ran a finger along its back; his nail left a faint scrape that did not break the surface. A neighbor passed over a pocketknife and raised an eyebrow, but no one wanted to hurt it. They scooped it into a cardboard shoebox and carried it inside to show an adult."
         },
         "sentence_id": "6",
-        "grouping": 5
+        "grouping": 4
     },
     "7": {
         "sentence": "Its armor protects it from stabs and cuts.",
@@ -123,7 +123,7 @@
             "part3": "A child pointed and giggled. After a moment it moved on and no one could say which it had been."
         },
         "sentence_id": "6",
-        "grouping": 6
+        "grouping": 7
     },
     "8": {
         "sentence": "Its armor protects it from stabs and cuts.",
@@ -141,7 +141,7 @@
             "part3": "A child pointed and giggled. After a moment it moved on and no one could say which it had been."
         },
         "sentence_id": "6",
-        "grouping": 7
+        "grouping": 6
     },
     "9": {
         "sentence": "The trooper shot him from the vehicle.",
@@ -231,7 +231,7 @@
             "part3": "Their leader made a few quick calls and rearranged the timetable. By nightfall everyone rested, tired but satisfied with what had been completed."
         },
         "sentence_id": "8",
-        "grouping": 12
+        "grouping": 13
     },
     "14": {
         "sentence": "The division took longer than expected.",
@@ -249,7 +249,7 @@
             "part3": "Their leader made a few quick calls and rearranged the timetable. By nightfall everyone rested, tired but satisfied with what had been completed."
         },
         "sentence_id": "8",
-        "grouping": 13
+        "grouping": 12
     },
     "15": {
         "sentence": "The division took longer than expected.",
@@ -339,7 +339,7 @@
             "part3": "A low beam appeared over the ridge and the hum of an engine grew closer. A voice on the radio gave a short code and we folded the maps into our packs. When a figure stepped onto the road, we climbed into the vehicles and drove away."
         },
         "sentence_id": "9",
-        "grouping": 4
+        "grouping": 5
     },
     "20": {
         "sentence": "We could not leave the base until a new guard arrived.",
@@ -357,7 +357,7 @@
             "part3": "A low beam appeared over the ridge and the hum of an engine grew closer. A voice on the radio gave a short code and we folded the maps into our packs. When a figure stepped onto the road, we climbed into the vehicles and drove away."
         },
         "sentence_id": "9",
-        "grouping": 5
+        "grouping": 4
     },
     "21": {
         "sentence": "He was forced into an unconventional hold.",
@@ -447,7 +447,7 @@
             "part3": "They started the engine and drove toward the battlefield to get a better look."
         },
         "sentence_id": "11",
-        "grouping": 10
+        "grouping": 11
     },
     "26": {
         "sentence": "It was clear to see that it was active.",
@@ -465,7 +465,7 @@
             "part3": "They started the engine and drove toward the battlefield to get a better look."
         },
         "sentence_id": "11",
-        "grouping": 11
+        "grouping": 10
     },
     "27": {
         "sentence": "It was clear to see that it was active.",
@@ -483,7 +483,7 @@
             "part3": "They started the engine and drove toward the place to get a better look."
         },
         "sentence_id": "11",
-        "grouping": 12
+        "grouping": 13
     },
     "28": {
         "sentence": "It was clear to see that it was active.",
@@ -501,7 +501,7 @@
             "part3": "They started the engine and drove toward the place to get a better look."
         },
         "sentence_id": "11",
-        "grouping": 13
+        "grouping": 12
     },
     "29": {
         "sentence": "The destroyer moved towards the target.",
@@ -555,7 +555,7 @@
             "part3": "They held their breath, unsure if his actions would be greeted with applause or dread."
         },
         "sentence_id": "12",
-        "grouping": 2
+        "grouping": 3
     },
     "32": {
         "sentence": "The destroyer moved towards the target.",
@@ -573,7 +573,7 @@
             "part3": "They held their breath, unsure if his actions would be greeted with applause or dread."
         },
         "sentence_id": "12",
-        "grouping": 3
+        "grouping": 2
     },
     "33": {
         "sentence": "They received directions from headquarters and immediately knew the task at hand.",
@@ -663,7 +663,7 @@
             "part3": "He took a steadying breath, slung the duffel over his shoulder, and walked toward the waiting car."
         },
         "sentence_id": "14",
-        "grouping": 8
+        "grouping": 9
     },
     "38": {
         "sentence": "He hadn't slept at all last night because of the upcoming mission.",
@@ -681,7 +681,7 @@
             "part3": "He took a steadying breath, slung the duffel over his shoulder, and walked toward the waiting car."
         },
         "sentence_id": "14",
-        "grouping": 9
+        "grouping": 8
     },
     "39": {
         "sentence": "He hadn't slept at all last night because of the upcoming mission.",
@@ -699,7 +699,7 @@
             "part3": "He took a steadying breath, slung the duffel over his shoulder, and walked toward the waiting car."
         },
         "sentence_id": "14",
-        "grouping": 10
+        "grouping": 11
     },
     "40": {
         "sentence": "He hadn't slept at all last night because of the upcoming mission.",
@@ -717,7 +717,7 @@
             "part3": "He took a steadying breath, slung the duffel over his shoulder, and walked toward the waiting car."
         },
         "sentence_id": "14",
-        "grouping": 11
+        "grouping": 10
     },
     "41": {
         "sentence": "It was at the base that he felt safest.",
@@ -771,7 +771,7 @@
             "part3": "A distant thump made the windows rattle, but he did not flinch. He took out a small notebook, wrote the time, and watched the light shift outside."
         },
         "sentence_id": "15",
-        "grouping": 0
+        "grouping": 1
     },
     "44": {
         "sentence": "It was at the base that he felt safest.",
@@ -789,7 +789,7 @@
             "part3": "A distant thump made the windows rattle, but he did not flinch. He took out a small notebook, wrote the time, and watched the light shift outside."
         },
         "sentence_id": "15",
-        "grouping": 1
+        "grouping": 0
     },
     "45": {
         "sentence": "A detachment was necessary to minimize damage.",
@@ -951,7 +951,7 @@
             "part3": "Voices rose as people argued about who should salvage what remained. Jim kept to the edge of the crowd, feeling the weight of what he'd overlooked."
         },
         "sentence_id": "18",
-        "grouping": 14
+        "grouping": 15
     },
     "54": {
         "sentence": "Thanks to Jim's negligence, the plot was ruined.",
@@ -969,7 +969,7 @@
             "part3": "Voices rose as people argued about who should salvage what remained. Jim kept to the edge of the crowd, feeling the weight of what he'd overlooked."
         },
         "sentence_id": "18",
-        "grouping": 15
+        "grouping": 14
     },
     "55": {
         "sentence": "Thanks to Jim's negligence, the plot was ruined.",
@@ -987,7 +987,7 @@
             "part3": "Voices rose as people argued about who should salvage what remained. Jim kept to the edge of the crowd, feeling the weight of what he'd overlooked."
         },
         "sentence_id": "18",
-        "grouping": 16
+        "grouping": 17
     },
     "56": {
         "sentence": "Thanks to Jim's negligence, the plot was ruined.",
@@ -1005,7 +1005,7 @@
             "part3": "Voices rose as people argued about who should salvage what remained. Jim kept to the edge of the crowd, feeling the weight of what he'd overlooked."
         },
         "sentence_id": "18",
-        "grouping": 17
+        "grouping": 16
     },
     "57": {
         "sentence": "She spent all summer taking care of the patch behind the house.",
@@ -1095,7 +1095,7 @@
             "part3": "After a long silence they agreed and returned to the field."
         },
         "sentence_id": "20",
-        "grouping": 22
+        "grouping": 23
     },
     "62": {
         "sentence": "The combine was necessary.",
@@ -1113,7 +1113,7 @@
             "part3": "After a long silence they agreed and returned to the field."
         },
         "sentence_id": "20",
-        "grouping": 23
+        "grouping": 22
     },
     "63": {
         "sentence": "The combine was necessary.",
@@ -1275,7 +1275,7 @@
             "part3": "Each week they recorded another milestone and argued about the next step. At the end of the month they packed up and walked out together over the transformed landscape."
         },
         "sentence_id": "26",
-        "grouping": 34
+        "grouping": 35
     },
     "72": {
         "sentence": "The adaptation was very slow to complete.",
@@ -1293,7 +1293,7 @@
             "part3": "Each week they recorded another milestone and argued about the next step. At the end of the month they packed up and walked out together over the transformed landscape."
         },
         "sentence_id": "26",
-        "grouping": 35
+        "grouping": 34
     },
     "73": {
         "sentence": "The column looked nice and was very long.",
@@ -1311,7 +1311,7 @@
             "part3": "She took a photo and sent it to her boss with a single word: 'Approved' and awaited their response."
         },
         "sentence_id": "27",
-        "grouping": 36
+        "grouping": 37
     },
     "74": {
         "sentence": "The column looked nice and was very long.",
@@ -1329,7 +1329,7 @@
             "part3": "She took a photo and sent it to her boss with a single word: 'Approved' and awaited their response."
         },
         "sentence_id": "27",
-        "grouping": 37
+        "grouping": 36
     },
     "75": {
         "sentence": "The column looked nice and was very long.",
@@ -1347,7 +1347,7 @@
             "part3": "She took a photo and sent it to her boss with a single word: 'Approved'."
         },
         "sentence_id": "27",
-        "grouping": 38
+        "grouping": 39
     },
     "76": {
         "sentence": "The column looked nice and was very long.",
@@ -1365,7 +1365,7 @@
             "part3": "She took a photo and sent it to her boss with a single word: 'Approved'."
         },
         "sentence_id": "27",
-        "grouping": 39
+        "grouping": 38
     },
     "77": {
         "sentence": "The woman's alarm went off as she was reading the book, just as she was getting to the good part, the stream of consciouness enticing her.",
@@ -1383,7 +1383,7 @@
             "part3": "She turned the alarm off reluctantly, tucked the book into her bag and left for work, already wondering what she had missed."
         },
         "sentence_id": "28",
-        "grouping": 28
+        "grouping": 29
     },
     "78": {
         "sentence": "The woman's alarm went off as she was reading the book, just as she was getting to the good part, the stream of consciouness enticing her.",
@@ -1401,7 +1401,7 @@
             "part3": "She turned the alarm off reluctantly, tucked the book into her bag and left for work, already wondering what she had missed."
         },
         "sentence_id": "28",
-        "grouping": 29
+        "grouping": 28
     },
     "79": {
         "sentence": "The woman's alarm went off as she was reading the book, just as she was getting to the good part, the stream of consciouness enticing her.",
@@ -1419,7 +1419,7 @@
             "part3": "Still in a dreamlike state, she turned the alarm off, tucked the book into her bag, and walked out the door, already wondering what she had missed."
         },
         "sentence_id": "28",
-        "grouping": 30
+        "grouping": 31
     },
     "80": {
         "sentence": "The woman's alarm went off as she was reading the book, just as she was getting to the good part, the stream of consciouness enticing her.",
@@ -1437,7 +1437,7 @@
             "part3": "Still in a dreamlike state, she turned the alarm off, tucked the book into her bag, and walked out the door, already wondering what she had missed."
         },
         "sentence_id": "28",
-        "grouping": 31
+        "grouping": 30
     },
     "81": {
         "sentence": "They were hired to map the cells.",
@@ -1455,7 +1455,7 @@
             "part3": "They split the site into zones and unpacked their instruments. Throughout the afternoon they logged entries, debated labeling, and ran checks. When they finished, they compiled the results into a single folder and handed it over. It was a complete report, with every tiny detail."
         },
         "sentence_id": "29",
-        "grouping": 10
+        "grouping": 11
     },
     "82": {
         "sentence": "They were hired to map the cells.",
@@ -1473,7 +1473,7 @@
             "part3": "They split the site into zones and unpacked their instruments. Throughout the afternoon they logged entries, debated labeling, and ran checks. When they finished, they compiled the results into a single folder and handed it over. It was a complete report, with every tiny detail."
         },
         "sentence_id": "29",
-        "grouping": 11
+        "grouping": 10
     },
     "83": {
         "sentence": "They were hired to map the cells.",
@@ -1527,7 +1527,7 @@
             "part3": "The student copied it into their notebook and left when the bell rang."
         },
         "sentence_id": "30",
-        "grouping": 0
+        "grouping": 1
     },
     "86": {
         "sentence": "The answer to the question was only a fraction.",
@@ -1545,7 +1545,7 @@
             "part3": "The student copied it into their notebook and left when the bell rang."
         },
         "sentence_id": "30",
-        "grouping": 1
+        "grouping": 0
     },
     "87": {
         "sentence": "The answer to the question was only a fraction.",
@@ -1635,7 +1635,7 @@
             "part3": "He hesitated, then dialed the accountant and asked the accountant to explain the concerning records by morning."
         },
         "sentence_id": "31",
-        "grouping": 6
+        "grouping": 7
     },
     "92": {
         "sentence": "The negative sign in the books of account gave the manager the feeling that the company was in a mess.",
@@ -1653,7 +1653,7 @@
             "part3": "He hesitated, then dialed the accountant and asked the accountant to explain the concerning records by morning."
         },
         "sentence_id": "31",
-        "grouping": 7
+        "grouping": 6
     },
     "93": {
         "sentence": "The woman found it really difficult to wrap her head around the series.",
@@ -1815,7 +1815,7 @@
             "part3": "(No text necessary.)"
         },
         "sentence_id": "34",
-        "grouping": 2
+        "grouping": 3
     },
     "102": {
         "sentence": "I had trouble remembering the term at school.",
@@ -1833,7 +1833,7 @@
             "part3": "(No text necessary.)"
         },
         "sentence_id": "34",
-        "grouping": 3
+        "grouping": 2
     },
     "103": {
         "sentence": "I had trouble remembering the term at school.",
@@ -1887,7 +1887,7 @@
             "part3": "I pushed the pen across the margin and tapped my temple, trying to slow my breathing. After twenty minutes I closed the folder, decided to step outside, and told myself to come back later."
         },
         "sentence_id": "35",
-        "grouping": 6
+        "grouping": 7
     },
     "106": {
         "sentence": "The division gives me a headache.",
@@ -1905,7 +1905,7 @@
             "part3": "I pushed the pen across the margin and tapped my temple, trying to slow my breathing. After twenty minutes I closed the folder, decided to step outside, and told myself to come back later."
         },
         "sentence_id": "35",
-        "grouping": 7
+        "grouping": 6
     },
     "107": {
         "sentence": "The division gives me a headache.",
@@ -1959,7 +1959,7 @@
             "part3": "They sent the final report to the client with all their data checked for accuracy. They received approval by the end of the day."
         },
         "sentence_id": "36",
-        "grouping": 10
+        "grouping": 11
     },
     "110": {
         "sentence": "Both technicians had vast experience in analysis so the results were robust.",
@@ -1977,7 +1977,7 @@
             "part3": "They sent the final report to the client with all their data checked for accuracy. They received approval by the end of the day."
         },
         "sentence_id": "36",
-        "grouping": 11
+        "grouping": 10
     },
     "111": {
         "sentence": "Both technicians had vast experience in analysis so the results were robust.",
@@ -1995,7 +1995,7 @@
             "part3": "They sent the report to the client and received approval by the end of the day."
         },
         "sentence_id": "36",
-        "grouping": 12
+        "grouping": 13
     },
     "112": {
         "sentence": "Both technicians had vast experience in analysis so the results were robust.",
@@ -2013,7 +2013,7 @@
             "part3": "They sent the report to the client and received approval by the end of the day."
         },
         "sentence_id": "36",
-        "grouping": 13
+        "grouping": 12
     },
     "113": {
         "sentence": "He did his best, but his report was average.",
@@ -2103,7 +2103,7 @@
             "part3": "Everyone leaned forward, grabbed pens, and began working through the pages."
         },
         "sentence_id": "38",
-        "grouping": 4
+        "grouping": 5
     },
     "118": {
         "sentence": "If we can establish a common denominator, then we can proceed.",
@@ -2121,7 +2121,7 @@
             "part3": "Everyone leaned forward, grabbed pens, and began working through the pages."
         },
         "sentence_id": "38",
-        "grouping": 5
+        "grouping": 4
     },
     "119": {
         "sentence": "If we can establish a common denominator, then we can proceed.",
@@ -2283,7 +2283,7 @@
             "part3": "I tried his suggestion. When I returned, the professor nodded and said it looked much better."
         },
         "sentence_id": "40",
-        "grouping": 0
+        "grouping": 1
     },
     "128": {
         "sentence": "The professor advised me to square it.",
@@ -2301,7 +2301,7 @@
             "part3": "I tried his suggestion. When I returned, the professor nodded and said it looked much better."
         },
         "sentence_id": "40",
-        "grouping": 1
+        "grouping": 0
     },
     "129": {
         "sentence": "She spent the afternoon fixing problems in the library.",
@@ -2319,7 +2319,7 @@
             "part3": "She moved methodically, testing each item and marking progress as she went. When something stubborn refused to behave, she tried another programme until it did. By the time night fell, the day's list was shorter and she sent a brief note summarizing what she'd done."
         },
         "sentence_id": "45",
-        "grouping": 2
+        "grouping": 3
     },
     "130": {
         "sentence": "She spent the afternoon fixing problems in the library.",
@@ -2337,7 +2337,7 @@
             "part3": "She moved methodically, testing each item and marking progress as she went. When something stubborn refused to behave, she tried another programme until it did. By the time night fell, the day's list was shorter and she sent a brief note summarizing what she'd done."
         },
         "sentence_id": "45",
-        "grouping": 3
+        "grouping": 2
     },
     "131": {
         "sentence": "She spent the afternoon fixing problems in the library.",
@@ -2391,7 +2391,7 @@
             "part3": "The person beside me pushed the book toward the laptop and hit a key. A moment later the same line was highlighted on the screen and we both stared."
         },
         "sentence_id": "46",
-        "grouping": 6
+        "grouping": 7
     },
     "134": {
         "sentence": "I don't understand the reference.",
@@ -2409,7 +2409,7 @@
             "part3": "The person beside me pushed the book toward the laptop and hit a key. A moment later the same line was highlighted on the screen and we both stared."
         },
         "sentence_id": "46",
-        "grouping": 7
+        "grouping": 6
     },
     "135": {
         "sentence": "I don't understand the reference.",
@@ -2607,7 +2607,7 @@
             "part3": "They broke into groups to form the plan that would be needed to implement the change."
         },
         "sentence_id": "49",
-        "grouping": 4
+        "grouping": 5
     },
     "146": {
         "sentence": "We must protect ourselves by setting up a firewall.",
@@ -2625,7 +2625,7 @@
             "part3": "They broke into groups to form the plan that would be needed to implement the change."
         },
         "sentence_id": "49",
-        "grouping": 5
+        "grouping": 4
     },
     "147": {
         "sentence": "We must protect ourselves by setting up a firewall.",
@@ -2643,7 +2643,7 @@
             "part3": "They broke into groups to collect what would be needed to implement the plan."
         },
         "sentence_id": "49",
-        "grouping": 6
+        "grouping": 7
     },
     "148": {
         "sentence": "We must protect ourselves by setting up a firewall.",
@@ -2661,7 +2661,7 @@
             "part3": "They broke into groups to collect what would be needed to implement the plan."
         },
         "sentence_id": "49",
-        "grouping": 7
+        "grouping": 6
     },
     "149": {
         "sentence": "We got that from the dump.",
@@ -2823,7 +2823,7 @@
             "part3": "He packed the result and walked out, pretending everything had gone smoothly."
         },
         "sentence_id": "52",
-        "grouping": 2
+        "grouping": 3
     },
     "158": {
         "sentence": "The backup saved him from a sticky situation.",
@@ -2841,7 +2841,7 @@
             "part3": "He packed the result and walked out, pretending everything had gone smoothly."
         },
         "sentence_id": "52",
-        "grouping": 3
+        "grouping": 2
     },
     "159": {
         "sentence": "The backup saved him from a sticky situation.",
@@ -2859,7 +2859,7 @@
             "part3": "He exhaled and packed his bag. On the way home he promised to be better prepared next time."
         },
         "sentence_id": "52",
-        "grouping": 4
+        "grouping": 5
     },
     "160": {
         "sentence": "The backup saved him from a sticky situation.",
@@ -2877,7 +2877,7 @@
             "part3": "He exhaled and packed his bag. On the way home he promised to be better prepared next time."
         },
         "sentence_id": "52",
-        "grouping": 5
+        "grouping": 4
     },
     "161": {
         "sentence": "Gaining access to the platform really elevated her position.",
@@ -2967,7 +2967,7 @@
             "part3": "I hesitated, annoyed at the break to my mental flow, but impatience and a strong desire to complete the report nudged me to take the path of least resistance. So I accepted it, then dove back into the report and sent it off with minutes to spare. Phew!"
         },
         "sentence_id": "54",
-        "grouping": 10
+        "grouping": 11
     },
     "166": {
         "sentence": "I was not sure if I should accept the cookie as I was working.",
@@ -2985,7 +2985,7 @@
             "part3": "I hesitated, annoyed at the break to my mental flow, but impatience and a strong desire to complete the report nudged me to take the path of least resistance. So I accepted it, then dove back into the report and sent it off with minutes to spare. Phew!"
         },
         "sentence_id": "54",
-        "grouping": 11
+        "grouping": 10
     },
     "167": {
         "sentence": "I was not sure if I should accept the cookie as I was working.",
@@ -3003,7 +3003,7 @@
             "part3": "I hesitated, weighing whether to break my flow, but my curiosity nudged me. I accepted it, then dove back into the report with vigour and sent it off with minutes to spare."
         },
         "sentence_id": "54",
-        "grouping": 12
+        "grouping": 13
     },
     "168": {
         "sentence": "I was not sure if I should accept the cookie as I was working.",
@@ -3021,7 +3021,7 @@
             "part3": "I hesitated, weighing whether to break my flow, but my curiosity nudged me. I accepted it, then dove back into the report with vigour and sent it off with minutes to spare."
         },
         "sentence_id": "54",
-        "grouping": 13
+        "grouping": 12
     },
     "169": {
         "sentence": "The student was surprised that the cache was full.",
@@ -3075,7 +3075,7 @@
             "part3": "After a few instructions, the professor pointed out how to proceed and the student began sorting through everything."
         },
         "sentence_id": "55",
-        "grouping": 2
+        "grouping": 3
     },
     "172": {
         "sentence": "The student was surprised that the cache was full.",
@@ -3093,7 +3093,7 @@
             "part3": "After a few instructions, the professor pointed out how to proceed and the student began sorting through everything."
         },
         "sentence_id": "55",
-        "grouping": 3
+        "grouping": 2
     },
     "173": {
         "sentence": "The editor was being troublesome today.",
@@ -3219,7 +3219,7 @@
             "part3": "Outside consultants were brought in and staff were told to stay home until further notice. After a week of odd procedures and uncertainty, normal rhythms slowly returned."
         },
         "sentence_id": "57",
-        "grouping": 10
+        "grouping": 11
     },
     "180": {
         "sentence": "The virus had caused a dip in productivity at the company.",
@@ -3237,7 +3237,7 @@
             "part3": "Outside consultants were brought in and staff were told to stay home until further notice. After a week of odd procedures and uncertainty, normal rhythms slowly returned."
         },
         "sentence_id": "57",
-        "grouping": 11
+        "grouping": 10
     },
     "181": {
         "sentence": "Having attended the opening of the new data centre, John was very impressed with the overall architecture.",
@@ -3363,7 +3363,7 @@
             "part3": "They worked quickly to assess damage and figure out how to continue. Nothing had been missed. It was human error."
         },
         "sentence_id": "59",
-        "grouping": 4
+        "grouping": 5
     },
     "188": {
         "sentence": "The driver crashed.",
@@ -3381,7 +3381,7 @@
             "part3": "They worked quickly to assess damage and figure out how to continue. Nothing had been missed. It was human error."
         },
         "sentence_id": "59",
-        "grouping": 5
+        "grouping": 4
     },
     "189": {
         "sentence": "The priest got up and stood infront of the crowd, taking the speech out of his pocket as he prepared to deliver.",
@@ -3399,7 +3399,7 @@
             "part3": "(No text necessary)."
         },
         "sentence_id": "60",
-        "grouping": 32
+        "grouping": 33
     },
     "190": {
         "sentence": "The priest got up and stood infront of the crowd, taking the speech out of his pocket as he prepared to deliver.",
@@ -3417,7 +3417,7 @@
             "part3": "(No text necessary)."
         },
         "sentence_id": "60",
-        "grouping": 33
+        "grouping": 32
     },
     "191": {
         "sentence": "The priest got up and stood infront of the crowd, taking the speech out of his pocket as he prepared to deliver.",
@@ -3471,7 +3471,7 @@
             "part3": "By midmorning we were back together, blinking in the sunlight and comparing who had slept the longest."
         },
         "sentence_id": "65",
-        "grouping": 36
+        "grouping": 37
     },
     "194": {
         "sentence": "After the lengthy vigil last night, we all went home to sleep for hours.",
@@ -3489,7 +3489,7 @@
             "part3": "By midmorning we were back together, blinking in the sunlight and comparing who had slept the longest."
         },
         "sentence_id": "65",
-        "grouping": 37
+        "grouping": 36
     },
     "195": {
         "sentence": "After the lengthy vigil last night, we all went home to sleep for hours.",
@@ -3615,7 +3615,7 @@
             "part3": "She unfolded the note, read it aloud, and afterward people asked her where she had found the courage."
         },
         "sentence_id": "67",
-        "grouping": 32
+        "grouping": 33
     },
     "202": {
         "sentence": "Her grace was a joy to behold.",
@@ -3633,7 +3633,7 @@
             "part3": "She unfolded the note, read it aloud, and afterward people asked her where she had found the courage."
         },
         "sentence_id": "67",
-        "grouping": 33
+        "grouping": 32
     },
     "203": {
         "sentence": "Her grace was a joy to behold.",
@@ -3759,7 +3759,7 @@
             "part3": "A quick thrill passed through the group. They reached for notebooks and tools to record the spot."
         },
         "sentence_id": "69",
-        "grouping": 26
+        "grouping": 27
     },
     "210": {
         "sentence": "It was a very rich vein.",
@@ -3777,7 +3777,7 @@
             "part3": "A quick thrill passed through the group. They reached for notebooks and tools to record the spot."
         },
         "sentence_id": "69",
-        "grouping": 27
+        "grouping": 26
     },
     "211": {
         "sentence": "It was a very rich vein.",
@@ -3831,7 +3831,7 @@
             "part3": "(No text necessary)."
         },
         "sentence_id": "70",
-        "grouping": 16
+        "grouping": 17
     },
     "214": {
         "sentence": "The diagram shows the highlighted hemisphere.",
@@ -3849,7 +3849,7 @@
             "part3": "(No text necessary)."
         },
         "sentence_id": "70",
-        "grouping": 17
+        "grouping": 16
     },
     "215": {
         "sentence": "The diagram shows the highlighted hemisphere.",
@@ -3867,7 +3867,7 @@
             "part3": "The agreement meant a lot to them."
         },
         "sentence_id": "70",
-        "grouping": 18
+        "grouping": 19
     },
     "216": {
         "sentence": "The diagram shows the highlighted hemisphere.",
@@ -3885,7 +3885,7 @@
             "part3": "The agreement meant a lot to them."
         },
         "sentence_id": "70",
-        "grouping": 19
+        "grouping": 18
     },
     "217": {
         "sentence": "After the collision, a large fissure appeared.",
@@ -3939,7 +3939,7 @@
             "part3": "Bystanders leaned in to see what had happened."
         },
         "sentence_id": "71",
-        "grouping": 22
+        "grouping": 23
     },
     "220": {
         "sentence": "After the collision, a large fissure appeared.",
@@ -3957,7 +3957,7 @@
             "part3": "Bystanders leaned in to see what had happened."
         },
         "sentence_id": "71",
-        "grouping": 23
+        "grouping": 22
     },
     "221": {
         "sentence": "The infection has reached the extremity.",
@@ -4011,7 +4011,7 @@
             "part3": "Someone called for containment measures and the others began following protocol. They logged each new anomaly and sealed off the surrounding units. By dawn they stood back to assess whether their actions had halted its advance."
         },
         "sentence_id": "72",
-        "grouping": 26
+        "grouping": 27
     },
     "224": {
         "sentence": "The infection has reached the extremity.",
@@ -4029,7 +4029,7 @@
             "part3": "Someone called for containment measures and the others began following protocol. They logged each new anomaly and sealed off the surrounding units. By dawn they stood back to assess whether their actions had halted its advance."
         },
         "sentence_id": "72",
-        "grouping": 27
+        "grouping": 26
     },
     "225": {
         "sentence": "Years of loss and failure had left her with unshakeable, temporal pain.",
@@ -4047,7 +4047,7 @@
             "part3": "On the ride she watched people get on and off and felt her skull throb whenever the bus lurched. At the office she signed in, breathed slowly, and waited for a name to be called."
         },
         "sentence_id": "73",
-        "grouping": 14
+        "grouping": 15
     },
     "226": {
         "sentence": "Years of loss and failure had left her with unshakeable, temporal pain.",
@@ -4065,7 +4065,7 @@
             "part3": "On the ride she watched people get on and off and felt her skull throb whenever the bus lurched. At the office she signed in, breathed slowly, and waited for a name to be called."
         },
         "sentence_id": "73",
-        "grouping": 15
+        "grouping": 14
     },
     "227": {
         "sentence": "Years of loss and failure had left her with unshakeable, temporal pain.",
@@ -4155,7 +4155,7 @@
             "part3": "They set down the satchel, opened its clasps, and prepared to complete the next task."
         },
         "sentence_id": "74",
-        "grouping": 20
+        "grouping": 21
     },
     "232": {
         "sentence": "The dentist finally reached the ridge.",
@@ -4173,7 +4173,7 @@
             "part3": "They set down the satchel, opened its clasps, and prepared to complete the next task."
         },
         "sentence_id": "74",
-        "grouping": 21
+        "grouping": 20
     },
     "233": {
         "sentence": "The nucleus was unstable from the start.",
@@ -4335,7 +4335,7 @@
             "part3": "Someone counted under their breath as it moved. A person with a clipboard scribbled numbers and glanced at a small screen. When it finally passed, we all relaxed and let out a laugh."
         },
         "sentence_id": "77",
-        "grouping": 16
+        "grouping": 17
     },
     "242": {
         "sentence": "We were waiting for it to go through the atrium.",
@@ -4353,7 +4353,7 @@
             "part3": "Someone counted under their breath as it moved. A person with a clipboard scribbled numbers and glanced at a small screen. When it finally passed, we all relaxed and let out a laugh."
         },
         "sentence_id": "77",
-        "grouping": 17
+        "grouping": 16
     },
     "243": {
         "sentence": "We were waiting for it to go through the atrium.",
@@ -4407,7 +4407,7 @@
             "part3": "She called to make arrangements and stayed home that evening."
         },
         "sentence_id": "78",
-        "grouping": 20
+        "grouping": 21
     },
     "246": {
         "sentence": "The student was having trouble with her appendix.",
@@ -4425,7 +4425,7 @@
             "part3": "She called to make arrangements and stayed home that evening."
         },
         "sentence_id": "78",
-        "grouping": 21
+        "grouping": 20
     },
     "247": {
         "sentence": "The student was having trouble with her appendix.",
@@ -4515,7 +4515,7 @@
             "part3": "When the inspector arrived to check the cleanliness, they peered in, took a couple of measurements, and nodded with a look of approval."
         },
         "sentence_id": "79",
-        "grouping": 26
+        "grouping": 27
     },
     "252": {
         "sentence": "She spent over an hour cleaning the vestibule.",
@@ -4533,7 +4533,7 @@
             "part3": "When the inspector arrived to check the cleanliness, they peered in, took a couple of measurements, and nodded with a look of approval."
         },
         "sentence_id": "79",
-        "grouping": 27
+        "grouping": 26
     },
     "253": {
         "sentence": "The persona that was presented was convincing in the minds of others.",
@@ -4623,7 +4623,7 @@
             "part3": "(No text necessary)."
         },
         "sentence_id": "85",
-        "grouping": 10
+        "grouping": 11
     },
     "258": {
         "sentence": "After retiring, he decided to vegetate in the empty lot behind his house.",
@@ -4641,7 +4641,7 @@
             "part3": "(No text necessary)."
         },
         "sentence_id": "85",
-        "grouping": 11
+        "grouping": 10
     },
     "259": {
         "sentence": "After retiring, he decided to vegetate in the empty lot behind his house.",
@@ -4659,7 +4659,7 @@
             "part3": "By autumn the neighbors were impressed with the garden."
         },
         "sentence_id": "85",
-        "grouping": 12
+        "grouping": 13
     },
     "260": {
         "sentence": "After retiring, he decided to vegetate in the empty lot behind his house.",
@@ -4677,7 +4677,7 @@
             "part3": "By autumn the neighbors were impressed with the garden."
         },
         "sentence_id": "85",
-        "grouping": 13
+        "grouping": 12
     },
     "261": {
         "sentence": "I was on autopilot throughout the whole flight.",
@@ -4731,7 +4731,7 @@
             "part3": "When I landed the plane and it rolled to a stop, I realized I couldn't recall most of the ride after takeoff."
         },
         "sentence_id": "86",
-        "grouping": 2
+        "grouping": 3
     },
     "264": {
         "sentence": "I was on autopilot throughout the whole flight.",
@@ -4749,7 +4749,7 @@
             "part3": "When I landed the plane and it rolled to a stop, I realized I couldn't recall most of the ride after takeoff."
         },
         "sentence_id": "86",
-        "grouping": 3
+        "grouping": 2
     },
     "265": {
         "sentence": "The man felt that his neighbour's ego was too big.",
@@ -4767,7 +4767,7 @@
             "part3": "He folded the flyer, tucked it into his pocket, and planned to leave a note of his own the next morning."
         },
         "sentence_id": "87",
-        "grouping": 4
+        "grouping": 5
     },
     "266": {
         "sentence": "The man felt that his neighbour's ego was too big.",
@@ -4785,7 +4785,7 @@
             "part3": "He folded the flyer, tucked it into his pocket, and planned to leave a note of his own the next morning."
         },
         "sentence_id": "87",
-        "grouping": 5
+        "grouping": 4
     },
     "267": {
         "sentence": "The man felt that his neighbour's ego was too big.",
@@ -4803,7 +4803,7 @@
             "part3": "He folded the flyer, tucked it into his pocket, and planned to leave a note of his own the next morning."
         },
         "sentence_id": "87",
-        "grouping": 6
+        "grouping": 7
     },
     "268": {
         "sentence": "The man felt that his neighbour's ego was too big.",
@@ -4821,7 +4821,7 @@
             "part3": "He folded the flyer, tucked it into his pocket, and planned to leave a note of his own the next morning."
         },
         "sentence_id": "87",
-        "grouping": 7
+        "grouping": 6
     },
     "269": {
         "sentence": "The jury was unimpressed with her efforts.",
@@ -4911,7 +4911,7 @@
             "part3": "Someone exhaled and the youngest person reached for a pen. Later they left the room carrying nothing but the paper. Secretly, nobody thought it was a good idea, but they had to go with the group."
         },
         "sentence_id": "89",
-        "grouping": 18
+        "grouping": 19
     },
     "274": {
         "sentence": "It was allowed to pass without objection.",
@@ -4929,7 +4929,7 @@
             "part3": "Someone exhaled and the youngest person reached for a pen. Later they left the room carrying nothing but the paper. Secretly, nobody thought it was a good idea, but they had to go with the group."
         },
         "sentence_id": "89",
-        "grouping": 19
+        "grouping": 18
     },
     "275": {
         "sentence": "It was allowed to pass without objection.",
@@ -4947,7 +4947,7 @@
             "part3": "Someone exhaled and everyone watched as the folded sheet of paper moved across the table, pushed by the two hands."
         },
         "sentence_id": "89",
-        "grouping": 20
+        "grouping": 21
     },
     "276": {
         "sentence": "It was allowed to pass without objection.",
@@ -4965,7 +4965,7 @@
             "part3": "Someone exhaled and everyone watched as the folded sheet of paper moved across the table, pushed by the two hands."
         },
         "sentence_id": "89",
-        "grouping": 21
+        "grouping": 20
     },
     "277": {
         "sentence": "The bond meant a lot to them both.",
@@ -4983,7 +4983,7 @@
             "part3": "One of them slid the paper out and smoothed it with careful hands, as if it might tear. They spoke quietly about what to do next, weighing options and laughing nervously."
         },
         "sentence_id": "90",
-        "grouping": 22
+        "grouping": 23
     },
     "278": {
         "sentence": "The bond meant a lot to them both.",
@@ -5001,7 +5001,7 @@
             "part3": "One of them slid the paper out and smoothed it with careful hands, as if it might tear. They spoke quietly about what to do next, weighing options and laughing nervously."
         },
         "sentence_id": "90",
-        "grouping": 23
+        "grouping": 22
     },
     "279": {
         "sentence": "The bond meant a lot to them both.",
@@ -5127,7 +5127,7 @@
             "part3": "Discussion stretched for nearly an hour as attendees tried to interpret its intent. Some proposed immediate action while others warned of unforeseen consequences. Finally they agreed to bring it back with more documentation before making any decision."
         },
         "sentence_id": "92",
-        "grouping": 16
+        "grouping": 17
     },
     "286": {
         "sentence": "The sentence confused everyone at the next meeting.",
@@ -5145,7 +5145,7 @@
             "part3": "Discussion stretched for nearly an hour as attendees tried to interpret its intent. Some proposed immediate action while others warned of unforeseen consequences. Finally they agreed to bring it back with more documentation before making any decision."
         },
         "sentence_id": "92",
-        "grouping": 17
+        "grouping": 16
     },
     "287": {
         "sentence": "The sentence confused everyone at the next meeting.",
@@ -5343,7 +5343,7 @@
             "part3": "When it was finished, the group stacked the remaining items and left without celebrating."
         },
         "sentence_id": "95",
-        "grouping": 14
+        "grouping": 15
     },
     "298": {
         "sentence": "It is important to file this to finish the task.",
@@ -5361,7 +5361,7 @@
             "part3": "When it was finished, the group stacked the remaining items and left without celebrating."
         },
         "sentence_id": "95",
-        "grouping": 15
+        "grouping": 14
     },
     "299": {
         "sentence": "It is important to file this to finish the task.",
@@ -5451,7 +5451,7 @@
             "part3": "He checked the time and started toward the affected place. When he arrived, a small group awaited, and someone stepped forward to speak."
         },
         "sentence_id": "96",
-        "grouping": 20
+        "grouping": 21
     },
     "304": {
         "sentence": "After the issue in the community, he was summoned.",
@@ -5469,7 +5469,7 @@
             "part3": "He checked the time and started toward the affected place. When he arrived, a small group awaited, and someone stepped forward to speak."
         },
         "sentence_id": "96",
-        "grouping": 21
+        "grouping": 20
     },
     "305": {
         "sentence": "She was very concerned about the possibility of a seizure taking place.",
@@ -5487,7 +5487,7 @@
             "part3": "They led her to a small room and told her to wait for further instructions."
         },
         "sentence_id": "97",
-        "grouping": 22
+        "grouping": 23
     },
     "306": {
         "sentence": "She was very concerned about the possibility of a seizure taking place.",
@@ -5505,7 +5505,7 @@
             "part3": "They led her to a small room and told her to wait for further instructions."
         },
         "sentence_id": "97",
-        "grouping": 23
+        "grouping": 22
     },
     "307": {
         "sentence": "She was very concerned about the possibility of a seizure taking place.",
@@ -5523,7 +5523,7 @@
             "part3": "She told the others about her concerns and they led her to a small room and told her to wait for further instructions."
         },
         "sentence_id": "97",
-        "grouping": 24
+        "grouping": 25
     },
     "308": {
         "sentence": "She was very concerned about the possibility of a seizure taking place.",
@@ -5541,7 +5541,7 @@
             "part3": "She told the others about her concerns and they led her to a small room and told her to wait for further instructions."
         },
         "sentence_id": "97",
-        "grouping": 25
+        "grouping": 24
     },
     "309": {
         "sentence": "I was engaged in the meeting.",
@@ -5559,7 +5559,7 @@
             "part3": "When it finished, I folded the notes back into the folder and walked out to the street. I wondered what advice I would be able to give."
         },
         "sentence_id": "98",
-        "grouping": 26
+        "grouping": 27
     },
     "310": {
         "sentence": "I was engaged in the meeting.",
@@ -5577,7 +5577,7 @@
             "part3": "When it finished, I folded the notes back into the folder and walked out to the street. I wondered what advice I would be able to give."
         },
         "sentence_id": "98",
-        "grouping": 27
+        "grouping": 26
     },
     "311": {
         "sentence": "I was engaged in the meeting.",
@@ -5775,7 +5775,7 @@
             "part3": "She folded the document and tucked it into her bag. A few friends came over to offer their congratulations."
         },
         "sentence_id": "105",
-        "grouping": 24
+        "grouping": 25
     },
     "322": {
         "sentence": "She was very impressed with the score.",
@@ -5793,7 +5793,7 @@
             "part3": "She folded the document and tucked it into her bag. A few friends came over to offer their congratulations."
         },
         "sentence_id": "105",
-        "grouping": 25
+        "grouping": 24
     },
     "323": {
         "sentence": "She was very impressed with the score.",
@@ -5811,7 +5811,7 @@
             "part3": "She folded the results sheet and tucked it into her bag. A few friends came over to offer their congratulations. On the bus she ran her thumb along the edge and smiled, already planning her next chance."
         },
         "sentence_id": "105",
-        "grouping": 26
+        "grouping": 27
     },
     "324": {
         "sentence": "She was very impressed with the score.",
@@ -5829,7 +5829,7 @@
             "part3": "She folded the results sheet and tucked it into her bag. A few friends came over to offer their congratulations. On the bus she ran her thumb along the edge and smiled, already planning her next chance."
         },
         "sentence_id": "105",
-        "grouping": 27
+        "grouping": 26
     },
     "325": {
         "sentence": "Two large horns lie upon the wooden table.",
@@ -5847,7 +5847,7 @@
             "part3": "One of them traced the curve with a fingertip. They set down a mug of coffee and debated whether to keep it or sell it."
         },
         "sentence_id": "106",
-        "grouping": 14
+        "grouping": 15
     },
     "326": {
         "sentence": "Two large horns lie upon the wooden table.",
@@ -5865,7 +5865,7 @@
             "part3": "One of them traced the curve with a fingertip. They set down a mug of coffee and debated whether to keep it or sell it."
         },
         "sentence_id": "106",
-        "grouping": 15
+        "grouping": 14
     },
     "327": {
         "sentence": "Two large horns lie upon the wooden table.",
@@ -5919,7 +5919,7 @@
             "part3": "When it was over, the applause rolled through the room and people rose slowly, reluctant to leave."
         },
         "sentence_id": "107",
-        "grouping": 18
+        "grouping": 19
     },
     "330": {
         "sentence": "The audience was enthralled listening to the keynote.",
@@ -5937,7 +5937,7 @@
             "part3": "When it was over, the applause rolled through the room and people rose slowly, reluctant to leave."
         },
         "sentence_id": "107",
-        "grouping": 19
+        "grouping": 18
     },
     "331": {
         "sentence": "The audience was enthralled listening to the keynote.",
@@ -5955,7 +5955,7 @@
             "part3": "When it was over, the applause rolled through the room and people rose slowly, reluctant to leave."
         },
         "sentence_id": "107",
-        "grouping": 20
+        "grouping": 21
     },
     "332": {
         "sentence": "The audience was enthralled listening to the keynote.",
@@ -5973,7 +5973,7 @@
             "part3": "When it was over, the applause rolled through the room and people rose slowly, reluctant to leave."
         },
         "sentence_id": "107",
-        "grouping": 21
+        "grouping": 20
     },
     "333": {
         "sentence": "They needed a recorder for their music video.",
@@ -5991,7 +5991,7 @@
             "part3": "One of them dashed to a shop to see if anyone could lend them an instrument."
         },
         "sentence_id": "108",
-        "grouping": 22
+        "grouping": 23
     },
     "334": {
         "sentence": "They needed a recorder for their music video.",
@@ -6009,7 +6009,7 @@
             "part3": "One of them dashed to a shop to see if anyone could lend them an instrument."
         },
         "sentence_id": "108",
-        "grouping": 23
+        "grouping": 22
     },
     "335": {
         "sentence": "They needed a recorder for their music video.",
@@ -6063,7 +6063,7 @@
             "part3": "They did a quick run-through; the sound was good, and she smiled as she began playing guitar."
         },
         "sentence_id": "109",
-        "grouping": 26
+        "grouping": 27
     },
     "338": {
         "sentence": "When she was putting together the band for tonight, she knew it would work well as she had her best pick for guitar.",
@@ -6081,7 +6081,7 @@
             "part3": "They did a quick run-through; the sound was good, and she smiled as she began playing guitar."
         },
         "sentence_id": "109",
-        "grouping": 27
+        "grouping": 26
     },
     "339": {
         "sentence": "When she was putting together the band for tonight, she knew it would work well as she had her best pick for guitar.",
@@ -6099,7 +6099,7 @@
             "part3": "They did a quick run-through. The sound was good. Jimmy's chords were great, and she smiled as people began to fill the room."
         },
         "sentence_id": "109",
-        "grouping": 14
+        "grouping": 15
     },
     "340": {
         "sentence": "When she was putting together the band for tonight, she knew it would work well as she had her best pick for guitar.",
@@ -6117,7 +6117,7 @@
             "part3": "They did a quick run-through. The sound was good. Jimmy's chords were great, and she smiled as people began to fill the room."
         },
         "sentence_id": "109",
-        "grouping": 15
+        "grouping": 14
     },
     "341": {
         "sentence": "The theatre manager stepped in to orchestrate in an employee's absence.",
@@ -6135,7 +6135,7 @@
             "part3": "By curtain time, the audience barely noticed anything had gone wrong."
         },
         "sentence_id": "110",
-        "grouping": 16
+        "grouping": 17
     },
     "342": {
         "sentence": "The theatre manager stepped in to orchestrate in an employee's absence.",
@@ -6153,7 +6153,7 @@
             "part3": "By curtain time, the audience barely noticed anything had gone wrong."
         },
         "sentence_id": "110",
-        "grouping": 17
+        "grouping": 16
     },
     "343": {
         "sentence": "The theatre manager stepped in to orchestrate in an employee's absence.",
@@ -6207,7 +6207,7 @@
             "part3": "I stepped through the reeds and found a small group gathered around an organ."
         },
         "sentence_id": "111",
-        "grouping": 20
+        "grouping": 21
     },
     "346": {
         "sentence": "The bass coming from down by the river was extraordinary; I rushed down to investigate.",
@@ -6225,7 +6225,7 @@
             "part3": "I stepped through the reeds and found a small group gathered around an organ."
         },
         "sentence_id": "111",
-        "grouping": 21
+        "grouping": 20
     },
     "347": {
         "sentence": "The bass coming from down by the river was extraordinary; I rushed down to investigate.",
@@ -6315,7 +6315,7 @@
             "part3": "(No text necessary.)"
         },
         "sentence_id": "112",
-        "grouping": 26
+        "grouping": 27
     },
     "352": {
         "sentence": "Scott needed to find his mouthpiece before he could begin.",
@@ -6333,7 +6333,7 @@
             "part3": "(No text necessary.)"
         },
         "sentence_id": "112",
-        "grouping": 27
+        "grouping": 26
     },
     "353": {
         "sentence": "The band members did not seem to get along, so it felt quite dissonant.",
@@ -6351,7 +6351,7 @@
             "part3": "After a few more attempts, the guitarist stopped and stared at their music stand. At the end they unplugged everything and left without a word."
         },
         "sentence_id": "113",
-        "grouping": 14
+        "grouping": 15
     },
     "354": {
         "sentence": "The band members did not seem to get along, so it felt quite dissonant.",
@@ -6369,7 +6369,7 @@
             "part3": "After a few more attempts, the guitarist stopped and stared at their music stand. At the end they unplugged everything and left without a word."
         },
         "sentence_id": "113",
-        "grouping": 15
+        "grouping": 14
     },
     "355": {
         "sentence": "The band members did not seem to get along, so it felt quite dissonant.",
@@ -6387,7 +6387,7 @@
             "part3": "After a few more attempts, the guitarist stopped and stared at their music stand. At the end, they unplugged everything and left."
         },
         "sentence_id": "113",
-        "grouping": 16
+        "grouping": 17
     },
     "356": {
         "sentence": "The band members did not seem to get along, so it felt quite dissonant.",
@@ -6405,7 +6405,7 @@
             "part3": "After a few more attempts, the guitarist stopped and stared at their music stand. At the end, they unplugged everything and left."
         },
         "sentence_id": "113",
-        "grouping": 17
+        "grouping": 16
     },
     "357": {
         "sentence": "The capsule contained something the woman couldn't identify.",
@@ -6423,7 +6423,7 @@
             "part3": "She took it out and turned it slowly between her fingers. A faint weight moved inside when she tilted it toward the light. Unsure what to do, she slid it back into her pocket and walked on."
         },
         "sentence_id": "114",
-        "grouping": 18
+        "grouping": 19
     },
     "358": {
         "sentence": "The capsule contained something the woman couldn't identify.",
@@ -6441,7 +6441,7 @@
             "part3": "She took it out and turned it slowly between her fingers. A faint weight moved inside when she tilted it toward the light. Unsure what to do, she slid it back into her pocket and walked on."
         },
         "sentence_id": "114",
-        "grouping": 19
+        "grouping": 18
     },
     "359": {
         "sentence": "The capsule contained something the woman couldn't identify.",
@@ -6459,7 +6459,7 @@
             "part3": "She turned it slowly between her fingers. A faint weight moved inside when she tilted it toward the light. Unsure what to do, she slid it back into her pocket and walked on."
         },
         "sentence_id": "114",
-        "grouping": 20
+        "grouping": 21
     },
     "360": {
         "sentence": "The capsule contained something the woman couldn't identify.",
@@ -6477,7 +6477,7 @@
             "part3": "She turned it slowly between her fingers. A faint weight moved inside when she tilted it toward the light. Unsure what to do, she slid it back into her pocket and walked on."
         },
         "sentence_id": "114",
-        "grouping": 21
+        "grouping": 20
     },
     "361": {
         "sentence": "The coach was concerned that the blocker wasn't performing as effectively as the medical staff had promised.",
@@ -6639,7 +6639,7 @@
             "part3": "After she swallowed, the ache in her chest eased and she set the empty container aside to check the sender's name."
         },
         "sentence_id": "117",
-        "grouping": 16
+        "grouping": 17
     },
     "370": {
         "sentence": "She couldn't stand the taste of the tonic as she gulped it down.",
@@ -6657,7 +6657,7 @@
             "part3": "After she swallowed, the ache in her chest eased and she set the empty container aside to check the sender's name."
         },
         "sentence_id": "117",
-        "grouping": 17
+        "grouping": 16
     },
     "371": {
         "sentence": "She couldn't stand the taste of the tonic as she gulped it down.",
@@ -6675,7 +6675,7 @@
             "part3": "After she swallowed, the ache in her chest eased and she set the glass back on the bar side."
         },
         "sentence_id": "117",
-        "grouping": 18
+        "grouping": 19
     },
     "372": {
         "sentence": "She couldn't stand the taste of the tonic as she gulped it down.",
@@ -6693,7 +6693,7 @@
             "part3": "After she swallowed, the ache in her chest eased and she set the glass back on the bar side."
         },
         "sentence_id": "117",
-        "grouping": 19
+        "grouping": 18
     },
     "373": {
         "sentence": "I wasn't sure what to make of the essence.",
@@ -6711,7 +6711,7 @@
             "part3": "Inside was a tiny glass bottle wrapped in old newspaper. A scrap of paper tucked under the cotton said only 'Use sparingly.' I set it on the counter and waited to see whether opening it would change anything."
         },
         "sentence_id": "118",
-        "grouping": 20
+        "grouping": 21
     },
     "374": {
         "sentence": "I wasn't sure what to make of the essence.",
@@ -6729,7 +6729,7 @@
             "part3": "Inside was a tiny glass bottle wrapped in old newspaper. A scrap of paper tucked under the cotton said only 'Use sparingly.' I set it on the counter and waited to see whether opening it would change anything."
         },
         "sentence_id": "118",
-        "grouping": 21
+        "grouping": 20
     },
     "375": {
         "sentence": "I wasn't sure what to make of the essence.",
@@ -6747,7 +6747,7 @@
             "part3": "I was confused. Inside was a tiny glass bottle wrapped in old newspaper; its cork was stained. A scrap of paper tucked under the cotton said, 'Use sparingly.' I set it on the counter and waited to see whether opening it would change anything."
         },
         "sentence_id": "118",
-        "grouping": 22
+        "grouping": 23
     },
     "376": {
         "sentence": "I wasn't sure what to make of the essence.",
@@ -6765,7 +6765,7 @@
             "part3": "I was confused. Inside was a tiny glass bottle wrapped in old newspaper; its cork was stained. A scrap of paper tucked under the cotton said, 'Use sparingly.' I set it on the counter and waited to see whether opening it would change anything."
         },
         "sentence_id": "118",
-        "grouping": 23
+        "grouping": 22
     },
     "377": {
         "sentence": "After the game John reflected on his first hit.",
@@ -6783,7 +6783,7 @@
             "part3": "He thought about how it had changed the rhythm of the evening and whether it would change him. Later he tossed the gear into the trunk and drove home thinking he might tell no one."
         },
         "sentence_id": "119",
-        "grouping": 24
+        "grouping": 25
     },
     "378": {
         "sentence": "After the game John reflected on his first hit.",
@@ -6801,7 +6801,7 @@
             "part3": "He thought about how it had changed the rhythm of the evening and whether it would change him. Later he tossed the gear into the trunk and drove home thinking he might tell no one."
         },
         "sentence_id": "119",
-        "grouping": 25
+        "grouping": 24
     },
     "379": {
         "sentence": "After the game John reflected on his first hit.",
@@ -6891,7 +6891,7 @@
             "part3": "After a moment the person at the desk paused, then stood to fetch something from the back room."
         },
         "sentence_id": "120",
-        "grouping": 16
+        "grouping": 17
     },
     "384": {
         "sentence": "I think it would help me greatly to have another booster.",
@@ -6909,7 +6909,7 @@
             "part3": "After a moment the person at the desk paused, then stood to fetch something from the back room."
         },
         "sentence_id": "120",
-        "grouping": 17
+        "grouping": 16
     },
     "385": {
         "sentence": "Daniel was a mogul in his home country.",
@@ -6963,7 +6963,7 @@
             "part3": "By midday, reporters and town officials crowded his company's office to ask whether he would speak at the ceremony."
         },
         "sentence_id": "125",
-        "grouping": 20
+        "grouping": 21
     },
     "388": {
         "sentence": "Daniel was a mogul in his home country.",
@@ -6981,7 +6981,7 @@
             "part3": "By midday, reporters and town officials crowded his company's office to ask whether he would speak at the ceremony."
         },
         "sentence_id": "125",
-        "grouping": 21
+        "grouping": 20
     },
     "389": {
         "sentence": "He was not ready for the assault.",
@@ -7035,7 +7035,7 @@
             "part3": "A single shout split the air, and figures began to move towards him aggressively. He stumbled, and a hand closed on his wrist."
         },
         "sentence_id": "126",
-        "grouping": 24
+        "grouping": 25
     },
     "392": {
         "sentence": "He was not ready for the assault.",
@@ -7053,7 +7053,7 @@
             "part3": "A single shout split the air, and figures began to move towards him aggressively. He stumbled, and a hand closed on his wrist."
         },
         "sentence_id": "126",
-        "grouping": 25
+        "grouping": 24
     },
     "393": {
         "sentence": "This Bourbon is sophisticated.",
@@ -7071,7 +7071,7 @@
             "part3": "He poured himself a small measure and held the glass to the sky. Someone at the table laughed and offered a cigar across the cloth. When the clock chimed nine, he began a story that made the others lean in."
         },
         "sentence_id": "127",
-        "grouping": 26
+        "grouping": 27
     },
     "394": {
         "sentence": "This Bourbon is sophisticated.",
@@ -7089,7 +7089,7 @@
             "part3": "He poured himself a small measure and held the glass to the sky. Someone at the table laughed and offered a cigar across the cloth. When the clock chimed nine, he began a story that made the others lean in."
         },
         "sentence_id": "127",
-        "grouping": 27
+        "grouping": 26
     },
     "395": {
         "sentence": "This Bourbon is sophisticated.",
@@ -7107,7 +7107,7 @@
             "part3": "He poured himself a small measure and held the glass to the light. Someone at the table laughed and offered a cigar across the cloth. When the clock chimed nine, he began a story that made the others lean in."
         },
         "sentence_id": "127",
-        "grouping": 14
+        "grouping": 15
     },
     "396": {
         "sentence": "This Bourbon is sophisticated.",
@@ -7125,7 +7125,7 @@
             "part3": "He poured himself a small measure and held the glass to the light. Someone at the table laughed and offered a cigar across the cloth. When the clock chimed nine, he began a story that made the others lean in."
         },
         "sentence_id": "127",
-        "grouping": 15
+        "grouping": 14
     },
     "397": {
         "sentence": "The people had a lot of respect for the sheik.",
@@ -7143,7 +7143,7 @@
             "part3": "Visitors always watched how he entered before they spoke. He accepted their deference without fuss and kept on with his errands. By midday a few teenagers tried to copy his walk and someone laughed."
         },
         "sentence_id": "128",
-        "grouping": 16
+        "grouping": 17
     },
     "398": {
         "sentence": "The people had a lot of respect for the sheik.",
@@ -7161,7 +7161,7 @@
             "part3": "Visitors always watched how he entered before they spoke. He accepted their deference without fuss and kept on with his errands. By midday a few teenagers tried to copy his walk and someone laughed."
         },
         "sentence_id": "128",
-        "grouping": 17
+        "grouping": 16
     },
     "399": {
         "sentence": "The people had a lot of respect for the sheik.",
@@ -7215,7 +7215,7 @@
             "part3": "They stepped inside, set the satchel on the table, and began taking things out one by one. I sat down across from them and answered as best I could while they watched. Each answer I gave seemed worse than the last, but they listened intently, giving nothing away."
         },
         "sentence_id": "129",
-        "grouping": 20
+        "grouping": 21
     },
     "402": {
         "sentence": "I grew nervous when the headhunter arrived carrying a leather bag and started asking questions.",
@@ -7233,7 +7233,7 @@
             "part3": "They stepped inside, set the satchel on the table, and began taking things out one by one. I sat down across from them and answered as best I could while they watched. Each answer I gave seemed worse than the last, but they listened intently, giving nothing away."
         },
         "sentence_id": "129",
-        "grouping": 21
+        "grouping": 20
     },
     "403": {
         "sentence": "I grew nervous when the headhunter arrived carrying a leather bag and started asking questions.",
@@ -7287,7 +7287,7 @@
             "part3": "Some officials began drafting questions and others quietly called the security office. By evening the analyst was made to appear before a closed council to explain their intentions."
         },
         "sentence_id": "130",
-        "grouping": 28
+        "grouping": 29
     },
     "406": {
         "sentence": "The idea was starting to sound revolutionary to the government.",
@@ -7305,7 +7305,7 @@
             "part3": "Some officials began drafting questions and others quietly called the security office. By evening the analyst was made to appear before a closed council to explain their intentions."
         },
         "sentence_id": "130",
-        "grouping": 29
+        "grouping": 28
     },
     "407": {
         "sentence": "The idea was starting to sound revolutionary to the government.",
@@ -7395,7 +7395,7 @@
             "part3": "After everyone signed, the two cooperating sides shook hands and breathed out. They loaded the first shipment into the van before dawn and drove away."
         },
         "sentence_id": "131",
-        "grouping": 34
+        "grouping": 35
     },
     "412": {
         "sentence": "Without this alliance, the deal wouldn't have been possible.",
@@ -7413,7 +7413,7 @@
             "part3": "After everyone signed, the two cooperating sides shook hands and breathed out. They loaded the first shipment into the van before dawn and drove away."
         },
         "sentence_id": "131",
-        "grouping": 35
+        "grouping": 34
     },
     "413": {
         "sentence": "The union changed everything overnight.",
@@ -7575,7 +7575,7 @@
             "part3": "When the door yielded, a cool draft brushed his face and something in the room shifted. He stepped across the threshold, clutching the paper tighter as the space beyond settled. He took a deep breath to steady himself before speaking."
         },
         "sentence_id": "134",
-        "grouping": 32
+        "grouping": 33
     },
     "422": {
         "sentence": "He pushed the door of the meeting hall and felt the might of the resistance.",
@@ -7593,7 +7593,7 @@
             "part3": "When the door yielded, a cool draft brushed his face and something in the room shifted. He stepped across the threshold, clutching the paper tighter as the space beyond settled. He took a deep breath to steady himself before speaking."
         },
         "sentence_id": "134",
-        "grouping": 33
+        "grouping": 32
     },
     "423": {
         "sentence": "He pushed the door of the meeting hall and felt the might of the resistance.",
@@ -7683,7 +7683,7 @@
             "part3": "They returned with a folded sheet of paper and told us to update our schedules before the next shift."
         },
         "sentence_id": "135",
-        "grouping": 38
+        "grouping": 39
     },
     "428": {
         "sentence": "My supervisor went down to the basement level to inspect the new cell.",
@@ -7701,7 +7701,7 @@
             "part3": "They returned with a folded sheet of paper and told us to update our schedules before the next shift."
         },
         "sentence_id": "135",
-        "grouping": 39
+        "grouping": 38
     },
     "429": {
         "sentence": "It was a rather large withdrawal that affected the business.",
@@ -7719,7 +7719,7 @@
             "part3": "They spent the afternoon calling the remaining partners and vendors to explain the sudden change. By closing time they were making quick plans to keep service running while they sorted it out."
         },
         "sentence_id": "136",
-        "grouping": 28
+        "grouping": 29
     },
     "430": {
         "sentence": "It was a rather large withdrawal that affected the business.",
@@ -7737,7 +7737,7 @@
             "part3": "They spent the afternoon calling the remaining partners and vendors to explain the sudden change. By closing time they were making quick plans to keep service running while they sorted it out."
         },
         "sentence_id": "136",
-        "grouping": 29
+        "grouping": 28
     },
     "431": {
         "sentence": "It was a rather large withdrawal that affected the business.",
@@ -7791,7 +7791,7 @@
             "part3": "Some argued over the best order to tackle them. One of the group produced a list and circled a few items that mattered most. When they finally moved, each small step felt decisive and a quiet relief spread among them."
         },
         "sentence_id": "137",
-        "grouping": 32
+        "grouping": 33
     },
     "434": {
         "sentence": "There were a number of obstacles to deal with before they could pass it.",
@@ -7809,7 +7809,7 @@
             "part3": "Some argued over the best order to tackle them. One of the group produced a list and circled a few items that mattered most. When they finally moved, each small step felt decisive and a quiet relief spread among them."
         },
         "sentence_id": "137",
-        "grouping": 33
+        "grouping": 32
     },
     "435": {
         "sentence": "There were a number of obstacles to deal with before they could pass it.",
@@ -7827,7 +7827,7 @@
             "part3": "Some argued over the best order to tackle them. One of the group produced a list and circled a few items that mattered most. When they finally moved, each small step felt decisive and a quiet relief spread among them."
         },
         "sentence_id": "137",
-        "grouping": 34
+        "grouping": 35
     },
     "436": {
         "sentence": "There were a number of obstacles to deal with before they could pass it.",
@@ -7845,7 +7845,7 @@
             "part3": "Some argued over the best order to tackle them. One of the group produced a list and circled a few items that mattered most. When they finally moved, each small step felt decisive and a quiet relief spread among them."
         },
         "sentence_id": "137",
-        "grouping": 35
+        "grouping": 34
     },
     "437": {
         "sentence": "His neutrality during the argument really surprised everyone.",
@@ -8007,7 +8007,7 @@
             "part3": "She saw that it was accurate, then sealed the labeled container and set a timer to revisit it."
         },
         "sentence_id": "140",
-        "grouping": 12
+        "grouping": 13
     },
     "446": {
         "sentence": "She ensured the formula was accurate.",
@@ -8025,7 +8025,7 @@
             "part3": "She saw that it was accurate, then sealed the labeled container and set a timer to revisit it."
         },
         "sentence_id": "140",
-        "grouping": 13
+        "grouping": 12
     },
     "447": {
         "sentence": "She ensured the formula was accurate.",
@@ -8043,7 +8043,7 @@
             "part3": "Then she made a small adjustment and started a trial run."
         },
         "sentence_id": "140",
-        "grouping": 0
+        "grouping": 1
     },
     "448": {
         "sentence": "She ensured the formula was accurate.",
@@ -8061,7 +8061,7 @@
             "part3": "Then she made a small adjustment and started a trial run."
         },
         "sentence_id": "140",
-        "grouping": 1
+        "grouping": 0
     },
     "449": {
         "sentence": "The precipitation had increased two-fold by the time it was measured again.",
@@ -8079,7 +8079,7 @@
             "part3": "Once the change was verified, the group boxed the data and planned further investigation to draw a mitigation plan."
         },
         "sentence_id": "145",
-        "grouping": 2
+        "grouping": 3
     },
     "450": {
         "sentence": "The precipitation had increased two-fold by the time it was measured again.",
@@ -8097,7 +8097,7 @@
             "part3": "Once the change was verified, the group boxed the data and planned further investigation to draw a mitigation plan."
         },
         "sentence_id": "145",
-        "grouping": 3
+        "grouping": 2
     },
     "451": {
         "sentence": "The precipitation had increased two-fold by the time it was measured again.",
@@ -8115,7 +8115,7 @@
             "part3": "Once the change was verified, the group boxed the data and planned a follow-up inspection."
         },
         "sentence_id": "145",
-        "grouping": 4
+        "grouping": 5
     },
     "452": {
         "sentence": "The precipitation had increased two-fold by the time it was measured again.",
@@ -8133,7 +8133,7 @@
             "part3": "Once the change was verified, the group boxed the data and planned a follow-up inspection."
         },
         "sentence_id": "145",
-        "grouping": 5
+        "grouping": 4
     },
     "453": {
         "sentence": "They were scared it would drop.",
@@ -8187,7 +8187,7 @@
             "part3": "Someone's hands trembled as they looked at it again. After it happened, they packed up and walked out together."
         },
         "sentence_id": "146",
-        "grouping": 30
+        "grouping": 31
     },
     "456": {
         "sentence": "They were scared it would drop.",
@@ -8205,7 +8205,7 @@
             "part3": "Someone's hands trembled as they looked at it again. After it happened, they packed up and walked out together."
         },
         "sentence_id": "146",
-        "grouping": 31
+        "grouping": 30
     },
     "457": {
         "sentence": "The garden would have been perfect if it had had more land.",
@@ -8439,7 +8439,7 @@
             "part3": "In the morning a termination notice went out and teams adjusted their plans."
         },
         "sentence_id": "150",
-        "grouping": 32
+        "grouping": 33
     },
     "470": {
         "sentence": "The board was quick to dismiss the director after the allegations surfaced.",
@@ -8457,7 +8457,7 @@
             "part3": "In the morning a termination notice went out and teams adjusted their plans."
         },
         "sentence_id": "150",
-        "grouping": 33
+        "grouping": 32
     },
     "471": {
         "sentence": "The board was quick to dismiss the director after the allegations surfaced.",
@@ -8511,7 +8511,7 @@
             "part3": "They walked outside when a horn sounded and people started moving into position."
         },
         "sentence_id": "151",
-        "grouping": 36
+        "grouping": 37
     },
     "474": {
         "sentence": "The team was finally ready to ship.",
@@ -8529,7 +8529,7 @@
             "part3": "They walked outside when a horn sounded and people started moving into position."
         },
         "sentence_id": "151",
-        "grouping": 37
+        "grouping": 36
     },
     "475": {
         "sentence": "The team was finally ready to ship.",
@@ -8547,7 +8547,7 @@
             "part3": "They walked outside when a horn sounded and people started moving into position."
         },
         "sentence_id": "151",
-        "grouping": 38
+        "grouping": 39
     },
     "476": {
         "sentence": "The team was finally ready to ship.",
@@ -8565,7 +8565,7 @@
             "part3": "They walked outside when a horn sounded and people started moving into position."
         },
         "sentence_id": "151",
-        "grouping": 39
+        "grouping": 38
     },
     "477": {
         "sentence": "She knew today would be the day to be firing.",
@@ -8583,7 +8583,7 @@
             "part3": "She paused at the mirror, adjusted the strap on her bag, and drew a steadying breath. Then she opened the door and walked out toward the station, carrying the weight of the uniform and her responsibilities one last time."
         },
         "sentence_id": "152",
-        "grouping": 28
+        "grouping": 29
     },
     "478": {
         "sentence": "She knew today would be the day to be firing.",
@@ -8601,7 +8601,7 @@
             "part3": "She paused at the mirror, adjusted the strap on her bag, and drew a steadying breath. Then she opened the door and walked out toward the station, carrying the weight of the uniform and her responsibilities one last time."
         },
         "sentence_id": "152",
-        "grouping": 29
+        "grouping": 28
     },
     "479": {
         "sentence": "She knew today would be the day to be firing.",
@@ -8871,7 +8871,7 @@
             "part3": "They debated whether it would be worth trying to read it in such dim lighting. After a long minute, they snapped the candle out and slid the booklet back into its sleeve."
         },
         "sentence_id": "156",
-        "grouping": 10
+        "grouping": 11
     },
     "494": {
         "sentence": "In the dim light, the script was tough to follow.",
@@ -8889,7 +8889,7 @@
             "part3": "They debated whether it would be worth trying to read it in such dim lighting. After a long minute, they snapped the candle out and slid the booklet back into its sleeve."
         },
         "sentence_id": "156",
-        "grouping": 11
+        "grouping": 10
     },
     "495": {
         "sentence": "In the dim light, the script was tough to follow.",
@@ -8979,7 +8979,7 @@
             "part3": "Afterwards they handed me a single sheet with what had been said during the speech."
         },
         "sentence_id": "157",
-        "grouping": 2
+        "grouping": 3
     },
     "500": {
         "sentence": "They could transcribe the speaker\u2019s final sentence for me.",
@@ -8997,7 +8997,7 @@
             "part3": "Afterwards they handed me a single sheet with what had been said during the speech."
         },
         "sentence_id": "157",
-        "grouping": 3
+        "grouping": 2
     },
     "501": {
         "sentence": "The editor asked her to use the standard version in the final draft.",
@@ -9015,7 +9015,7 @@
             "part3": "She frowned, opened her laptop, and pulled up the document. There were notes on her grammar in the margin from last week that she hadn't addressed yet. She made the final changes, hit send, and told herself she'd check later if the editor was satisfied."
         },
         "sentence_id": "158",
-        "grouping": 4
+        "grouping": 5
     },
     "502": {
         "sentence": "The editor asked her to use the standard version in the final draft.",
@@ -9033,7 +9033,7 @@
             "part3": "She frowned, opened her laptop, and pulled up the document. There were notes on her grammar in the margin from last week that she hadn't addressed yet. She made the final changes, hit send, and told herself she'd check later if the editor was satisfied."
         },
         "sentence_id": "158",
-        "grouping": 5
+        "grouping": 4
     },
     "503": {
         "sentence": "The editor asked her to use the standard version in the final draft.",
@@ -9051,7 +9051,7 @@
             "part3": "She frowned, opened her laptop, and pulled up the document. There were notes in the margin from last week that she hadn't addressed yet. She made the final changes, hit send, and told herself she'd check later if the editor was satisfied."
         },
         "sentence_id": "158",
-        "grouping": 6
+        "grouping": 7
     },
     "504": {
         "sentence": "The editor asked her to use the standard version in the final draft.",
@@ -9069,7 +9069,7 @@
             "part3": "She frowned, opened her laptop, and pulled up the document. There were notes in the margin from last week that she hadn't addressed yet. She made the final changes, hit send, and told herself she'd check later if the editor was satisfied."
         },
         "sentence_id": "158",
-        "grouping": 7
+        "grouping": 6
     },
     "505": {
         "sentence": "Taking a loan is nothing new; we have borrowed from other nations throughout history.",
@@ -9123,7 +9123,7 @@
             "part3": "After a short debate, the group signed the papers and walked out together."
         },
         "sentence_id": "159",
-        "grouping": 10
+        "grouping": 11
     },
     "508": {
         "sentence": "Taking a loan is nothing new; we have borrowed from other nations throughout history.",
@@ -9141,7 +9141,7 @@
             "part3": "After a short debate, the group signed the papers and walked out together."
         },
         "sentence_id": "159",
-        "grouping": 11
+        "grouping": 10
     },
     "509": {
         "sentence": "The police officer's intensive questioning reduced her to tears.",
@@ -9159,7 +9159,7 @@
             "part3": "When she left the room, she wiped her face, and the officer wrote one last line before standing."
         },
         "sentence_id": "160",
-        "grouping": 12
+        "grouping": 13
     },
     "510": {
         "sentence": "The police officer's intensive questioning reduced her to tears.",
@@ -9177,7 +9177,7 @@
             "part3": "When she left the room, she wiped her face, and the officer wrote one last line before standing."
         },
         "sentence_id": "160",
-        "grouping": 13
+        "grouping": 12
     },
     "511": {
         "sentence": "The police officer's intensive questioning reduced her to tears.",
@@ -9195,7 +9195,7 @@
             "part3": "When she left the room, she wiped her face, and the officer wrote one last line before standing. It felt like a suffocating place to be in. She needed to leave immediately."
         },
         "sentence_id": "160",
-        "grouping": 0
+        "grouping": 1
     },
     "512": {
         "sentence": "The police officer's intensive questioning reduced her to tears.",
@@ -9213,7 +9213,7 @@
             "part3": "When she left the room, she wiped her face, and the officer wrote one last line before standing. It felt like a suffocating place to be in. She needed to leave immediately."
         },
         "sentence_id": "160",
-        "grouping": 1
+        "grouping": 0
     },
     "513": {
         "sentence": "Overlooking the horizon whilst perched upon the cliffside, he realised the culmination was near.",
@@ -9231,7 +9231,7 @@
             "part3": "He steadied his breath, flipped the telescope mount tracking motor, and waited."
         },
         "sentence_id": "165",
-        "grouping": 2
+        "grouping": 3
     },
     "514": {
         "sentence": "Overlooking the horizon whilst perched upon the cliffside, he realised the culmination was near.",
@@ -9249,7 +9249,7 @@
             "part3": "He steadied his breath, flipped the telescope mount tracking motor, and waited."
         },
         "sentence_id": "165",
-        "grouping": 3
+        "grouping": 2
     },
     "515": {
         "sentence": "Overlooking the horizon whilst perched upon the cliffside, he realised the culmination was near.",
@@ -9267,7 +9267,7 @@
             "part3": "He steadied his breath, flipped a switch, and waited."
         },
         "sentence_id": "165",
-        "grouping": 4
+        "grouping": 5
     },
     "516": {
         "sentence": "Overlooking the horizon whilst perched upon the cliffside, he realised the culmination was near.",
@@ -9285,7 +9285,7 @@
             "part3": "He steadied his breath, flipped a switch, and waited."
         },
         "sentence_id": "165",
-        "grouping": 5
+        "grouping": 4
     },
     "517": {
         "sentence": "He witnessed a spectacular stellar show.",
@@ -9411,7 +9411,7 @@
             "part3": "He flipped open the notebook and sketched the lines of the land while the light changed slowly. When his phone buzzed, he ignored it."
         },
         "sentence_id": "167",
-        "grouping": 12
+        "grouping": 13
     },
     "524": {
         "sentence": "He felt sad looking out across the valley; the depression seemed to go on without end.",
@@ -9429,7 +9429,7 @@
             "part3": "He flipped open the notebook and sketched the lines of the land while the light changed slowly. When his phone buzzed, he ignored it."
         },
         "sentence_id": "167",
-        "grouping": 13
+        "grouping": 12
     },
     "525": {
         "sentence": "The solar flare discovered last week had a galactic impact on the solar system and beyond.",
@@ -9483,7 +9483,7 @@
             "part3": "Sensors across the network showed unusual spikes, so analysts ran simulations to predict what would happen next. By evening, committees met to decide whether the data required new safety measures or new physics."
         },
         "sentence_id": "168",
-        "grouping": 2
+        "grouping": 3
     },
     "528": {
         "sentence": "The solar flare discovered last week had a galactic impact on the solar system and beyond.",
@@ -9501,7 +9501,7 @@
             "part3": "Sensors across the network showed unusual spikes, so analysts ran simulations to predict what would happen next. By evening, committees met to decide whether the data required new safety measures or new physics."
         },
         "sentence_id": "168",
-        "grouping": 3
+        "grouping": 2
     },
     "529": {
         "sentence": "She became fascinated by metaphysical ideas after the discussion.",
@@ -9519,7 +9519,7 @@
             "part3": "The next week she enrolled in a small seminar and checked out a stack of books. Soon she filled a notebook with questions she wanted to ask the instructor."
         },
         "sentence_id": "169",
-        "grouping": 28
+        "grouping": 29
     },
     "530": {
         "sentence": "She became fascinated by metaphysical ideas after the discussion.",
@@ -9537,7 +9537,7 @@
             "part3": "The next week she enrolled in a small seminar and checked out a stack of books. Soon she filled a notebook with questions she wanted to ask the instructor."
         },
         "sentence_id": "169",
-        "grouping": 29
+        "grouping": 28
     },
     "531": {
         "sentence": "She became fascinated by metaphysical ideas after the discussion.",
@@ -9591,7 +9591,7 @@
             "part3": "There was a short silence. Then a voice at the back asked him to repeat. He nodded once and moved back toward his seat."
         },
         "sentence_id": "170",
-        "grouping": 32
+        "grouping": 33
     },
     "534": {
         "sentence": "He made a philosophic response to the question, but it wasn't very clear.",
@@ -9609,7 +9609,7 @@
             "part3": "There was a short silence. Then a voice at the back asked him to repeat. He nodded once and moved back toward his seat."
         },
         "sentence_id": "170",
-        "grouping": 33
+        "grouping": 32
     },
     "535": {
         "sentence": "He made a philosophic response to the question, but it wasn't very clear.",
@@ -9699,7 +9699,7 @@
             "part3": "She copied the markings onto the catalog slip to note the mystery. Before leaving she filed a request to keep it overnight for further investigation."
         },
         "sentence_id": "171",
-        "grouping": 38
+        "grouping": 39
     },
     "540": {
         "sentence": "The librarian couldn't decode the mechanism.",
@@ -9717,7 +9717,7 @@
             "part3": "She copied the markings onto the catalog slip to note the mystery. Before leaving she filed a request to keep it overnight for further investigation."
         },
         "sentence_id": "171",
-        "grouping": 39
+        "grouping": 38
     },
     "541": {
         "sentence": "The moralist spent the entire afternoon discussing the proper way to live.",
@@ -9771,7 +9771,7 @@
             "part3": "People gathered in the parlor and listened as he worked through examples and objections. Later, someone pinned a neatly written sheet to the hall bulletin board. By nightfall, the street was divided between those who found his guidance useful and those who said it crossed a line."
         },
         "sentence_id": "172",
-        "grouping": 30
+        "grouping": 31
     },
     "544": {
         "sentence": "The moralist spent the entire afternoon discussing the proper way to live.",
@@ -9789,7 +9789,7 @@
             "part3": "People gathered in the parlor and listened as he worked through examples and objections. Later, someone pinned a neatly written sheet to the hall bulletin board. By nightfall, the street was divided between those who found his guidance useful and those who said it crossed a line."
         },
         "sentence_id": "172",
-        "grouping": 31
+        "grouping": 30
     },
     "545": {
         "sentence": "The effect of peer pressure is inductive.",
@@ -9807,7 +9807,7 @@
             "part3": "Someone reached across the table and pushed the button they had hesitated over. They walked out together, the decision already settled in their steps."
         },
         "sentence_id": "173",
-        "grouping": 32
+        "grouping": 33
     },
     "546": {
         "sentence": "The effect of peer pressure is inductive.",
@@ -9825,7 +9825,7 @@
             "part3": "Someone reached across the table and pushed the button they had hesitated over. They walked out together, the decision already settled in their steps."
         },
         "sentence_id": "173",
-        "grouping": 33
+        "grouping": 32
     },
     "547": {
         "sentence": "The effect of peer pressure is inductive.",
@@ -9843,7 +9843,7 @@
             "part3": "After a moment of silence, several of them changed their answer to match the louder voices. Someone reached across the table and pushed the button they had hesitated over."
         },
         "sentence_id": "173",
-        "grouping": 34
+        "grouping": 35
     },
     "548": {
         "sentence": "The effect of peer pressure is inductive.",
@@ -9861,7 +9861,7 @@
             "part3": "After a moment of silence, several of them changed their answer to match the louder voices. Someone reached across the table and pushed the button they had hesitated over."
         },
         "sentence_id": "173",
-        "grouping": 35
+        "grouping": 34
     },
     "549": {
         "sentence": "Louise was a pragmatist overall.",
@@ -9915,7 +9915,7 @@
             "part3": "The next morning, she forwarded her notes to the council, recommended the option that she thought would work best, and planted tomatoes where the sun hit the fence."
         },
         "sentence_id": "174",
-        "grouping": 38
+        "grouping": 39
     },
     "552": {
         "sentence": "Louise was a pragmatist overall.",
@@ -9933,7 +9933,7 @@
             "part3": "The next morning, she forwarded her notes to the council, recommended the option that she thought would work best, and planted tomatoes where the sun hit the fence."
         },
         "sentence_id": "174",
-        "grouping": 39
+        "grouping": 38
     },
     "553": {
         "sentence": "She fully embraced environmentalism in her old age.",
@@ -10023,7 +10023,7 @@
             "part3": "Hands moved between pencil and highlighter as they tried to pin down the point. After an hour they stepped back, still unsure but keener on what to try next. This had really opened the eyes of the students."
         },
         "sentence_id": "176",
-        "grouping": 32
+        "grouping": 33
     },
     "558": {
         "sentence": "The relativistic nature of this problem makes it challenging.",
@@ -10041,7 +10041,7 @@
             "part3": "Hands moved between pencil and highlighter as they tried to pin down the point. After an hour they stepped back, still unsure but keener on what to try next. This had really opened the eyes of the students."
         },
         "sentence_id": "176",
-        "grouping": 33
+        "grouping": 32
     },
     "559": {
         "sentence": "The relativistic nature of this problem makes it challenging.",
@@ -10059,7 +10059,7 @@
             "part3": "Hands moved between pencil and highlighter as they tried to solve the problem. After an hour, they stepped back, still unsure but keener on what to try next."
         },
         "sentence_id": "176",
-        "grouping": 34
+        "grouping": 35
     },
     "560": {
         "sentence": "The relativistic nature of this problem makes it challenging.",
@@ -10077,7 +10077,7 @@
             "part3": "Hands moved between pencil and highlighter as they tried to solve the problem. After an hour, they stepped back, still unsure but keener on what to try next."
         },
         "sentence_id": "176",
-        "grouping": 35
+        "grouping": 34
     },
     "561": {
         "sentence": "He brought the entire house down with a single move.",
@@ -10095,7 +10095,7 @@
             "part3": "A sudden roar swept through the space and he stepped back, watching the aftermath."
         },
         "sentence_id": "177",
-        "grouping": 24
+        "grouping": 25
     },
     "562": {
         "sentence": "He brought the entire house down with a single move.",
@@ -10113,7 +10113,7 @@
             "part3": "A sudden roar swept through the space and he stepped back, watching the aftermath."
         },
         "sentence_id": "177",
-        "grouping": 25
+        "grouping": 24
     },
     "563": {
         "sentence": "He brought the entire house down with a single move.",
@@ -10167,7 +10167,7 @@
             "part3": "The organizers argued about refunds and who would clean up the mess."
         },
         "sentence_id": "178",
-        "grouping": 14
+        "grouping": 15
     },
     "566": {
         "sentence": "People blamed the ham for the failed after show dinner.",
@@ -10185,7 +10185,7 @@
             "part3": "The organizers argued about refunds and who would clean up the mess."
         },
         "sentence_id": "178",
-        "grouping": 15
+        "grouping": 14
     },
     "567": {
         "sentence": "People blamed the ham for the failed after show dinner.",
@@ -10239,7 +10239,7 @@
             "part3": "She moved to the front and started speaking before anyone else could. A few teammates frowned and one of them stood up to interrupt. After the meeting, they left with different stories about why she had done it."
         },
         "sentence_id": "179",
-        "grouping": 18
+        "grouping": 19
     },
     "570": {
         "sentence": "They thought she was trying to upstage the whole team.",
@@ -10257,7 +10257,7 @@
             "part3": "She moved to the front and started speaking before anyone else could. A few teammates frowned and one of them stood up to interrupt. After the meeting, they left with different stories about why she had done it."
         },
         "sentence_id": "179",
-        "grouping": 19
+        "grouping": 18
     },
     "571": {
         "sentence": "They thought she was trying to upstage the whole team.",
@@ -10347,7 +10347,7 @@
             "part3": "At closing, the box office tallied only a handful of sales, and the troupe argued about whether to change the next program to something that would be better received."
         },
         "sentence_id": "180",
-        "grouping": 24
+        "grouping": 25
     },
     "576": {
         "sentence": "The puppetry in the show put many people off paying for tickets.",
@@ -10365,7 +10365,7 @@
             "part3": "At closing, the box office tallied only a handful of sales, and the troupe argued about whether to change the next program to something that would be better received."
         },
         "sentence_id": "180",
-        "grouping": 25
+        "grouping": 24
     },
     "577": {
         "sentence": "She thought that the flux in the engine was becoming difficult to control.",
@@ -10419,7 +10419,7 @@
             "part3": "She tightened a loose clamp and watched the main display for any change. When the indicator stalled instead of resetting, she reached for the phone."
         },
         "sentence_id": "185",
-        "grouping": 38
+        "grouping": 39
     },
     "580": {
         "sentence": "She thought that the flux in the engine was becoming difficult to control.",
@@ -10437,7 +10437,7 @@
             "part3": "She tightened a loose clamp and watched the main display for any change. When the indicator stalled instead of resetting, she reached for the phone."
         },
         "sentence_id": "185",
-        "grouping": 39
+        "grouping": 38
     },
     "581": {
         "sentence": "The mass of people on the wooden bridge made it risky to traverse.",
@@ -10491,7 +10491,7 @@
             "part3": "(No text necessary.)"
         },
         "sentence_id": "186",
-        "grouping": 30
+        "grouping": 31
     },
     "584": {
         "sentence": "The mass of people on the wooden bridge made it risky to traverse.",
@@ -10509,7 +10509,7 @@
             "part3": "(No text necessary.)"
         },
         "sentence_id": "186",
-        "grouping": 31
+        "grouping": 30
     },
     "585": {
         "sentence": "The energy made my hair stand on edge.",
@@ -10599,7 +10599,7 @@
             "part3": "(No text necessary)."
         },
         "sentence_id": "188",
-        "grouping": 36
+        "grouping": 37
     },
     "590": {
         "sentence": "Einstein realized that it was all relativistic.",
@@ -10617,7 +10617,7 @@
             "part3": "(No text necessary)."
         },
         "sentence_id": "188",
-        "grouping": 37
+        "grouping": 36
     },
     "591": {
         "sentence": "Einstein realized that it was all relativistic.",
@@ -10635,7 +10635,7 @@
             "part3": "(No text necessary)."
         },
         "sentence_id": "188",
-        "grouping": 38
+        "grouping": 39
     },
     "592": {
         "sentence": "Einstein realized that it was all relativistic.",
@@ -10653,7 +10653,7 @@
             "part3": "(No text necessary)."
         },
         "sentence_id": "188",
-        "grouping": 39
+        "grouping": 38
     },
     "593": {
         "sentence": "The professor spent the first lecture explaining the basic principles of conservation.",
@@ -10671,7 +10671,7 @@
             "part3": "Afterward, students lined up to sign up for physics lab groups so they can put the theory into practice."
         },
         "sentence_id": "189",
-        "grouping": 28
+        "grouping": 29
     },
     "594": {
         "sentence": "The professor spent the first lecture explaining the basic principles of conservation.",
@@ -10689,7 +10689,7 @@
             "part3": "Afterward, students lined up to sign up for physics lab groups so they can put the theory into practice."
         },
         "sentence_id": "189",
-        "grouping": 29
+        "grouping": 28
     },
     "595": {
         "sentence": "The professor spent the first lecture explaining the basic principles of conservation.",
@@ -10707,7 +10707,7 @@
             "part3": "Afterward, students lined up to sign up for discussion groups."
         },
         "sentence_id": "189",
-        "grouping": 30
+        "grouping": 31
     },
     "596": {
         "sentence": "The professor spent the first lecture explaining the basic principles of conservation.",
@@ -10725,7 +10725,7 @@
             "part3": "Afterward, students lined up to sign up for discussion groups."
         },
         "sentence_id": "189",
-        "grouping": 31
+        "grouping": 30
     },
     "597": {
         "sentence": "The event happened once the bells rang.",
@@ -10779,7 +10779,7 @@
             "part3": "All at once, torches along the path flared to life, casting a warm glow. Footsteps shifted as the crowd formed a loose circle. After a few minutes, as if spurred by some unseen ghost, someone lifted a folded paper and read aloud."
         },
         "sentence_id": "190",
-        "grouping": 34
+        "grouping": 35
     },
     "600": {
         "sentence": "The event happened once the bells rang.",
@@ -10797,7 +10797,7 @@
             "part3": "All at once, torches along the path flared to life, casting a warm glow. Footsteps shifted as the crowd formed a loose circle. After a few minutes, as if spurred by some unseen ghost, someone lifted a folded paper and read aloud."
         },
         "sentence_id": "190",
-        "grouping": 35
+        "grouping": 34
     },
     "601": {
         "sentence": "The attraction drew them closer.",
@@ -10851,7 +10851,7 @@
             "part3": "One of them shaded their eyes and pointed. A soft vibration underfoot made them quicken their pace. When they reached the spot, they stood side by side and watched."
         },
         "sentence_id": "191",
-        "grouping": 38
+        "grouping": 39
     },
     "604": {
         "sentence": "The attraction drew them closer.",
@@ -10869,7 +10869,7 @@
             "part3": "One of them shaded their eyes and pointed. A soft vibration underfoot made them quicken their pace. When they reached the spot, they stood side by side and watched."
         },
         "sentence_id": "191",
-        "grouping": 39
+        "grouping": 38
     },
     "605": {
         "sentence": "I was unsure if the deflection would make any difference to the end results.",
@@ -10887,7 +10887,7 @@
             "part3": "After a long minute I decided to run the extra check and then submitted the file."
         },
         "sentence_id": "192",
-        "grouping": 28
+        "grouping": 29
     },
     "606": {
         "sentence": "I was unsure if the deflection would make any difference to the end results.",
@@ -10905,7 +10905,7 @@
             "part3": "After a long minute I decided to run the extra check and then submitted the file."
         },
         "sentence_id": "192",
-        "grouping": 29
+        "grouping": 28
     },
     "607": {
         "sentence": "I was unsure if the deflection would make any difference to the end results.",
@@ -10923,7 +10923,7 @@
             "part3": "After a long minute I decided to run the extra check and then submitted the file."
         },
         "sentence_id": "192",
-        "grouping": 30
+        "grouping": 31
     },
     "608": {
         "sentence": "I was unsure if the deflection would make any difference to the end results.",
@@ -10941,7 +10941,7 @@
             "part3": "After a long minute I decided to run the extra check and then submitted the file."
         },
         "sentence_id": "192",
-        "grouping": 31
+        "grouping": 30
     },
     "609": {
         "sentence": "The effect radiates in that direction, outwards, across the hills.",
@@ -10959,7 +10959,7 @@
             "part3": "People at the base station started logging the readings and pointing out where it seemed strongest."
         },
         "sentence_id": "193",
-        "grouping": 32
+        "grouping": 33
     },
     "610": {
         "sentence": "The effect radiates in that direction, outwards, across the hills.",
@@ -10977,7 +10977,7 @@
             "part3": "People at the base station started logging the readings and pointing out where it seemed strongest."
         },
         "sentence_id": "193",
-        "grouping": 33
+        "grouping": 32
     },
     "611": {
         "sentence": "The effect radiates in that direction, outwards, across the hills.",
@@ -10995,7 +10995,7 @@
             "part3": "They grabbed flashlights and walked toward the hills to see where it had come from."
         },
         "sentence_id": "193",
-        "grouping": 34
+        "grouping": 35
     },
     "612": {
         "sentence": "The effect radiates in that direction, outwards, across the hills.",
@@ -11013,7 +11013,7 @@
             "part3": "They grabbed flashlights and walked toward the hills to see where it had come from."
         },
         "sentence_id": "193",
-        "grouping": 35
+        "grouping": 34
     },
     "613": {
         "sentence": "The scientists had finally uncovered how fusion worked.",
@@ -11139,7 +11139,7 @@
             "part3": "A heavy truck waited at the entrance while instruments hummed and recorded data. He tapped a tablet and signaled the driver to move forward. The crew watched the span and then moved in to follow up based on the readings."
         },
         "sentence_id": "195",
-        "grouping": 30
+        "grouping": 31
     },
     "620": {
         "sentence": "The engineer knew the moment would determine whether the bridge held.",
@@ -11157,7 +11157,7 @@
             "part3": "A heavy truck waited at the entrance while instruments hummed and recorded data. He tapped a tablet and signaled the driver to move forward. The crew watched the span and then moved in to follow up based on the readings."
         },
         "sentence_id": "195",
-        "grouping": 31
+        "grouping": 30
     },
     "621": {
         "sentence": "The various strains left his body feeling heavy.",
@@ -11175,7 +11175,7 @@
             "part3": "He pushed himself up slowly and steadied his breathing. Outside, the air felt cooler."
         },
         "sentence_id": "196",
-        "grouping": 32
+        "grouping": 33
     },
     "622": {
         "sentence": "The various strains left his body feeling heavy.",
@@ -11193,7 +11193,7 @@
             "part3": "He pushed himself up slowly and steadied his breathing. Outside, the air felt cooler."
         },
         "sentence_id": "196",
-        "grouping": 33
+        "grouping": 32
     },
     "623": {
         "sentence": "The various strains left his body feeling heavy.",
@@ -11211,7 +11211,7 @@
             "part3": "He pushed himself up slowly and steadied his breathing. Outside, the air felt cooler and he started walking without thinking where to go."
         },
         "sentence_id": "196",
-        "grouping": 34
+        "grouping": 35
     },
     "624": {
         "sentence": "The various strains left his body feeling heavy.",
@@ -11229,7 +11229,7 @@
             "part3": "He pushed himself up slowly and steadied his breathing. Outside, the air felt cooler and he started walking without thinking where to go."
         },
         "sentence_id": "196",
-        "grouping": 35
+        "grouping": 34
     },
     "625": {
         "sentence": "The masseuse felt the tension increase as he touched the thigh of his awkward patient.",
@@ -11247,7 +11247,7 @@
             "part3": "The masseuse hesitated, then adjusted his pressure and watched the patient's face for any sign."
         },
         "sentence_id": "197",
-        "grouping": 36
+        "grouping": 37
     },
     "626": {
         "sentence": "The masseuse felt the tension increase as he touched the thigh of his awkward patient.",
@@ -11265,7 +11265,7 @@
             "part3": "The masseuse hesitated, then adjusted his pressure and watched the patient's face for any sign."
         },
         "sentence_id": "197",
-        "grouping": 37
+        "grouping": 36
     },
     "627": {
         "sentence": "The masseuse felt the tension increase as he touched the thigh of his awkward patient.",
