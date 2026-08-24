@@ -8,7 +8,7 @@
         "nonfocus_meaning": "meaning2",
         "domain": "attention_check",
         "example1": "The stone floor was hard.",
-        "revision": {
+        "context": {
             "part1": "The puzzle pieces were scattered across the table. We spent hours on the puzzle, but each piece seemed to fit nowhere.",
             "part2": "It was a hard puzzle.",
             "part3": ""
@@ -33,7 +33,7 @@
         "nonfocus_meaning": "meaning2",
         "domain": "attention_check",
         "example1": "That movie was lousy!",
-        "revision": {
+        "context": {
             "part1": "The hotel I stayed at last week was the worst. The room was dirty and there was no one at the reception.",
             "part2": "The service there was really lousy.",
             "part3": ""
@@ -50,7 +50,7 @@
         "focus_meaning": "meaning1",
         "nonfocus_meaning": "meaning2",
         "domain": "attention_check",
-        "revision": {
+        "context": {
             "part1": "Max started sweating in the summer heat. His entire house felt like a sauna.",
             "part2": "",
             "part3": ""
@@ -67,7 +67,7 @@
         "nonfocus_meaning": "meaning2",
         "domain": "attention_check",
         "example1": "No one can beat John at chess.",
-        "revision": {
+        "context": {
             "part1": "Mia and Peter were preparing for the big race. Peter was confident in his talent, so he did not train much.",
             "part2": "",
             "part3": ""
