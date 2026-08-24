@@ -112,7 +112,8 @@ Some tips:
             st.write("Press the below button to confirm skipping this puzzle.")
         label = "Confirm - I don't know enough about any of these words"
         if st.session_state.progress2 > 0:
-            st.write("**Your solution for the last word group was saved. Please check the new words above.**")
+            if not st.session_state.self_assessment:
+                st.write("**Your solution for the last word group was saved. Please check the new words above.**")
     elif len(st.session_state.connections) < 5:
         label = "Next - I don't know enough about the other words"
     else:
