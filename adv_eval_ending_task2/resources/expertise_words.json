@@ -646,6 +646,38 @@
             "alkane"
         ]
     ],
+    "psychology": [
+        [
+            "jungian.a.01",
+            "Jung",
+            2.43,
+            "psychologist"
+        ],
+        [
+            "depersonalization.n.01",
+            "depersonalization",
+            2.12,
+            "dissociative disorder"
+        ],
+        [
+            "purkinje.n.01",
+            "Purkinje",
+            2.11,
+            "physiologist"
+        ],
+        [
+            "pavlovian.a.01",
+            "Pavlovian",
+            2.1,
+            "response"
+        ],
+        [
+            "proprioception.n.01",
+            "proprioception",
+            2.07,
+            "sense"
+        ]
+    ],
     "attention_check": [
         [
             "xx",
