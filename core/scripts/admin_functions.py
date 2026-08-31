@@ -124,7 +124,7 @@ def list_group_progress(task):
             group_dict[annotator_group] += 1
 
     for group in group_dict:
-        st.write(group + " - " + str(group_dict[group]))
+        st.write(str(group) + " - " + str(group_dict[group]))
 
 
 
