@@ -113,6 +113,8 @@ def list_group_progress(task):
 
     group_dict = {}
 
+    st.write("Number of finished per group")
+
     for row in rows:
         user_id, user_task, qualified, annotator_group, progress, annotations_json, data = row
 
