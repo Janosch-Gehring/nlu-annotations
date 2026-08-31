@@ -101,6 +101,31 @@ def list_user_codes(relevant_task):
                     st.write("Group changed.")
 
 
+def list_group_progress(task):
+    if task == "Select A Task":
+        st.write("Select a task to show group progress.")
+        return
+
+    conn = st.session_state.conn
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM user_data")
+    rows = cursor.fetchall()
+
+    group_dict = {}
+
+    for row in rows:
+        user_id, user_task, qualified, annotator_group, progress, annotations_json, data = row
+
+        if user_task == "adv_eval_ending_task2" and "test" not in data["prolific_id"].lower() and "qualified" == 4:
+            if annotator_group not in group_dict:
+                group_dict[annotator_group] = 0
+            group_dict[annotator_group] += 1
+
+    for group in group_dict:
+        st.write(group + " - " + str(group_dict[group]))
+
+
+
 def list_user_progress(task):
 
     if task == "Select A Task":

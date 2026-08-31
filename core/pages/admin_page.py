@@ -65,10 +65,17 @@ st.markdown("""
             """)
 
 tracking_option = st.selectbox(
-    "Which task to check progress on?", TASK_OPTIONS
+    "Which task to check user progress on?", TASK_OPTIONS
 )
 if tracking_option:
     admin_functions.list_user_progress(tracking_option)
+
+    tracking_option = st.selectbox(
+    "Which task to check group progress on?", TASK_OPTIONS
+)
+if tracking_option:
+    admin_functions.list_group_progress(tracking_option)
+
 
 st.markdown("---")
 

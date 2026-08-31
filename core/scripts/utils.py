@@ -154,7 +154,8 @@ TASK_INFO = {
         "annotation_filepath2": "adv_eval_ending_task2/resources/expertise_words.json",
         "qualification_filepath": "adv_eval_ending_task2/resources/qualification_questions.json",
         "qualification_filepath2": "adv_eval_ending_task2/resources/qualification_connections.json",
-        "number_of_annotator_groups": 40
+        "number_of_annotator_groups": 40,
+        "group_assignment": "post-qualification"
     }
 }
 
