@@ -118,7 +118,7 @@ def list_group_progress(task):
     for row in rows:
         user_id, user_task, qualified, annotator_group, progress, annotations_json, data = row
 
-        if user_task == task and "test" not in data["prolific_id"].lower() and "qualified" == 4:
+        if user_task == task and "test" not in data["prolific_id"].lower() and qualified == 4:
             if annotator_group not in group_dict:
                 group_dict[annotator_group] = 0
             group_dict[annotator_group] += 1
