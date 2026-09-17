@@ -62,7 +62,14 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     st.write("---")
 
-    st.markdown(question["context"]["part1"] + " " + format_sentence(question["sentence"]) + " " + question["context"]["part3"])
+    part1 = question["context"]["part1"]
+    if "No text necessary" in part1:
+        part1 = ""
+    part3 = question["context"]["part3"]
+    if "No text necessary" in part3:
+        part3 = ""
+
+    st.markdown(part1 + " " + format_sentence(question["sentence"]) + " " + part3)
 
     st.write("---")
 
