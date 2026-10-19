@@ -29,8 +29,8 @@ else:
 
     back_button = st.button(label="Back", key = 10 * index + 7, help="Go back to the previous sample.")
 
-    question, slider_choice, nonsensical_input, comment_input, next_input = utils.print_annotation_schema_sliders("annotation", index)
-    annotation = {"question": question, "slider": slider_choice, "nonsensical": nonsensical_input, "comment": comment_input}
+    question, slider_choice, reasons, spans, comment_input, next_input = utils.print_annotation_schema_sliders("annotation", index)
+    annotation = {"question": question, "slider": slider_choice, "reasons": reasons, "spans": spans, "comment": comment_input}
 
     if next_input:
         handle_next_button(annotation, index, samples, "annotation")

@@ -31,7 +31,7 @@ else:
 
 On each page, you will be presented with a short story where one of the words has multiple meanings (like how 'bat' can refer to both an animal or a baseball bat). You are presented with one of the meanings. Then, you will have to do three things:
 
-## 1) Rate how plausible a meaning of a word is in the context of the short text using one of five scores:
+## 1) Rate how plausible a meaning of a word is in the context of the short story using one of five scores:
 
 * **1**: The displayed meaning is not plausible at all given the context.
 * **2**: The displayed meaning is theoretically conceivable, but less plausible than other meanings.

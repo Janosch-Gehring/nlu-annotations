@@ -2,5 +2,4 @@
 
 ## Overview
 
-It will start soon!
 
