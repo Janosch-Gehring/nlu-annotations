@@ -120,6 +120,8 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
 
     st.write(f"""Which of these best describes the reason for why you rated the word sense as you did? Pick (at least) 1. """)
+    reason7 = None
+    reason8 = None
 
     reason1 = st.checkbox(label="There are words in the context that by themselves are obviously associated with one meaning.", value=False, key= 50 * index + 11,
                           help="This should be picked if there are words that are directly associated with one meaning. The association is obvious, no further thinking is required.")
@@ -128,7 +130,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
                           help="This should be picked if the setting of the story fits better with a particular sense.")
 
     if reason2:
-        reason7 = st.radio("Explain further.", options=["It's because of the general setting of the story.", "It's because of the location of the story.", "It's because of what the characters in the story are."],
+        reason7 = st.radio("What is the most deciding factor?", options=["It's because of the general setting of the story.", "It's because of the location of the story.", "It's because of what the characters in the story are."],
             index=None, key= 50 * index + 17)
 
     reason3 = st.checkbox(label="Logically, the events that occur make the most sense with a certain meaning.", value=False, key= 50 * index + 13,
@@ -149,7 +151,16 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
 
     has_annotated_reasons = (reason1) or (reason2 and reason7) or (reason3) or (reason4) or (reason5 and reason8) or reason6
-
+    annotated_reasons  = {
+        "keywords": reason1,
+        "premise": reason2,
+        "premise_reason": reason7,
+        "logic": reason3,
+        "knowledge": reason4,
+        "equal": reason5,
+        "equal_reason": reason8,
+        "idk": reason6
+    }
 
 
     # ----------------------------- NONSENSICAL INPUT ---------------------------
@@ -161,7 +172,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     # ---------------------------- HIGHLIGHTING -----------------------------------
 
-    text = " \n" + part1 + " " + question["sentence"] + " " + part3
+    text = " \n\n" + part1 + " " + question["sentence"] + " " + part3
 
     prehighlight = [
         [
@@ -169,7 +180,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         ],
     ]
 
-    st.write("Now please go through the story again and mark the words that influenced your decision for the reasons you gave above.")
+    st.write("Now please go through the story again and mark the words that influenced your decision for the reasons you gave above. \n**You can ignore the orange buttons. Just select spans of text from below using the left mouse button.**")
 
     annotations = text_highlighter(text, highlights=prehighlight)
 
@@ -194,7 +205,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         "sentence": question["sentence"],
         "context": question["context"],
         "word": question["word"],
-        "focus_meaning": question["focus_meaning"]
+        "focus_meaning": question["focus_meaning"],
     }
     
-    return return_sample, slider_choice, nonsense_input, comment_input, next_input
+    return return_sample, slider_choice, annotated_reasons, annotations, comment_input, next_input

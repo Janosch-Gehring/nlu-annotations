@@ -47,14 +47,17 @@ Explain why you thought that the meaning was plausible or implausible. You must 
 
 ### 1) "There are words in the context that by themselves are obviously associated with one meaning."
 
-There are words in the text which even by themselves strongly suggest one meaning.
+**Example:**: *He showed me the [bat] he found. The wings appear to be in poor shape.*
+
+-> Even without any further context, the word 'wings' already confirms that [bat] is an animal, not a baseball bat.
 
 ### 2) "The general premise or location makes the meaning more/less plausible."
 
 There may not be any words that give away the meaning by themselves, but given the entire context (premise, location, characters...), one seems more plausible.
 
-*Example:* 
+**Example:** *The cats sit outside peacefully. One of them keeps looking at a [star].*
 
+-> While not inconceivable that they are looking at a famous person, it seems more plausible given the general situation that they are looking at the sky.
 
 ### 3) "Logically, the events that occur make the most sense with a certain meaning."
 
@@ -64,14 +67,14 @@ With one meaning, the story makes sense, and with the other meaning it would eit
 
 -> Sentence here probably means verdict/punishment instead of a grammatical sentence, because finishing a grammatical sentence would not result in such an emotional reaction.
 
-### 4) "It is more/less plausible than it appears at first glance for reasons that not everyone may know."
+### 4) "It is more/less plausible for reasons that not everyone may know."
 
-Your reasoning for why you think the meaning is plausible or implausible is related to something you know about the world. 
+Your reasoning for why you think the meaning is plausible or implausible is related to something you know about the world. **You should pick this option instead of 3) if you think it is conceivable that some people may not possess the necessary knowledge.**
 
-**Example**: *The golf player's round was below par. She threw away her golf club in frustration.*
+**Example**: *The golf player's round was below [par]. She threw away her golf club in frustration.*
 
--> "Below par" generally refers to a bad performance. However, in the context of golf, being "below par" is actually a good thing. So, it's actually not the golf meaning of "par" here.
-If you knew this, you would pick this option, and maybe also option 3) in addition.
+-> "Below par" generally refers to a bad performance. However, in the context of golf, being "below par" is actually a good thing. So, it's not the golf meaning of "par" here.
+If you knew this, you would pick this option.
 If you didn't know this, you would pick a different option, like 2).
 
 ### 5) "I can imagine multiple interpretations, but there aren't really any hints in the context."
@@ -91,9 +94,9 @@ Only pick this if you legitimately cannot think of another sense for the word.
     """)
 
     # print text and widgets
-    question, slider, nonsense, comment, next_input = utils.print_annotation_schema_sliders("qualification", index)
+    question, slider, reason, spans, comment, next_input = utils.print_annotation_schema_sliders("qualification", index)
 
-    annotation = {"question": question, "slider": slider, "nonsensical": nonsense, "comment": comment}
+    annotation = {"question": question, "slider": slider, "reasons": reason, "spans": spans, "comment": comment}
     samples = core_utils.read_json_from_file(core_utils.TASK_INFO["span_task"]["qualification_filepath"])
 
     if next_input:
