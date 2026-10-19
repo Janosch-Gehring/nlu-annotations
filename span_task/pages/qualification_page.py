@@ -45,13 +45,13 @@ There will be times where this is highly subjective. Read the story carefully an
 
 Explain why you thought that the meaning was plausible or implausible. You must select at least one of the following categories:
 
-### 1) "There are words in the context that by themselves are obviously associated with one meaning."
+#### 1) "There are words in the context that by themselves are obviously associated with one meaning."
 
 **Example:**: *He showed me the [bat] he found. The wings appear to be in poor shape.*
 
--> Even without any further context, the word 'wings' already confirms that [bat] is an animal, not a baseball bat.
+-> Even without any further context, the word 'wings' practically confirms that [bat] is an animal, not a baseball bat.
 
-### 2) "The general premise or location makes the meaning more/less plausible."
+#### 2) "The general premise or location makes the meaning more/less plausible."
 
 There may not be any words that give away the meaning by themselves, but given the entire context (premise, location, characters...), one seems more plausible.
 
@@ -59,37 +59,37 @@ There may not be any words that give away the meaning by themselves, but given t
 
 -> While not inconceivable that they are looking at a famous person, it seems more plausible given the general situation that they are looking at the sky.
 
-### 3) "Logically, the events that occur make the most sense with a certain meaning."
+#### 3) "Logically, the events that occur make the most sense with a certain meaning."
 
 With one meaning, the story makes sense, and with the other meaning it would either be illogical or just a bit odd.
 
 **Example**: *He finally finished his [sentence]. He is very happy about it.*
 
--> Sentence here probably means verdict/punishment instead of a grammatical sentence, because finishing a grammatical sentence would not result in such an emotional reaction.
+-> Sentence here probably means verdict/punishment instead of a grammatical sentence, because finishing a grammatical sentence would not result in such an emotional reaction. This would count as social reasoning (as it relates to expected human behavior).
 
-### 4) "It is more/less plausible for reasons that not everyone may know."
+#### 4) "It is more/less plausible for reasons that not everyone may know."
 
-Your reasoning for why you think the meaning is plausible or implausible is related to something you know about the world. **You should pick this option instead of 3) if you think it is conceivable that some people may not possess the necessary knowledge.**
+Your reasoning for why you think the meaning is plausible or implausible is related to something you know about the world. **You should pick this option if you think it is conceivable that some people may not possess the necessary knowledge.**
 
 **Example**: *The golf player's round was below [par]. She threw away her golf club in frustration.*
 
 -> "Below par" generally refers to a bad performance. However, in the context of golf, being "below par" is actually a good thing. So, it's not the golf meaning of "par" here.
-If you knew this, you would pick this option.
+If you knew this, you would pick this option, and also 3) in addition.
 If you didn't know this, you would pick a different option, like 2).
 
-### 5) "I can imagine multiple interpretations, but there aren't really any hints in the context."
+#### 5) "I can imagine multiple interpretations, but there aren't really any hints in the context."
 
 You can pick this if you think multiple interpretations are equally plausible. You can also pick this if you think that one meaning seems more intuitive because it is more common or sounds better or for another reason.
 
-### 6) "I don't understand what the other meanings of that word would be."
+#### 6) "I don't understand what the other meanings of that word would be."
 
 Only pick this if you legitimately cannot think of another sense for the word.
 
 
+## 3) Annotate spans of text that influenced your decision the most
 
+The story will be shown again. Annotate the words or phrases that are relevant for the reasons you gave above by marking them with your mouse. You must mark at least 1 word.
 
-
-    
     
     """)
 
