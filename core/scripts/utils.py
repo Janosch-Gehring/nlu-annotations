@@ -157,6 +157,11 @@ TASK_INFO = {
         "qualification_filepath2": "adv_eval_ending_task2/resources/qualification_connections.json",
         "number_of_annotator_groups": 40,
         "group_assignment": "post-qualification"
+    },
+    "span_task": {
+        "annotation_filepath": "span_task/resources/stage2_samples.json",
+        "qualification_filepath": "span_task/resources/qualification_questions.json",
+        "number_of_annotator_groups": 1
     }
 }
 

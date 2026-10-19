@@ -246,6 +246,15 @@ adv_eval_ending2_annotation2_page = st.Page(
 )
 
 
+span_task_start_page = st.Page(
+    "span_task/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
+)
+span_task_qualification_page = st.Page(
+    "span_task/pages/qualification_page.py", title="Qualification",  icon="🔑" 
+)
+span_task_annotation_page = st.Page(
+    "span_task/pages/annotation_page.py", title="Annotation",  icon="✏️" 
+)
 
 
 # Create navigation bar
@@ -327,6 +336,9 @@ elif st.session_state.user_id:
     elif utils.authenticate_id("adv_eval_ending_task2", st.session_state.user_id):
         available_pages["Plausibility+Connection Task"] = [adv_eval_ending2_start_page, adv_eval_ending2_qualification1_page, adv_eval_ending2_qualification2_page, 
                                                            adv_eval_ending2_annotation1_page, adv_eval_ending2_annotation2_page]
+
+    elif utils.authenticate_id("span_task", st.session_state.user_id):
+        available_pages["Span Task"] = [span_task_start_page, span_task_qualification_page, span_task_annotation_page]
 
 
     available_pages["Other"] = [logout_page]
