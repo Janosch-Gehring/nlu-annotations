@@ -40,15 +40,15 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     # ----------------- LOADING -----------------
 
-    sample_preload = load_annotation(subtask, index)
-    if not sample_preload:
-        value_slider, value_nonsensical, value_comment = None, None, ""
-    else:
-        value_slider, value_nonsensical, value_comment = (sample_preload["slider"], sample_preload["nonsensical"], sample_preload["comment"])
-        if value_slider in slider_labels:
-            value_slider = slider_labels[value_slider]
-        else:
-            value_slider = None
+    #sample_preload = load_annotation(subtask, index)
+    #if not sample_preload:
+    value_slider, value_nonsensical, value_comment = None, None, ""
+    #else:
+    #    value_slider, value_nonsensical, value_comment = (sample_preload["slider"], sample_preload["nonsensical"], sample_preload["comment"])
+    #    if value_slider in slider_labels:
+    #        value_slider = slider_labels[value_slider]
+    #    else:
+    #        value_slider = None
 
     question = samples[str(index)]
     # display the "Sample 1/5" thing
@@ -188,9 +188,13 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         ],
     ]
 
-    st.write("Now please go through the story again and mark the words that influenced your decision for the reasons you gave above. \n**You can ignore the orange buttons. Just select spans of text from below. Hold down the left mouse button and drag the mouse cursor over words to mark them. Mark the same words again to undo.**")
+    st.write("Now please go through the story again and mark the words that influenced your decision for the reasons you gave above. \n\n Just select spans of text from below. Hold down the left mouse button and drag the mouse cursor over words to mark them. Mark the same words again to undo.**")
+
+    st.write("---")
 
     annotations = text_highlighter(text, highlights=prehighlight)
+
+    st.write("---")
 
     print(annotations)
 
