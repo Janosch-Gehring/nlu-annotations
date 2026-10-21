@@ -83,7 +83,7 @@ You can pick this if you think multiple interpretations are equally plausible. Y
 
 #### 6) "I don't understand what the other meanings of that word would be."
 
-Only pick this if you legitimately cannot think of another sense for the word. This option only shows up if you rated the plausibility of a sense as 5/5.
+Only pick this if you legitimately cannot think of another meaning for the word. This option only shows up if you rated the plausibility of a meaning as 5/5.
 
 
 ## 3) Annotate spans of text that influenced your decision the most

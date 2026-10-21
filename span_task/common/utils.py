@@ -146,11 +146,11 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason5 = st.checkbox(label="I can imagine multiple interpretations, but there aren't really any hints in the context.", value=False, key= 50 * index + 15,
                           help="You should pick this if multiple meanings are equally plausible to you, or if you can't explain from the context why one is more plausible.")
 
-    if reason5 and slider_choice != 3:
+    if reason5 and slider_choice != "3":
         reason8 = st.radio("Then why not pick a score of '3'?", options=["I find one more plausible, because it's the more common meaning.", "I find one more plausible, because the phrasing is more intuitive.", "I find one more plausible for no particular reason."],
                            index=None, key= 50 * index + 18)
 
-    if slider_choice == 5:
+    if slider_choice == "5":
         reason6 = st.checkbox(label="I don't understand what the other meanings of that word would be.", value=False, key= 50 * index + 16,
                             help="ONLY pick this if you don't know the other meanings of the word.")
     else:
