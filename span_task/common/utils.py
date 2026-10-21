@@ -127,31 +127,34 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason1 = st.checkbox(label="There are words in the context that by themselves are obviously associated with one meaning.", value=False, key= 50 * index + 11,
                           help="This should be picked if there are words that are directly associated with one meaning. The association is obvious, no further thinking is required.")
 
-    reason2 = st.checkbox(label="The general premise or location makes the meaning more/less plausible.", value=False, key= 50 * index + 12,
+    reason2 = st.checkbox(label="The general premise or location makes a certain meaning plausible.", value=False, key= 50 * index + 12,
                           help="This should be picked if the setting of the story fits better with a particular sense.")
 
     if reason2:
-        reason7 = st.radio("What is the most deciding factor?", options=["It's because of the general setting of the story.", "It's because of the location of the story.", "It's because of what the characters in the story are.", "Something else."],
+        reason7 = st.radio("What is the most deciding factor?", options=["It's because of the general setting of the story.", "It's because of the location of the story.", "It's because of who the characters in the story are.", "Something else. (Leave comment)"],
             index=None, key= 50 * index + 17)
 
-    reason3 = st.checkbox(label="Logically, the events that occur make the most sense with a certain meaning.", value=False, key= 50 * index + 13,
+    reason3 = st.checkbox(label="The events that occur make the most sense with a certain meaning.", value=False, key= 50 * index + 13,
                           help="This should be picked if the words and setting aren't particularly associated with the meaning, but if you think about it logically, one meaning makes more sense.")
 
     if reason3:
-        reason9 = st.radio("How would you classify the type of reasoning you used?", options=["Causal: relating to causes and effects.", "Temporal: relating to time, sequences and durations.", "Spatial: relating to locations, directions and spatial relationships.", "Social: relating to social relationships and human behavior.", "Something else."])
+        reason9 = st.radio("How would you classify the type of reasoning you used?", options=["**Causal**: relating to expected causes and effects.", "**Temporal**: relating to time, sequences and durations.", "**Spatial**: relating to locations, directions and spatial relationships.", "**Social**: relating to expectations of how humans interact with each other.", "Something else. (Leave comment)"])
 
-    reason4 = st.checkbox(label="It is more/less plausible than it appears at first glance for reasons that not everyone may know.", value=False, key= 50 * index + 14,
-                          help="You should pick this if your rating was influenced by your background knowledge. If it's something even a child would know, you should pick another option.")
+    reason4 = st.checkbox(label="I have background knowledge that influences how plausible I find this text.", value=False, key= 50 * index + 14,
+                          help="You should pick this if your rating was influenced by your background knowledge. If it's something everyone knows, you should pick another option.")
 
     reason5 = st.checkbox(label="I can imagine multiple interpretations, but there aren't really any hints in the context.", value=False, key= 50 * index + 15,
                           help="You should pick this if multiple meanings are equally plausible to you, or if you can't explain from the context why one is more plausible.")
 
-    if reason5:
-        reason8 = st.radio("", options=["...and as a result, I find both equally plausible.", "...but I find one more plausible, because it's the more common meaning.", "...but I find one more plausible, because the phrasing works better.", "...but I find one more plausible for no particular reason."],
+    if reason5 and slider_choice != 3:
+        reason8 = st.radio("Then why not pick a score of '3'?", options=["I find one more plausible, because it's the more common meaning.", "I find one more plausible, because the phrasing is more intuitive.", "I find one more plausible for no particular reason."],
                            index=None, key= 50 * index + 18)
 
-    reason6 = st.checkbox(label="I don't understand what the other meanings of that word would be.", value=False, key= 50 * index + 16,
-                          help="ONLY pick this if you don't know the other meanings of the word.")
+    if slider_choice == 5:
+        reason6 = st.checkbox(label="I don't understand what the other meanings of that word would be.", value=False, key= 50 * index + 16,
+                            help="ONLY pick this if you don't know the other meanings of the word.")
+    else:
+        reason6 = None
 
 
     has_annotated_reasons = (reason1) or (reason2 and reason7) or (reason3) or (reason4) or (reason5 and reason8) or reason6

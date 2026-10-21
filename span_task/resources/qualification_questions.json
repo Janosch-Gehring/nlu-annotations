@@ -1,16 +1,16 @@
 {
     "1": {
-        "sentence": "It was a hard puzzle.",
-        "word": "hard",
-        "story_meaning": "solid; not soft",
-        "focus_meaning_gloss": "solid; not soft",
+        "sentence": "Good thing I have a bat.",
+        "word": "bat",
+        "story_meaning": "a club used for hitting a ball in various games",
+        "focus_meaning_gloss": "a club used for hitting a ball in various games",
         "focus_meaning": "meaning1",
         "nonfocus_meaning": "meaning2",
         "domain": "attention_check",
-        "example1": "The stone floor was hard.",
+        "example1": "I hit a baseball with my bat.",
         "context": {
-            "part1": "The puzzle pieces were scattered across the table. We spent hours on the puzzle, but each piece seemed to fit nowhere.",
-            "part2": "It was a hard puzzle.",
+            "part1": "I needed to get out of there, but there was a glass wall in my way.",
+            "part2": "Good thing I have a bat.",
             "part3": ""
         },
         "context_detailed": [
@@ -25,54 +25,60 @@
         "correct_answer": [1, 2]
     },
     "2": {
-        "sentence": "The service there was really lousy.",
-        "word": "lousy",
-        "story_meaning": "very bad",
-        "focus_meaning_gloss": "very bad",
-        "focus_meaning": "meaning1",
-        "nonfocus_meaning": "meaning2",
-        "domain": "attention_check",
-        "example1": "That movie was lousy!",
+        "sentence": "The editor was being troublesome today.",
+        "word": "editor",
+        "domain": "computer_science",
+        "meaning1": "(computer science) a program designed to perform such editorial functions as rearrangement or modification or deletion of data",
+        "meaning2": "a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine)",
+        "focus_meaning": "meaning2",
+        "focus_meaning_gloss": "a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine)",
+        "example1": "I opened the file in a text editor to rearrange and delete the unnecessary lines.",
+        "example2": "The editor decided which articles would appear in the magazine.",
         "context": {
-            "part1": "The hotel I stayed at last week was the worst. The room was dirty and there was no one at the reception.",
-            "part2": "The service there was really lousy.",
-            "part3": ""
+            "part1": "The weekly piece had to be finished before noon. When I reviewed the latest version, lines had shifted and whole paragraphs were missing.",
+            "part2": "The editor was being troublesome today.",
+            "part3": "News reporters messaged to ask if the copy was ready. I took a deep breath and worked through the changes until the layout looked right."
         },
-        "domain_meaning": true,
-        "correct_answer": [4, 5]
-    },
-    "3": {
-        "sentence": "If he had a fan, the heat would be bearable.",
-        "word": "fan",
-        "story_meaning": "an enthusiastic follower or admirer",
-        "focus_meaning_gloss": "an enthusiastic follower or admirer",
-        "example1": "He is a big fan of this actress.",
-        "focus_meaning": "meaning1",
-        "nonfocus_meaning": "meaning2",
-        "domain": "attention_check",
-        "context": {
-            "part1": "Max started sweating in the summer heat. His entire house felt like a sauna.",
-            "part2": "",
-            "part3": ""
-        },
-        "domain_meaning": true,
+        "sentence_id": "56",
+        "grouping": 7,
         "correct_answer": [1, 2]
     },
-    "4": {
-        "sentence": "In the end, Mia beat him in the race.",
-        "word": "beat",
-        "story_meaning": "come out better in a competition, race or conflict",
-        "focus_meaning_gloss": "come out better in a competition, race or conflict",
+    "3": {
+        "sentence": "He witnessed a spectacular stellar show.",
+        "word": "stellar",
+        "domain": "astronomy",
+        "meaning1": "being or relating to or resembling or emanating from stars",
+        "meaning2": "indicating the most important performer or role",
         "focus_meaning": "meaning1",
-        "nonfocus_meaning": "meaning2",
-        "domain": "attention_check",
-        "example1": "No one can beat John at chess.",
+        "focus_meaning_gloss": "being or relating to or resembling or emanating from stars",
+        "example1": "Astronomers observed a stellar flare erupting from a nearby star.",
+        "example2": "She was cast in the stellar role of the lead character.",
         "context": {
-            "part1": "Mia and Peter were preparing for the big race. Peter was confident in his talent, so he did not train much.",
-            "part2": "",
+            "part1": "He left work early, tucking his jacket into a small bag by the door. He found a clearing just outside town and set up a folding chair as the light dimmed.",
+            "part2": "He witnessed a spectacular stellar show.",
+            "part3": "After the light spectacle, he sat for a moment and felt glad he'd taken the night off."
+        },
+        "sentence_id": "166",
+        "grouping": 6,
+        "correct_answer": [4, 5]
+    },
+    "5": {
+        "sentence": "The mass of people on the wooden bridge made it risky to traverse.",
+        "word": "mass",
+        "domain": "physics",
+        "meaning1": "the property of a body that causes it to have weight in a gravitational field",
+        "meaning2": "an ill-structured collection of similar things (objects or people)",
+        "focus_meaning": "meaning1",
+        "focus_meaning_gloss": "the property of a body that causes it to have weight in a gravitational field",
+        "example1": "The mass of the box determines how heavy it is in Earth's gravity.",
+        "example2": "A mass of people clogged the subway platform.",
+        "context": {
+            "part1": "A light drizzle sent all the panicked commuters hurrying toward the narrow footbridge.",
+            "part2": "The mass of people on the wooden bridge made it risky to traverse.",
             "part3": ""
         },
-        "domain_meaning": true,
-        "correct_answer": [4, 5]
+        "sentence_id": "186",
+        "grouping": 31,
+        "correct_answer": [1, 2]
     }
 }
