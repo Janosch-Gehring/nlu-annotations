@@ -149,7 +149,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
             index=None, key= 50 * index + 17)
 
         if reason7 == "Something else. (Leave comment)":
-            reason7_comment = st.text_input(key = 50 * index + 20, label = "", value=value_comment, help="What is the most deciding factor?", max_chars=1000)
+            reason7_comment = st.text_input(key = 50 * index + 20, label = "Explain the reason for your choice.", value=value_comment, help="What is the most deciding factor?", max_chars=1000)
 
         
 
@@ -166,7 +166,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         reason9 = st.radio("How would you classify the type of reasoning you used?", index=None, options=["**Causal**: relating to expected causes and effects.", "**Temporal**: relating to time, sequences and durations.", "**Spatial**: relating to locations, directions and spatial relationships.", "**Social**: relating to expectations of how humans interact with each other.", "Something else. (Leave comment)"])
 
         if reason9 == "Something else. (Leave comment)":
-            reason9_comment = st.text_input(key = 50 * index + 21, label = "", value=value_comment, help="What reasoning did you use?", max_chars=1000)
+            reason9_comment = st.text_input(key = 50 * index + 21, label = "Explain the reason for your choice.", value=value_comment, help="What reasoning did you use?", max_chars=1000)
 
     reason4_string = "Given my background knowledge, I find that one meaning becomes more/less plausible."
     if slider_choice in ["1", "2"]:
