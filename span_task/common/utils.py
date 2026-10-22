@@ -225,16 +225,16 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     prehighlight = [
         [
-            {"start": 0, "end": 0, "label": "Highlight words that influenced your decision."},
-            {"start": len(text), "end": len(text), "label": "Highlight words that influenced your decision."},
+            {"start": 0, "end": 0, "label": "Mark words by selecting them with the mouse cursor."},
+            {"start": len(text), "end": len(text), "label": "Mark words by selecting them with the mouse cursor."},
         ],
     ]
 
-    st.write("Now please go through the story again and mark the words that influenced your decision for the reasons you gave above")
+    st.write("Now please go through the story again and mark the words that influenced your decision for the reasons you gave above.")
 
     st.write("---")
 
-    st.write("Select spans of text in the story below by marking them with the mouse cursor. Mark a word again to undo. (You can ignore the orange buttons)")
+    st.write("Select spans of text in the story below by holding left-click and dragging the mouse cursor over them. Mark a word again to undo. (You don't need to press the orange buttons)")
 
     annotations = text_highlighter(text, highlights=prehighlight)
 
