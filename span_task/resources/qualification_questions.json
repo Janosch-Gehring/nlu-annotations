@@ -40,7 +40,6 @@
             "part3": "News reporters messaged to ask if the copy was ready. I took a deep breath and worked through the changes until the layout looked right."
         },
         "sentence_id": "56",
-        "grouping": 7,
         "correct_answer": [1, 2]
     },
     "3": {
@@ -59,7 +58,6 @@
             "part3": "After the light spectacle, he sat for a moment and felt glad he'd taken the night off."
         },
         "sentence_id": "166",
-        "grouping": 6,
         "correct_answer": [4, 5]
     },
     "5": {
@@ -78,7 +76,6 @@
             "part3": ""
         },
         "sentence_id": "186",
-        "grouping": 31,
         "correct_answer": [1, 2]
     }
 }
