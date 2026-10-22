@@ -124,6 +124,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason8 = None
     reason9 = None
     reason7_comment = ""
+    reason9_comment = ""
 
     reason1_string = "There are words in the context that by themselves are associated with one of the meanings."
     if slider_choice in ["1", "2"]:
