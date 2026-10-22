@@ -85,10 +85,9 @@ You can pick this if you think multiple interpretations are equally plausible. Y
 
 Only pick this if you legitimately cannot think of another meaning for the word. This option only shows up if you rated the plausibility of a meaning as 5/5.
 
-
 ## 3) Annotate spans of text that influenced your decision the most
 
-The story will be shown again. Annotate the words or phrases that are relevant for the reasons you gave above by marking them with your mouse. You must mark at least 1 word.
+The story will be shown again. Annotate the words or phrases that are relevant for the reasons you gave above.
 
     
     """)

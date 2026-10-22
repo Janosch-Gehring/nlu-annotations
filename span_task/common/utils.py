@@ -209,7 +209,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         ],
     ]
 
-    st.write("Now please go through the story again and mark the words that influenced your decision for the reasons you gave above. \n\n Just select spans of text from below. Hold down the left mouse button and drag the mouse cursor over words to mark them. Mark the same words again to undo.**")
+    st.write("Now please go through the story again and mark the words that influenced your decision for the reasons you gave above. \n\n Just select spans of text from below. Hold down the left mouse button and drag the mouse cursor over words to mark them. Mark the same words again to undo. \n\n(You don't need to press the orange buttons.)")
 
     st.write("---")
 
