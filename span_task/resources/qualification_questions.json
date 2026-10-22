@@ -60,7 +60,7 @@
         "sentence_id": "166",
         "correct_answer": [4, 5]
     },
-    "5": {
+    "4": {
         "sentence": "The mass of people on the wooden bridge made it risky to traverse.",
         "word": "mass",
         "domain": "physics",
@@ -76,6 +76,24 @@
             "part3": ""
         },
         "sentence_id": "186",
+        "correct_answer": [1, 2]
+    },
+    "5": {
+        "sentence": "They needed a recorder for their music video.",
+        "word": "recorder",
+        "domain": "music",
+        "meaning1": "a tubular wind instrument with 8 finger holes and a fipple mouthpiece",
+        "meaning2": "equipment for making records",
+        "focus_meaning": "meaning2",
+        "focus_meaning_gloss": "equipment for making records",
+        "example1": "She learned to play the recorder in music class.",
+        "example2": "She turned on the recorder before the interview started.",
+        "context": {
+            "part1": "They set up chairs in the living room and warmed up their voices. Their brother was poised and ready to dance.",
+            "part2": "They needed a recorder for their music video.",
+            "part3": "One of them dashed to a shop to see if anyone could lend them one before sunset."
+        },
+        "sentence_id": "108",
         "correct_answer": [1, 2]
     }
 }
