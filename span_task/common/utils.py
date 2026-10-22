@@ -181,7 +181,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
                           help="You should pick this if multiple meanings are equally plausible to you, or if you can't explain from the context why one is more plausible.")
 
 
-    if reason5 and slider_choice != "3":
+    if reason5 and slider_choice not in [None, 3]:
         reason8_label = "Why do you rate the displayed meaning as less plausible?"
         if slider_choice in ["4", "5"]:
             reason8_label = "Why do you rate the displayed meaning as more plausible?"
