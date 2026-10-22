@@ -67,7 +67,7 @@ With one meaning, the story makes sense, and with the other meaning it would eit
 
 -> Sentence here probably means verdict/punishment instead of a grammatical sentence, because finishing a grammatical sentence would not result in such an emotional reaction. This would count as causal reasoning.
 
-#### 4) "I have background knowledge that influences how plausible I find this text."
+#### 4) "Given my background knowledge, I find this meaning plausible/implausible."
 
 Your reasoning for why you think the meaning is plausible or implausible is related to something you know about the world. **You should pick this option if you think it is conceivable that some people may not possess the necessary knowledge.**
 

@@ -123,17 +123,22 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason7 = None
     reason8 = None
     reason9 = None
+    reason7_comment = ""
 
-    reason1_string = "There are words in the context that by themselves are associated with another meaning."
-    if slider_choice in ["3", "4", "5"]:
+    reason1_string = "There are words in the context that by themselves are associated with one of the meanings."
+    if slider_choice in ["1", "2"]:
+        reason1_string = "There are words in the context that by themselves are associated with another meaning."
+    if slider_choice in ["4", "5"]:
         reason1_string = "There are words in the context that by themselves are associated with this meaning."
 
     reason1 = st.checkbox(label=reason1_string, value=False, key= 50 * index + 11,
                           help="This should be picked if there are words that are directly associated with one meaning. The association is obvious, no further thinking is required.")
 
-    reason2_string = "The general premise or location makes another meaning more plausible."
-    if slider_choice in ["3", "4", "5"]:
+    reason2_string = "The general premise or location makes a meaning more/less plausible."
+    if slider_choice in ["1", "2"]:
         reason2_string = "The general premise or location makes another meaning more plausible."
+    if slider_choice in ["4", "5"]:
+        reason2_string = "The general premise or location makes this meaning plausible."
 
     reason2 = st.checkbox(label=reason2_string, value=False, key= 50 * index + 12,
                           help="This should be picked if the setting of the story fits better with a particular sense.")
@@ -142,18 +147,30 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         reason7 = st.radio("What is the most deciding factor?", options=["It's because of the general setting of the story.", "It's because of the location of the story.", "It's because of who the characters in the story are.", "Something else. (Leave comment)"],
             index=None, key= 50 * index + 17)
 
-    reason3_string = "The events that occur make more sense with another meaning."
-    if slider_choice in ["3", "4", "5"]:
+        if reason7 == "Something else. (Leave comment)":
+            reason7_comment = st.text_input(key = 50 * index + 20, label = "", value=value_comment, help="What is the most deciding factor?", max_chars=1000)
+
+        
+
+    reason3_string = "The events that occur make more/less sense with a certain meaning."
+    if slider_choice in ["1", "2"]:
+        reason3_string = "The events that occur make more sense with another meaning."
+    if slider_choice in ["4", "5"]:
         reason3_string = "The events that occur make the most sense with this meaning."
 
     reason3 = st.checkbox(label=reason3_string, value=False, key= 50 * index + 13,
-                          help="This should be picked if the words and setting aren't particularly associated with the meaning, but if you think about it logically, one meaning makes more sense.")
+                          help="This should be picked if the words and setting aren't particularly associated with the meaning, but logically, one meaning makes more sense.")
 
     if reason3:
-        reason9 = st.radio("How would you classify the type of reasoning you used?", options=["**Causal**: relating to expected causes and effects.", "**Temporal**: relating to time, sequences and durations.", "**Spatial**: relating to locations, directions and spatial relationships.", "**Social**: relating to expectations of how humans interact with each other.", "Something else. (Leave comment)"])
+        reason9 = st.radio("How would you classify the type of reasoning you used?", index=None, options=["**Causal**: relating to expected causes and effects.", "**Temporal**: relating to time, sequences and durations.", "**Spatial**: relating to locations, directions and spatial relationships.", "**Social**: relating to expectations of how humans interact with each other.", "Something else. (Leave comment)"])
 
-    reason4_string = "Given my background knowledge, I find another meaning more plausible."
-    if slider_choice in ["3", "4", "5"]:
+        if reason9 == "Something else. (Leave comment)":
+            reason9_comment = st.text_input(key = 50 * index + 21, label = "", value=value_comment, help="What reasoning did you use?", max_chars=1000)
+
+    reason4_string = "Given my background knowledge, I find that one meaning becomes more/less plausible."
+    if slider_choice in ["1", "2"]:
+        reason4_string =" Given my background knowledge, I find another meaning more plausible."
+    if slider_choice in ["4", "5"]:
         reason4_string = "Given my background knowledge, I find this meaning plausible."
 
     reason4 = st.checkbox(label=reason4_string, value=False, key= 50 * index + 14,
@@ -162,10 +179,11 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason5 = st.checkbox(label="I can imagine multiple interpretations, but there aren't really any hints in the context.", value=False, key= 50 * index + 15,
                           help="You should pick this if multiple meanings are equally plausible to you, or if you can't explain from the context why one is more plausible.")
 
+
     if reason5 and slider_choice != "3":
-        reason8_label = "Then why do you rate it as less plausible?"
+        reason8_label = "Why do you rate the displayed meaning as less plausible?"
         if slider_choice in ["4", "5"]:
-            reason8_label = "Then why do you rate it as more plausible?"
+            reason8_label = "Why do you rate the displayed meaning as more plausible?"
 
         reason8 = st.radio(reason8_label, options=["I find one meaning more plausible, because it's the more common meaning.", "I find one meaning more plausible, because the phrasing is more intuitive.", "I find one meaning more plausible for no particular reason."],
                            index=None, key= 50 * index + 18)
@@ -182,8 +200,10 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         "keywords": reason1,
         "premise": reason2,
         "premise_reason": reason7,
+        "premise_comment": reason7_comment,
         "logic": reason3,
         "logic_reason": reason9,
+        "logic_comment": reason9_comment,
         "knowledge": reason4,
         "equal": reason5,
         "equal_reason": reason8,
@@ -209,9 +229,11 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         ],
     ]
 
-    st.write("Now please go through the story again and mark the words that influenced your decision for the reasons you gave above. \n\n Just select spans of text from below. Hold down the left mouse button and drag the mouse cursor over words to mark them. Mark the same words again to undo. \n\n(You don't need to press the orange buttons.)")
+    st.write("Now please go through the story again and mark the words that influenced your decision for the reasons you gave above")
 
     st.write("---")
+
+    st.write("Select spans of text in the story below by marking them with the mouse cursor. Mark a word again to undo. (You can ignore the orange buttons)")
 
     annotations = text_highlighter(text, highlights=prehighlight)
 
