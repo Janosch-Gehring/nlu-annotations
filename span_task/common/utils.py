@@ -150,9 +150,13 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
         st.write("What in the story? (Check all that apply)")
 
-        reason_location = st.checkbox(label="**Location**: The physical place where the story happens.", key = 50 * index + 4, help="**Example**: *At the baseball stadium, for some reason, I keep staring at the [bats].* \n Given the location, a baseball bat seems very plausible.")
+        reason_location = st.checkbox(label="**Location**: The physical place where the story happens.", key = 50 * index + 4, 
+                                      help="**Example**: *At the baseball stadium, for some reason, I keep staring at the [bats].*  \n Given the location, a baseball bat seems very plausible.")
 
         reason_characters = st.checkbox(label="**Characters**: Who is involved, and what they do or are like.", key = 50 * index + 5, help="")
+
+        reason_properties = st.checkbox(label="**Properties**: What things are involved, and what the story says about them.", key = 50 * index + 22, 
+                                        help="**Example**: *I found a [bat]. The wings are broken.*  \n It refers to the animal because they have wings. You can also use this category for other properties, such as size, appearance, functions, etc.")
 
         reason_events = st.checkbox(label="**Event**: What happens in the story.", key = 50 * index + 6, help="")
 
@@ -212,6 +216,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         "setting": reason_setting,
         "story_other": reason_other,
         "story_comment": reason_story_other_comment,
+        "common": reason_common,
         "domain": reason_domain,
         "causal": reason_causal,
         "temporal": reason_temporal,
@@ -231,7 +236,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     # ---------------------------- HIGHLIGHTING -----------------------------------
 
-    text = " \n\n" + part1 + " " + question["sentence"] + " " + part3 + " \n\n "
+    text = "  \n\n" + part1 + " " + question["sentence"] + " " + part3 + "  \n\n "
 
     prehighlight = [
         [
