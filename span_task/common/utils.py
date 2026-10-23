@@ -99,10 +99,10 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         options=slider_label_list,
         selection_mode="single",
         default=value_slider,
-        key = 50 * index + 3
+        key = 50 * index + 1
     )
 
-    if st.toggle("Show guidelines for rating plausibility", key = 50 * index + 5):
+    if st.toggle("Show guidelines for rating plausibility", key = 50 * index + 2):
         st.markdown("""
 **Annotate how plausible a meaning of a word is in the context of the short text using one of five scores:**
 
@@ -158,10 +158,10 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
         reason_setting = st.checkbox(label="**General Setting**: The overall situation or activity, beyond the specific place.", key = 50 * index + 7, help="")
 
-        reason_story_other = st.checkbox(label="**Other**: Anything else in the story. Describe below.", key = 50 * index + 7, help="")
+        reason_story_other = st.checkbox(label="**Other**: Anything else in the story. Describe below.", key = 50 * index + 8, help="")
 
         if reason_story_other:
-            reason_story_other_comment = st.text_input(key = 50 * index + 8, label = "What in the story shaped your rating?", max_chars=500)
+            reason_story_other_comment = st.text_input(key = 50 * index + 9, label = "What in the story shaped your rating?", max_chars=500)
 
 
 
@@ -170,33 +170,33 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         options=slider_reason_labels,
         selection_mode="single",
         default=None,
-        key = 50 * index + 9
+        key = 50 * index + 10
     )
 
     if reason_logic not in [None, slider_reason_labels[0]]:
 
         st.write("What kind of knowledge or reasoning? (Check all that apply)")
 
-        reason_common = st.checkbox(label="**Most familiar meaning**: It's the word's most common meaning.", key = 50 * index + 10, help="")
+        reason_common = st.checkbox(label="**Most familiar meaning**: It's the word's most common meaning.", key = 50 * index + 11, help="")
 
-        reason_domain = st.checkbox(label="**Domain**: Knowledge in a specific field (e.g. medicine, sports, law)", key = 50 * index + 11, help="")
+        reason_domain = st.checkbox(label="**Domain**: Knowledge in a specific field (e.g. medicine, sports, law)", key = 50 * index + 12, help="")
 
-        reason_causal = st.checkbox(label="**Causal**: What tends to cause or result from what.", key = 50*index + 12, help="")
+        reason_causal = st.checkbox(label="**Causal**: What tends to cause or result from what.", key = 50*index + 13, help="")
 
-        reason_spatial = st.checkbox(label="**Spatial**: Sizes, distances and how things are positioned.", key = 50 * index + 13, help="")
+        reason_spatial = st.checkbox(label="**Spatial**: Sizes, distances and how things are positioned.", key = 50 * index + 14, help="")
 
-        reason_temporal = st.checkbox(label="**Temporal**: The order, timing and duration of things.", key = 50 * index + 14, help="")
+        reason_temporal = st.checkbox(label="**Temporal**: The order, timing and duration of things.", key = 50 * index + 15, help="")
 
-        reason_social = st.checkbox(label="**Social**: What people usually feel, intend or how they interact.", key = 50 * index + 15, help="")
+        reason_social = st.checkbox(label="**Social**: What people usually feel, intend or how they interact.", key = 50 * index + 16, help="")
 
-        reason_logic_other = st.checkbox(label="**Other**: Any other kind of knowledge or reasoning. Describe below.", key = 50 * index + 16)
+        reason_logic_other = st.checkbox(label="**Other**: Any other kind of knowledge or reasoning. Describe below.", key = 50 * index + 17)
 
         if reason_logic_other:
-            reason_logic_other_comment = st.text_input(key = 50 * index + 17, label = "What shaped your rating?", max_chars=500)
+            reason_logic_other_comment = st.text_input(key = 50 * index + 18, label = "What shaped your rating?", max_chars=500)
 
     if reason_logic in [slider_reason_labels[0]] and reason_story in [slider_reason_labels[0]]:
 
-        reason_other = st.text_input(key = 50 * index + 18, label = "Something else shaped your rating? Describe it below.", help="If it is neither implicit nor explicit information in the story, what influenced your rating?")
+        reason_other = st.text_input(key = 50 * index + 19, label = "Something else shaped your rating? Describe it below.", help="If it is neither implicit nor explicit information in the story, what influenced your rating?")
 
     has_annotated_reasons = ((reason_story) and (reason_logic) and 
                              (reason_story and (reason_location or reason_characters or reason_events or reason_setting or (reason_story_other and reason_story_other_comment))) or
@@ -255,10 +255,10 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     #------------------------------- COMMENTS --------------------------------
 
-    comment_input = st.text_input(key = 50 * index + 8, label = "Comments (optional)", value=value_comment, help="Optional free text for comments and thoughts", max_chars=1000)
+    comment_input = st.text_input(key = 50 * index + 20, label = "Comments (optional)", value=value_comment, help="Optional free text for comments and thoughts", max_chars=1000)
 
     if slider_choice and has_annotated_reasons:
-        next_input = st.button(key = 50 * index + 9, label="Next", help="Save this annotation and advance to the next one.")
+        next_input = st.button(key = 50 * index + 21, label="Next", help="Save this annotation and advance to the next one.")
     else:
         next_input = None
         st.write("You need to at least indicate a reason and select a plausibility rating to advance to the next sample.")
