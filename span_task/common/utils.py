@@ -116,99 +116,109 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     st.write("\n")
 
+    slider_reason_labels = ["Not at all", "A little", "Somewhat", "A lot", "Almost entirely"]
+
+    reason_story = None
+    reason_logic = None
+    reason_location = None
+    reason_characters = None
+    reason_events = None
+    reason_setting = None
+    reason_other = None
+    reason_story_other_comment = None
+    reason_domain = None
+    reason_causal = None
+    reason_temporal = None
+    reason_social = None
+    reason_logic_other = None
+    reason_logic_other_comment = None
+    reason_other = None
+
     # ---------------------------- REASONS ------------------------------------
 
+    st.write("What shaped your rating? (Both can be high)")
 
-    st.write(f"""Which of these best describes the reason for why you rated the word sense as you did? Pick (at least) 1. """)
-    reason7 = None
-    reason8 = None
-    reason9 = None
-    reason7_comment = ""
-    reason9_comment = ""
+    reason_story = st.segmented_control(
+        "How much did the story itself shape your rating?",
+        options=slider_reason_labels,
+        selection_mode="single",
+        default=None,
+        key = 50 * index + 3
+    )
 
-    reason1_string = "There are words in the context that by themselves are associated with one of the meanings."
-    if slider_choice in ["1", "2"]:
-        reason1_string = "There are words in the context that by themselves are associated with another meaning."
-    if slider_choice in ["4", "5"]:
-        reason1_string = "There are words in the context that by themselves are associated with this meaning."
+    if reason_story not in [None, slider_reason_labels[0]]:
 
-    reason1 = st.checkbox(label=reason1_string, value=False, key= 50 * index + 11,
-                          help="This should be picked if there are words that are directly associated with one meaning. The association is obvious, no further thinking is required.")
+        st.write("What in the story? (Check all that apply)")
 
-    reason2_string = "The general premise or location makes a meaning more/less plausible."
-    if slider_choice in ["1", "2"]:
-        reason2_string = "The general premise or location makes another meaning more plausible."
-    if slider_choice in ["4", "5"]:
-        reason2_string = "The general premise or location makes this meaning plausible."
+        reason_location = st.checkbox(label="**Location**: The physical place where the story happens.", key = 50 * index + 4, help="**Example**: *At the baseball stadium, for some reason, I keep staring at the [bats].* \n Given the location, a baseball bat seems very plausible.")
 
-    reason2 = st.checkbox(label=reason2_string, value=False, key= 50 * index + 12,
-                          help="This should be picked if the setting of the story fits better with a particular sense.")
+        reason_characters = st.checkbox(label="**Characters**: Who is involved, and what they do or are like.", key = 50 * index + 5, help="")
 
-    if reason2:
-        reason7 = st.radio("What is the most deciding factor?", options=["It's because of the general setting of the story.", "It's because of the location of the story.", "It's because of who the characters in the story are.", "Something else. (Leave comment)"],
-            index=None, key= 50 * index + 17)
+        reason_events = st.checkbox(label="**Event**: What happens in the story.", key = 50 * index + 6, help="")
 
-        if reason7 == "Something else. (Leave comment)":
-            reason7_comment = st.text_input(key = 50 * index + 20, label = "Explain the reason for your choice.", value=value_comment, help="What is the most deciding factor?", max_chars=1000)
+        reason_setting = st.checkbox(label="**General Setting**: The overall situation or activity, beyond the specific place.", key = 50 * index + 7, help="")
 
-        
+        reason_story_other = st.checkbox(label="**Other**: Anything else in the story. Describe below.", key = 50 * index + 7, help="")
 
-    reason3_string = "The events that occur make more/less sense with a certain meaning."
-    if slider_choice in ["1", "2"]:
-        reason3_string = "The events that occur make more sense with another meaning."
-    if slider_choice in ["4", "5"]:
-        reason3_string = "The events that occur make the most sense with this meaning."
-
-    reason3 = st.checkbox(label=reason3_string, value=False, key= 50 * index + 13,
-                          help="This should be picked if the words and setting aren't particularly associated with the meaning, but logically, one meaning makes more sense.")
-
-    if reason3:
-        reason9 = st.radio("How would you classify the type of reasoning you used?", index=None, options=["**Causal**: relating to expected causes and effects.", "**Temporal**: relating to time, sequences and durations.", "**Spatial**: relating to locations, directions and spatial relationships.", "**Social**: relating to expectations of how humans interact with each other.", "Something else. (Leave comment)"])
-
-        if reason9 == "Something else. (Leave comment)":
-            reason9_comment = st.text_input(key = 50 * index + 21, label = "Explain the reason for your choice.", value=value_comment, help="What reasoning did you use?", max_chars=1000)
-
-    reason4_string = "Given my background knowledge, I find that one meaning becomes more/less plausible."
-    if slider_choice in ["1", "2"]:
-        reason4_string =" Given my background knowledge, I find another meaning more plausible."
-    if slider_choice in ["4", "5"]:
-        reason4_string = "Given my background knowledge, I find this meaning plausible."
-
-    reason4 = st.checkbox(label=reason4_string, value=False, key= 50 * index + 14,
-                          help="You should pick this if your rating was influenced by your background knowledge. If it's something everyone knows, you should pick another option.")
-
-    reason5 = st.checkbox(label="I can imagine multiple interpretations, but there aren't really any hints in the context.", value=False, key= 50 * index + 15,
-                          help="You should pick this if multiple meanings are equally plausible to you, or if you can't explain from the context why one is more plausible.")
+        if reason_story_other:
+            reason_story_other_comment = st.text_input(key = 50 * index + 8, label = "What in the story shaped your rating?", max_chars=500)
 
 
-    if reason5 and slider_choice not in [None, 3]:
-        reason8_label = "Why do you rate the displayed meaning as less plausible?"
-        if slider_choice in ["4", "5"]:
-            reason8_label = "Why do you rate the displayed meaning as more plausible?"
 
-        reason8 = st.radio(reason8_label, options=["I find one meaning more plausible, because it's the more common meaning.", "I find one meaning more plausible, because the phrasing is more intuitive.", "I find one meaning more plausible for no particular reason."],
-                           index=None, key= 50 * index + 18)
+    reason_logic = st.segmented_control(
+        "How much did you rely on things the story doesn't explicitly state?",
+        options=slider_reason_labels,
+        selection_mode="single",
+        default=None,
+        key = 50 * index + 9
+    )
 
-    if slider_choice == "5":
-        reason6 = st.checkbox(label="I don't understand what the other meanings of that word would be.", value=False, key= 50 * index + 16,
-                            help="ONLY pick this if you don't know the other meanings of the word.")
-    else:
-        reason6 = None
+    if reason_logic not in [None, slider_reason_labels[0]]:
 
+        st.write("What kind of knowledge or reasoning? (Check all that apply)")
 
-    has_annotated_reasons = (reason1) or (reason2 and reason7) or (reason3) or (reason4) or (reason5 and reason8) or reason6
-    annotated_reasons  = {
-        "keywords": reason1,
-        "premise": reason2,
-        "premise_reason": reason7,
-        "premise_comment": reason7_comment,
-        "logic": reason3,
-        "logic_reason": reason9,
-        "logic_comment": reason9_comment,
-        "knowledge": reason4,
-        "equal": reason5,
-        "equal_reason": reason8,
-        "idk": reason6
+        reason_common = st.checkbox(label="**Most familiar meaning**: It's the word's most common meaning.", key = 50 * index + 10, help="")
+
+        reason_domain = st.checkbox(label="**Domain**: Knowledge in a specific field (e.g. medicine, sports, law)", key = 50 * index + 11, help="")
+
+        reason_causal = st.checkbox(label="**Causal**: What tends to cause or result from what.", key = 50*index + 12, help="")
+
+        reason_spatial = st.checkbox(label="**Spatial**: Sizes, distances and how things are positioned.", key = 50 * index + 13, help="")
+
+        reason_temporal = st.checkbox(label="**Temporal**: The order, timing and duration of things.", key = 50 * index + 14, help="")
+
+        reason_social = st.checkbox(label="**Social**: What people usually feel, intend or how they interact.", key = 50 * index + 15, help="")
+
+        reason_logic_other = st.checkbox(label="**Other**: Any other kind of knowledge or reasoning. Describe below.", key = 50 * index + 16)
+
+        if reason_logic_other:
+            reason_logic_other_comment = st.text_input(key = 50 * index + 17, label = "What shaped your rating?", max_chars=500)
+
+    if reason_logic in [slider_reason_labels[0]] and reason_story in [slider_reason_labels[0]]:
+
+        reason_other = st.text_input(key = 50 * index + 18, label = "Something else shaped your rating? Describe it below.", help="If it is neither implicit nor explicit information in the story, what influenced your rating?")
+
+    has_annotated_reasons = ((reason_story) and (reason_logic) and 
+                             (reason_story and (reason_location or reason_characters or reason_events or reason_setting or (reason_story_other and reason_story_other_comment))) or
+                             (reason_logic and (reason_domain or reason_causal or reason_temporal or reason_social or reason_spatial or (reason_logic_other and reason_logic_other_comment))) or
+                             reason_other)
+
+    annotated_reasons = {
+        "story": reason_story,
+        "logic": reason_logic,
+        "location": reason_location,
+        "characters": reason_characters,
+        "events": reason_events,
+        "setting": reason_setting,
+        "story_other": reason_other,
+        "story_comment": reason_story_other_comment,
+        "domain": reason_domain,
+        "causal": reason_causal,
+        "temporal": reason_temporal,
+        "social": reason_social,
+        "logic_other": reason_logic_other,
+        "logic_comment": reason_logic_other_comment,
+        "other": reason_other
     }
 
 

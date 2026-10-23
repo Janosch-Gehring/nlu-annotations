@@ -18,7 +18,7 @@ if 1:#user_repository.get_qualification() >= 2:
                                                             "annotation", qualification_function=None)
     st.session_state.page = "span_task_annotation_page_sample" + str(st.session_state.progress)
 
-if 0:# user_repository.get_qualification() < 2:
+if user_repository.get_qualification() < 2:
     st.write("## You must pass both qualifications before starting annotation. \n\n Select the **Qualification** tasks in the navigation bar to your left to try the qualification test.")
 elif user_repository.get_qualification() == 3:
     st.write("## This part is complete. Just a little more!")

@@ -27,68 +27,16 @@ else:
     back_button = st.button(label="Back", key = 10 * index + 7)
 
     st.write("""
-# Guidelines
 
-On each page, you will be presented with a short story where one of the words has multiple meanings (like how 'bat' can refer to both an animal or a baseball bat). You are presented with one of the meanings. Then, you will have to do three things:
+## Before you start 
 
-## 1) Rate how plausible a meaning of a word is in the context of the short story using one of five scores:
+Each page shows a short story, one word in it, and one possible meaning of that word. For each page you will:
 
-* **1**: The displayed meaning is not plausible at all given the context.
-* **2**: The displayed meaning is theoretically conceivable, but less plausible than other meanings.
-* **3**: The displayed meaning represents one of multiple, similarly plausible interpretations.
-* **4**: The displayed meaning represents the most plausible interpretation; other meanings may still be conceivable.
-* **5**: The displayed meaning is the only plausible meaning given the context.
+1. *Rate* how plausible the meaning is in this story.
 
-There will be times where this is highly subjective. Read the story carefully and think about how you would interpret it.
+2. *Explain* what shaped your rating: the story itself, what you know about the world, or both.
 
-## 2) Explain what influenced your decision
-
-Explain why you thought that the meaning was plausible or implausible. You must select at least one of the following categories:
-
-#### 1) "There are words in the context that by themselves are associated with one meaning."
-
-**Example:**: *He showed me the [bat] he found. The wings appear to be in poor shape.*
-
--> Even without any further context, the word 'wings' practically confirms that [bat] is an animal, not a baseball bat.
-
-#### 2) "The general premise or location makes a certain meaning plausible."
-
-There may not be any words that give away the meaning by themselves, but given the entire context (premise, location, characters...), one seems more plausible.
-
-**Example:** *The cats sit outside peacefully. One of them keeps looking at a [star].*
-
--> While not inconceivable that they are looking at a famous person, it seems more plausible given the general situation that they are looking at the sky.
-
-#### 3) "The events that occur make the most sense with a certain meaning."
-
-With one meaning, the story makes sense, and with the other meaning it would either be illogical or just a bit odd.
-
-**Example**: *He finally finished his [sentence]. He is very happy about it.*
-
--> Sentence here probably means verdict/punishment instead of a grammatical sentence, because finishing a grammatical sentence would not result in such an emotional reaction. This would count as causal reasoning.
-
-#### 4) "Given my background knowledge, I find this meaning plausible/implausible."
-
-Your reasoning for why you think the meaning is plausible or implausible is related to something you know about the world. **You should pick this option if you think it is conceivable that some people may not possess the necessary knowledge.**
-
-**Example**: *The golf player's round was below [par]. She threw away her golf club in frustration.*
-
--> "Below par" generally refers to a bad performance. However, in the context of golf, "*par*" refers to a certain number of strokes, and being "*below par*" is actually a good thing. So, it's not the golf meaning of "*par*" here.
-If you knew this, you would pick this option, and also *3)* in addition.
-If you didn't know this, you would pick a different option, like *2)*.
-
-#### 5) "I can imagine multiple interpretations, but there aren't really any hints in the context."
-
-You can pick this if you think multiple interpretations are equally plausible. You can also pick this if you think that one meaning seems more intuitive because it is more common, sounds better or for another reason.
-
-#### 6) "I don't understand what the other meanings of that word would be."
-
-Only pick this if you legitimately cannot think of another meaning for the word. This option only shows up if you rated the plausibility of a meaning as 5/5.
-
-## 3) Annotate spans of text that influenced your decision the most
-
-The story will be shown again. Annotate the words or phrases that are relevant for the reasons you gave above.
-
+3. *Mark* the words that mattered most.
     
     """)
 
