@@ -24,7 +24,7 @@ else:
     if index == 1:
         st.write("Remember to read the Task Intro before attempting the qualification test! \n\n *If you make a mistake here, you will get screened out early.*")
 
-    back_button = st.button(label="Back", key = 10 * index + 7)
+    back_button = None# st.button(label="Back", key = 10 * index + 7)
 
     st.write("""
 
