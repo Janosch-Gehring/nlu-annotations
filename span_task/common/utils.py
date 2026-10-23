@@ -120,6 +120,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     reason_story = None
     reason_logic = None
+    reason_properties = None
     reason_location = None
     reason_characters = None
     reason_events = None
@@ -154,14 +155,17 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         reason_location = st.checkbox(label="**Location**: The physical place where the story happens.", key = 50 * index + 4, 
                                       help="**Example**: *At the baseball stadium, for some reason, I keep staring at the [bats].*  \n Given the location, a baseball bat seems very plausible.")
 
-        reason_characters = st.checkbox(label="**Characters**: Who is involved, and what they do or are like.", key = 50 * index + 5, help="")
+        reason_characters = st.checkbox(label="**Characters**: Who is involved, and what they do or are like.", key = 50 * index + 5, 
+                                        help="**Example**: *The student complained about the wrong [note].  \n Given that the character is a student, the 'grade'-note meaning becomes more plausible than the 'music'-note meaning.")
 
         reason_properties = st.checkbox(label="**Properties**: What things are involved, and what the story says about them.", key = 50 * index + 22, 
                                         help="**Example**: *I found a [bat]. The wings are broken.*  \n It refers to the animal because they have wings. You can also use this category for other properties, such as size, appearance, functions, etc.")
 
-        reason_events = st.checkbox(label="**Event**: What happens in the story.", key = 50 * index + 6, help="")
+        reason_events = st.checkbox(label="**Event**: What happens in the story.", key = 50 * index + 6, 
+                                    help="**Example**: *When the lights went out, a [bat] flew past his face.  \n The events that happen appear more plausible if bat is an animal.")
 
-        reason_setting = st.checkbox(label="**General Setting**: The overall situation or activity, beyond the specific place.", key = 50 * index + 7, help="")
+        reason_setting = st.checkbox(label="**General Setting**: The overall situation or activity, beyond the specific place.", key = 50 * index + 7, 
+                                     help="**Example**: *During their piano practice, she looked through the [notes].*  \n The described activity implies the music-related meaning of 'notes'.")
 
         reason_story_other = st.checkbox(label="**Other**: Anything else in the story. Describe below.", key = 50 * index + 8, help="")
 
@@ -182,7 +186,8 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
         st.write("What kind of knowledge or reasoning? (Check all that apply)")
 
-        reason_common = st.checkbox(label="**Most familiar meaning**: It's the word's most common meaning.", key = 50 * index + 11, help="")
+        reason_common = st.checkbox(label="**Most familiar meaning**: It's the word's more common meaning.", key = 50 * index + 11, 
+                                    help="**Example**: *That thing was so [lousy].  \n 'Lousy' probably means 'bad' instead of 'infested with lice', because that meaning is just not as common.")
 
         reason_domain = st.checkbox(label="**Domain**: Knowledge in a specific field (e.g. medicine, sports, law)", key = 50 * index + 12, help="")
 
@@ -214,6 +219,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         "location": reason_location,
         "characters": reason_characters,
         "events": reason_events,
+        "properties": reason_properties,
         "setting": reason_setting,
         "story_other": reason_other,
         "story_comment": reason_story_other_comment,
