@@ -189,15 +189,20 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         reason_common = st.checkbox(label="**Most familiar meaning**: It's the word's more common meaning.", key = 50 * index + 11, 
                                     help="**Example**: *That thing was so [lousy].  \n 'Lousy' probably means 'bad' instead of 'infested with lice', because that meaning is just not as common.")
 
-        reason_domain = st.checkbox(label="**Domain**: Knowledge in a specific field (e.g. medicine, sports, law)", key = 50 * index + 12, help="")
+        reason_domain = st.checkbox(label="**Domain**: Knowledge in a specific field (e.g. medicine, sports, law)", key = 50 * index + 12, 
+                                    help="**Example**: *The golfer's performance was below [par]. She became frustrated.* \n A golf fan may know that 'par' is a certain number of strokes, and being 'below par' is a good thing, so it wouldn't make you frustrated.  \n This option can be picked in such cases where your judgment depends on your knowledge of a domain.")
 
-        reason_causal = st.checkbox(label="**Causal**: What tends to cause or result from what.", key = 50*index + 13, help="")
+        reason_causal = st.checkbox(label="**Causal**: What tends to cause or result from what.", key = 50*index + 13, 
+                                    help="**Example**: I wanted to go to a fancy restaurant. Before that, I went to a [bank], just in case.  \n 'Bank' likely refers to a financial institution. It makes sense to get money before going to an expensive restaurant.")
 
-        reason_spatial = st.checkbox(label="**Spatial**: Sizes, distances and how things are positioned.", key = 50 * index + 14, help="")
+        reason_spatial = st.checkbox(label="**Spatial**: Sizes, distances and how things are positioned.", key = 50 * index + 14, 
+                                     help="**Example**: *From across the living room, I could barely see the [pupils].*  \n Given the described distance and the size of normal students, that meaning does not make sense. It has to refer to the pupils of the eyes.")
 
-        reason_temporal = st.checkbox(label="**Temporal**: The order, timing and duration of things.", key = 50 * index + 15, help="")
+        reason_temporal = st.checkbox(label="**Temporal**: The order, timing and duration of things.", key = 50 * index + 15, 
+                                      help="**Example**: *I spent 15 minutes writing down the [note].*  \n Writing down one musical note would not take that long. More likely to refer to some kind of message.")
 
-        reason_social = st.checkbox(label="**Social**: What people usually feel, intend or how they interact.", key = 50 * index + 16, help="")
+        reason_social = st.checkbox(label="**Social**: What people usually feel, intend or how they interact.", key = 50 * index + 16, 
+                                    help="**Example**: *He was nervous about the [date] all day.*  \n Being nervous about a romantic date (rather than date, the fruit) seems like typical human behavior.")
 
         reason_logic_other = st.checkbox(label="**Other**: Any other kind of knowledge or reasoning. Describe below.", key = 50 * index + 17)
 
