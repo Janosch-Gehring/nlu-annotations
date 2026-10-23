@@ -158,10 +158,10 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
                                       help="**Example**: *At the baseball stadium, for some reason, I keep staring at the [bats].*  \n Given the location, a baseball bat seems very plausible.")
 
         reason_characters = st.checkbox(label="**Characters**: Who is involved, and what they do or are like.", key = 50 * index + 5, 
-                                        help="**Example**: *The student complained about the wrong [note].*  \n Given that the character is a student, the 'grade'-note meaning becomes more plausible than the 'music'-note meaning.")
+                                        help="**Example**: *The pianist was able to read the [notes].*  \n Given that the character is a pianist, it seems plausible that 'notes' refers to music notes rather than texts.")
 
         reason_properties = st.checkbox(label="**Properties**: What things are involved, and what the story says about them.", key = 50 * index + 22, 
-                                        help="**Example**: *I found a [bat]. The wings are broken.*  \n It refers to the animal because they have wings. You can also use this category for other properties, such as size, appearance, functions, etc.")
+                                        help="**Example**: *I found a [bat]. The wings are broken.*  \n It refers to the animal because it has wings. You can also use this category for other properties, such as size, appearance, functions, etc.")
 
         reason_events = st.checkbox(label="**Event**: What happens in the story.", key = 50 * index + 6, 
                                     help="**Example**: *When the lights went out, a [bat] flew past his face.*  \n The events that happen appear more plausible if bat is an animal.")
