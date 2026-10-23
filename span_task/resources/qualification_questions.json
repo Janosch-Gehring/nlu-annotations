@@ -120,5 +120,23 @@
         },
         "sentence_id": "108",
         "correct_answer": [1, 2]
+    },
+    "7": {
+        "sentence": "Her teacher said her aspiration was really noticeable.",
+        "word": "aspiration",
+        "domain": "linguistics",
+        "meaning1": "a manner of articulation involving an audible release of breath",
+        "meaning2": "a will to succeed",
+        "focus_meaning": "meaning2",
+        "focus_meaning_gloss": "a will to succeed",
+        "example1": "The \"p\" in \"pin\" has aspiration, so you hear a small burst of breath.",
+        "example2": "Her aspiration to succeed drove her to study every night.",
+        "sentence_id": "163",
+        "context": {
+            "part1": "She sat at the front of the room and smoothed the pages of her notebook.",
+            "part2": "Her teacher said her aspiration was really noticeable.",
+            "part3": "After class she stayed behind to ask for another chance to perform. The teacher said that perhaps she could perform at the winter fair."
+        },
+        "correct_answer": [1, 2]
     }
 }
