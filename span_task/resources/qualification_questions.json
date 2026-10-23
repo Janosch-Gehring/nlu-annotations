@@ -50,31 +50,6 @@
         "correct_answer": [1, 2]
     },
     "3": {
-        "sentence": "Good thing I have a bat.",
-        "word": "bat",
-        "story_meaning": "a club used for hitting a ball in various games",
-        "focus_meaning_gloss": "a club used for hitting a ball in various games",
-        "focus_meaning": "meaning1",
-        "nonfocus_meaning": "meaning2",
-        "domain": "attention_check",
-        "example1": "I hit a baseball with my bat.",
-        "context": {
-            "part1": "I needed to get out of there, but there was a glass wall in my way.",
-            "part2": "Good thing I have a bat.",
-            "part3": ""
-        },
-        "context_detailed": [
-            "She sat at the front of the room and smoothed the pages of her notebook.",
-            "After class she stayed behind to ask for another chance to perform. [added: The teacher said that perhaps she could be able to perform at the winter faite.]"
-        ],
-        "context_raw": [
-            "",
-            ""
-        ],
-        "domain_meaning": true,
-        "correct_answer": [1, 2]
-    },
-    "4": {
         "sentence": "The editor was being troublesome today.",
         "word": "editor",
         "domain": "computer_science",
@@ -92,7 +67,7 @@
         "sentence_id": "56",
         "correct_answer": [1, 2]
     },
-    "5": {
+    "4": {
         "sentence": "He witnessed a spectacular stellar show.",
         "word": "stellar",
         "domain": "astronomy",
@@ -110,7 +85,7 @@
         "sentence_id": "166",
         "correct_answer": [4, 5]
     },
-    "6": {
+    "5": {
         "sentence": "The mass of people on the wooden bridge made it risky to traverse.",
         "word": "mass",
         "domain": "physics",
@@ -128,7 +103,7 @@
         "sentence_id": "186",
         "correct_answer": [1, 2]
     },
-    "7": {
+    "6": {
         "sentence": "They needed a recorder for their music video.",
         "word": "recorder",
         "domain": "music",
