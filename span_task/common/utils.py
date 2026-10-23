@@ -126,6 +126,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason_setting = None
     reason_other = None
     reason_story_other_comment = None
+    reason_common = None
     reason_domain = None
     reason_causal = None
     reason_temporal = None
