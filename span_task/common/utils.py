@@ -216,7 +216,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         reason_other = st.text_input(key = 50 * index + 19, label = "Something else shaped your rating? Describe it below.", help="If it is neither implicit nor explicit information in the story, what influenced your rating?")
 
     has_annotated_reasons = ((reason_story) and (reason_logic) and 
-                             (reason_story and (reason_location or reason_characters or reason_events or reason_setting or (reason_story_other and reason_story_other_comment))) or
+                             (reason_story and (reason_location or reason_characters or reason_events or reason_properties or reason_setting or (reason_story_other and reason_story_other_comment))) or
                              (reason_logic and (reason_domain or reason_causal or reason_temporal or reason_social or reason_spatial or (reason_logic_other and reason_logic_other_comment))) or
                              reason_other)
 
