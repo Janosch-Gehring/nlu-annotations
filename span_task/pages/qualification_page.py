@@ -32,7 +32,7 @@ else:
 
 Each page shows a short story, one word in it, and one possible meaning of that word. For each page you will:
 
-1. *Rate* how plausible the meaning is in this story.
+1. *Rate* how plausible the given meaning of the word is in this story.
 
 2. *Explain* what shaped your rating: the story itself, what you know about the world, or both.
 

@@ -1,142 +1,78 @@
 {
     "1": {
-        "sentence": "The cats sit outside peacefully. One of them keeps looking at a star.",
-        "word": "star",
-        "story_meaning": "an actor who plays a principal role",
-        "focus_meaning_gloss": "an actor who plays a principal role",
-        "focus_meaning": "meaning1",
-        "nonfocus_meaning": "meaning2",
-        "domain": "attention_check",
-        "example1": "He is a star. He played roles in many movies.",
+        "sentence": "The menu was so vast; it was hard to navigate.",
+        "word": "menu",
+        "domain": "computer_science",
+        "meaning1": "(computer science) a list of options available to a computer user",
+        "meaning2": "a list of dishes available at a restaurant",
+        "focus_meaning": "meaning2",
+        "focus_meaning_gloss": "a list of dishes available at a restaurant",
+        "example1": "Click the File menu to open, save, or print the document.",
+        "example2": "She looked at the menu and chose the grilled salmon for dinner.",
         "context": {
-            "part1": "",
-            "part2": "The cats sit outside peacefully. One of them keeps looking at a star.",
-            "part3": ""
+            "part1": "They arrived earlier than expected and took their seats. Quiet settled as they prepared to make a choice.",
+            "part2": "The menu was so vast; it was hard to navigate.",
+            "part3": "After a long pause, she tapped a button and leaned back, waiting to see what would happen."
         },
-        "context_detailed": [
-            "She sat at the front of the room and smoothed the pages of her notebook.",
-            "After class she stayed behind to ask for another chance to perform. [added: The teacher said that perhaps she could be able to perform at the winter faite.]"
-        ],
-        "context_raw": [
-            "",
-            ""
-        ],
-        "domain_meaning": true,
+        "sentence_id": "51",
+        "grouping": 13,
         "correct_answer": [1, 2]
     },
     "2": {
-        "sentence": "Good thing I have a bat.",
-        "word": "bat",
-        "story_meaning": "a club used for hitting a ball in various games",
-        "focus_meaning_gloss": "a club used for hitting a ball in various games",
+        "sentence": "I had trouble remembering the term at school.",
+        "word": "term",
+        "domain": "mathematics",
+        "meaning1": "any distinct quantity contained in a polynomial",
+        "meaning2": "a limited period of time",
         "focus_meaning": "meaning1",
-        "nonfocus_meaning": "meaning2",
-        "domain": "attention_check",
-        "example1": "I hit a baseball with my bat.",
+        "focus_meaning_gloss": "any distinct quantity contained in a polynomial",
+        "example1": "The polynomial 3x^2 + 5x - 7 contains the term 5x.",
+        "example2": "He served a four-year term on the city council.",
         "context": {
-            "part1": "I needed to get out of there, but there was a glass wall in my way.",
-            "part2": "Good thing I have a bat.",
+            "part1": "I found an old algebra worksheet shoved under my textbooks. I scanned the equations to jog my memory.",
+            "part2": "I had trouble remembering the term at school.",
             "part3": ""
         },
-        "context_detailed": [
-            "She sat at the front of the room and smoothed the pages of her notebook.",
-            "After class she stayed behind to ask for another chance to perform. [added: The teacher said that perhaps she could be able to perform at the winter faite.]"
-        ],
-        "context_raw": [
-            "",
-            ""
-        ],
-        "domain_meaning": true,
+        "sentence_id": "34",
+        "grouping": 3,
         "correct_answer": [1, 2]
     },
     "3": {
-        "sentence": "The editor was being troublesome today.",
-        "word": "editor",
-        "domain": "computer_science",
-        "meaning1": "(computer science) a program designed to perform such editorial functions as rearrangement or modification or deletion of data",
-        "meaning2": "a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine)",
-        "focus_meaning": "meaning2",
-        "focus_meaning_gloss": "a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine)",
-        "example1": "I opened the file in a text editor to rearrange and delete the unnecessary lines.",
-        "example2": "The editor decided which articles would appear in the magazine.",
+        "sentence": "The theatre manager stepped in to orchestrate in an employee's absence.",
+        "word": "orchestrate",
+        "domain": "music",
+        "meaning1": "write an orchestra score for",
+        "meaning2": "plan and direct (a complex undertaking)",
+        "focus_meaning": "meaning1",
+        "focus_meaning_gloss": "write an orchestra score for",
+        "example1": "The composer will orchestrate the piano piece for the orchestra.",
+        "example2": "The project leader will orchestrate the team to complete the software rollout on time.",
         "context": {
-            "part1": "The weekly piece had to be finished before noon. When I reviewed the latest version, lines had shifted and whole paragraphs were missing.",
-            "part2": "The editor was being troublesome today.",
-            "part3": "News reporters messaged to ask if the copy was ready. I took a deep breath and worked through the changes until the layout looked right."
+            "part1": "A key staff member called in sick just before the evening performance.",
+            "part2": "The theatre manager stepped in to orchestrate in an employee's absence.",
+            "part3": "By curtain time, everything was in place - from actors to other staff - and the audience barely noticed anything had gone wrong."
         },
-        "sentence_id": "56",
+        "sentence_id": "110",
+        "grouping": 18,
         "correct_answer": [1, 2]
     },
     "4": {
-        "sentence": "He witnessed a spectacular stellar show.",
-        "word": "stellar",
-        "domain": "astronomy",
-        "meaning1": "being or relating to or resembling or emanating from stars",
-        "meaning2": "indicating the most important performer or role",
+        "sentence": "The therapist spent the session evaluating the client's need for compensation.",
+        "word": "compensation",
+        "domain": "economy",
+        "meaning1": "something (such as money) given or received as payment or reparation (as for a service or loss or injury)",
+        "meaning2": "(psychiatry) a defense mechanism that conceals your undesirable shortcomings by exaggerating desirable behaviors",
         "focus_meaning": "meaning1",
-        "focus_meaning_gloss": "being or relating to or resembling or emanating from stars",
-        "example1": "Astronomers observed a stellar flare erupting from a nearby star.",
-        "example2": "She was cast in the stellar role of the lead character.",
+        "focus_meaning_gloss": "something (such as money) given or received as payment or reparation (as for a service or loss or injury)",
+        "example1": "After the accident, she received compensation for her injuries.",
+        "example2": "Her constant perfectionism was compensation for deep-seated feelings of inadequacy.",
         "context": {
-            "part1": "He left work early, tucking his jacket into a small bag by the door. He found a clearing just outside town and set up a folding chair as the light dimmed.",
-            "part2": "He witnessed a spectacular stellar show.",
-            "part3": "After the light spectacle, he sat for a moment and felt glad he'd taken the night off."
+            "part1": "The client arrived with a small folder and sat down quietly. She told the therapist about an incident at her job last month. Her tone wavered as she explained what happened and how she reacted afterward.",
+            "part2": "The therapist spent the session evaluating the client's need for compensation.",
+            "part3": "The client described a few incidents from the past months and answered questions without much elaboration. Before the session concluded, the therapist wrote a brief plan for next steps and the client nodded."
         },
-        "sentence_id": "166",
-        "correct_answer": [4, 5]
-    },
-    "5": {
-        "sentence": "The mass of people on the wooden bridge made it risky to traverse.",
-        "word": "mass",
-        "domain": "physics",
-        "meaning1": "the property of a body that causes it to have weight in a gravitational field",
-        "meaning2": "an ill-structured collection of similar things (objects or people)",
-        "focus_meaning": "meaning1",
-        "focus_meaning_gloss": "the property of a body that causes it to have weight in a gravitational field",
-        "example1": "The mass of the box determines how heavy it is in Earth's gravity.",
-        "example2": "A mass of people clogged the subway platform.",
-        "context": {
-            "part1": "A light drizzle sent all the panicked commuters hurrying toward the narrow footbridge.",
-            "part2": "The mass of people on the wooden bridge made it risky to traverse.",
-            "part3": ""
-        },
-        "sentence_id": "186",
-        "correct_answer": [1, 2]
-    },
-    "6": {
-        "sentence": "They needed a recorder for their music video.",
-        "word": "recorder",
-        "domain": "music",
-        "meaning1": "a tubular wind instrument with 8 finger holes and a fipple mouthpiece",
-        "meaning2": "equipment for making records",
-        "focus_meaning": "meaning2",
-        "focus_meaning_gloss": "equipment for making records",
-        "example1": "She learned to play the recorder in music class.",
-        "example2": "She turned on the recorder before the interview started.",
-        "context": {
-            "part1": "They set up chairs in the living room and warmed up their voices. Their brother was poised and ready to dance.",
-            "part2": "They needed a recorder for their music video.",
-            "part3": "One of them dashed to a shop to see if anyone could lend them one before sunset."
-        },
-        "sentence_id": "108",
-        "correct_answer": [1, 2]
-    },
-    "7": {
-        "sentence": "Her teacher said her aspiration was really noticeable.",
-        "word": "aspiration",
-        "domain": "linguistics",
-        "meaning1": "a manner of articulation involving an audible release of breath",
-        "meaning2": "a will to succeed",
-        "focus_meaning": "meaning2",
-        "focus_meaning_gloss": "a will to succeed",
-        "example1": "The \"p\" in \"pin\" has aspiration, so you hear a small burst of breath.",
-        "example2": "Her aspiration to succeed drove her to study every night.",
-        "sentence_id": "163",
-        "context": {
-            "part1": "She sat at the front of the room and smoothed the pages of her notebook.",
-            "part2": "Her teacher said her aspiration was really noticeable.",
-            "part3": "After class she stayed behind to ask for another chance to perform. The teacher said that perhaps she could perform at the winter fair."
-        },
+        "sentence_id": "149",
+        "grouping": 28,
         "correct_answer": [1, 2]
     }
 }

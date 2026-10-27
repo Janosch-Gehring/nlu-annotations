@@ -102,7 +102,11 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         key = 50 * index + 1
     )
 
-    if st.toggle("Show guidelines for rating plausibility", key = 50 * index + 2):
+    guidelines_toggle_value = False
+    if int(index) == 0:
+        guidelines_toggle_value = True
+
+    if st.toggle("Show guidelines for rating plausibility", key = 50 * index + 2, value=guidelines_toggle_value):
         st.markdown("""
 **Annotate how plausible a meaning of a word is in the context of the short text using one of five scores:**
 
@@ -144,7 +148,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     st.write("Please select the reasons for your choice above.")
 
-    st.write("First, regarding the story itself. Which of these factors shaped your rating? (Select all that apply.)")
+    st.write("First, regarding the story itself. Did any of these factors influence your rating? (Select all that apply.)")
 
     reason_location = st.checkbox(label="**General setting**: The physical place, situation, activity or events described in the story.", key = 50 * index + 4, 
                                     help="**Example**: *At the baseball stadium, for some reason, I keep staring at the [bats].*  \n Given the location, a baseball bat seems very plausible.")
@@ -152,8 +156,8 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason_characters = st.checkbox(label="**Characters**: Who is involved, and what they do or are like.", key = 50 * index + 5, 
                                     help="**Example**: *The pianist was able to read the [notes].*  \n Given that the character is a pianist, it seems plausible that 'notes' refers to music notes rather than texts.")
 
-    reason_objects = st.checkbox(label="**Things**: What things/objects are involved, and what the story says about them.", key = 50 * index + 22, 
-                                help="**Example**: *I found a [bat]. It's long and heavy.*  \n It refers to a baseball bat because the animal is not particularly long or heavy. You can also use this category for other properties, such as size, appearance, functions, etc.")
+    reason_objects = st.checkbox(label="**Objects**: What things/objects are involved, and what the story says about them.", key = 50 * index + 22, 
+                                help="**Example**: *I found a [bat]. It's long and heavy.*  \n It refers to a baseball bat because the animal is not particularly long or heavy. You can also use this category for other properties, such as size, color, applications, etc.")
 
     #reason_events = st.checkbox(label="**Event**: What happens in the story.", key = 50 * index + 6, 
     #                            help="**Example**: *When the lights went out, a [bat] flew past his face.*  \n The events that happen appear more plausible if bat is an animal.")
@@ -167,7 +171,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason_story_other = st.checkbox(label="**Other**: Anything else in the story. Describe below.", key = 50 * index + 8, help="")
 
     if reason_story_other:
-        reason_story_other_comment = st.text_input(key = 50 * index + 9, label = "What in the story shaped your rating?", max_chars=500)
+        reason_story_other_comment = st.text_area(key = 50 * index + 9, height="content", label = "What in the story shaped your rating?", max_chars=500)
 
     reason_story = st.segmented_control(
         "How much did these factors relating to the story itself shape your rating?",
@@ -181,7 +185,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     st.write("Next, regarding things that are not explicit and require logic, reasoning or knowledge to understand.")
 
-    st.write("Which best describe the reasons for your choice? (Check all that apply)")
+    st.write("Did any of these factors influence your rating? (Check all that apply)")
 
     reason_common = st.checkbox(label="**Most familiar meaning**: One meaning is more common than others.", key = 50 * index + 11, 
                                 help="**Example**: *That thing was [lousy].*  \n 'Lousy' probably means 'bad' instead of 'infested with lice', because that meaning is just not as common.")
@@ -193,7 +197,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
                                 help="**Example**: *The golfer's performance was below [par]. She became frustrated.*  \n A golf fan may know that 'par' is a certain number of strokes, and being 'below par' is a good thing, so it wouldn't make you frustrated.  \n This option can be picked in such cases where your judgment depends on your knowledge of a domain.")
 
     reason_causal = st.checkbox(label="**Causes and consequences**: Events or actions that tend to influence other events or actions.", key = 50*index + 13, 
-                                help="**Example**: *I needed enough money to go to the fancy restaurant. I went to a [bank].*  \n 'Bank' likely refers to a financial institution. It makes sense to go to the bank first to have enough money for the restaurant.")
+                                help="**Example**: *I needed enough cash to go to the fancy restaurant. I went to a [bank].*  \n 'Bank' likely refers to a financial institution. It makes sense to go to the bank first in order to have enough money for the restaurant.")
 
     reason_spatial = st.checkbox(label="**Spatial**: Sizes, distances and how things are positioned.", key = 50 * index + 14, 
                                 help="**Example**: *From across the living room, I could barely see the [pupils].*  \n Given the described distance and the size of normal students, that meaning does not make sense. It has to refer to the pupils of the eyes.")
@@ -207,7 +211,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason_logic_other = st.checkbox(label="**Other**: Any other kind of knowledge or reasoning. Describe below.", key = 50 * index + 17)
 
     if reason_logic_other:
-        reason_logic_other_comment = st.text_input(key = 50 * index + 18, label = "What shaped your rating?", max_chars=500)
+        reason_logic_other_comment = st.text_area(height="content", key = 50 * index + 18, label = "What shaped your rating?", max_chars=500)
 
     reason_logic = st.segmented_control(
         "How much did you rely on these things that the story doesn't explicitly state?",
@@ -219,7 +223,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     if reason_logic in [slider_reason_labels[0]] and reason_story in [slider_reason_labels[0]]:
 
-        reason_other = st.text_input(key = 50 * index + 19, label = "Something else shaped your rating? Describe it below.", help="If it is neither implicit nor explicit information in the story, what influenced your rating?")
+        reason_other = st.text_area(key = 50 * index + 19, height="content", label = "Something else shaped your rating? Describe it below.", help="If it is neither implicit nor explicit information in the story, what influenced your rating?")
 
     has_annotated_reasons = ((reason_story) and (reason_logic) and 
                              (reason_story and (reason_location or reason_characters or reason_events or reason_objects or reason_language or reason_setting or (reason_story_other and reason_story_other_comment))) or
@@ -280,7 +284,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     #------------------------------- COMMENTS --------------------------------
 
-    comment_input = st.text_input(key = 50 * index + 20, label = "Comments (optional)", value=value_comment, help="Optional free text for comments and thoughts", max_chars=1000)
+    comment_input = st.text_area(key = 50 * index + 20, label = "Comments (optional)", value=value_comment, help="Optional free text for comments and thoughts", max_chars=1000, height="content")
 
     if slider_choice and has_annotated_reasons:
         next_input = st.button(key = 50 * index + 21, label="Next", help="Save this annotation and advance to the next one.")
