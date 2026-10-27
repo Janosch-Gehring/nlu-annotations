@@ -189,7 +189,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason_knowledge = st.checkbox(label="**Common knowledge**: Facts that you (and most others) know about the world.", key = 50 * index + 12, 
                                 help="**Example**: *I entered the room. There was a [bat] on the ceiling.*  \n This probably describes the animal. It is common knowledge that it hangs on ceilings.")
 
-    reason_domain = st.checkbox(label="**Domain knowledge**: Knowledge in a specific field (e.g. medicine, sports, law); things not everyone knows.", key = 50 * index + 12, 
+    reason_domain = st.checkbox(label="**Domain knowledge**: Knowledge in a specific field (e.g. medicine, sports, law); things not everyone knows.", key = 50 * index + 6, 
                                 help="**Example**: *The golfer's performance was below [par]. She became frustrated.*  \n A golf fan may know that 'par' is a certain number of strokes, and being 'below par' is a good thing, so it wouldn't make you frustrated.  \n This option can be picked in such cases where your judgment depends on your knowledge of a domain.")
 
     reason_causal = st.checkbox(label="**Causes and consequences**: Events or actions that tend to influence other events or actions.", key = 50*index + 13, 
