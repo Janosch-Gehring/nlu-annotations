@@ -171,7 +171,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason_story_other = st.checkbox(label="**Other**: Anything else in the story. Describe below.", key = 50 * index + 8, help="")
 
     if reason_story_other:
-        reason_story_other_comment = st.text_area(key = 50 * index + 9, height=96, label = "What in the story shaped your rating?", max_chars=500)
+        reason_story_other_comment = st.text_area(key = 50 * index + 9, height=68, label = "What in the story shaped your rating?", max_chars=500)
 
     reason_story = st.segmented_control(
         "How much did these factors relating to the story itself shape your rating?",
@@ -211,7 +211,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason_logic_other = st.checkbox(label="**Other**: Any other kind of knowledge or reasoning. Describe below.", key = 50 * index + 17)
 
     if reason_logic_other:
-        reason_logic_other_comment = st.text_area(height=96, key = 50 * index + 18, label = "What shaped your rating?", max_chars=500)
+        reason_logic_other_comment = st.text_area(height=68, key = 50 * index + 18, label = "What shaped your rating?", max_chars=500)
 
     reason_logic = st.segmented_control(
         "How much did you rely on these things that the story doesn't explicitly state?",
@@ -223,7 +223,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     if reason_logic in [slider_reason_labels[0]] and reason_story in [slider_reason_labels[0]]:
 
-        reason_other = st.text_area(key = 50 * index + 19, height=96, label = "Something else shaped your rating? Describe it below.", help="If it is neither implicit nor explicit information in the story, what influenced your rating?")
+        reason_other = st.text_area(key = 50 * index + 19, height=68, label = "Something else shaped your rating? Describe it below.", help="If it is neither implicit nor explicit information in the story, what influenced your rating?")
 
     has_annotated_reasons = ((reason_story) and (reason_logic) and 
                              (reason_story and (reason_location or reason_characters or reason_events or reason_objects or reason_language or reason_setting or (reason_story_other and reason_story_other_comment))) or
@@ -284,7 +284,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     #------------------------------- COMMENTS --------------------------------
 
-    comment_input = st.text_area(key = 50 * index + 20, label = "Comments (optional)", value=value_comment, help="Optional free text for comments and thoughts", max_chars=1000, height=96)
+    comment_input = st.text_area(key = 50 * index + 20, label = "Comments (optional)", value=value_comment, help="Optional free text for comments and thoughts", max_chars=1000, height=68)
 
     if slider_choice and has_annotated_reasons:
         next_input = st.button(key = 50 * index + 21, label="Next", help="Save this annotation and advance to the next one.")
