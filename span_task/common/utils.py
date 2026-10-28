@@ -103,7 +103,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     )
 
     guidelines_toggle_value = False
-    if int(index) == 0:
+    if int(index) == 1:
         guidelines_toggle_value = True
 
     if st.toggle("Show guidelines for rating plausibility", key = 50 * index + 2, value=guidelines_toggle_value):
@@ -290,7 +290,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         next_input = st.button(key = 50 * index + 21, label="Next", help="Save this annotation and advance to the next one.")
     else:
         next_input = None
-        st.write("You need to at least indicate a reason and select a plausibility rating to advance to the next sample.")
+        st.write("You need to at least indicate one reason and select a plausibility rating to advance to the next sample.")
 
     if slider_choice:
         slider_choice = label_sliders[slider_choice]
