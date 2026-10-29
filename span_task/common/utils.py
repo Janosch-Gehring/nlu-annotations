@@ -156,7 +156,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason_characters = st.checkbox(label="**Characters**: Who is involved, and what they do or are like.", key = 50 * index + 5, 
                                     help="**Example**: *The pianist was able to read the [notes].*  \n Given that the character is a pianist, it seems plausible that 'notes' refers to music notes rather than texts.")
 
-    reason_objects = st.checkbox(label="**Objects**: What things/objects are involved, and what the story says about them.", key = 50 * index + 22, 
+    reason_properties = st.checkbox(label="**Objects**: What things/objects are involved, and what the story says about them.", key = 50 * index + 22, 
                                 help="**Example**: *I found a [bat]. It's long and heavy.*  \n It refers to a baseball bat because the animal is not particularly long or heavy. You can also use this category for other properties, such as size, color, applications, etc.")
 
     #reason_events = st.checkbox(label="**Event**: What happens in the story.", key = 50 * index + 6, 
@@ -238,6 +238,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         "events": reason_events,
         "properties": reason_properties,
         "setting": reason_setting,
+        "language": reason_language,
         "story_other": reason_other,
         "story_comment": reason_story_other_comment,
         "common": reason_common,
