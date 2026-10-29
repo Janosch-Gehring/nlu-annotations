@@ -10,7 +10,7 @@ from span_task.common import utils
 samples = read_json_from_file(TASK_INFO["span_task"]["annotation_filepath"])
 
 # Turns out if you dont check that, annotators may start with the wrong sample in the post-qualification grouping option.
-if user_repository.get_qualification() >= 2:
+if user_repository.get_qualification() >= 1:
     if "progress" not in st.session_state:
         st.session_state.progress = user_repository.get_checkpoint("annotation")
         if not st.session_state.progress:  # no checkpoint yet -> simply go to the first relevant sample

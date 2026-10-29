@@ -54,9 +54,9 @@
         "example1": "Light came through the window.",
         "example2": "The project leader will orchestrate the team to complete the software rollout on time.",
         "context": {
-            "part1": "A key staff member called in sick just before the evening performance.",
-            "part2": "The theatre manager stepped in to orchestrate in an employee's absence.",
-            "part3": "By curtain time, everything was in place - from actors to other staff - and the audience barely noticed anything had gone wrong."
+            "part1": "",
+            "part2": "The suitcase was very light.",
+            "part3": ""
         },
         "sentence_id": "110",
         "correct_answer": [1, 2],

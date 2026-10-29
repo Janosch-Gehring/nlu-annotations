@@ -182,7 +182,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     )
 
 
-
+    st.write("")
     st.write(" \n\n Next, regarding things that are not explicit and require logic, reasoning or knowledge to understand.")
 
     st.write("Did any of these factors influence your rating? (Check all that apply)")
@@ -226,7 +226,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         reason_other = st.text_area(key = 50 * index + 19, height=68, label = "Something else shaped your rating? Describe it below.", help="If it is neither implicit nor explicit information in the story, what influenced your rating?")
 
     has_annotated_reasons = ((reason_story) and (reason_logic) and 
-                             (reason_story and (reason_location or reason_characters or reason_events or reason_objects or reason_language or reason_setting or (reason_story_other and reason_story_other_comment))) or
+                             (reason_story and (reason_location or reason_characters or reason_events or reason_properties or reason_objects or reason_language or reason_setting or (reason_story_other and reason_story_other_comment))) or
                              (reason_logic and (reason_common or reason_domain or reason_causal or reason_knowledge or reason_temporal or reason_social or reason_spatial or (reason_logic_other and reason_logic_other_comment))) or
                              reason_other)
 

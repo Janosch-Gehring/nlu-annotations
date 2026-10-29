@@ -11,8 +11,8 @@ def check_if_qualified(annotations: dict) -> bool:
 
     needed_score = 0  # todo: wanna see what everyone picks for qualification for now
     score = 0
-    for question_id in qualification_questions:
-        if annotations["qualification"][int(question_id)-1]["slider"] in qualification_questions[question_id]["correct_answer"]:
-            score += 1
+    #for question_id in qualification_questions:
+    #    if annotations["qualification"][int(question_id)-1]["slider"] in qualification_questions[question_id]["correct_answer"]:
+    #        score += 1
 
     return score >= needed_score
