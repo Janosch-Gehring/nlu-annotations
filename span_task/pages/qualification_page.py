@@ -96,8 +96,8 @@ Then, the following seven examples are the real study.
                     check3 = False
 
                 if reason["language"]:
-                    st.write(":red[Also, you picked 'language'. This category shouldn't apply here, because the story reads fine with either sentence. You should deselect it.]")
-                    check3 = False
+                    st.write("Also, you picked 'language'. This category is always subjective and should be picked if the way the story is formulated works better with one of the meanings. If you really think this is the case here, it is okay to select it.")
+
 
                 if reason["setting"]:
                     st.write("You also picked 'setting'. Perhaps the location (shelf) has influenced your reading of the text. This is subjective, but a fair choice.")
@@ -112,20 +112,23 @@ Then, the following seven examples are the real study.
                             span_progress += 1
 
                 if span_progress < 2:
-                    st.write(":red[In the text above, you need to highlight spans of text that best fit the meaning with your mouse cursor]")
+                    st.write(":red[3) In the text above, you need to highlight spans of text that provide clues towards the intended meaning of 'bat' with your mouse cursor.]")
 
                 else:
-                    st.write(":green[And you marked the important spans. Here, the ball and glove are the most important words to mark.]")
+                    st.write(":green[3) And you marked the important spans. Here, the ball and glove are the most important words to mark.]")
                     check4 = True
 
                 if check1 and check2 and check3 and check4:
                     st.write(":green[You passed the practice.] The next two examples will be a qualification test. Good luck!")
-
-                    if st.button("Proceed to qualification test"):
-                        core_utils.handle_next_button(annotation, index, samples, "qualification", logic.check_if_qualified)
-
+                    st.session_state.finished_first_example = True
                 else:
                     st.write(":red[Practice by fixing the issues described above, then press the 'next' button again.]")
+
+                    
+
+    if index == 1 and st.session_state.finished_first_example:
+        if st.button("Proceed to qualification test"):
+            core_utils.handle_next_button(annotation, index, samples, "qualification", logic.check_if_qualified)
 
     if back_button:
         core_utils.handle_back_button(annotation, index, samples, "qualification")
