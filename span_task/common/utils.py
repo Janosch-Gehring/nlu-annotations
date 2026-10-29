@@ -243,6 +243,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         "common": reason_common,
         "domain": reason_domain,
         "causal": reason_causal,
+        "spatial": reason_spatial,
         "temporal": reason_temporal,
         "social": reason_social,
         "logic_other": reason_logic_other,

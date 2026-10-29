@@ -43,7 +43,7 @@ The first example is practice: If you make a mistake, we will tell you what you 
 
 The second and third examples are qualification: If you make a mistake, you will get screened out and partially compensated.
 
-Then, the following seven examples are the real annotation.
+Then, the following seven examples are the real study.
 
     """)
 
