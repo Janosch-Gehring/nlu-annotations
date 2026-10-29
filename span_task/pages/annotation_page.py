@@ -10,7 +10,7 @@ from span_task.common import utils
 samples = read_json_from_file(TASK_INFO["span_task"]["annotation_filepath"])
 
 # Turns out if you dont check that, annotators may start with the wrong sample in the post-qualification grouping option.
-if 1:#user_repository.get_qualification() >= 2:
+if user_repository.get_qualification() >= 2:
     if "progress" not in st.session_state:
         st.session_state.progress = user_repository.get_checkpoint("annotation")
         if not st.session_state.progress:  # no checkpoint yet -> simply go to the first relevant sample
@@ -18,12 +18,13 @@ if 1:#user_repository.get_qualification() >= 2:
                                                             "annotation", qualification_function=None)
     st.session_state.page = "span_task_annotation_page_sample" + str(st.session_state.progress)
 
-if user_repository.get_qualification() < 2:
-    st.write("## You must pass both qualifications before starting annotation. \n\n Select the **Qualification** tasks in the navigation bar to your left to try the qualification test.")
-elif user_repository.get_qualification() == 3:
-    st.write("## This part is complete. Just a little more!")
+if user_repository.get_qualification() < 1:
+    st.write("## You must pass qualification before starting annotation. \n\n Select the **Qualification** tasks in the navigation bar to your left to try the qualification test.")
+elif user_repository.get_qualification() == 2:
+    st.write("## You have finished annotation. \n\nThank you for your time!")
     st.write("\n\n\n")
-    st.write("## You can now select 'Main Study Part 2' in the sidebar.")
+    st.write("**Your Prolific Completion Code:**")
+    st.write("# " + os.getenv("PROLIFIC_COMPLETION_CODE"))
 else:
     index = int(st.session_state.progress)
 

@@ -21,8 +21,8 @@ else:
     # get index of sample
     index = int(st.session_state.qualification_progress)
 
-    if index == 1:
-        st.write("Remember to read the Task Intro before attempting the qualification test! \n\n *If you make a mistake here, you will get screened out early.*")
+    #if index == 2:
+    #    st.write("Remember to read the Task Intro before attempting the qualification test! \n\n *If you make a mistake here, you will get screened out early.*")
 
     back_button = None# st.button(label="Back", key = 10 * index + 7)
 
@@ -38,6 +38,13 @@ Each page shows a short story, one word in it, and one possible meaning of that 
 
 3. *Mark* the words that mattered most.
     
+
+The first example is practice: If you make a mistake, we will tell you what you should have done.
+
+The second and third examples are qualification: If you make a mistake, you will get screened out and partially compensated.
+
+Then, the following seven examples are the real annotation.
+
     """)
 
     # print text and widgets
@@ -47,7 +54,78 @@ Each page shows a short story, one word in it, and one possible meaning of that 
     samples = core_utils.read_json_from_file(core_utils.TASK_INFO["span_task"]["qualification_filepath"])
 
     if next_input:
-        core_utils.handle_next_button(annotation, index, samples, "qualification", logic.check_if_qualified)
+        if int(index) > 1:
+            core_utils.handle_next_button(annotation, index, samples, "qualification", logic.check_if_qualified)
+
+        else:
+            st.write(":red[Here's an evaluation of your annotation.]")
+            check1 = False
+            check2 = False
+            check3 = True
+            check4 = False
+            if index == 1:
+                if slider not in [1, 2]:
+                    st.write(f":red[1) Your rating of {slider}] appears unlikely. That would mean that the 'bat' in the story is the animal. Isn't there another meaning that fits better?")
+                else:
+                    st.write(":green[1) Your rating of plausibility is correct. The displayed meaning is likely not intended. (Plausibility rating of 1 or 2)]")
+                    check1 = True
+
+                if reason["properties"]:
+                    st.write(f":green[2) 'Objects', which you picked, is the most fitting reason here. The objects mentioned in the story are the biggest indicator.] Other categories might also be good choices in addition.")
+                    check2 = True
+                else:
+                    st.write(":red[The objects mentioned in the story are the biggest hint towards the meaning. You should pick the corresponding category.]")
+
+                if reason["spatial"]:
+                    st.write("Also, you picked 'spatial reasoning'. The position of the objects may influence your decision. This is subjective, but a fair choice.")
+
+                if reason["causal"]:
+                    st.write(":red[Also, you picked 'causes and consequences'. This category is very flexible, but since there are no events here that could be considered causes or consequences, you should deselect it.]")
+                    check3 = False
+
+                if reason["temporal"]:
+                    st.write(":red[Also, you picked 'temporal reasoning'. There is no information about time or duration in the story, so you should deselect it.]")
+                    check3 = False
+
+                if reason["social"]:
+                    st.write(":red[Also, you picked 'social reasoning'. There is no mention of feelings or other people in the story, so you should deselect it.]")
+                    check3 = False
+
+                if reason["characters"]:
+                    st.write(":red[Also, you picked 'characters'. We don't know anything about the main character, so it can't have influenced your decision. You should deselect it.]")
+                    check3 = False
+
+                if reason["language"]:
+                    st.write(":red[Also, you picked 'language'. This category shouldn't apply here, because the story reads fine with either sentence. You should deselect it.]")
+                    check3 = False
+
+                if reason["setting"]:
+                    st.write("You also picked 'setting'. Perhaps the location (shelf) has influenced your reading of the text. This is subjective, but a fair choice.")
+
+                span_progress = 0
+                for span_category in spans:
+                    for span in span_category:
+                        label = span["label"]
+                        if "ball" in label:
+                            span_progress += 1
+                        if "glove" in label:
+                            span_progress += 1
+
+                if span_progress < 2:
+                    st.write(":red[In the text above, you need to highlight spans of text that best fit the meaning with your mouse cursor]")
+
+                else:
+                    st.write(":green[And you marked the important spans. Here, the ball and glove are the most important words to mark.]")
+                    check4 = True
+
+                if check1 and check2 and check3 and check4:
+                    st.write(":green[You passed the practice.] The next two examples will be a qualification test. Good luck!")
+
+                    if st.button("Proceed to qualification test"):
+                        core_utils.handle_next_button(annotation, index, samples, "qualification", logic.check_if_qualified)
+
+                else:
+                    st.write(":red[Practice by fixing the issues described above, then press the 'next' button again.]")
 
     if back_button:
         core_utils.handle_back_button(annotation, index, samples, "qualification")

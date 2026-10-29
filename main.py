@@ -338,7 +338,7 @@ elif st.session_state.user_id:
                                                            adv_eval_ending2_annotation1_page, adv_eval_ending2_annotation2_page]
 
     elif utils.authenticate_id("span_task", st.session_state.user_id):
-        available_pages["Span Task"] = [span_task_start_page, span_task_qualification_page, span_task_annotation_page]
+        available_pages["Span Task"] = [span_task_qualification_page, span_task_annotation_page]
 
 
     available_pages["Other"] = [logout_page]

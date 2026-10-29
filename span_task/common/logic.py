@@ -9,7 +9,7 @@ def check_if_qualified(annotations: dict) -> bool:
     """
     qualification_questions = read_json_from_file(TASK_INFO["span_task"]["qualification_filepath"])
 
-    needed_score = 4
+    needed_score = 0  # todo: wanna see what everyone picks for qualification for now
     score = 0
     for question_id in qualification_questions:
         if annotations["qualification"][int(question_id)-1]["slider"] in qualification_questions[question_id]["correct_answer"]:

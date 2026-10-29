@@ -26,7 +26,10 @@ def log_in(user_id: str, task=None, as_admin=False) -> None:
     user = user_repository.get_user(target_id)
     if not user:
         prolific_id = st.text_input("This appears to be your first time on this website. Before you continue, please tell us your Prolific ID!", max_chars=200)
-        if prolific_id:
+
+        consent_checkbox = st.checkbox("I consent to my annotations being compiled into datasets for open-source research. All annotations will be anonymized.")
+
+        if prolific_id and consent_checkbox:
             user_repository.create_user(target_id, task=task, data={"prolific_id": prolific_id, "log": []})
             user = user_repository.get_user(target_id)
         else:

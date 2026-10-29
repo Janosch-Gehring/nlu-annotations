@@ -183,7 +183,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
 
 
-    st.write("Next, regarding things that are not explicit and require logic, reasoning or knowledge to understand.")
+    st.write(" \n\n Next, regarding things that are not explicit and require logic, reasoning or knowledge to understand.")
 
     st.write("Did any of these factors influence your rating? (Check all that apply)")
 
@@ -196,7 +196,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     reason_domain = st.checkbox(label="**Domain knowledge**: Knowledge in a specific field (e.g. medicine, sports, law); things not everyone knows.", key = 50 * index + 6, 
                                 help="**Example**: *The golfer's performance was below [par]. She became frustrated.*  \n A golf fan may know that 'par' is a certain number of strokes, and being 'below par' is a good thing, so it wouldn't make you frustrated.  \n This option can be picked in such cases where your judgment depends on your knowledge of a domain.")
 
-    reason_causal = st.checkbox(label="**Causes and consequences**: Events or actions that tend to influence other events or actions.", key = 50*index + 13, 
+    reason_causal = st.checkbox(label="**Causes and consequences**: Events, states or actions that tend to influence other events, states or actions.", key = 50*index + 13, 
                                 help="**Example**: *I needed enough cash to go to the fancy restaurant. I went to a [bank].*  \n 'Bank' likely refers to a financial institution. It makes sense to go to the bank first in order to have enough money for the restaurant.")
 
     reason_spatial = st.checkbox(label="**Spatial**: Sizes, distances and how things are positioned.", key = 50 * index + 14, 
