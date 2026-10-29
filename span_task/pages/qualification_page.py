@@ -8,6 +8,9 @@ if "qualification_progress" not in st.session_state:
     st.session_state.qualification_progress = user_repository.get_checkpoint("qualification") or 1
 st.session_state.page = "span_task_qualification_samples" + str(st.session_state.qualification_progress)
 
+if "finished_first_example" not in st.session_state:
+    st.session_state.finished_first_example = False
+
 # user qualification of -1 or 1 mean that the test was already attempted
 user_qualification = user_repository.get_qualification()
 if user_qualification > 0:
