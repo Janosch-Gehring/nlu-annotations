@@ -68,7 +68,7 @@ Then, the following seven examples are the real study.
             check4 = False
             if index == 1:
                 if slider not in [1, 2]:
-                    st.write(f":red[1) Your rating of {slider}] appears unlikely. That would mean that the 'bat' in the story is the animal. Isn't there another meaning that fits better?")
+                    st.write(f":red[1) Your rating of {slider}] appears unlikely. That would mean that the 'bat' in the story is relatively likely to be an animal. Isn't there another meaning that fits better?")
                 else:
                     st.write(":green[1) Your rating of plausibility is correct. The displayed meaning is likely not intended. (Plausibility rating of 1 or 2)]")
                     check1 = True
