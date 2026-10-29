@@ -284,6 +284,7 @@ def finish_annotation():
         user_repository.set_qualification(st.session_state.user_id, user_repository.get_qualification() + 1)
     else:
         user_repository.mark_as_done(st.session_state.user_id)
+        user_repository.set_qualification(st.session_state.user_id, user_repository.get_qualification() + 1)
     st.rerun()
     st.write("Thank you for submitting your annotations.")
 

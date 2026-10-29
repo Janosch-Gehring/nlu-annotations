@@ -20,7 +20,7 @@ if user_repository.get_qualification() >= 1:
 
 if user_repository.get_qualification() < 1:
     st.write("## You must pass qualification before starting annotation. \n\n Select the **Qualification** tasks in the navigation bar to your left to try the qualification test.")
-elif user_repository.get_qualification() == 2:
+elif user_repository.get_qualification() > 1:
     st.write("## You have finished annotation. \n\nThank you for your time!")
     st.write("\n\n\n")
     st.write("**Your Prolific Completion Code:**")

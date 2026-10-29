@@ -183,6 +183,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
 
     st.write("")
+    st.write("")
     st.write(" \n\n Next, regarding things that are not explicit and require logic, reasoning or knowledge to understand.")
 
     st.write("Did any of these factors influence your rating? (Check all that apply)")
@@ -292,7 +293,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         next_input = st.button(key = 50 * index + 21, label="Next", help="Save this annotation and advance to the next one.")
     else:
         next_input = None
-        st.write("You need to at least indicate one reason and select a plausibility rating to advance to the next sample.")
+        st.write(":red[You need to indicate one reason, select a plausibility rating and select an option on both of the 'How much did these factors...' buttons to advance to the next sample.]")
 
     if slider_choice:
         slider_choice = label_sliders[slider_choice]
