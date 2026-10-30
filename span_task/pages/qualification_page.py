@@ -14,7 +14,7 @@ if "finished_first_example" not in st.session_state:
 # user qualification of -1 or 1 mean that the test was already attempted
 user_qualification = user_repository.get_qualification()
 if user_qualification > 0:
-    st.markdown("\n## You have finished Qualification successfully. \n\n Time for the main study.")
+    st.markdown("\n## You have finished Qualification successfully. \n\n Time for the main study. Click 'Annotation' on the left.")
 
 elif user_qualification == -1:
     st.markdown("\n## You did not pass the qualification test. \n\n You have already attempted the qualification test and failed. Sorry about that! Please copy the below completion code into Prolific.\n\n")
