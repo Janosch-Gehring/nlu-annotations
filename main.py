@@ -256,6 +256,19 @@ span_task_annotation_page = st.Page(
     "span_task/pages/annotation_page.py", title="Annotation",  icon="✏️" 
 )
 
+span_task2_start_page = st.Page(
+    "span_task/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
+)
+span_task2_qualification_page = st.Page(
+    "span_task/pages/expertise_qualification_page.py", title="Qualification",  icon="🔑" 
+)
+span_task2_annotation_page = st.Page(
+    "span_task/pages/annotation_page.py", title="Main Study (Part 1)",  icon="📝" 
+)
+span_task2_expertise_page = st.Page(
+    "span_task/pages/expertise_page.py", title="Main Study (Part 2)",  icon="🧩" 
+)
+
 
 # Create navigation bar
 
@@ -339,6 +352,9 @@ elif st.session_state.user_id:
 
     elif utils.authenticate_id("span_task", st.session_state.user_id):
         available_pages["Ambiguity Explanation Task"] = [span_task_qualification_page, span_task_annotation_page]
+
+    elif utils.authenticate_id("span_task2", st.session_state.user_id):
+        available_pages["Ambiguity Explanation Task"] = [span_task2_start_page, span_task2_qualification_page, span_task2_annotation_page, span_task2_expertise_page]
 
 
     available_pages["Other"] = [logout_page]
