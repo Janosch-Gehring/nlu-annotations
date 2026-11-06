@@ -166,7 +166,7 @@ TASK_INFO = {
     "span_task2": {
         "annotation_filepath": "span_task2/resources/span_subset.json",
         "annotation_filepath2": "span_task2/resources/expertise_words.json",
-        "qualification_filepath": "adv_eval_ending_task2/resources/qualification_questions.json",
+        "qualification_filepath": "span_task2/resources/qualification_questions.json",
         "qualification_filepath2": "adv_eval_ending_task2/resources/qualification_connections.json",
         "number_of_annotator_groups": 20,
         "group_assignment": "post-qualification"
