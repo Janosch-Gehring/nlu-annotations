@@ -120,6 +120,23 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     st.write("\n")
 
+    if subtask == "qualification":
+
+        next_input = st.button(key = 50 * index + 21, label="Next", help="Save this annotation and advance to the next one.")
+
+        annotated_reasons = []
+        comment_input = []
+
+        return_sample = {
+            "index": str(index),
+            "sentence": question["sentence"],
+            "context": question["context"],
+            "word": question["word"],
+            "focus_meaning": question["focus_meaning"],
+        }
+    
+        return return_sample, slider_choice, annotated_reasons, annotations, comment_input, next_input
+
     slider_reason_labels = ["Not at all", "A little", "Somewhat", "A lot", "Almost entirely"]
 
     reason_story = None

@@ -27,9 +27,9 @@ else:
     back_button = st.button(label="Back", key = 10 * index + 7)
 
     # print text and widgets
-    question, slider, nonsense, comment, next_input = utils.print_annotation_schema_sliders("qualification", index)
+    question, slider, reason, spans, comment, next_input = utils.print_annotation_schema_sliders("qualification", index)
 
-    annotation = {"question": question, "slider": slider, "nonsensical": nonsense, "comment": comment}
+    annotation = {"question": question, "slider": slider, "comment": comment}
     samples = core_utils.read_json_from_file(core_utils.TASK_INFO["span_task2"]["qualification_filepath"])
 
     if next_input:
