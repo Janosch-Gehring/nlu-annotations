@@ -126,6 +126,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
         annotated_reasons = []
         comment_input = []
+        annotations = []
 
         return_sample = {
             "index": str(index),
