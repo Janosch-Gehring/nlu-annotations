@@ -59,9 +59,9 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     # ------------------- FIRST STORY PRINT -------------------------
 
     if question["focus_meaning"] == "meaning1":
-        question["displayed_meaning_example"] = question["example1"]
+        question["displayed_meaning_example"] = question["focus_meaning_example"]
     else:
-        question["displayed_meaning_example"] = question["example2"]
+        question["displayed_meaning_example"] = question["focus_meaning_example"]
 
     st.markdown("Read the following story")
 
