@@ -80,6 +80,8 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         part1 = question["precontext"]
         part3 = question["ending"]
 
+        question["context"] = {"part1": part1, "part2": question["sentence"], "part3": part3}
+
     st.markdown(part1 + " " + format_sentence(question["sentence"]) + " " + part3)
 
     st.write("---")
