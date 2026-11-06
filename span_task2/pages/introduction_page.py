@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.session_state.page = "adv_eval_ending_task2_introduction_page"
+st.session_state.page = "span_task2_introduction_page"
 
-with open("adv_eval_ending_task2/resources/intro_text.md", "r") as f:
+with open("span_task2/resources/intro_text.md", "r") as f:
     intro_text = f.read()
 
 if not st.session_state.user_id:
