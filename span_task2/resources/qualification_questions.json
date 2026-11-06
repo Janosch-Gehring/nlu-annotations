@@ -22,7 +22,7 @@
             ""
         ],
         "domain_meaning": true,
-        "correct_answer": [1, 2]
+        "correct_answer": [1, 2, "1", "2"]
     },
     "2": {
         "sentence": "The service there was really lousy.",
@@ -39,7 +39,7 @@
             "part3": ""
         },
         "domain_meaning": true,
-        "correct_answer": [4, 5]
+        "correct_answer": [4, 5, "4", "5"]
     },
     "3": {
         "sentence": "If he had a fan, the heat would be bearable.",
@@ -56,7 +56,7 @@
             "part3": ""
         },
         "domain_meaning": true,
-        "correct_answer": [1, 2]
+        "correct_answer": [1, 2, "1", "2"]
     },
     "4": {
         "sentence": "In the end, Mia beat him in the race.",
@@ -73,6 +73,6 @@
             "part3": ""
         },
         "domain_meaning": true,
-        "correct_answer": [4, 5]
+        "correct_answer": [4, 5, "4", "5"]
     }
 }
