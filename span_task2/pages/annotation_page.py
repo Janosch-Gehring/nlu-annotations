@@ -53,7 +53,7 @@ There will be one practice example where you get feedback, then the main study w
 
     index = int(st.session_state.progress)
 
-    back_button = st.button(label="Back", key = 10 * index + 7, help="Go back to the previous sample.")
+    back_button = None#st.button(label="Back", key = 10 * index + 7, help="Go back to the previous sample.")
 
 
     # print text and widgets
