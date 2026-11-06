@@ -311,7 +311,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     #------------------------------- COMMENTS --------------------------------
 
-    comment_input = st.text_input(key = 50 * index + 20, label = "Summarize your reasons in a few words. (Mandatory)", value=value_comment, help="Optional free text for comments and thoughts", max_chars=1000)
+    comment_input = st.text_input(key = 50 * index + 20, label = "Summarize your reasons in a few words. (Mandatory)", value=value_comment, help="Please summarize why you picked what you did. A short sentence is enough.", max_chars=1000)
 
     if slider_choice and has_annotated_reasons and comment_input:
         next_input = st.button(key = 50 * index + 21, label="Next", help="Save this annotation and advance to the next one.")
@@ -324,7 +324,7 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
         elif not has_annotated_reasons:
             st.write(":red[You have not yet finished the reasoning step.]")
         elif not comment_input:
-            st.write(":red[You have not yet written in the comment field above.]")
+            st.write(":red[You have not yet summarized your reasons in the text field above.]")
 
     if slider_choice:
         slider_choice = label_sliders[slider_choice]

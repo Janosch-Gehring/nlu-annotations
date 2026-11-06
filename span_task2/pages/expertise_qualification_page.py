@@ -133,7 +133,7 @@ if user_repository.get_qualification() >= 2:
 elif user_repository.get_qualification() == 0:
     st.write("## You need to do the qualification tests in order! Do Qualification (Part 1) first.")
 elif user_repository.get_qualification() == -1:
-    st.write("## Sorry, you failed the qualification test. Please copy the below screenout code into Prolific.")
+    st.write("## Sorry, you failed this qualification test. Please copy the below screenout code into Prolific.")
     st.write("## " + os.getenv("PROLIFIC_SCREENOUT_CODE"))
 else:
     index = 1

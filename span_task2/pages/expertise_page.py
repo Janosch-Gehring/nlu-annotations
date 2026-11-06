@@ -40,7 +40,7 @@ Some tips:
    
 - If you don't know any of the words, that's okay! There's a button below you can press in that case.
 
-- There will be about 8 of these 5x5 puzzles assigned to you in total. (The exact number may vary a bit.)
+- There will be 6 of these 5x5 puzzles assigned to you in total.
                     
 **Please note: Do not leave/refresh the page or stay inactive for a prolonged period of time.**
                 """)

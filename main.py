@@ -261,10 +261,10 @@ span_task2_qualification1_page = st.Page(
 )
 
 span_task2_start_page = st.Page(
-    "span_task2/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
+    "span_task2/pages/introduction_page.py", title="Task Intro",  icon="📙" 
 )
 span_task2_qualification2_page = st.Page(
-    "span_task2/pages/expertise_qualification_page.py", title="Qualification",  icon="🔑" 
+    "span_task2/pages/expertise_qualification_page.py", title="Qualification (Part 2)",  icon="🔑" 
 )
 span_task2_annotation_page = st.Page(
     "span_task2/pages/annotation_page.py", title="Main Study (Part 1)",  icon="📝" 
