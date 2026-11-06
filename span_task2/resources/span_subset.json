@@ -6,6 +6,8 @@
         "domain": "attention_check",
         "meaning1": "a nocturnal mouselike mammal with wings",
         "meaning2": "a list of dishes available at a restaurant",
+        "precontext": "", 
+        "ending": "",
         "focus_meaning": "meaning1",
         "focus_meaning_gloss": "a nocturnal mouselike mammal with wings",
         "focus_meaning_example": "The bat flew out of the cave.",
