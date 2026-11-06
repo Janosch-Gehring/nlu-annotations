@@ -34,9 +34,9 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
     :return: The stuff to return
     """
     if subtask == "qualification":
-        samples = read_json_from_file(TASK_INFO["span_task"]["qualification_filepath"])
+        samples = read_json_from_file(TASK_INFO["span_task2"]["qualification_filepath"])
     else:
-        samples = read_json_from_file(TASK_INFO["span_task"]["annotation_filepath"])
+        samples = read_json_from_file(TASK_INFO["span_task2"]["annotation_filepath"])
 
     # ----------------- LOADING -----------------
 
