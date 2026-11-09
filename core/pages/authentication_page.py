@@ -19,7 +19,7 @@ def log_in(user_id: str, task=None, as_admin=False) -> None:
     :param user_id: The ID of the user who requested the login.
     :param as_admin: Whether to log in as admin.
     """
-    target_id = user_id
+    target_id = user_id.strip()
     if as_admin:
         target_id = "admin"
 
