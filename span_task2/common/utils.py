@@ -128,6 +128,8 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
     if subtask == "qualification":
 
+        st.write("**Remember: A rating of 1 or 2 means you think this meaning is likely unintended. A rating of 4 or 5 means the meaning is likely intended.**")
+
         next_input = st.button(key = 50 * index + 21, label="Next", help="Save this annotation and advance to the next one.")
 
         annotated_reasons = []

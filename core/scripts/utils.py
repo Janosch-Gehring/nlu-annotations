@@ -191,6 +191,7 @@ def authenticate_id(task: str, user_id: id):
     """
     Check if the user id trying to log in for a specific task is valid.
     """
+    user_id = user_id.strip()
     conn = st.session_state.conn
     cursor = conn.cursor()
     # Check if the user_id exists in the table
