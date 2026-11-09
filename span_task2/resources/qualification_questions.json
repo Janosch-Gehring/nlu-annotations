@@ -22,7 +22,7 @@
             ""
         ],
         "domain_meaning": true,
-        "correct_answer": [1, 2, "1", "2"]
+        "correct_answer": [1, 2, 3, "1", "2", "3"]
     },
     "2": {
         "sentence": "The service there was really lousy.",
