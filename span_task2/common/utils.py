@@ -130,6 +130,14 @@ def print_annotation_schema_sliders(subtask: str, index: int) -> tuple:
 
         st.write("**Remember: A rating of 1 or 2 means you think this meaning is likely unintended. A rating of 4 or 5 means the meaning is likely intended.**")
 
+        if int(index) == 1:
+            if slider_choice in ["4", "5", 4, 5]:
+                st.write("Your selection indicates that in the sentence 'It was a hard puzzle', the word 'hard' means 'not soft' instead of another meaning like 'not easy'.")
+            elif slider_choice in ["3", 3]:
+                st.write("You picked rating 3, so that would mean that in the sentence 'It was a hard puzzle.', the word 'hard' is EQUALLY likely to mean 'not soft' and 'not easy'.")
+            elif slider_choice in ["1", "2", 1, 2]:
+                st.write("Your selection indicates that in the sentence 'It was a hard puzzle.', the word 'hard' doesn't mean 'not soft', and instead probably means something else like 'not easy'.")
+
         next_input = st.button(key = 50 * index + 21, label="Next", help="Save this annotation and advance to the next one.")
 
         annotated_reasons = []
