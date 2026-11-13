@@ -43,6 +43,8 @@ Similar to the first qualification test, you will annotate the plausibility of a
 3. *Mark* the words that mattered most.
 
 4. *Write a comment*, explaining how you understood the story in a few words.
+
+**Note about comments**: *Please do not enter any personal information in free-text fields. In particular, avoid providing any information that could reveal your own identity or the identity of others (e.g., names, contact information, or other identifying details)*
         
 
 There will be one practice example where you get feedback, then the main study will be 10 more stories.
